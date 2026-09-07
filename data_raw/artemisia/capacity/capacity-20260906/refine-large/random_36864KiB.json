@@ -1,0 +1,28 @@
+{
+  "bytes": 37748736,
+  "spacing": 8,
+  "nodes": 4718592,
+  "samples": 1000000,
+  "steps": 4096,
+  "seed": 592,
+  "mode": "random",
+  "unit": "TSC ticks",
+  "timer_hz": 0,
+  "cpu": 5,
+  "page_size": 4096,
+  "warmup_steps": 9437184,
+  "byte_order": "little",
+  "invocation": [
+    "taskset",
+    "-c",
+    "5",
+    "/mnt/ncsudrive/h/hlee58/ECE592_proj1/results/capacity-20260906/artemisia/cache_capacity",
+    "37748736",
+    "8",
+    "1000000",
+    "4096",
+    "592",
+    "random",
+    "refine-large/random_36864KiB.bin"
+  ]
+}

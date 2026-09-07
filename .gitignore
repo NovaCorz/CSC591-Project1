@@ -1,0 +1,11 @@
+# Large raw distributions are copied locally for Moodle, not committed to Git.
+data_raw/**/*.bin
+data_raw/**/*.bin.gz
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+ssh_known_hosts
+.env
+*.pem
+*.key

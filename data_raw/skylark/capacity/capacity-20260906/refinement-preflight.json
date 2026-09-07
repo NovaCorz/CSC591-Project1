@@ -1,0 +1,63 @@
+{
+  "utc": "2026-09-06T17:49:53.024443+00:00",
+  "selected": {
+    "max_sibling_busy_percent": 0.0,
+    "cpu": 0,
+    "core": 0,
+    "socket": 0,
+    "node": 0,
+    "siblings": [
+      0
+    ]
+  },
+  "busy_percent": {
+    "0": 0.0
+  },
+  "groups_kib": {
+    "small": [
+      16,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48,
+      52,
+      56,
+      60,
+      64
+    ],
+    "middle": [
+      256,
+      320,
+      384,
+      448,
+      512,
+      576,
+      640,
+      704,
+      768,
+      896,
+      1024
+    ],
+    "large": [
+      8192,
+      12288,
+      14336,
+      16384,
+      18432,
+      20480,
+      22528,
+      24576,
+      26624,
+      28672,
+      30720,
+      32768,
+      49152,
+      65536
+    ]
+  },
+  "reservation": "Sheet HTTP 401 previously; no reservation",
+  "comparison": "Overlapping coarse points intentionally repeated with same seed/core/binary"
+}

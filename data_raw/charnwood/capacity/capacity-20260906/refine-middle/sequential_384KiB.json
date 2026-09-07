@@ -1,0 +1,28 @@
+{
+  "bytes": 393216,
+  "spacing": 8,
+  "nodes": 49152,
+  "samples": 1000000,
+  "steps": 4096,
+  "seed": 592,
+  "mode": "sequential",
+  "unit": "TSC ticks",
+  "timer_hz": 0,
+  "cpu": 2,
+  "page_size": 4096,
+  "warmup_steps": 98304,
+  "byte_order": "little",
+  "invocation": [
+    "taskset",
+    "-c",
+    "2",
+    "/mnt/ncsudrive/h/hlee58/ECE592_proj1/results/capacity-20260906/charnwood/cache_capacity",
+    "393216",
+    "8",
+    "1000000",
+    "4096",
+    "592",
+    "sequential",
+    "refine-middle/sequential_384KiB.bin"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "bytes": 57344,
+  "spacing": 8,
+  "nodes": 7168,
+  "samples": 1000000,
+  "steps": 4096,
+  "seed": 592,
+  "mode": "random",
+  "unit": "TSC ticks",
+  "timer_hz": 0,
+  "cpu": 2,
+  "page_size": 4096,
+  "warmup_steps": 14336,
+  "byte_order": "little",
+  "invocation": [
+    "taskset",
+    "-c",
+    "2",
+    "/mnt/ncsudrive/h/hlee58/ECE592_proj1/results/capacity-20260906/sunbird/cache_capacity",
+    "57344",
+    "8",
+    "1000000",
+    "4096",
+    "592",
+    "random",
+    "refine-small/random_56KiB.bin"
+  ]
+}

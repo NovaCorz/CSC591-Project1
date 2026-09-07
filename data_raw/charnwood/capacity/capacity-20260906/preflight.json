@@ -1,0 +1,43 @@
+{
+  "utc": "2026-09-06T11:17:08.380340+00:00",
+  "host": "charnwood",
+  "allowed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "topology": "# The following is the parsable format, which can be fed to other\n# programs. Each different item in every column has an unique ID\n# starting usually from zero.\n# CPU,Core,Socket,Node\n0,0,0,0\n1,1,0,0\n2,2,0,0\n3,3,0,0\n4,0,0,0\n5,1,0,0\n6,2,0,0\n7,3,0,0\n",
+  "busy_percent": {
+    "0": 0.0,
+    "1": 0.497512437810943,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 100.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.497512437810943
+  },
+  "selected": {
+    "max_sibling_busy_percent": 0.0,
+    "cpu": 2,
+    "core": 2,
+    "socket": 0,
+    "node": 0,
+    "siblings": [
+      2,
+      6
+    ]
+  },
+  "reservation": "Sheet access previously HTTP 401; no reservation",
+  "memory": [
+    "MemTotal:       16126012 kB",
+    "MemAvailable:   11498044 kB"
+  ],
+  "microarchitecture": "Use student-completed Table 1; no cache lookup",
+  "disk_free_bytes": 15724019712
+}

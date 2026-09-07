@@ -1,0 +1,28 @@
+{
+  "bytes": 14680064,
+  "spacing": 8,
+  "nodes": 1835008,
+  "samples": 1000000,
+  "steps": 4096,
+  "seed": 592,
+  "mode": "sequential",
+  "unit": "TSC ticks",
+  "timer_hz": 0,
+  "cpu": 0,
+  "page_size": 4096,
+  "warmup_steps": 3670016,
+  "byte_order": "little",
+  "invocation": [
+    "taskset",
+    "-c",
+    "0",
+    "/mnt/ncsudrive/h/hlee58/ECE592_proj1/results/capacity-20260906/skylark/cache_capacity",
+    "14680064",
+    "8",
+    "1000000",
+    "4096",
+    "592",
+    "sequential",
+    "refine-large/sequential_14336KiB.bin"
+  ]
+}

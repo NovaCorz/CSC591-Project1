@@ -1,0 +1,28 @@
+{
+  "bytes": 262144,
+  "spacing": 8,
+  "nodes": 32768,
+  "samples": 1000000,
+  "steps": 4096,
+  "seed": 592,
+  "mode": "empty",
+  "unit": "Arm counter ticks",
+  "timer_hz": 25000000,
+  "cpu": 0,
+  "page_size": 4096,
+  "warmup_steps": 65536,
+  "byte_order": "little",
+  "invocation": [
+    "taskset",
+    "-c",
+    "0",
+    "/mnt/ncsudrive/h/hlee58/ECE592_proj1/results/capacity-20260906/thunderbird/cache_capacity",
+    "262144",
+    "8",
+    "1000000",
+    "4096",
+    "592",
+    "empty",
+    "refine-middle/empty_256KiB.bin"
+  ]
+}
