@@ -1,0 +1,42 @@
+{
+  "utc": "2026-09-06T23:51:37.902211+00:00",
+  "host": "crux",
+  "allowed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "topology": "# The following is the parsable format, which can be fed to other\n# programs. Each different item in every column has an unique ID\n# starting usually from zero.\n# CPU,Core,Socket,Node\n0,0,0,0\n1,1,0,0\n2,2,0,0\n3,3,0,0\n4,4,0,0\n5,5,0,0\n6,6,0,0\n7,7,0,0\n",
+  "busy_percent": {
+    "0": 100.0,
+    "1": 0.5000000000000004,
+    "2": 0.0,
+    "3": 100.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.5000000000000004,
+    "7": 0.5025125628140725
+  },
+  "selected": {
+    "max_sibling_busy_percent": 0.0,
+    "cpu": 2,
+    "core": 2,
+    "socket": 0,
+    "node": 0,
+    "siblings": [
+      2
+    ]
+  },
+  "reservation": "Sheet access previously HTTP 401; no reservation",
+  "memory": [
+    "MemTotal:       16152208 kB",
+    "MemAvailable:   12571048 kB"
+  ],
+  "microarchitecture": "Use student-completed Table 1; no cache lookup",
+  "disk_free_bytes": 9004875776
+}

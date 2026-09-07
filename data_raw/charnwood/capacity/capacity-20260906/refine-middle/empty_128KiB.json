@@ -1,0 +1,28 @@
+{
+  "bytes": 131072,
+  "spacing": 8,
+  "nodes": 16384,
+  "samples": 1000000,
+  "steps": 4096,
+  "seed": 592,
+  "mode": "empty",
+  "unit": "TSC ticks",
+  "timer_hz": 0,
+  "cpu": 2,
+  "page_size": 4096,
+  "warmup_steps": 32768,
+  "byte_order": "little",
+  "invocation": [
+    "taskset",
+    "-c",
+    "2",
+    "/mnt/ncsudrive/h/hlee58/ECE592_proj1/results/capacity-20260906/charnwood/cache_capacity",
+    "131072",
+    "8",
+    "1000000",
+    "4096",
+    "592",
+    "empty",
+    "refine-middle/empty_128KiB.bin"
+  ]
+}

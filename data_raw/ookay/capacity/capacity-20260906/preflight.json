@@ -1,0 +1,37 @@
+{
+  "utc": "2026-09-06T11:24:58.513754+00:00",
+  "host": "ookay",
+  "allowed_cpus": [
+    0,
+    1
+  ],
+  "topology": "# The following is the parsable format, which can be fed to other\n# programs. Each different item in every column has an unique ID\n# starting usually from zero.\n# CPU,Core,Socket,Node\n0,0,0,0\n1,1,0,0\n2,2,0,0\n3,3,0,0\n4,0,0,0\n5,1,0,0\n6,2,0,0\n7,3,0,0\n",
+  "busy_percent": {
+    "0": 0.0,
+    "1": 100.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0
+  },
+  "selected": {
+    "max_sibling_busy_percent": 0.0,
+    "cpu": 0,
+    "core": 0,
+    "socket": 0,
+    "node": 0,
+    "siblings": [
+      0,
+      4
+    ]
+  },
+  "reservation": "Sheet access previously HTTP 401; no reservation",
+  "memory": [
+    "MemTotal:       16077476 kB",
+    "MemAvailable:   13117296 kB"
+  ],
+  "microarchitecture": "Use student-completed Table 1; no cache lookup",
+  "disk_free_bytes": 15575646208
+}

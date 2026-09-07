@@ -1,0 +1,28 @@
+{
+  "bytes": 31457280,
+  "spacing": 8,
+  "nodes": 3932160,
+  "samples": 1000000,
+  "steps": 4096,
+  "seed": 592,
+  "mode": "sequential",
+  "unit": "Arm counter ticks",
+  "timer_hz": 25000000,
+  "cpu": 0,
+  "page_size": 4096,
+  "warmup_steps": 7864320,
+  "byte_order": "little",
+  "invocation": [
+    "taskset",
+    "-c",
+    "0",
+    "/mnt/ncsudrive/h/hlee58/ECE592_proj1/results/capacity-20260906/thunderbird/cache_capacity",
+    "31457280",
+    "8",
+    "1000000",
+    "4096",
+    "592",
+    "sequential",
+    "refine-large/sequential_30720KiB.bin"
+  ]
+}

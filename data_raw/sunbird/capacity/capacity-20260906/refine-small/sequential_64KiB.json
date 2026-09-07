@@ -1,0 +1,28 @@
+{
+  "bytes": 65536,
+  "spacing": 8,
+  "nodes": 8192,
+  "samples": 1000000,
+  "steps": 4096,
+  "seed": 592,
+  "mode": "sequential",
+  "unit": "TSC ticks",
+  "timer_hz": 0,
+  "cpu": 2,
+  "page_size": 4096,
+  "warmup_steps": 16384,
+  "byte_order": "little",
+  "invocation": [
+    "taskset",
+    "-c",
+    "2",
+    "/mnt/ncsudrive/h/hlee58/ECE592_proj1/results/capacity-20260906/sunbird/cache_capacity",
+    "65536",
+    "8",
+    "1000000",
+    "4096",
+    "592",
+    "sequential",
+    "refine-small/sequential_64KiB.bin"
+  ]
+}

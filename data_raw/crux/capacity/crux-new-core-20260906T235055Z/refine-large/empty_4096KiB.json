@@ -1,0 +1,28 @@
+{
+  "bytes": 4194304,
+  "spacing": 8,
+  "nodes": 524288,
+  "samples": 1000000,
+  "steps": 4096,
+  "seed": 592,
+  "mode": "empty",
+  "unit": "TSC ticks",
+  "timer_hz": 0,
+  "cpu": 2,
+  "page_size": 4096,
+  "warmup_steps": 1048576,
+  "byte_order": "little",
+  "invocation": [
+    "taskset",
+    "-c",
+    "2",
+    "/mnt/ncsudrive/h/hlee58/ECE592_proj1/results/crux-new-core-20260906T235055Z/crux/cache_capacity",
+    "4194304",
+    "8",
+    "1000000",
+    "4096",
+    "592",
+    "empty",
+    "refine-large/empty_4096KiB.bin"
+  ]
+}

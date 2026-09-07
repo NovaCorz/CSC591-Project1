@@ -1,0 +1,1202 @@
+
+/mnt/ncsudrive/h/hlee58/ECE592_proj1/results/crux-new-core-20260906T235055Z/crux/cache_capacity:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+0000000000001000 <_init>:
+    1000:	f3 0f 1e fa          	endbr64
+    1004:	48 83 ec 08          	sub    $0x8,%rsp
+    1008:	48 8b 05 d9 2f 00 00 	mov    0x2fd9(%rip),%rax        # 3fe8 <__gmon_start__@Base>
+    100f:	48 85 c0             	test   %rax,%rax
+    1012:	74 02                	je     1016 <_init+0x16>
+    1014:	ff d0                	call   *%rax
+    1016:	48 83 c4 08          	add    $0x8,%rsp
+    101a:	c3                   	ret
+
+Disassembly of section .plt:
+
+0000000000001020 <.plt>:
+    1020:	ff 35 02 2f 00 00    	push   0x2f02(%rip)        # 3f28 <_GLOBAL_OFFSET_TABLE_+0x8>
+    1026:	ff 25 04 2f 00 00    	jmp    *0x2f04(%rip)        # 3f30 <_GLOBAL_OFFSET_TABLE_+0x10>
+    102c:	0f 1f 40 00          	nopl   0x0(%rax)
+    1030:	f3 0f 1e fa          	endbr64
+    1034:	68 00 00 00 00       	push   $0x0
+    1039:	e9 e2 ff ff ff       	jmp    1020 <_init+0x20>
+    103e:	66 90                	xchg   %ax,%ax
+    1040:	f3 0f 1e fa          	endbr64
+    1044:	68 01 00 00 00       	push   $0x1
+    1049:	e9 d2 ff ff ff       	jmp    1020 <_init+0x20>
+    104e:	66 90                	xchg   %ax,%ax
+    1050:	f3 0f 1e fa          	endbr64
+    1054:	68 02 00 00 00       	push   $0x2
+    1059:	e9 c2 ff ff ff       	jmp    1020 <_init+0x20>
+    105e:	66 90                	xchg   %ax,%ax
+    1060:	f3 0f 1e fa          	endbr64
+    1064:	68 03 00 00 00       	push   $0x3
+    1069:	e9 b2 ff ff ff       	jmp    1020 <_init+0x20>
+    106e:	66 90                	xchg   %ax,%ax
+    1070:	f3 0f 1e fa          	endbr64
+    1074:	68 04 00 00 00       	push   $0x4
+    1079:	e9 a2 ff ff ff       	jmp    1020 <_init+0x20>
+    107e:	66 90                	xchg   %ax,%ax
+    1080:	f3 0f 1e fa          	endbr64
+    1084:	68 05 00 00 00       	push   $0x5
+    1089:	e9 92 ff ff ff       	jmp    1020 <_init+0x20>
+    108e:	66 90                	xchg   %ax,%ax
+    1090:	f3 0f 1e fa          	endbr64
+    1094:	68 06 00 00 00       	push   $0x6
+    1099:	e9 82 ff ff ff       	jmp    1020 <_init+0x20>
+    109e:	66 90                	xchg   %ax,%ax
+    10a0:	f3 0f 1e fa          	endbr64
+    10a4:	68 07 00 00 00       	push   $0x7
+    10a9:	e9 72 ff ff ff       	jmp    1020 <_init+0x20>
+    10ae:	66 90                	xchg   %ax,%ax
+    10b0:	f3 0f 1e fa          	endbr64
+    10b4:	68 08 00 00 00       	push   $0x8
+    10b9:	e9 62 ff ff ff       	jmp    1020 <_init+0x20>
+    10be:	66 90                	xchg   %ax,%ax
+    10c0:	f3 0f 1e fa          	endbr64
+    10c4:	68 09 00 00 00       	push   $0x9
+    10c9:	e9 52 ff ff ff       	jmp    1020 <_init+0x20>
+    10ce:	66 90                	xchg   %ax,%ax
+    10d0:	f3 0f 1e fa          	endbr64
+    10d4:	68 0a 00 00 00       	push   $0xa
+    10d9:	e9 42 ff ff ff       	jmp    1020 <_init+0x20>
+    10de:	66 90                	xchg   %ax,%ax
+    10e0:	f3 0f 1e fa          	endbr64
+    10e4:	68 0b 00 00 00       	push   $0xb
+    10e9:	e9 32 ff ff ff       	jmp    1020 <_init+0x20>
+    10ee:	66 90                	xchg   %ax,%ax
+    10f0:	f3 0f 1e fa          	endbr64
+    10f4:	68 0c 00 00 00       	push   $0xc
+    10f9:	e9 22 ff ff ff       	jmp    1020 <_init+0x20>
+    10fe:	66 90                	xchg   %ax,%ax
+    1100:	f3 0f 1e fa          	endbr64
+    1104:	68 0d 00 00 00       	push   $0xd
+    1109:	e9 12 ff ff ff       	jmp    1020 <_init+0x20>
+    110e:	66 90                	xchg   %ax,%ax
+    1110:	f3 0f 1e fa          	endbr64
+    1114:	68 0e 00 00 00       	push   $0xe
+    1119:	e9 02 ff ff ff       	jmp    1020 <_init+0x20>
+    111e:	66 90                	xchg   %ax,%ax
+    1120:	f3 0f 1e fa          	endbr64
+    1124:	68 0f 00 00 00       	push   $0xf
+    1129:	e9 f2 fe ff ff       	jmp    1020 <_init+0x20>
+    112e:	66 90                	xchg   %ax,%ax
+    1130:	f3 0f 1e fa          	endbr64
+    1134:	68 10 00 00 00       	push   $0x10
+    1139:	e9 e2 fe ff ff       	jmp    1020 <_init+0x20>
+    113e:	66 90                	xchg   %ax,%ax
+    1140:	f3 0f 1e fa          	endbr64
+    1144:	68 11 00 00 00       	push   $0x11
+    1149:	e9 d2 fe ff ff       	jmp    1020 <_init+0x20>
+    114e:	66 90                	xchg   %ax,%ax
+    1150:	f3 0f 1e fa          	endbr64
+    1154:	68 12 00 00 00       	push   $0x12
+    1159:	e9 c2 fe ff ff       	jmp    1020 <_init+0x20>
+    115e:	66 90                	xchg   %ax,%ax
+    1160:	f3 0f 1e fa          	endbr64
+    1164:	68 13 00 00 00       	push   $0x13
+    1169:	e9 b2 fe ff ff       	jmp    1020 <_init+0x20>
+    116e:	66 90                	xchg   %ax,%ax
+
+Disassembly of section .plt.got:
+
+0000000000001170 <__cxa_finalize@plt>:
+    1170:	f3 0f 1e fa          	endbr64
+    1174:	ff 25 7e 2e 00 00    	jmp    *0x2e7e(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>
+    117a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+Disassembly of section .plt.sec:
+
+0000000000001180 <free@plt>:
+    1180:	f3 0f 1e fa          	endbr64
+    1184:	ff 25 ae 2d 00 00    	jmp    *0x2dae(%rip)        # 3f38 <free@GLIBC_2.2.5>
+    118a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001190 <__errno_location@plt>:
+    1190:	f3 0f 1e fa          	endbr64
+    1194:	ff 25 a6 2d 00 00    	jmp    *0x2da6(%rip)        # 3f40 <__errno_location@GLIBC_2.2.5>
+    119a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011a0 <__isoc23_strtoull@plt>:
+    11a0:	f3 0f 1e fa          	endbr64
+    11a4:	ff 25 9e 2d 00 00    	jmp    *0x2d9e(%rip)        # 3f48 <__isoc23_strtoull@GLIBC_2.38>
+    11aa:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011b0 <fclose@plt>:
+    11b0:	f3 0f 1e fa          	endbr64
+    11b4:	ff 25 96 2d 00 00    	jmp    *0x2d96(%rip)        # 3f50 <fclose@GLIBC_2.2.5>
+    11ba:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011c0 <__sched_cpucount@plt>:
+    11c0:	f3 0f 1e fa          	endbr64
+    11c4:	ff 25 8e 2d 00 00    	jmp    *0x2d8e(%rip)        # 3f58 <__sched_cpucount@GLIBC_2.6>
+    11ca:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011d0 <__stack_chk_fail@plt>:
+    11d0:	f3 0f 1e fa          	endbr64
+    11d4:	ff 25 86 2d 00 00    	jmp    *0x2d86(%rip)        # 3f60 <__stack_chk_fail@GLIBC_2.4>
+    11da:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011e0 <printf@plt>:
+    11e0:	f3 0f 1e fa          	endbr64
+    11e4:	ff 25 7e 2d 00 00    	jmp    *0x2d7e(%rip)        # 3f68 <printf@GLIBC_2.2.5>
+    11ea:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011f0 <__assert_fail@plt>:
+    11f0:	f3 0f 1e fa          	endbr64
+    11f4:	ff 25 76 2d 00 00    	jmp    *0x2d76(%rip)        # 3f70 <__assert_fail@GLIBC_2.2.5>
+    11fa:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001200 <memset@plt>:
+    1200:	f3 0f 1e fa          	endbr64
+    1204:	ff 25 6e 2d 00 00    	jmp    *0x2d6e(%rip)        # 3f78 <memset@GLIBC_2.2.5>
+    120a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001210 <strcmp@plt>:
+    1210:	f3 0f 1e fa          	endbr64
+    1214:	ff 25 66 2d 00 00    	jmp    *0x2d66(%rip)        # 3f80 <strcmp@GLIBC_2.2.5>
+    121a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001220 <fprintf@plt>:
+    1220:	f3 0f 1e fa          	endbr64
+    1224:	ff 25 5e 2d 00 00    	jmp    *0x2d5e(%rip)        # 3f88 <fprintf@GLIBC_2.2.5>
+    122a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001230 <malloc@plt>:
+    1230:	f3 0f 1e fa          	endbr64
+    1234:	ff 25 56 2d 00 00    	jmp    *0x2d56(%rip)        # 3f90 <malloc@GLIBC_2.2.5>
+    123a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001240 <fopen@plt>:
+    1240:	f3 0f 1e fa          	endbr64
+    1244:	ff 25 4e 2d 00 00    	jmp    *0x2d4e(%rip)        # 3f98 <fopen@GLIBC_2.2.5>
+    124a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001250 <perror@plt>:
+    1250:	f3 0f 1e fa          	endbr64
+    1254:	ff 25 46 2d 00 00    	jmp    *0x2d46(%rip)        # 3fa0 <perror@GLIBC_2.2.5>
+    125a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001260 <sysconf@plt>:
+    1260:	f3 0f 1e fa          	endbr64
+    1264:	ff 25 3e 2d 00 00    	jmp    *0x2d3e(%rip)        # 3fa8 <sysconf@GLIBC_2.2.5>
+    126a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001270 <sched_getcpu@plt>:
+    1270:	f3 0f 1e fa          	endbr64
+    1274:	ff 25 36 2d 00 00    	jmp    *0x2d36(%rip)        # 3fb0 <sched_getcpu@GLIBC_2.6>
+    127a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001280 <exit@plt>:
+    1280:	f3 0f 1e fa          	endbr64
+    1284:	ff 25 2e 2d 00 00    	jmp    *0x2d2e(%rip)        # 3fb8 <exit@GLIBC_2.2.5>
+    128a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001290 <fwrite@plt>:
+    1290:	f3 0f 1e fa          	endbr64
+    1294:	ff 25 26 2d 00 00    	jmp    *0x2d26(%rip)        # 3fc0 <fwrite@GLIBC_2.2.5>
+    129a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000012a0 <posix_memalign@plt>:
+    12a0:	f3 0f 1e fa          	endbr64
+    12a4:	ff 25 1e 2d 00 00    	jmp    *0x2d1e(%rip)        # 3fc8 <posix_memalign@GLIBC_2.2.5>
+    12aa:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000012b0 <sched_getaffinity@plt>:
+    12b0:	f3 0f 1e fa          	endbr64
+    12b4:	ff 25 16 2d 00 00    	jmp    *0x2d16(%rip)        # 3fd0 <sched_getaffinity@GLIBC_2.3.4>
+    12ba:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+Disassembly of section .text:
+
+00000000000012c0 <_start>:
+    12c0:	f3 0f 1e fa          	endbr64
+    12c4:	31 ed                	xor    %ebp,%ebp
+    12c6:	49 89 d1             	mov    %rdx,%r9
+    12c9:	5e                   	pop    %rsi
+    12ca:	48 89 e2             	mov    %rsp,%rdx
+    12cd:	48 83 e4 f0          	and    $0xfffffffffffffff0,%rsp
+    12d1:	50                   	push   %rax
+    12d2:	54                   	push   %rsp
+    12d3:	45 31 c0             	xor    %r8d,%r8d
+    12d6:	31 c9                	xor    %ecx,%ecx
+    12d8:	48 8d 3d 95 05 00 00 	lea    0x595(%rip),%rdi        # 1874 <main>
+    12df:	ff 15 f3 2c 00 00    	call   *0x2cf3(%rip)        # 3fd8 <__libc_start_main@GLIBC_2.34>
+    12e5:	f4                   	hlt
+    12e6:	66 2e 0f 1f 84 00 00 	cs nopw 0x0(%rax,%rax,1)
+    12ed:	00 00 00 
+
+00000000000012f0 <deregister_tm_clones>:
+    12f0:	48 8d 3d 19 2d 00 00 	lea    0x2d19(%rip),%rdi        # 4010 <__TMC_END__>
+    12f7:	48 8d 05 12 2d 00 00 	lea    0x2d12(%rip),%rax        # 4010 <__TMC_END__>
+    12fe:	48 39 f8             	cmp    %rdi,%rax
+    1301:	74 15                	je     1318 <deregister_tm_clones+0x28>
+    1303:	48 8b 05 d6 2c 00 00 	mov    0x2cd6(%rip),%rax        # 3fe0 <_ITM_deregisterTMCloneTable@Base>
+    130a:	48 85 c0             	test   %rax,%rax
+    130d:	74 09                	je     1318 <deregister_tm_clones+0x28>
+    130f:	ff e0                	jmp    *%rax
+    1311:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+    1318:	c3                   	ret
+    1319:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+0000000000001320 <register_tm_clones>:
+    1320:	48 8d 3d e9 2c 00 00 	lea    0x2ce9(%rip),%rdi        # 4010 <__TMC_END__>
+    1327:	48 8d 35 e2 2c 00 00 	lea    0x2ce2(%rip),%rsi        # 4010 <__TMC_END__>
+    132e:	48 29 fe             	sub    %rdi,%rsi
+    1331:	48 89 f0             	mov    %rsi,%rax
+    1334:	48 c1 ee 3f          	shr    $0x3f,%rsi
+    1338:	48 c1 f8 03          	sar    $0x3,%rax
+    133c:	48 01 c6             	add    %rax,%rsi
+    133f:	48 d1 fe             	sar    $1,%rsi
+    1342:	74 14                	je     1358 <register_tm_clones+0x38>
+    1344:	48 8b 05 a5 2c 00 00 	mov    0x2ca5(%rip),%rax        # 3ff0 <_ITM_registerTMCloneTable@Base>
+    134b:	48 85 c0             	test   %rax,%rax
+    134e:	74 08                	je     1358 <register_tm_clones+0x38>
+    1350:	ff e0                	jmp    *%rax
+    1352:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+    1358:	c3                   	ret
+    1359:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+0000000000001360 <__do_global_dtors_aux>:
+    1360:	f3 0f 1e fa          	endbr64
+    1364:	80 3d bd 2c 00 00 00 	cmpb   $0x0,0x2cbd(%rip)        # 4028 <completed.0>
+    136b:	75 2b                	jne    1398 <__do_global_dtors_aux+0x38>
+    136d:	55                   	push   %rbp
+    136e:	48 83 3d 82 2c 00 00 	cmpq   $0x0,0x2c82(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>
+    1375:	00 
+    1376:	48 89 e5             	mov    %rsp,%rbp
+    1379:	74 0c                	je     1387 <__do_global_dtors_aux+0x27>
+    137b:	48 8b 3d 86 2c 00 00 	mov    0x2c86(%rip),%rdi        # 4008 <__dso_handle>
+    1382:	e8 e9 fd ff ff       	call   1170 <__cxa_finalize@plt>
+    1387:	e8 64 ff ff ff       	call   12f0 <deregister_tm_clones>
+    138c:	c6 05 95 2c 00 00 01 	movb   $0x1,0x2c95(%rip)        # 4028 <completed.0>
+    1393:	5d                   	pop    %rbp
+    1394:	c3                   	ret
+    1395:	0f 1f 00             	nopl   (%rax)
+    1398:	c3                   	ret
+    1399:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+00000000000013a0 <frame_dummy>:
+    13a0:	f3 0f 1e fa          	endbr64
+    13a4:	e9 77 ff ff ff       	jmp    1320 <register_tm_clones>
+
+00000000000013a9 <timer_start>:
+
+/* Phase I only: no PMU or cache-specification queries. */
+#if defined(__x86_64__)
+#include <x86intrin.h>
+#define TIMER_UNIT "TSC ticks"
+static uint64_t timer_start(void) {
+    13a9:	f3 0f 1e fa          	endbr64
+    13ad:	55                   	push   %rbp
+    13ae:	48 89 e5             	mov    %rsp,%rbp
+}
+
+extern __inline void __attribute__((__gnu_inline__, __always_inline__, __artificial__))
+_mm_lfence (void)
+{
+  __builtin_ia32_lfence ();
+    13b1:	0f ae e8             	lfence
+}
+    13b4:	90                   	nop
+/* rdtsc */
+extern __inline unsigned long long
+__attribute__((__gnu_inline__, __always_inline__, __artificial__))
+__rdtsc (void)
+{
+  return __builtin_ia32_rdtsc ();
+    13b5:	0f 31                	rdtsc
+    13b7:	48 c1 e2 20          	shl    $0x20,%rdx
+    13bb:	48 09 d0             	or     %rdx,%rax
+    __asm__ volatile("" ::: "memory");
+    _mm_lfence();
+    uint64_t t = __rdtsc();
+    13be:	48 89 45 f8          	mov    %rax,-0x8(%rbp)
+  __builtin_ia32_lfence ();
+    13c2:	0f ae e8             	lfence
+}
+    13c5:	90                   	nop
+    _mm_lfence();
+    __asm__ volatile("" ::: "memory");
+    return t;
+    13c6:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+}
+    13ca:	5d                   	pop    %rbp
+    13cb:	c3                   	ret
+
+00000000000013cc <timer_stop>:
+static uint64_t timer_stop(void) {
+    13cc:	f3 0f 1e fa          	endbr64
+    13d0:	55                   	push   %rbp
+    13d1:	48 89 e5             	mov    %rsp,%rbp
+    13d4:	48 83 ec 20          	sub    $0x20,%rsp
+    13d8:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+    13df:	00 00 
+    13e1:	48 89 45 f8          	mov    %rax,-0x8(%rbp)
+    13e5:	31 c0                	xor    %eax,%eax
+    unsigned aux;
+    __asm__ volatile("" ::: "memory");
+    13e7:	48 8d 45 e4          	lea    -0x1c(%rbp),%rax
+    13eb:	48 89 45 f0          	mov    %rax,-0x10(%rbp)
+/* rdtscp */
+extern __inline unsigned long long
+__attribute__((__gnu_inline__, __always_inline__, __artificial__))
+__rdtscp (unsigned int *__A)
+{
+  return __builtin_ia32_rdtscp (__A);
+    13ef:	0f 01 f9             	rdtscp
+    13f2:	89 ce                	mov    %ecx,%esi
+    13f4:	48 8b 4d f0          	mov    -0x10(%rbp),%rcx
+    13f8:	89 31                	mov    %esi,(%rcx)
+    13fa:	48 c1 e2 20          	shl    $0x20,%rdx
+    13fe:	48 09 d0             	or     %rdx,%rax
+    uint64_t t = __rdtscp(&aux);
+    1401:	48 89 45 e8          	mov    %rax,-0x18(%rbp)
+  __builtin_ia32_lfence ();
+    1405:	0f ae e8             	lfence
+}
+    1408:	90                   	nop
+    _mm_lfence();
+    __asm__ volatile("" ::: "memory");
+    return t;
+    1409:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+}
+    140d:	48 8b 55 f8          	mov    -0x8(%rbp),%rdx
+    1411:	64 48 2b 14 25 28 00 	sub    %fs:0x28,%rdx
+    1418:	00 00 
+    141a:	74 05                	je     1421 <timer_stop+0x55>
+    141c:	e8 af fd ff ff       	call   11d0 <__stack_chk_fail@plt>
+    1421:	c9                   	leave
+    1422:	c3                   	ret
+
+0000000000001423 <timer_frequency>:
+static uint64_t timer_frequency(void) { return 0; }
+    1423:	f3 0f 1e fa          	endbr64
+    1427:	55                   	push   %rbp
+    1428:	48 89 e5             	mov    %rsp,%rbp
+    142b:	b8 00 00 00 00       	mov    $0x0,%eax
+    1430:	5d                   	pop    %rbp
+    1431:	c3                   	ret
+
+0000000000001432 <fail>:
+}
+#else
+#error "This benchmark supports Linux x86-64 and AArch64."
+#endif
+
+static void fail(const char *message) {
+    1432:	f3 0f 1e fa          	endbr64
+    1436:	55                   	push   %rbp
+    1437:	48 89 e5             	mov    %rsp,%rbp
+    143a:	48 83 ec 10          	sub    $0x10,%rsp
+    143e:	48 89 7d f8          	mov    %rdi,-0x8(%rbp)
+    fprintf(stderr, "%s\n", message);
+    1442:	48 8b 05 d7 2b 00 00 	mov    0x2bd7(%rip),%rax        # 4020 <stderr@GLIBC_2.2.5>
+    1449:	48 8b 55 f8          	mov    -0x8(%rbp),%rdx
+    144d:	48 8d 0d b4 0b 00 00 	lea    0xbb4(%rip),%rcx        # 2008 <_IO_stdin_used+0x8>
+    1454:	48 89 ce             	mov    %rcx,%rsi
+    1457:	48 89 c7             	mov    %rax,%rdi
+    145a:	b8 00 00 00 00       	mov    $0x0,%eax
+    145f:	e8 bc fd ff ff       	call   1220 <fprintf@plt>
+    exit(EXIT_FAILURE);
+    1464:	bf 01 00 00 00       	mov    $0x1,%edi
+    1469:	e8 12 fe ff ff       	call   1280 <exit@plt>
+
+000000000000146e <number>:
+}
+
+static size_t number(const char *s) {
+    146e:	f3 0f 1e fa          	endbr64
+    1472:	55                   	push   %rbp
+    1473:	48 89 e5             	mov    %rsp,%rbp
+    1476:	48 83 ec 30          	sub    $0x30,%rsp
+    147a:	48 89 7d d8          	mov    %rdi,-0x28(%rbp)
+    147e:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+    1485:	00 00 
+    1487:	48 89 45 f8          	mov    %rax,-0x8(%rbp)
+    148b:	31 c0                	xor    %eax,%eax
+    char *end;
+    errno = 0;
+    148d:	e8 fe fc ff ff       	call   1190 <__errno_location@plt>
+    1492:	c7 00 00 00 00 00    	movl   $0x0,(%rax)
+    unsigned long long v = strtoull(s, &end, 10);
+    1498:	48 8d 4d e8          	lea    -0x18(%rbp),%rcx
+    149c:	48 8b 45 d8          	mov    -0x28(%rbp),%rax
+    14a0:	ba 0a 00 00 00       	mov    $0xa,%edx
+    14a5:	48 89 ce             	mov    %rcx,%rsi
+    14a8:	48 89 c7             	mov    %rax,%rdi
+    14ab:	e8 f0 fc ff ff       	call   11a0 <__isoc23_strtoull@plt>
+    14b0:	48 89 45 f0          	mov    %rax,-0x10(%rbp)
+    if (!*s || *s == '-' || *s == '+' || errno || *end || !v || v > SIZE_MAX)
+    14b4:	48 8b 45 d8          	mov    -0x28(%rbp),%rax
+    14b8:	0f b6 00             	movzbl (%rax),%eax
+    14bb:	84 c0                	test   %al,%al
+    14bd:	74 33                	je     14f2 <number+0x84>
+    14bf:	48 8b 45 d8          	mov    -0x28(%rbp),%rax
+    14c3:	0f b6 00             	movzbl (%rax),%eax
+    14c6:	3c 2d                	cmp    $0x2d,%al
+    14c8:	74 28                	je     14f2 <number+0x84>
+    14ca:	48 8b 45 d8          	mov    -0x28(%rbp),%rax
+    14ce:	0f b6 00             	movzbl (%rax),%eax
+    14d1:	3c 2b                	cmp    $0x2b,%al
+    14d3:	74 1d                	je     14f2 <number+0x84>
+    14d5:	e8 b6 fc ff ff       	call   1190 <__errno_location@plt>
+    14da:	8b 00                	mov    (%rax),%eax
+    14dc:	85 c0                	test   %eax,%eax
+    14de:	75 12                	jne    14f2 <number+0x84>
+    14e0:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+    14e4:	0f b6 00             	movzbl (%rax),%eax
+    14e7:	84 c0                	test   %al,%al
+    14e9:	75 07                	jne    14f2 <number+0x84>
+    14eb:	48 83 7d f0 00       	cmpq   $0x0,-0x10(%rbp)
+    14f0:	75 0f                	jne    1501 <number+0x93>
+        fail("Arguments must be positive decimal integers within size_t range.");
+    14f2:	48 8d 05 17 0b 00 00 	lea    0xb17(%rip),%rax        # 2010 <_IO_stdin_used+0x10>
+    14f9:	48 89 c7             	mov    %rax,%rdi
+    14fc:	e8 31 ff ff ff       	call   1432 <fail>
+    return (size_t)v;
+    1501:	48 8b 45 f0          	mov    -0x10(%rbp),%rax
+}
+    1505:	48 8b 55 f8          	mov    -0x8(%rbp),%rdx
+    1509:	64 48 2b 14 25 28 00 	sub    %fs:0x28,%rdx
+    1510:	00 00 
+    1512:	74 05                	je     1519 <number+0xab>
+    1514:	e8 b7 fc ff ff       	call   11d0 <__stack_chk_fail@plt>
+    1519:	c9                   	leave
+    151a:	c3                   	ret
+
+000000000000151b <random64>:
+
+/* Fixed seed makes the address order reproducible; this is not cryptographic. */
+static uint64_t random64(uint64_t *state) {
+    151b:	f3 0f 1e fa          	endbr64
+    151f:	55                   	push   %rbp
+    1520:	48 89 e5             	mov    %rsp,%rbp
+    1523:	48 89 7d e8          	mov    %rdi,-0x18(%rbp)
+    uint64_t x = *state;
+    1527:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+    152b:	48 8b 00             	mov    (%rax),%rax
+    152e:	48 89 45 f8          	mov    %rax,-0x8(%rbp)
+    x ^= x >> 12;
+    1532:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+    1536:	48 c1 e8 0c          	shr    $0xc,%rax
+    153a:	48 31 45 f8          	xor    %rax,-0x8(%rbp)
+    x ^= x << 25;
+    153e:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+    1542:	48 c1 e0 19          	shl    $0x19,%rax
+    1546:	48 31 45 f8          	xor    %rax,-0x8(%rbp)
+    x ^= x >> 27;
+    154a:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+    154e:	48 c1 e8 1b          	shr    $0x1b,%rax
+    1552:	48 31 45 f8          	xor    %rax,-0x8(%rbp)
+    *state = x;
+    1556:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+    155a:	48 8b 55 f8          	mov    -0x8(%rbp),%rdx
+    155e:	48 89 10             	mov    %rdx,(%rax)
+    return x * UINT64_C(2685821657736338717);
+    1561:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+    1565:	48 ba 1d dd 6c 4f 91 	movabs $0x2545f4914f6cdd1d,%rdx
+    156c:	f4 45 25 
+    156f:	48 0f af c2          	imul   %rdx,%rax
+}
+    1573:	5d                   	pop    %rbp
+    1574:	c3                   	ret
+
+0000000000001575 <bounded_random>:
+
+static uint64_t bounded_random(uint64_t *state, uint64_t bound) {
+    1575:	f3 0f 1e fa          	endbr64
+    1579:	55                   	push   %rbp
+    157a:	48 89 e5             	mov    %rsp,%rbp
+    157d:	48 83 ec 20          	sub    $0x20,%rsp
+    1581:	48 89 7d e8          	mov    %rdi,-0x18(%rbp)
+    1585:	48 89 75 e0          	mov    %rsi,-0x20(%rbp)
+    uint64_t x, threshold = -bound % bound;
+    1589:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
+    158d:	48 f7 d8             	neg    %rax
+    1590:	ba 00 00 00 00       	mov    $0x0,%edx
+    1595:	48 f7 75 e0          	divq   -0x20(%rbp)
+    1599:	48 89 55 f0          	mov    %rdx,-0x10(%rbp)
+    do { x = random64(state); } while (x < threshold);
+    159d:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+    15a1:	48 89 c7             	mov    %rax,%rdi
+    15a4:	e8 72 ff ff ff       	call   151b <random64>
+    15a9:	48 89 45 f8          	mov    %rax,-0x8(%rbp)
+    15ad:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+    15b1:	48 3b 45 f0          	cmp    -0x10(%rbp),%rax
+    15b5:	72 e6                	jb     159d <bounded_random+0x28>
+    return x % bound;
+    15b7:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+    15bb:	ba 00 00 00 00       	mov    $0x0,%edx
+    15c0:	48 f7 75 e0          	divq   -0x20(%rbp)
+    15c4:	48 89 d0             	mov    %rdx,%rax
+}
+    15c7:	c9                   	leave
+    15c8:	c3                   	ret
+
+00000000000015c9 <make_cycle>:
+
+static void *make_cycle(unsigned char *memory, size_t bytes, size_t spacing,
+                        uint64_t seed, int randomized) {
+    15c9:	f3 0f 1e fa          	endbr64
+    15cd:	55                   	push   %rbp
+    15ce:	48 89 e5             	mov    %rsp,%rbp
+    15d1:	48 83 c4 80          	add    $0xffffffffffffff80,%rsp
+    15d5:	48 89 7d a8          	mov    %rdi,-0x58(%rbp)
+    15d9:	48 89 75 a0          	mov    %rsi,-0x60(%rbp)
+    15dd:	48 89 55 98          	mov    %rdx,-0x68(%rbp)
+    15e1:	48 89 4d 90          	mov    %rcx,-0x70(%rbp)
+    15e5:	44 89 45 8c          	mov    %r8d,-0x74(%rbp)
+    size_t n = bytes / spacing;
+    15e9:	48 8b 45 a0          	mov    -0x60(%rbp),%rax
+    15ed:	ba 00 00 00 00       	mov    $0x0,%edx
+    15f2:	48 f7 75 98          	divq   -0x68(%rbp)
+    15f6:	48 89 45 d8          	mov    %rax,-0x28(%rbp)
+    size_t *order = malloc(n * sizeof(*order));
+    15fa:	48 8b 45 d8          	mov    -0x28(%rbp),%rax
+    15fe:	48 c1 e0 03          	shl    $0x3,%rax
+    1602:	48 89 c7             	mov    %rax,%rdi
+    1605:	e8 26 fc ff ff       	call   1230 <malloc@plt>
+    160a:	48 89 45 e0          	mov    %rax,-0x20(%rbp)
+    if (!order) fail("Cannot allocate shuffle array; use a smaller footprint.");
+    160e:	48 83 7d e0 00       	cmpq   $0x0,-0x20(%rbp)
+    1613:	75 0f                	jne    1624 <make_cycle+0x5b>
+    1615:	48 8d 05 3c 0a 00 00 	lea    0xa3c(%rip),%rax        # 2058 <_IO_stdin_used+0x58>
+    161c:	48 89 c7             	mov    %rax,%rdi
+    161f:	e8 0e fe ff ff       	call   1432 <fail>
+    for (size_t i = 0; i < n; ++i) order[i] = i;
+    1624:	48 c7 45 b0 00 00 00 	movq   $0x0,-0x50(%rbp)
+    162b:	00 
+    162c:	eb 1f                	jmp    164d <make_cycle+0x84>
+    162e:	48 8b 45 b0          	mov    -0x50(%rbp),%rax
+    1632:	48 8d 14 c5 00 00 00 	lea    0x0(,%rax,8),%rdx
+    1639:	00 
+    163a:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
+    163e:	48 01 c2             	add    %rax,%rdx
+    1641:	48 8b 45 b0          	mov    -0x50(%rbp),%rax
+    1645:	48 89 02             	mov    %rax,(%rdx)
+    1648:	48 83 45 b0 01       	addq   $0x1,-0x50(%rbp)
+    164d:	48 8b 45 b0          	mov    -0x50(%rbp),%rax
+    1651:	48 3b 45 d8          	cmp    -0x28(%rbp),%rax
+    1655:	72 d7                	jb     162e <make_cycle+0x65>
+    if (randomized) {
+    1657:	83 7d 8c 00          	cmpl   $0x0,-0x74(%rbp)
+    165b:	0f 84 9c 00 00 00    	je     16fd <make_cycle+0x134>
+        for (size_t i = n - 1; i > 0; --i) {
+    1661:	48 8b 45 d8          	mov    -0x28(%rbp),%rax
+    1665:	48 83 e8 01          	sub    $0x1,%rax
+    1669:	48 89 45 b8          	mov    %rax,-0x48(%rbp)
+    166d:	e9 80 00 00 00       	jmp    16f2 <make_cycle+0x129>
+            size_t j = bounded_random(&seed, i + 1);
+    1672:	48 8b 45 b8          	mov    -0x48(%rbp),%rax
+    1676:	48 8d 50 01          	lea    0x1(%rax),%rdx
+    167a:	48 8d 45 90          	lea    -0x70(%rbp),%rax
+    167e:	48 89 d6             	mov    %rdx,%rsi
+    1681:	48 89 c7             	mov    %rax,%rdi
+    1684:	e8 ec fe ff ff       	call   1575 <bounded_random>
+    1689:	48 89 45 e8          	mov    %rax,-0x18(%rbp)
+            size_t tmp = order[i]; order[i] = order[j]; order[j] = tmp;
+    168d:	48 8b 45 b8          	mov    -0x48(%rbp),%rax
+    1691:	48 8d 14 c5 00 00 00 	lea    0x0(,%rax,8),%rdx
+    1698:	00 
+    1699:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
+    169d:	48 01 d0             	add    %rdx,%rax
+    16a0:	48 8b 00             	mov    (%rax),%rax
+    16a3:	48 89 45 f0          	mov    %rax,-0x10(%rbp)
+    16a7:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+    16ab:	48 8d 14 c5 00 00 00 	lea    0x0(,%rax,8),%rdx
+    16b2:	00 
+    16b3:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
+    16b7:	48 01 d0             	add    %rdx,%rax
+    16ba:	48 8b 55 b8          	mov    -0x48(%rbp),%rdx
+    16be:	48 8d 0c d5 00 00 00 	lea    0x0(,%rdx,8),%rcx
+    16c5:	00 
+    16c6:	48 8b 55 e0          	mov    -0x20(%rbp),%rdx
+    16ca:	48 01 ca             	add    %rcx,%rdx
+    16cd:	48 8b 00             	mov    (%rax),%rax
+    16d0:	48 89 02             	mov    %rax,(%rdx)
+    16d3:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+    16d7:	48 8d 14 c5 00 00 00 	lea    0x0(,%rax,8),%rdx
+    16de:	00 
+    16df:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
+    16e3:	48 01 c2             	add    %rax,%rdx
+    16e6:	48 8b 45 f0          	mov    -0x10(%rbp),%rax
+    16ea:	48 89 02             	mov    %rax,(%rdx)
+        for (size_t i = n - 1; i > 0; --i) {
+    16ed:	48 83 6d b8 01       	subq   $0x1,-0x48(%rbp)
+    16f2:	48 83 7d b8 00       	cmpq   $0x0,-0x48(%rbp)
+    16f7:	0f 85 75 ff ff ff    	jne    1672 <make_cycle+0xa9>
+        }
+    }
+    for (size_t i = 0; i < n; ++i)
+    16fd:	48 c7 45 c0 00 00 00 	movq   $0x0,-0x40(%rbp)
+    1704:	00 
+    1705:	eb 62                	jmp    1769 <make_cycle+0x1a0>
+        *(void **)(memory + order[i] * spacing) =
+            memory + order[(i + 1) % n] * spacing;
+    1707:	48 8b 45 c0          	mov    -0x40(%rbp),%rax
+    170b:	48 83 c0 01          	add    $0x1,%rax
+    170f:	ba 00 00 00 00       	mov    $0x0,%edx
+    1714:	48 f7 75 d8          	divq   -0x28(%rbp)
+    1718:	48 89 d0             	mov    %rdx,%rax
+    171b:	48 8d 14 c5 00 00 00 	lea    0x0(,%rax,8),%rdx
+    1722:	00 
+    1723:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
+    1727:	48 01 d0             	add    %rdx,%rax
+    172a:	48 8b 00             	mov    (%rax),%rax
+    172d:	48 0f af 45 98       	imul   -0x68(%rbp),%rax
+    1732:	48 89 c1             	mov    %rax,%rcx
+        *(void **)(memory + order[i] * spacing) =
+    1735:	48 8b 45 c0          	mov    -0x40(%rbp),%rax
+    1739:	48 8d 14 c5 00 00 00 	lea    0x0(,%rax,8),%rdx
+    1740:	00 
+    1741:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
+    1745:	48 01 d0             	add    %rdx,%rax
+    1748:	48 8b 00             	mov    (%rax),%rax
+    174b:	48 0f af 45 98       	imul   -0x68(%rbp),%rax
+    1750:	48 89 c2             	mov    %rax,%rdx
+    1753:	48 8b 45 a8          	mov    -0x58(%rbp),%rax
+    1757:	48 01 d0             	add    %rdx,%rax
+            memory + order[(i + 1) % n] * spacing;
+    175a:	48 8b 55 a8          	mov    -0x58(%rbp),%rdx
+    175e:	48 01 ca             	add    %rcx,%rdx
+        *(void **)(memory + order[i] * spacing) =
+    1761:	48 89 10             	mov    %rdx,(%rax)
+    for (size_t i = 0; i < n; ++i)
+    1764:	48 83 45 c0 01       	addq   $0x1,-0x40(%rbp)
+    1769:	48 8b 45 c0          	mov    -0x40(%rbp),%rax
+    176d:	48 3b 45 d8          	cmp    -0x28(%rbp),%rax
+    1771:	72 94                	jb     1707 <make_cycle+0x13e>
+    void *start = memory + order[0] * spacing;
+    1773:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
+    1777:	48 8b 00             	mov    (%rax),%rax
+    177a:	48 0f af 45 98       	imul   -0x68(%rbp),%rax
+    177f:	48 89 c2             	mov    %rax,%rdx
+    1782:	48 8b 45 a8          	mov    -0x58(%rbp),%rax
+    1786:	48 01 d0             	add    %rdx,%rax
+    1789:	48 89 45 f8          	mov    %rax,-0x8(%rbp)
+    free(order);
+    178d:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
+    1791:	48 89 c7             	mov    %rax,%rdi
+    1794:	e8 e7 f9 ff ff       	call   1180 <free@plt>
+    /* Check the full cycle, and touch all its nodes before measurement. */
+    void *p = start;
+    1799:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+    179d:	48 89 45 c8          	mov    %rax,-0x38(%rbp)
+    for (size_t i = 0; i < n; ++i) {
+    17a1:	48 c7 45 d0 00 00 00 	movq   $0x0,-0x30(%rbp)
+    17a8:	00 
+    17a9:	eb 58                	jmp    1803 <make_cycle+0x23a>
+        p = *(void **)p;
+    17ab:	48 8b 45 c8          	mov    -0x38(%rbp),%rax
+    17af:	48 8b 00             	mov    (%rax),%rax
+    17b2:	48 89 45 c8          	mov    %rax,-0x38(%rbp)
+        assert((i + 1 == n) == (p == start));
+    17b6:	48 8b 45 d0          	mov    -0x30(%rbp),%rax
+    17ba:	48 83 c0 01          	add    $0x1,%rax
+    17be:	48 39 45 d8          	cmp    %rax,-0x28(%rbp)
+    17c2:	0f 95 c2             	setne  %dl
+    17c5:	48 8b 45 c8          	mov    -0x38(%rbp),%rax
+    17c9:	48 3b 45 f8          	cmp    -0x8(%rbp),%rax
+    17cd:	0f 94 c0             	sete   %al
+    17d0:	31 d0                	xor    %edx,%eax
+    17d2:	84 c0                	test   %al,%al
+    17d4:	75 28                	jne    17fe <make_cycle+0x235>
+    17d6:	48 8d 05 1b 0c 00 00 	lea    0xc1b(%rip),%rax        # 23f8 <__PRETTY_FUNCTION__.1>
+    17dd:	48 89 c1             	mov    %rax,%rcx
+    17e0:	ba 67 00 00 00       	mov    $0x67,%edx
+    17e5:	48 8d 05 a4 08 00 00 	lea    0x8a4(%rip),%rax        # 2090 <_IO_stdin_used+0x90>
+    17ec:	48 89 c6             	mov    %rax,%rsi
+    17ef:	48 8d 05 fc 08 00 00 	lea    0x8fc(%rip),%rax        # 20f2 <_IO_stdin_used+0xf2>
+    17f6:	48 89 c7             	mov    %rax,%rdi
+    17f9:	e8 f2 f9 ff ff       	call   11f0 <__assert_fail@plt>
+    for (size_t i = 0; i < n; ++i) {
+    17fe:	48 83 45 d0 01       	addq   $0x1,-0x30(%rbp)
+    1803:	48 8b 45 d0          	mov    -0x30(%rbp),%rax
+    1807:	48 3b 45 d8          	cmp    -0x28(%rbp),%rax
+    180b:	72 9e                	jb     17ab <make_cycle+0x1e2>
+    }
+    return start;
+    180d:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+}
+    1811:	c9                   	leave
+    1812:	c3                   	ret
+
+0000000000001813 <chase>:
+
+/* Explicit register loop keeps -O0 from spilling p/i to the stack per load.
+ * Each load's address is the previous load's result. No stores in this loop.
+ * The function-call and loop overhead remain; test sensitivity to batch size.
+ */
+__attribute__((noinline)) static void *chase(void *p, size_t steps) {
+    1813:	f3 0f 1e fa          	endbr64
+    1817:	55                   	push   %rbp
+    1818:	48 89 e5             	mov    %rsp,%rbp
+    181b:	48 83 ec 10          	sub    $0x10,%rsp
+    181f:	48 89 7d f8          	mov    %rdi,-0x8(%rbp)
+    1823:	48 89 75 f0          	mov    %rsi,-0x10(%rbp)
+    assert(steps > 0);
+    1827:	48 83 7d f0 00       	cmpq   $0x0,-0x10(%rbp)
+    182c:	75 28                	jne    1856 <chase+0x43>
+    182e:	48 8d 05 ce 0b 00 00 	lea    0xbce(%rip),%rax        # 2403 <__PRETTY_FUNCTION__.0>
+    1835:	48 89 c1             	mov    %rax,%rcx
+    1838:	ba 71 00 00 00       	mov    $0x71,%edx
+    183d:	48 8d 05 4c 08 00 00 	lea    0x84c(%rip),%rax        # 2090 <_IO_stdin_used+0x90>
+    1844:	48 89 c6             	mov    %rax,%rsi
+    1847:	48 8d 05 c1 08 00 00 	lea    0x8c1(%rip),%rax        # 210f <_IO_stdin_used+0x10f>
+    184e:	48 89 c7             	mov    %rax,%rdi
+    1851:	e8 9a f9 ff ff       	call   11f0 <__assert_fail@plt>
+#if defined(__x86_64__)
+    __asm__ volatile("1:\n\tmov (%0), %0\n\tdec %1\n\tjnz 1b"
+    1856:	48 8b 55 f8          	mov    -0x8(%rbp),%rdx
+    185a:	48 8b 45 f0          	mov    -0x10(%rbp),%rax
+    185e:	48 8b 12             	mov    (%rdx),%rdx
+    1861:	48 ff c8             	dec    %rax
+    1864:	75 f8                	jne    185e <chase+0x4b>
+    1866:	48 89 55 f8          	mov    %rdx,-0x8(%rbp)
+    186a:	48 89 45 f0          	mov    %rax,-0x10(%rbp)
+                     : "+&r"(p), "+&r"(steps) :: "cc", "memory");
+#else
+    __asm__ volatile("1:\n\tldr %0, [%0]\n\tsubs %1, %1, #1\n\tb.ne 1b"
+                     : "+&r"(p), "+&r"(steps) :: "cc", "memory");
+#endif
+    return p;
+    186e:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+}
+    1872:	c9                   	leave
+    1873:	c3                   	ret
+
+0000000000001874 <main>:
+
+static void *volatile sink;
+
+int main(int argc, char **argv) {
+    1874:	f3 0f 1e fa          	endbr64
+    1878:	55                   	push   %rbp
+    1879:	48 89 e5             	mov    %rsp,%rbp
+    187c:	41 54                	push   %r12
+    187e:	53                   	push   %rbx
+    187f:	48 81 ec 30 01 00 00 	sub    $0x130,%rsp
+    1886:	89 bd cc fe ff ff    	mov    %edi,-0x134(%rbp)
+    188c:	48 89 b5 c0 fe ff ff 	mov    %rsi,-0x140(%rbp)
+    1893:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+    189a:	00 00 
+    189c:	48 89 45 e8          	mov    %rax,-0x18(%rbp)
+    18a0:	31 c0                	xor    %eax,%eax
+    if (argc != 8) {
+    18a2:	83 bd cc fe ff ff 08 	cmpl   $0x8,-0x134(%rbp)
+    18a9:	74 32                	je     18dd <main+0x69>
+        fprintf(stderr, "Usage: %s BYTES SPACING SAMPLES STEPS SEED random|sequential|empty OUTPUT.bin\n",
+    18ab:	48 8b 85 c0 fe ff ff 	mov    -0x140(%rbp),%rax
+    18b2:	48 8b 10             	mov    (%rax),%rdx
+    18b5:	48 8b 05 64 27 00 00 	mov    0x2764(%rip),%rax        # 4020 <stderr@GLIBC_2.2.5>
+    18bc:	48 8d 0d 5d 08 00 00 	lea    0x85d(%rip),%rcx        # 2120 <_IO_stdin_used+0x120>
+    18c3:	48 89 ce             	mov    %rcx,%rsi
+    18c6:	48 89 c7             	mov    %rax,%rdi
+    18c9:	b8 00 00 00 00       	mov    $0x0,%eax
+    18ce:	e8 4d f9 ff ff       	call   1220 <fprintf@plt>
+                argv[0]);
+        return EXIT_FAILURE;
+    18d3:	b8 01 00 00 00       	mov    $0x1,%eax
+    18d8:	e9 d8 05 00 00       	jmp    1eb5 <main+0x641>
+    }
+    size_t bytes = number(argv[1]), spacing = number(argv[2]);
+    18dd:	48 8b 85 c0 fe ff ff 	mov    -0x140(%rbp),%rax
+    18e4:	48 83 c0 08          	add    $0x8,%rax
+    18e8:	48 8b 00             	mov    (%rax),%rax
+    18eb:	48 89 c7             	mov    %rax,%rdi
+    18ee:	e8 7b fb ff ff       	call   146e <number>
+    18f3:	48 89 85 10 ff ff ff 	mov    %rax,-0xf0(%rbp)
+    18fa:	48 8b 85 c0 fe ff ff 	mov    -0x140(%rbp),%rax
+    1901:	48 83 c0 10          	add    $0x10,%rax
+    1905:	48 8b 00             	mov    (%rax),%rax
+    1908:	48 89 c7             	mov    %rax,%rdi
+    190b:	e8 5e fb ff ff       	call   146e <number>
+    1910:	48 89 85 18 ff ff ff 	mov    %rax,-0xe8(%rbp)
+    size_t samples = number(argv[3]), steps = number(argv[4]);
+    1917:	48 8b 85 c0 fe ff ff 	mov    -0x140(%rbp),%rax
+    191e:	48 83 c0 18          	add    $0x18,%rax
+    1922:	48 8b 00             	mov    (%rax),%rax
+    1925:	48 89 c7             	mov    %rax,%rdi
+    1928:	e8 41 fb ff ff       	call   146e <number>
+    192d:	48 89 85 20 ff ff ff 	mov    %rax,-0xe0(%rbp)
+    1934:	48 8b 85 c0 fe ff ff 	mov    -0x140(%rbp),%rax
+    193b:	48 83 c0 20          	add    $0x20,%rax
+    193f:	48 8b 00             	mov    (%rax),%rax
+    1942:	48 89 c7             	mov    %rax,%rdi
+    1945:	e8 24 fb ff ff       	call   146e <number>
+    194a:	48 89 85 28 ff ff ff 	mov    %rax,-0xd8(%rbp)
+    uint64_t seed = number(argv[5]);
+    1951:	48 8b 85 c0 fe ff ff 	mov    -0x140(%rbp),%rax
+    1958:	48 83 c0 28          	add    $0x28,%rax
+    195c:	48 8b 00             	mov    (%rax),%rax
+    195f:	48 89 c7             	mov    %rax,%rdi
+    1962:	e8 07 fb ff ff       	call   146e <number>
+    1967:	48 89 85 30 ff ff ff 	mov    %rax,-0xd0(%rbp)
+    int randomized = strcmp(argv[6], "random") == 0;
+    196e:	48 8b 85 c0 fe ff ff 	mov    -0x140(%rbp),%rax
+    1975:	48 83 c0 30          	add    $0x30,%rax
+    1979:	48 8b 00             	mov    (%rax),%rax
+    197c:	48 8d 15 ec 07 00 00 	lea    0x7ec(%rip),%rdx        # 216f <_IO_stdin_used+0x16f>
+    1983:	48 89 d6             	mov    %rdx,%rsi
+    1986:	48 89 c7             	mov    %rax,%rdi
+    1989:	e8 82 f8 ff ff       	call   1210 <strcmp@plt>
+    198e:	85 c0                	test   %eax,%eax
+    1990:	0f 94 c0             	sete   %al
+    1993:	0f b6 c0             	movzbl %al,%eax
+    1996:	89 85 e0 fe ff ff    	mov    %eax,-0x120(%rbp)
+    int empty = strcmp(argv[6], "empty") == 0;
+    199c:	48 8b 85 c0 fe ff ff 	mov    -0x140(%rbp),%rax
+    19a3:	48 83 c0 30          	add    $0x30,%rax
+    19a7:	48 8b 00             	mov    (%rax),%rax
+    19aa:	48 8d 15 c5 07 00 00 	lea    0x7c5(%rip),%rdx        # 2176 <_IO_stdin_used+0x176>
+    19b1:	48 89 d6             	mov    %rdx,%rsi
+    19b4:	48 89 c7             	mov    %rax,%rdi
+    19b7:	e8 54 f8 ff ff       	call   1210 <strcmp@plt>
+    19bc:	85 c0                	test   %eax,%eax
+    19be:	0f 94 c0             	sete   %al
+    19c1:	0f b6 c0             	movzbl %al,%eax
+    19c4:	89 85 e4 fe ff ff    	mov    %eax,-0x11c(%rbp)
+    if (!randomized && !empty && strcmp(argv[6], "sequential") != 0)
+    19ca:	83 bd e0 fe ff ff 00 	cmpl   $0x0,-0x120(%rbp)
+    19d1:	75 3c                	jne    1a0f <main+0x19b>
+    19d3:	83 bd e4 fe ff ff 00 	cmpl   $0x0,-0x11c(%rbp)
+    19da:	75 33                	jne    1a0f <main+0x19b>
+    19dc:	48 8b 85 c0 fe ff ff 	mov    -0x140(%rbp),%rax
+    19e3:	48 83 c0 30          	add    $0x30,%rax
+    19e7:	48 8b 00             	mov    (%rax),%rax
+    19ea:	48 8d 15 8b 07 00 00 	lea    0x78b(%rip),%rdx        # 217c <_IO_stdin_used+0x17c>
+    19f1:	48 89 d6             	mov    %rdx,%rsi
+    19f4:	48 89 c7             	mov    %rax,%rdi
+    19f7:	e8 14 f8 ff ff       	call   1210 <strcmp@plt>
+    19fc:	85 c0                	test   %eax,%eax
+    19fe:	74 0f                	je     1a0f <main+0x19b>
+        fail("Mode must be random, sequential, or empty.");
+    1a00:	48 8d 05 81 07 00 00 	lea    0x781(%rip),%rax        # 2188 <_IO_stdin_used+0x188>
+    1a07:	48 89 c7             	mov    %rax,%rdi
+    1a0a:	e8 23 fa ff ff       	call   1432 <fail>
+    if (spacing < sizeof(void *) || spacing % sizeof(void *) ||
+    1a0f:	48 83 bd 18 ff ff ff 	cmpq   $0x7,-0xe8(%rbp)
+    1a16:	07 
+    1a17:	76 56                	jbe    1a6f <main+0x1fb>
+    1a19:	48 8b 85 18 ff ff ff 	mov    -0xe8(%rbp),%rax
+    1a20:	83 e0 07             	and    $0x7,%eax
+    1a23:	48 85 c0             	test   %rax,%rax
+    1a26:	75 47                	jne    1a6f <main+0x1fb>
+        bytes % spacing || bytes / spacing < 2 || samples > SIZE_MAX / sizeof(uint64_t))
+    1a28:	48 8b 85 10 ff ff ff 	mov    -0xf0(%rbp),%rax
+    1a2f:	ba 00 00 00 00       	mov    $0x0,%edx
+    1a34:	48 f7 b5 18 ff ff ff 	divq   -0xe8(%rbp)
+    1a3b:	48 89 d0             	mov    %rdx,%rax
+    if (spacing < sizeof(void *) || spacing % sizeof(void *) ||
+    1a3e:	48 85 c0             	test   %rax,%rax
+    1a41:	75 2c                	jne    1a6f <main+0x1fb>
+        bytes % spacing || bytes / spacing < 2 || samples > SIZE_MAX / sizeof(uint64_t))
+    1a43:	48 8b 85 10 ff ff ff 	mov    -0xf0(%rbp),%rax
+    1a4a:	ba 00 00 00 00       	mov    $0x0,%edx
+    1a4f:	48 f7 b5 18 ff ff ff 	divq   -0xe8(%rbp)
+    1a56:	48 83 f8 01          	cmp    $0x1,%rax
+    1a5a:	76 13                	jbe    1a6f <main+0x1fb>
+    1a5c:	48 b8 ff ff ff ff ff 	movabs $0x1fffffffffffffff,%rax
+    1a63:	ff ff 1f 
+    1a66:	48 3b 85 20 ff ff ff 	cmp    -0xe0(%rbp),%rax
+    1a6d:	73 0f                	jae    1a7e <main+0x20a>
+        fail("Use pointer-aligned spacing, a divisible footprint with >=2 nodes, and a valid sample count.");
+    1a6f:	48 8d 05 42 07 00 00 	lea    0x742(%rip),%rax        # 21b8 <_IO_stdin_used+0x1b8>
+    1a76:	48 89 c7             	mov    %rax,%rdi
+    1a79:	e8 b4 f9 ff ff       	call   1432 <fail>
+    cpu_set_t cpus;
+    if (sched_getaffinity(0, sizeof(cpus), &cpus) != 0) {
+    1a7e:	48 8d 85 60 ff ff ff 	lea    -0xa0(%rbp),%rax
+    1a85:	48 89 c2             	mov    %rax,%rdx
+    1a88:	be 80 00 00 00       	mov    $0x80,%esi
+    1a8d:	bf 00 00 00 00       	mov    $0x0,%edi
+    1a92:	e8 19 f8 ff ff       	call   12b0 <sched_getaffinity@plt>
+    1a97:	85 c0                	test   %eax,%eax
+    1a99:	74 19                	je     1ab4 <main+0x240>
+        perror("sched_getaffinity"); return EXIT_FAILURE;
+    1a9b:	48 8d 05 73 07 00 00 	lea    0x773(%rip),%rax        # 2215 <_IO_stdin_used+0x215>
+    1aa2:	48 89 c7             	mov    %rax,%rdi
+    1aa5:	e8 a6 f7 ff ff       	call   1250 <perror@plt>
+    1aaa:	b8 01 00 00 00       	mov    $0x1,%eax
+    1aaf:	e9 01 04 00 00       	jmp    1eb5 <main+0x641>
+    }
+    if (CPU_COUNT(&cpus) != 1) fail("Pin to exactly one logical CPU using taskset -c CPU.");
+    1ab4:	48 8d 85 60 ff ff ff 	lea    -0xa0(%rbp),%rax
+    1abb:	48 89 c6             	mov    %rax,%rsi
+    1abe:	bf 80 00 00 00       	mov    $0x80,%edi
+    1ac3:	e8 f8 f6 ff ff       	call   11c0 <__sched_cpucount@plt>
+    1ac8:	83 f8 01             	cmp    $0x1,%eax
+    1acb:	74 0f                	je     1adc <main+0x268>
+    1acd:	48 8d 05 54 07 00 00 	lea    0x754(%rip),%rax        # 2228 <_IO_stdin_used+0x228>
+    1ad4:	48 89 c7             	mov    %rax,%rdi
+    1ad7:	e8 56 f9 ff ff       	call   1432 <fail>
+    long page_size = sysconf(_SC_PAGESIZE);
+    1adc:	bf 1e 00 00 00       	mov    $0x1e,%edi
+    1ae1:	e8 7a f7 ff ff       	call   1260 <sysconf@plt>
+    1ae6:	48 89 85 38 ff ff ff 	mov    %rax,-0xc8(%rbp)
+    if (page_size <= 0) fail("Cannot determine OS page size.");
+    1aed:	48 83 bd 38 ff ff ff 	cmpq   $0x0,-0xc8(%rbp)
+    1af4:	00 
+    1af5:	7f 0f                	jg     1b06 <main+0x292>
+    1af7:	48 8d 05 62 07 00 00 	lea    0x762(%rip),%rax        # 2260 <_IO_stdin_used+0x260>
+    1afe:	48 89 c7             	mov    %rax,%rdi
+    1b01:	e8 2c f9 ff ff       	call   1432 <fail>
+    unsigned char *memory = NULL;
+    1b06:	48 c7 85 e8 fe ff ff 	movq   $0x0,-0x118(%rbp)
+    1b0d:	00 00 00 00 
+    if (posix_memalign((void **)&memory, (size_t)page_size, bytes) != 0)
+    1b11:	48 8b 8d 38 ff ff ff 	mov    -0xc8(%rbp),%rcx
+    1b18:	48 8b 95 10 ff ff ff 	mov    -0xf0(%rbp),%rdx
+    1b1f:	48 8d 85 e8 fe ff ff 	lea    -0x118(%rbp),%rax
+    1b26:	48 89 ce             	mov    %rcx,%rsi
+    1b29:	48 89 c7             	mov    %rax,%rdi
+    1b2c:	e8 6f f7 ff ff       	call   12a0 <posix_memalign@plt>
+    1b31:	85 c0                	test   %eax,%eax
+    1b33:	74 0f                	je     1b44 <main+0x2d0>
+        fail("Cannot allocate footprint; reduce size or check memory limits.");
+    1b35:	48 8d 05 44 07 00 00 	lea    0x744(%rip),%rax        # 2280 <_IO_stdin_used+0x280>
+    1b3c:	48 89 c7             	mov    %rax,%rdi
+    1b3f:	e8 ee f8 ff ff       	call   1432 <fail>
+    uint64_t *raw = malloc(samples * sizeof(*raw));
+    1b44:	48 8b 85 20 ff ff ff 	mov    -0xe0(%rbp),%rax
+    1b4b:	48 c1 e0 03          	shl    $0x3,%rax
+    1b4f:	48 89 c7             	mov    %rax,%rdi
+    1b52:	e8 d9 f6 ff ff       	call   1230 <malloc@plt>
+    1b57:	48 89 85 40 ff ff ff 	mov    %rax,-0xc0(%rbp)
+    if (!raw) fail("Cannot allocate raw sample buffer.");
+    1b5e:	48 83 bd 40 ff ff ff 	cmpq   $0x0,-0xc0(%rbp)
+    1b65:	00 
+    1b66:	75 0f                	jne    1b77 <main+0x303>
+    1b68:	48 8d 05 51 07 00 00 	lea    0x751(%rip),%rax        # 22c0 <_IO_stdin_used+0x2c0>
+    1b6f:	48 89 c7             	mov    %rax,%rdi
+    1b72:	e8 bb f8 ff ff       	call   1432 <fail>
+    /* First-touch occurs after affinity; fault output pages before timing. */
+    memset(memory, 0, bytes);
+    1b77:	48 8b 85 e8 fe ff ff 	mov    -0x118(%rbp),%rax
+    1b7e:	48 8b 95 10 ff ff ff 	mov    -0xf0(%rbp),%rdx
+    1b85:	be 00 00 00 00       	mov    $0x0,%esi
+    1b8a:	48 89 c7             	mov    %rax,%rdi
+    1b8d:	e8 6e f6 ff ff       	call   1200 <memset@plt>
+    memset(raw, 0, samples * sizeof(*raw));
+    1b92:	48 8b 85 20 ff ff ff 	mov    -0xe0(%rbp),%rax
+    1b99:	48 8d 14 c5 00 00 00 	lea    0x0(,%rax,8),%rdx
+    1ba0:	00 
+    1ba1:	48 8b 85 40 ff ff ff 	mov    -0xc0(%rbp),%rax
+    1ba8:	be 00 00 00 00       	mov    $0x0,%esi
+    1bad:	48 89 c7             	mov    %rax,%rdi
+    1bb0:	e8 4b f6 ff ff       	call   1200 <memset@plt>
+    void *p = make_cycle(memory, bytes, spacing, seed, randomized);
+    1bb5:	48 8b 85 e8 fe ff ff 	mov    -0x118(%rbp),%rax
+    1bbc:	8b bd e0 fe ff ff    	mov    -0x120(%rbp),%edi
+    1bc2:	48 8b 8d 30 ff ff ff 	mov    -0xd0(%rbp),%rcx
+    1bc9:	48 8b 95 18 ff ff ff 	mov    -0xe8(%rbp),%rdx
+    1bd0:	48 8b b5 10 ff ff ff 	mov    -0xf0(%rbp),%rsi
+    1bd7:	41 89 f8             	mov    %edi,%r8d
+    1bda:	48 89 c7             	mov    %rax,%rdi
+    1bdd:	e8 e7 f9 ff ff       	call   15c9 <make_cycle>
+    1be2:	48 89 85 f0 fe ff ff 	mov    %rax,-0x110(%rbp)
+    size_t nodes = bytes / spacing;
+    1be9:	48 8b 85 10 ff ff ff 	mov    -0xf0(%rbp),%rax
+    1bf0:	ba 00 00 00 00       	mov    $0x0,%edx
+    1bf5:	48 f7 b5 18 ff ff ff 	divq   -0xe8(%rbp)
+    1bfc:	48 89 85 48 ff ff ff 	mov    %rax,-0xb8(%rbp)
+    p = chase(p, nodes);
+    1c03:	48 8b 95 48 ff ff ff 	mov    -0xb8(%rbp),%rdx
+    1c0a:	48 8b 85 f0 fe ff ff 	mov    -0x110(%rbp),%rax
+    1c11:	48 89 d6             	mov    %rdx,%rsi
+    1c14:	48 89 c7             	mov    %rax,%rdi
+    1c17:	e8 f7 fb ff ff       	call   1813 <chase>
+    1c1c:	48 89 85 f0 fe ff ff 	mov    %rax,-0x110(%rbp)
+    p = chase(p, nodes);
+    1c23:	48 8b 95 48 ff ff ff 	mov    -0xb8(%rbp),%rdx
+    1c2a:	48 8b 85 f0 fe ff ff 	mov    -0x110(%rbp),%rax
+    1c31:	48 89 d6             	mov    %rdx,%rsi
+    1c34:	48 89 c7             	mov    %rax,%rdi
+    1c37:	e8 d7 fb ff ff       	call   1813 <chase>
+    1c3c:	48 89 85 f0 fe ff ff 	mov    %rax,-0x110(%rbp)
+    uint64_t frequency = timer_frequency();
+    1c43:	e8 db f7 ff ff       	call   1423 <timer_frequency>
+    1c48:	48 89 85 50 ff ff ff 	mov    %rax,-0xb0(%rbp)
+    FILE *out = fopen(argv[7], "wbx");
+    1c4f:	48 8b 85 c0 fe ff ff 	mov    -0x140(%rbp),%rax
+    1c56:	48 83 c0 38          	add    $0x38,%rax
+    1c5a:	48 8b 00             	mov    (%rax),%rax
+    1c5d:	48 8d 15 7f 06 00 00 	lea    0x67f(%rip),%rdx        # 22e3 <_IO_stdin_used+0x2e3>
+    1c64:	48 89 d6             	mov    %rdx,%rsi
+    1c67:	48 89 c7             	mov    %rax,%rdi
+    1c6a:	e8 d1 f5 ff ff       	call   1240 <fopen@plt>
+    1c6f:	48 89 85 58 ff ff ff 	mov    %rax,-0xa8(%rbp)
+    if (!out) { perror(argv[7]); return EXIT_FAILURE; }
+    1c76:	48 83 bd 58 ff ff ff 	cmpq   $0x0,-0xa8(%rbp)
+    1c7d:	00 
+    1c7e:	75 20                	jne    1ca0 <main+0x42c>
+    1c80:	48 8b 85 c0 fe ff ff 	mov    -0x140(%rbp),%rax
+    1c87:	48 83 c0 38          	add    $0x38,%rax
+    1c8b:	48 8b 00             	mov    (%rax),%rax
+    1c8e:	48 89 c7             	mov    %rax,%rdi
+    1c91:	e8 ba f5 ff ff       	call   1250 <perror@plt>
+    1c96:	b8 01 00 00 00       	mov    $0x1,%eax
+    1c9b:	e9 15 02 00 00       	jmp    1eb5 <main+0x641>
+    /* Separate empty/full loops: no mode branch in the timed region. */
+    for (size_t i = 0; i < samples; ++i) {
+    1ca0:	48 c7 85 f8 fe ff ff 	movq   $0x0,-0x108(%rbp)
+    1ca7:	00 00 00 00 
+    1cab:	e9 ac 00 00 00       	jmp    1d5c <main+0x4e8>
+        uint64_t t0, t1;
+        if (empty) {
+    1cb0:	83 bd e4 fe ff ff 00 	cmpl   $0x0,-0x11c(%rbp)
+    1cb7:	74 1a                	je     1cd3 <main+0x45f>
+            t0 = timer_start();
+    1cb9:	e8 eb f6 ff ff       	call   13a9 <timer_start>
+    1cbe:	48 89 85 00 ff ff ff 	mov    %rax,-0x100(%rbp)
+            t1 = timer_stop();
+    1cc5:	e8 02 f7 ff ff       	call   13cc <timer_stop>
+    1cca:	48 89 85 08 ff ff ff 	mov    %rax,-0xf8(%rbp)
+    1cd1:	eb 38                	jmp    1d0b <main+0x497>
+        } else {
+            t0 = timer_start();
+    1cd3:	e8 d1 f6 ff ff       	call   13a9 <timer_start>
+    1cd8:	48 89 85 00 ff ff ff 	mov    %rax,-0x100(%rbp)
+            p = chase(p, steps);
+    1cdf:	48 8b 95 28 ff ff ff 	mov    -0xd8(%rbp),%rdx
+    1ce6:	48 8b 85 f0 fe ff ff 	mov    -0x110(%rbp),%rax
+    1ced:	48 89 d6             	mov    %rdx,%rsi
+    1cf0:	48 89 c7             	mov    %rax,%rdi
+    1cf3:	e8 1b fb ff ff       	call   1813 <chase>
+    1cf8:	48 89 85 f0 fe ff ff 	mov    %rax,-0x110(%rbp)
+            t1 = timer_stop();
+    1cff:	e8 c8 f6 ff ff       	call   13cc <timer_stop>
+    1d04:	48 89 85 08 ff ff ff 	mov    %rax,-0xf8(%rbp)
+        }
+        if (t1 < t0) fail("Timer moved backwards; discard this run.");
+    1d0b:	48 8b 85 08 ff ff ff 	mov    -0xf8(%rbp),%rax
+    1d12:	48 3b 85 00 ff ff ff 	cmp    -0x100(%rbp),%rax
+    1d19:	73 0f                	jae    1d2a <main+0x4b6>
+    1d1b:	48 8d 05 c6 05 00 00 	lea    0x5c6(%rip),%rax        # 22e8 <_IO_stdin_used+0x2e8>
+    1d22:	48 89 c7             	mov    %rax,%rdi
+    1d25:	e8 08 f7 ff ff       	call   1432 <fail>
+        raw[i] = t1 - t0;
+    1d2a:	48 8b 85 f8 fe ff ff 	mov    -0x108(%rbp),%rax
+    1d31:	48 8d 14 c5 00 00 00 	lea    0x0(,%rax,8),%rdx
+    1d38:	00 
+    1d39:	48 8b 85 40 ff ff ff 	mov    -0xc0(%rbp),%rax
+    1d40:	48 01 c2             	add    %rax,%rdx
+    1d43:	48 8b 85 08 ff ff ff 	mov    -0xf8(%rbp),%rax
+    1d4a:	48 2b 85 00 ff ff ff 	sub    -0x100(%rbp),%rax
+    1d51:	48 89 02             	mov    %rax,(%rdx)
+    for (size_t i = 0; i < samples; ++i) {
+    1d54:	48 83 85 f8 fe ff ff 	addq   $0x1,-0x108(%rbp)
+    1d5b:	01 
+    1d5c:	48 8b 85 f8 fe ff ff 	mov    -0x108(%rbp),%rax
+    1d63:	48 3b 85 20 ff ff ff 	cmp    -0xe0(%rbp),%rax
+    1d6a:	0f 82 40 ff ff ff    	jb     1cb0 <main+0x43c>
+    }
+    sink = p;
+    1d70:	48 8b 85 f0 fe ff ff 	mov    -0x110(%rbp),%rax
+    1d77:	48 89 05 b2 22 00 00 	mov    %rax,0x22b2(%rip)        # 4030 <sink>
+    if (fwrite(raw, sizeof(*raw), samples, out) != samples) {
+    1d7e:	48 8b 8d 58 ff ff ff 	mov    -0xa8(%rbp),%rcx
+    1d85:	48 8b 95 20 ff ff ff 	mov    -0xe0(%rbp),%rdx
+    1d8c:	48 8b 85 40 ff ff ff 	mov    -0xc0(%rbp),%rax
+    1d93:	be 08 00 00 00       	mov    $0x8,%esi
+    1d98:	48 89 c7             	mov    %rax,%rdi
+    1d9b:	e8 f0 f4 ff ff       	call   1290 <fwrite@plt>
+    1da0:	48 39 85 20 ff ff ff 	cmp    %rax,-0xe0(%rbp)
+    1da7:	74 19                	je     1dc2 <main+0x54e>
+        perror("write samples"); return EXIT_FAILURE;
+    1da9:	48 8d 05 61 05 00 00 	lea    0x561(%rip),%rax        # 2311 <_IO_stdin_used+0x311>
+    1db0:	48 89 c7             	mov    %rax,%rdi
+    1db3:	e8 98 f4 ff ff       	call   1250 <perror@plt>
+    1db8:	b8 01 00 00 00       	mov    $0x1,%eax
+    1dbd:	e9 f3 00 00 00       	jmp    1eb5 <main+0x641>
+    }
+    if (fclose(out) != 0) { perror("close samples"); return EXIT_FAILURE; }
+    1dc2:	48 8b 85 58 ff ff ff 	mov    -0xa8(%rbp),%rax
+    1dc9:	48 89 c7             	mov    %rax,%rdi
+    1dcc:	e8 df f3 ff ff       	call   11b0 <fclose@plt>
+    1dd1:	85 c0                	test   %eax,%eax
+    1dd3:	74 19                	je     1dee <main+0x57a>
+    1dd5:	48 8d 05 43 05 00 00 	lea    0x543(%rip),%rax        # 231f <_IO_stdin_used+0x31f>
+    1ddc:	48 89 c7             	mov    %rax,%rdi
+    1ddf:	e8 6c f4 ff ff       	call   1250 <perror@plt>
+    1de4:	b8 01 00 00 00       	mov    $0x1,%eax
+    1de9:	e9 c7 00 00 00       	jmp    1eb5 <main+0x641>
+    uint16_t endian = 1;
+    1dee:	66 c7 85 de fe ff ff 	movw   $0x1,-0x122(%rbp)
+    1df5:	01 00 
+           "\"steps\":%zu,\"seed\":%" PRIu64 ",\"mode\":\"%s\","
+           "\"unit\":\"%s\",\"timer_hz\":%" PRIu64 ",\"cpu\":%d,"
+           "\"page_size\":%ld,\"warmup_steps\":%zu,\"byte_order\":\"%s\"}\n",
+           bytes, spacing, nodes, samples, steps, seed, argv[6], TIMER_UNIT,
+           frequency, sched_getcpu(), page_size, 2 * nodes,
+           *(unsigned char *)&endian ? "little" : "big");
+    1df7:	48 8d 85 de fe ff ff 	lea    -0x122(%rbp),%rax
+    1dfe:	0f b6 00             	movzbl (%rax),%eax
+    printf("{\"bytes\":%zu,\"spacing\":%zu,\"nodes\":%zu,\"samples\":%zu,"
+    1e01:	84 c0                	test   %al,%al
+    1e03:	74 09                	je     1e0e <main+0x59a>
+    1e05:	48 8d 1d 21 05 00 00 	lea    0x521(%rip),%rbx        # 232d <_IO_stdin_used+0x32d>
+    1e0c:	eb 07                	jmp    1e15 <main+0x5a1>
+    1e0e:	48 8d 1d 1f 05 00 00 	lea    0x51f(%rip),%rbx        # 2334 <_IO_stdin_used+0x334>
+    1e15:	48 8b 85 48 ff ff ff 	mov    -0xb8(%rbp),%rax
+    1e1c:	4c 8d 24 00          	lea    (%rax,%rax,1),%r12
+    1e20:	e8 4b f4 ff ff       	call   1270 <sched_getcpu@plt>
+    1e25:	89 c6                	mov    %eax,%esi
+           bytes, spacing, nodes, samples, steps, seed, argv[6], TIMER_UNIT,
+    1e27:	48 8b 85 c0 fe ff ff 	mov    -0x140(%rbp),%rax
+    1e2e:	48 83 c0 30          	add    $0x30,%rax
+    printf("{\"bytes\":%zu,\"spacing\":%zu,\"nodes\":%zu,\"samples\":%zu,"
+    1e32:	48 8b 38             	mov    (%rax),%rdi
+    1e35:	4c 8b 8d 28 ff ff ff 	mov    -0xd8(%rbp),%r9
+    1e3c:	4c 8b 85 20 ff ff ff 	mov    -0xe0(%rbp),%r8
+    1e43:	48 8b 8d 48 ff ff ff 	mov    -0xb8(%rbp),%rcx
+    1e4a:	48 8b 95 18 ff ff ff 	mov    -0xe8(%rbp),%rdx
+    1e51:	48 8b 85 10 ff ff ff 	mov    -0xf0(%rbp),%rax
+    1e58:	53                   	push   %rbx
+    1e59:	41 54                	push   %r12
+    1e5b:	ff b5 38 ff ff ff    	push   -0xc8(%rbp)
+    1e61:	56                   	push   %rsi
+    1e62:	ff b5 50 ff ff ff    	push   -0xb0(%rbp)
+    1e68:	48 8d 35 7c 05 00 00 	lea    0x57c(%rip),%rsi        # 23eb <_IO_stdin_used+0x3eb>
+    1e6f:	56                   	push   %rsi
+    1e70:	57                   	push   %rdi
+    1e71:	ff b5 30 ff ff ff    	push   -0xd0(%rbp)
+    1e77:	48 89 c6             	mov    %rax,%rsi
+    1e7a:	48 8d 05 b7 04 00 00 	lea    0x4b7(%rip),%rax        # 2338 <_IO_stdin_used+0x338>
+    1e81:	48 89 c7             	mov    %rax,%rdi
+    1e84:	b8 00 00 00 00       	mov    $0x0,%eax
+    1e89:	e8 52 f3 ff ff       	call   11e0 <printf@plt>
+    1e8e:	48 83 c4 40          	add    $0x40,%rsp
+    free(raw);
+    1e92:	48 8b 85 40 ff ff ff 	mov    -0xc0(%rbp),%rax
+    1e99:	48 89 c7             	mov    %rax,%rdi
+    1e9c:	e8 df f2 ff ff       	call   1180 <free@plt>
+    free(memory);
+    1ea1:	48 8b 85 e8 fe ff ff 	mov    -0x118(%rbp),%rax
+    1ea8:	48 89 c7             	mov    %rax,%rdi
+    1eab:	e8 d0 f2 ff ff       	call   1180 <free@plt>
+    return EXIT_SUCCESS;
+    1eb0:	b8 00 00 00 00       	mov    $0x0,%eax
+}
+    1eb5:	48 8b 55 e8          	mov    -0x18(%rbp),%rdx
+    1eb9:	64 48 2b 14 25 28 00 	sub    %fs:0x28,%rdx
+    1ec0:	00 00 
+    1ec2:	74 05                	je     1ec9 <main+0x655>
+    1ec4:	e8 07 f3 ff ff       	call   11d0 <__stack_chk_fail@plt>
+    1ec9:	48 8d 65 f0          	lea    -0x10(%rbp),%rsp
+    1ecd:	5b                   	pop    %rbx
+    1ece:	41 5c                	pop    %r12
+    1ed0:	5d                   	pop    %rbp
+    1ed1:	c3                   	ret
+
+Disassembly of section .fini:
+
+0000000000001ed4 <_fini>:
+    1ed4:	f3 0f 1e fa          	endbr64
+    1ed8:	48 83 ec 08          	sub    $0x8,%rsp
+    1edc:	48 83 c4 08          	add    $0x8,%rsp
+    1ee0:	c3                   	ret

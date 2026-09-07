@@ -1,0 +1,242 @@
+{
+  "sunbird": {
+    "full": {
+      "directory": "results/capacity-20260906/sunbird/full",
+      "cpu": 2,
+      "binary_sha256": "a92c8d2ab79b31030584b35bf34ae5bc6e3e946b06df22625f1a32e835911b78",
+      "started_utc": "2026-09-06T11:17:30.867613+00:00",
+      "points": 35
+    },
+    "small": {
+      "directory": "results/capacity-20260906/sunbird/refine-small",
+      "cpu": 2,
+      "binary_sha256": "a92c8d2ab79b31030584b35bf34ae5bc6e3e946b06df22625f1a32e835911b78",
+      "started_utc": "2026-09-06T17:49:51.005226+00:00",
+      "points": 25
+    },
+    "middle": {
+      "directory": "results/capacity-20260906/sunbird/refine-middle",
+      "cpu": 2,
+      "binary_sha256": "a92c8d2ab79b31030584b35bf34ae5bc6e3e946b06df22625f1a32e835911b78",
+      "started_utc": "2026-09-06T17:53:15.017606+00:00",
+      "points": 27
+    },
+    "large": {
+      "directory": "results/capacity-20260906/sunbird/refine-large",
+      "cpu": 2,
+      "binary_sha256": "a92c8d2ab79b31030584b35bf34ae5bc6e3e946b06df22625f1a32e835911b78",
+      "started_utc": "2026-09-06T18:03:05.569503+00:00",
+      "points": 27
+    }
+  },
+  "thunderbird": {
+    "full": {
+      "directory": "results/capacity-20260906/thunderbird/full",
+      "cpu": 0,
+      "binary_sha256": "5f36a998d9e14030874f7c4c5b9fdfdd9258b1c797929f11b93e5343b45eaec0",
+      "started_utc": "2026-09-06T11:19:56.850010+00:00",
+      "points": 35
+    },
+    "small": {
+      "directory": "results/capacity-20260906/thunderbird/refine-small",
+      "cpu": 0,
+      "binary_sha256": "5f36a998d9e14030874f7c4c5b9fdfdd9258b1c797929f11b93e5343b45eaec0",
+      "started_utc": "2026-09-06T17:49:52.054518+00:00",
+      "points": 25
+    },
+    "middle": {
+      "directory": "results/capacity-20260906/thunderbird/refine-middle",
+      "cpu": 0,
+      "binary_sha256": "5f36a998d9e14030874f7c4c5b9fdfdd9258b1c797929f11b93e5343b45eaec0",
+      "started_utc": "2026-09-06T17:52:46.841292+00:00",
+      "points": 29
+    },
+    "large": {
+      "directory": "results/capacity-20260906/thunderbird/refine-large",
+      "cpu": 0,
+      "binary_sha256": "5f36a998d9e14030874f7c4c5b9fdfdd9258b1c797929f11b93e5343b45eaec0",
+      "started_utc": "2026-09-06T18:06:49.067522+00:00",
+      "points": 27
+    }
+  },
+  "skylark": {
+    "full": {
+      "directory": "results/capacity-20260906/skylark/full",
+      "cpu": 0,
+      "binary_sha256": "421ff43d973a517f98c136f84529a938ab6f1a81ecaa86d3d389250045d534e7",
+      "started_utc": "2026-09-06T11:19:57.324889+00:00",
+      "points": 35
+    },
+    "small": {
+      "directory": "results/capacity-20260906/skylark/refine-small",
+      "cpu": 0,
+      "binary_sha256": "421ff43d973a517f98c136f84529a938ab6f1a81ecaa86d3d389250045d534e7",
+      "started_utc": "2026-09-06T17:49:53.118064+00:00",
+      "points": 25
+    },
+    "middle": {
+      "directory": "results/capacity-20260906/skylark/refine-middle",
+      "cpu": 0,
+      "binary_sha256": "421ff43d973a517f98c136f84529a938ab6f1a81ecaa86d3d389250045d534e7",
+      "started_utc": "2026-09-06T17:52:26.950847+00:00",
+      "points": 23
+    },
+    "large": {
+      "directory": "results/capacity-20260906/skylark/refine-large",
+      "cpu": 0,
+      "binary_sha256": "421ff43d973a517f98c136f84529a938ab6f1a81ecaa86d3d389250045d534e7",
+      "started_utc": "2026-09-06T17:58:29.707480+00:00",
+      "points": 29
+    }
+  },
+  "artemisia": {
+    "full": {
+      "directory": "results/capacity-20260906/artemisia/full",
+      "cpu": 5,
+      "binary_sha256": "dc8b1f867a76bac5a7f42673af6530430a79d071f9cfa53e44bb95692bb8af59",
+      "started_utc": "2026-09-06T11:19:58.603033+00:00",
+      "points": 35
+    },
+    "small": {
+      "directory": "results/capacity-20260906/artemisia/refine-small",
+      "cpu": 5,
+      "binary_sha256": "dc8b1f867a76bac5a7f42673af6530430a79d071f9cfa53e44bb95692bb8af59",
+      "started_utc": "2026-09-06T17:49:55.499804+00:00",
+      "points": 33
+    },
+    "middle": {
+      "directory": "results/capacity-20260906/artemisia/refine-middle",
+      "cpu": 5,
+      "binary_sha256": "dc8b1f867a76bac5a7f42673af6530430a79d071f9cfa53e44bb95692bb8af59",
+      "started_utc": "2026-09-06T17:57:03.739161+00:00",
+      "points": 27
+    },
+    "large": {
+      "directory": "results/capacity-20260906/artemisia/refine-large",
+      "cpu": 5,
+      "binary_sha256": "dc8b1f867a76bac5a7f42673af6530430a79d071f9cfa53e44bb95692bb8af59",
+      "started_utc": "2026-09-06T18:13:27.079609+00:00",
+      "points": 29
+    }
+  },
+  "charnwood": {
+    "full": {
+      "directory": "results/capacity-20260906/charnwood/full",
+      "cpu": 2,
+      "binary_sha256": "a76a96abb02a4c11a5774e17862b5070bd1b4facaf99bb61046cf331a2fb14b4",
+      "started_utc": "2026-09-06T11:20:00.393297+00:00",
+      "points": 35
+    },
+    "small": {
+      "directory": "results/capacity-20260906/charnwood/refine-small",
+      "cpu": 2,
+      "binary_sha256": "a76a96abb02a4c11a5774e17862b5070bd1b4facaf99bb61046cf331a2fb14b4",
+      "started_utc": "2026-09-06T22:35:52.121588+00:00",
+      "points": 25
+    },
+    "middle": {
+      "directory": "results/capacity-20260906/charnwood/refine-middle",
+      "cpu": 2,
+      "binary_sha256": "a76a96abb02a4c11a5774e17862b5070bd1b4facaf99bb61046cf331a2fb14b4",
+      "started_utc": "2026-09-06T22:39:11.067415+00:00",
+      "points": 27
+    },
+    "large": {
+      "directory": "results/capacity-20260906/charnwood/refine-large",
+      "cpu": 2,
+      "binary_sha256": "a76a96abb02a4c11a5774e17862b5070bd1b4facaf99bb61046cf331a2fb14b4",
+      "started_utc": "2026-09-06T22:48:06.973870+00:00",
+      "points": 23
+    }
+  },
+  "crux": {
+    "full": {
+      "directory": "results/crux-new-core-20260906T235055Z/crux/full",
+      "cpu": 2,
+      "binary_sha256": "da152e9962e6fc88b160de6e3054829c4b4b9daa56ef3f3e01bca4a32df87876",
+      "started_utc": "2026-09-06T23:55:04.106897+00:00",
+      "points": 35
+    },
+    "small": {
+      "directory": "results/crux-new-core-20260906T235055Z/crux/refine-small",
+      "cpu": 2,
+      "binary_sha256": "da152e9962e6fc88b160de6e3054829c4b4b9daa56ef3f3e01bca4a32df87876",
+      "started_utc": "2026-09-07T00:28:07.849564+00:00",
+      "points": 25
+    },
+    "middle": {
+      "directory": "results/crux-new-core-20260906T235055Z/crux/refine-middle",
+      "cpu": 2,
+      "binary_sha256": "da152e9962e6fc88b160de6e3054829c4b4b9daa56ef3f3e01bca4a32df87876",
+      "started_utc": "2026-09-07T00:30:01.767458+00:00",
+      "points": 27
+    },
+    "large": {
+      "directory": "results/crux-new-core-20260906T235055Z/crux/refine-large",
+      "cpu": 2,
+      "binary_sha256": "da152e9962e6fc88b160de6e3054829c4b4b9daa56ef3f3e01bca4a32df87876",
+      "started_utc": "2026-09-07T00:35:24.232464+00:00",
+      "points": 29
+    }
+  },
+  "ookay": {
+    "full": {
+      "directory": "results/capacity-20260906/ookay/full",
+      "cpu": 0,
+      "binary_sha256": "977b1e5d276c3e8d78a10cdfb01a49e7bbb5104e918b9588bfaf25c1f9f84f3a",
+      "started_utc": "2026-09-06T11:26:12.063096+00:00",
+      "points": 35
+    },
+    "small": {
+      "directory": "results/capacity-20260906/ookay/refine-small",
+      "cpu": 0,
+      "binary_sha256": "977b1e5d276c3e8d78a10cdfb01a49e7bbb5104e918b9588bfaf25c1f9f84f3a",
+      "started_utc": "2026-09-06T17:50:04.305317+00:00",
+      "points": 25
+    },
+    "middle": {
+      "directory": "results/capacity-20260906/ookay/refine-middle",
+      "cpu": 0,
+      "binary_sha256": "977b1e5d276c3e8d78a10cdfb01a49e7bbb5104e918b9588bfaf25c1f9f84f3a",
+      "started_utc": "2026-09-06T17:52:13.107930+00:00",
+      "points": 27
+    },
+    "large": {
+      "directory": "results/capacity-20260906/ookay/refine-large",
+      "cpu": 0,
+      "binary_sha256": "977b1e5d276c3e8d78a10cdfb01a49e7bbb5104e918b9588bfaf25c1f9f84f3a",
+      "started_utc": "2026-09-06T17:58:20.480193+00:00",
+      "points": 23
+    }
+  },
+  "upgrade": {
+    "full": {
+      "directory": "results/capacity-20260906/upgrade/full",
+      "cpu": 1,
+      "binary_sha256": "db677d84b90ae292c0a3d1be5bfe514853df5845e00c7ee6cec67d275495cf4a",
+      "started_utc": "2026-09-06T11:26:12.936350+00:00",
+      "points": 35
+    },
+    "small": {
+      "directory": "results/capacity-20260906/upgrade/refine-small",
+      "cpu": 1,
+      "binary_sha256": "db677d84b90ae292c0a3d1be5bfe514853df5845e00c7ee6cec67d275495cf4a",
+      "started_utc": "2026-09-06T17:50:06.447202+00:00",
+      "points": 25
+    },
+    "middle": {
+      "directory": "results/capacity-20260906/upgrade/refine-middle",
+      "cpu": 1,
+      "binary_sha256": "db677d84b90ae292c0a3d1be5bfe514853df5845e00c7ee6cec67d275495cf4a",
+      "started_utc": "2026-09-06T17:52:04.100410+00:00",
+      "points": 27
+    },
+    "large": {
+      "directory": "results/capacity-20260906/upgrade/refine-large",
+      "cpu": 1,
+      "binary_sha256": "db677d84b90ae292c0a3d1be5bfe514853df5845e00c7ee6cec67d275495cf4a",
+      "started_utc": "2026-09-06T17:57:40.919483+00:00",
+      "points": 29
+    }
+  }
+}

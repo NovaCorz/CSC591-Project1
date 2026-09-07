@@ -1,0 +1,28 @@
+{
+  "bytes": 1048576,
+  "spacing": 8,
+  "nodes": 131072,
+  "samples": 1000000,
+  "steps": 4096,
+  "seed": 592,
+  "mode": "sequential",
+  "unit": "TSC ticks",
+  "timer_hz": 0,
+  "cpu": 0,
+  "page_size": 4096,
+  "warmup_steps": 262144,
+  "byte_order": "little",
+  "invocation": [
+    "taskset",
+    "-c",
+    "0",
+    "/mnt/ncsudrive/h/hlee58/ECE592_proj1/results/capacity-20260906/ookay/cache_capacity",
+    "1048576",
+    "8",
+    "1000000",
+    "4096",
+    "592",
+    "sequential",
+    "full/sequential_1024KiB.bin"
+  ]
+}
