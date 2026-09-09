@@ -1,0 +1,1391 @@
+{
+  "alternate_batch_control_points": 0,
+  "associativity": {
+    "bounded_candidates": [],
+    "candidates": [
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/ookay/full/associativity/c3d91f8271f056bd/complete.json",
+          "machines/ookay/full/associativity/ed6eec5e0dc485a1/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 19,
+        "sources": [
+          "machines/ookay/full/associativity/e219f3927eab6efd/complete.json",
+          "machines/ookay/full/associativity/b45167dbb1a4dcf4/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 21,
+        "sources": [
+          "machines/ookay/full/associativity/ca2022425061c7cd/complete.json",
+          "machines/ookay/full/associativity/81adc5d41eb91805/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/ookay/full/associativity/24729dfe26beb956/complete.json",
+          "machines/ookay/full/associativity/20957831421355f7/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 16,
+        "sources": [
+          "machines/ookay/full/associativity/b961cb295a6d1d6d/complete.json",
+          "machines/ookay/full/associativity/752648bc3404a517/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 4,
+        "sources": [
+          "machines/ookay/full/associativity/86259665373d7261/complete.json",
+          "machines/ookay/full/associativity/3a03af60a1bdec56/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/ookay/full/associativity/505d2ac1dc5fcc7f/complete.json",
+          "machines/ookay/full/associativity/d70164ad97cd0003/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 12,
+        "sources": [
+          "machines/ookay/full/associativity/b7a993fa7f02e0ab/complete.json",
+          "machines/ookay/full/associativity/792252eb1eb26a03/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 15,
+        "sources": [
+          "machines/ookay/full/associativity/7b4562ca32f32ed0/complete.json",
+          "machines/ookay/full/associativity/bc58d547e93e0757/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 19,
+        "sources": [
+          "machines/ookay/full/associativity/96d395d7b98f1f84/complete.json",
+          "machines/ookay/full/associativity/02fbddef25557571/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 21,
+        "sources": [
+          "machines/ookay/full/associativity/0df74d8fb894b6e1/complete.json",
+          "machines/ookay/full/associativity/be141e4541c91629/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 4,
+        "sources": [
+          "machines/ookay/full/associativity/5862871edda3f66f/complete.json",
+          "machines/ookay/full/associativity/098869a5267a74a2/complete.json"
+        ],
+        "stride": 262144
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/ookay/full/associativity/c7672bc58ae7edc5/complete.json",
+          "machines/ookay/full/associativity/d9df9d9b0b454499/complete.json"
+        ],
+        "stride": 262144
+      },
+      {
+        "candidate_resident_addresses": 14,
+        "sources": [
+          "machines/ookay/full/associativity/a4de057e0636bebc/complete.json",
+          "machines/ookay/full/associativity/13f0d7d0a263471d/complete.json"
+        ],
+        "stride": 262144
+      }
+    ],
+    "limitation": "Only virtual low bits controlled. Physical indexing, page translation, replacement, and slice hashing are unresolved. No way count or derived set count is manufactured.",
+    "status": "effective conflict thresholds; no verified per-level associativity"
+  },
+  "attempts": 371,
+  "cache_table": [
+    {
+      "associativity": 8,
+      "derived_sets": "unresolved",
+      "hit_latency_median": 3.640625,
+      "host": "ookay",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": 1.0390625,
+      "level": "L1D candidate",
+      "line_size": "unresolved",
+      "next_level_latency_median": 4.6796875,
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": 32768,
+      "size_upper_bytes": 36864,
+      "status": "unresolved; next-class latency is the first measured departure, not a pure L2-hit latency",
+      "unit": "TSC_ticks/access"
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "ookay",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "L2 role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "ookay",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "LLC role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    }
+  ],
+  "capacity_candidates": [
+    {
+      "above": {
+        "maximum": 66.2421875,
+        "mean": 5.48907396875,
+        "median": 5.44921875,
+        "minimum": 4.953125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 59893,
+        "p05": 5.1484375,
+        "p95": 5.8671875,
+        "q1": 5.35546875,
+        "q3": 5.55078125,
+        "stddev": 0.6361374387147579,
+        "zero_samples": 0
+      },
+      "above_record": "machines/ookay/full/capacity/627ef310d2a3463d/complete.json",
+      "below": {
+        "maximum": 63.99609375,
+        "mean": 3.80595050390625,
+        "median": 3.7578125,
+        "minimum": 3.625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 82100,
+        "p05": 3.69140625,
+        "p95": 4.15234375,
+        "q1": 3.73046875,
+        "q3": 3.7890625,
+        "stddev": 0.5410609180163499,
+        "zero_samples": 0
+      },
+      "below_record": "machines/ookay/full/capacity/88507a7d2ae5e605/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        2,
+        2
+      ],
+      "lower_bytes": 32768,
+      "ratio": 1.45010395010395,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 40960
+    },
+    {
+      "above": {
+        "maximum": 632.55859375,
+        "mean": 9.85960729296875,
+        "median": 9.80859375,
+        "minimum": 8.76953125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 14356,
+        "p05": 9.30078125,
+        "p95": 10.421875,
+        "q1": 9.5703125,
+        "q3": 10.0546875,
+        "stddev": 1.0988985791776353,
+        "zero_samples": 0
+      },
+      "above_record": "machines/ookay/full/capacity/3e9714225b3e1605/complete.json",
+      "below": {
+        "maximum": 639.08203125,
+        "mean": 8.50255463671875,
+        "median": 8.39453125,
+        "minimum": 8.01171875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 42161,
+        "p05": 8.19140625,
+        "p95": 9.015625,
+        "q1": 8.26953125,
+        "q3": 8.59375,
+        "stddev": 1.0600230404739666,
+        "zero_samples": 0
+      },
+      "below_record": "machines/ookay/full/capacity/3c732f816bcf1eb2/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        6,
+        6
+      ],
+      "lower_bytes": 90112,
+      "ratio": 1.1684504420660773,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 98304
+    },
+    {
+      "above": {
+        "maximum": 114.9453125,
+        "mean": 11.0249411953125,
+        "median": 10.97265625,
+        "minimum": 9.60546875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 27164,
+        "p05": 10.40234375,
+        "p95": 11.625,
+        "q1": 10.7578125,
+        "q3": 11.20703125,
+        "stddev": 0.9219498075912477,
+        "zero_samples": 0
+      },
+      "above_record": "machines/ookay/full/capacity/8e47b8249e580624/complete.json",
+      "below": {
+        "maximum": 139.80078125,
+        "mean": 8.90410637109375,
+        "median": 8.75,
+        "minimum": 8.359375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 41835,
+        "p05": 8.53515625,
+        "p95": 9.46875,
+        "q1": 8.65625,
+        "q3": 9.0078125,
+        "stddev": 1.1738804147819388,
+        "zero_samples": 0
+      },
+      "below_record": "machines/ookay/full/capacity/64e17d7d52e09b74/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        3,
+        3
+      ],
+      "lower_bytes": 106496,
+      "ratio": 1.254017857142857,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 114688
+    },
+    {
+      "above": {
+        "maximum": 637.2890625,
+        "mean": 11.891933328125,
+        "median": 11.79296875,
+        "minimum": 10.51953125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 28557,
+        "p05": 11.2421875,
+        "p95": 12.66796875,
+        "q1": 11.546875,
+        "q3": 12.08984375,
+        "stddev": 1.227176488489042,
+        "zero_samples": 0
+      },
+      "above_record": "machines/ookay/full/capacity/0a63d699389b24c3/complete.json",
+      "below": {
+        "maximum": 661.125,
+        "mean": 10.3418629765625,
+        "median": 10.234375,
+        "minimum": 9.4296875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 45109,
+        "p05": 9.859375,
+        "p95": 10.9765625,
+        "q1": 10.0859375,
+        "q3": 10.45703125,
+        "stddev": 1.1968043682595322,
+        "zero_samples": 0
+      },
+      "below_record": "machines/ookay/full/capacity/2f0f6977bcd27752/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        6,
+        6
+      ],
+      "lower_bytes": 180224,
+      "ratio": 1.1522900763358779,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 196608
+    },
+    {
+      "above": {
+        "maximum": 121.6640625,
+        "mean": 14.5968274375,
+        "median": 14.48046875,
+        "minimum": 12.47265625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 31448,
+        "p05": 13.6015625,
+        "p95": 15.75,
+        "q1": 14.10546875,
+        "q3": 14.90234375,
+        "stddev": 1.2160141622747707,
+        "zero_samples": 0
+      },
+      "above_record": "machines/ookay/full/capacity/27b21893ade16f10/complete.json",
+      "below": {
+        "maximum": 649.15625,
+        "mean": 12.30247337109375,
+        "median": 12.17578125,
+        "minimum": 10.78125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 36608,
+        "p05": 11.55078125,
+        "p95": 13.2734375,
+        "q1": 11.890625,
+        "q3": 12.5234375,
+        "stddev": 1.2740178036029366,
+        "zero_samples": 0
+      },
+      "below_record": "machines/ookay/full/capacity/21a8ee2ec1a0c237/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        6,
+        2
+      ],
+      "lower_bytes": 245760,
+      "ratio": 1.1892845684953481,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 262144
+    },
+    {
+      "above": {
+        "maximum": 145.72265625,
+        "mean": 18.6437221015625,
+        "median": 18.54296875,
+        "minimum": 16.390625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 19000,
+        "p05": 17.62890625,
+        "p95": 19.6640625,
+        "q1": 18.140625,
+        "q3": 18.96875,
+        "stddev": 1.6707409503686088,
+        "zero_samples": 0
+      },
+      "above_record": "machines/ookay/full/capacity/4e34f3ad57e36324/complete.json",
+      "below": {
+        "maximum": 639.56640625,
+        "mean": 15.64031779296875,
+        "median": 15.53125,
+        "minimum": 13.8515625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 30619,
+        "p05": 14.82421875,
+        "p95": 16.59765625,
+        "q1": 15.21484375,
+        "q3": 15.8828125,
+        "stddev": 1.50269891040625,
+        "zero_samples": 0
+      },
+      "below_record": "machines/ookay/full/capacity/7f21ba6dd55f489f/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        6,
+        3
+      ],
+      "lower_bytes": 294912,
+      "ratio": 1.1939134808853118,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 327680
+    },
+    {
+      "above": {
+        "maximum": 1004.4296875,
+        "mean": 22.105255984375,
+        "median": 22.00390625,
+        "minimum": 19.7265625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 22555,
+        "p05": 21.0703125,
+        "p95": 23.15234375,
+        "q1": 21.6171875,
+        "q3": 22.43359375,
+        "stddev": 1.8169599017947753,
+        "zero_samples": 0
+      },
+      "above_record": "machines/ookay/full/capacity/f39fdce3c86e1b5d/complete.json",
+      "below": {
+        "maximum": 644.46875,
+        "mean": 19.66677478515625,
+        "median": 19.578125,
+        "minimum": 17.3359375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 32679,
+        "p05": 18.609375,
+        "p95": 20.80859375,
+        "q1": 19.19921875,
+        "q3": 19.96484375,
+        "stddev": 1.5931339664456057,
+        "zero_samples": 0
+      },
+      "below_record": "machines/ookay/full/capacity/6825d113a21a1aac/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        6,
+        6
+      ],
+      "lower_bytes": 360448,
+      "ratio": 1.12390263367917,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 393216
+    },
+    {
+      "above": {
+        "maximum": 277.6796875,
+        "mean": 134.79800687109375,
+        "median": 134.25,
+        "minimum": 64.890625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 33394,
+        "p05": 125.5078125,
+        "p95": 146.390625,
+        "q1": 130.55078125,
+        "q3": 138.26953125,
+        "stddev": 7.000438339107784,
+        "zero_samples": 0
+      },
+      "above_record": "machines/ookay/full/capacity/bb8f195574b8069a/complete.json",
+      "below": {
+        "maximum": 172.9921875,
+        "mean": 46.96563809375,
+        "median": 46.56640625,
+        "minimum": 39.89453125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 30255,
+        "p05": 43.48828125,
+        "p95": 51.1484375,
+        "q1": 45.171875,
+        "q3": 48.1484375,
+        "stddev": 3.0373294364803654,
+        "zero_samples": 0
+      },
+      "below_record": "machines/ookay/full/capacity/07fc465cf8aa66af/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        2,
+        2
+      ],
+      "lower_bytes": 4718592,
+      "ratio": 2.8829796158040435,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 7864320
+    },
+    {
+      "above": {
+        "maximum": 467.09375,
+        "mean": 239.965473796875,
+        "median": 239.2890625,
+        "minimum": 213.27734375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 46758,
+        "p05": 234.1640625,
+        "p95": 246.75390625,
+        "q1": 237.1484375,
+        "q3": 241.5703125,
+        "stddev": 5.26841803260141,
+        "zero_samples": 0
+      },
+      "above_record": "machines/ookay/full/capacity/1ae065576dcd7003/complete.json",
+      "below": {
+        "maximum": 421.65234375,
+        "mean": 210.4625616328125,
+        "median": 209.98046875,
+        "minimum": 162.25390625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 39688,
+        "p05": 202.84375,
+        "p95": 218.91015625,
+        "q1": 207.046875,
+        "q3": 212.98828125,
+        "stddev": 5.8590815429472904,
+        "zero_samples": 0
+      },
+      "below_record": "machines/ookay/full/capacity/f457b4c719bde7ec/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        2,
+        2
+      ],
+      "lower_bytes": 16777216,
+      "ratio": 1.139577713701051,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 33554432
+    }
+  ],
+  "chosen_primary_batch": 512,
+  "clean_points": 323,
+  "collection_complete": true,
+  "course_cpu_model": "Core i7-7700",
+  "coverage_issues": [],
+  "cpu_model": "model name\t: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz",
+  "host": "ookay",
+  "inclusion_policy": {
+    "reason": "Same-core pressure may directly evict upper copies; lower-level-only eviction and upper residency were not independently established. No global inclusion/exclusion classification.",
+    "status": "uncertain"
+  },
+  "integrity_or_quality_issues": [],
+  "isa": "x86_64",
+  "l1_candidate": {
+    "capacity_endpoint_cpus": [
+      2,
+      3
+    ],
+    "capacity_interval_bytes": [
+      32768,
+      36864
+    ],
+    "capacity_rule": "First departure by >10% from median of first three small-footprint centers; interval, not a rounded cache answer",
+    "capacity_sources": [
+      "machines/ookay/full/capacity/88507a7d2ae5e605/complete.json",
+      "machines/ookay/full/capacity/537b9a090d377e7b/complete.json"
+    ],
+    "caveat": "Conditional L1 interpretation of the smallest timing class. All numerical candidates come from measured plateaus and repeated spatial/conflict edges; no specification value is used.",
+    "conflict_strides": [
+      4096,
+      16384,
+      65536,
+      262144
+    ],
+    "geometry": null,
+    "hit_class_median_ns": 1.011315960261722,
+    "hit_class_statistics": {
+      "maximum": 62.65625,
+      "mean": 3.6540366484375,
+      "median": 3.640625,
+      "minimum": 3.6171875,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 11246,
+      "p05": 3.6328125,
+      "p95": 3.65234375,
+      "q1": 3.63671875,
+      "q3": 3.64453125,
+      "stddev": 0.44570248594277184,
+      "zero_samples": 0
+    },
+    "line_bytes": null,
+    "nanosecond_conversion": "per-run timer/CLOCK_MONOTONIC_RAW calibration; approximate",
+    "next_class_statistics": {
+      "maximum": 133.8125,
+      "mean": 4.70741648046875,
+      "median": 4.6796875,
+      "minimum": 4.3125,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 39494,
+      "p05": 4.5078125,
+      "p95": 4.875,
+      "q1": 4.609375,
+      "q3": 4.75,
+      "stddev": 0.7061286346422937,
+      "zero_samples": 0
+    },
+    "status": "unresolved",
+    "unit": "TSC_ticks/access",
+    "ways": 8,
+    "ways_rule": "Unique conflict threshold reproduced at three or more strides; conditional virtual-index interpretation"
+  },
+  "line_size": {
+    "candidates": [
+      {
+        "footprint": 524288,
+        "offset_lower": 56,
+        "offset_upper": 64,
+        "sources": [
+          "machines/ookay/full/line_size/d4f6690422559771/complete.json",
+          "machines/ookay/full/line_size/16add745949c27be/complete.json"
+        ]
+      },
+      {
+        "footprint": 524288,
+        "offset_lower": 120,
+        "offset_upper": 128,
+        "sources": [
+          "machines/ookay/full/line_size/ed0ccf1eba241cd9/complete.json",
+          "machines/ookay/full/line_size/92a56a26287dc3bf/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 56,
+        "offset_upper": 64,
+        "sources": [
+          "machines/ookay/full/line_size/7043913155835203/complete.json",
+          "machines/ookay/full/line_size/268d244815b7c11f/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 120,
+        "offset_upper": 128,
+        "sources": [
+          "machines/ookay/full/line_size/5c39c44369d3553d/complete.json",
+          "machines/ookay/full/line_size/44e36cada10712d7/complete.json"
+        ]
+      }
+    ],
+    "limitation": "Random 512-byte blocks have fixed allocation and node count; physical line occupancy changes with offset. Prefetching and residency can obscure or imitate a boundary.",
+    "status": "candidate spatial granularity only; distinct line sizes per cache level not established"
+  },
+  "missing_families": [],
+  "noisy_points": 3,
+  "observed_cpus": [
+    2,
+    3,
+    6
+  ],
+  "observed_numa_nodes": [
+    0
+  ],
+  "observed_sockets": [
+    0
+  ],
+  "page_control": {
+    "alternate_batch_control_points": 0,
+    "attempts": 10,
+    "complete": true,
+    "interpretation": "Changed latency with confirmed huge backing is consistent with translation effects, but allocation/physical indexing and changed cores may also contribute. No cache geometry is read from page metadata.",
+    "issues": [],
+    "missing_working_sets": [],
+    "pairs": [
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/ookay/full/capacity/a2061cd0d0459e0e/complete.json",
+        "baseline_statistics": {
+          "maximum": 62.65625,
+          "mean": 3.6540366484375,
+          "median": 3.640625,
+          "minimum": 3.6171875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 11246,
+          "p05": 3.6328125,
+          "p95": 3.65234375,
+          "q1": 3.63671875,
+          "q3": 3.64453125,
+          "stddev": 0.44570248594277184,
+          "zero_samples": 0
+        },
+        "bytes": 1024,
+        "control_cpu": 2,
+        "control_raw": "machines/ookay/page_control/page_control/7652f53c8295cc01/attempt-1788845034158701413/samples.u64.gz",
+        "control_record": "machines/ookay/page_control/page_control/7652f53c8295cc01/complete.json",
+        "control_sha256": "8d3cd169840a271ad2871836eba1a51a2a0810c4c08ff31d401a1f8884dc07cc",
+        "control_statistics": {
+          "maximum": 66.53125,
+          "mean": 3.6562577890625,
+          "median": 3.640625,
+          "minimum": 3.6171875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 16881,
+          "p05": 3.62890625,
+          "p95": 3.6484375,
+          "q1": 3.63671875,
+          "q3": 3.64453125,
+          "stddev": 0.4964925300361153,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1024,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/ookay/full/capacity/e60873bc36eeda47/complete.json",
+        "baseline_statistics": {
+          "maximum": 63.12890625,
+          "mean": 3.65695971875,
+          "median": 3.640625,
+          "minimum": 3.6171875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 17045,
+          "p05": 3.6328125,
+          "p95": 3.65234375,
+          "q1": 3.63671875,
+          "q3": 3.64453125,
+          "stddev": 0.4551514536229571,
+          "zero_samples": 0
+        },
+        "bytes": 4096,
+        "control_cpu": 2,
+        "control_raw": "machines/ookay/page_control/page_control/742a26d8d16caf54/attempt-1788845027811530493/samples.u64.gz",
+        "control_record": "machines/ookay/page_control/page_control/742a26d8d16caf54/complete.json",
+        "control_sha256": "76c76194af5cb36d4eb502a4e0007ba78a1c9de83a3272a0d50d74d18358938c",
+        "control_statistics": {
+          "maximum": 66.515625,
+          "mean": 3.65968601953125,
+          "median": 3.640625,
+          "minimum": 3.6171875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 23555,
+          "p05": 3.62890625,
+          "p95": 3.6484375,
+          "q1": 3.63671875,
+          "q3": 3.64453125,
+          "stddev": 0.5166017701436982,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4096,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/ookay/full/capacity/1089444a01cfc92f/complete.json",
+        "baseline_statistics": {
+          "maximum": 106.94140625,
+          "mean": 3.6696948046875,
+          "median": 3.640625,
+          "minimum": 3.6171875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 41973,
+          "p05": 3.6328125,
+          "p95": 3.65234375,
+          "q1": 3.63671875,
+          "q3": 3.64453125,
+          "stddev": 0.510134558093885,
+          "zero_samples": 0
+        },
+        "bytes": 16384,
+        "control_cpu": 2,
+        "control_raw": "machines/ookay/page_control/page_control/09ef7df9f81f7f93/attempt-1788845114062865516/samples.u64.gz",
+        "control_record": "machines/ookay/page_control/page_control/09ef7df9f81f7f93/complete.json",
+        "control_sha256": "f6427b2b0b8bc13fa7d610aa1583b77fbe345a64fdbc6af05c9542ae90d2f8d9",
+        "control_statistics": {
+          "maximum": 66.953125,
+          "mean": 3.6780443125,
+          "median": 3.640625,
+          "minimum": 3.6171875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 57949,
+          "p05": 3.62890625,
+          "p95": 3.921875,
+          "q1": 3.63671875,
+          "q3": 3.64453125,
+          "stddev": 0.5126862332601153,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16384,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/ookay/full/capacity/a1613987f08ccb36/complete.json",
+        "baseline_statistics": {
+          "maximum": 144.85546875,
+          "mean": 7.69006603125,
+          "median": 7.62109375,
+          "minimum": 7.1953125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 45032,
+          "p05": 7.28515625,
+          "p95": 8.1484375,
+          "q1": 7.48828125,
+          "q3": 7.7578125,
+          "stddev": 0.8125486011635175,
+          "zero_samples": 0
+        },
+        "bytes": 65536,
+        "control_cpu": 2,
+        "control_raw": "machines/ookay/page_control/page_control/c393682c95f11b8d/attempt-1788845101790240277/samples.u64.gz",
+        "control_record": "machines/ookay/page_control/page_control/c393682c95f11b8d/complete.json",
+        "control_sha256": "e77906169fb23ceb13fc863143017dfc6bb94d5373724db875d2f035b6b386db",
+        "control_statistics": {
+          "maximum": 111.6328125,
+          "mean": 7.73472896484375,
+          "median": 7.66015625,
+          "minimum": 7.16015625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 29938,
+          "p05": 7.3125,
+          "p95": 8.265625,
+          "q1": 7.48828125,
+          "q3": 7.85546875,
+          "stddev": 0.8399981761905541,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 65536,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/ookay/full/capacity/27b21893ade16f10/complete.json",
+        "baseline_statistics": {
+          "maximum": 121.6640625,
+          "mean": 14.5968274375,
+          "median": 14.48046875,
+          "minimum": 12.47265625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 31448,
+          "p05": 13.6015625,
+          "p95": 15.75,
+          "q1": 14.10546875,
+          "q3": 14.90234375,
+          "stddev": 1.2160141622747707,
+          "zero_samples": 0
+        },
+        "bytes": 262144,
+        "control_cpu": 2,
+        "control_raw": "machines/ookay/page_control/page_control/ea97dc017b281ef5/attempt-1788845120689161333/samples.u64.gz",
+        "control_record": "machines/ookay/page_control/page_control/ea97dc017b281ef5/complete.json",
+        "control_sha256": "5fcb9ee6b056f020a01fd66d8b0ee530585c06e871d163df45f1ebe44d501c40",
+        "control_statistics": {
+          "maximum": 127.55859375,
+          "mean": 10.421227546875,
+          "median": 10.24609375,
+          "minimum": 9.65625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 53734,
+          "p05": 9.8671875,
+          "p95": 11.42578125,
+          "q1": 10.015625,
+          "q3": 10.55859375,
+          "stddev": 0.9963385990320158,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 262144,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/ookay/full/capacity/b89afa08c865a1d6/complete.json",
+        "baseline_statistics": {
+          "maximum": 157.734375,
+          "mean": 34.1808125,
+          "median": 34.109375,
+          "minimum": 32.30859375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 16073,
+          "p05": 33.26171875,
+          "p95": 34.8984375,
+          "q1": 33.796875,
+          "q3": 34.421875,
+          "stddev": 1.3659719008311229,
+          "zero_samples": 0
+        },
+        "bytes": 1048576,
+        "control_cpu": 2,
+        "control_raw": "machines/ookay/page_control/page_control/eb86a5e6e74cc28b/attempt-1788845040450334142/samples.u64.gz",
+        "control_record": "machines/ookay/page_control/page_control/eb86a5e6e74cc28b/complete.json",
+        "control_sha256": "839c8d66b4d453290bb8f65bbe607adaf20b0786f8fc05a5c86d9a3776de5e27",
+        "control_statistics": {
+          "maximum": 152.2421875,
+          "mean": 28.1640789765625,
+          "median": 28.08984375,
+          "minimum": 25.515625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 13090,
+          "p05": 27.36328125,
+          "p95": 28.84765625,
+          "q1": 27.78515625,
+          "q3": 28.3984375,
+          "stddev": 1.3363152277492092,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1048576,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/ookay/full/capacity/c4b6829afa284d31/complete.json",
+        "baseline_statistics": {
+          "maximum": 179.82421875,
+          "mean": 45.64449050390625,
+          "median": 45.27734375,
+          "minimum": 39.2421875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 26452,
+          "p05": 42.51171875,
+          "p95": 49.4140625,
+          "q1": 44.0,
+          "q3": 46.7578125,
+          "stddev": 2.770197975727747,
+          "zero_samples": 0
+        },
+        "bytes": 4194304,
+        "control_cpu": 2,
+        "control_raw": "machines/ookay/page_control/page_control/946ad6dfc55470b4/attempt-1788845012432016440/samples.u64.gz",
+        "control_record": "machines/ookay/page_control/page_control/946ad6dfc55470b4/complete.json",
+        "control_sha256": "3b89197fcba7b9c97ef65db5aeef41736ead307fe86c1fa38f4294e21e9e71b2",
+        "control_statistics": {
+          "maximum": 165.83203125,
+          "mean": 35.36983131640625,
+          "median": 34.78515625,
+          "minimum": 31.16015625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 12369,
+          "p05": 32.59375,
+          "p95": 39.4921875,
+          "q1": 33.53515625,
+          "q3": 36.68359375,
+          "stddev": 2.730507186884395,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 4194304,
+        "huge_backing_before_bytes": 4194304,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 4096,
+          "anon_huge_before_kib": 4096,
+          "anon_huge_kib": 4096,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4194304,
+          "mapped_bytes": 4194304,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/ookay/full/capacity/f457b4c719bde7ec/complete.json",
+        "baseline_statistics": {
+          "maximum": 421.65234375,
+          "mean": 210.4625616328125,
+          "median": 209.98046875,
+          "minimum": 162.25390625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 39688,
+          "p05": 202.84375,
+          "p95": 218.91015625,
+          "q1": 207.046875,
+          "q3": 212.98828125,
+          "stddev": 5.8590815429472904,
+          "zero_samples": 0
+        },
+        "bytes": 16777216,
+        "control_cpu": 2,
+        "control_raw": "machines/ookay/page_control/page_control/e952e84d554347d9/attempt-1788845134609111122/samples.u64.gz",
+        "control_record": "machines/ookay/page_control/page_control/e952e84d554347d9/complete.json",
+        "control_sha256": "55639744ec2ab3e874a41cab14abb2746c513c3a39179b1635196ddcea2ba45b",
+        "control_statistics": {
+          "maximum": 412.203125,
+          "mean": 193.20630382421874,
+          "median": 192.69921875,
+          "minimum": 146.578125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 39291,
+          "p05": 184.828125,
+          "p95": 203.09375,
+          "q1": 189.4453125,
+          "q3": 196.13671875,
+          "stddev": 6.321727560988682,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 16777216,
+        "huge_backing_before_bytes": 16777216,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 16384,
+          "anon_huge_before_kib": 16384,
+          "anon_huge_kib": 16384,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16777216,
+          "mapped_bytes": 16777216,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/ookay/full/capacity/72d9857904afde50/complete.json",
+        "baseline_statistics": {
+          "maximum": 479.38671875,
+          "mean": 256.5091515859375,
+          "median": 255.83984375,
+          "minimum": 242.98828125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 46960,
+          "p05": 251.6328125,
+          "p95": 261.6251953124997,
+          "q1": 254.0859375,
+          "q3": 257.6171875,
+          "stddev": 4.964332902684936,
+          "zero_samples": 0
+        },
+        "bytes": 67108864,
+        "control_cpu": 2,
+        "control_raw": "machines/ookay/page_control/page_control/e78f1f36b5bdfcc9/attempt-1788845056730539360/samples.u64.gz",
+        "control_record": "machines/ookay/page_control/page_control/e78f1f36b5bdfcc9/complete.json",
+        "control_sha256": "2d1458c8c3f47c6f66522b341233e06b1cbed1ceb8060a608bf22e58c0383cd7",
+        "control_statistics": {
+          "maximum": 446.48046875,
+          "mean": 226.1221822421875,
+          "median": 225.625,
+          "minimum": 208.56640625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 36034,
+          "p05": 220.390625,
+          "p95": 232.6171875,
+          "q1": 223.109375,
+          "q3": 228.0390625,
+          "stddev": 4.978263889335986,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 67108864,
+        "huge_backing_before_bytes": 67108864,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 65536,
+          "anon_huge_before_kib": 65536,
+          "anon_huge_kib": 65536,
+          "kernel_page_kib": 4,
+          "logical_bytes": 67108864,
+          "mapped_bytes": 67108864,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/ookay/full/capacity/9997ce58d3098d2d/complete.json",
+        "baseline_statistics": {
+          "maximum": 498.15625,
+          "mean": 276.81434809375,
+          "median": 275.99609375,
+          "minimum": 265.1875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 58423,
+          "p05": 273.015625,
+          "p95": 281.94140625,
+          "q1": 274.78515625,
+          "q3": 277.3359375,
+          "stddev": 4.6711262280897055,
+          "zero_samples": 0
+        },
+        "bytes": 268435456,
+        "control_cpu": 2,
+        "control_raw": "machines/ookay/page_control/page_control/8dc216dca06e838f/attempt-1788845175410970178/samples.u64.gz",
+        "control_record": "machines/ookay/page_control/page_control/8dc216dca06e838f/complete.json",
+        "control_sha256": "8fd949dba00d702cd74157e2a28c6fafa4f5e564c3dbaa2a61baa763cc90bd34",
+        "control_statistics": {
+          "maximum": 452.07421875,
+          "mean": 236.67153566015625,
+          "median": 236.20703125,
+          "minimum": 224.4453125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 37387,
+          "p05": 231.11328125,
+          "p95": 242.92578125,
+          "q1": 233.7109375,
+          "q3": 238.48046875,
+          "stddev": 4.870641054430486,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 268435456,
+        "huge_backing_before_bytes": 268435456,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 262144,
+          "anon_huge_before_kib": 262144,
+          "anon_huge_kib": 262144,
+          "kernel_page_kib": 4,
+          "logical_bytes": 268435456,
+          "mapped_bytes": 268435456,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      }
+    ],
+    "unavailable": false
+  },
+  "plots": [
+    "plots/ookay-capacity.svg",
+    "plots/ookay-line_size.svg",
+    "plots/ookay-associativity.svg",
+    "plots/ookay-inclusion_policy.svg",
+    "plots/ookay-latency.svg",
+    "plots/ookay-software_metric.svg",
+    "plots/ookay-timer.svg",
+    "plots/ookay-loop.svg",
+    "plots/ookay-boundary-distributions.svg",
+    "plots/ookay-page-control.svg"
+  ],
+  "primary_collection_complete": true,
+  "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+  "software_metric": {
+    "block_rate_range": [
+      0.9747,
+      0.9997
+    ],
+    "calibration_and_workload_cpus": [
+      2,
+      2,
+      2
+    ],
+    "classified_hits": 989148,
+    "estimate": 0.989148,
+    "limitations": "Single-load timer overhead/quantization; smallest/largest footprints are empirical proxies, not PMU-confirmed classes. Adjacent samples are correlated. Wilson intervals omit calibration/classification error; threshold-sensitivity and block ranges expose additional uncertainty. Phase-II validation not performed.",
+    "same_logical_cpu": true,
+    "sources": [
+      "machines/ookay/full/software_metric/00cef01de4beae11/complete.json",
+      "machines/ookay/full/software_metric/321cb4ea8263334b/complete.json",
+      "machines/ookay/full/software_metric/484f3d0a0a6e6e81/complete.json"
+    ],
+    "standardized_workload_bytes": 1048576,
+    "status": "timing-classified cache-residency proxy; not a validated hardware hit rate",
+    "threshold_raw_ticks": 180.0,
+    "threshold_sensitivity_limits_raw_ticks": [
+      68.0,
+      292.0
+    ],
+    "threshold_sensitivity_rate_range": [
+      0.011408,
+      0.997781
+    ],
+    "total_timed_accesses": 1000000,
+    "unit": "TSC_ticks",
+    "wilson_95_independent_sample_assumption": [
+      0.9889430445403758,
+      0.9893491972521481
+    ]
+  },
+  "unsuccessful_attempts": 48,
+  "verified_points": 326
+}

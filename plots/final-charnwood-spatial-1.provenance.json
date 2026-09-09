@@ -1,0 +1,19 @@
+{
+  "comparison_cohort_policy": "machines/charnwood/uncertainty-v1/spatial-cohorts.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/charnwood/uncertainty-v1/spatial_residency/0e0c163db8bf5b6d/attempt-1788877109060455470/run.json",
+    "machines/charnwood/uncertainty-v1/spatial_residency/419e05018003636e/attempt-1788877132380283128/run.json",
+    "machines/charnwood/uncertainty-v1/spatial_residency/f6e839d11c102c67/attempt-1788877119630695727/run.json",
+    "machines/charnwood/uncertainty-v1/spatial_residency/c29077b4ec1cbd9c/attempt-1788877170025066440/run.json",
+    "machines/charnwood/uncertainty-v1/spatial_residency/8ae6f1820d4e9ba3/attempt-1788877157422435201/run.json",
+    "machines/charnwood/uncertainty-v1/spatial_residency/6b74c563788d9d02/attempt-1788877145031054262/run.json",
+    "machines/charnwood/uncertainty-v1/spatial_residency/ca9507ef06000638/attempt-1788877179928023099/run.json",
+    "machines/charnwood/uncertainty-v1/spatial_residency/a96342765990ba23/attempt-1788877202850983010/run.json",
+    "machines/charnwood/uncertainty-v1/spatial_residency/ec32139318de066e/attempt-1788877189826150390/run.json",
+    "machines/charnwood/uncertainty-v1/spatial_residency/adf4cb0d00b475ab/attempt-1788877296597255689/run.json",
+    "machines/charnwood/uncertainty-v1/spatial_residency/2dd45498a762f8ce/attempt-1788877306523414471/run.json",
+    "machines/charnwood/uncertainty-v1/spatial_residency/5d2488b667fd7573/attempt-1788877284344669286/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:08.966152+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/crux/full/latency/5f5aa4048e55f9f5/attempt-1788839488340954826/samples.u64.gz",
+      "record": "machines/crux/full/latency/5f5aa4048e55f9f5/complete.json",
+      "sha256": "1b5fb27bd28956b6013aa75094b2ddcf6bd49bbb1ec2533d84ec71c8f191c61c"
+    },
+    {
+      "raw": "machines/crux/full/latency/a2061cd0d0459e0e/attempt-1788839496548495865/samples.u64.gz",
+      "record": "machines/crux/full/latency/a2061cd0d0459e0e/complete.json",
+      "sha256": "7ad2fa21566da4c504120cb0202fda0930a3663acdf25bc578ee2208eb672b15"
+    },
+    {
+      "raw": "machines/crux/full/latency/e2f3323faa76ee0b/attempt-1788839492508192712/samples.u64.gz",
+      "record": "machines/crux/full/latency/e2f3323faa76ee0b/complete.json",
+      "sha256": "61925249eecbfb456e9511cda2a07651baf31796533d0cfa1eeffa063d845131"
+    }
+  ]
+}

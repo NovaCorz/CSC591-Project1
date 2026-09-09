@@ -1,0 +1,18 @@
+{
+  "comparison_cohort_policy": "machines/crux/uncertainty-v1/capacity-matched.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/crux/uncertainty-v1/capacity_matched/9d010a7a9a94a4aa/attempt-1788878836673774259/run.json",
+    "machines/crux/uncertainty-v1/capacity_matched/e43f5527b7d7d034/attempt-1788878824110192116/run.json",
+    "machines/crux/uncertainty-v1/capacity_matched/05b51b0cd3fa525f/attempt-1788878882921830620/run.json",
+    "machines/crux/uncertainty-v1/capacity_matched/c0a995352d60c8fc/attempt-1788878849753273925/run.json",
+    "machines/crux/uncertainty-v1/capacity_matched/a0b12dc950f22239/attempt-1788878931385024588/run.json",
+    "machines/crux/uncertainty-v1/capacity_matched/6f395603c415447e/attempt-1788879007918608538/run.json",
+    "machines/crux/uncertainty-v1/capacity_matched/6e94ad6eee4529a6/attempt-1788878948074656157/run.json",
+    "machines/crux/uncertainty-v1/capacity_matched/899bf1abed3a1375/attempt-1788878901403507689/run.json",
+    "machines/crux/uncertainty-v1/capacity_matched/877c27a91cdb26bb/attempt-1788878975066394894/run.json",
+    "machines/crux/uncertainty-v1/capacity_matched/06f7b7468de3fd5c/attempt-1788879063026263655/run.json",
+    "machines/crux/uncertainty-v1/capacity_matched/7f6c5b728abb8237/attempt-1788879028736659832/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:14.349251+00:00"
+}

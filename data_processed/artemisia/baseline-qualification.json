@@ -1,0 +1,2121 @@
+[
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/0491972b4b35426c/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/0a202acd686ea04b/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/0d1f915b33f506d9/complete.json",
+    "stddev_rounding_difference": 4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/0de4aad32068ef9a/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/104e6657a84db695/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/12121ee0b611d82b/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/132b517b0b3d3f34/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/168bd84b9367ab17/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/16a49b09d7a9a691/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "SMT sibling became busy"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/associativity/17cbfb250276390f/attempt-1788844675130033471/run.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/1b098b29f3cf94c9/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/1b2a7fcfb44a1d94/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/1da24cba0899f915/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/1e90118842f3c7c6/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/201d03b0408e0349/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/210d6a3c6c57f2e1/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/2677fffff38720ff/complete.json",
+    "stddev_rounding_difference": -3.3306690738754696e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/2879de04cdd616d4/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/2b666b649935b6c2/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/30a898edb0853594/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/30e88e6d1584e91c/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches",
+      "SMT sibling became busy"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/associativity/33323388b381190b/attempt-1788844828534833074/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/338bafeff6212060/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/35289608df8eec81/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/373cab8940f6b91b/complete.json",
+    "stddev_rounding_difference": 5.551115123125783e-17
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/3d0e10ae406f908f/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/3d84f861f8502842/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/4134bb7b2cdd5bbd/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/471107240c027724/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/588f13e97f19bd3a/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/59fa9bfe21241322/complete.json",
+    "stddev_rounding_difference": -3.3306690738754696e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/64902fca6b3a3884/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/6919712b091fa935/complete.json",
+    "stddev_rounding_difference": 4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/6a547b2a6f1de694/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/6bab1ec3b254f3e0/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/6d7c13b9353b2779/complete.json",
+    "stddev_rounding_difference": 3.3306690738754696e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/6fa72e9592e92cb2/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/72cb6da2f328ad2f/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/7302d430988271dc/complete.json",
+    "stddev_rounding_difference": 4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/747e23fce24858b8/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/77b747362a856ce8/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/77e82df3ebb30876/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/7d5cfd759d320e39/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/7ea601b5c11ee3bb/complete.json",
+    "stddev_rounding_difference": -6.661338147750939e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/81ee6142ee68d942/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches",
+      "SMT sibling became busy"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/associativity/82762457e6bd1081/attempt-1788844708560726192/run.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/8375c2c552680262/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/89f69cf5fe189f4e/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/8b84980936061e4c/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "SMT sibling became busy"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/associativity/8b973359e663b192/attempt-1788844772849659524/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/8c411b8bc6a39a76/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/8ef542ee337bfae8/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/8f2aa37c7d488ce9/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/8feeaededdd7ad8d/complete.json",
+    "stddev_rounding_difference": 3.3306690738754696e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/936236e5c62a058d/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/94005cf415017b84/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/94c3dafaa59bd1b9/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/999c4717498a179b/complete.json",
+    "stddev_rounding_difference": -6.661338147750939e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/9acc8d7d0d19ed7c/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/9d9613d20a7aaee6/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/9eea249b07960620/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/a029dff7d1b56dff/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/a1408148e84383c2/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/a27554bca0605055/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/a2cfc462062e0477/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/a7a71ea4504b0590/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/a7adfdfc0fa9bfe1/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/a8ea4e77cc3f5894/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/a91ac0c28d0b2f12/complete.json",
+    "stddev_rounding_difference": -6.661338147750939e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/aa5c1f934b2fc231/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/b41605ea4dcae012/complete.json",
+    "stddev_rounding_difference": 5.551115123125783e-17
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/b6d8556c57b66c48/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/b8963ce5386cd4e9/complete.json",
+    "stddev_rounding_difference": 4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/b9c40225a0f611aa/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/bdf43144b4d1a3af/complete.json",
+    "stddev_rounding_difference": 3.3306690738754696e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/c1a9ed716e8aa294/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/c81526f117f3dba4/complete.json",
+    "stddev_rounding_difference": -6.661338147750939e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/c9257c1095fe5b07/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/d135b016f6205cf8/complete.json",
+    "stddev_rounding_difference": -3.3306690738754696e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/associativity/d8a33082a1c7bbda/attempt-1788844799233226780/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/d96e30e4f707d9ba/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/dad8f29bfc0274de/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/dbb40d907ba12958/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/dc40442c8a0f6cb2/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/e1a78666bcab425a/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/e1bb47032d53841a/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/ec6c8fc1aa841772/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/ec8cc6866a60f3b2/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/ed221d76835ac0f8/complete.json",
+    "stddev_rounding_difference": 3.3306690738754696e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/ed51bfd7f594c815/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/f6de43ddf7fa7bb2/complete.json",
+    "stddev_rounding_difference": 5.551115123125783e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/associativity/fca39d19656e0f26/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/023779155542a11c/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/02c63904c453902c/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/03ff17930a919a1f/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/0409e7b774f137de/complete.json",
+    "stddev_rounding_difference": -5.551115123125783e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/08999873af33fb06/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/0972ee0e474bdcfb/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/0f10b18a924e1dfe/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/1089444a01cfc92f/complete.json",
+    "stddev_rounding_difference": -1.6653345369377348e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/11c3dccd9b875685/complete.json",
+    "stddev_rounding_difference": -1.6653345369377348e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/16dc71f8bad50fbe/attempt-1788840363619010447/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/16e18e789b96494a/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/189dbd7def04afa2/attempt-1788841266519931046/run.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/197979d2a66ccb67/complete.json",
+    "stddev_rounding_difference": 8.881784197001252e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/1b0b34d0dd539637/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/1d0169deaeb6aa4d/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/1d357261cf7ceb62/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/1d7da82bc43924a7/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/2257b840fff08eab/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/225f9b334b30597e/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/27619a8563b84088/attempt-1788839588688668401/run.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/282f0504951245c5/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/28a1c36bdffd3415/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/28d3235f57798e05/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/29694a28ff58e1f6/complete.json",
+    "stddev_rounding_difference": 4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/29b42dcfb5a0bc63/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/2d6497dbd0574a58/complete.json",
+    "stddev_rounding_difference": -8.881784197001252e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/2e5cfaa6d95511fb/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/31050f6032ffbe4b/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/31448ada748bc89c/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/31bfa1b28771b3e4/attempt-1788843294835546867/run.json",
+    "stddev_rounding_difference": 8.881784197001252e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/3202a259985a3c25/complete.json",
+    "stddev_rounding_difference": -3.3306690738754696e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/353d9b72cbfa739d/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/36e73b20ccbe4b8f/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/386bac387b3a038f/attempt-1788840420273185902/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/3adb09848a965464/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/3d6aec4c82b4e243/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/3e44d6c79f54972b/attempt-1788842535954570454/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/3e84b8c8a31625e9/complete.json",
+    "stddev_rounding_difference": -3.3306690738754696e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/3f88bb2f84763db1/attempt-1788842229358643468/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/40a069d89c17efc8/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/42d07c07c02a11de/attempt-1788842157361350382/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/44447c127ed57ffd/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/4f7ce274d3395ebc/complete.json",
+    "stddev_rounding_difference": -8.881784197001252e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/4f9e3b4f27b8c8df/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/50f66977c835a802/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/557caf44b1c0c400/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/58786f2001046d49/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/5b3105251866c539/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches",
+      "SMT sibling became busy"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/5b6e9fb0a066f7ea/attempt-1788841066518641009/run.json",
+    "stddev_rounding_difference": 1.4210854715202004e-14
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/5b8f357225fa6ed4/attempt-1788840183996853804/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/5c81c33f1bf87d40/attempt-1788841727257067631/run.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/5e53313a412e0a0f/complete.json",
+    "stddev_rounding_difference": 3.3306690738754696e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/5e9e24f1aa1ff996/attempt-1788842904488824116/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/5f0a720e4cb2f3d8/attempt-1788841497239875520/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/60b0d6ad2002ff77/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/681f2a00e73c3a43/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/6e93b3dac452cb3c/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/6fbd69a4c5cbe125/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches",
+      "SMT sibling became busy",
+      "block median drift exceeds 20 percent"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/7042ae960df0e7a4/attempt-1788842424339280731/run.json",
+    "stddev_rounding_difference": -4.973799150320701e-14
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [
+      "frequent involuntary context switches",
+      "SMT sibling became busy"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/72d9857904afde50/attempt-1788839938622618750/run.json",
+    "stddev_rounding_difference": -1.4210854715202004e-14
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/736da0eeb687c954/attempt-1788839644059415714/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/7385b25de6001a41/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/75a4081fb1ae1d87/attempt-1788843055786352030/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/792db32dcc500818/complete.json",
+    "stddev_rounding_difference": -8.881784197001252e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/79fad2442931bbf2/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/7bafab6262362398/complete.json",
+    "stddev_rounding_difference": -6.661338147750939e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/7c66029d896ba77a/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/7ca7696ce001cb69/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/7cfad63962e6986f/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/7ee67b61c39d202d/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/8030d623a0b1b36c/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/87de17c63b508e69/complete.json",
+    "stddev_rounding_difference": 8.881784197001252e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/88507a7d2ae5e605/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/89a2821c0daeda58/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/89dad40b8c07d29b/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/8cd57753d6712f5e/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "block median drift exceeds 20 percent"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/8d9e84944bb2e8f1/attempt-1788841841090043225/run.json",
+    "stddev_rounding_difference": 1.1546319456101628e-14
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [
+      "frequent involuntary context switches",
+      "block median drift exceeds 20 percent"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/8f4d85e9bb216daf/attempt-1788839796791544013/run.json",
+    "stddev_rounding_difference": 1.0658141036401503e-14
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/98d82976833e95f4/attempt-1788841584431883900/run.json",
+    "stddev_rounding_difference": 1.4210854715202004e-14
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [
+      "frequent involuntary context switches",
+      "SMT sibling became busy"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/9997ce58d3098d2d/attempt-1788839253641573133/run.json",
+    "stddev_rounding_difference": -1.4210854715202004e-14
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/9a673d820f60e39c/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/9bdd87ef31ccfd07/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/9d0d70ed391b5044/complete.json",
+    "stddev_rounding_difference": -5.551115123125783e-17
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/9ee6a061a941f476/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/a1613987f08ccb36/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/a2061cd0d0459e0e/complete.json",
+    "stddev_rounding_difference": -1.6653345369377348e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/a753dc3b76d72a04/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/a96b15476e5bc0fc/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/aa89f9623db42f71/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/ac6d2d0b59ed2027/attempt-1788842647267212540/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/afe2a5bee46fc64e/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/b024f5f2df7c8dca/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/b2570ebd19796da4/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/b6e22c1e7bfe96ab/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/bd6dc8e744f7eb71/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [
+      "frequent involuntary context switches",
+      "SMT sibling became busy"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/c4b6829afa284d31/attempt-1788840709574419221/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/c5eb83809e4f0568/attempt-1788840790309061019/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/cc51762bd486b226/attempt-1788843372453728883/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/cd4bf9189a71a1ed/complete.json",
+    "stddev_rounding_difference": 3.1086244689504383e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/d3359ca77d110c68/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/d46d6880e3a16fdc/attempt-1788840309286345831/run.json",
+    "stddev_rounding_difference": -3.3306690738754696e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/d4739dbd16781663/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/d51f07d382755a6f/complete.json",
+    "stddev_rounding_difference": 1.5543122344752192e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/d52f881fdb831323/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/d5ad7ff0ce009152/complete.json",
+    "stddev_rounding_difference": 5.551115123125783e-17
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/d64211d89b67d89a/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/da2bb92de2adf8e5/attempt-1788841315418857029/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/db1aa23d31e6a01c/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/de0dec1f266be556/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/dfc52db4ce78d658/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/e2f3323faa76ee0b/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/e60873bc36eeda47/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/e69d7d1d9aeaada8/attempt-1788842807714427424/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/ea0f665089a65d27/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/eb8a2ba178e40e5a/complete.json",
+    "stddev_rounding_difference": 5.551115123125783e-17
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/ec375ceabfc8c25f/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/ee8db35754534f63/attempt-1788842080019811604/run.json",
+    "stddev_rounding_difference": -1.7763568394002505e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/ef1274b3e3c14313/attempt-1788843131841305075/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches",
+      "block median drift exceeds 20 percent"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/f037869accb3fd53/attempt-1788842283731516872/run.json",
+    "stddev_rounding_difference": 1.0658141036401503e-14
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/f2bcb51d6b67acc7/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "alternate batch control",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/f33ab0b3403cfdf4/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches",
+      "SMT sibling became busy"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/f33fcb49f940a0ac/attempt-1788841882967601184/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/f63d1f5b085e26a3/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/f69414550fdbd9a9/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/capacity/fc5bf64fc3f0ad49/attempt-1788843243026246081/run.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/capacity/fdccc4370bb82a9d/complete.json",
+    "stddev_rounding_difference": -7.771561172376096e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/09264f309289607b/complete.json",
+    "stddev_rounding_difference": 3.552713678800501e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/09fcceb9f0701d51/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/0ae4fe51612aff70/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/0ffcaa1244f6ed2c/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/10769efbbbd50276/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/2d7d892dbf1e5f68/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/3ebca3d513de705c/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/40721af77d4e5b98/complete.json",
+    "stddev_rounding_difference": -1.4210854715202004e-14
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/4c8b3e660b6fa37a/complete.json",
+    "stddev_rounding_difference": 3.552713678800501e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/5641d229bd0d48bd/complete.json",
+    "stddev_rounding_difference": -7.105427357601002e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/56bc7148eecc0adc/complete.json",
+    "stddev_rounding_difference": -1.4210854715202004e-14
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/7da9521ccced31d1/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/980f853270813f31/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/ad0279856ca99a1d/complete.json",
+    "stddev_rounding_difference": 7.105427357601002e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/be954dc7d28a0a2b/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/dcf2b2bd876406e9/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/f553baebb942c696/complete.json",
+    "stddev_rounding_difference": -3.552713678800501e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/inclusion_policy/f86af340938284f7/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/latency/5f5aa4048e55f9f5/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/latency/a2061cd0d0459e0e/complete.json",
+    "stddev_rounding_difference": 5.551115123125783e-17
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/latency/e2f3323faa76ee0b/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/0147a6c8dc0b8283/complete.json",
+    "stddev_rounding_difference": 4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/01b33ae6b426fcef/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/07e89c49504c2500/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/0e7d91f7904f6f65/complete.json",
+    "stddev_rounding_difference": -1.3322676295501878e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/105289973e395ea9/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/107f16620d57b45b/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/161f3e642cd2e7d6/complete.json",
+    "stddev_rounding_difference": -1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/19d87b88b30ce586/complete.json",
+    "stddev_rounding_difference": -1.7763568394002505e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/1a0fe92204406a47/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/1cb79712650f1cd0/complete.json",
+    "stddev_rounding_difference": 8.881784197001252e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/27a1be29080330b9/complete.json",
+    "stddev_rounding_difference": 4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/35eebd7c3c42f7c6/complete.json",
+    "stddev_rounding_difference": 6.661338147750939e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/3a8cd90a95cbb4a0/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/3db240964b227d67/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/4940f29d7376c357/complete.json",
+    "stddev_rounding_difference": -1.3322676295501878e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/58e98f00b103946d/complete.json",
+    "stddev_rounding_difference": 1.3322676295501878e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/5d2927fff7a318bd/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/64adc4135a4d5ffe/complete.json",
+    "stddev_rounding_difference": 1.7763568394002505e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/64b44c2a04b74f88/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/6ad6536b26478c14/complete.json",
+    "stddev_rounding_difference": -1.3322676295501878e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/73ff28a3a3d03884/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/7959a908e327455f/complete.json",
+    "stddev_rounding_difference": 1.1102230246251565e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/7c96dd48b8ca24c2/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/822494cd46496ba3/complete.json",
+    "stddev_rounding_difference": 4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/82907d438bee4f70/complete.json",
+    "stddev_rounding_difference": 2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/866bcd7ac64da8fe/complete.json",
+    "stddev_rounding_difference": 8.881784197001252e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/8cad103f59b6b112/complete.json",
+    "stddev_rounding_difference": -8.881784197001252e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/9708ea1530fe8dcd/complete.json",
+    "stddev_rounding_difference": 6.661338147750939e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/973df8c62cc4ff0b/complete.json",
+    "stddev_rounding_difference": 2.6645352591003757e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/9dc2cdb7921f4820/complete.json",
+    "stddev_rounding_difference": 3.1086244689504383e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/a744d864b87f507f/complete.json",
+    "stddev_rounding_difference": 1.7763568394002505e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/aaf8ec76811a6ec0/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/acce400b69ed2ba5/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/c6abf9a39dd16aca/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/c7d283e11d3d0097/complete.json",
+    "stddev_rounding_difference": 4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/d526932d8d01bd02/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/d6657ef2025fdf42/complete.json",
+    "stddev_rounding_difference": -1.3322676295501878e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/d76ba408cb8de30e/complete.json",
+    "stddev_rounding_difference": 8.881784197001252e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/da9867440a614d3b/complete.json",
+    "stddev_rounding_difference": -4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/dc576ae190a4f2e8/complete.json",
+    "stddev_rounding_difference": -5.551115123125783e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [
+      "frequent involuntary context switches"
+    ],
+    "qualification": "verified_noisy",
+    "record": "machines/artemisia/full/line_size/e60e972e59e5461c/attempt-1788844190994497602/run.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/f430e8cbf3d7a236/complete.json",
+    "stddev_rounding_difference": 4.440892098500626e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/f58382e257a41385/complete.json",
+    "stddev_rounding_difference": -1.3322676295501878e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/f68057e5c08e7b45/complete.json",
+    "stddev_rounding_difference": -2.220446049250313e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/fa336e86efff2e3c/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/line_size/fa7b6fe29da02a80/complete.json",
+    "stddev_rounding_difference": -8.881784197001252e-16
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/loop/49f938069234e658/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/software_metric/00cef01de4beae11/complete.json",
+    "stddev_rounding_difference": -3.552713678800501e-15
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/software_metric/321cb4ea8263334b/complete.json",
+    "stddev_rounding_difference": 0.0
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/software_metric/484f3d0a0a6e6e81/complete.json",
+    "stddev_rounding_difference": -7.105427357601002e-14
+  },
+  {
+    "analysis_role": "primary suite",
+    "flags": [],
+    "qualification": "verified_clean",
+    "record": "machines/artemisia/full/timer/5b5e8cd2c400f50c/complete.json",
+    "stddev_rounding_difference": 3.552713678800501e-15
+  }
+]

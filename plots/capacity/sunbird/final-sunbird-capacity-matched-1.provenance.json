@@ -1,0 +1,15 @@
+{
+  "comparison_cohort_policy": "machines/sunbird/uncertainty-v1/capacity-matched.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/sunbird/uncertainty-v1/capacity_matched/d0084e8974653182/attempt-1788877553414615745/run.json",
+    "machines/sunbird/uncertainty-v1/capacity_matched/98ff1bda9d3eabe6/attempt-1788877529307148558/run.json",
+    "machines/sunbird/uncertainty-v1/capacity_matched/ab2ddad7cdb602a1/attempt-1788877601919735151/run.json",
+    "machines/sunbird/uncertainty-v1/capacity_matched/8a92e230a686dbcb/attempt-1788877577978390279/run.json",
+    "machines/sunbird/uncertainty-v1/capacity_matched/fd6ed802e7124f44/attempt-1788877649273596553/run.json",
+    "machines/sunbird/uncertainty-v1/capacity_matched/45b325d71fb807f1/attempt-1788877626086011074/run.json",
+    "machines/sunbird/uncertainty-v1/capacity_matched/325a0a66b41eea9f/attempt-1788877695983028915/run.json",
+    "machines/sunbird/uncertainty-v1/capacity_matched/0c3c06a318106153/attempt-1788877673128977992/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:00:50.045741+00:00"
+}

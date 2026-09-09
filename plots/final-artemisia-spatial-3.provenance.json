@@ -1,0 +1,10 @@
+{
+  "comparison_cohort_policy": "machines/artemisia/uncertainty-v1/spatial-cohorts.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/artemisia/uncertainty-v1/spatial_residency/4d25bc329534c47a/attempt-1788873455724074153/run.json",
+    "machines/artemisia/uncertainty-v1/spatial_residency/4921e349175c2e1b/attempt-1788873432409131843/run.json",
+    "machines/artemisia/uncertainty-v1/spatial_residency/de9e6eb4077c9c9e/attempt-1788873409149806343/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:05.502252+00:00"
+}

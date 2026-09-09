@@ -1,0 +1,15 @@
+{
+  "comparison_cohort_policy": "machines/crux/uncertainty-v1/conflict-repair.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/crux/uncertainty-v1/batched_conflict/0adf8a1d0cc309a7/attempt-1788875221157789798/run.json",
+    "machines/crux/uncertainty-v1/batched_conflict/3f9293c3242269b8/attempt-1788875126431059053/run.json",
+    "machines/crux/uncertainty-v1/batched_conflict/4e9fa84db66a38b0/attempt-1788875041924576479/run.json",
+    "machines/crux/uncertainty-v1/batched_conflict/51f795acfee8fa5f/attempt-1788875060315681032/run.json",
+    "machines/crux/uncertainty-v1/batched_conflict/5c571f2eab84b85a/attempt-1788875270193115445/run.json",
+    "machines/crux/uncertainty-v1/batched_conflict/6724215df9bef148/attempt-1788874938126597925/run.json",
+    "machines/crux/uncertainty-v1/batched_conflict/d9b71e774805f73e/attempt-1788875149727354343/run.json",
+    "machines/crux/uncertainty-v1/batched_conflict/f66a0e031dbd36bd/attempt-1788874898981126705/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:17.408524+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/artemisia/full/latency/5f5aa4048e55f9f5/attempt-1788839178728371304/samples.u64.gz",
+      "record": "machines/artemisia/full/latency/5f5aa4048e55f9f5/complete.json",
+      "sha256": "4c093774f95f823b5b3b652783ba54cfe1a9f4619daa796a8cd70d434c5595c7"
+    },
+    {
+      "raw": "machines/artemisia/full/latency/a2061cd0d0459e0e/attempt-1788839193222445173/samples.u64.gz",
+      "record": "machines/artemisia/full/latency/a2061cd0d0459e0e/complete.json",
+      "sha256": "3406f93cae08c3071633ea6d1acfad9291cabd183903ac4b0917c9211084440f"
+    },
+    {
+      "raw": "machines/artemisia/full/latency/e2f3323faa76ee0b/attempt-1788841036364909185/samples.u64.gz",
+      "record": "machines/artemisia/full/latency/e2f3323faa76ee0b/complete.json",
+      "sha256": "7f8969f11d95d1387f53a627077903a85ea2a886b41b09b5f2b5e638dec23a2e"
+    }
+  ]
+}

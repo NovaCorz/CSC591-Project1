@@ -1,0 +1,28 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/thunderbird/full/latency/5f5aa4048e55f9f5/attempt-1788839179640426843/samples.u64.gz",
+      "record": "machines/thunderbird/full/latency/5f5aa4048e55f9f5/complete.json",
+      "sha256": "fb92beb9e42eb9868359360e24085a56dff2ee0967368fe29de87713dd6c9632"
+    },
+    {
+      "raw": "machines/thunderbird/full/latency/a2061cd0d0459e0e/attempt-1788839242244674934/samples.u64.gz",
+      "record": "machines/thunderbird/full/latency/a2061cd0d0459e0e/complete.json",
+      "sha256": "d4c692814c4b3ec44786cde83f31065783caac4eae7b262d700188b82edfb06c"
+    },
+    {
+      "raw": "machines/thunderbird/full/latency/e2f3323faa76ee0b/attempt-1788839239104867742/samples.u64.gz",
+      "record": "machines/thunderbird/full/latency/e2f3323faa76ee0b/complete.json",
+      "sha256": "e280a4f4205f4402113dd0f530cc5780ddb7920b6e676f600e5bf8c00ed52fbc"
+    },
+    {
+      "raw": "machines/thunderbird/full/latency/eeb1c165c69177aa/attempt-1788839249881039984/samples.u64.gz",
+      "record": "machines/thunderbird/full/latency/eeb1c165c69177aa/complete.json",
+      "sha256": "6083e8c6cc06febdfb93d2eec615205859293e2b59fb45ef2196f827e2fb9b6a"
+    }
+  ]
+}

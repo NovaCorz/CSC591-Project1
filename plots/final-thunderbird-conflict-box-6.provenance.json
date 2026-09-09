@@ -1,0 +1,11 @@
+{
+  "comparison_cohort_policy": "machines/thunderbird/uncertainty-v1/conflict-repair.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/thunderbird/uncertainty-v1/batched_conflict/1eae912c46990768/attempt-1788877524267396642/run.json",
+    "machines/thunderbird/uncertainty-v1/batched_conflict/7c07058e4057e9ec/attempt-1788877557336501995/run.json",
+    "machines/thunderbird/uncertainty-v1/batched_conflict/880e68c98d3c6be1/attempt-1788877381515717258/run.json",
+    "machines/thunderbird/uncertainty-v1/batched_conflict/c91240562cc73eed/attempt-1788877299199911277/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:00:59.266002+00:00"
+}

@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "phase": "I timing-only handoff",
+  "tag": "phase1-timing-only",
+  "prepared_utc": "2026-09-09T16:50:47.568189+00:00",
+  "commit_and_freeze_time": "Resolve the annotated tag: git rev-parse phase1-timing-only^{commit}; git for-each-ref --format=\"%(taggerdate:iso-strict)\" refs/tags/phase1-timing-only",
+  "scope": "Preserves acquired timing-only inferences and their recorded limitations; does not certify every experimental requirement as satisfied. No Phase-II measurements have been acquired.",
+  "repository": "https://github.com/NovaCorz/CSC591-Project1",
+  "external_workspace": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1",
+  "external_artifacts": {
+    "report/HW1_report.pdf": {
+      "bytes": 609366,
+      "sha256": "c1bae9e47f5de9678e78a604ed840cc0ca37c1c2b9d4dab9ff68259d1d5ed4c6"
+    },
+    "report/phase1-report-source.zip": {
+      "bytes": 1587645,
+      "sha256": "8342f70e61a66dbe841a392b50f1dcd67a5b70dfc5a3d51a64ca44bacf8626d1"
+    },
+    "report.tex": {
+      "bytes": 46579,
+      "sha256": "4abd777cb37d27c367f7bc3c5fc3c7a500a88206be956ca18de3398120d693d9"
+    },
+    "report/latex-phase1/phase1-requirements-audit.md": {
+      "bytes": 12662,
+      "sha256": "c230431e1a64969b712503c4e6608e69ff276e7c550675ae39c65a5770c2fbda"
+    },
+    "report/latex-phase1/report-validation.json": {
+      "bytes": 3335,
+      "sha256": "2c7df437f3e1a8a6584a6a97e4fb12289d98885060429f7173c4f52d0841e023"
+    },
+    "PROJECT 1 (3).pdf": {
+      "bytes": 766216,
+      "sha256": "4b4dc98cd3cb05eb2fd0bd406b9e8278d4aa8bdd9b1a341fe8aec65564d4a86c"
+    }
+  },
+  "raw_archives": [
+    {
+      "name": "phase1-revised.zip",
+      "bytes": 6924281580,
+      "sha256": "66556285f9ed2d1af478deaf5a1c151cc69cb5f1f7018a57df9423dc25ac75c2"
+    },
+    {
+      "name": "phase1-uncertainty.zip",
+      "bytes": 2372753088,
+      "sha256": "505f021d63a55feec38871be601aa0a9c7d80a8dc8a447fef3716dec515c555d"
+    },
+    {
+      "name": "phase1-independent-load.zip",
+      "bytes": 89445417,
+      "sha256": "114d9a9beb1ee695d784ef335a8730d4acae4fb070bed002099143dbbf114fa3"
+    }
+  ],
+  "raw_hash_source": "Previously verified immutable archive manifests; this handoff checks their presence and sizes without repeating the multi-gigabyte hash pass.",
+  "raw_restore": "Restore revised then uncertainty as an ordered overlay. Restore independent-load separately, as described in README.md.",
+  "known_limitations": [
+    "Inclusion: lower-only eviction uncalibrated; tests preceded later cache refinements and were not repeated afterward.",
+    "Physical L2/LLC hit times and isolated first-access miss penalties are not established.",
+    "LLC ways, exact sharing and inclusion remain unresolved; other reported geometry remains conditional.",
+    "Software classifier has material threshold sensitivity; PMU hit-rate accuracy has not been measured.",
+    "Architecture/year citations and contributor details are deferred."
+  ],
+  "validation_at_handoff": {
+    "curated_integrity_passed": true,
+    "restore_tests_passed": 7,
+    "toolkit_tests_passed": 48,
+    "report_pdf_pages": 35,
+    "report_isolated_zip_compile_passed": true
+  },
+  "phase2_instruction": "Keep these timing-only values unchanged. Collect hardware verification in a separate branch/workspace and report Timing Inference, PMU Evidence, Published/System Value, Source/Page and Error/Agreement separately."
+}

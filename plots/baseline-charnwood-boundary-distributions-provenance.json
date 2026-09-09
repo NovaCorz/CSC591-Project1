@@ -1,0 +1,48 @@
+{
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "selection": "Up to seven successive final-batch random points starting three points before the first exploratory departure; smallest points if no departure is resolved. Noisy points remain visible. Complete box plots cover every verified point separately.",
+  "sources": [
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/charnwood/full/capacity/31448ada748bc89c/attempt-1788839609592315702/samples.u64.gz",
+      "record": "machines/charnwood/full/capacity/31448ada748bc89c/complete.json",
+      "sha256": "df566caa7a34a8625eb22556e95a03c55a5bde30d933fc7c312cc5c5bef00d47"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/charnwood/full/capacity/1089444a01cfc92f/attempt-1788839569241778762/samples.u64.gz",
+      "record": "machines/charnwood/full/capacity/1089444a01cfc92f/complete.json",
+      "sha256": "6c67d907a734d7f4fecf9e7fa61e721a04b78dc5dd4ccc19be86db40d65e9a3e"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/charnwood/full/capacity/88507a7d2ae5e605/attempt-1788839324215569780/samples.u64.gz",
+      "record": "machines/charnwood/full/capacity/88507a7d2ae5e605/complete.json",
+      "sha256": "266456add28737e8005187e8a28a3a41e297903e070d982afa71cf00e4bc96c1"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/charnwood/full/capacity/537b9a090d377e7b/attempt-1788843646176693660/samples.u64.gz",
+      "record": "machines/charnwood/full/capacity/537b9a090d377e7b/complete.json",
+      "sha256": "eea3237fea6fa7a76223c7f1d9da930d3483badc4305486e38a1ceb3b82ba677"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/charnwood/full/capacity/627ef310d2a3463d/attempt-1788840213924311250/samples.u64.gz",
+      "record": "machines/charnwood/full/capacity/627ef310d2a3463d/complete.json",
+      "sha256": "a2c8399722348676da149bb5e42a937d6e3c741a196551d4537a369aa565d277"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/charnwood/full/capacity/ced5ad1cf10390ae/attempt-1788843188485683701/samples.u64.gz",
+      "record": "machines/charnwood/full/capacity/ced5ad1cf10390ae/complete.json",
+      "sha256": "9e61d19343d943d8db5773336fb5316c5f32644616aa7ef08e0e92887d8538ad"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/charnwood/full/capacity/69579aa3f48854e8/attempt-1788840325392693627/samples.u64.gz",
+      "record": "machines/charnwood/full/capacity/69579aa3f48854e8/complete.json",
+      "sha256": "1162f8f99a0e3d5a867308bbb0795446ebe5c3c9545efaa3feeb4b8b572c2ef2"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "round": "independent-load-v1",
+  "bytes": 1024,
+  "stride": 8,
+  "initial_batch": 4096,
+  "maximum_batch": 32768,
+  "samples": 1000000,
+  "seeds": [5924101, 5924102, 5924103],
+  "orders": [[1, 4], [4, 1]],
+  "pair_attempts": 3,
+  "timer_fraction_limit": 0.05,
+  "selection": "First clean same-core pair per seed/order; retry both arms at most three times. Retain all attempts. Never select by effect size or direction.",
+  "interpretation": "One dependency chain versus four mutually independent chains on the same 128-node random ring. Four loads per loop iteration in both kernels. Native ticks/load; no core-cycle conversion, no new physical cache inference."
+}

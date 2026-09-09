@@ -1,0 +1,373 @@
+{
+  "native_loops": {
+    "artemisia": {
+      "excerpt": "<chase>:\n  4013e7:\t55                   \tpush   %rbp\n  4013e8:\t48 89 e5             \tmov    %rsp,%rbp\n  4013eb:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  4013ef:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  4013f3:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n  4013f7:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n  4013fb:\t48 8b 12             \tmov    (%rdx),%rdx\n  4013fe:\t48 ff c8             \tdec    %rax\n  401401:\t75 f8                \tjne    4013fb <chase+0x14>\n  401403:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n  401407:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n  40140b:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n  40140f:\t5d                   \tpop    %rbp\n  401410:\tc3                   \tretq   ",
+      "sha256": "090221ba0bb9ef472a71779e123b3799459ed4d4d6cebbc55fe3377ad3f1a4bc",
+      "timer": {
+        "fraction": 0.047619047619047616,
+        "limit": 0.05,
+        "note": "Unsubtracted native timer units; batch amortizes overhead",
+        "passed": true,
+        "sources": [
+          "timer/19e9f752ba9c575a/attempt-1788872841084869664",
+          "timer/f82f498e91cd59b9/attempt-1788872845802189477"
+        ],
+        "time": "2026-09-08T13:07:32.749392+00:00"
+      }
+    },
+    "charnwood": {
+      "excerpt": "<chase>:\n    165d:\tf3 0f 1e fa          \tendbr64\n    1661:\t55                   \tpush   %rbp\n    1662:\t48 89 e5             \tmov    %rsp,%rbp\n    1665:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    1669:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    166d:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n    1671:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n    1675:\t48 8b 12             \tmov    (%rdx),%rdx\n    1678:\t48 ff c8             \tdec    %rax\n    167b:\t75 f8                \tjne    1675 <chase+0x18>\n    167d:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n    1681:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n    1685:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    1689:\t5d                   \tpop    %rbp\n    168a:\tc3                   \tret",
+      "sha256": "544c58deaaf96f69476149cb452812b30c1dd674cb9ef9d1531664916e4ba0e2",
+      "timer": {
+        "fraction": 0.028379387602688575,
+        "limit": 0.05,
+        "note": "Unsubtracted native timer units; batch amortizes overhead",
+        "passed": true,
+        "sources": [
+          "timer/627972eddbffe065/attempt-1788872841506540791",
+          "timer/b247e68cafa7ea7e/attempt-1788872845451111618"
+        ],
+        "time": "2026-09-08T13:07:31.352957+00:00"
+      }
+    },
+    "crux": {
+      "excerpt": "<chase>:\n    165d:\tf3 0f 1e fa          \tendbr64\n    1661:\t55                   \tpush   %rbp\n    1662:\t48 89 e5             \tmov    %rsp,%rbp\n    1665:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    1669:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    166d:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n    1671:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n    1675:\t48 8b 12             \tmov    (%rdx),%rdx\n    1678:\t48 ff c8             \tdec    %rax\n    167b:\t75 f8                \tjne    1675 <chase+0x18>\n    167d:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n    1681:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n    1685:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    1689:\t5d                   \tpop    %rbp\n    168a:\tc3                   \tret",
+      "sha256": "544c58deaaf96f69476149cb452812b30c1dd674cb9ef9d1531664916e4ba0e2",
+      "timer": {
+        "fraction": 0.02888086642599278,
+        "limit": 0.05,
+        "note": "Unsubtracted native timer units; batch amortizes overhead",
+        "passed": true,
+        "sources": [
+          "timer/627972eddbffe065/attempt-1788872838808852768",
+          "timer/b247e68cafa7ea7e/attempt-1788872841859307572"
+        ],
+        "time": "2026-09-08T13:07:26.154808+00:00"
+      }
+    },
+    "ookay": {
+      "excerpt": "<chase>:\n    165d:\tf3 0f 1e fa          \tendbr64\n    1661:\t55                   \tpush   %rbp\n    1662:\t48 89 e5             \tmov    %rsp,%rbp\n    1665:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    1669:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    166d:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n    1671:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n    1675:\t48 8b 12             \tmov    (%rdx),%rdx\n    1678:\t48 ff c8             \tdec    %rax\n    167b:\t75 f8                \tjne    1675 <chase+0x18>\n    167d:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n    1681:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n    1685:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    1689:\t5d                   \tpop    %rbp\n    168a:\tc3                   \tret",
+      "sha256": "544c58deaaf96f69476149cb452812b30c1dd674cb9ef9d1531664916e4ba0e2",
+      "timer": {
+        "fraction": 0.028969957081545063,
+        "limit": 0.05,
+        "note": "Unsubtracted native timer units; batch amortizes overhead",
+        "passed": true,
+        "sources": [
+          "timer/627972eddbffe065/attempt-1788872842006250817",
+          "timer/b247e68cafa7ea7e/attempt-1788872845952799884"
+        ],
+        "time": "2026-09-08T13:07:32.062161+00:00"
+      }
+    },
+    "skylark": {
+      "excerpt": "<chase>:\n  4013e7:\t55                   \tpush   %rbp\n  4013e8:\t48 89 e5             \tmov    %rsp,%rbp\n  4013eb:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  4013ef:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  4013f3:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n  4013f7:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n  4013fb:\t48 8b 12             \tmov    (%rdx),%rdx\n  4013fe:\t48 ff c8             \tdec    %rax\n  401401:\t75 f8                \tjne    4013fb <chase+0x14>\n  401403:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n  401407:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n  40140b:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n  40140f:\t5d                   \tpop    %rbp\n  401410:\tc3                   \tretq   ",
+      "sha256": "090221ba0bb9ef472a71779e123b3799459ed4d4d6cebbc55fe3377ad3f1a4bc",
+      "timer": {
+        "fraction": 0.046153846153846156,
+        "limit": 0.05,
+        "note": "Unsubtracted native timer units; batch amortizes overhead",
+        "passed": true,
+        "sources": [
+          "timer/627972eddbffe065/attempt-1788872836001647103",
+          "timer/b247e68cafa7ea7e/attempt-1788872838464731235"
+        ],
+        "time": "2026-09-08T13:07:21.562270+00:00"
+      }
+    },
+    "sunbird": {
+      "excerpt": "<chase>:\n  4013e7:\t55                   \tpush   %rbp\n  4013e8:\t48 89 e5             \tmov    %rsp,%rbp\n  4013eb:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  4013ef:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  4013f3:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n  4013f7:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n  4013fb:\t48 8b 12             \tmov    (%rdx),%rdx\n  4013fe:\t48 ff c8             \tdec    %rax\n  401401:\t75 f8                \tjne    4013fb <chase+0x14>\n  401403:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n  401407:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n  40140b:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n  40140f:\t5d                   \tpop    %rbp\n  401410:\tc3                   \tretq   ",
+      "sha256": "090221ba0bb9ef472a71779e123b3799459ed4d4d6cebbc55fe3377ad3f1a4bc",
+      "timer": {
+        "fraction": 0.02835538752362949,
+        "limit": 0.05,
+        "note": "Unsubtracted native timer units; batch amortizes overhead",
+        "passed": true,
+        "sources": [
+          "timer/627972eddbffe065/attempt-1788872841369136145",
+          "timer/b247e68cafa7ea7e/attempt-1788872847676194535"
+        ],
+        "time": "2026-09-08T13:07:31.132582+00:00"
+      }
+    },
+    "thunderbird": {
+      "excerpt": "<chase>:\n  401124:\td10043ff \tsub\tsp, sp, #0x10\n  401128:\tf90007e0 \tstr\tx0, [sp, #8]\n  40112c:\tf90003e1 \tstr\tx1, [sp]\n  401130:\tf94007e1 \tldr\tx1, [sp, #8]\n  401134:\tf94003e0 \tldr\tx0, [sp]\n  401138:\tf9400021 \tldr\tx1, [x1]\n  40113c:\tf1000400 \tsubs\tx0, x0, #0x1\n  401140:\t54ffffc1 \tb.ne\t401138 <chase+0x14>  // b.any\n  401144:\tf90007e1 \tstr\tx1, [sp, #8]\n  401148:\tf90003e0 \tstr\tx0, [sp]\n  40114c:\tf94007e0 \tldr\tx0, [sp, #8]\n  401150:\t910043ff \tadd\tsp, sp, #0x10\n  401154:\td65f03c0 \tret",
+      "sha256": "9ea6b90cb9a014b9be416dbaea4053b77186de3da90d96390205f4501318e3ce",
+      "timer": {
+        "fraction": 0.02857142857142857,
+        "limit": 0.05,
+        "note": "Unsubtracted native timer units; batch amortizes overhead",
+        "passed": true,
+        "sources": [
+          "timer/1a28110628321513/attempt-1788872837265509282",
+          "timer/df30eda1c01899f0/attempt-1788872840450491236"
+        ],
+        "time": "2026-09-08T13:07:24.951469+00:00"
+      }
+    },
+    "upgrade": {
+      "excerpt": "<chase>:\n    165d:\tf3 0f 1e fa          \tendbr64 \n    1661:\t55                   \tpush   %rbp\n    1662:\t48 89 e5             \tmov    %rsp,%rbp\n    1665:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    1669:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    166d:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n    1671:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n    1675:\t48 8b 12             \tmov    (%rdx),%rdx\n    1678:\t48 ff c8             \tdec    %rax\n    167b:\t75 f8                \tjne    1675 <chase+0x18>\n    167d:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n    1681:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n    1685:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    1689:\t5d                   \tpop    %rbp\n    168a:\tc3                   \tret    ",
+      "sha256": "e3fd7ee147bcf331a0ac1d1130e7ed44f2d1c226dd992cef178515636b93ebd7",
+      "timer": {
+        "fraction": 0.029235880398671095,
+        "limit": 0.05,
+        "note": "Unsubtracted native timer units; batch amortizes overhead",
+        "passed": true,
+        "sources": [
+          "timer/627972eddbffe065/attempt-1788872841389488159",
+          "timer/b247e68cafa7ea7e/attempt-1788872844424667321"
+        ],
+        "time": "2026-09-08T13:07:28.704813+00:00"
+      }
+    }
+  },
+  "passed": true,
+  "records": [
+    {
+      "issues": [],
+      "record": "machines/artemisia/uncertainty-v1/batched_conflict/b6faea7b9a25e288/attempt-1788872833780253236/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/artemisia/uncertainty-v1/smoke/a4dbee51b3f2bdbd/attempt-1788872827168128421/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/artemisia/uncertainty-v1/smoke/bfc52e8b59b3d080/attempt-1788872829367680626/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/artemisia/uncertainty-v1/smoke/f65c6b064112ed02/attempt-1788872831577203031/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/artemisia/uncertainty-v1/timer/19e9f752ba9c575a/attempt-1788872841084869664/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/artemisia/uncertainty-v1/timer/f82f498e91cd59b9/attempt-1788872845802189477/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/charnwood/uncertainty-v1/batched_conflict/a614f26635454266/attempt-1788872834144932445/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/charnwood/uncertainty-v1/smoke/2058aeed09d30114/attempt-1788872829782957657/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/charnwood/uncertainty-v1/smoke/6f5d112f9653daee/attempt-1788872827608532932/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/charnwood/uncertainty-v1/smoke/9abdebaca3fa3a04/attempt-1788872831965299484/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/charnwood/uncertainty-v1/timer/627972eddbffe065/attempt-1788872841506540791/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/charnwood/uncertainty-v1/timer/b247e68cafa7ea7e/attempt-1788872845451111618/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/crux/uncertainty-v1/batched_conflict/de774b10c89d1eb6/attempt-1788872832883535203/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/crux/uncertainty-v1/smoke/2058aeed09d30114/attempt-1788872828538882625/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/crux/uncertainty-v1/smoke/6f5d112f9653daee/attempt-1788872826370178888/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/crux/uncertainty-v1/smoke/9abdebaca3fa3a04/attempt-1788872830712298239/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/crux/uncertainty-v1/timer/627972eddbffe065/attempt-1788872838808852768/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/crux/uncertainty-v1/timer/b247e68cafa7ea7e/attempt-1788872841859307572/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/ookay/uncertainty-v1/batched_conflict/a45e925ea51f5115/attempt-1788872835235306203/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/ookay/uncertainty-v1/smoke/2058aeed09d30114/attempt-1788872830854176004/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/ookay/uncertainty-v1/smoke/6f5d112f9653daee/attempt-1788872828678640067/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/ookay/uncertainty-v1/smoke/9abdebaca3fa3a04/attempt-1788872833054074652/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/ookay/uncertainty-v1/timer/627972eddbffe065/attempt-1788872842006250817/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/ookay/uncertainty-v1/timer/b247e68cafa7ea7e/attempt-1788872845952799884/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/skylark/uncertainty-v1/batched_conflict/d9b40efafdf0b382/attempt-1788872831524372268/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/skylark/uncertainty-v1/smoke/2058aeed09d30114/attempt-1788872827153901114/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/skylark/uncertainty-v1/smoke/6f5d112f9653daee/attempt-1788872824972230701/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/skylark/uncertainty-v1/smoke/9abdebaca3fa3a04/attempt-1788872829340830878/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/skylark/uncertainty-v1/timer/627972eddbffe065/attempt-1788872836001647103/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/skylark/uncertainty-v1/timer/b247e68cafa7ea7e/attempt-1788872838464731235/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/sunbird/uncertainty-v1/batched_conflict/2879118ed348517d/attempt-1788872833786260196/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/sunbird/uncertainty-v1/smoke/2058aeed09d30114/attempt-1788872829376471104/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/sunbird/uncertainty-v1/smoke/6f5d112f9653daee/attempt-1788872827176375522/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/sunbird/uncertainty-v1/smoke/9abdebaca3fa3a04/attempt-1788872831590493145/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/sunbird/uncertainty-v1/timer/627972eddbffe065/attempt-1788872841369136145/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/sunbird/uncertainty-v1/timer/b247e68cafa7ea7e/attempt-1788872843988907555/run.json",
+      "status": "noisy"
+    },
+    {
+      "issues": [],
+      "record": "machines/sunbird/uncertainty-v1/timer/b247e68cafa7ea7e/attempt-1788872847676194535/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/thunderbird/uncertainty-v1/batched_conflict/c82c7e3edee47ccc/attempt-1788872831928333478/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/thunderbird/uncertainty-v1/smoke/3768cfbc0fe80c07/attempt-1788872829711545340/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/thunderbird/uncertainty-v1/smoke/9d11ee24192e0565/attempt-1788872827494586282/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/thunderbird/uncertainty-v1/smoke/cb13023b482b08be/attempt-1788872825278747664/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/thunderbird/uncertainty-v1/timer/1a28110628321513/attempt-1788872837265509282/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/thunderbird/uncertainty-v1/timer/df30eda1c01899f0/attempt-1788872840450491236/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/upgrade/uncertainty-v1/batched_conflict/660b6a6ba7c349d9/attempt-1788872834495161078/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/upgrade/uncertainty-v1/smoke/2058aeed09d30114/attempt-1788872830144043894/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/upgrade/uncertainty-v1/smoke/6f5d112f9653daee/attempt-1788872827972188573/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/upgrade/uncertainty-v1/smoke/9abdebaca3fa3a04/attempt-1788872832321309091/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/upgrade/uncertainty-v1/timer/627972eddbffe065/attempt-1788872841389488159/run.json",
+      "status": "passed"
+    },
+    {
+      "issues": [],
+      "record": "machines/upgrade/uncertainty-v1/timer/b247e68cafa7ea7e/attempt-1788872844424667321/run.json",
+      "status": "passed"
+    }
+  ],
+  "time": "2026-09-08T13:08:37.351163+00:00"
+}

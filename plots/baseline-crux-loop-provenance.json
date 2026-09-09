@@ -1,0 +1,13 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/crux/full/loop/49f938069234e658/attempt-1788839484820082660/samples.u64.gz",
+      "record": "machines/crux/full/loop/49f938069234e658/complete.json",
+      "sha256": "73571bb1c8c365db0d14ff7e639f05b729236018b90512efab2b4bf7076a80a3"
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "attempts": 201,
+  "capacity": {
+    "curves": [
+      {
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": false,
+            "interval": [
+              2097152,
+              4194304
+            ],
+            "qualified": false,
+            "ratio": 1.1818500350385424,
+            "same_cpu": false,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/dc8057f3d46536e4/attempt-1788875093592870445/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/8fffb5f8555bc1b1/attempt-1788875254508016036/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              4194304,
+              4718592
+            ],
+            "qualified": false,
+            "ratio": 1.3101689890305366,
+            "same_cpu": false,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/8fffb5f8555bc1b1/attempt-1788875254508016036/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/817b49502fbb85d0/attempt-1788874786307639469/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              4718592,
+              5242880
+            ],
+            "qualified": false,
+            "ratio": 1.330195510499638,
+            "same_cpu": false,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/817b49502fbb85d0/attempt-1788874786307639469/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/3d79722bcbc9bc54/attempt-1788874654162210875/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": false,
+            "interval": [
+              5242880,
+              5767168
+            ],
+            "qualified": false,
+            "ratio": 1.6992719107240066,
+            "same_cpu": false,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/3d79722bcbc9bc54/attempt-1788874654162210875/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/5e48ee47c40311e1/attempt-1788874809184017796/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": false,
+            "interval": [
+              5767168,
+              6291456
+            ],
+            "qualified": false,
+            "ratio": 1.15398938832716,
+            "same_cpu": false,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/5e48ee47c40311e1/attempt-1788874809184017796/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/aab1b5e95b1ac843/attempt-1788874609180245071/run.json"
+            ]
+          }
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "sources": [
+          "machines/charnwood/uncertainty-v1/capacity_repeat/08dab6da625c502a/attempt-1788875148412515236/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/3d79722bcbc9bc54/attempt-1788874654162210875/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/575637884b46f8b6/attempt-1788874934178327657/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/5e48ee47c40311e1/attempt-1788874809184017796/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/817b49502fbb85d0/attempt-1788874786307639469/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/821ed0ac952a3b13/attempt-1788874734201022930/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/8fffb5f8555bc1b1/attempt-1788875254508016036/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/aab1b5e95b1ac843/attempt-1788874609180245071/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/abac397475670f07/attempt-1788874562342532997/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/dc8057f3d46536e4/attempt-1788875093592870445/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/e82cef8cab4946d7/attempt-1788875196047494721/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_matched/7cddeab455087c2b/attempt-1788877779817836078/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_matched/b576d0555badcea1/attempt-1788877798048213831/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_matched/0b833db2e4d0a559/attempt-1788878394157084256/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_matched/bbb44aefef91237d/attempt-1788878479968968812/run.json"
+        ]
+      },
+      {
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": false,
+            "interval": [
+              2097152,
+              4194304
+            ],
+            "qualified": false,
+            "ratio": 1.1598906490957521,
+            "same_cpu": true,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/41e669cbdd0d6f8e/attempt-1788875725195562075/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/469684888e0b9ab7/attempt-1788875780708811872/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": false,
+            "interval": [
+              4718592,
+              5242880
+            ],
+            "qualified": false,
+            "ratio": 1.5422494017548525,
+            "same_cpu": true,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/6227e86c64f02b95/attempt-1788876484903645225/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/c726d845fd3d06cc/attempt-1788876401765984507/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": false,
+            "interval": [
+              5242880,
+              5767168
+            ],
+            "qualified": false,
+            "ratio": 1.5404454865181711,
+            "same_cpu": false,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/c726d845fd3d06cc/attempt-1788876401765984507/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/9287992595f38b74/attempt-1788875836545708944/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": false,
+            "interval": [
+              5767168,
+              6291456
+            ],
+            "qualified": false,
+            "ratio": 1.2415838481511325,
+            "same_cpu": true,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/9287992595f38b74/attempt-1788875836545708944/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/56455ebeca424ff6/attempt-1788875592336918584/run.json"
+            ]
+          }
+        ],
+        "page": "base",
+        "seed": 5923327,
+        "sources": [
+          "machines/charnwood/uncertainty-v1/capacity_repeat/2ced972500f5e3ed/attempt-1788876245532298423/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/41e669cbdd0d6f8e/attempt-1788875725195562075/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/469684888e0b9ab7/attempt-1788875780708811872/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/56455ebeca424ff6/attempt-1788875592336918584/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/6227e86c64f02b95/attempt-1788876484903645225/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/80b7deee17604e17/attempt-1788876718929321069/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/9287992595f38b74/attempt-1788875836545708944/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/a2052dda10a97eb0/attempt-1788876885641998836/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/a2ea23646c31ec26/attempt-1788875309097862468/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/aed1de1e1e3ffb58/attempt-1788875451931554686/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/b304e69a77d891c1/attempt-1788876186399109845/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/c177fd2a028f59ec/attempt-1788876075096498208/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/c726d845fd3d06cc/attempt-1788876401765984507/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/fdd1f5959d40a14c/attempt-1788876547534123337/run.json"
+        ]
+      },
+      {
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": false,
+            "interval": [
+              5767168,
+              6291456
+            ],
+            "qualified": false,
+            "ratio": 1.1512155591572124,
+            "same_cpu": true,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/d18daa83806e9677/attempt-1788873379541006656/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/c1e0a4de2aab88fa/attempt-1788873066890974694/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": false,
+            "interval": [
+              6291456,
+              6815744
+            ],
+            "qualified": false,
+            "ratio": 3.9593833591440237,
+            "same_cpu": true,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/c1e0a4de2aab88fa/attempt-1788873066890974694/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/7375f17884811610/attempt-1788873022301225837/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": false,
+            "interval": [
+              8388608,
+              16777216
+            ],
+            "qualified": false,
+            "ratio": 1.1509451677516274,
+            "same_cpu": true,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/b806f2366fba8274/attempt-1788873396465487184/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/862dbc59b051c4a3/attempt-1788873836426277277/run.json"
+            ]
+          }
+        ],
+        "page": "huge",
+        "seed": 5923227,
+        "sources": [
+          "machines/charnwood/uncertainty-v1/capacity_repeat/0a72d9318e821c73/attempt-1788873265152300139/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/2032a2f67ae93d90/attempt-1788873554240744362/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/7375f17884811610/attempt-1788873022301225837/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/8406986ce2368b14/attempt-1788873889625405456/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/862dbc59b051c4a3/attempt-1788873836426277277/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/88779b9c62c5e60a/attempt-1788873128773394850/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/b806f2366fba8274/attempt-1788873396465487184/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/bb4cb76070404b1a/attempt-1788873536668646597/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/c1e0a4de2aab88fa/attempt-1788873066890974694/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/d18daa83806e9677/attempt-1788873379541006656/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/f9dbc44e4c7494ca/attempt-1788873362735688029/run.json"
+        ]
+      },
+      {
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": false,
+            "interval": [
+              5767168,
+              6291456
+            ],
+            "qualified": false,
+            "ratio": 1.6420771657364717,
+            "same_cpu": false,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/ba3c94c6813792b8/attempt-1788874341745316217/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/0daf40c0f37a173d/attempt-1788874226138371025/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": false,
+            "interval": [
+              6291456,
+              6815744
+            ],
+            "qualified": false,
+            "ratio": 2.7408994630806363,
+            "same_cpu": true,
+            "sources": [
+              "machines/charnwood/uncertainty-v1/capacity_repeat/0daf40c0f37a173d/attempt-1788874226138371025/run.json",
+              "machines/charnwood/uncertainty-v1/capacity_repeat/b666b88688bd514a/attempt-1788874093077569820/run.json"
+            ]
+          }
+        ],
+        "page": "huge",
+        "seed": 5923327,
+        "sources": [
+          "machines/charnwood/uncertainty-v1/capacity_repeat/0daf40c0f37a173d/attempt-1788874226138371025/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/329b57a497cce98c/attempt-1788874504787552427/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/3ba73869d621f076/attempt-1788874358627234959/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/5215d94571bf1618/attempt-1788874405244806215/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/69c0381db99d09fb/attempt-1788874458046766778/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/803eb0a5c95858a5/attempt-1788873955659236995/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/a4f4e6c13d0ac6ab/attempt-1788874324665957667/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/b666b88688bd514a/attempt-1788874093077569820/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/ba3c94c6813792b8/attempt-1788874341745316217/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/c0e3d94fde8c7270/attempt-1788874521339077235/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_repeat/da7ef0f9f5fa495d/attempt-1788874307933249312/run.json"
+        ]
+      }
+    ],
+    "interpretation": "Replicated timing departure intervals, conditional on physical-level assignment; not specification confidence intervals",
+    "matched_cohorts": [
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          4194304,
+          4718592
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/charnwood/uncertainty-v1/capacity_matched/7cddeab455087c2b/attempt-1788877779817836078/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_matched/b576d0555badcea1/attempt-1788877798048213831/run.json"
+        ]
+      },
+      {
+        "accepted": false,
+        "edges": [],
+        "interval": [
+          4718592,
+          5242880
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": []
+      },
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          6815744,
+          7340032
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/charnwood/uncertainty-v1/capacity_matched/0b833db2e4d0a559/attempt-1788878394157084256/run.json",
+          "machines/charnwood/uncertainty-v1/capacity_matched/bbb44aefef91237d/attempt-1788878479968968812/run.json"
+        ]
+      },
+      {
+        "accepted": false,
+        "edges": [],
+        "interval": [
+          7340032,
+          7864320
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": []
+      }
+    ],
+    "prior_interval": [
+      4194304,
+      8388608
+    ],
+    "replicated_intervals": []
+  },
+  "complete": true,
+  "conflict": {
+    "conditional_candidates": [],
+    "conditional_l2_ways": null,
+    "curves": [],
+    "geometry_checks": [],
+    "interpretation": "Effective ring thresholds only. Fixed scrub contributes to the timed average; neither complete candidate L1 eviction nor unique lower-index congruence is independently proven. Geometry compatibility alone does not establish physical ways.",
+    "physical_l2_ways": null,
+    "repeated_thresholds": []
+  },
+  "flagged_attempts": 123,
+  "full_attempts": 197,
+  "host": "charnwood",
+  "issues": [],
+  "missing_stages": [],
+  "noisy_selected": 33,
+  "selected_points": 107,
+  "smoke_attempts": 4,
+  "spatial": {
+    "cohorts": [
+      {
+        "align": 0,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          10.36328125,
+          15.5546875,
+          15.578125
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/charnwood/uncertainty-v1/spatial_residency/0e0c163db8bf5b6d/attempt-1788877109060455470/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/419e05018003636e/attempt-1788877132380283128/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/f6e839d11c102c67/attempt-1788877119630695727/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          10.3046875,
+          15.546875,
+          15.50390625
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/charnwood/uncertainty-v1/spatial_residency/c29077b4ec1cbd9c/attempt-1788877170025066440/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/8ae6f1820d4e9ba3/attempt-1788877157422435201/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/6b74c563788d9d02/attempt-1788877145031054262/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          10.30859375,
+          15.5859375,
+          15.47265625
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/charnwood/uncertainty-v1/spatial_residency/adf4cb0d00b475ab/attempt-1788877296597255689/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/2dd45498a762f8ce/attempt-1788877306523414471/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/5d2488b667fd7573/attempt-1788877284344669286/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          10.3046875,
+          15.5078125,
+          15.55859375
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/charnwood/uncertainty-v1/spatial_residency/73a05ddca85d33d0/attempt-1788877344198243090/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/af2afd8cacaa1fae/attempt-1788877331826652660/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/9e73cb2efb0037d5/attempt-1788877319265893868/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 4194304,
+        "full_huge_backing": true,
+        "medians": [
+          26.15625,
+          35.25390625,
+          35.47265625
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/charnwood/uncertainty-v1/spatial_residency/005b42285b5e72b5/attempt-1788877368575605942/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/5f8fd2e44f178a9b/attempt-1788877398211843009/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/b4c234a8bc597872/attempt-1788877382903226979/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 4194304,
+        "full_huge_backing": true,
+        "medians": [
+          26.50390625,
+          35.65234375,
+          35.4453125
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/charnwood/uncertainty-v1/spatial_residency/889022a0fae8148d/attempt-1788877444226813613/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/e50d2de3e1eeffa3/attempt-1788877428866290213/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/cd8031180479cdf3/attempt-1788877413501335003/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 4194304,
+        "full_huge_backing": true,
+        "medians": [
+          26.484375,
+          35.5,
+          35.44140625
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/charnwood/uncertainty-v1/spatial_residency/6755e70d45ae95d8/attempt-1788877458050797540/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/354f78a782200e0f/attempt-1788877486938172952/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/3fa9bff711b6876f/attempt-1788877471694855824/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 4194304,
+        "full_huge_backing": true,
+        "medians": [
+          26.78125,
+          36.37109375,
+          36.609375
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/charnwood/uncertainty-v1/spatial_residency/8a94f87837fd7507/attempt-1788877562362843340/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/ccbfcdc222fd39ca/attempt-1788877592506062319/run.json",
+          "machines/charnwood/uncertainty-v1/spatial_residency/8580c8a658f61798/attempt-1788877546936169157/run.json"
+        ],
+        "supports": true
+      }
+    ],
+    "limitation": "Visible spatial granularity at these working sets; offsets change active-line count and set coverage as well as spatial reuse. Separate per-level physical line sizes remain unestablished",
+    "status": "reproduced",
+    "supported": 8,
+    "total": 8
+  },
+  "stages": {
+    "capacity": {
+      "failed": 0,
+      "noisy": 22,
+      "passed": 33,
+      "points": 55,
+      "records": [
+        "capacity_repeat/7375f17884811610/attempt-1788873022301225837",
+        "capacity_repeat/c1e0a4de2aab88fa/attempt-1788873108441565715",
+        "capacity_repeat/88779b9c62c5e60a/attempt-1788873162519876460",
+        "capacity_repeat/0a72d9318e821c73/attempt-1788873265152300139",
+        "capacity_repeat/f9dbc44e4c7494ca/attempt-1788873362735688029",
+        "capacity_repeat/d18daa83806e9677/attempt-1788873379541006656",
+        "capacity_repeat/b806f2366fba8274/attempt-1788873489909186640",
+        "capacity_repeat/bb4cb76070404b1a/attempt-1788873536668646597",
+        "capacity_repeat/2032a2f67ae93d90/attempt-1788873665432024822",
+        "capacity_repeat/862dbc59b051c4a3/attempt-1788873836426277277",
+        "capacity_repeat/8406986ce2368b14/attempt-1788873889625405456",
+        "capacity_regular_repeat/dd62cd03bc737bbf/attempt-1788873907803902788",
+        "capacity_regular_repeat/5ad0e40faf6eda76/attempt-1788873943900018254",
+        "capacity_repeat/803eb0a5c95858a5/attempt-1788874047254333760",
+        "capacity_repeat/b666b88688bd514a/attempt-1788874181770402950",
+        "capacity_repeat/0daf40c0f37a173d/attempt-1788874281469976999",
+        "capacity_repeat/da7ef0f9f5fa495d/attempt-1788874307933249312",
+        "capacity_repeat/a4f4e6c13d0ac6ab/attempt-1788874324665957667",
+        "capacity_repeat/ba3c94c6813792b8/attempt-1788874341745316217",
+        "capacity_repeat/3ba73869d621f076/attempt-1788874358627234959",
+        "capacity_repeat/5215d94571bf1618/attempt-1788874405244806215",
+        "capacity_repeat/69c0381db99d09fb/attempt-1788874458046766778",
+        "capacity_repeat/329b57a497cce98c/attempt-1788874504787552427",
+        "capacity_repeat/c0e3d94fde8c7270/attempt-1788874521339077235",
+        "capacity_regular_repeat/c95acfa64ca27df9/attempt-1788874538337487349",
+        "capacity_regular_repeat/877c583886e49c99/attempt-1788874550664291740",
+        "capacity_repeat/abac397475670f07/attempt-1788874562342532997",
+        "capacity_repeat/aab1b5e95b1ac843/attempt-1788874609180245071",
+        "capacity_repeat/3d79722bcbc9bc54/attempt-1788874654162210875",
+        "capacity_repeat/821ed0ac952a3b13/attempt-1788874734201022930",
+        "capacity_repeat/817b49502fbb85d0/attempt-1788874786307639469",
+        "capacity_repeat/5e48ee47c40311e1/attempt-1788874892329290133",
+        "capacity_repeat/575637884b46f8b6/attempt-1788875040391537196",
+        "capacity_repeat/dc8057f3d46536e4/attempt-1788875130267426780",
+        "capacity_repeat/08dab6da625c502a/attempt-1788875148412515236",
+        "capacity_repeat/e82cef8cab4946d7/attempt-1788875196047494721",
+        "capacity_repeat/8fffb5f8555bc1b1/attempt-1788875254508016036",
+        "capacity_regular_repeat/8be986102e17d1a5/attempt-1788875273348999652",
+        "capacity_regular_repeat/354f1a31a3fe36eb/attempt-1788875297401852612",
+        "capacity_repeat/a2ea23646c31ec26/attempt-1788875404439950024",
+        "capacity_repeat/aed1de1e1e3ffb58/attempt-1788875545530615144",
+        "capacity_repeat/56455ebeca424ff6/attempt-1788875680750870057",
+        "capacity_repeat/41e669cbdd0d6f8e/attempt-1788875762287710482",
+        "capacity_repeat/469684888e0b9ab7/attempt-1788875817935032150",
+        "capacity_repeat/9287992595f38b74/attempt-1788875914534105191",
+        "capacity_repeat/c177fd2a028f59ec/attempt-1788876075096498208",
+        "capacity_repeat/b304e69a77d891c1/attempt-1788876186399109845",
+        "capacity_repeat/2ced972500f5e3ed/attempt-1788876349689094802",
+        "capacity_repeat/c726d845fd3d06cc/attempt-1788876456692853329",
+        "capacity_repeat/6227e86c64f02b95/attempt-1788876526341883802",
+        "capacity_repeat/fdd1f5959d40a14c/attempt-1788876662086142915",
+        "capacity_repeat/80b7deee17604e17/attempt-1788876830044998700",
+        "capacity_repeat/a2052dda10a97eb0/attempt-1788877002949064723",
+        "capacity_regular_repeat/5ce36844d2d2e438/attempt-1788877060643824699",
+        "capacity_regular_repeat/39b334fce8ad02b6/attempt-1788877073605487514"
+      ],
+      "stage": "capacity",
+      "time": "2026-09-08T14:18:05.091417+00:00"
+    },
+    "capacity_repair": {
+      "failed": 0,
+      "noisy": 10,
+      "passed": 10,
+      "points": 20,
+      "records": [
+        "capacity_matched/1f4985d59def5778/attempt-1788877681775708740",
+        "capacity_matched/cce59b5b707b3c33/attempt-1788877754009027723",
+        "capacity_matched/7cddeab455087c2b/attempt-1788877779817836078",
+        "capacity_matched/b576d0555badcea1/attempt-1788877798048213831",
+        "capacity_matched/21ac83bcf2c37ffb/attempt-1788877864011616962",
+        "capacity_matched/4784c3aa1a53580d/attempt-1788877937726429097",
+        "capacity_matched/2fa06daad935d2db/attempt-1788878014734189767",
+        "capacity_matched/13dc0ba32d9822d5/attempt-1788878065492274550",
+        "capacity_matched/c0005e1f5abb112a/attempt-1788878136265106704",
+        "capacity_matched/0a9ad715b4e95d96/attempt-1788878201481447271",
+        "capacity_matched/df504cf539925c45/attempt-1788878308506774134",
+        "capacity_matched/2c3a2f688c1dc114/attempt-1788878352088361232",
+        "capacity_matched/0b833db2e4d0a559/attempt-1788878394157084256",
+        "capacity_matched/bbb44aefef91237d/attempt-1788878479968968812",
+        "capacity_matched/49ab64c223385b84/attempt-1788878610200684298",
+        "capacity_matched/07e0e6c2bf9af248/attempt-1788878732744498930",
+        "capacity_matched/8e35ce9936351330/attempt-1788878776307225020",
+        "capacity_matched/d7478a5e0c68afab/attempt-1788878912050252160",
+        "capacity_matched/2776d31d1252ba5a/attempt-1788879042755169874",
+        "capacity_matched/1f43ef8392868b02/attempt-1788879196307131462"
+      ],
+      "stage": "capacity_repair",
+      "time": "2026-09-08T14:54:06.137877+00:00"
+    },
+    "conflict": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 0,
+      "points": 0,
+      "records": [],
+      "stage": "conflict",
+      "time": "2026-09-08T13:09:32.710201+00:00"
+    },
+    "controls": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 2,
+      "points": 2,
+      "records": [
+        "timer/627972eddbffe065/attempt-1788872841506540791",
+        "timer/b247e68cafa7ea7e/attempt-1788872845451111618"
+      ],
+      "stage": "controls",
+      "time": "2026-09-08T13:07:31.353151+00:00"
+    },
+    "smoke": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 4,
+      "points": 4,
+      "records": [
+        "smoke/6f5d112f9653daee/attempt-1788872827608532932",
+        "smoke/2058aeed09d30114/attempt-1788872829782957657",
+        "smoke/9abdebaca3fa3a04/attempt-1788872831965299484",
+        "batched_conflict/a614f26635454266/attempt-1788872834144932445"
+      ],
+      "stage": "smoke",
+      "time": "2026-09-08T13:07:16.326414+00:00"
+    },
+    "spatial": {
+      "failed": 0,
+      "noisy": 1,
+      "passed": 29,
+      "points": 30,
+      "records": [
+        "spatial_residency/0e0c163db8bf5b6d/attempt-1788877109060455470",
+        "spatial_residency/f6e839d11c102c67/attempt-1788877119630695727",
+        "spatial_residency/419e05018003636e/attempt-1788877132380283128",
+        "spatial_residency/6b74c563788d9d02/attempt-1788877145031054262",
+        "spatial_residency/8ae6f1820d4e9ba3/attempt-1788877157422435201",
+        "spatial_residency/c29077b4ec1cbd9c/attempt-1788877170025066440",
+        "spatial_residency/ca9507ef06000638/attempt-1788877179928023099",
+        "spatial_residency/ec32139318de066e/attempt-1788877189826150390",
+        "spatial_residency/a96342765990ba23/attempt-1788877245144361671",
+        "spatial_residency/5d2488b667fd7573/attempt-1788877284344669286",
+        "spatial_residency/adf4cb0d00b475ab/attempt-1788877296597255689",
+        "spatial_residency/2dd45498a762f8ce/attempt-1788877306523414471",
+        "spatial_residency/9e73cb2efb0037d5/attempt-1788877319265893868",
+        "spatial_residency/af2afd8cacaa1fae/attempt-1788877331826652660",
+        "spatial_residency/73a05ddca85d33d0/attempt-1788877344198243090",
+        "spatial_residency/005b42285b5e72b5/attempt-1788877368575605942",
+        "spatial_residency/b4c234a8bc597872/attempt-1788877382903226979",
+        "spatial_residency/5f8fd2e44f178a9b/attempt-1788877398211843009",
+        "spatial_residency/cd8031180479cdf3/attempt-1788877413501335003",
+        "spatial_residency/e50d2de3e1eeffa3/attempt-1788877428866290213",
+        "spatial_residency/889022a0fae8148d/attempt-1788877444226813613",
+        "spatial_residency/6755e70d45ae95d8/attempt-1788877458050797540",
+        "spatial_residency/3fa9bff711b6876f/attempt-1788877471694855824",
+        "spatial_residency/354f78a782200e0f/attempt-1788877486938172952",
+        "spatial_residency/41f154276766ecb7/attempt-1788877502182780837",
+        "spatial_residency/6e2ebf4af4e4ff8f/attempt-1788877517479860846",
+        "spatial_residency/bbe48f5b10d4c582/attempt-1788877532837475354",
+        "spatial_residency/8580c8a658f61798/attempt-1788877546936169157",
+        "spatial_residency/8a94f87837fd7507/attempt-1788877562362843340",
+        "spatial_residency/ccbfcdc222fd39ca/attempt-1788877592506062319"
+      ],
+      "stage": "spatial",
+      "time": "2026-09-08T14:26:47.924165+00:00"
+    }
+  },
+  "time": "2026-09-08T20:52:26.731350+00:00",
+  "timer_gate": {
+    "fraction": 0.028379387602688575,
+    "limit": 0.05,
+    "note": "Unsubtracted native timer units; batch amortizes overhead",
+    "passed": true,
+    "sources": [
+      "timer/627972eddbffe065/attempt-1788872841506540791",
+      "timer/b247e68cafa7ea7e/attempt-1788872845451111618"
+    ],
+    "time": "2026-09-08T13:07:31.352957+00:00"
+  },
+  "unsuccessful": []
+}

@@ -1,0 +1,9 @@
+host,status,capacity_lower_bytes,capacity_upper_bytes,line_candidate_bytes,ways_candidate,geometry_capacity_bytes,derived_sets,hit_class_median,unit
+sunbird,"timing-supported, internally consistent L1 candidate with capacity interval",32768,36864,64,8,32768,64,4.1328125,TSC_ticks/access
+thunderbird,unresolved,65536,73728,,4,,,0.0341796875,CNTVCT_ticks/access
+skylark,"timing-supported, internally consistent L1 candidate with capacity interval",32768,36864,64,8,32768,64,3.046875,TSC_ticks/access
+artemisia,unresolved,49152,53248,,12,,,5.25,TSC_ticks/access
+charnwood,"timing-supported, internally consistent L1 candidate with capacity interval",32768,36864,64,8,32768,64,4.55859375,TSC_ticks/access
+crux,unresolved,32768,36864,,,,,2.705078125,TSC_ticks/access
+ookay,unresolved,32768,36864,,8,,,3.640625,TSC_ticks/access
+upgrade,unresolved,32768,36864,,8,,,2.943359375,TSC_ticks/access

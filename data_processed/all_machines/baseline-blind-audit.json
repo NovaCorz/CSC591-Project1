@@ -1,0 +1,38 @@
+{
+  "allowed_metadata": [
+    "hostname/uname",
+    "one CPU model line",
+    "lscpu CPU,CORE,SOCKET,NODE only",
+    "/proc/stat",
+    "process affinity/rusage",
+    "OS page size and transparent-huge-page PMD size",
+    "own mapping smaps page-backing whitelist",
+    "timer frequency",
+    "compiler/version"
+  ],
+  "note": "No cache-specification research or PMU validation has been performed. Package downloads were PDF/plotting tools only.",
+  "passed": true,
+  "source_sha256": {
+    "config/phase1.json": "f201a6daff58d6730d693674aada55a29c149c1da6be2bc06bd2c245dd7ffcc5",
+    "scripts/analyze.py": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+    "scripts/capture_remote_sources.py": "c18aa7fde891487cd68f8b58edad461e69f463e541658b67ce75c0b0f6433c64",
+    "scripts/check_builds.py": "b96bd8200daa03ca2958a1ee7c470a014ceeb0f8cdb5d3385ca05ef85d931cbf",
+    "scripts/common.py": "59da08ce6aac8319136b96edd9c292e6b3cb5e1fc1186a73f56fda9f2121496e",
+    "scripts/expand_running_affinity.py": "cf9540d0dcf1c5fee541e6de7fc50c608444d44fcc200f46f53d237ad9159676",
+    "scripts/handoff.py": "4937c82b0773ebf5f6beca48747250370d2bdc946c730e3c69402b309168868f",
+    "scripts/package_phase1.py": "e43284f8a39f7768c9e327500bb83a2fb89c11edf4d4302a68eb5270dc91cc70",
+    "scripts/page_control_worker.py": "e234589fbe938682ef2aa5e77c17c291b57bfc631f08e3e90f98172a286d79ce",
+    "scripts/phase1.py": "973950347a413a04e2b488793798caa302f7d7336f9ec1530a22dac1c1ca73bb",
+    "scripts/progress.py": "ccc8fa39807ba917401a114b4cb088dbd8a8debb9ee69276a6d7ef855df7388b",
+    "scripts/report.py": "b5099875f5f7e8c90a9f86f9c0258ae1ace58f35e88f35bcfad420dc698fef27",
+    "scripts/run_all.py": "e154b7b530e7787387be129a103243132a1967f5d59e052ce03f7f7c3411c8d5",
+    "scripts/slides.py": "9c2e23cc9d8ca7ede24e786a6396d5cf208063f4d1e37c5a6e2e96913c6bafa0",
+    "scripts/worker.py": "abdeedc265eba0bd5b4bfc9402e1a5ef2268e566617f0bc370f29e32e547c98b",
+    "src/cache_bench.c": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+    "src/page_control.c": "61ee1c1e1b31ce906ea203ab71ec2b9b2f5cb95a26cc473b1fd2e7db1c504a7f",
+    "tests/test_workflow.py": "eb166a39a08d82ea4541f34e45e4feb3bc1457b486fe93751f775d43f1411da3"
+  },
+  "specification_sha256": "4b4dc98cd3cb05eb2fd0bd406b9e8278d4aa8bdd9b1a341fe8aec65564d4a86c",
+  "time": "2026-09-08T06:52:13.973528+00:00",
+  "violations": []
+}

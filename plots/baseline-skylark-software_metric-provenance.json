@@ -1,0 +1,23 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/skylark/full/software_metric/00cef01de4beae11/attempt-1788843081528803088/samples.u64.gz",
+      "record": "machines/skylark/full/software_metric/00cef01de4beae11/complete.json",
+      "sha256": "9926c6c5b958ec780bf1c9e302528328b4a7813c8a875d0cc32fd0411943da84"
+    },
+    {
+      "raw": "machines/skylark/full/software_metric/321cb4ea8263334b/attempt-1788843083957691597/samples.u64.gz",
+      "record": "machines/skylark/full/software_metric/321cb4ea8263334b/complete.json",
+      "sha256": "1073e9cb0ee7e259dd9236d9e9a1e270966711e9b1ab2bd435139dafe3b74087"
+    },
+    {
+      "raw": "machines/skylark/full/software_metric/484f3d0a0a6e6e81/attempt-1788843087747886196/samples.u64.gz",
+      "record": "machines/skylark/full/software_metric/484f3d0a0a6e6e81/complete.json",
+      "sha256": "ebdb60d30982c46f8df5c3116869ca8ce9822901045fc0d5dd31bd08e7d4fd00"
+    }
+  ]
+}

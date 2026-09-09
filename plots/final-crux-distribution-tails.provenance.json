@@ -1,0 +1,10 @@
+{
+  "comparison_cohort_policy": "First chronological clean distribution per configuration, otherwise first retained noisy distribution; comparison qualifications are in the host inference JSON",
+  "sources": [
+    "machines/crux/uncertainty-v1/spatial_residency/0e0c163db8bf5b6d/attempt-1788878095791015332/run.json",
+    "machines/crux/uncertainty-v1/capacity_repeat/62ec27f5b5197784/attempt-1788876078808924813/run.json",
+    "machines/crux/uncertainty-v1/batched_conflict/0a7cfe9968f20d4a/attempt-1788872971647051285/run.json"
+  ],
+  "statistics": "Exact empirical tail frequencies from the complete raw distributions; zero intervals stated separately from the logarithmic axis. First chronological clean distribution per shown family, or first noisy distribution if none is clean.",
+  "time": "2026-09-08T21:01:21.752183+00:00"
+}

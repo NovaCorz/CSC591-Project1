@@ -1,0 +1,238 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/skylark/full/line_size/05cf71a463289f3e/attempt-1788841339870062948/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/05cf71a463289f3e/complete.json",
+      "sha256": "5c4f7b79f2b4b1fcba3d1ef1835d955e194174ecee5cc097d8b65a37a53a42eb"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/115482a0bef9d763/attempt-1788841314486333991/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/115482a0bef9d763/complete.json",
+      "sha256": "137a2e7f85d0770ddc10698a05e2d6315690e68e46cc6e589aedf73ab21fc279"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/144623303e595639/attempt-1788841215223450111/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/144623303e595639/complete.json",
+      "sha256": "64c9b3ec80da48b5e9bf62d1d09cff72cdeb893e2043fa3668b0683053654558"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/14e247bfe6819907/attempt-1788841421250712505/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/14e247bfe6819907/complete.json",
+      "sha256": "f6628f912b02af3248b78fc4e0a5d4a097fe8e367801bf7d8e9bd38a4747476c"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/16add745949c27be/attempt-1788841454453821451/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/16add745949c27be/complete.json",
+      "sha256": "13439693ede17c9d784737c12325ee8574af1abfddbbcaa63d8726adc984c0a7"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/1df724272b22a12e/attempt-1788841488501315014/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/1df724272b22a12e/complete.json",
+      "sha256": "0095b9937ed57af4f0aaef2c939dbcd5b8dfb20a6977735e4a91bd9bd3cbf6eb"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/1e2cf53d98adc37b/attempt-1788841323279190388/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/1e2cf53d98adc37b/complete.json",
+      "sha256": "153776fc4c167c5a317f9e5fab52344f2b5c105555d7c8d6aff1d4428e2b9412"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/268d244815b7c11f/attempt-1788841365742248466/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/268d244815b7c11f/complete.json",
+      "sha256": "6c38f9e2c97a2a0d11585ad3734444f647678d71be4b906f3f4203fd2f7c5e3f"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/29659a1e31f4c9df/attempt-1788841436876869315/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/29659a1e31f4c9df/complete.json",
+      "sha256": "8a5a43fe86900500dcd586f080769aa315419d139fc1bbcaa4d23baacaa61b49"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/2c4b06fc3ead2397/attempt-1788841412476439733/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/2c4b06fc3ead2397/complete.json",
+      "sha256": "41944d7b684f9e82d1c6b1c16f4f70d32b4baf84dec9cf8a20764b246409ba33"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/2cd6a1b1675ee4fb/attempt-1788841357930177037/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/2cd6a1b1675ee4fb/complete.json",
+      "sha256": "e448d47f045ae5e92bc033fb759c8f4bf4f6495272b632d2cdd262f87a94ea1c"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/2d38bd82571d1be9/attempt-1788841223602622251/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/2d38bd82571d1be9/complete.json",
+      "sha256": "efe7635e2b383e9251e74d35f708f1adcb946b896717167d0c5cf571394a16bc"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/44e36cada10712d7/attempt-1788841373448296557/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/44e36cada10712d7/complete.json",
+      "sha256": "6fcd815d77eb3be1f5ff76f8fc4684f3326589219785b357096f8cebf293deab"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/45ce4c3ea341b701/attempt-1788841522826761632/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/45ce4c3ea341b701/complete.json",
+      "sha256": "caad408bd32dbff0159206e618eb0dcf5539d8a19dc951d6788f14e902656229"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/4a87c8868fa9e173/attempt-1788841159347908145/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/4a87c8868fa9e173/complete.json",
+      "sha256": "4051a7df5d750d8b83d7d49f7f36540167fe70029192b9bc4246d73fe6876dbd"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/5b54f0c1a745509b/attempt-1788841167062109222/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/5b54f0c1a745509b/complete.json",
+      "sha256": "8214e0b7eec4ca85738600449b3cac9c6eb02d6d895d12a738717a5b4e66a394"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/5c39c44369d3553d/attempt-1788841332127677865/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/5c39c44369d3553d/complete.json",
+      "sha256": "316404ac12954e1db55e9fad95d874a7512876caee76c533ad3b4902d8399c7a"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/648671f994aee7ea/attempt-1788841207754713699/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/648671f994aee7ea/complete.json",
+      "sha256": "f10b1cd8bac49866e6bd05c702ca2142ec544b541d31ef745b69e484528e8dcd"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/6d8785be3ad13ce3/attempt-1788841504925458110/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/6d8785be3ad13ce3/complete.json",
+      "sha256": "55f8e51beaf7701bb60658dab17e8dad441346c9aae19698bec1b19703a5a6fd"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/6e3f82933d38ed21/attempt-1788841199599801125/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/6e3f82933d38ed21/complete.json",
+      "sha256": "275400d34ff3a041b5f6710df0fa734d7e9a758281aede52bf80a8ad7e7685c0"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/7043913155835203/attempt-1788841307152070818/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/7043913155835203/complete.json",
+      "sha256": "c98b096882d102d758d5aac3e5405fef00a60a3df10173fdd9eff57756d535c5"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/7458b624e5634816/attempt-1788841428508574999/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/7458b624e5634816/complete.json",
+      "sha256": "bf2ed51b4089b121b8b53c63ae2a1d7ffd43474869662bc827f50ab1f44351e6"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/76f47f0e8335ad3f/attempt-1788841298467974408/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/76f47f0e8335ad3f/complete.json",
+      "sha256": "094d0175d4b271abb44141008e5c5ca9c19e874d3d0553286892393357a0e27c"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/7971adab8478bf9b/attempt-1788841445220795607/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/7971adab8478bf9b/complete.json",
+      "sha256": "f4fc688e508b97d469701482634738c549fed9a05a9e6eb59f7e0bc18ac8e36f"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/837af521ebd960ce/attempt-1788841471894268611/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/837af521ebd960ce/complete.json",
+      "sha256": "44b2342d601eca29b4f8e5d53ff74b50b761ab83389a7f3849a6f581a0ad9a50"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/88617ed9d0471110/attempt-1788841182388284735/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/88617ed9d0471110/complete.json",
+      "sha256": "6e936636786334d4c1abc84bc558fd623cdb78c83aed89536661e19798e76731"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/8f0527e319067b78/attempt-1788841231119727178/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/8f0527e319067b78/complete.json",
+      "sha256": "f38554d8d7740a81c303dbb179d5d491d4cf9e9b3dc33fa48c85a1fc31634885"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/8f75f2b82d46b148/attempt-1788841405247931547/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/8f75f2b82d46b148/complete.json",
+      "sha256": "2c2dfe87acae653137404a165f56a281f98ac632c196fc30fe02ae2c275f6838"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/92a56a26287dc3bf/attempt-1788841247889827085/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/92a56a26287dc3bf/complete.json",
+      "sha256": "cee0ebdb1d768d8d5817bb37eb808c7dfdb7fa7f04cc0143290a9a9e03010b85"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/99c01371555529d7/attempt-1788841496132739720/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/99c01371555529d7/complete.json",
+      "sha256": "3a43c954050beffaa12db3f41357e16a8c5bc46af9a5ecb42d480d5ecaea8ba2"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/a095ca58c529bc38/attempt-1788841532326534756/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/a095ca58c529bc38/complete.json",
+      "sha256": "5373c59140e64040f0d9b4537f908c13de7d366c7be8b31d3410d953d7098897"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/afb0c64360609af1/attempt-1788841350203362883/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/afb0c64360609af1/complete.json",
+      "sha256": "34e7e458b4f5e805e83be018792f815d8e93cd2db34547f14ebb027bbe40f038"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/b1b2ea356a3d62c5/attempt-1788841175154821794/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/b1b2ea356a3d62c5/complete.json",
+      "sha256": "1823640f32fe2ebfbafb838d1d6fada22d53d098e345cc9a4be9eb4eab9932ea"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/bc5b31ab8ae038eb/attempt-1788841388892549432/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/bc5b31ab8ae038eb/complete.json",
+      "sha256": "37af84a3df50983da70640c11ac3bb6e08a49a0747ef46a98aa9880ad703be14"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/c36f5dd659680d6d/attempt-1788841190079700597/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/c36f5dd659680d6d/complete.json",
+      "sha256": "d24d6c40db0b780ba0bbfa3be6082fc4df56887051b78e3048333e2cc5873a33"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/c54745e018af9255/attempt-1788841290796159487/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/c54745e018af9255/complete.json",
+      "sha256": "6535908040ed09ae0868764fe35d0e7cf0d7270b94aba7fb7758e76c6bfcd7bd"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/c5da2a7f7a5db601/attempt-1788841274182516500/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/c5da2a7f7a5db601/complete.json",
+      "sha256": "1fd298b3652876d72b58e1c59aaea6fcba9e2e60f724354c151d7073158bade9"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/ce7a2e8934362b54/attempt-1788841381202856201/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/ce7a2e8934362b54/complete.json",
+      "sha256": "734426a207fa3c0cc14263d18d6d84a0eac8513c9ea6f37730dd9496b4d1c1bd"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/ceeb698227edb168/attempt-1788841264957475727/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/ceeb698227edb168/complete.json",
+      "sha256": "fa4985a6356e5ec47fb7cde626f78eaae80de2e234ee6fe8d0d4beabff2e7c94"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/d4f6690422559771/attempt-1788841397162030730/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/d4f6690422559771/complete.json",
+      "sha256": "304a829a64db910589763c87376319c02755d411236da9ff9e174ae1d00550bc"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/dc120252afc3a610/attempt-1788841480763899202/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/dc120252afc3a610/complete.json",
+      "sha256": "4d9bc0625b5aee3fb40a1bd8013ccb2309e6a3817523578aae2f55659867f265"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/e714513d9170273c/attempt-1788841257088775188/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/e714513d9170273c/complete.json",
+      "sha256": "51022e2d32d42eba9eb210a6ff83587060b4e5f382c0cf500f24ea337b0bec82"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/ed0ccf1eba241cd9/attempt-1788841513645254233/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/ed0ccf1eba241cd9/complete.json",
+      "sha256": "562e884b017df57a6308a5fbe6e82dd4616b5175487020e000520057f137f838"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/f36e1a03becdacc4/attempt-1788841281518597811/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/f36e1a03becdacc4/complete.json",
+      "sha256": "6c1b1ec4158a72add769f08a303bf456b58244e40cce67182b833e58e93eb4fe"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/fc2418cb248a19e1/attempt-1788841463958877911/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/fc2418cb248a19e1/complete.json",
+      "sha256": "77a40ae1afe799a1b29b3a9181a2cff7a71c4deeb8266c0b685f99063bd2c047"
+    },
+    {
+      "raw": "machines/skylark/full/line_size/ffaf4aa981532c60/attempt-1788841240082780371/samples.u64.gz",
+      "record": "machines/skylark/full/line_size/ffaf4aa981532c60/complete.json",
+      "sha256": "85dd96fdc61c8bdf2b9940a136a5a29f9cf32d2ac2b630555762520a46842293"
+    }
+  ]
+}

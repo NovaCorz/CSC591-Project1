@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "source_workspace": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1",
+  "archive_directory": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/artifacts",
+  "restore_order": [
+    "phase1-revised.zip",
+    "phase1-uncertainty.zip"
+  ],
+  "archives": [
+    {
+      "name": "phase1-revised.zip",
+      "bytes": 6924281580,
+      "sha256": "66556285f9ed2d1af478deaf5a1c151cc69cb5f1f7018a57df9423dc25ac75c2",
+      "purpose": "Full baseline and follow-up raw distributions, unsuccessful attempts, source snapshots, logs, metadata and processed evidence."
+    },
+    {
+      "name": "phase1-uncertainty.zip",
+      "bytes": 2372753088,
+      "sha256": "505f021d63a55feec38871be601aa0a9c7d80a8dc8a447fef3716dec515c555d",
+      "purpose": "Additional uncertainty experiments, retries, matched repairs, raw data and final processed evidence."
+    }
+  ],
+  "supplements": [
+    {
+      "all_member_hashes_verified": true,
+      "bytes": 89445417,
+      "filename": "phase1-independent-load.zip",
+      "members": 2093,
+      "scope": "Every diagnostic raw/failed/noisy attempt, idle evidence, commands, environments, native builds, source snapshots, analysis and plots. Separate supplement; prior archives unchanged.",
+      "sha256": "114d9a9beb1ee695d784ef335a8730d4acae4fb070bed002099143dbbf114fa3",
+      "time": "2026-09-09T04:52:55.071864+00:00",
+      "restore": "main_code/common/phase1/scripts/restore_independent.py; independent empty workspace"
+    }
+  ]
+}

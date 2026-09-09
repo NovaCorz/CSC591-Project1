@@ -1,0 +1,276 @@
+{
+  "attempts": 34,
+  "capacity": {
+    "curves": [],
+    "interpretation": "Replicated timing departure intervals, conditional on physical-level assignment; not specification confidence intervals",
+    "matched_cohorts": [],
+    "prior_interval": null,
+    "replicated_intervals": []
+  },
+  "complete": true,
+  "conflict": {
+    "conditional_candidates": [],
+    "conditional_l2_ways": null,
+    "curves": [],
+    "geometry_checks": [],
+    "interpretation": "Effective ring thresholds only. Fixed scrub contributes to the timed average; neither complete candidate L1 eviction nor unique lower-index congruence is independently proven. Geometry compatibility alone does not establish physical ways.",
+    "physical_l2_ways": null,
+    "repeated_thresholds": []
+  },
+  "flagged_attempts": 1,
+  "full_attempts": 30,
+  "host": "artemisia",
+  "issues": [],
+  "missing_stages": [],
+  "noisy_selected": 0,
+  "selected_points": 29,
+  "smoke_attempts": 4,
+  "spatial": {
+    "cohorts": [
+      {
+        "align": 0,
+        "bytes": 2097152,
+        "full_huge_backing": true,
+        "medians": [
+          10.7734375,
+          16.40625,
+          16.328125
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/artemisia/uncertainty-v1/spatial_residency/a4ae53645db0c5be/attempt-1788872980982989918/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/75a661c12d21b9d3/attempt-1788873008625010340/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/43ab3a6031df9fb5/attempt-1788872993394921653/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 2097152,
+        "full_huge_backing": true,
+        "medians": [
+          10.765625,
+          16.3203125,
+          16.3046875
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/artemisia/uncertainty-v1/spatial_residency/456bad4a197a2a6b/attempt-1788873096034632525/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/2768c950a31c9052/attempt-1788873107693769866/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/52187fde1b07bc9e/attempt-1788873081224757053/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 2097152,
+        "full_huge_backing": true,
+        "medians": [
+          10.7734375,
+          16.3046875,
+          16.3046875
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/artemisia/uncertainty-v1/spatial_residency/7da0df6b7bd98544/attempt-1788873122691324867/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/306184fad7893462/attempt-1788873149246784364/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/5322019da4e574b8/attempt-1788873134543754073/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 2097152,
+        "full_huge_backing": true,
+        "medians": [
+          10.765625,
+          16.3125,
+          16.3046875
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/artemisia/uncertainty-v1/spatial_residency/d2d1060f89a1bd1d/attempt-1788873193811657881/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/36b808921f298a79/attempt-1788873178848078200/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/391fef9a2907c70b/attempt-1788873163979680709/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 25165824,
+        "full_huge_backing": true,
+        "medians": [
+          39.15625,
+          66.90625,
+          66.8984375
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/artemisia/uncertainty-v1/spatial_residency/f7122d8c64a4e4d2/attempt-1788873205559108844/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/d284b9335650f6f1/attempt-1788873250131443252/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/f8c988575c5206cd/attempt-1788873226716773049/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 25165824,
+        "full_huge_backing": true,
+        "medians": [
+          39.140625,
+          66.8984375,
+          66.9140625
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/artemisia/uncertainty-v1/spatial_residency/8cb77508d76b7a45/attempt-1788873320094352038/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/1e65228f6aaa3f4e/attempt-1788873296805007663/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/430d24e55556aec1/attempt-1788873273479128572/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 25165824,
+        "full_huge_backing": true,
+        "medians": [
+          39.1484375,
+          66.890625,
+          66.875
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/artemisia/uncertainty-v1/spatial_residency/6cabd72b11969d00/attempt-1788873341276244586/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/1eef1086df8e0938/attempt-1788873385860952517/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/a3cda02266e56a37/attempt-1788873362448150301/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 25165824,
+        "full_huge_backing": true,
+        "medians": [
+          39.1484375,
+          66.8984375,
+          66.921875
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/artemisia/uncertainty-v1/spatial_residency/4d25bc329534c47a/attempt-1788873455724074153/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/4921e349175c2e1b/attempt-1788873432409131843/run.json",
+          "machines/artemisia/uncertainty-v1/spatial_residency/de9e6eb4077c9c9e/attempt-1788873409149806343/run.json"
+        ],
+        "supports": true
+      }
+    ],
+    "limitation": "Visible spatial granularity at these working sets; offsets change active-line count and set coverage as well as spatial reuse. Separate per-level physical line sizes remain unestablished",
+    "status": "reproduced",
+    "supported": 8,
+    "total": 8
+  },
+  "stages": {
+    "capacity": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 0,
+      "points": 0,
+      "records": [],
+      "stage": "capacity",
+      "time": "2026-09-08T13:09:36.712287+00:00"
+    },
+    "conflict": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 0,
+      "points": 0,
+      "records": [],
+      "stage": "conflict",
+      "time": "2026-09-08T13:09:31.079953+00:00"
+    },
+    "controls": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 2,
+      "points": 2,
+      "records": [
+        "timer/19e9f752ba9c575a/attempt-1788872841084869664",
+        "timer/f82f498e91cd59b9/attempt-1788872845802189477"
+      ],
+      "stage": "controls",
+      "time": "2026-09-08T13:07:32.749718+00:00"
+    },
+    "smoke": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 4,
+      "points": 4,
+      "records": [
+        "smoke/a4dbee51b3f2bdbd/attempt-1788872827168128421",
+        "smoke/bfc52e8b59b3d080/attempt-1788872829367680626",
+        "smoke/f65c6b064112ed02/attempt-1788872831577203031",
+        "batched_conflict/b6faea7b9a25e288/attempt-1788872833780253236"
+      ],
+      "stage": "smoke",
+      "time": "2026-09-08T13:07:15.982116+00:00"
+    },
+    "spatial": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 27,
+      "points": 27,
+      "records": [
+        "spatial_residency/a4ae53645db0c5be/attempt-1788872980982989918",
+        "spatial_residency/43ab3a6031df9fb5/attempt-1788872993394921653",
+        "spatial_residency/75a661c12d21b9d3/attempt-1788873008625010340",
+        "spatial_residency/16a8a133537eab9b/attempt-1788873023793402749",
+        "spatial_residency/21dc41a0ad02b8f0/attempt-1788873054053740114",
+        "spatial_residency/25eeb08cd19cba74/attempt-1788873068936099234",
+        "spatial_residency/52187fde1b07bc9e/attempt-1788873081224757053",
+        "spatial_residency/456bad4a197a2a6b/attempt-1788873096034632525",
+        "spatial_residency/2768c950a31c9052/attempt-1788873107693769866",
+        "spatial_residency/7da0df6b7bd98544/attempt-1788873122691324867",
+        "spatial_residency/5322019da4e574b8/attempt-1788873134543754073",
+        "spatial_residency/306184fad7893462/attempt-1788873149246784364",
+        "spatial_residency/391fef9a2907c70b/attempt-1788873163979680709",
+        "spatial_residency/36b808921f298a79/attempt-1788873178848078200",
+        "spatial_residency/d2d1060f89a1bd1d/attempt-1788873193811657881",
+        "spatial_residency/f7122d8c64a4e4d2/attempt-1788873205559108844",
+        "spatial_residency/f8c988575c5206cd/attempt-1788873226716773049",
+        "spatial_residency/d284b9335650f6f1/attempt-1788873250131443252",
+        "spatial_residency/430d24e55556aec1/attempt-1788873273479128572",
+        "spatial_residency/1e65228f6aaa3f4e/attempt-1788873296805007663",
+        "spatial_residency/8cb77508d76b7a45/attempt-1788873320094352038",
+        "spatial_residency/6cabd72b11969d00/attempt-1788873341276244586",
+        "spatial_residency/a3cda02266e56a37/attempt-1788873362448150301",
+        "spatial_residency/1eef1086df8e0938/attempt-1788873385860952517",
+        "spatial_residency/de9e6eb4077c9c9e/attempt-1788873409149806343",
+        "spatial_residency/4921e349175c2e1b/attempt-1788873432409131843",
+        "spatial_residency/4d25bc329534c47a/attempt-1788873455724074153"
+      ],
+      "stage": "spatial",
+      "time": "2026-09-08T13:17:56.779138+00:00"
+    }
+  },
+  "time": "2026-09-08T20:51:22.813313+00:00",
+  "timer_gate": {
+    "fraction": 0.047619047619047616,
+    "limit": 0.05,
+    "note": "Unsubtracted native timer units; batch amortizes overhead",
+    "passed": true,
+    "sources": [
+      "timer/19e9f752ba9c575a/attempt-1788872841084869664",
+      "timer/f82f498e91cd59b9/attempt-1788872845802189477"
+    ],
+    "time": "2026-09-08T13:07:32.749392+00:00"
+  },
+  "unsuccessful": []
+}

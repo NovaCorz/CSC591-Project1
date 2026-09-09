@@ -1,0 +1,898 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/thunderbird/full/capacity/009dfec2cbcd1334/attempt-1788842926422866447/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/009dfec2cbcd1334/complete.json",
+      "sha256": "9de78f84f0572a74a4b38ad18143634d0416ab1265701b767a9d5f81c178558b"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/0122639c41d4e98b/attempt-1788842753677297143/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/0122639c41d4e98b/complete.json",
+      "sha256": "8df98bb8c42974154e96f0f43f4478e12573589e033544440be6bb3a0bdf5684"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/02617b69d371e42a/attempt-1788842152567848239/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/02617b69d371e42a/complete.json",
+      "sha256": "2c232179e7bd2b55e7d5d6323ac297da1fd1fcd8c62ba8831e0d2bace8b329ef"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/0273d393dff812c7/attempt-1788839631965022392/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/0273d393dff812c7/complete.json",
+      "sha256": "e96d996e21cab4d1e1170496a1ef660e6611c9c5f9797d68905c6aafb01255cd"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/038993833b78fc13/attempt-1788842308725884335/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/038993833b78fc13/complete.json",
+      "sha256": "0ef8257b92991a695a30b7a78aa2a11a663f5fbc1381d495ca6df7ad6f7b09b0"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/05807e300e0f2cb4/attempt-1788842069433999774/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/05807e300e0f2cb4/complete.json",
+      "sha256": "8c24789420b76c666adc51ab02502eccc40bbb4a67b2b04c6ce97f1e9a28d942"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/07b465ca0a938627/attempt-1788839853670899594/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/07b465ca0a938627/complete.json",
+      "sha256": "27b1118dd9b540aa210e617f2388f1ac1309ffcfe449e9fc751e82bc606c8c4d"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/08b5a0c2c9ba6cb4/attempt-1788839636922773408/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/08b5a0c2c9ba6cb4/complete.json",
+      "sha256": "7701291e66027e22aba878cd7c73cd5c1353ce7347ab599f1d11b07030820f56"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/08e18ee43ee643c5/attempt-1788842662551039453/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/08e18ee43ee643c5/complete.json",
+      "sha256": "281df35dda950ab4cd19fbf06f93b285158933b593031c95dfc49d6be1d85761"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/0bb6d43cd62c6022/attempt-1788839410597859544/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/0bb6d43cd62c6022/complete.json",
+      "sha256": "423fa1b6470ce6e3746a9365afb80be09258bcb5fdaf9289d94d7d9fdc9a767f"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/0c02fed5f72f8d2e/attempt-1788842303814346220/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/0c02fed5f72f8d2e/complete.json",
+      "sha256": "f1fa8ce3b889b5d382c8f53a270441c86e3a70c58ff4966c2add8a4db28612eb"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/0dbea250904515f8/attempt-1788842876438204371/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/0dbea250904515f8/complete.json",
+      "sha256": "243c47aa43ed93101e27c1685ae4329ac8919ac8f00ece03ffb2eb09abc87b5d"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/0e6ce208cfd66a00/attempt-1788839430783689200/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/0e6ce208cfd66a00/complete.json",
+      "sha256": "bb271f452b961ae08c14fd0dfe0bad16fe60b18a3c6ff6f3e3cbd5a1ea5fead7"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/11a9e2b58918b8b9/attempt-1788841261597789800/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/11a9e2b58918b8b9/complete.json",
+      "sha256": "876eb827a03d1160d3aa75642bc3a38abfdcfd60f08765a0aa5bdc5535eca7cb"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/1515670413902059/attempt-1788840544119465670/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/1515670413902059/complete.json",
+      "sha256": "c248f32a6f79b257fd1c1028bd990b0149da1d4df509a7706f954e8794c95434"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/15c577b837b9c855/attempt-1788841576638738239/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/15c577b837b9c855/complete.json",
+      "sha256": "866ba3cb5576be46955914692078acb0e3acf5e72ddade65b987c391cc863a98"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/15cfa517425e0d8c/attempt-1788842261722361798/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/15cfa517425e0d8c/complete.json",
+      "sha256": "e50ae20937aa82c0d02c5553ab3a9b7f9db71e1bd57b0db75579ab1225faf203"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/15dbf8c703b4f611/attempt-1788839464230811610/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/15dbf8c703b4f611/complete.json",
+      "sha256": "0d7f0ebe949cad40852bd91aafcffda04b8add78b746ea7afa4b9bb022bd50d2"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/17d8dd8d47c3bfee/attempt-1788841187221522934/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/17d8dd8d47c3bfee/complete.json",
+      "sha256": "e6c5c1e5058353f1d44e15cbacf4b05a8b2f8696950d039b90ee7b80de2cd25e"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/187f25981f41cc17/attempt-1788840633226443281/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/187f25981f41cc17/complete.json",
+      "sha256": "d4b7654fccba7cc33334be14bce68cb80df9bb7301a2ff66cc179698dc8e43b2"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/18ced6a40f44c1e7/attempt-1788840489332102620/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/18ced6a40f44c1e7/complete.json",
+      "sha256": "1fcc8407b51e06fddde0cdc2648c20725ff60b5504a79e057abd9a11a3396cfa"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/1b80532b236152dc/attempt-1788840697110273925/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/1b80532b236152dc/complete.json",
+      "sha256": "59ed4d3ca88ea44f880bb68c988ee1619201cb57304854f97923f610c548e2b6"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/1ce57817110636b8/attempt-1788840627374844169/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/1ce57817110636b8/complete.json",
+      "sha256": "c450fc0fda297ab21884401d690258d0492e599ddbf4c5f0ebe4f88be1c2048b"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/1d0ce9c4df27e21c/attempt-1788839497909493999/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/1d0ce9c4df27e21c/complete.json",
+      "sha256": "097c1e35f29a7542c2e572c706f60a104e1fcb661f5a8a3a8e3f258356fb4958"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/22c5de26b9b4a451/attempt-1788840861443681156/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/22c5de26b9b4a451/complete.json",
+      "sha256": "207ca1e804d35a852a96a508ce3c6cdd1f462055d4abcb7bea29c2be5e8d0e06"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/258c3259d44309fa/attempt-1788842172782285026/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/258c3259d44309fa/complete.json",
+      "sha256": "a69651f10981e08a88df63707e431da555467312e22cecd5cbcc476ce4fe10f0"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/25c45e97210a0447/attempt-1788841998488640696/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/25c45e97210a0447/complete.json",
+      "sha256": "b89d595aa1fa4567adc9c86a8fa927ede115e1a33de14db63dd5b38c690babd1"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/29602b0e4e59ac31/attempt-1788839424936037641/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/29602b0e4e59ac31/complete.json",
+      "sha256": "3b9827e8c7ddfadd4b88365eff7b4c6ff6d94d30b1ac492867109b99f08c85c9"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/2d2c08e527e0b9a6/attempt-1788841324847298749/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/2d2c08e527e0b9a6/complete.json",
+      "sha256": "b09cc63f3fc0ceebb29d07c556bb415db3ca7b5d1a72fe0ad836220c311f4f7b"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/2dcddd0f57621b71/attempt-1788840421476834207/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/2dcddd0f57621b71/complete.json",
+      "sha256": "8f0ce0981c95e7ff817c421b2d69cd8146170ac6cabfa9935ff6318b9ceda20e"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/2f88168fa571166f/attempt-1788839605659642860/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/2f88168fa571166f/complete.json",
+      "sha256": "175d1e5d4908f5a9d88a1f0d0880958bf9760b7bac1019114dfb03af02b57b43"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/2fc7ec4383befddf/attempt-1788840196950953684/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/2fc7ec4383befddf/complete.json",
+      "sha256": "1c52dc21e8ff2e814105e39296ee80f47694aae4d87d6ecc3ff59b6ae121cef1"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/31f34a00cf32af00/attempt-1788841415502618143/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/31f34a00cf32af00/complete.json",
+      "sha256": "a6df105f55d2dec900de45415400e9cc3a747cad089f6b94686f0e00317082e2"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/3364af73c30cdfd6/attempt-1788841223460736698/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/3364af73c30cdfd6/complete.json",
+      "sha256": "ecb103efc0995ddc5ff164f03dde640ec933774e95e0411435d982664c8f3392"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/339c118d40f898e4/attempt-1788840539067124353/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/339c118d40f898e4/complete.json",
+      "sha256": "e5c57d014efb90313303fb2cf95f6efa27b66cb939f34cf82153e871d0ef1b75"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/351ababae72cf544/attempt-1788839459964749732/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/351ababae72cf544/complete.json",
+      "sha256": "18d5ba095558e1d454ca8006b8d185a4037b6b4c23e5d81f72bfe0dbc0a7229d"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/37eb06586000bc3c/attempt-1788841807070493814/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/37eb06586000bc3c/complete.json",
+      "sha256": "da3e83d010410883f35ce98e6d9316f125b8bd9d698824ef474ad9efc43f539f"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/3a311e21ddc58da4/attempt-1788842748739432898/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/3a311e21ddc58da4/complete.json",
+      "sha256": "3a6da3a25c8a71aa6396a5669ad81edf277bf5750bf2018b51ee38187ff53897"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/3bb8fc28141f1a59/attempt-1788840202148809858/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/3bb8fc28141f1a59/complete.json",
+      "sha256": "7a0b533f932bc25f56805189686c3461dd8121bc5c1246d19ed25e4dfb7508b7"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/3c96576d026431e1/attempt-1788841203348105634/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/3c96576d026431e1/complete.json",
+      "sha256": "2d8b220a390f10fad38eddbc56c05287401901f5de438ffa0dc152c130e8b09f"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/3f057694acd195c7/attempt-1788841792327748148/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/3f057694acd195c7/complete.json",
+      "sha256": "4aa8bd9f036c7f9e26f0547ae386adb524d289f5a6dd452b96377a0af0ab670e"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/4086120cb9e5d136/attempt-1788840442834934006/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/4086120cb9e5d136/complete.json",
+      "sha256": "ed4b1ccf58ab76587135181d0949278b6e00b71d5d5af13d60164006027379fe"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/40bdf2c3a0bb9517/attempt-1788840431459980791/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/40bdf2c3a0bb9517/complete.json",
+      "sha256": "d6faf56786fae76858c6b717fb7913effa04d9070fae5770b6d67abd2d4583a7"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/415e1e93e62cc631/attempt-1788842584164733190/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/415e1e93e62cc631/complete.json",
+      "sha256": "6eba0221cbe64280a68016be8b6cb97c4d4c0023c77b20827423611861a55786"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/41ae48cdf31e8250/attempt-1788839435078958611/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/41ae48cdf31e8250/complete.json",
+      "sha256": "132f4304370cb43dfe06ca9ef2bbd86b75532e98f91c6b56b605534835ddb8df"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/45dcb4bcde79c325/attempt-1788840484494045828/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/45dcb4bcde79c325/complete.json",
+      "sha256": "02bb1c35fcc89ec9dbb04b6ca78539a25a29422bd5440b9d0a7e67ac7dba6e39"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/46eaccbba1d9c7e7/attempt-1788839771422357293/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/46eaccbba1d9c7e7/complete.json",
+      "sha256": "701a0abde63ec01fafce0cbf3f59ccd318a730ed13932293b8f79be59eeda926"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/477dd7d15715bfe1/attempt-1788840586431382029/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/477dd7d15715bfe1/complete.json",
+      "sha256": "71085b5edab05c091230ce0a7d2b29412cc7aae39d52f53a48abc303cedf3cd9"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/48d0b51520c56c2d/attempt-1788841256697010142/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/48d0b51520c56c2d/complete.json",
+      "sha256": "60ca84d71ac148b46485a2ab5e8ba1707f63d620951c636514e907709a865249"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/49211b41209b90c4/attempt-1788839439504928477/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/49211b41209b90c4/complete.json",
+      "sha256": "721d4a7ec44b2cd70e80d98fdb4bb35a26484e9d36498535b2e7058fb6e717d7"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/4948768782eafc69/attempt-1788842324861714652/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/4948768782eafc69/complete.json",
+      "sha256": "e6a0d018eeb989dc2eccf894391827309c1693a388b009858b7306e07e555ee4"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/4b34a44f42ef7712/attempt-1788840082018737267/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/4b34a44f42ef7712/complete.json",
+      "sha256": "5ead7d29a7126ba7937a392e1e0d7f9d3b93024b7c4d4e9e92ea898c0a6604cb"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/4f2e0eaeb680de84/attempt-1788842931449463236/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/4f2e0eaeb680de84/complete.json",
+      "sha256": "da4641fe071e9d51d4ff0a7b8f6545a3c4cd6a424f03afa6913f6bfab02bdd7d"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/4fb9a7351c1be229/attempt-1788842639326038346/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/4fb9a7351c1be229/complete.json",
+      "sha256": "2836889cb1eec805589f079af569f699ad90aa58170f58d86b39b7f875e4871b"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/4fea68beab9568de/attempt-1788842396455521496/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/4fea68beab9568de/complete.json",
+      "sha256": "34c3ac78c94554c4bf7e0d251df12d925bf1dbf767df2c0317e566a37f6051d7"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/519b95365d753465/attempt-1788840769159910665/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/519b95365d753465/complete.json",
+      "sha256": "0c4a1b348236d682c2409597d061721dac8392039761561407a620dcb5e1e482"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/54401f81a43ac6ea/attempt-1788842297854766326/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/54401f81a43ac6ea/complete.json",
+      "sha256": "1c2c441eea3890edcdce5b5bff6867aa9ac01d8a94a1901aa06d1c2148ee9f0a"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/54a9d1ff3edb4375/attempt-1788841615498186868/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/54a9d1ff3edb4375/complete.json",
+      "sha256": "768863031923f1da38605ff95f14b813b2b2148aa3c6916fadffee01e0bc9d0f"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/54e8c237bfb2fb54/attempt-1788841586734315609/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/54e8c237bfb2fb54/complete.json",
+      "sha256": "acad0c3fcab1ca22f517664958416c7e40578a368b5310361e2ed940878f8028"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/561f7d3ea6d29212/attempt-1788839454581903933/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/561f7d3ea6d29212/complete.json",
+      "sha256": "3cfe6ab5f27d4d39925500c72bee25bd41b078a042dc0b87217f5efc3f5febef"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/5701235bfeb2d2a2/attempt-1788841785921255898/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/5701235bfeb2d2a2/complete.json",
+      "sha256": "c9689eca13b4385f8db6b2991f797a6bd8825aa82c521d55f8de06e9be1204f5"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/579bbbe660e1ffde/attempt-1788841334948412561/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/579bbbe660e1ffde/complete.json",
+      "sha256": "c9fe48248164f4124e2adcdebfe8b845e62b02c8d8f50c66055d65694c01e599"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/57c9616b5e2e0f6d/attempt-1788840591393962390/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/57c9616b5e2e0f6d/complete.json",
+      "sha256": "7e43b5e2a0cc7388311a712ffc175ae9eb447cc11d64054e17a55149d297068d"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/5917d1896d19d4b9/attempt-1788840413912561698/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/5917d1896d19d4b9/complete.json",
+      "sha256": "7285932dc04e9d79de180dd4b3c024060e0fa3159ae31801991682be660ddf0e"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/5bd9818adc82fd59/attempt-1788840087946794690/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/5bd9818adc82fd59/complete.json",
+      "sha256": "caeef45c8f0d05fb711b5325c0deb82e9cdf4c9f0604a00b5d15396cdfa7e832"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/5d41f5c5a9b296db/attempt-1788840036462334706/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/5d41f5c5a9b296db/complete.json",
+      "sha256": "9ac72f1ff477195da6e0b428e4791bd2812129cccdbc00a3d3c7aacce9646113"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/5e034ef178d2e865/attempt-1788841557004744912/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/5e034ef178d2e865/complete.json",
+      "sha256": "cbc32cad63eec5f3a5f1ab8f7ef71a1b9fa100f3d5bd09e88cb86b1e830ae66c"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/5fd3600aef2da1f4/attempt-1788840763793909196/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/5fd3600aef2da1f4/complete.json",
+      "sha256": "a39d00312de55d68a5ea3bf4074606a9814d803fdfbff258d9ee5160379b47c8"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/60f9f215f14d306f/attempt-1788839444322925753/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/60f9f215f14d306f/complete.json",
+      "sha256": "7106bab4965cfc21c15ba3495513c5598e34ccfa3ac462eb29d969c5eef5c30e"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/633786b7253cc7fb/attempt-1788840122331130357/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/633786b7253cc7fb/complete.json",
+      "sha256": "c63c573b75c4c32006daed5e27c4a5c427d0a892ff64c7e822ac5921ff802af7"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/656a2c0573bccf2c/attempt-1788840216787683042/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/656a2c0573bccf2c/complete.json",
+      "sha256": "ac1536ec48a1b36166e062f20ea563b650c3ce3ca5c21b32989d470185682bdd"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/6cffa17f287289ae/attempt-1788841874956036391/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/6cffa17f287289ae/complete.json",
+      "sha256": "0144a25cd9b92d7675328b561136b199278999146034a42c50ab6310d69a742d"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/6d183fac75020fad/attempt-1788841193224142811/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/6d183fac75020fad/complete.json",
+      "sha256": "8b436c47fe9f3e4a672ffd44c98b390f697cb895369df9e8bcb4e80d06361c82"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/6e9d21b3820a11d3/attempt-1788840211872695180/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/6e9d21b3820a11d3/complete.json",
+      "sha256": "ff3bfbd7162845bc094a5fcc51638f8c823f018150250dff5c3ce6941fc3152f"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/70842db4b168e55d/attempt-1788841645450427106/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/70842db4b168e55d/complete.json",
+      "sha256": "717814d79bcc90af19789e66d7202bd10223065bb523167ee34b9960776a0ff7"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/708ad238b9ef1163/attempt-1788840531400437444/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/708ad238b9ef1163/complete.json",
+      "sha256": "282d8d2f2513fb0e37b825906c01fd88218a823bbdb7d0cd18bff750af06b0fc"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/72ca2e19f9e9af76/attempt-1788842645385502523/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/72ca2e19f9e9af76/complete.json",
+      "sha256": "778a7c65d8e0341e3c9699b925bd84e3fa0b2a6b747efaef50651029a7721950"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/7310150549aa8d13/attempt-1788840687051735070/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/7310150549aa8d13/complete.json",
+      "sha256": "6fa0b60e26f599be6c980467e4c15147d70247bd2d356919c9a6dca46e802f6f"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/756019ffd4340573/attempt-1788841173402383079/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/756019ffd4340573/complete.json",
+      "sha256": "f710e87a06d7316e6bf49f48ec28db9355b6015f985c6d681e8a81ede73076fa"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/78e4b1e4ac3d6e21/attempt-1788841266581233936/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/78e4b1e4ac3d6e21/complete.json",
+      "sha256": "609d2d4ba7e6504c1be7b2729350541494b3bdc6e43d9a8e06b062455fbd795a"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/7b460c6765b3b045/attempt-1788841581676069319/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/7b460c6765b3b045/complete.json",
+      "sha256": "0193bef5efc62630598f36da8c7320b2aaddee69c371478c4b3dcaaf4951f6ce"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/83f3b139b7f32afe/attempt-1788842284293904698/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/83f3b139b7f32afe/complete.json",
+      "sha256": "c366b215a45aec49253a8709b2d56b35a6679b8d3586148f3ec664ef1abfe7f4"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/84ceb04778d794de/attempt-1788839766478434820/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/84ceb04778d794de/complete.json",
+      "sha256": "2b8eae497ede3a8fc278e44a7e9a96c839a427de08ae1d2b189a3ff12412b074"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/84f4f9c93930f735/attempt-1788841797118618529/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/84f4f9c93930f735/complete.json",
+      "sha256": "5b8bc443c18ac1368a04060d7b2597b985a69d57767e4464747c0a6454ba07a3"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/851dab13d5d26fcf/attempt-1788839942622718264/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/851dab13d5d26fcf/complete.json",
+      "sha256": "03fd93996d64c1425952d53336539bdbb07760ecd38f0a6dfacd2dde91fb8d65"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/8622cfecc2d82e08/attempt-1788839616293309641/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/8622cfecc2d82e08/complete.json",
+      "sha256": "e56b10126697e4a58bf9a3bfaf213028ba5abedc055ca3e8fa9e1971e13f510a"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/86dbdbf615722476/attempt-1788842761800426986/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/86dbdbf615722476/complete.json",
+      "sha256": "2558d83d6ef9a780b3a2a3840de5ba9703364213f7de3f3ff857abf5f87e4ccc"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/8a95c20c6f299155/attempt-1788840030331937643/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/8a95c20c6f299155/complete.json",
+      "sha256": "fb7b330780056f225f1ea35ce66a9a9eb9f5cb1409a525b1663725915a7bd2f3"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/8b12e3646b591d88/attempt-1788840317814038244/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/8b12e3646b591d88/complete.json",
+      "sha256": "978a86da23ff10efd9982b8af1f523b07863a24b737804824a8ae755a65e5982"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/8b4b2a3bfe2b26d4/attempt-1788841781017037386/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/8b4b2a3bfe2b26d4/complete.json",
+      "sha256": "3562031e8662c9f80587432544eb84ec28d40cf91063738c199c6a9fdd5f2a6e"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/8b6cd554ccae3f1b/attempt-1788842279160363687/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/8b6cd554ccae3f1b/complete.json",
+      "sha256": "9cfdc36ac6988d47169d97773bbe2c8106138edbda5e270bd7adf05b20a051f3"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/8c36aa64d1ddf135/attempt-1788841043363685219/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/8c36aa64d1ddf135/complete.json",
+      "sha256": "103adc1822e5c9340a68b62d2c23a3c228b42b0bc81a9fad03f315cc398a82b2"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/8d6ab51462bebbe2/attempt-1788839810990671249/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/8d6ab51462bebbe2/complete.json",
+      "sha256": "9266b88f745174e02e1ec009a649a941ccbb0eea3304997d6d273ff822dee263"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/8dcd6540bc8bae44/attempt-1788840408142355417/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/8dcd6540bc8bae44/complete.json",
+      "sha256": "a78fdfb7f8bdeda372207bc22065e75e69142f4c5349a82f3af1e40dd6bc250a"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/8eee7817db03c9f6/attempt-1788840366611792006/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/8eee7817db03c9f6/complete.json",
+      "sha256": "2c8fdf9f6c594a7b6a10269e7382b352cca9611bdb3fe5431444e16a738acc6d"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/9078f868b7280d14/attempt-1788841650383635859/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/9078f868b7280d14/complete.json",
+      "sha256": "1bc677ff9d5ca679ab36eea9066db7433bef7947350217def27e180395a26ba3"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/92e4bdb59e7b7fa7/attempt-1788841420653114074/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/92e4bdb59e7b7fa7/complete.json",
+      "sha256": "7afc47af8cd87bfd7e79681022ec73c0a26f39a30901556fd288f365f5fa98cb"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/937c06338c13e76c/attempt-1788842157730286144/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/937c06338c13e76c/complete.json",
+      "sha256": "5b8fc0ac74918a8299e5c510159ea3fdc2abbf67e07c98e123e78b6876e2fe5a"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/93f27d38a5411520/attempt-1788841801957205731/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/93f27d38a5411520/complete.json",
+      "sha256": "735a5574b85c65b9722aa36c12877bb84caab5cf5a3078b1c0ce9fc2a43794d8"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/94299ed2de1bf3d8/attempt-1788841208415654768/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/94299ed2de1bf3d8/complete.json",
+      "sha256": "60f01f3053cdda890fcbdb4eaa319194558810fc25bfdeabb028d2e7d8bbeae1"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/949b64dea06fb5cc/attempt-1788841881354329037/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/949b64dea06fb5cc/complete.json",
+      "sha256": "537b587e70b12a9d593778aafda2ced5766d2c7c38c89e2cc0e28a5e3b18cba0"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/970e1512f7a79a81/attempt-1788839806469936502/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/970e1512f7a79a81/complete.json",
+      "sha256": "29565fce490b7727edfcd8a013591ea3587985f9c9930f440bc6b1bc15146bac"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/9a687e31c697d81a/attempt-1788841392744205842/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/9a687e31c697d81a/complete.json",
+      "sha256": "7bd176d61ec99de4132f083304cf1bf9f0dbfb8d227618174a2598582eaee4ec"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/9ac017ffcbe89c11/attempt-1788842685508199402/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/9ac017ffcbe89c11/complete.json",
+      "sha256": "8021fd021a043966b08d3dc4185f27460faf5c6a4e75d5cb9a11f4969a81a079"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/9b369189971dab48/attempt-1788842743744657467/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/9b369189971dab48/complete.json",
+      "sha256": "0e4913af275b15fe45cb9c390813a22c7097f5632574f349ed9082dbde15741b"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/9e599287cde8933a/attempt-1788839650572176409/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/9e599287cde8933a/complete.json",
+      "sha256": "90d7fa4fc79a2cdb0fe4d02e9e51d1e10d9437d765f080a9451148d1a124c13a"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/9f214f7c946ab2ee/attempt-1788842921115041242/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/9f214f7c946ab2ee/complete.json",
+      "sha256": "449693c24f45f89cb0236b8e92a2c3d86b9b65dd607be1ea828a4e82e5fd5825"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/a1140419bda9d1dc/attempt-1788841971843014208/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/a1140419bda9d1dc/complete.json",
+      "sha256": "4eb51886ecf20bd1979b4ececf47f03b800685503a06859cc9918091e5c99345"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/a3219644674e7803/attempt-1788841387480642739/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/a3219644674e7803/complete.json",
+      "sha256": "1545b6fd71abe55075293badd6d78b9c81f14ad75857b3100670cce54c22ef03"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/a5d3d79752d93404/attempt-1788842972229482343/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/a5d3d79752d93404/complete.json",
+      "sha256": "c2c5744f2d17b0ff25c5237cef7ea2dbb939566ad0150e2cde2b665cf8e43bda"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/a5f68a205bc6eafc/attempt-1788841181122258574/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/a5f68a205bc6eafc/complete.json",
+      "sha256": "b24d41f2af17a3149e9524a2ebb34c213047101369a0da353f2ff60c03683c32"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/a6d8f0be287b3735/attempt-1788841339924240773/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/a6d8f0be287b3735/complete.json",
+      "sha256": "b3e8a4f28f5fdccac8a9f1e68fcc224b64c625f202380070559510302cf772f0"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/aa39adfd2ee9c241/attempt-1788841034187492146/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/aa39adfd2ee9c241/complete.json",
+      "sha256": "fadb3d4eeda869f5d8ba739fc7d5167b900f32c93c37cac17fca6c71823852c7"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/ac6901762f67663b/attempt-1788841228390400929/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/ac6901762f67663b/complete.json",
+      "sha256": "55f312a50ce75626f1e86b6263676b79bfca15aab236f5554cd4e1aba484f530"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/adfd5d2b67420dd6/attempt-1788839858172945373/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/adfd5d2b67420dd6/complete.json",
+      "sha256": "f5db2bc9fbfc6044d4939f1edcec4f2c904b78fa02b87f8e2c09c489d19fbad8"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/aea69e51daa68137/attempt-1788841568394902907/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/aea69e51daa68137/complete.json",
+      "sha256": "e55ea7c63e5dd7a2fcf1bd44524c475b209a0fdae6cab762100ff42c611c0f6d"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/af496e4e8933df3f/attempt-1788842715675390235/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/af496e4e8933df3f/complete.json",
+      "sha256": "b147beb9f96f713f486449a0cbf3dd51a2fd0aeadac3c33d837a65fd21f31f6e"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/af7634b8e5225382/attempt-1788840137187039348/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/af7634b8e5225382/complete.json",
+      "sha256": "e22daed0c8e47e47ee57802a832d2d35ce9f6365a1c5aaa616a43934a9b5dee3"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/b1d94884a1c316e2/attempt-1788841860787410016/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/b1d94884a1c316e2/complete.json",
+      "sha256": "d83674c9f99ac1a83ed77507358418b539120ad15212393e4303412eee9984f3"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/b1dfd8d89f507c55/attempt-1788839864073484225/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/b1dfd8d89f507c55/complete.json",
+      "sha256": "5d9d2e3a24a5c88b7c78d42d61dc59bdfa78efb231a114df6bd5378c20c5fb26"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/b42b278a95698797/attempt-1788839502753637326/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/b42b278a95698797/complete.json",
+      "sha256": "5b7aa4f15a52d6d997beef307b71889d10ba2214afb2df8558843f1aee06e715"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/b4326922d46687af/attempt-1788839627683613628/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/b4326922d46687af/complete.json",
+      "sha256": "05d2009d30c750c4031c2c84c36ee9a64e31e1976cb7dcc55f0387036019b820"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/b43e990c33a17744/attempt-1788841272621672950/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/b43e990c33a17744/complete.json",
+      "sha256": "fd93be3ec82e16947b0018982f9e86f3bc9ef14a9b2fe3be8be838a98ca57a25"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/b6fe2f3562352db6/attempt-1788842222807523169/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/b6fe2f3562352db6/complete.json",
+      "sha256": "22f4b65e11b74ad3f3436c5b332bdbdc848e9f118d8c4665f93a8dce5e5ebdc1"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/b758831ca7312bd9/attempt-1788841462150297977/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/b758831ca7312bd9/complete.json",
+      "sha256": "5abc73ae3317bab3209ae354ef4a597b19fdc11d9d7b1db74450a8a768c31eaa"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/b75dc392e3e2d4a1/attempt-1788842313542150087/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/b75dc392e3e2d4a1/complete.json",
+      "sha256": "9a5ec571efeed99b18280b2342aeb79b73d39670fdefe37f97054a1f6a18ace2"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/b97ab35af9a108b3/attempt-1788842274182357183/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/b97ab35af9a108b3/complete.json",
+      "sha256": "8ac06bdbddaa2cf17d94029aea3e464ffc31e2404ed807097066ac011f84cf19"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/ba938f5a67ef634d/attempt-1788840180242428041/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/ba938f5a67ef634d/complete.json",
+      "sha256": "2a2a376e4dc911f87761e49bfc74399771aeb1ab528b5b8717198071aff6ab37"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/bc0d9f3e5a38a627/attempt-1788841198237144641/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/bc0d9f3e5a38a627/complete.json",
+      "sha256": "546a48af0cf436acbfed74f44ea754dcae6edb2c017d7ee591894c8f32627e1f"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/bc25a1ae5160d80f/attempt-1788842269167535703/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/bc25a1ae5160d80f/complete.json",
+      "sha256": "0b568f857e3c39d189cf526c9db30737bc8ff9be0f5413db107e8365dc117e57"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/bd3aaaa24b8d0f71/attempt-1788841277643046463/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/bd3aaaa24b8d0f71/complete.json",
+      "sha256": "fcabc22edf75bccbe0a3cee7c0ffe03fc31a4729d5fcf14298ec116f00998bc8"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/c0c1afab1c6893e7/attempt-1788841640464670449/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/c0c1afab1c6893e7/complete.json",
+      "sha256": "a155d89ccb46afda1e9468743169f150a8a011e03d28f57f35b7f5cc882cd28b"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/c32995e58ed75037/attempt-1788840436779056693/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/c32995e58ed75037/complete.json",
+      "sha256": "b44bf94efd8ec2c989cc57758465345e78cec3e02d4cc2e9cf2cfaa62c0fb1c6"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/c60f70f7fccfbf65/attempt-1788842674993606310/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/c60f70f7fccfbf65/complete.json",
+      "sha256": "4318b8a2ac2b63fa05c2ecb6bbb57dff7edd06f24a0e9074a8175f912e6f2210"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/c813831d906184e8/attempt-1788840175235036902/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/c813831d906184e8/complete.json",
+      "sha256": "ea21bbae621a5a57c6e6eda734cb564ff1952c45e2b039ad1ae9676df624b0e7"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/c84e73645b012f09/attempt-1788842003429956343/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/c84e73645b012f09/complete.json",
+      "sha256": "f732da1db58fb32577d644c65bdf305d334d645775910d8f4103a7e975ca89a9"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/c9476266e4c5ec76/attempt-1788839449048082509/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/c9476266e4c5ec76/complete.json",
+      "sha256": "a996b107bd3d1e6a9435c48d7c2cfa3e6096ca55540821fd841f19acf29c3574"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/ca289531c91d914a/attempt-1788839611887537503/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/ca289531c91d914a/complete.json",
+      "sha256": "fccb9dc76502ecefdd8e303493d9249643833007e71da61020078ec026b1c6de"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/ccdaba4b4a581f13/attempt-1788839279180062007/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/ccdaba4b4a581f13/complete.json",
+      "sha256": "eea6b73a78544893109cc3a1ce28e6c621cff618ce8d949a3ac906e2474263be"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/cd2ca6aa403e52f8/attempt-1788841282590346542/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/cd2ca6aa403e52f8/complete.json",
+      "sha256": "ad1328f8107bd823bdae957b27d543b45094ea7acf43f6aaa503a6a7f67c1e87"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/cd5c8263c5fc9417/attempt-1788842667602396268/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/cd5c8263c5fc9417/complete.json",
+      "sha256": "b655b02d1b38adf49abd303fa358a2aec8c10678ef056dd79a983c89e92a2a4e"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/cece486667c553d7/attempt-1788841681537344680/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/cece486667c553d7/complete.json",
+      "sha256": "7a314ba9950740a4bcac3a1469d4f625247dcd7cc3d3c47029d604c4a2f5cea1"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/cf707ab4c52a070f/attempt-1788842881651973251/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/cf707ab4c52a070f/complete.json",
+      "sha256": "d4616640c8ce4b5351c1c586427cb539714e0929adca60c2ad19ce8e9ba87db1"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/d08d82e58fac7f61/attempt-1788839935230674663/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/d08d82e58fac7f61/complete.json",
+      "sha256": "1cb879b5936cebd4be8b186e836d4a0279d797c633a448493df1c9f50f94265a"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/d1af79d4a59f2862/attempt-1788840132181557050/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/d1af79d4a59f2862/complete.json",
+      "sha256": "b9b38e8dec1edd0f770fa0ac34d3485661d3c9d21afaf29431fe7ae72f349647"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/d6678381f3ab7f42/attempt-1788840426499139231/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/d6678381f3ab7f42/complete.json",
+      "sha256": "bf49e2c84c2335161754da0f74ef6195b743a2ee065369c5b6240cccdb336280"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/d7cd622f4159d946/attempt-1788842679797813458/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/d7cd622f4159d946/complete.json",
+      "sha256": "dcd71eb2246744cedffa3b35d5b287d25436d0b95ab2a91905b5c7f022fbb1c6"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/d9f3ff2d6162e7cc/attempt-1788840682182622306/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/d9f3ff2d6162e7cc/complete.json",
+      "sha256": "c461a242ff1eb7b6cfce67e4215a0cce0c1bdfab0fd615df0db47340ae21d06a"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/dae69234770791c4/attempt-1788842162690500799/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/dae69234770791c4/complete.json",
+      "sha256": "1fcb64ec17b48c367fc55e3ab498b4978a1039743066d0152a1bf6ce9db70c86"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/dae6d8cead57bcd5/attempt-1788839493463232764/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/dae6d8cead57bcd5/complete.json",
+      "sha256": "e131eb74ea90e7936059ec618c48ba51a5c6558a8d435222094bbaf23091992b"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/ddd490578c85d159/attempt-1788840142059838313/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/ddd490578c85d159/complete.json",
+      "sha256": "c39b5546bc1ba92297ce592467052cd5dc906255e47a9add3066ab2862d210a0"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/e16a4195b47b21ab/attempt-1788842913582249401/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/e16a4195b47b21ab/complete.json",
+      "sha256": "7a9a1190ea403273dca6324b9e6a3c9cbe8fb9fa437c57f7aebd57a46b3eced7"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/e1c50343ee670c1f/attempt-1788842795766692205/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/e1c50343ee670c1f/complete.json",
+      "sha256": "1eae4e51eebb36dff5a2075bd5872fc64bb6a105c7d2397892be49bf57835573"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/e379afffd835969c/attempt-1788842498767195892/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/e379afffd835969c/complete.json",
+      "sha256": "3e983d89bc3eb990595b3153bb73c75c96c3c9a7a9af730de8185c83ce0eb466"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/e50cd762855069be/attempt-1788841038414633339/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/e50cd762855069be/complete.json",
+      "sha256": "ace2fd654278240d5da2eca1d47c14bf80d3b2d4f7bc2dc89b9c669c16757c2a"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/e771369b24e9e417/attempt-1788841410478260989/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/e771369b24e9e417/complete.json",
+      "sha256": "dcefe18f12def8a8fbd58292bbcfbc0629f94b0ef596d74a8a6a785c64ce781a"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/e7ff15e3cf77bb68/attempt-1788841319850925967/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/e7ff15e3cf77bb68/complete.json",
+      "sha256": "26f56592a4e8a363047911f47d076ea7462d988c404aa23706480391a4f52294"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/e80d18f41ae9d98b/attempt-1788841233271852339/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/e80d18f41ae9d98b/complete.json",
+      "sha256": "d54a49b2881ef7c0672f30b24e409f1d251894c5909967274240d6e37bd64879"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/e9d44232d9733024/attempt-1788840526477190818/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/e9d44232d9733024/complete.json",
+      "sha256": "94b05a92889852f71a17d6212f550d468782715205275c31514455e3ebf8e991"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/eaf7fe443bbc404c/attempt-1788839641388396652/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/eaf7fe443bbc404c/complete.json",
+      "sha256": "5adc69d7d045a8b47b2e543aa3fe40a29f5c80cfe2478618131ba2fa642a418c"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/ec389fdae0dd0a66/attempt-1788842167426757477/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/ec389fdae0dd0a66/complete.json",
+      "sha256": "10333f2e7c0b883d28e9dbe50c4521d654e2a940dd523e262958dede19e15978"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/ed670580e5502116/attempt-1788841096217958183/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/ed670580e5502116/complete.json",
+      "sha256": "9402ad1dde56f1cc11947521f52502ead8678fabc909486ffd8b198f1e489164"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/eeb1c165c69177aa/attempt-1788839415612379144/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/eeb1c165c69177aa/complete.json",
+      "sha256": "8e1cdebb8fdc36e04e220ded5cec0390f9b642d0ef1dcb1544950909bedce6e3"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/ef48807b2f9d0516/attempt-1788841828261303229/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/ef48807b2f9d0516/complete.json",
+      "sha256": "51e8cc94fcd0f01bbd9ed34a12f0e593c4159078796663fa4b6be0c0933b7fe3"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/ef5dcd13e3592d45/attempt-1788839420019160883/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/ef5dcd13e3592d45/complete.json",
+      "sha256": "c657458211ea667e96ff5ca3f7197a100c88b4eebb682ef14d761e409bf3aa5c"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/efdd4f5268d3b6fe/attempt-1788842178611251183/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/efdd4f5268d3b6fe/complete.json",
+      "sha256": "5c0eb64dd07efb00ae9d58fd86f7b71188fe53a818b93854919b2b4e671c447f"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/f0006de2359ea005/attempt-1788842690498489511/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/f0006de2359ea005/complete.json",
+      "sha256": "1b660e088c5607e8952cdba8cfbdf8e482eee847f45a8ca6ab29540404945e86"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/f0276914379ac0ba/attempt-1788842064545424790/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/f0276914379ac0ba/complete.json",
+      "sha256": "5ebdde2b9e404825157e3292d8171d9ea459052184e14e0f72a44f6cc5628bfe"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/f09d04f6b63ce2d7/attempt-1788841329964932825/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/f09d04f6b63ce2d7/complete.json",
+      "sha256": "1e2c0ae6138efbe8dc8b5b5eb9dc16c81c6dc1f63425064f7fc246d2e44d18cf"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/f357c79cace1aa4e/attempt-1788842655898030535/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/f357c79cace1aa4e/complete.json",
+      "sha256": "db9333653cc7e0b3a01976a49d42e92920a40cd900c67ae2095126dd3d74c9a6"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/f413c3e4de2e515f/attempt-1788842650866833248/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/f413c3e4de2e515f/complete.json",
+      "sha256": "9072322cd629678d9df5a6a7796125b863e3223f47023eb5be664301e9b45542"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/f44c88e4c3f62a9d/attempt-1788841448541546497/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/f44c88e4c3f62a9d/complete.json",
+      "sha256": "4255757f3e0df0a66409b0aaae13de9fdf1b4d5cd5ee5e6bf9383576ddea8fde"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/f5073bca483045f0/attempt-1788842720594253352/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/f5073bca483045f0/complete.json",
+      "sha256": "e6e471a425232f8783faf4383dee5c41a99976dd3e31ebff674338ad1e168f18"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/f7526d915d547932/attempt-1788841620571647805/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/f7526d915d547932/complete.json",
+      "sha256": "06eb4b0b3cbb626ef26951bdc4b6615eb866cc5cadeb41a60cbf3f66fdf496d0"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/f7e57282de30e592/attempt-1788839917237140753/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/f7e57282de30e592/complete.json",
+      "sha256": "4fdcddddc87dbae2241a65c8f5a14a0c7d3ea9bbce1fbefcca322d701953a2bf"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/f83fd1317d852159/attempt-1788842735869098532/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/f83fd1317d852159/complete.json",
+      "sha256": "a8dd1e22544cb6a029c078dfacf643ab15709d8b66763c9c2867c69b0bcf7cba"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/fc4284209c2797b7/attempt-1788839645661204373/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/fc4284209c2797b7/complete.json",
+      "sha256": "9aa015d06c5f25f2a04c1c0905e4cf210981a13df5b64c4b5267c33a97958c15"
+    },
+    {
+      "raw": "machines/thunderbird/full/capacity/fc4a539bac9d0358/attempt-1788840692073854895/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/fc4a539bac9d0358/complete.json",
+      "sha256": "105c58ead9c6935b471c74edcb7a2a5a4e3fa734cf9a044d9be1e5eb03d22d9e"
+    }
+  ]
+}

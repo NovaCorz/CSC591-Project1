@@ -1,0 +1,158 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/crux/full/inclusion_policy/09264f309289607b/attempt-1788842642903851781/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/09264f309289607b/complete.json",
+      "sha256": "a8034a6da2d3a79362e1f34cc373a0635e9d4b839a9580913d71f7fa8519189e"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/09fcceb9f0701d51/attempt-1788842717989146449/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/09fcceb9f0701d51/complete.json",
+      "sha256": "9ec54a156981ce31d6592f5b49d56c5bec8d195b322598eb3ebf2f53406f32a0"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/0ae4fe51612aff70/attempt-1788842634073819585/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/0ae4fe51612aff70/complete.json",
+      "sha256": "7f0c287687be5e2d32b4972538cb90903643fd799404650714353c609f4215ed"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/0cdcd6079a6e1f74/attempt-1788842781355863713/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/0cdcd6079a6e1f74/complete.json",
+      "sha256": "ee4f38c30f6e8d7a6a58b705065c0cf61431bb1321d786d28a2a4e86c52f05a1"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/0ffcaa1244f6ed2c/attempt-1788842639347945074/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/0ffcaa1244f6ed2c/complete.json",
+      "sha256": "1de38a87bc28d4a86dde0b8ab30d245bfa8ac8d1168c797db2f315be6a9c1dca"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/10769efbbbd50276/attempt-1788842708654083862/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/10769efbbbd50276/complete.json",
+      "sha256": "c25f3e6eff201e7a53fb1362acacfab05ae8d74986db428b057426f222088511"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/2d7d892dbf1e5f68/attempt-1788842684852349258/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/2d7d892dbf1e5f68/complete.json",
+      "sha256": "80046f1420ccb32265de6205042e71c5780f14f84c20d93d53625ee1caac7016"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/3ebca3d513de705c/attempt-1788842704289682986/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/3ebca3d513de705c/complete.json",
+      "sha256": "fcc37fc796e7e53a1d70afc0181170afa05366ea756fa91969e5a4939838684e"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/4c8b3e660b6fa37a/attempt-1788842680908819816/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/4c8b3e660b6fa37a/complete.json",
+      "sha256": "ee0d07633084f0c41a13ffd4ee15a224997e781301bd9d58add4ed52a6556b01"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/5641d229bd0d48bd/attempt-1788843264868527548/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/5641d229bd0d48bd/complete.json",
+      "sha256": "8dae10aef03b6da9e0277604a5c46f3bd9aae400c96c741761cb6386c619a9b7"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/56bc7148eecc0adc/attempt-1788843250580132781/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/56bc7148eecc0adc/complete.json",
+      "sha256": "a46751f59dad6e2c8d34fc6883afade973b4b8a01f6d66ea6eeff10c165207c3"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/8136a51d3f6be3a0/attempt-1788842885188772294/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/8136a51d3f6be3a0/complete.json",
+      "sha256": "ebc6378c74dbaa3122894f1a664324fcf156567776354db380acf4188072ece0"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/a06fdfd78d47aab2/attempt-1788842655729894342/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/a06fdfd78d47aab2/complete.json",
+      "sha256": "b92389fbbe2d89ee2690c48381665857c5025ca617b0f1473bd46b4484c19d3a"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/a6f0b0f462ccae90/attempt-1788843050097645349/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/a6f0b0f462ccae90/complete.json",
+      "sha256": "5e2b8e7f66ddb4ab664aad474560fb46c06029f78995cf815125cb465a1f54dd"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/ad0279856ca99a1d/attempt-1788842648108831893/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/ad0279856ca99a1d/complete.json",
+      "sha256": "82da9aee1295d1fbd3e6c488fea24f3a2f824a621bd311a809f55aed97cf6c29"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/ae79028b1c513462/attempt-1788843099525452704/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/ae79028b1c513462/complete.json",
+      "sha256": "d3294426abfa26e4d194631bcd7cb159e65091873b4f97fcf12ca49906643613"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/be954dc7d28a0a2b/attempt-1788842627120202997/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/be954dc7d28a0a2b/complete.json",
+      "sha256": "54748ebe256a98c672a6c29bd0d43b3ca4d1b67e2b1655ed0d4919c5fbd1975e"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/c160b97e3dd18261/attempt-1788842736934599993/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/c160b97e3dd18261/complete.json",
+      "sha256": "6e3a464a6cde3687bb9ef67a62fab19fb7ebfe2204f6af3fcf2d870d2c520f67"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/c848d2583fbba81d/attempt-1788842804325367787/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/c848d2583fbba81d/complete.json",
+      "sha256": "36516923fe39213b5fa6543944a17ad06a0e08f2daadb2145f694e6c8a9de2b1"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/c8807688c6ae1afc/attempt-1788842775803075328/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/c8807688c6ae1afc/complete.json",
+      "sha256": "bc402ebe4fd934123f49174ea27bbeecf6d055428851ad308e69b4dbdf3ffaa8"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/d09ff6863574f5c3/attempt-1788842878593686763/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/d09ff6863574f5c3/complete.json",
+      "sha256": "5d3b467ca70f43d6134c48217082505c74d68768ec0d7b90eba9e033e5583d53"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/d79a201811763c19/attempt-1788843057503885706/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/d79a201811763c19/complete.json",
+      "sha256": "4ce46606fafffa41e339183570e93e8e2270c3bed9e9bc11fd9d310fed0006b2"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/dcf2b2bd876406e9/attempt-1788843319034962357/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/dcf2b2bd876406e9/complete.json",
+      "sha256": "aea476000e2a3a39533329b658eaec63941c06ace7bf4c23c89a7ff4341a7b0c"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/e411b38fea03d5c5/attempt-1788842921491411586/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/e411b38fea03d5c5/complete.json",
+      "sha256": "faa0925ae8eceb21f7e51e40e0b5fcf1ecc23f2a951fae2dd8426d71df3e486a"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/f13d936e89a1136a/attempt-1788842671375505068/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/f13d936e89a1136a/complete.json",
+      "sha256": "ddfe187b8e149da0d9cf52d80cd1a9bdd53e16727ecc3cf14ae1b61abe724177"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/f2810db75d34e351/attempt-1788842751689194545/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/f2810db75d34e351/complete.json",
+      "sha256": "9864cd372de48cc456a54ea4762db860630987af6cb4de33374de450cfdc0e73"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/f553baebb942c696/attempt-1788842630329932312/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/f553baebb942c696/complete.json",
+      "sha256": "7cbd0016f6b528840864d32835f1cf78667a2eb0220762e75f6e29c2f3c2ac7b"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/f86af340938284f7/attempt-1788842692050627250/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/f86af340938284f7/complete.json",
+      "sha256": "382e4a1f921cb3629565b24fd1df06d9dcdbd7b555939bdfbad2371b4d0340fb"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/fbbffd030515d451/attempt-1788842741398478957/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/fbbffd030515d451/complete.json",
+      "sha256": "06661840c4fed9cb6a2455ede07c4ea992d79b9fd114961cc9c7903950ea8ea6"
+    },
+    {
+      "raw": "machines/crux/full/inclusion_policy/fe2db7388c6d6d64/attempt-1788842665444802125/samples.u64.gz",
+      "record": "machines/crux/full/inclusion_policy/fe2db7388c6d6d64/complete.json",
+      "sha256": "0cf941fa063430736d3a3b9a68a7326d4d6522c3d14dd3bc6baac623c25ad8eb"
+    }
+  ]
+}

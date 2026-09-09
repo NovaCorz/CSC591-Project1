@@ -1,0 +1,122 @@
+{
+  "batch": 4096,
+  "calibration_cpu": 28,
+  "calibration_records": [
+    "calibration/a764c34b40a6c1eb/attempt-1788928802881094187",
+    "calibration/ca4948ec31487b8a/attempt-1788928807882483327",
+    "calibration/cda0958dd6875694/attempt-1788928816943615363",
+    "calibration/98c7728e63ee49b1/attempt-1788928838958623052"
+  ],
+  "conclusion": "Four independent chains have lower median ticks/load in every qualified pair; evidence of load overlap, not physical hit latency.",
+  "cpus": [
+    28,
+    54
+  ],
+  "dependent_median": 5.02685546875,
+  "failed_full": 0,
+  "full_attempts": 26,
+  "host": "artemisia",
+  "independent_median": 1.26904296875,
+  "limitations": "One hot 1 KiB footprint; four chains share the same address set. Native ticks, not core cycles. Batch boundaries reset pointers; wrapper costs retained. Six seed/order pairs are not six independent machines or million independent repetitions.",
+  "noisy_full": 3,
+  "pairs": [
+    {
+      "cpu": 28,
+      "dependent": 5.0263671875,
+      "independent": 1.26904296875,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.960754136206233,
+      "records": [
+        "machines/artemisia/independent-load-v1/comparison/98fe8851d5b49f3b/attempt-1788928849626862331/run.json",
+        "machines/artemisia/independent-load-v1/comparison/ac51a66fec63c2e3/attempt-1788928871697464251/run.json"
+      ],
+      "seed": 5924101
+    },
+    {
+      "cpu": 54,
+      "dependent": 5.02685546875,
+      "independent": 1.26904296875,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.9611388995767602,
+      "records": [
+        "machines/artemisia/independent-load-v1/comparison/5b00283720cdb052/attempt-1788928928262867668/run.json",
+        "machines/artemisia/independent-load-v1/comparison/af4d095a3047be9b/attempt-1788928916255321637/run.json"
+      ],
+      "seed": 5924101
+    },
+    {
+      "cpu": 54,
+      "dependent": 5.02685546875,
+      "independent": 1.26904296875,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.9611388995767602,
+      "records": [
+        "machines/artemisia/independent-load-v1/comparison/4e1294f70e769af0/attempt-1788928951067453963/run.json",
+        "machines/artemisia/independent-load-v1/comparison/9b7c125a29a51b90/attempt-1788928973886370894/run.json"
+      ],
+      "seed": 5924102
+    },
+    {
+      "cpu": 54,
+      "dependent": 5.02734375,
+      "independent": 1.26904296875,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.9615236629472874,
+      "records": [
+        "machines/artemisia/independent-load-v1/comparison/b8271f9eb2c0e80a/attempt-1788928996906591883/run.json",
+        "machines/artemisia/independent-load-v1/comparison/aef35aa059820215/attempt-1788928985456185508/run.json"
+      ],
+      "seed": 5924102
+    },
+    {
+      "cpu": 54,
+      "dependent": 5.02685546875,
+      "independent": 1.26953125,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.9596153846153848,
+      "records": [
+        "machines/artemisia/independent-load-v1/comparison/39e18bdd904491ce/attempt-1788929019758492774/run.json",
+        "machines/artemisia/independent-load-v1/comparison/097a1c22903250f2/attempt-1788929041846817890/run.json"
+      ],
+      "seed": 5924103
+    },
+    {
+      "cpu": 54,
+      "dependent": 5.02685546875,
+      "independent": 1.26904296875,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.9611388995767602,
+      "records": [
+        "machines/artemisia/independent-load-v1/comparison/7c4b52a3911e1e5e/attempt-1788929065892470711/run.json",
+        "machines/artemisia/independent-load-v1/comparison/a9ad2e39352d03a8/attempt-1788929054474797973/run.json"
+      ],
+      "seed": 5924103
+    }
+  ],
+  "planned_pairs": 6,
+  "qualified_pairs": 6,
+  "ratio_max": 3.9615236629472874,
+  "ratio_median": 3.9611388995767602,
+  "ratio_min": 3.9596153846153848,
+  "smoke_attempts": 4,
+  "timer_fraction": 0.01654482493266641,
+  "unit": "TSC_ticks/load"
+}

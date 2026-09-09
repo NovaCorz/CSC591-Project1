@@ -1,0 +1,48 @@
+{
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "selection": "Up to seven successive final-batch random points starting three points before the first exploratory departure; smallest points if no departure is resolved. Noisy points remain visible. Complete box plots cover every verified point separately.",
+  "sources": [
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/artemisia/full/capacity/79fad2442931bbf2/attempt-1788842730320275786/samples.u64.gz",
+      "record": "machines/artemisia/full/capacity/79fad2442931bbf2/complete.json",
+      "sha256": "8e7d7cae598c63eb0168f39f29c906cde4ce09e4416f734478afa7d12ddc1d40"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/artemisia/full/capacity/225f9b334b30597e/attempt-1788843466510089576/samples.u64.gz",
+      "record": "machines/artemisia/full/capacity/225f9b334b30597e/complete.json",
+      "sha256": "2b6ded4bb7e48248b877036ae5ce6b8455dad5f34ebc95a748ddc37cc43f028a"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/artemisia/full/capacity/08999873af33fb06/attempt-1788843001676707878/samples.u64.gz",
+      "record": "machines/artemisia/full/capacity/08999873af33fb06/complete.json",
+      "sha256": "c8c1b1947a1500122725a5770ccc0b94f0aa90e5e59d4a537491b65097a202fe"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/artemisia/full/capacity/7c66029d896ba77a/attempt-1788843510125622523/samples.u64.gz",
+      "record": "machines/artemisia/full/capacity/7c66029d896ba77a/complete.json",
+      "sha256": "cd4d5aabd05563b4c823cce0463caae397bc82d5a42e4376e1c089a2833686ea"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/artemisia/full/capacity/4f9e3b4f27b8c8df/attempt-1788843039634748038/samples.u64.gz",
+      "record": "machines/artemisia/full/capacity/4f9e3b4f27b8c8df/complete.json",
+      "sha256": "52cd261c423329f33fbfa9f2cc90dd78c1f4c2679da721883c40225a9feb59cf"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/artemisia/full/capacity/16e18e789b96494a/attempt-1788843193083645114/samples.u64.gz",
+      "record": "machines/artemisia/full/capacity/16e18e789b96494a/complete.json",
+      "sha256": "cafbbe7edf1a689f25a189402a96750521cb80d4df3547440bab7083ecdbf692"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/artemisia/full/capacity/7cfad63962e6986f/attempt-1788841434820685479/samples.u64.gz",
+      "record": "machines/artemisia/full/capacity/7cfad63962e6986f/complete.json",
+      "sha256": "3b81abf8d2df0ca36cf320500fa68676296fcfe07b2fc3bb5a230ac7a1238eda"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/09264f309289607b/attempt-1788842874095399987/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/09264f309289607b/complete.json",
+      "sha256": "640dbb73ea5cc5cc0faa1cb8ab95e4ad2a654b8df39bb16215dfdc6180d7ce78"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/09fcceb9f0701d51/attempt-1788842946836462945/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/09fcceb9f0701d51/complete.json",
+      "sha256": "f59a7ec2334c6672a54521a801f4b0f1fb2b1b33c785408951af7d2dab199580"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/0ae4fe51612aff70/attempt-1788842865168763631/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/0ae4fe51612aff70/complete.json",
+      "sha256": "7370628c5f3e55c3a09ceef8ee81aa7a1f8f051c3fa40f589406df0fbaf76e46"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/0cdcd6079a6e1f74/attempt-1788843023040585927/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/0cdcd6079a6e1f74/complete.json",
+      "sha256": "9e7e03938f9266d94c58c86b481236163650129fb814be9e405692cf4021c281"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/0ffcaa1244f6ed2c/attempt-1788842870520351861/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/0ffcaa1244f6ed2c/complete.json",
+      "sha256": "78f48a4f70291f47623c1dfcb11a36b9dfc27ade37e8a3259e8507642a790fd9"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/10769efbbbd50276/attempt-1788842937514316064/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/10769efbbbd50276/complete.json",
+      "sha256": "f3344448f947df81b41c4d49c605ccb574b10e3ca14cde166654223d3be4f16f"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/2d7d892dbf1e5f68/attempt-1788842912726113132/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/2d7d892dbf1e5f68/complete.json",
+      "sha256": "e8ad0c08a137bc100732bdc4046d2845b2ff4414dee70d9aceffcb3e9d3a2149"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/3ebca3d513de705c/attempt-1788842933017181480/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/3ebca3d513de705c/complete.json",
+      "sha256": "870e13f6ad0eebb3134d8a5a72863aedb09cfb76741ce749b4dc2def255fff89"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/4c8b3e660b6fa37a/attempt-1788842908535679608/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/4c8b3e660b6fa37a/complete.json",
+      "sha256": "86a8da19034f11c6a8e1e64a2cdfef00a2679d68a13364ed979161061ecabcf7"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/5641d229bd0d48bd/attempt-1788843765704368008/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/5641d229bd0d48bd/complete.json",
+      "sha256": "a863182ea1b1489ab1710919efe640b28d9bad12112e45475a12070c3698685e"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/56bc7148eecc0adc/attempt-1788843751197151068/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/56bc7148eecc0adc/complete.json",
+      "sha256": "5c7c6541667631b26a16e5d193c0a4c61fcd9f88fc616490a39bc904caab60d7"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/8136a51d3f6be3a0/attempt-1788843142742231534/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/8136a51d3f6be3a0/complete.json",
+      "sha256": "6b159ff2e63bad39f2d6a675c6e59d1ca54337a35b0dc493e5a3853405ea7e41"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/a06fdfd78d47aab2/attempt-1788842887807541985/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/a06fdfd78d47aab2/complete.json",
+      "sha256": "ae064948b31e8ac4b90279a9ff6c555f8b9aad5009b67b2307fa2c78954c9f7e"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/a6f0b0f462ccae90/attempt-1788843282744343163/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/a6f0b0f462ccae90/complete.json",
+      "sha256": "5015442668baabf811914afcef94473a0165e63fdad75079d1d615637965fccc"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/ad0279856ca99a1d/attempt-1788842879534562672/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/ad0279856ca99a1d/complete.json",
+      "sha256": "e7c9dd09e72a08a7ea66ae066626c48cc166cffdccdbcf7f62faeb94e345ae3a"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/ae79028b1c513462/attempt-1788843610935433622/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/ae79028b1c513462/complete.json",
+      "sha256": "25a9d279bdc8ab04b909b7a419837b9990ece2749e8c7322c48b79cb7251d44c"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/be954dc7d28a0a2b/attempt-1788842858205570427/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/be954dc7d28a0a2b/complete.json",
+      "sha256": "95dd47e8e377f4afe96468595e829f53d6fea7c00b65dfbdbd2bcb8dc6c04d8d"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/c160b97e3dd18261/attempt-1788842967800999580/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/c160b97e3dd18261/complete.json",
+      "sha256": "c971dbc13dbec5e79175f25749f0665105e9bf4faef7b4e9dbc23c4d2c416b71"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/c848d2583fbba81d/attempt-1788843090583823793/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/c848d2583fbba81d/complete.json",
+      "sha256": "6239455ba533f5fe4cb360d6baf6aa86bcb14586b78563fc1a421732ac87d6fd"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/c8807688c6ae1afc/attempt-1788843017599640397/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/c8807688c6ae1afc/complete.json",
+      "sha256": "6c24cc16c5ba35e004edc25997a62b69759ca5d5edb261d8ff9ffc0ed3858ee1"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/d09ff6863574f5c3/attempt-1788843136308622745/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/d09ff6863574f5c3/complete.json",
+      "sha256": "698916ceadf20cece70c0d95eb992d64bc7574d4f395d67062436839c992ecaa"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/d79a201811763c19/attempt-1788843290552510080/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/d79a201811763c19/complete.json",
+      "sha256": "85525b33029e797f63e75e514ce97b01e7d4233edd1f1c25b6ebb66ad27e2029"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/dcf2b2bd876406e9/attempt-1788843996215399345/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/dcf2b2bd876406e9/complete.json",
+      "sha256": "508b4dbcfe79668a712e676505786ebd9790eeef498917e320b67deaba927d46"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/e411b38fea03d5c5/attempt-1788843174600113808/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/e411b38fea03d5c5/complete.json",
+      "sha256": "77c866adb74bfed853c4de033c65fd3e8950b2e36674561c4c2a454b3717ed21"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/f13d936e89a1136a/attempt-1788842897798515130/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/f13d936e89a1136a/complete.json",
+      "sha256": "f0cfa01ade437cc68a7c0bae566e583ccb8ad6b58188ad12aea2c378a800df53"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/f2810db75d34e351/attempt-1788842993504798996/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/f2810db75d34e351/complete.json",
+      "sha256": "d389108694113098e263cd98992c2df628df8f833b4cb56f9405696271bd6a50"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/f553baebb942c696/attempt-1788842861442820913/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/f553baebb942c696/complete.json",
+      "sha256": "3aa4cec413016636d3afe84850eb3bc1d245c81a22a54ad8de38ef297b9f748e"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/f86af340938284f7/attempt-1788842919929460108/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/f86af340938284f7/complete.json",
+      "sha256": "95ab183e8262743f6c048a85baec61137811d69cd245223396139dfb381bd1d1"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/fbbffd030515d451/attempt-1788842983070857774/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/fbbffd030515d451/complete.json",
+      "sha256": "f5b896a8ed7ab8ebadbc65c75639a937232871c442de2c6511520479fd5560ba"
+    },
+    {
+      "raw": "machines/upgrade/full/inclusion_policy/fe2db7388c6d6d64/attempt-1788842891563462155/samples.u64.gz",
+      "record": "machines/upgrade/full/inclusion_policy/fe2db7388c6d6d64/complete.json",
+      "sha256": "8a5ce3381e494ce748bed9c6059e53dd99ed1020ab15fd1371c5e6c40cd40fb3"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "selection": "Up to seven successive final-batch random points starting three points before the first exploratory departure; smallest points if no departure is resolved. Noisy points remain visible. Complete box plots cover every verified point separately.",
+  "sources": [
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/skylark/full/capacity/31448ada748bc89c/attempt-1788839432605160088/samples.u64.gz",
+      "record": "machines/skylark/full/capacity/31448ada748bc89c/complete.json",
+      "sha256": "6e95de0fa1b147d210c118d6440c84453ca779d52d6f3eaab48a9a923051c3b3"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/skylark/full/capacity/1089444a01cfc92f/attempt-1788839408793984739/samples.u64.gz",
+      "record": "machines/skylark/full/capacity/1089444a01cfc92f/complete.json",
+      "sha256": "392755cdac5c9d3fefad9c3e8f64ea6b9baba4b084585bbb87154514bcbc32d4"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/skylark/full/capacity/88507a7d2ae5e605/attempt-1788839285931854849/samples.u64.gz",
+      "record": "machines/skylark/full/capacity/88507a7d2ae5e605/complete.json",
+      "sha256": "d0bb5df3b35a8325f37f08fb02ebc24be8d0a8987fe51275fe26d8983aee6522"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/skylark/full/capacity/537b9a090d377e7b/attempt-1788840782537741020/samples.u64.gz",
+      "record": "machines/skylark/full/capacity/537b9a090d377e7b/complete.json",
+      "sha256": "1b413e6d916ffd0ff97566e34476104b60e6090b5a873ac9f1637cc8205224df"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/skylark/full/capacity/627ef310d2a3463d/attempt-1788839794043246396/samples.u64.gz",
+      "record": "machines/skylark/full/capacity/627ef310d2a3463d/complete.json",
+      "sha256": "65e7e7136b9d82590da8939d7c1aade1d5f81a53b85d0780dc2ad6a7aa712fa0"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/skylark/full/capacity/ced5ad1cf10390ae/attempt-1788840622342314312/samples.u64.gz",
+      "record": "machines/skylark/full/capacity/ced5ad1cf10390ae/complete.json",
+      "sha256": "aeb842ccab19d5dabee5cb3aa3bf672e82ea009ab24f8aff5890a192067d72ef"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/skylark/full/capacity/69579aa3f48854e8/attempt-1788839849831986340/samples.u64.gz",
+      "record": "machines/skylark/full/capacity/69579aa3f48854e8/complete.json",
+      "sha256": "c0923fb42d2f1f5ad76abf8e4bc05a527d4dff51116d1b83f008d89e4123fd9c"
+    }
+  ]
+}

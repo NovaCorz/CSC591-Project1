@@ -1,0 +1,19 @@
+{
+  "comparison_cohort_policy": "machines/artemisia/uncertainty-v1/spatial-cohorts.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/artemisia/uncertainty-v1/spatial_residency/d2d1060f89a1bd1d/attempt-1788873193811657881/run.json",
+    "machines/artemisia/uncertainty-v1/spatial_residency/36b808921f298a79/attempt-1788873178848078200/run.json",
+    "machines/artemisia/uncertainty-v1/spatial_residency/391fef9a2907c70b/attempt-1788873163979680709/run.json",
+    "machines/artemisia/uncertainty-v1/spatial_residency/f7122d8c64a4e4d2/attempt-1788873205559108844/run.json",
+    "machines/artemisia/uncertainty-v1/spatial_residency/d284b9335650f6f1/attempt-1788873250131443252/run.json",
+    "machines/artemisia/uncertainty-v1/spatial_residency/f8c988575c5206cd/attempt-1788873226716773049/run.json",
+    "machines/artemisia/uncertainty-v1/spatial_residency/8cb77508d76b7a45/attempt-1788873320094352038/run.json",
+    "machines/artemisia/uncertainty-v1/spatial_residency/1e65228f6aaa3f4e/attempt-1788873296805007663/run.json",
+    "machines/artemisia/uncertainty-v1/spatial_residency/430d24e55556aec1/attempt-1788873273479128572/run.json",
+    "machines/artemisia/uncertainty-v1/spatial_residency/6cabd72b11969d00/attempt-1788873341276244586/run.json",
+    "machines/artemisia/uncertainty-v1/spatial_residency/1eef1086df8e0938/attempt-1788873385860952517/run.json",
+    "machines/artemisia/uncertainty-v1/spatial_residency/a3cda02266e56a37/attempt-1788873362448150301/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:05.202909+00:00"
+}

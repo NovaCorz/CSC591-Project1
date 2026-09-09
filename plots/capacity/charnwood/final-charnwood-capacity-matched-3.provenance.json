@@ -1,0 +1,11 @@
+{
+  "comparison_cohort_policy": "machines/charnwood/uncertainty-v1/capacity-matched.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/charnwood/uncertainty-v1/capacity_matched/d7478a5e0c68afab/attempt-1788878820070721051/run.json",
+    "machines/charnwood/uncertainty-v1/capacity_matched/8e35ce9936351330/attempt-1788878776307225020/run.json",
+    "machines/charnwood/uncertainty-v1/capacity_matched/1f43ef8392868b02/attempt-1788879196307131462/run.json",
+    "machines/charnwood/uncertainty-v1/capacity_matched/2776d31d1252ba5a/attempt-1788879042755169874/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:08.378693+00:00"
+}

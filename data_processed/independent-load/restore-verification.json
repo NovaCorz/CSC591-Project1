@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "time": "2026-09-09T04:57:51.566258+00:00",
+  "archive_sha256": "114d9a9beb1ee695d784ef335a8730d4acae4fb070bed002099143dbbf114fa3",
+  "member_hashes_verified": 2092,
+  "raw_intervals_recomputed": 180065536,
+  "byte_identical_results": {
+    "summary.json": "3106943ffa50bc36f74db228a9580e2deb5afc5a1c013e53add4a9782d789b77",
+    "summary.csv": "7866834347353f4732337347dac80d763f6cb563ba3d2eeac38a6c84612f4ce1",
+    "statistics.csv": "b273b01678407e0ac8e1b53702bb98ff6c17216560cdee904c653055c61cdb39",
+    "verified-records.json": "4b374c6394c6bc2cd7d77ec6964b534a569cc7f39e7651926ef1ef37d410225c",
+    "native-loop-audit.json": "7bd6bb71ba2e45802b717197d33a02894c1a133f5a86fd19c26c526e2a69bfa1"
+  },
+  "commands": [
+    "python3 scripts/restore_independent.py --archive artifacts/phase1-independent-load.zip --manifest data_processed/independent-load/archive-manifest.json --workspace /tmp/phase1-independent-restore-20260909",
+    "cd /tmp/phase1-independent-restore-20260909 && python3 scripts/analyze_independent.py"
+  ]
+}

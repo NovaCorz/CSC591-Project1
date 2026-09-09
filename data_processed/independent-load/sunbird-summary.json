@@ -1,0 +1,122 @@
+{
+  "batch": 4096,
+  "calibration_cpu": 5,
+  "calibration_records": [
+    "calibration/d445a2735c6b0cfc/attempt-1788928710249509921",
+    "calibration/44b6019a19a40346/attempt-1788928712846619208",
+    "calibration/511efc2dfa06b8df/attempt-1788928715883209797",
+    "calibration/037f0b274cdbd2e9/attempt-1788928725329494567"
+  ],
+  "conclusion": "Four independent chains have lower median ticks/load in every qualified pair; evidence of load overlap, not physical hit latency.",
+  "cpus": [
+    5,
+    7
+  ],
+  "dependent_median": 4.0185546875,
+  "failed_full": 0,
+  "full_attempts": 18,
+  "host": "sunbird",
+  "independent_median": 1.0205078125,
+  "limitations": "One hot 1 KiB footprint; four chains share the same address set. Native ticks, not core cycles. Batch boundaries reset pointers; wrapper costs retained. Six seed/order pairs are not six independent machines or million independent repetitions.",
+  "noisy_full": 1,
+  "pairs": [
+    {
+      "cpu": 5,
+      "dependent": 4.0185546875,
+      "independent": 1.0205078125,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.937799043062201,
+      "records": [
+        "machines/sunbird/independent-load-v1/comparison/98fe8851d5b49f3b/attempt-1788928729682121902/run.json",
+        "machines/sunbird/independent-load-v1/comparison/ac51a66fec63c2e3/attempt-1788928739284731199/run.json"
+      ],
+      "seed": 5924101
+    },
+    {
+      "cpu": 5,
+      "dependent": 4.0185546875,
+      "independent": 1.0205078125,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.937799043062201,
+      "records": [
+        "machines/sunbird/independent-load-v1/comparison/4031ce0ff10893f0/attempt-1788928748008852537/run.json",
+        "machines/sunbird/independent-load-v1/comparison/2899815d0b6a65a1/attempt-1788928743613770251/run.json"
+      ],
+      "seed": 5924101
+    },
+    {
+      "cpu": 5,
+      "dependent": 4.0185546875,
+      "independent": 1.0205078125,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.937799043062201,
+      "records": [
+        "machines/sunbird/independent-load-v1/comparison/4e1294f70e769af0/attempt-1788928757506809291/run.json",
+        "machines/sunbird/independent-load-v1/comparison/9b7c125a29a51b90/attempt-1788928767254531165/run.json"
+      ],
+      "seed": 5924102
+    },
+    {
+      "cpu": 5,
+      "dependent": 4.0185546875,
+      "independent": 1.021484375,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.934034416826004,
+      "records": [
+        "machines/sunbird/independent-load-v1/comparison/b8271f9eb2c0e80a/attempt-1788928775890672213/run.json",
+        "machines/sunbird/independent-load-v1/comparison/aef35aa059820215/attempt-1788928771552456058/run.json"
+      ],
+      "seed": 5924102
+    },
+    {
+      "cpu": 7,
+      "dependent": 4.0185546875,
+      "independent": 1.021484375,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.934034416826004,
+      "records": [
+        "machines/sunbird/independent-load-v1/comparison/687ba779c0c86b56/attempt-1788928799324383738/run.json",
+        "machines/sunbird/independent-load-v1/comparison/54ed2b266f7a94a9/attempt-1788928808633594486/run.json"
+      ],
+      "seed": 5924103
+    },
+    {
+      "cpu": 7,
+      "dependent": 4.0185546875,
+      "independent": 1.0205078125,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.937799043062201,
+      "records": [
+        "machines/sunbird/independent-load-v1/comparison/7c4b52a3911e1e5e/attempt-1788928817258251500/run.json",
+        "machines/sunbird/independent-load-v1/comparison/a9ad2e39352d03a8/attempt-1788928812893699507/run.json"
+      ],
+      "seed": 5924103
+    }
+  ],
+  "planned_pairs": 6,
+  "qualified_pairs": 6,
+  "ratio_max": 3.937799043062201,
+  "ratio_median": 3.937799043062201,
+  "ratio_min": 3.934034416826004,
+  "smoke_attempts": 4,
+  "timer_fraction": 0.020095693779904306,
+  "unit": "TSC_ticks/load"
+}

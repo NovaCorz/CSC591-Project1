@@ -1,0 +1,13 @@
+{
+  "time": "2026-09-08T14:06:23.418340+00:00",
+  "phase": "I timing only",
+  "hosts": [
+    "crux",
+    "thunderbird"
+  ],
+  "reason": "Own Crux records show 64 KiB scrubbed discovery count 4 on CPU 1 versus count 6 on CPU 3; compare on one idle core before treating this as unresolved geometry.",
+  "targeting": "Every adjacent discovery pair with a noisy/failed endpoint or different selected CPUs, regardless of latency or direction. No clean same-core pair is targeted by this rule.",
+  "acquisition": "Fresh native functional smoke for both scrub patterns. Up to three retained same-core clean pair cohorts. Refine every qualifying repaired edge at all integer counts plus neighbors, in two new seeds and both scrub patterns where applicable.",
+  "confirmation": "Use the first clean same-core complete confirmation cohort, at most three retained attempts. Unsuccessful cohorts remain visible and cannot support an inferred threshold.",
+  "inference": "Same >15% IQR-separated edge and conditional multi-stride geometry rules as the original supplement; no relaxed thresholds and no cache answers."
+}

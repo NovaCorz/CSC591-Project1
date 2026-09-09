@@ -1,0 +1,10 @@
+{
+  "comparison_cohort_policy": "machines/crux/uncertainty-v1/spatial-cohorts.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/crux/uncertainty-v1/spatial_residency/8a94f87837fd7507/attempt-1788878323878127951/run.json",
+    "machines/crux/uncertainty-v1/spatial_residency/ccbfcdc222fd39ca/attempt-1788878334283794597/run.json",
+    "machines/crux/uncertainty-v1/spatial_residency/8580c8a658f61798/attempt-1788878312967116077/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:16.528685+00:00"
+}

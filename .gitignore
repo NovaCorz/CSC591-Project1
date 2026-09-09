@@ -1,11 +1,20 @@
-# Large raw distributions are copied locally for Moodle, not committed to Git.
-data_raw/**/*.bin
-data_raw/**/*.bin.gz
 __pycache__/
 *.py[cod]
 .venv/
 .cache/
-ssh_known_hosts
+**/build/
+**/machines/
+**/access/
+**/artifacts/
+*.u64
+*.u64.gz
+*.zip
+*.tar.gz
 .env
 *.pem
 *.key
+
+# Retain the curated public SSH host keys; other access files stay excluded.
+!main_code/common/phase1/access/
+main_code/common/phase1/access/*
+!main_code/common/phase1/access/known_hosts

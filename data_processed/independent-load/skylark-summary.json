@@ -1,0 +1,121 @@
+{
+  "batch": 4096,
+  "calibration_cpu": 3,
+  "calibration_records": [
+    "calibration/d445a2735c6b0cfc/attempt-1788928707220690823",
+    "calibration/44b6019a19a40346/attempt-1788928709662659805",
+    "calibration/511efc2dfa06b8df/attempt-1788928712435863086",
+    "calibration/037f0b274cdbd2e9/attempt-1788928720060787946"
+  ],
+  "conclusion": "Four independent chains have lower median ticks/load in every qualified pair; evidence of load overlap, not physical hit latency.",
+  "cpus": [
+    3
+  ],
+  "dependent_median": 2.9296875,
+  "failed_full": 0,
+  "full_attempts": 16,
+  "host": "skylark",
+  "independent_median": 0.75,
+  "limitations": "One hot 1 KiB footprint; four chains share the same address set. Native ticks, not core cycles. Batch boundaries reset pointers; wrapper costs retained. Six seed/order pairs are not six independent machines or million independent repetitions.",
+  "noisy_full": 0,
+  "pairs": [
+    {
+      "cpu": 3,
+      "dependent": 2.9296875,
+      "independent": 0.75,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.90625,
+      "records": [
+        "machines/skylark/independent-load-v1/comparison/98fe8851d5b49f3b/attempt-1788928723882127659/run.json",
+        "machines/skylark/independent-load-v1/comparison/ac51a66fec63c2e3/attempt-1788928731522540391/run.json"
+      ],
+      "seed": 5924101
+    },
+    {
+      "cpu": 3,
+      "dependent": 2.9296875,
+      "independent": 0.75,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.90625,
+      "records": [
+        "machines/skylark/independent-load-v1/comparison/4031ce0ff10893f0/attempt-1788928739234645277/run.json",
+        "machines/skylark/independent-load-v1/comparison/2899815d0b6a65a1/attempt-1788928735365277256/run.json"
+      ],
+      "seed": 5924101
+    },
+    {
+      "cpu": 3,
+      "dependent": 2.9296875,
+      "independent": 0.75,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.90625,
+      "records": [
+        "machines/skylark/independent-load-v1/comparison/4e1294f70e769af0/attempt-1788928746874989872/run.json",
+        "machines/skylark/independent-load-v1/comparison/9b7c125a29a51b90/attempt-1788928754532613886/run.json"
+      ],
+      "seed": 5924102
+    },
+    {
+      "cpu": 3,
+      "dependent": 2.9296875,
+      "independent": 0.75,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.90625,
+      "records": [
+        "machines/skylark/independent-load-v1/comparison/b8271f9eb2c0e80a/attempt-1788928762157688976/run.json",
+        "machines/skylark/independent-load-v1/comparison/aef35aa059820215/attempt-1788928758345314630/run.json"
+      ],
+      "seed": 5924102
+    },
+    {
+      "cpu": 3,
+      "dependent": 2.9296875,
+      "independent": 0.75,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.90625,
+      "records": [
+        "machines/skylark/independent-load-v1/comparison/39e18bdd904491ce/attempt-1788928769867854709/run.json",
+        "machines/skylark/independent-load-v1/comparison/097a1c22903250f2/attempt-1788928777587662078/run.json"
+      ],
+      "seed": 5924103
+    },
+    {
+      "cpu": 3,
+      "dependent": 2.9296875,
+      "independent": 0.75,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.90625,
+      "records": [
+        "machines/skylark/independent-load-v1/comparison/7c4b52a3911e1e5e/attempt-1788928785252702583/run.json",
+        "machines/skylark/independent-load-v1/comparison/a9ad2e39352d03a8/attempt-1788928781413623193/run.json"
+      ],
+      "seed": 5924103
+    }
+  ],
+  "planned_pairs": 6,
+  "qualified_pairs": 6,
+  "ratio_max": 3.90625,
+  "ratio_median": 3.90625,
+  "ratio_min": 3.90625,
+  "smoke_attempts": 4,
+  "timer_fraction": 0.03125,
+  "unit": "TSC_ticks/load"
+}

@@ -1,0 +1,10 @@
+{
+  "comparison_cohort_policy": "machines/thunderbird/uncertainty-v1/spatial-cohorts.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/thunderbird/uncertainty-v1/spatial_residency/6c3a0af04a4a0fc5/attempt-1788884502180793342/run.json",
+    "machines/thunderbird/uncertainty-v1/spatial_residency/65e5670e6a7a8b2d/attempt-1788884476408754475/run.json",
+    "machines/thunderbird/uncertainty-v1/spatial_residency/a030dc12f1c495d0/attempt-1788884450592720763/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:00:57.747634+00:00"
+}

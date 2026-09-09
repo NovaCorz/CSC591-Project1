@@ -1,0 +1,1218 @@
+{
+  "alternate_batch_control_points": 32,
+  "associativity": {
+    "bounded_candidates": [],
+    "candidates": [
+      {
+        "candidate_resident_addresses": 12,
+        "sources": [
+          "machines/artemisia/full/associativity/9d9613d20a7aaee6/complete.json",
+          "machines/artemisia/full/associativity/2677fffff38720ff/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 12,
+        "sources": [
+          "machines/artemisia/full/associativity/81ee6142ee68d942/complete.json",
+          "machines/artemisia/full/associativity/1e90118842f3c7c6/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 6,
+        "sources": [
+          "machines/artemisia/full/associativity/a27554bca0605055/complete.json",
+          "machines/artemisia/full/associativity/a91ac0c28d0b2f12/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 12,
+        "sources": [
+          "machines/artemisia/full/associativity/d135b016f6205cf8/complete.json",
+          "machines/artemisia/full/associativity/8ef542ee337bfae8/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 6,
+        "sources": [
+          "machines/artemisia/full/associativity/6fa72e9592e92cb2/complete.json",
+          "machines/artemisia/full/associativity/7ea601b5c11ee3bb/complete.json"
+        ],
+        "stride": 262144
+      },
+      {
+        "candidate_resident_addresses": 12,
+        "sources": [
+          "machines/artemisia/full/associativity/dc40442c8a0f6cb2/complete.json",
+          "machines/artemisia/full/associativity/1da24cba0899f915/complete.json"
+        ],
+        "stride": 262144
+      }
+    ],
+    "limitation": "Only virtual low bits controlled. Physical indexing, page translation, replacement, and slice hashing are unresolved. No way count or derived set count is manufactured.",
+    "status": "effective conflict thresholds; no verified per-level associativity"
+  },
+  "attempts": 429,
+  "cache_table": [
+    {
+      "associativity": 12,
+      "derived_sets": "unresolved",
+      "hit_latency_median": 5.25,
+      "host": "artemisia",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": 1.0625,
+      "level": "L1D candidate",
+      "line_size": "unresolved",
+      "next_level_latency_median": 6.3125,
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": 49152,
+      "size_upper_bytes": 53248,
+      "status": "unresolved; next-class latency is the first measured departure, not a pure L2-hit latency",
+      "unit": "TSC_ticks/access"
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "artemisia",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "L2 role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "artemisia",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "LLC role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    }
+  ],
+  "capacity_candidates": [
+    {
+      "above": {
+        "maximum": 199.375,
+        "mean": 7.219457125,
+        "median": 7.1875,
+        "minimum": 6.203125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 9132,
+        "p05": 6.796875,
+        "p95": 7.6171875,
+        "q1": 7.015625,
+        "q3": 7.3671875,
+        "stddev": 0.7113479392208005,
+        "zero_samples": 0
+      },
+      "above_record": "machines/artemisia/full/capacity/4f9e3b4f27b8c8df/complete.json",
+      "below": {
+        "maximum": 393.578125,
+        "mean": 5.3972151953125,
+        "median": 5.3671875,
+        "minimum": 5.203125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 22443,
+        "p05": 5.2578125,
+        "p95": 5.5078125,
+        "q1": 5.3203125,
+        "q3": 5.4140625,
+        "stddev": 0.8384119855866459,
+        "zero_samples": 0
+      },
+      "below_record": "machines/artemisia/full/capacity/08999873af33fb06/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        12,
+        3
+      ],
+      "lower_bytes": 49152,
+      "ratio": 1.339155749636099,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 57344
+    },
+    {
+      "above": {
+        "maximum": 450.1328125,
+        "mean": 12.1192457109375,
+        "median": 12.0859375,
+        "minimum": 11.2421875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 16948,
+        "p05": 11.6171875,
+        "p95": 12.6796875,
+        "q1": 11.8671875,
+        "q3": 12.25,
+        "stddev": 1.085112001555992,
+        "zero_samples": 0
+      },
+      "above_record": "machines/artemisia/full/capacity/282f0504951245c5/complete.json",
+      "below": {
+        "maximum": 959.5703125,
+        "mean": 8.66420415625,
+        "median": 8.640625,
+        "minimum": 7.53125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 7056,
+        "p05": 8.125,
+        "p95": 9.171875,
+        "q1": 8.40625,
+        "q3": 8.8515625,
+        "stddev": 1.8484004317022535,
+        "zero_samples": 0
+      },
+      "below_record": "machines/artemisia/full/capacity/7cfad63962e6986f/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        1,
+        18
+      ],
+      "lower_bytes": 65536,
+      "ratio": 1.3987341772151898,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 114688
+    },
+    {
+      "above": {
+        "maximum": 990.8203125,
+        "mean": 20.3098295390625,
+        "median": 20.2421875,
+        "minimum": 19.3671875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 15501,
+        "p05": 19.8046875,
+        "p95": 20.6875,
+        "q1": 20.0703125,
+        "q3": 20.4140625,
+        "stddev": 1.6982501923709292,
+        "zero_samples": 0
+      },
+      "above_record": "machines/artemisia/full/capacity/8030d623a0b1b36c/complete.json",
+      "below": {
+        "maximum": 1112.515625,
+        "mean": 17.2291141875,
+        "median": 17.1875,
+        "minimum": 16.3671875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 8741,
+        "p05": 16.71875,
+        "p95": 17.6171875,
+        "q1": 17.0,
+        "q3": 17.375,
+        "stddev": 1.665905396769925,
+        "zero_samples": 0
+      },
+      "below_record": "machines/artemisia/full/capacity/b6e22c1e7bfe96ab/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        2,
+        9
+      ],
+      "lower_bytes": 524288,
+      "ratio": 1.1777272727272727,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 1048576
+    },
+    {
+      "above": {
+        "maximum": 603.0234375,
+        "mean": 25.958883265625,
+        "median": 25.859375,
+        "minimum": 22.3359375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 18358,
+        "p05": 24.3828125,
+        "p95": 27.484375,
+        "q1": 25.28125,
+        "q3": 26.46875,
+        "stddev": 1.6929800061098152,
+        "zero_samples": 0
+      },
+      "above_record": "machines/artemisia/full/capacity/792db32dcc500818/complete.json",
+      "below": {
+        "maximum": 1210.2421875,
+        "mean": 21.0348961875,
+        "median": 20.90625,
+        "minimum": 20.1328125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 55525,
+        "p05": 20.46875,
+        "p95": 21.796875,
+        "q1": 20.7109375,
+        "q3": 21.1171875,
+        "stddev": 1.7392383560059057,
+        "zero_samples": 0
+      },
+      "below_record": "machines/artemisia/full/capacity/aa89f9623db42f71/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        3,
+        20
+      ],
+      "lower_bytes": 1310720,
+      "ratio": 1.2369207772795217,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 1441792
+    },
+    {
+      "above": {
+        "maximum": 1339.3125,
+        "mean": 28.15077846875,
+        "median": 28.0,
+        "minimum": 24.1328125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 17558,
+        "p05": 26.3046875,
+        "p95": 30.0390625,
+        "q1": 27.28125,
+        "q3": 28.765625,
+        "stddev": 2.983047007069929,
+        "zero_samples": 0
+      },
+      "above_record": "machines/artemisia/full/capacity/cd4bf9189a71a1ed/complete.json",
+      "below": {
+        "maximum": 840.296875,
+        "mean": 23.4766972578125,
+        "median": 23.390625,
+        "minimum": 21.1328125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 7445,
+        "p05": 22.4140625,
+        "p95": 24.515625,
+        "q1": 22.953125,
+        "q3": 23.8515625,
+        "stddev": 1.7274408073594443,
+        "zero_samples": 0
+      },
+      "below_record": "machines/artemisia/full/capacity/89a2821c0daeda58/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        2,
+        22
+      ],
+      "lower_bytes": 1703936,
+      "ratio": 1.197060788243153,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 2097152
+    }
+  ],
+  "chosen_primary_batch": 256,
+  "clean_points": 251,
+  "collection_complete": true,
+  "course_cpu_model": "2 \u00d7 Xeon Gold 5420+",
+  "coverage_issues": [],
+  "cpu_model": "model name\t: Intel(R) Xeon(R) Gold 5420+",
+  "host": "artemisia",
+  "inclusion_policy": {
+    "reason": "Same-core pressure may directly evict upper copies; lower-level-only eviction and upper residency were not independently established. No global inclusion/exclusion classification.",
+    "status": "uncertain"
+  },
+  "integrity_or_quality_issues": [],
+  "isa": "x86_64",
+  "l1_candidate": {
+    "capacity_endpoint_cpus": [
+      12,
+      6
+    ],
+    "capacity_interval_bytes": [
+      49152,
+      53248
+    ],
+    "capacity_rule": "First departure by >10% from median of first three small-footprint centers; interval, not a rounded cache answer",
+    "capacity_sources": [
+      "machines/artemisia/full/capacity/08999873af33fb06/complete.json",
+      "machines/artemisia/full/capacity/7c66029d896ba77a/complete.json"
+    ],
+    "caveat": "Conditional L1 interpretation of the smallest timing class. All numerical candidates come from measured plateaus and repeated spatial/conflict edges; no specification value is used.",
+    "conflict_strides": [
+      4096,
+      16384,
+      65536,
+      262144
+    ],
+    "geometry": null,
+    "hit_class_median_ns": 2.6250693639666003,
+    "hit_class_statistics": {
+      "maximum": 368.6953125,
+      "mean": 5.2732367421875,
+      "median": 5.25,
+      "minimum": 5.203125,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 47763,
+      "p05": 5.234375,
+      "p95": 5.28125,
+      "q1": 5.2421875,
+      "q3": 5.2578125,
+      "stddev": 0.9659326226522585,
+      "zero_samples": 0
+    },
+    "line_bytes": null,
+    "nanosecond_conversion": "per-run timer/CLOCK_MONOTONIC_RAW calibration; approximate",
+    "next_class_statistics": {
+      "maximum": 95.265625,
+      "mean": 6.349370203125,
+      "median": 6.3125,
+      "minimum": 5.546875,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 13889,
+      "p05": 5.984375,
+      "p95": 6.703125,
+      "q1": 6.171875,
+      "q3": 6.4609375,
+      "stddev": 0.6733287141970252,
+      "zero_samples": 0
+    },
+    "status": "unresolved",
+    "unit": "TSC_ticks/access",
+    "ways": 12,
+    "ways_rule": "Unique conflict threshold reproduced at three or more strides; conditional virtual-index interpretation"
+  },
+  "line_size": {
+    "candidates": [
+      {
+        "footprint": 524288,
+        "offset_lower": 56,
+        "offset_upper": 64,
+        "sources": [
+          "machines/artemisia/full/line_size/07e89c49504c2500/complete.json",
+          "machines/artemisia/full/line_size/fa336e86efff2e3c/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 32,
+        "offset_upper": 40,
+        "sources": [
+          "machines/artemisia/full/line_size/105289973e395ea9/complete.json",
+          "machines/artemisia/full/line_size/822494cd46496ba3/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 48,
+        "offset_upper": 56,
+        "sources": [
+          "machines/artemisia/full/line_size/f58382e257a41385/complete.json",
+          "machines/artemisia/full/line_size/866bcd7ac64da8fe/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 56,
+        "offset_upper": 72,
+        "sources": [
+          "machines/artemisia/full/line_size/866bcd7ac64da8fe/complete.json",
+          "machines/artemisia/full/line_size/d6657ef2025fdf42/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 96,
+        "offset_upper": 104,
+        "sources": [
+          "machines/artemisia/full/line_size/3a8cd90a95cbb4a0/complete.json",
+          "machines/artemisia/full/line_size/9dc2cdb7921f4820/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 128,
+        "offset_upper": 136,
+        "sources": [
+          "machines/artemisia/full/line_size/c7d283e11d3d0097/complete.json",
+          "machines/artemisia/full/line_size/1cb79712650f1cd0/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 192,
+        "offset_upper": 200,
+        "sources": [
+          "machines/artemisia/full/line_size/64adc4135a4d5ffe/complete.json",
+          "machines/artemisia/full/line_size/6ad6536b26478c14/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 256,
+        "offset_upper": 264,
+        "sources": [
+          "machines/artemisia/full/line_size/5d2927fff7a318bd/complete.json",
+          "machines/artemisia/full/line_size/19d87b88b30ce586/complete.json"
+        ]
+      }
+    ],
+    "limitation": "Random 512-byte blocks have fixed allocation and node count; physical line occupancy changes with offset. Prefetching and residency can obscure or imitate a boundary.",
+    "status": "candidate spatial granularity only; distinct line sizes per cache level not established"
+  },
+  "missing_families": [],
+  "noisy_points": 39,
+  "observed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28,
+    29
+  ],
+  "observed_numa_nodes": [
+    0,
+    1
+  ],
+  "observed_sockets": [
+    0,
+    1
+  ],
+  "page_control": {
+    "alternate_batch_control_points": 10,
+    "attempts": 47,
+    "complete": true,
+    "interpretation": "Changed latency with confirmed huge backing is consistent with translation effects, but allocation/physical indexing and changed cores may also contribute. No cache geometry is read from page metadata.",
+    "issues": [],
+    "missing_working_sets": [],
+    "pairs": [
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/artemisia/full/capacity/e2f3323faa76ee0b/complete.json",
+        "baseline_statistics": {
+          "maximum": 368.6953125,
+          "mean": 5.2732367421875,
+          "median": 5.25,
+          "minimum": 5.203125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 47763,
+          "p05": 5.234375,
+          "p95": 5.28125,
+          "q1": 5.2421875,
+          "q3": 5.2578125,
+          "stddev": 0.9659326226522585,
+          "zero_samples": 0
+        },
+        "bytes": 1024,
+        "control_cpu": 11,
+        "control_raw": "machines/artemisia/page_control/page_control/4fda25358f8dad15/attempt-1788847633114244592/samples.u64.gz",
+        "control_record": "machines/artemisia/page_control/page_control/4fda25358f8dad15/complete.json",
+        "control_sha256": "4423fae14609b3af18f990033cc92188770f2dff892b5992f55bfd3d3470cd2b",
+        "control_statistics": {
+          "maximum": 313.578125,
+          "mean": 5.2617583046875,
+          "median": 5.2421875,
+          "minimum": 5.1953125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 144083,
+          "p05": 5.2265625,
+          "p95": 5.265625,
+          "q1": 5.2421875,
+          "q3": 5.25,
+          "stddev": 0.8411912527709413,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1024,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/artemisia/full/capacity/1b0b34d0dd539637/complete.json",
+        "baseline_statistics": {
+          "maximum": 938.6015625,
+          "mean": 5.2624050625,
+          "median": 5.25,
+          "minimum": 5.203125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 6215,
+          "p05": 5.234375,
+          "p95": 5.265625,
+          "q1": 5.2421875,
+          "q3": 5.2578125,
+          "stddev": 1.317181330946932,
+          "zero_samples": 0
+        },
+        "bytes": 4096,
+        "control_cpu": 11,
+        "control_raw": "machines/artemisia/page_control/page_control/4e5cf7726422f2cf/attempt-1788847626175151310/samples.u64.gz",
+        "control_record": "machines/artemisia/page_control/page_control/4e5cf7726422f2cf/complete.json",
+        "control_sha256": "c0eedb3bd309e0ad2dc107a8de0c8bf66ea78c505934404854054b202321cfb5",
+        "control_statistics": {
+          "maximum": 386.0078125,
+          "mean": 5.2601151484375,
+          "median": 5.2421875,
+          "minimum": 5.203125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 140698,
+          "p05": 5.2265625,
+          "p95": 5.265625,
+          "q1": 5.2421875,
+          "q3": 5.25,
+          "stddev": 0.6812139708325656,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4096,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/artemisia/full/capacity/87de17c63b508e69/complete.json",
+        "baseline_statistics": {
+          "maximum": 96.9765625,
+          "mean": 5.2718042265625,
+          "median": 5.25,
+          "minimum": 5.203125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 131581,
+          "p05": 5.234375,
+          "p95": 5.265625,
+          "q1": 5.2421875,
+          "q3": 5.25,
+          "stddev": 0.7473942903070533,
+          "zero_samples": 0
+        },
+        "bytes": 16384,
+        "control_cpu": 24,
+        "control_raw": "machines/artemisia/page_control/page_control/d20351e6eb99a2ad/attempt-1788847909718990989/samples.u64.gz",
+        "control_record": "machines/artemisia/page_control/page_control/d20351e6eb99a2ad/complete.json",
+        "control_sha256": "c3442e0fee037e0794ea2ef824708b839c6b43721258cd02d003d21f5022eab0",
+        "control_statistics": {
+          "maximum": 115.4140625,
+          "mean": 5.2597751171875,
+          "median": 5.2421875,
+          "minimum": 5.203125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 134376,
+          "p05": 5.2265625,
+          "p95": 5.265625,
+          "q1": 5.2421875,
+          "q3": 5.25,
+          "stddev": 0.5353478501464154,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16384,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/artemisia/full/capacity/7cfad63962e6986f/complete.json",
+        "baseline_statistics": {
+          "maximum": 959.5703125,
+          "mean": 8.66420415625,
+          "median": 8.640625,
+          "minimum": 7.53125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 7056,
+          "p05": 8.125,
+          "p95": 9.171875,
+          "q1": 8.40625,
+          "q3": 8.8515625,
+          "stddev": 1.8484004317022535,
+          "zero_samples": 0
+        },
+        "bytes": 65536,
+        "control_cpu": 24,
+        "control_raw": "machines/artemisia/page_control/page_control/75e57dc22b18f59a/attempt-1788847892647842217/samples.u64.gz",
+        "control_record": "machines/artemisia/page_control/page_control/75e57dc22b18f59a/complete.json",
+        "control_sha256": "9ba20ef569ad9485ff3317297dfcdd6733a4ded8dbb6a469ed6ebde6dc8243f9",
+        "control_statistics": {
+          "maximum": 393.6328125,
+          "mean": 8.65677140625,
+          "median": 8.625,
+          "minimum": 7.6484375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 5932,
+          "p05": 8.1484375,
+          "p95": 9.15625,
+          "q1": 8.3984375,
+          "q3": 8.84375,
+          "stddev": 0.8667944084999285,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 65536,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/artemisia/full/capacity/d51f07d382755a6f/complete.json",
+        "baseline_statistics": {
+          "maximum": 730.28125,
+          "mean": 14.4779315390625,
+          "median": 14.4453125,
+          "minimum": 13.4765625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 26172,
+          "p05": 14.0,
+          "p95": 14.828125,
+          "q1": 14.2890625,
+          "q3": 14.609375,
+          "stddev": 1.2942736518691549,
+          "zero_samples": 0
+        },
+        "bytes": 262144,
+        "control_cpu": 24,
+        "control_raw": "machines/artemisia/page_control/page_control/928eb8c3854e41c6/attempt-1788847916645255534/samples.u64.gz",
+        "control_record": "machines/artemisia/page_control/page_control/928eb8c3854e41c6/attempt-1788847916645255534/run.json",
+        "control_sha256": "69316d99624bd450bffad225f77e33d596a8bf9ed204f2789fbb57c7bac1654d",
+        "control_statistics": {
+          "maximum": 670.9375,
+          "mean": 14.483878484375,
+          "median": 14.453125,
+          "minimum": 13.4375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 24991,
+          "p05": 14.0,
+          "p95": 14.8359375,
+          "q1": 14.2890625,
+          "q3": 14.6171875,
+          "stddev": 1.6665543699530152,
+          "zero_samples": 0
+        },
+        "flags": [
+          "frequent involuntary context switches"
+        ],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 262144,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_noisy",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 9,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/artemisia/full/capacity/8030d623a0b1b36c/complete.json",
+        "baseline_statistics": {
+          "maximum": 990.8203125,
+          "mean": 20.3098295390625,
+          "median": 20.2421875,
+          "minimum": 19.3671875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 15501,
+          "p05": 19.8046875,
+          "p95": 20.6875,
+          "q1": 20.0703125,
+          "q3": 20.4140625,
+          "stddev": 1.6982501923709292,
+          "zero_samples": 0
+        },
+        "bytes": 1048576,
+        "control_cpu": 5,
+        "control_raw": "machines/artemisia/page_control/page_control/4a7aaa360dd764cb/attempt-1788847672360783482/samples.u64.gz",
+        "control_record": "machines/artemisia/page_control/page_control/4a7aaa360dd764cb/complete.json",
+        "control_sha256": "e3764b1a4c8704b6f06bbed4e981439c6127067fa4e52f756f2c2e322fe478ef",
+        "control_statistics": {
+          "maximum": 1288.546875,
+          "mean": 15.8592648828125,
+          "median": 15.8203125,
+          "minimum": 15.2578125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 12605,
+          "p05": 15.5625,
+          "p95": 16.046875,
+          "q1": 15.71875,
+          "q3": 15.921875,
+          "stddev": 1.7718899501174126,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1048576,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_noisy",
+        "baseline_record": "machines/artemisia/full/capacity/ee8db35754534f63/attempt-1788842080019811604/run.json",
+        "baseline_statistics": {
+          "maximum": 1182.03125,
+          "mean": 49.1071872734375,
+          "median": 48.9609375,
+          "minimum": 41.6640625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 15321,
+          "p05": 46.3359375,
+          "p95": 51.5859375,
+          "q1": 47.90625,
+          "q3": 49.9921875,
+          "stddev": 4.113880836106098,
+          "zero_samples": 0
+        },
+        "bytes": 4194304,
+        "control_cpu": 10,
+        "control_raw": "machines/artemisia/page_control/page_control/b5cd587b14d94779/attempt-1788847608479477555/samples.u64.gz",
+        "control_record": "machines/artemisia/page_control/page_control/b5cd587b14d94779/complete.json",
+        "control_sha256": "2f4552e44b36aea60cbc98a6a7cc242ab457ed90eb619e41ca70a596c52e2640",
+        "control_statistics": {
+          "maximum": 1270.5859375,
+          "mean": 44.03574209375,
+          "median": 43.8671875,
+          "minimum": 36.8984375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 17285,
+          "p05": 41.234375,
+          "p95": 46.75,
+          "q1": 42.78125,
+          "q3": 44.96875,
+          "stddev": 3.3121360921800087,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 4194304,
+        "huge_backing_before_bytes": 4194304,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 4096,
+          "anon_huge_before_kib": 4096,
+          "anon_huge_kib": 4096,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4194304,
+          "mapped_bytes": 4194304,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 9,
+        "baseline_qualification": "verified_noisy",
+        "baseline_record": "machines/artemisia/full/capacity/f037869accb3fd53/attempt-1788842283731516872/run.json",
+        "baseline_statistics": {
+          "maximum": 24738.4375,
+          "mean": 89.0455506875,
+          "median": 83.765625,
+          "minimum": 70.96875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 5043,
+          "p05": 76.2890625,
+          "p95": 110.828125,
+          "q1": 79.21875,
+          "q3": 98.4453125,
+          "stddev": 29.226431790611617,
+          "zero_samples": 0
+        },
+        "bytes": 16777216,
+        "control_cpu": 0,
+        "control_raw": "machines/artemisia/page_control/page_control/eb4abf762c235942/attempt-1788847965839245955/samples.u64.gz",
+        "control_record": "machines/artemisia/page_control/page_control/eb4abf762c235942/attempt-1788847965839245955/run.json",
+        "control_sha256": "48b10e20ac4f96ae717bd3e7e606f91923c3fa39b77f5442300440fa8636fde2",
+        "control_statistics": {
+          "maximum": 3016.921875,
+          "mean": 95.8953346953125,
+          "median": 71.4375,
+          "minimum": 58.2890625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 80064,
+          "p05": 62.5234375,
+          "p95": 218.0703125,
+          "q1": 65.1953125,
+          "q3": 109.6875,
+          "stddev": 49.68760506956068,
+          "zero_samples": 0
+        },
+        "flags": [
+          "frequent involuntary context switches",
+          "SMT sibling became busy",
+          "block median drift exceeds 20 percent"
+        ],
+        "huge_backing_after_bytes": 16777216,
+        "huge_backing_before_bytes": 16777216,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 16384,
+          "anon_huge_before_kib": 16384,
+          "anon_huge_kib": 16384,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16777216,
+          "mapped_bytes": 16777216,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_noisy",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 26,
+        "baseline_qualification": "verified_noisy",
+        "baseline_record": "machines/artemisia/full/capacity/98d82976833e95f4/attempt-1788841584431883900/run.json",
+        "baseline_statistics": {
+          "maximum": 108025.0,
+          "mean": 256.3252267109375,
+          "median": 260.8359375,
+          "minimum": 191.3671875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 10995,
+          "p05": 222.8125,
+          "p95": 276.75,
+          "q1": 245.25,
+          "q3": 267.3515625,
+          "stddev": 110.39945983582898,
+          "zero_samples": 0
+        },
+        "bytes": 67108864,
+        "control_cpu": 25,
+        "control_raw": "machines/artemisia/page_control/page_control/35f1753be415e3c6/attempt-1788847688492678013/samples.u64.gz",
+        "control_record": "machines/artemisia/page_control/page_control/35f1753be415e3c6/attempt-1788847688492678013/run.json",
+        "control_sha256": "cbf73a11b1982915de907ba71b8970723114c1b13db70d40d75034f73def12a3",
+        "control_statistics": {
+          "maximum": 25183.03125,
+          "mean": 373.59363815625,
+          "median": 380.171875,
+          "minimum": 257.234375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 117472,
+          "p05": 317.921875,
+          "p95": 400.984375,
+          "q1": 366.8984375,
+          "q3": 389.1171875,
+          "stddev": 56.813356025954,
+          "zero_samples": 0
+        },
+        "flags": [
+          "frequent involuntary context switches",
+          "SMT sibling became busy"
+        ],
+        "huge_backing_after_bytes": 67108864,
+        "huge_backing_before_bytes": 67108864,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 65536,
+          "anon_huge_before_kib": 65536,
+          "anon_huge_kib": 65536,
+          "kernel_page_kib": 4,
+          "logical_bytes": 67108864,
+          "mapped_bytes": 67108864,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_noisy",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_noisy",
+        "baseline_record": "machines/artemisia/full/capacity/5b6e9fb0a066f7ea/attempt-1788841066518641009/run.json",
+        "baseline_statistics": {
+          "maximum": 25335.9140625,
+          "mean": 291.2864706171875,
+          "median": 289.75,
+          "minimum": 264.8984375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 47282,
+          "p05": 280.78125,
+          "p95": 303.21875,
+          "q1": 286.1171875,
+          "q3": 293.6171875,
+          "stddev": 86.63759377495299,
+          "zero_samples": 0
+        },
+        "bytes": 268435456,
+        "control_cpu": 1,
+        "control_raw": "machines/artemisia/page_control/page_control/568e19603ebf72c9/attempt-1788848043532587121/samples.u64.gz",
+        "control_record": "machines/artemisia/page_control/page_control/568e19603ebf72c9/attempt-1788848043532587121/run.json",
+        "control_sha256": "32b4ffc0ff982bc0b172bbec36ddfb98ac049a5770ff887cdd9ce423f4133829",
+        "control_statistics": {
+          "maximum": 85965.046875,
+          "mean": 399.333999578125,
+          "median": 398.9140625,
+          "minimum": 353.3828125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 30483,
+          "p05": 382.9765625,
+          "p95": 413.1640625,
+          "q1": 392.53125,
+          "q3": 404.0,
+          "stddev": 122.25996369387347,
+          "zero_samples": 0
+        },
+        "flags": [
+          "frequent involuntary context switches",
+          "SMT sibling became busy"
+        ],
+        "huge_backing_after_bytes": 268435456,
+        "huge_backing_before_bytes": 268435456,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 262144,
+          "anon_huge_before_kib": 262144,
+          "anon_huge_kib": 262144,
+          "kernel_page_kib": 4,
+          "logical_bytes": 268435456,
+          "mapped_bytes": 268435456,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_noisy",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      }
+    ],
+    "unavailable": false
+  },
+  "plots": [
+    "plots/artemisia-capacity.svg",
+    "plots/artemisia-line_size.svg",
+    "plots/artemisia-associativity.svg",
+    "plots/artemisia-inclusion_policy.svg",
+    "plots/artemisia-latency.svg",
+    "plots/artemisia-software_metric.svg",
+    "plots/artemisia-timer.svg",
+    "plots/artemisia-loop.svg",
+    "plots/artemisia-boundary-distributions.svg",
+    "plots/artemisia-page-control.svg"
+  ],
+  "primary_collection_complete": true,
+  "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+  "software_metric": {
+    "block_rate_range": [
+      0.974,
+      0.9966
+    ],
+    "calibration_and_workload_cpus": [
+      29,
+      29,
+      29
+    ],
+    "classified_hits": 988489,
+    "estimate": 0.988489,
+    "limitations": "Single-load timer overhead/quantization; smallest/largest footprints are empirical proxies, not PMU-confirmed classes. Adjacent samples are correlated. Wilson intervals omit calibration/classification error; threshold-sensitivity and block ranges expose additional uncertainty. Phase-II validation not performed.",
+    "same_logical_cpu": true,
+    "sources": [
+      "machines/artemisia/full/software_metric/00cef01de4beae11/complete.json",
+      "machines/artemisia/full/software_metric/321cb4ea8263334b/complete.json",
+      "machines/artemisia/full/software_metric/484f3d0a0a6e6e81/complete.json"
+    ],
+    "standardized_workload_bytes": 1048576,
+    "status": "timing-classified cache-residency proxy; not a validated hardware hit rate",
+    "threshold_raw_ticks": 123.0,
+    "threshold_sensitivity_limits_raw_ticks": [
+      74.0,
+      172.0
+    ],
+    "threshold_sensitivity_rate_range": [
+      0.067616,
+      0.999837
+    ],
+    "total_timed_accesses": 1000000,
+    "unit": "TSC_ticks",
+    "wilson_95_independent_sample_assumption": [
+      0.9882780421345584,
+      0.9886962047211746
+    ]
+  },
+  "unsuccessful_attempts": 178,
+  "verified_points": 290
+}

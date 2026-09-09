@@ -1,0 +1,16 @@
+test_archive_preflight_rejects_traversal (test_restore_phase1.RestoreTests) ... ok
+test_missing_archive (test_restore_phase1.RestoreTests) ... ok
+test_ordered_overlay_and_completion (test_restore_phase1.RestoreTests) ... Verified first.zip
+Verified second.zip
+Restored first.zip
+Restored second.zip
+ok
+test_protected_and_nonempty_destinations (test_restore_phase1.RestoreTests) ... ok
+test_same_size_corruption (test_restore_phase1.RestoreTests) ... ok
+test_symlink_destination (test_restore_phase1.RestoreTests) ... ok
+test_unsafe_members (test_restore_phase1.RestoreTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.022s
+
+OK

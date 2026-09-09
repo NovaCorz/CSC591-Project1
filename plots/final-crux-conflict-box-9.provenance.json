@@ -1,0 +1,11 @@
+{
+  "comparison_cohort_policy": "machines/crux/uncertainty-v1/conflict-repair.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/crux/uncertainty-v1/batched_conflict/0ee7658af12d8a36/attempt-1788874598006942040/run.json",
+    "machines/crux/uncertainty-v1/batched_conflict/6d2d32ab4f3a7259/attempt-1788874630118258388/run.json",
+    "machines/crux/uncertainty-v1/batched_conflict/b04c645cd5723479/attempt-1788874581019674211/run.json",
+    "machines/crux/uncertainty-v1/batched_conflict/d8b49894e9b47f51/attempt-1788874610265396037/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:18.510481+00:00"
+}

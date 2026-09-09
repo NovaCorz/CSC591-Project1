@@ -1,0 +1,23 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/skylark/full/latency/5f5aa4048e55f9f5/attempt-1788839171857887918/samples.u64.gz",
+      "record": "machines/skylark/full/latency/5f5aa4048e55f9f5/complete.json",
+      "sha256": "bd76d51329af96e14736a4e79e3cd9c628298a8da983ac166295680ace05238a"
+    },
+    {
+      "raw": "machines/skylark/full/latency/a2061cd0d0459e0e/attempt-1788839174487483492/samples.u64.gz",
+      "record": "machines/skylark/full/latency/a2061cd0d0459e0e/complete.json",
+      "sha256": "4d7ca57d4e086e4cf4d5e42d949bdc2fe114b144b7b1bc2fe584a8657a470016"
+    },
+    {
+      "raw": "machines/skylark/full/latency/e2f3323faa76ee0b/attempt-1788840975522324127/samples.u64.gz",
+      "record": "machines/skylark/full/latency/e2f3323faa76ee0b/complete.json",
+      "sha256": "02082b49e4cca0c0128b9d07f9fba5c20e1366acaa6b0b1a3961639d859f86e8"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "tests": 48,
+  "added_tests": 6,
+  "native_smoke_hosts": 8,
+  "smoke_configurations": 32,
+  "source_hashes": {
+    "scripts/plot_independent.py": "3d942b8499f58fd5fdbf9aed0ccef90505f294a8edabee7fa2c1f4fa18e90bf5",
+    "scripts/restore_independent.py": "ae67d5c960558834cda44564ac52d421b8dd7bec1a84fa37e95a146a845fc7bc",
+    "scripts/package_independent.py": "2114475c56cea442bf23ded973a3a76d2da48aa2c261bb062debb3ad77ba09a6",
+    "scripts/independent_worker.py": "a00832d74af3da963c7e8ba4c15ee688a60ed84168413704928b2361faf8de51",
+    "scripts/independent_repair.py": "c24d467f56c8ecfded40397888be2e82cd521146f8512d3d58de8eb15fc9c08b",
+    "scripts/analyze_independent.py": "8547037c4a4b05afd58677cfab1ad0f3c1f5866a5a8428c576c1220d3aaa5297",
+    "scripts/independent_load.py": "9cda3ecb84edde374f293593c1b92929614a45082a3660dbc65b4d2296f5affb",
+    "src/independent_load.c": "e3c359622796e51af3e06542c1b5ae5ef69d033e6bbdc693996eb0025135b5b2",
+    "tests/test_independent.py": "5e71e1ada8c551d20ba849b0320ab11f8726a54cc3515f6e6e4f5464bcf782a3",
+    "config/independent-load.json": "1e73fa8bb98971c5ec77c79bf20f5a943576e86ac4b2b2a10ca22d1274c4b605"
+  },
+  "native_review": "All eight disassemblies verified: four self-dereferences on one register versus four distinct registers; exactly six inner-loop instructions, no stack accesses. x86 and AArch64 listings manually inspected.",
+  "limitations": "Function-call, argument/return, branch selection and timer costs are retained. No PMUs/cache-reporting interfaces or published cache specifications used."
+}
