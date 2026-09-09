@@ -1,0 +1,273 @@
+{
+  "attempts": 30,
+  "capacity": {
+    "curves": [],
+    "interpretation": "Replicated timing departure intervals, conditional on physical-level assignment; not specification confidence intervals",
+    "matched_cohorts": [],
+    "prior_interval": null,
+    "replicated_intervals": []
+  },
+  "complete": true,
+  "conflict": {
+    "conditional_candidates": [],
+    "conditional_l2_ways": null,
+    "curves": [],
+    "geometry_checks": [],
+    "interpretation": "Effective ring thresholds only. Fixed scrub contributes to the timed average; neither complete candidate L1 eviction nor unique lower-index congruence is independently proven. Geometry compatibility alone does not establish physical ways.",
+    "physical_l2_ways": null,
+    "repeated_thresholds": []
+  },
+  "flagged_attempts": 0,
+  "full_attempts": 26,
+  "host": "ookay",
+  "issues": [],
+  "missing_stages": [],
+  "noisy_selected": 0,
+  "selected_points": 26,
+  "smoke_attempts": 4,
+  "spatial": {
+    "cohorts": [
+      {
+        "align": 0,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          7.2265625,
+          10.87890625,
+          10.94140625
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/ookay/uncertainty-v1/spatial_residency/0e0c163db8bf5b6d/attempt-1788872983195189885/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/419e05018003636e/attempt-1788873003132410263/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/f6e839d11c102c67/attempt-1788872992218946978/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          7.265625,
+          10.8515625,
+          10.96484375
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/ookay/uncertainty-v1/spatial_residency/c29077b4ec1cbd9c/attempt-1788873037332058830/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/8ae6f1820d4e9ba3/attempt-1788873026511437039/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/6b74c563788d9d02/attempt-1788873014244605278/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          7.25,
+          10.9140625,
+          10.93359375
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/ookay/uncertainty-v1/spatial_residency/ca9507ef06000638/attempt-1788873047665188204/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/a96342765990ba23/attempt-1788873068677528247/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/ec32139318de066e/attempt-1788873057187639548/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          7.23046875,
+          10.859375,
+          10.9453125
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/ookay/uncertainty-v1/spatial_residency/73a05ddca85d33d0/attempt-1788873105841218778/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/af2afd8cacaa1fae/attempt-1788873095161127198/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/9e73cb2efb0037d5/attempt-1788873082028972869/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 5242880,
+        "full_huge_backing": true,
+        "medians": [
+          19.0703125,
+          27.42578125,
+          27.4140625
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/ookay/uncertainty-v1/spatial_residency/7db64ffc937a3f71/attempt-1788873115202574745/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/01b8bb52d50e828c/attempt-1788873141268761276/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/f3ba0ebeac7f722e/attempt-1788873128780340234/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 5242880,
+        "full_huge_backing": true,
+        "medians": [
+          19.078125,
+          27.421875,
+          27.4296875
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/ookay/uncertainty-v1/spatial_residency/8b474f991e760762/attempt-1788873178451528752/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/01cf88c65aa6f315/attempt-1788873166793003767/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/395783db535e030e/attempt-1788873153280200865/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 5242880,
+        "full_huge_backing": true,
+        "medians": [
+          19.07421875,
+          27.41796875,
+          27.4140625
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/ookay/uncertainty-v1/spatial_residency/6964453aa8c64cce/attempt-1788873190812814124/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/329488a0fc1e544f/attempt-1788873215719343997/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/519bc06a79997719/attempt-1788873204105094544/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 5242880,
+        "full_huge_backing": true,
+        "medians": [
+          19.06640625,
+          27.421875,
+          27.39453125
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/ookay/uncertainty-v1/spatial_residency/6c7d4e079d8e6b39/attempt-1788873253123165390/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/e0d9a2a328ac0ea0/attempt-1788873241202891382/run.json",
+          "machines/ookay/uncertainty-v1/spatial_residency/059bfd5937b8d023/attempt-1788873228702489637/run.json"
+        ],
+        "supports": true
+      }
+    ],
+    "limitation": "Visible spatial granularity at these working sets; offsets change active-line count and set coverage as well as spatial reuse. Separate per-level physical line sizes remain unestablished",
+    "status": "reproduced",
+    "supported": 8,
+    "total": 8
+  },
+  "stages": {
+    "capacity": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 0,
+      "points": 0,
+      "records": [],
+      "stage": "capacity",
+      "time": "2026-09-08T13:09:39.641870+00:00"
+    },
+    "conflict": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 0,
+      "points": 0,
+      "records": [],
+      "stage": "conflict",
+      "time": "2026-09-08T13:09:34.131896+00:00"
+    },
+    "controls": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 2,
+      "points": 2,
+      "records": [
+        "timer/627972eddbffe065/attempt-1788872842006250817",
+        "timer/b247e68cafa7ea7e/attempt-1788872845952799884"
+      ],
+      "stage": "controls",
+      "time": "2026-09-08T13:07:32.062287+00:00"
+    },
+    "smoke": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 4,
+      "points": 4,
+      "records": [
+        "smoke/6f5d112f9653daee/attempt-1788872828678640067",
+        "smoke/2058aeed09d30114/attempt-1788872830854176004",
+        "smoke/9abdebaca3fa3a04/attempt-1788872833054074652",
+        "batched_conflict/a45e925ea51f5115/attempt-1788872835235306203"
+      ],
+      "stage": "smoke",
+      "time": "2026-09-08T13:07:17.422550+00:00"
+    },
+    "spatial": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 24,
+      "points": 24,
+      "records": [
+        "spatial_residency/0e0c163db8bf5b6d/attempt-1788872983195189885",
+        "spatial_residency/f6e839d11c102c67/attempt-1788872992218946978",
+        "spatial_residency/419e05018003636e/attempt-1788873003132410263",
+        "spatial_residency/6b74c563788d9d02/attempt-1788873014244605278",
+        "spatial_residency/8ae6f1820d4e9ba3/attempt-1788873026511437039",
+        "spatial_residency/c29077b4ec1cbd9c/attempt-1788873037332058830",
+        "spatial_residency/ca9507ef06000638/attempt-1788873047665188204",
+        "spatial_residency/ec32139318de066e/attempt-1788873057187639548",
+        "spatial_residency/a96342765990ba23/attempt-1788873068677528247",
+        "spatial_residency/9e73cb2efb0037d5/attempt-1788873082028972869",
+        "spatial_residency/af2afd8cacaa1fae/attempt-1788873095161127198",
+        "spatial_residency/73a05ddca85d33d0/attempt-1788873105841218778",
+        "spatial_residency/7db64ffc937a3f71/attempt-1788873115202574745",
+        "spatial_residency/f3ba0ebeac7f722e/attempt-1788873128780340234",
+        "spatial_residency/01b8bb52d50e828c/attempt-1788873141268761276",
+        "spatial_residency/395783db535e030e/attempt-1788873153280200865",
+        "spatial_residency/01cf88c65aa6f315/attempt-1788873166793003767",
+        "spatial_residency/8b474f991e760762/attempt-1788873178451528752",
+        "spatial_residency/6964453aa8c64cce/attempt-1788873190812814124",
+        "spatial_residency/519bc06a79997719/attempt-1788873204105094544",
+        "spatial_residency/329488a0fc1e544f/attempt-1788873215719343997",
+        "spatial_residency/059bfd5937b8d023/attempt-1788873228702489637",
+        "spatial_residency/e0d9a2a328ac0ea0/attempt-1788873241202891382",
+        "spatial_residency/6c7d4e079d8e6b39/attempt-1788873253123165390"
+      ],
+      "stage": "spatial",
+      "time": "2026-09-08T13:14:27.242546+00:00"
+    }
+  },
+  "time": "2026-09-08T20:55:14.995470+00:00",
+  "timer_gate": {
+    "fraction": 0.028969957081545063,
+    "limit": 0.05,
+    "note": "Unsubtracted native timer units; batch amortizes overhead",
+    "passed": true,
+    "sources": [
+      "timer/627972eddbffe065/attempt-1788872842006250817",
+      "timer/b247e68cafa7ea7e/attempt-1788872845952799884"
+    ],
+    "time": "2026-09-08T13:07:32.062161+00:00"
+  },
+  "unsuccessful": []
+}

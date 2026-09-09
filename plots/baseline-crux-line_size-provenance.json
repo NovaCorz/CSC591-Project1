@@ -1,0 +1,238 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/crux/full/line_size/05cf71a463289f3e/attempt-1788841778548402730/samples.u64.gz",
+      "record": "machines/crux/full/line_size/05cf71a463289f3e/complete.json",
+      "sha256": "7286586fc15cb5e799e68fb0642a1e4df3afdb9fe34532eb17af58bc9a63fc56"
+    },
+    {
+      "raw": "machines/crux/full/line_size/115482a0bef9d763/attempt-1788841745525638239/samples.u64.gz",
+      "record": "machines/crux/full/line_size/115482a0bef9d763/complete.json",
+      "sha256": "6a4d56f99a0e3ce40a7fbc50364dfe7d27c36201359a617cf7037acee8e9dc36"
+    },
+    {
+      "raw": "machines/crux/full/line_size/144623303e595639/attempt-1788841612925555559/samples.u64.gz",
+      "record": "machines/crux/full/line_size/144623303e595639/complete.json",
+      "sha256": "2ae3ab44c539acc22e4b986a61a7dd531b1f48629ea88872971c70b07a0b1d44"
+    },
+    {
+      "raw": "machines/crux/full/line_size/14e247bfe6819907/attempt-1788841894044310326/samples.u64.gz",
+      "record": "machines/crux/full/line_size/14e247bfe6819907/complete.json",
+      "sha256": "87e2cd8be9353b3d3cdcbbf0dd4e3f7f87e04510f74c4b2759f1520acb3a3cca"
+    },
+    {
+      "raw": "machines/crux/full/line_size/16add745949c27be/attempt-1788841936756073226/samples.u64.gz",
+      "record": "machines/crux/full/line_size/16add745949c27be/complete.json",
+      "sha256": "4d659e6c7bbcf8d5bfec8aa4d9eb743c74f9ba614bfb2f9651792a8607085686"
+    },
+    {
+      "raw": "machines/crux/full/line_size/1df724272b22a12e/attempt-1788841981925851688/samples.u64.gz",
+      "record": "machines/crux/full/line_size/1df724272b22a12e/complete.json",
+      "sha256": "06fdb23c5f20d735390ee5d376ded7422314c97f5c0d05e8bd91840abe77ddad"
+    },
+    {
+      "raw": "machines/crux/full/line_size/1e2cf53d98adc37b/attempt-1788841755940525818/samples.u64.gz",
+      "record": "machines/crux/full/line_size/1e2cf53d98adc37b/complete.json",
+      "sha256": "e6be8c987c3c5081754cf0be73141f269f802e9d6d98be15e8393781bd589199"
+    },
+    {
+      "raw": "machines/crux/full/line_size/268d244815b7c11f/attempt-1788841813905351921/samples.u64.gz",
+      "record": "machines/crux/full/line_size/268d244815b7c11f/complete.json",
+      "sha256": "8ee2ec08cf1d4f83384c667d72421aa8e9721fb3c0795c135c95edf77f6d81c2"
+    },
+    {
+      "raw": "machines/crux/full/line_size/29659a1e31f4c9df/attempt-1788841914563312582/samples.u64.gz",
+      "record": "machines/crux/full/line_size/29659a1e31f4c9df/complete.json",
+      "sha256": "90c0dbe389b0fd9d6393481d772fb58cd91302df4061c43586db08edf4a28c47"
+    },
+    {
+      "raw": "machines/crux/full/line_size/2c4b06fc3ead2397/attempt-1788841881774786542/samples.u64.gz",
+      "record": "machines/crux/full/line_size/2c4b06fc3ead2397/complete.json",
+      "sha256": "7af312755add4c00e14f988fb2cd4b32252adbf9041dd9cdffb7a169e6574cf6"
+    },
+    {
+      "raw": "machines/crux/full/line_size/2cd6a1b1675ee4fb/attempt-1788841801404353464/samples.u64.gz",
+      "record": "machines/crux/full/line_size/2cd6a1b1675ee4fb/complete.json",
+      "sha256": "32f8118ace877c0d05edca03bc1d23f84437ef041eab0e41eec29308f730ac7c"
+    },
+    {
+      "raw": "machines/crux/full/line_size/2d38bd82571d1be9/attempt-1788841623626775926/samples.u64.gz",
+      "record": "machines/crux/full/line_size/2d38bd82571d1be9/complete.json",
+      "sha256": "a28e678826308a55d1cb5fa55a8071766f920056e440f606efb9b3035fa0623d"
+    },
+    {
+      "raw": "machines/crux/full/line_size/44e36cada10712d7/attempt-1788841825359807704/samples.u64.gz",
+      "record": "machines/crux/full/line_size/44e36cada10712d7/complete.json",
+      "sha256": "2fc864716edc9f773abfb5c1b71ed3fe20d26e2634b2e1fb7317373bcebf5213"
+    },
+    {
+      "raw": "machines/crux/full/line_size/45ce4c3ea341b701/attempt-1788842025441051715/samples.u64.gz",
+      "record": "machines/crux/full/line_size/45ce4c3ea341b701/complete.json",
+      "sha256": "a92ae11f50a6c939fe5f698621467e39a0b5621aa76f3888c67f1f069fbfd59d"
+    },
+    {
+      "raw": "machines/crux/full/line_size/4a87c8868fa9e173/attempt-1788841535699941273/samples.u64.gz",
+      "record": "machines/crux/full/line_size/4a87c8868fa9e173/complete.json",
+      "sha256": "27b4af4d2003ecf77aa47263b75c1aa4ca1d7c05bc38e41a5255c4a5c5036c2c"
+    },
+    {
+      "raw": "machines/crux/full/line_size/5b54f0c1a745509b/attempt-1788841547814562142/samples.u64.gz",
+      "record": "machines/crux/full/line_size/5b54f0c1a745509b/complete.json",
+      "sha256": "af46c82a8ba623ca5ca430cf06c2fe59c972b425ff1e396e4549e399b556422b"
+    },
+    {
+      "raw": "machines/crux/full/line_size/5c39c44369d3553d/attempt-1788841767191091401/samples.u64.gz",
+      "record": "machines/crux/full/line_size/5c39c44369d3553d/complete.json",
+      "sha256": "9d131167444af2649305195b51ac870b7d9f2349c9e5fbb288cb97a73e3d5de6"
+    },
+    {
+      "raw": "machines/crux/full/line_size/648671f994aee7ea/attempt-1788841602626590558/samples.u64.gz",
+      "record": "machines/crux/full/line_size/648671f994aee7ea/complete.json",
+      "sha256": "f73f23107c255953c1f3351e57e48fe7eabc43a38bc5b7bd21b0e48d056b9c68"
+    },
+    {
+      "raw": "machines/crux/full/line_size/6d8785be3ad13ce3/attempt-1788842003669019575/samples.u64.gz",
+      "record": "machines/crux/full/line_size/6d8785be3ad13ce3/complete.json",
+      "sha256": "58215f2933656b809bc5c15f2d67515df33046f33c3847fd6772377926690eef"
+    },
+    {
+      "raw": "machines/crux/full/line_size/6e3f82933d38ed21/attempt-1788841590832507297/samples.u64.gz",
+      "record": "machines/crux/full/line_size/6e3f82933d38ed21/complete.json",
+      "sha256": "6e985d33e6b44b5a4525dc1c85639bc2913519c59b068ae6ff700454afd586c6"
+    },
+    {
+      "raw": "machines/crux/full/line_size/7043913155835203/attempt-1788841735352359830/samples.u64.gz",
+      "record": "machines/crux/full/line_size/7043913155835203/complete.json",
+      "sha256": "341b28624465d00a39571384483a1504345b3b5fbd38dc3454ec0f439cdc5597"
+    },
+    {
+      "raw": "machines/crux/full/line_size/7458b624e5634816/attempt-1788841903892098658/samples.u64.gz",
+      "record": "machines/crux/full/line_size/7458b624e5634816/complete.json",
+      "sha256": "eba81608411b2a42a9b5b4b0330b78817a94d3042e1d7f7d33f6d62dd014801d"
+    },
+    {
+      "raw": "machines/crux/full/line_size/76f47f0e8335ad3f/attempt-1788841723629195681/samples.u64.gz",
+      "record": "machines/crux/full/line_size/76f47f0e8335ad3f/complete.json",
+      "sha256": "ac7a07ff8f124d7f5933aac768d4ee841378fb51c77ce63f611c4540282e48e5"
+    },
+    {
+      "raw": "machines/crux/full/line_size/7971adab8478bf9b/attempt-1788841925292763925/samples.u64.gz",
+      "record": "machines/crux/full/line_size/7971adab8478bf9b/complete.json",
+      "sha256": "aec98345bf4bcdb87f47924024545697d12b530e7e1009924f0566acb6f2539c"
+    },
+    {
+      "raw": "machines/crux/full/line_size/837af521ebd960ce/attempt-1788841960356249858/samples.u64.gz",
+      "record": "machines/crux/full/line_size/837af521ebd960ce/complete.json",
+      "sha256": "386b9d6e418cbf728452b2d4137e4ba1ebcbb6dd1e8f4b0440dddd243c1531ef"
+    },
+    {
+      "raw": "machines/crux/full/line_size/88617ed9d0471110/attempt-1788841568718624602/samples.u64.gz",
+      "record": "machines/crux/full/line_size/88617ed9d0471110/complete.json",
+      "sha256": "991f7b78961692b2d1de67d2121e92fb7ad201ffeb905c17423516de506207fd"
+    },
+    {
+      "raw": "machines/crux/full/line_size/8f0527e319067b78/attempt-1788841633744950205/samples.u64.gz",
+      "record": "machines/crux/full/line_size/8f0527e319067b78/complete.json",
+      "sha256": "15fc725299789ab4bf11a90302449ba33efa6c01c2c65e063e156aaded2c93c7"
+    },
+    {
+      "raw": "machines/crux/full/line_size/8f75f2b82d46b148/attempt-1788841871601848322/samples.u64.gz",
+      "record": "machines/crux/full/line_size/8f75f2b82d46b148/complete.json",
+      "sha256": "623116e01386e42da2e2227e8a3c7ecf980c1172b310222dada7e8b228ca0506"
+    },
+    {
+      "raw": "machines/crux/full/line_size/92a56a26287dc3bf/attempt-1788841656579849646/samples.u64.gz",
+      "record": "machines/crux/full/line_size/92a56a26287dc3bf/complete.json",
+      "sha256": "a329c6756e9dc09f5dcb8e8e8c1dea4a75ca6e7c9ff64d4c0f6a9b562e0b3bab"
+    },
+    {
+      "raw": "machines/crux/full/line_size/99c01371555529d7/attempt-1788841992406712530/samples.u64.gz",
+      "record": "machines/crux/full/line_size/99c01371555529d7/complete.json",
+      "sha256": "391cc5a24397051b967da51a00c00f07dd6e72ef81bef9fd9dfa929609b2fa06"
+    },
+    {
+      "raw": "machines/crux/full/line_size/a095ca58c529bc38/attempt-1788842035664727785/samples.u64.gz",
+      "record": "machines/crux/full/line_size/a095ca58c529bc38/complete.json",
+      "sha256": "b2afa6e932dfea52de7c310d5016a37c4a9b3fd71e56d8d10e26a4d0d011c2d3"
+    },
+    {
+      "raw": "machines/crux/full/line_size/afb0c64360609af1/attempt-1788841790071884800/samples.u64.gz",
+      "record": "machines/crux/full/line_size/afb0c64360609af1/complete.json",
+      "sha256": "6afa52c3d671e063144817d628160ec956127361ee0e30826a951af1e3f718b9"
+    },
+    {
+      "raw": "machines/crux/full/line_size/b1b2ea356a3d62c5/attempt-1788841558289613300/samples.u64.gz",
+      "record": "machines/crux/full/line_size/b1b2ea356a3d62c5/complete.json",
+      "sha256": "d9329afa245fb611f3638b2638fac1dfe37a9e6c879e338adb8bfaf5d46f1a62"
+    },
+    {
+      "raw": "machines/crux/full/line_size/bc5b31ab8ae038eb/attempt-1788841848757554194/samples.u64.gz",
+      "record": "machines/crux/full/line_size/bc5b31ab8ae038eb/complete.json",
+      "sha256": "c1c5648e0410714899291c6fb84f6cc32b31205b6315570b889f8667c210024e"
+    },
+    {
+      "raw": "machines/crux/full/line_size/c36f5dd659680d6d/attempt-1788841579925020955/samples.u64.gz",
+      "record": "machines/crux/full/line_size/c36f5dd659680d6d/complete.json",
+      "sha256": "e531fc207d6fd061d7062038cb961fe4a2ae00ef51bfb34c467f694423e61f1d"
+    },
+    {
+      "raw": "machines/crux/full/line_size/c54745e018af9255/attempt-1788841712323965022/samples.u64.gz",
+      "record": "machines/crux/full/line_size/c54745e018af9255/complete.json",
+      "sha256": "252ca00c2bf1282cb820cc97c85fcde9729bd38391b50b7d3427767570785ad6"
+    },
+    {
+      "raw": "machines/crux/full/line_size/c5da2a7f7a5db601/attempt-1788841689785148251/samples.u64.gz",
+      "record": "machines/crux/full/line_size/c5da2a7f7a5db601/complete.json",
+      "sha256": "92d23fbfbd4ab1b9dbf62603fd2ef44d0d32c7ab842486a788caf9693edc5e10"
+    },
+    {
+      "raw": "machines/crux/full/line_size/ce7a2e8934362b54/attempt-1788841837578833387/samples.u64.gz",
+      "record": "machines/crux/full/line_size/ce7a2e8934362b54/complete.json",
+      "sha256": "cc4b73cb2ab70741de312dccadd08c1e0826d9c3dc0aac663cd61c6069c397d9"
+    },
+    {
+      "raw": "machines/crux/full/line_size/ceeb698227edb168/attempt-1788841679470901275/samples.u64.gz",
+      "record": "machines/crux/full/line_size/ceeb698227edb168/complete.json",
+      "sha256": "aa71cb737de517d565d87c2eb5adfce68ac7efdb3b04ca52c490fad47a3f07ce"
+    },
+    {
+      "raw": "machines/crux/full/line_size/d4f6690422559771/attempt-1788841861107430025/samples.u64.gz",
+      "record": "machines/crux/full/line_size/d4f6690422559771/complete.json",
+      "sha256": "b8e571cac1e446d31f417054e52b844c383730c0d0a37c7b0858f019fc298138"
+    },
+    {
+      "raw": "machines/crux/full/line_size/dc120252afc3a610/attempt-1788841970621134516/samples.u64.gz",
+      "record": "machines/crux/full/line_size/dc120252afc3a610/complete.json",
+      "sha256": "d4fcd8e4b09a031bb16cf048f5b6bf30fb2bb055558eba95d65d386f84754104"
+    },
+    {
+      "raw": "machines/crux/full/line_size/e714513d9170273c/attempt-1788841667380177797/samples.u64.gz",
+      "record": "machines/crux/full/line_size/e714513d9170273c/complete.json",
+      "sha256": "72f78397f1202f8b8a3aa733fb28d402148968a28aa3af16b03e57774d5dbd09"
+    },
+    {
+      "raw": "machines/crux/full/line_size/ed0ccf1eba241cd9/attempt-1788842014691749717/samples.u64.gz",
+      "record": "machines/crux/full/line_size/ed0ccf1eba241cd9/complete.json",
+      "sha256": "a468db9883eb2c62dcad3a9114cbf1e887a20da4d9f17603ab873b26160b276a"
+    },
+    {
+      "raw": "machines/crux/full/line_size/f36e1a03becdacc4/attempt-1788841700239013537/samples.u64.gz",
+      "record": "machines/crux/full/line_size/f36e1a03becdacc4/complete.json",
+      "sha256": "ffd981827a89d948d61dd99ca0d578f87166ed69764bd99458675b2dccff9481"
+    },
+    {
+      "raw": "machines/crux/full/line_size/fc2418cb248a19e1/attempt-1788841947513844909/samples.u64.gz",
+      "record": "machines/crux/full/line_size/fc2418cb248a19e1/complete.json",
+      "sha256": "42f3427a5f86f875108a920f64251e7a416bf5f8b229343dd0081630d2da8466"
+    },
+    {
+      "raw": "machines/crux/full/line_size/ffaf4aa981532c60/attempt-1788841644332885965/samples.u64.gz",
+      "record": "machines/crux/full/line_size/ffaf4aa981532c60/complete.json",
+      "sha256": "d7516a732aa566df98344ae5e5363f9e86402b2e5ba6a39b23ee6a3f505db947"
+    }
+  ]
+}

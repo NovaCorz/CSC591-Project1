@@ -1,0 +1,10 @@
+{
+  "comparison_cohort_policy": "machines/skylark/uncertainty-v1/spatial-cohorts.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/skylark/uncertainty-v1/spatial_residency/c74c975f31d95bea/attempt-1788873206469812031/run.json",
+    "machines/skylark/uncertainty-v1/spatial_residency/19f016ba486f51c3/attempt-1788873195313352324/run.json",
+    "machines/skylark/uncertainty-v1/spatial_residency/0e1456a0701185bc/attempt-1788873184150063282/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:03.032086+00:00"
+}

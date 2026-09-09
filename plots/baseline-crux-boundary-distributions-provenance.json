@@ -1,0 +1,48 @@
+{
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "selection": "Up to seven successive final-batch random points starting three points before the first exploratory departure; smallest points if no departure is resolved. Noisy points remain visible. Complete box plots cover every verified point separately.",
+  "sources": [
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/crux/full/capacity/31448ada748bc89c/attempt-1788839746885934567/samples.u64.gz",
+      "record": "machines/crux/full/capacity/31448ada748bc89c/complete.json",
+      "sha256": "a0ed6f48ca22d57a60bf4e9c0ac410051af4a22a1956ae995b09edc7ce412c57"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/crux/full/capacity/1089444a01cfc92f/attempt-1788839716820051708/samples.u64.gz",
+      "record": "machines/crux/full/capacity/1089444a01cfc92f/complete.json",
+      "sha256": "648e85f3083edf795ec7b0db2201b2c6b1da34e58226de3f65da862a5b60a152"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/crux/full/capacity/88507a7d2ae5e605/attempt-1788839593502185194/samples.u64.gz",
+      "record": "machines/crux/full/capacity/88507a7d2ae5e605/complete.json",
+      "sha256": "cd2779568038621d4d510e0341abb77d94c0eb3349e1fba4db1fca6c0e8aa589"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/crux/full/capacity/537b9a090d377e7b/attempt-1788841265934609466/samples.u64.gz",
+      "record": "machines/crux/full/capacity/537b9a090d377e7b/complete.json",
+      "sha256": "1f5444e353a5e14d2fa856e01c7808b0442074b6d2f0ec86f9ae53ae149b3184"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/crux/full/capacity/627ef310d2a3463d/attempt-1788840121977218141/samples.u64.gz",
+      "record": "machines/crux/full/capacity/627ef310d2a3463d/complete.json",
+      "sha256": "387d01b26846b2b6b867ad6c99b406b308a2218d77b825a5412448b29d36a538"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/crux/full/capacity/ced5ad1cf10390ae/attempt-1788841055034390087/samples.u64.gz",
+      "record": "machines/crux/full/capacity/ced5ad1cf10390ae/complete.json",
+      "sha256": "a2debe275ca2bae94490f8c3e4b858c4d52db3453224361e8c4af782da8d10b2"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/crux/full/capacity/69579aa3f48854e8/attempt-1788840179502698499/samples.u64.gz",
+      "record": "machines/crux/full/capacity/69579aa3f48854e8/complete.json",
+      "sha256": "e49b3cb6f19a1cbf69ff053a8a3701dc703e17028fba587718ad8f3a99ac788f"
+    }
+  ]
+}

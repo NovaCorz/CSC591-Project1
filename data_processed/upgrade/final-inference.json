@@ -1,0 +1,899 @@
+{
+  "attempts": 161,
+  "capacity": {
+    "curves": [
+      {
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              7143424,
+              7602176
+            ],
+            "qualified": false,
+            "ratio": 1.3490835206640153,
+            "same_cpu": false,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_repeat/11cdfff2e8049044/attempt-1788874385967826063/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_repeat/781490597aa76119/attempt-1788874141666259755/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              7602176,
+              8060928
+            ],
+            "qualified": false,
+            "ratio": 1.394334604415676,
+            "same_cpu": false,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_repeat/781490597aa76119/attempt-1788874141666259755/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_repeat/e41ce15a523964d5/attempt-1788874445516746499/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              8060928,
+              8519680
+            ],
+            "qualified": true,
+            "ratio": 1.515409188058741,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_repeat/e41ce15a523964d5/attempt-1788874445516746499/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_repeat/47740480356b17b5/attempt-1788874479867490007/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              7602176,
+              8060928
+            ],
+            "qualified": true,
+            "ratio": 1.7909732479894962,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_matched/6221d9b99018cbe9/attempt-1788877852273961866/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_matched/423424e7449a6b09/attempt-1788877806195911790/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              7602176,
+              7716864
+            ],
+            "qualified": true,
+            "ratio": 1.1547173647824318,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_matched/7f683fa9c478f165/attempt-1788878083194354699/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_matched/3e6377c099393f05/attempt-1788877896550546859/run.json"
+            ]
+          }
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "sources": [
+          "machines/upgrade/uncertainty-v1/capacity_repeat/11cdfff2e8049044/attempt-1788874385967826063/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/14fb1a50c44b2319/attempt-1788874467008671957/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/2dbe1129121eae09/attempt-1788874008488473487/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/39e426b4f481da8d/attempt-1788874090723884287/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/47740480356b17b5/attempt-1788874479867490007/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/5072fefe2161449c/attempt-1788874400259439954/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/5495000d0e516820/attempt-1788874247175803869/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/5e48ee47c40311e1/attempt-1788874078607904215/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/6a731cea94a6d4d2/attempt-1788874432307050005/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/6ab0124ffc78a4d1/attempt-1788874044893266825/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/781490597aa76119/attempt-1788874141666259755/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/a7be1bbae8076af4/attempt-1788874209674396872/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/b705f89f62709957/attempt-1788874128903643613/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/dc8057f3d46536e4/attempt-1788874373023031860/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/e41ce15a523964d5/attempt-1788874445516746499/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/e5e6013052d3c60f/attempt-1788874197601222560/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/e82cef8cab4946d7/attempt-1788874158761045322/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/bdf7c93b41b89123/attempt-1788877529259935778/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/75760f7f81a1bfba/attempt-1788877542284804759/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/99d6d63aa30b1975/attempt-1788877554435384997/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/a6d45a29626e7072/attempt-1788877567180591358/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/84d7ff7f02670b39/attempt-1788877580243832692/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/431a200064562327/attempt-1788877592671482978/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/423424e7449a6b09/attempt-1788877806195911790/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/6221d9b99018cbe9/attempt-1788877852273961866/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/1d6faf02a84f0b7e/attempt-1788877869330681522/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/3e6377c099393f05/attempt-1788877896550546859/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/9a1fa843622691b1/attempt-1788877922378758073/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/cc9dc677f0d55d8d/attempt-1788878005062004310/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/7f683fa9c478f165/attempt-1788878083194354699/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/84f94a941d087eb8/attempt-1788878445948386683/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/c3c8c518a9c10170/attempt-1788878547307069744/run.json"
+        ]
+      },
+      {
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              5767168,
+              6225920
+            ],
+            "qualified": true,
+            "ratio": 1.1696259916887042,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_repeat/9287992595f38b74/attempt-1788874793128306231/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_repeat/4d1b87c6c4ceeec7/attempt-1788874818021279783/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              6684672,
+              7143424
+            ],
+            "qualified": true,
+            "ratio": 1.2923069558140647,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_repeat/7aaad5562a799a48/attempt-1788874902041999575/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_repeat/123dd820ea8b1d5c/attempt-1788874831389266283/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              7602176,
+              8060928
+            ],
+            "qualified": true,
+            "ratio": 1.6447789772539698,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_repeat/cc997cb76034c582/attempt-1788874657407159467/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_repeat/6b7ba3cfb0785da5/attempt-1788874878577334562/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              8060928,
+              8519680
+            ],
+            "qualified": true,
+            "ratio": 1.3416964393239934,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_repeat/6b7ba3cfb0785da5/attempt-1788874878577334562/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_repeat/704213e5b19eb451/attempt-1788874915113409894/run.json"
+            ]
+          }
+        ],
+        "page": "base",
+        "seed": 5923327,
+        "sources": [
+          "machines/upgrade/uncertainty-v1/capacity_repeat/123dd820ea8b1d5c/attempt-1788874831389266283/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/1e665e759862717a/attempt-1788874525403415768/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/41e669cbdd0d6f8e/attempt-1788874644550575559/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/4d1b87c6c4ceeec7/attempt-1788874818021279783/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/5351cf0c25f9ab17/attempt-1788874598857578832/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/64f444d003b748b0/attempt-1788874632432227204/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/67ac692fa375c804/attempt-1788874805254262626/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/6b7ba3cfb0785da5/attempt-1788874878577334562/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/704213e5b19eb451/attempt-1788874915113409894/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/7aaad5562a799a48/attempt-1788874902041999575/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/8455541b1f3f7517/attempt-1788874562660113382/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/9287992595f38b74/attempt-1788874793128306231/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/b304e69a77d891c1/attempt-1788874674157664762/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/b6ceef83f17acf4a/attempt-1788874713056607299/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/cc997cb76034c582/attempt-1788874657407159467/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/eab0b0a2aa559dbe/attempt-1788874754988237927/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/f1f60ef5567531b0/attempt-1788874846804305346/run.json"
+        ]
+      },
+      {
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              6684672,
+              7143424
+            ],
+            "qualified": true,
+            "ratio": 4.736152307373939,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_repeat/4ee7b83c5e287ce3/attempt-1788873499958146066/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_repeat/5b41a2fb45d6a0be/attempt-1788873309366612001/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              7602176,
+              8060928
+            ],
+            "qualified": true,
+            "ratio": 2.1541509176191993,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_repeat/e92db68414fefe51/attempt-1788873136152120764/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_repeat/a309033ff006187f/attempt-1788873444635579596/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              8060928,
+              8519680
+            ],
+            "qualified": true,
+            "ratio": 1.2587996532989452,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_repeat/a309033ff006187f/attempt-1788873444635579596/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_repeat/17ff4338d6fc1c66/attempt-1788873283028410620/run.json"
+            ]
+          }
+        ],
+        "page": "huge",
+        "seed": 5923227,
+        "sources": [
+          "machines/upgrade/uncertainty-v1/capacity_repeat/07985d2a08e2f150/attempt-1788873046069322463/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/124d06eceef7d0a9/attempt-1788873338685640445/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/13fba9c9008ea5d8/attempt-1788873012033322866/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/17ff4338d6fc1c66/attempt-1788873283028410620/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/3d50682a2a5f2a3b/attempt-1788873382710274988/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/4ee7b83c5e287ce3/attempt-1788873499958146066/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/5b41a2fb45d6a0be/attempt-1788873309366612001/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/6d3653897aa26d44/attempt-1788873197622419331/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/734ee43af88c9e92/attempt-1788873186185338224/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/862dbc59b051c4a3/attempt-1788873150061233551/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/a309033ff006187f/attempt-1788873444635579596/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/b30f52e4d734ce46/attempt-1788873467319588797/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/b86284b12729b1ab/attempt-1788873088244947266/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/bb4cb76070404b1a/attempt-1788873271313944867/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/c4a234ed96fb615e/attempt-1788873232805811534/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/d18daa83806e9677/attempt-1788873076195613300/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/d290679713bb7fea/attempt-1788873416054189899/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/e92db68414fefe51/attempt-1788873136152120764/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/eae1ba1404576075/attempt-1788873124190267336/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/ee33c29aa6729cb0/attempt-1788873370964014334/run.json"
+        ]
+      },
+      {
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              7143424,
+              7602176
+            ],
+            "qualified": true,
+            "ratio": 3.7307530500631048,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_repeat/2a6c25dff7aa1de6/attempt-1788873946309505232/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_repeat/fb3270928a4729f5/attempt-1788873650905181327/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              8060928,
+              8519680
+            ],
+            "qualified": true,
+            "ratio": 4.019356635566077,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_repeat/ba99e5892ded23d8/attempt-1788873890103240937/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_repeat/31bad0000f575dfa/attempt-1788873864253494632/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              8978432,
+              9437184
+            ],
+            "qualified": true,
+            "ratio": 3.8005042377427314,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_repeat/9286ebb7b8957e93/attempt-1788873933505536351/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_repeat/0451f6b42fc852cc/attempt-1788873597422492644/run.json"
+            ]
+          }
+        ],
+        "page": "huge",
+        "seed": 5923327,
+        "sources": [
+          "machines/upgrade/uncertainty-v1/capacity_repeat/0243b451eefaa358/attempt-1788873820386030993/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/0451f6b42fc852cc/attempt-1788873597422492644/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/0e1f52c08d6adb85/attempt-1788873957875047147/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/0e2780ce52ac7851/attempt-1788873711301190589/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/2a6c25dff7aa1de6/attempt-1788873946309505232/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/31bad0000f575dfa/attempt-1788873864253494632/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/3b0b11872bbdc759/attempt-1788873808869505124/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/5215d94571bf1618/attempt-1788873675195404263/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/7a0332f84943dda1/attempt-1788873528656366091/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/9286ebb7b8957e93/attempt-1788873933505536351/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/a704b0daa3559d7c/attempt-1788873563641425530/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/b12b770a073cd8f1/attempt-1788873628108355380/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/ba3c94c6813792b8/attempt-1788873785433134355/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/ba99e5892ded23d8/attempt-1788873890103240937/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/bc73a03473d37ba3/attempt-1788873853128037521/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/da7ef0f9f5fa495d/attempt-1788873639356852383/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/e17663e425321307/attempt-1788873901448675518/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/e68ec61a32963884/attempt-1788873797139449329/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/f27ce592c7e949dd/attempt-1788873749702349918/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/fb3270928a4729f5/attempt-1788873650905181327/run.json"
+        ]
+      }
+    ],
+    "interpretation": "Replicated timing departure intervals, conditional on physical-level assignment; not specification confidence intervals",
+    "matched_cohorts": [
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          1048576,
+          2097152
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/upgrade/uncertainty-v1/capacity_matched/bdf7c93b41b89123/attempt-1788877529259935778/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/75760f7f81a1bfba/attempt-1788877542284804759/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          2097152,
+          3932160
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/upgrade/uncertainty-v1/capacity_matched/99d6d63aa30b1975/attempt-1788877554435384997/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/a6d45a29626e7072/attempt-1788877567180591358/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          5767168,
+          6225920
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/upgrade/uncertainty-v1/capacity_matched/84d7ff7f02670b39/attempt-1788877580243832692/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/431a200064562327/attempt-1788877592671482978/run.json"
+        ]
+      },
+      {
+        "accepted": false,
+        "edges": [],
+        "interval": [
+          7143424,
+          7602176
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": []
+      },
+      {
+        "accepted": true,
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              7602176,
+              8060928
+            ],
+            "qualified": true,
+            "ratio": 1.7909732479894962,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_matched/6221d9b99018cbe9/attempt-1788877852273961866/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_matched/423424e7449a6b09/attempt-1788877806195911790/run.json"
+            ]
+          }
+        ],
+        "interval": [
+          7602176,
+          8060928
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/upgrade/uncertainty-v1/capacity_matched/423424e7449a6b09/attempt-1788877806195911790/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/6221d9b99018cbe9/attempt-1788877852273961866/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              7602176,
+              7716864
+            ],
+            "qualified": true,
+            "ratio": 1.1547173647824318,
+            "same_cpu": true,
+            "sources": [
+              "machines/upgrade/uncertainty-v1/capacity_matched/7f683fa9c478f165/attempt-1788878083194354699/run.json",
+              "machines/upgrade/uncertainty-v1/capacity_matched/3e6377c099393f05/attempt-1788877896550546859/run.json"
+            ]
+          }
+        ],
+        "interval": [
+          7602176,
+          8060928
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-refinement",
+        "sources": [
+          "machines/upgrade/uncertainty-v1/capacity_matched/1d6faf02a84f0b7e/attempt-1788877869330681522/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/3e6377c099393f05/attempt-1788877896550546859/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/9a1fa843622691b1/attempt-1788877922378758073/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/cc9dc677f0d55d8d/attempt-1788878005062004310/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/7f683fa9c478f165/attempt-1788878083194354699/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          8978432,
+          9437184
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/upgrade/uncertainty-v1/capacity_matched/84f94a941d087eb8/attempt-1788878445948386683/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_matched/c3c8c518a9c10170/attempt-1788878547307069744/run.json"
+        ]
+      }
+    ],
+    "prior_interval": [
+      2097152,
+      16777216
+    ],
+    "replicated_intervals": [
+      {
+        "interval": [
+          8060928,
+          8519680
+        ],
+        "sources": [
+          "machines/upgrade/uncertainty-v1/capacity_repeat/17ff4338d6fc1c66/attempt-1788873283028410620/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/31bad0000f575dfa/attempt-1788873864253494632/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/47740480356b17b5/attempt-1788874479867490007/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/6b7ba3cfb0785da5/attempt-1788874878577334562/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/704213e5b19eb451/attempt-1788874915113409894/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/a309033ff006187f/attempt-1788873444635579596/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/ba99e5892ded23d8/attempt-1788873890103240937/run.json",
+          "machines/upgrade/uncertainty-v1/capacity_repeat/e41ce15a523964d5/attempt-1788874445516746499/run.json"
+        ]
+      }
+    ]
+  },
+  "complete": true,
+  "conflict": {
+    "conditional_candidates": [],
+    "conditional_l2_ways": null,
+    "curves": [],
+    "geometry_checks": [],
+    "interpretation": "Effective ring thresholds only. Fixed scrub contributes to the timed average; neither complete candidate L1 eviction nor unique lower-index congruence is independently proven. Geometry compatibility alone does not establish physical ways.",
+    "physical_l2_ways": null,
+    "repeated_thresholds": []
+  },
+  "flagged_attempts": 25,
+  "full_attempts": 157,
+  "host": "upgrade",
+  "issues": [],
+  "missing_stages": [],
+  "noisy_selected": 4,
+  "selected_points": 136,
+  "smoke_attempts": 4,
+  "spatial": {
+    "cohorts": [
+      {
+        "align": 0,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          5.896484375,
+          8.87890625,
+          8.751953125
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/upgrade/uncertainty-v1/spatial_residency/0e0c163db8bf5b6d/attempt-1788874976063121526/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/419e05018003636e/attempt-1788874991793175173/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/f6e839d11c102c67/attempt-1788874983475784336/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          5.83203125,
+          8.759765625,
+          8.7734375
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/upgrade/uncertainty-v1/spatial_residency/c29077b4ec1cbd9c/attempt-1788875017178778841/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/8ae6f1820d4e9ba3/attempt-1788875008655456359/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/6b74c563788d9d02/attempt-1788875000074601325/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          5.841796875,
+          8.7734375,
+          8.712890625
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/upgrade/uncertainty-v1/spatial_residency/ca9507ef06000638/attempt-1788875024456809993/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/a96342765990ba23/attempt-1788875040000473500/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/ec32139318de066e/attempt-1788875031629009006/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          5.86328125,
+          8.73828125,
+          8.84765625
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/upgrade/uncertainty-v1/spatial_residency/73a05ddca85d33d0/attempt-1788875065315017445/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/af2afd8cacaa1fae/attempt-1788875056936144209/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/9e73cb2efb0037d5/attempt-1788875048434594645/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 2097152,
+        "full_huge_backing": true,
+        "medians": [
+          16.08984375,
+          21.099609375,
+          20.92578125
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/upgrade/uncertainty-v1/spatial_residency/9826fbb10342b580/attempt-1788875072825728057/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/bbccbe06dc8e6605/attempt-1788875093869595945/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/23ef9cc0574ca8dd/attempt-1788875083090873585/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 2097152,
+        "full_huge_backing": true,
+        "medians": [
+          15.802734375,
+          21.1640625,
+          20.8984375
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/upgrade/uncertainty-v1/spatial_residency/0982fd124df47be6/attempt-1788875126424912376/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/8fe233ec9f63e6b3/attempt-1788875115547494241/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/d9d392757d5f9f48/attempt-1788875104735847252/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 2097152,
+        "full_huge_backing": true,
+        "medians": [
+          15.783203125,
+          20.89453125,
+          20.966796875
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/upgrade/uncertainty-v1/spatial_residency/804d9b034932293c/attempt-1788875136620885880/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/f2b04f8f89dd4632/attempt-1788875157780722144/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/b0e2456e01dd91a7/attempt-1788875146866114902/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 2097152,
+        "full_huge_backing": true,
+        "medians": [
+          15.751953125,
+          21.2890625,
+          20.970703125
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/upgrade/uncertainty-v1/spatial_residency/4e958e995943ca14/attempt-1788875210951661171/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/309432927747170a/attempt-1788875221052052178/run.json",
+          "machines/upgrade/uncertainty-v1/spatial_residency/72910be59a697ced/attempt-1788875200167074449/run.json"
+        ],
+        "supports": true
+      }
+    ],
+    "limitation": "Visible spatial granularity at these working sets; offsets change active-line count and set coverage as well as spatial reuse. Separate per-level physical line sizes remain unestablished",
+    "status": "reproduced",
+    "supported": 8,
+    "total": 8
+  },
+  "stages": {
+    "capacity": {
+      "failed": 0,
+      "noisy": 1,
+      "passed": 81,
+      "points": 82,
+      "records": [
+        "capacity_repeat/13fba9c9008ea5d8/attempt-1788873012033322866",
+        "capacity_repeat/07985d2a08e2f150/attempt-1788873046069322463",
+        "capacity_repeat/d18daa83806e9677/attempt-1788873076195613300",
+        "capacity_repeat/b86284b12729b1ab/attempt-1788873088244947266",
+        "capacity_repeat/eae1ba1404576075/attempt-1788873124190267336",
+        "capacity_repeat/e92db68414fefe51/attempt-1788873136152120764",
+        "capacity_repeat/862dbc59b051c4a3/attempt-1788873150061233551",
+        "capacity_repeat/734ee43af88c9e92/attempt-1788873186185338224",
+        "capacity_repeat/6d3653897aa26d44/attempt-1788873197622419331",
+        "capacity_repeat/c4a234ed96fb615e/attempt-1788873232805811534",
+        "capacity_repeat/bb4cb76070404b1a/attempt-1788873271313944867",
+        "capacity_repeat/17ff4338d6fc1c66/attempt-1788873283028410620",
+        "capacity_repeat/5b41a2fb45d6a0be/attempt-1788873309366612001",
+        "capacity_repeat/124d06eceef7d0a9/attempt-1788873338685640445",
+        "capacity_repeat/ee33c29aa6729cb0/attempt-1788873370964014334",
+        "capacity_repeat/3d50682a2a5f2a3b/attempt-1788873382710274988",
+        "capacity_repeat/d290679713bb7fea/attempt-1788873416054189899",
+        "capacity_repeat/a309033ff006187f/attempt-1788873444635579596",
+        "capacity_repeat/b30f52e4d734ce46/attempt-1788873467319588797",
+        "capacity_repeat/4ee7b83c5e287ce3/attempt-1788873499958146066",
+        "capacity_regular_repeat/013c980fa96af5af/attempt-1788873511223979965",
+        "capacity_regular_repeat/5ccf473ef9594d6b/attempt-1788873519545797705",
+        "capacity_repeat/7a0332f84943dda1/attempt-1788873528656366091",
+        "capacity_repeat/a704b0daa3559d7c/attempt-1788873563641425530",
+        "capacity_repeat/0451f6b42fc852cc/attempt-1788873597422492644",
+        "capacity_repeat/b12b770a073cd8f1/attempt-1788873628108355380",
+        "capacity_repeat/da7ef0f9f5fa495d/attempt-1788873639356852383",
+        "capacity_repeat/fb3270928a4729f5/attempt-1788873650905181327",
+        "capacity_repeat/5215d94571bf1618/attempt-1788873675195404263",
+        "capacity_repeat/0e2780ce52ac7851/attempt-1788873711301190589",
+        "capacity_repeat/f27ce592c7e949dd/attempt-1788873749702349918",
+        "capacity_repeat/ba3c94c6813792b8/attempt-1788873785433134355",
+        "capacity_repeat/e68ec61a32963884/attempt-1788873797139449329",
+        "capacity_repeat/3b0b11872bbdc759/attempt-1788873808869505124",
+        "capacity_repeat/0243b451eefaa358/attempt-1788873820386030993",
+        "capacity_repeat/bc73a03473d37ba3/attempt-1788873853128037521",
+        "capacity_repeat/31bad0000f575dfa/attempt-1788873864253494632",
+        "capacity_repeat/ba99e5892ded23d8/attempt-1788873890103240937",
+        "capacity_repeat/e17663e425321307/attempt-1788873901448675518",
+        "capacity_repeat/9286ebb7b8957e93/attempt-1788873933505536351",
+        "capacity_repeat/2a6c25dff7aa1de6/attempt-1788873946309505232",
+        "capacity_repeat/0e1f52c08d6adb85/attempt-1788873957875047147",
+        "capacity_regular_repeat/ebf8f663eb430996/attempt-1788873991119424075",
+        "capacity_regular_repeat/9f92afcbaaa048aa/attempt-1788873999412752869",
+        "capacity_repeat/2dbe1129121eae09/attempt-1788874008488473487",
+        "capacity_repeat/6ab0124ffc78a4d1/attempt-1788874044893266825",
+        "capacity_repeat/5e48ee47c40311e1/attempt-1788874078607904215",
+        "capacity_repeat/39e426b4f481da8d/attempt-1788874090723884287",
+        "capacity_repeat/b705f89f62709957/attempt-1788874128903643613",
+        "capacity_repeat/781490597aa76119/attempt-1788874141666259755",
+        "capacity_repeat/e82cef8cab4946d7/attempt-1788874158761045322",
+        "capacity_repeat/e5e6013052d3c60f/attempt-1788874197601222560",
+        "capacity_repeat/a7be1bbae8076af4/attempt-1788874209674396872",
+        "capacity_repeat/5495000d0e516820/attempt-1788874330921322467",
+        "capacity_repeat/dc8057f3d46536e4/attempt-1788874373023031860",
+        "capacity_repeat/11cdfff2e8049044/attempt-1788874385967826063",
+        "capacity_repeat/5072fefe2161449c/attempt-1788874400259439954",
+        "capacity_repeat/6a731cea94a6d4d2/attempt-1788874432307050005",
+        "capacity_repeat/e41ce15a523964d5/attempt-1788874445516746499",
+        "capacity_repeat/14fb1a50c44b2319/attempt-1788874467008671957",
+        "capacity_repeat/47740480356b17b5/attempt-1788874479867490007",
+        "capacity_regular_repeat/6d6275db5e2f531e/attempt-1788874507748566797",
+        "capacity_regular_repeat/30198bf8b81358b2/attempt-1788874516227928832",
+        "capacity_repeat/1e665e759862717a/attempt-1788874525403415768",
+        "capacity_repeat/8455541b1f3f7517/attempt-1788874562660113382",
+        "capacity_repeat/5351cf0c25f9ab17/attempt-1788874598857578832",
+        "capacity_repeat/64f444d003b748b0/attempt-1788874632432227204",
+        "capacity_repeat/41e669cbdd0d6f8e/attempt-1788874644550575559",
+        "capacity_repeat/cc997cb76034c582/attempt-1788874657407159467",
+        "capacity_repeat/b304e69a77d891c1/attempt-1788874674157664762",
+        "capacity_repeat/b6ceef83f17acf4a/attempt-1788874713056607299",
+        "capacity_repeat/eab0b0a2aa559dbe/attempt-1788874754988237927",
+        "capacity_repeat/9287992595f38b74/attempt-1788874793128306231",
+        "capacity_repeat/67ac692fa375c804/attempt-1788874805254262626",
+        "capacity_repeat/4d1b87c6c4ceeec7/attempt-1788874818021279783",
+        "capacity_repeat/123dd820ea8b1d5c/attempt-1788874831389266283",
+        "capacity_repeat/f1f60ef5567531b0/attempt-1788874846804305346",
+        "capacity_repeat/6b7ba3cfb0785da5/attempt-1788874878577334562",
+        "capacity_repeat/7aaad5562a799a48/attempt-1788874902041999575",
+        "capacity_repeat/704213e5b19eb451/attempt-1788874915113409894",
+        "capacity_regular_repeat/dd6a6685fbe6aa18/attempt-1788874943297027981",
+        "capacity_regular_repeat/cf5ed6a0b2e4bffb/attempt-1788874951713643508"
+      ],
+      "stage": "capacity",
+      "time": "2026-09-08T13:42:40.818423+00:00"
+    },
+    "capacity_repair": {
+      "failed": 0,
+      "noisy": 3,
+      "passed": 22,
+      "points": 25,
+      "records": [
+        "capacity_matched/bdf7c93b41b89123/attempt-1788877529259935778",
+        "capacity_matched/75760f7f81a1bfba/attempt-1788877542284804759",
+        "capacity_matched/99d6d63aa30b1975/attempt-1788877554435384997",
+        "capacity_matched/a6d45a29626e7072/attempt-1788877567180591358",
+        "capacity_matched/84d7ff7f02670b39/attempt-1788877580243832692",
+        "capacity_matched/431a200064562327/attempt-1788877592671482978",
+        "capacity_matched/7d02546edbce9f13/attempt-1788877604785953575",
+        "capacity_matched/b13784cddc7f6ebb/attempt-1788877637734310173",
+        "capacity_matched/859d127f0039c30f/attempt-1788877654598857486",
+        "capacity_matched/fc072981933ad84b/attempt-1788877690155147166",
+        "capacity_matched/2cf30d82a311efbf/attempt-1788877746292381017",
+        "capacity_matched/ca9d8b8a783c6436/attempt-1788877770168839148",
+        "capacity_matched/423424e7449a6b09/attempt-1788877806195911790",
+        "capacity_matched/6221d9b99018cbe9/attempt-1788877852273961866",
+        "capacity_matched/1d6faf02a84f0b7e/attempt-1788877869330681522",
+        "capacity_matched/3e6377c099393f05/attempt-1788877896550546859",
+        "capacity_matched/9a1fa843622691b1/attempt-1788877922378758073",
+        "capacity_matched/cc9dc677f0d55d8d/attempt-1788878005062004310",
+        "capacity_matched/7f683fa9c478f165/attempt-1788878083194354699",
+        "capacity_matched/9f0a0872fd298584/attempt-1788878175624663326",
+        "capacity_matched/70a1e199e2d66ad2/attempt-1788878243561439318",
+        "capacity_matched/ee4946b1add87c4d/attempt-1788878345737912395",
+        "capacity_matched/922a91f72f713a8d/attempt-1788878413203814743",
+        "capacity_matched/84f94a941d087eb8/attempt-1788878445948386683",
+        "capacity_matched/c3c8c518a9c10170/attempt-1788878547307069744"
+      ],
+      "stage": "capacity_repair",
+      "time": "2026-09-08T14:43:00.773243+00:00"
+    },
+    "conflict": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 0,
+      "points": 0,
+      "records": [],
+      "stage": "conflict",
+      "time": "2026-09-08T13:09:33.410969+00:00"
+    },
+    "controls": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 2,
+      "points": 2,
+      "records": [
+        "timer/627972eddbffe065/attempt-1788872841389488159",
+        "timer/b247e68cafa7ea7e/attempt-1788872844424667321"
+      ],
+      "stage": "controls",
+      "time": "2026-09-08T13:07:28.704942+00:00"
+    },
+    "smoke": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 4,
+      "points": 4,
+      "records": [
+        "smoke/6f5d112f9653daee/attempt-1788872827972188573",
+        "smoke/2058aeed09d30114/attempt-1788872830144043894",
+        "smoke/9abdebaca3fa3a04/attempt-1788872832321309091",
+        "batched_conflict/660b6a6ba7c349d9/attempt-1788872834495161078"
+      ],
+      "stage": "smoke",
+      "time": "2026-09-08T13:07:16.671459+00:00"
+    },
+    "spatial": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 27,
+      "points": 27,
+      "records": [
+        "spatial_residency/0e0c163db8bf5b6d/attempt-1788874976063121526",
+        "spatial_residency/f6e839d11c102c67/attempt-1788874983475784336",
+        "spatial_residency/419e05018003636e/attempt-1788874991793175173",
+        "spatial_residency/6b74c563788d9d02/attempt-1788875000074601325",
+        "spatial_residency/8ae6f1820d4e9ba3/attempt-1788875008655456359",
+        "spatial_residency/c29077b4ec1cbd9c/attempt-1788875017178778841",
+        "spatial_residency/ca9507ef06000638/attempt-1788875024456809993",
+        "spatial_residency/ec32139318de066e/attempt-1788875031629009006",
+        "spatial_residency/a96342765990ba23/attempt-1788875040000473500",
+        "spatial_residency/9e73cb2efb0037d5/attempt-1788875048434594645",
+        "spatial_residency/af2afd8cacaa1fae/attempt-1788875056936144209",
+        "spatial_residency/73a05ddca85d33d0/attempt-1788875065315017445",
+        "spatial_residency/9826fbb10342b580/attempt-1788875072825728057",
+        "spatial_residency/23ef9cc0574ca8dd/attempt-1788875083090873585",
+        "spatial_residency/bbccbe06dc8e6605/attempt-1788875093869595945",
+        "spatial_residency/d9d392757d5f9f48/attempt-1788875104735847252",
+        "spatial_residency/8fe233ec9f63e6b3/attempt-1788875115547494241",
+        "spatial_residency/0982fd124df47be6/attempt-1788875126424912376",
+        "spatial_residency/804d9b034932293c/attempt-1788875136620885880",
+        "spatial_residency/b0e2456e01dd91a7/attempt-1788875146866114902",
+        "spatial_residency/f2b04f8f89dd4632/attempt-1788875157780722144",
+        "spatial_residency/f98d313de0b34ec6/attempt-1788875168565977623",
+        "spatial_residency/36945f79f0894766/attempt-1788875179340609956",
+        "spatial_residency/0a5fc33d69138aaf/attempt-1788875190115551044",
+        "spatial_residency/72910be59a697ced/attempt-1788875200167074449",
+        "spatial_residency/4e958e995943ca14/attempt-1788875210951661171",
+        "spatial_residency/309432927747170a/attempt-1788875221052052178"
+      ],
+      "stage": "spatial",
+      "time": "2026-09-08T13:47:11.897310+00:00"
+    }
+  },
+  "time": "2026-09-08T20:56:07.631820+00:00",
+  "timer_gate": {
+    "fraction": 0.029235880398671095,
+    "limit": 0.05,
+    "note": "Unsubtracted native timer units; batch amortizes overhead",
+    "passed": true,
+    "sources": [
+      "timer/627972eddbffe065/attempt-1788872841389488159",
+      "timer/b247e68cafa7ea7e/attempt-1788872844424667321"
+    ],
+    "time": "2026-09-08T13:07:28.704813+00:00"
+  },
+  "unsuccessful": []
+}

@@ -1,0 +1,13 @@
+{
+  "comparison_cohort_policy": "machines/upgrade/uncertainty-v1/capacity-matched.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/upgrade/uncertainty-v1/capacity_matched/70a1e199e2d66ad2/attempt-1788878243561439318/run.json",
+    "machines/upgrade/uncertainty-v1/capacity_matched/9f0a0872fd298584/attempt-1788878106862297521/run.json",
+    "machines/upgrade/uncertainty-v1/capacity_matched/922a91f72f713a8d/attempt-1788878413203814743/run.json",
+    "machines/upgrade/uncertainty-v1/capacity_matched/ee4946b1add87c4d/attempt-1788878276783688111/run.json",
+    "machines/upgrade/uncertainty-v1/capacity_matched/c3c8c518a9c10170/attempt-1788878547307069744/run.json",
+    "machines/upgrade/uncertainty-v1/capacity_matched/84f94a941d087eb8/attempt-1788878445948386683/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:25.751086+00:00"
+}

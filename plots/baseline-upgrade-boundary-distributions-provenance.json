@@ -1,0 +1,48 @@
+{
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "selection": "Up to seven successive final-batch random points starting three points before the first exploratory departure; smallest points if no departure is resolved. Noisy points remain visible. Complete box plots cover every verified point separately.",
+  "sources": [
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/upgrade/full/capacity/31448ada748bc89c/attempt-1788839865546613290/samples.u64.gz",
+      "record": "machines/upgrade/full/capacity/31448ada748bc89c/complete.json",
+      "sha256": "fd42f0beb012892195ccef82e9b3981663360f1dd0dd316a18bae62870ea17e6"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/upgrade/full/capacity/1089444a01cfc92f/attempt-1788839825897481066/samples.u64.gz",
+      "record": "machines/upgrade/full/capacity/1089444a01cfc92f/complete.json",
+      "sha256": "e923a1bf59e4e68ef3384c209bc038ad0f51e6b0ee8131d82d97e9d6031586d3"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/upgrade/full/capacity/88507a7d2ae5e605/attempt-1788839607325211137/samples.u64.gz",
+      "record": "machines/upgrade/full/capacity/88507a7d2ae5e605/complete.json",
+      "sha256": "dc182d78f7cb1672637f2c30f0e51e78ad5e3337058fc1e192c949b3ec7d30a2"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/upgrade/full/capacity/537b9a090d377e7b/attempt-1788841427786763558/samples.u64.gz",
+      "record": "machines/upgrade/full/capacity/537b9a090d377e7b/complete.json",
+      "sha256": "ae8a3e3831aad4fcd6eda08ed6586d71be8c899fa5f66f80eaf19becf57bea27"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/upgrade/full/capacity/627ef310d2a3463d/attempt-1788840266289861189/samples.u64.gz",
+      "record": "machines/upgrade/full/capacity/627ef310d2a3463d/complete.json",
+      "sha256": "d137e3242e90089dd510a0513b617d1cf937f11f52e2e66da1a87ba2df041f1d"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/upgrade/full/capacity/ced5ad1cf10390ae/attempt-1788841275853254777/samples.u64.gz",
+      "record": "machines/upgrade/full/capacity/ced5ad1cf10390ae/complete.json",
+      "sha256": "d149be8c0c50795f748a75128b5455220d0ec33b08db9a516ac6ea7c9157f941"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/upgrade/full/capacity/69579aa3f48854e8/attempt-1788840331652096217/samples.u64.gz",
+      "record": "machines/upgrade/full/capacity/69579aa3f48854e8/complete.json",
+      "sha256": "dc2b99085d5ec4fecac02223d0c30d6ccd277c46d4567c566b0d80e4a9d272e8"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "attempts": 34,
+  "capacity": {
+    "curves": [],
+    "interpretation": "Replicated timing departure intervals, conditional on physical-level assignment; not specification confidence intervals",
+    "matched_cohorts": [],
+    "prior_interval": null,
+    "replicated_intervals": []
+  },
+  "complete": true,
+  "conflict": {
+    "conditional_candidates": [],
+    "conditional_l2_ways": null,
+    "curves": [],
+    "geometry_checks": [],
+    "interpretation": "Effective ring thresholds only. Fixed scrub contributes to the timed average; neither complete candidate L1 eviction nor unique lower-index congruence is independently proven. Geometry compatibility alone does not establish physical ways.",
+    "physical_l2_ways": null,
+    "repeated_thresholds": []
+  },
+  "flagged_attempts": 1,
+  "full_attempts": 30,
+  "host": "skylark",
+  "issues": [],
+  "missing_stages": [],
+  "noisy_selected": 0,
+  "selected_points": 29,
+  "smoke_attempts": 4,
+  "spatial": {
+    "cohorts": [
+      {
+        "align": 0,
+        "bytes": 524288,
+        "full_huge_backing": true,
+        "medians": [
+          6.046875,
+          9.046875,
+          9.09375
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/skylark/uncertainty-v1/spatial_residency/a1f3bc7a2f9720fe/attempt-1788872978099476631/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/874a8d76ddd8b0aa/attempt-1788872991363539279/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/4684d64cdd942b8e/attempt-1788872984027196892/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 524288,
+        "full_huge_backing": true,
+        "medians": [
+          6.046875,
+          9.046875,
+          9.09375
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/skylark/uncertainty-v1/spatial_residency/8db2ec806c3cfa03/attempt-1788873031881548520/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/bec50cbbece4cd5e/attempt-1788873037812456922/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/88b89bf7f9039b73/attempt-1788873024692047298/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 524288,
+        "full_huge_backing": true,
+        "medians": [
+          6.09375,
+          9.1875,
+          9.046875
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/skylark/uncertainty-v1/spatial_residency/24900748fee094ce/attempt-1788873044953035645/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/ce1b64e7519857de/attempt-1788873058079083735/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/6beba68da84c94e9/attempt-1788873050955724428/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 524288,
+        "full_huge_backing": true,
+        "medians": [
+          6.09375,
+          9.046875,
+          9.046875
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/skylark/uncertainty-v1/spatial_residency/828b1740e5ae21ad/attempt-1788873079941234385/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/4f99ce728b63fd19/attempt-1788873072818483501/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/7efc350ffade2d64/attempt-1788873065563221564/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 16777216,
+        "full_huge_backing": true,
+        "medians": [
+          19.078125,
+          22.03125,
+          22.03125
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/skylark/uncertainty-v1/spatial_residency/371469b63e2b2ed4/attempt-1788873085876441987/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/7b8cff604ae8bd27/attempt-1788873107478019722/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/3e7c972032c13b1c/attempt-1788873096184048516/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 16777216,
+        "full_huge_backing": true,
+        "medians": [
+          19.03125,
+          22.03125,
+          22.03125
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/skylark/uncertainty-v1/spatial_residency/11602e53d326241e/attempt-1788873141202281083/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/ebf3ee225b349955/attempt-1788873129973599363/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/b3ebf224bf88483a/attempt-1788873118729574914/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 16777216,
+        "full_huge_backing": true,
+        "medians": [
+          19.03125,
+          21.984375,
+          22.03125
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/skylark/uncertainty-v1/spatial_residency/736a0e856754b258/attempt-1788873151509908270/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/b37a0f0d1afc9ff5/attempt-1788873172959037867/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/abe61c33c390d50f/attempt-1788873161736506823/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 16777216,
+        "full_huge_backing": true,
+        "medians": [
+          19.171875,
+          21.984375,
+          22.03125
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/skylark/uncertainty-v1/spatial_residency/c74c975f31d95bea/attempt-1788873206469812031/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/19f016ba486f51c3/attempt-1788873195313352324/run.json",
+          "machines/skylark/uncertainty-v1/spatial_residency/0e1456a0701185bc/attempt-1788873184150063282/run.json"
+        ],
+        "supports": true
+      }
+    ],
+    "limitation": "Visible spatial granularity at these working sets; offsets change active-line count and set coverage as well as spatial reuse. Separate per-level physical line sizes remain unestablished",
+    "status": "reproduced",
+    "supported": 8,
+    "total": 8
+  },
+  "stages": {
+    "capacity": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 0,
+      "points": 0,
+      "records": [],
+      "stage": "capacity",
+      "time": "2026-09-08T13:09:33.978239+00:00"
+    },
+    "conflict": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 0,
+      "points": 0,
+      "records": [],
+      "stage": "conflict",
+      "time": "2026-09-08T13:09:29.346242+00:00"
+    },
+    "controls": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 2,
+      "points": 2,
+      "records": [
+        "timer/627972eddbffe065/attempt-1788872836001647103",
+        "timer/b247e68cafa7ea7e/attempt-1788872838464731235"
+      ],
+      "stage": "controls",
+      "time": "2026-09-08T13:07:21.562503+00:00"
+    },
+    "smoke": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 4,
+      "points": 4,
+      "records": [
+        "smoke/6f5d112f9653daee/attempt-1788872824972230701",
+        "smoke/2058aeed09d30114/attempt-1788872827153901114",
+        "smoke/9abdebaca3fa3a04/attempt-1788872829340830878",
+        "batched_conflict/d9b40efafdf0b382/attempt-1788872831524372268"
+      ],
+      "stage": "smoke",
+      "time": "2026-09-08T13:07:13.706052+00:00"
+    },
+    "spatial": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 27,
+      "points": 27,
+      "records": [
+        "spatial_residency/a1f3bc7a2f9720fe/attempt-1788872978099476631",
+        "spatial_residency/4684d64cdd942b8e/attempt-1788872984027196892",
+        "spatial_residency/874a8d76ddd8b0aa/attempt-1788872991363539279",
+        "spatial_residency/ccaab4dffb103177/attempt-1788872998561441294",
+        "spatial_residency/e6eeecc06ed929fd/attempt-1788873005753816692",
+        "spatial_residency/361a93ad175e470c/attempt-1788873018720663647",
+        "spatial_residency/88b89bf7f9039b73/attempt-1788873024692047298",
+        "spatial_residency/8db2ec806c3cfa03/attempt-1788873031881548520",
+        "spatial_residency/bec50cbbece4cd5e/attempt-1788873037812456922",
+        "spatial_residency/24900748fee094ce/attempt-1788873044953035645",
+        "spatial_residency/6beba68da84c94e9/attempt-1788873050955724428",
+        "spatial_residency/ce1b64e7519857de/attempt-1788873058079083735",
+        "spatial_residency/7efc350ffade2d64/attempt-1788873065563221564",
+        "spatial_residency/4f99ce728b63fd19/attempt-1788873072818483501",
+        "spatial_residency/828b1740e5ae21ad/attempt-1788873079941234385",
+        "spatial_residency/371469b63e2b2ed4/attempt-1788873085876441987",
+        "spatial_residency/3e7c972032c13b1c/attempt-1788873096184048516",
+        "spatial_residency/7b8cff604ae8bd27/attempt-1788873107478019722",
+        "spatial_residency/b3ebf224bf88483a/attempt-1788873118729574914",
+        "spatial_residency/ebf3ee225b349955/attempt-1788873129973599363",
+        "spatial_residency/11602e53d326241e/attempt-1788873141202281083",
+        "spatial_residency/736a0e856754b258/attempt-1788873151509908270",
+        "spatial_residency/abe61c33c390d50f/attempt-1788873161736506823",
+        "spatial_residency/b37a0f0d1afc9ff5/attempt-1788873172959037867",
+        "spatial_residency/0e1456a0701185bc/attempt-1788873184150063282",
+        "spatial_residency/19f016ba486f51c3/attempt-1788873195313352324",
+        "spatial_residency/c74c975f31d95bea/attempt-1788873206469812031"
+      ],
+      "stage": "spatial",
+      "time": "2026-09-08T13:13:36.705973+00:00"
+    }
+  },
+  "time": "2026-09-08T20:51:12.356155+00:00",
+  "timer_gate": {
+    "fraction": 0.046153846153846156,
+    "limit": 0.05,
+    "note": "Unsubtracted native timer units; batch amortizes overhead",
+    "passed": true,
+    "sources": [
+      "timer/627972eddbffe065/attempt-1788872836001647103",
+      "timer/b247e68cafa7ea7e/attempt-1788872838464731235"
+    ],
+    "time": "2026-09-08T13:07:21.562270+00:00"
+  },
+  "unsuccessful": []
+}

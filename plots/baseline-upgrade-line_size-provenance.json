@@ -1,0 +1,238 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/upgrade/full/line_size/05cf71a463289f3e/attempt-1788841996395048985/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/05cf71a463289f3e/complete.json",
+      "sha256": "07edfd2ca5c5bf1f231281b2b97e6f2002ee6e48b39a12908c098c3180346ec9"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/115482a0bef9d763/attempt-1788841943578490113/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/115482a0bef9d763/attempt-1788841943578490113/run.json",
+      "sha256": "ffbf097612d3f961c4c0864eb2cf687c6aab1773a092bcb015b8f550589c1c36"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/144623303e595639/attempt-1788841801423784667/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/144623303e595639/complete.json",
+      "sha256": "1463bdf79e3b13d2ade5f2736cfcee8a4847981cc3a727c2a853b20f27fee222"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/14e247bfe6819907/attempt-1788842111894436113/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/14e247bfe6819907/complete.json",
+      "sha256": "129aceb7c77b8cb44552371e7ad0582cf13640d86dceae0ec3191d06a39a305e"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/16add745949c27be/attempt-1788842155890634963/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/16add745949c27be/complete.json",
+      "sha256": "0d5bd4d98330db1fcc6dc28081483b0c2ceb9ca482ca1d423c8292284a8b3dbf"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/1df724272b22a12e/attempt-1788842200924555489/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/1df724272b22a12e/complete.json",
+      "sha256": "c276d0659272adb91d44a4bd2165bdae6e344df8fdae0c0fec32ae55f5b7e80d"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/1e2cf53d98adc37b/attempt-1788841974176631481/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/1e2cf53d98adc37b/complete.json",
+      "sha256": "1be46ce85c0c211eb5fbb1054798a927f85c416bc46e4cce8f20ff7a8091ce05"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/268d244815b7c11f/attempt-1788842031753188430/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/268d244815b7c11f/complete.json",
+      "sha256": "831c5d23fe2c9dc9abb7e0ddbf88f9c1bbda2c1fb456cd9b11701d01a30c926c"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/29659a1e31f4c9df/attempt-1788842132904617143/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/29659a1e31f4c9df/complete.json",
+      "sha256": "515999e31bf379e367ab4cfae5634a9811968ed1475fbf422c9b1ab350707247"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/2c4b06fc3ead2397/attempt-1788842099255551148/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/2c4b06fc3ead2397/complete.json",
+      "sha256": "f5b80001835ede81d7608b8b91cc759505af71d01bf61a21fef5fa1aee19243d"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/2cd6a1b1675ee4fb/attempt-1788842019013096057/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/2cd6a1b1675ee4fb/complete.json",
+      "sha256": "1feed8fd3e0c3555037ee259f4483634a7993f53f9c5b28f4345f049219983eb"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/2d38bd82571d1be9/attempt-1788841822917740077/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/2d38bd82571d1be9/complete.json",
+      "sha256": "0a5ba4cbb7ff73a88083346428a0fc534443cb969e7e6986a95126c080fba407"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/44e36cada10712d7/attempt-1788842043173322168/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/44e36cada10712d7/complete.json",
+      "sha256": "756f1804c729b3c972c1c2a7e5019c609fe9984bc456f33581c629ce32be731b"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/45ce4c3ea341b701/attempt-1788842245444982325/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/45ce4c3ea341b701/complete.json",
+      "sha256": "d506354d43b2756e67c07ce60fc77bf9cec86ef908f735456b18182257f318da"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/4a87c8868fa9e173/attempt-1788841712567016989/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/4a87c8868fa9e173/complete.json",
+      "sha256": "0b7b73cdc71551ad17905ba1f3288b344ad271b451dfeadc3db4d50761584fd5"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/5b54f0c1a745509b/attempt-1788841725007992074/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/5b54f0c1a745509b/complete.json",
+      "sha256": "6635d458d0a35aa17b447b20e57b09199f0f7288a6ccff2f08932e02b2544c78"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/5c39c44369d3553d/attempt-1788841985105656013/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/5c39c44369d3553d/complete.json",
+      "sha256": "4f39e317befa36b426ffcde3c4df18bdfbbeb5bbce35f6e883b982902a68cd84"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/648671f994aee7ea/attempt-1788841790892017009/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/648671f994aee7ea/complete.json",
+      "sha256": "b8b09a5610180a64127103e55060ba389ddab5dfc44537773cdb7e53fc7a67b9"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/6d8785be3ad13ce3/attempt-1788842222962461186/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/6d8785be3ad13ce3/complete.json",
+      "sha256": "97aeb3b9356b85d0f99ab3341f8fb6cd9bcce90874a4e4e623310c1a77c14fec"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/6e3f82933d38ed21/attempt-1788841778797669798/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/6e3f82933d38ed21/complete.json",
+      "sha256": "f85694106b971620f9e73c58903c2234170df86a6118564b096ea41028796fd4"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/7043913155835203/attempt-1788841933284674752/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/7043913155835203/complete.json",
+      "sha256": "4b8be70c56878b8c17c79c847cfb1053152056c4abdd6e6eca2dee1c54b7a866"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/7458b624e5634816/attempt-1788842121993495217/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/7458b624e5634816/complete.json",
+      "sha256": "8b8213d536092cff057c508ba17dbd486a1c9e524776febc2843927b5e75c260"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/76f47f0e8335ad3f/attempt-1788841922009673991/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/76f47f0e8335ad3f/complete.json",
+      "sha256": "90bde87c82f3b321d21bff5c02747be4ecc6329c809552ff47423eefdd6e901f"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/7971adab8478bf9b/attempt-1788842144288800152/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/7971adab8478bf9b/complete.json",
+      "sha256": "492710a2b48d36fe5880620e792b14c96620b99de8de3a295a0ef2277e00d6c2"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/837af521ebd960ce/attempt-1788842179614551510/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/837af521ebd960ce/complete.json",
+      "sha256": "c8a046b1b3ec187779b9f8b36d3d5e6fd64621cae2e7123eaba7a5a325b620c9"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/88617ed9d0471110/attempt-1788841756330070519/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/88617ed9d0471110/complete.json",
+      "sha256": "1a2e354bb704a64957e27e8c949ba660c8d4d0cdbe1d0b86856b3cd6aa175354"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/8f0527e319067b78/attempt-1788841832961289490/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/8f0527e319067b78/complete.json",
+      "sha256": "0ab9efc2be3e5bc4a3d79827a6b37ecb82bf91a2dc8c4e329d5684cd4cc9a31c"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/8f75f2b82d46b148/attempt-1788842089167606241/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/8f75f2b82d46b148/complete.json",
+      "sha256": "b8cc2ed226f67d9f98d559c8f93576f26f797e6409f5b22a993d56308398069e"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/92a56a26287dc3bf/attempt-1788841855862202822/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/92a56a26287dc3bf/complete.json",
+      "sha256": "c5fb60b1e893a04ab7260c280b5536c0bb8da466fa1d4fdfb4979b8e89107766"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/99c01371555529d7/attempt-1788842210994145610/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/99c01371555529d7/complete.json",
+      "sha256": "ccfa50ea3427df26ed1e6858f2316f26cbeb1797b1000eade2ec5ffb7aa44619"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/a095ca58c529bc38/attempt-1788842255708607422/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/a095ca58c529bc38/complete.json",
+      "sha256": "0c6a220c32a6ecc53b22f801d7156d2fdc69a5b98accbe378ba6ffcfd9333f15"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/afb0c64360609af1/attempt-1788842007823423674/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/afb0c64360609af1/complete.json",
+      "sha256": "cef7c64aaec7004ed13bd02045b54df0979f8870d5abcd6e772550d5796cb89c"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/b1b2ea356a3d62c5/attempt-1788841734954606981/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/b1b2ea356a3d62c5/complete.json",
+      "sha256": "695adc9091eb16945d8786a99de243a16a5a30a8b801df517fa52cc01d4de2cf"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/bc5b31ab8ae038eb/attempt-1788842067156720262/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/bc5b31ab8ae038eb/complete.json",
+      "sha256": "dbe712564d938b63ba33459f2c218bbdd48cca67a0639c6ef413605832e82d22"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/c36f5dd659680d6d/attempt-1788841767579528578/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/c36f5dd659680d6d/complete.json",
+      "sha256": "baddbb40126555474af01873ef474fe1e94bdaff2c7acc7481081986cc7bf780"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/c54745e018af9255/attempt-1788841911111634121/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/c54745e018af9255/complete.json",
+      "sha256": "a2a6e6449d0c8722ebb58cd75defce9a8743e0f15482e21117678adf179abc99"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/c5da2a7f7a5db601/attempt-1788841889783373119/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/c5da2a7f7a5db601/complete.json",
+      "sha256": "b9408fba5f78cd525443302ac08144d250ec6e277d22f64576c06340ffc44597"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/ce7a2e8934362b54/attempt-1788842055634742999/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/ce7a2e8934362b54/complete.json",
+      "sha256": "7c369c862d54bb87f8367512da36c9bc06a6dd9873a25a9d9e6ce955ac96949d"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/ceeb698227edb168/attempt-1788841879169576411/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/ceeb698227edb168/complete.json",
+      "sha256": "6f22949a5e239936e19c258317a819d5317e904b744cf766fb4a486e4a319c25"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/d4f6690422559771/attempt-1788842079557595448/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/d4f6690422559771/complete.json",
+      "sha256": "33d00f2aa51c1cfef30f0b0b955c2a7908ba77033120e708d9dbe8e5e6a64959"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/dc120252afc3a610/attempt-1788842190012145249/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/dc120252afc3a610/complete.json",
+      "sha256": "e4275c5b564883811a521a1e4166cc02672141c18199113eb0a9e1dd71b06116"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/e714513d9170273c/attempt-1788841866988228518/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/e714513d9170273c/complete.json",
+      "sha256": "5fa0156d1c72517b09c5705da7e6bd26aa48e1f8e55a609b25fdd521b28e9ae1"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/ed0ccf1eba241cd9/attempt-1788842234646146190/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/ed0ccf1eba241cd9/complete.json",
+      "sha256": "38c009cfe07303339fa655332c6bd4e0181e708e5e7c6217cbc41c231597fa57"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/f36e1a03becdacc4/attempt-1788841899845624704/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/f36e1a03becdacc4/complete.json",
+      "sha256": "ea18350278d0dba98f4515969fe1a71333c829c542912d7f5e1b4ae3c7d72367"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/fc2418cb248a19e1/attempt-1788842166876958824/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/fc2418cb248a19e1/complete.json",
+      "sha256": "a6337c5ea1cf455271f7059001a8b6dce37d0f09b9de9dd805475b83ae3abd90"
+    },
+    {
+      "raw": "machines/upgrade/full/line_size/ffaf4aa981532c60/attempt-1788841843463424490/samples.u64.gz",
+      "record": "machines/upgrade/full/line_size/ffaf4aa981532c60/complete.json",
+      "sha256": "1a7e24e1472c644367f2d7ed8dcd35815dee582cab76f7c835181ccec9f0e117"
+    }
+  ]
+}

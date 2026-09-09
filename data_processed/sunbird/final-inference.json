@@ -1,0 +1,857 @@
+{
+  "attempts": 145,
+  "capacity": {
+    "curves": [
+      {
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              13893632,
+              14680064
+            ],
+            "qualified": false,
+            "ratio": 1.8641722193746797,
+            "same_cpu": false,
+            "sources": [
+              "machines/sunbird/uncertainty-v1/capacity_repeat/8c19b87a0f281222/attempt-1788875044878488329/run.json",
+              "machines/sunbird/uncertainty-v1/capacity_repeat/3313c2d8c8353799/attempt-1788874621586630780/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              15466496,
+              16252928
+            ],
+            "qualified": false,
+            "ratio": 2.1207157258064515,
+            "same_cpu": false,
+            "sources": [
+              "machines/sunbird/uncertainty-v1/capacity_repeat/902f45bccca63367/attempt-1788875167569662137/run.json",
+              "machines/sunbird/uncertainty-v1/capacity_repeat/1e0aa907054a6395/attempt-1788874980259950446/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              17039360,
+              17825792
+            ],
+            "qualified": false,
+            "ratio": 2.3904263275991027,
+            "same_cpu": false,
+            "sources": [
+              "machines/sunbird/uncertainty-v1/capacity_repeat/e5683791d177cb64/attempt-1788875142866314993/run.json",
+              "machines/sunbird/uncertainty-v1/capacity_repeat/622c752c41bfbed0/attempt-1788874730651522212/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              20185088,
+              20971520
+            ],
+            "qualified": false,
+            "ratio": 2.369410035691791,
+            "same_cpu": false,
+            "sources": [
+              "machines/sunbird/uncertainty-v1/capacity_repeat/a6380b3bdf81b115/attempt-1788875116982469625/run.json",
+              "machines/sunbird/uncertainty-v1/capacity_repeat/2e213bdf8ce5e837/attempt-1788874576274947032/run.json"
+            ]
+          }
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_repeat/1e0aa907054a6395/attempt-1788874980259950446/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/2e213bdf8ce5e837/attempt-1788874576274947032/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/3313c2d8c8353799/attempt-1788874621586630780/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/3b8ef2f3e0f32ba7/attempt-1788874707623292651/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/5495000d0e516820/attempt-1788874770811905545/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/575637884b46f8b6/attempt-1788874957555880629/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/60cdc6168f687298/attempt-1788874847158861492/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/622c752c41bfbed0/attempt-1788874730651522212/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/638bb0e8a6bf97fd/attempt-1788874526442358717/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/6a858aef7f198bfd/attempt-1788875191721351454/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/70864dc1ca35359a/attempt-1788875215398553421/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/8c19b87a0f281222/attempt-1788875044878488329/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/8fffb5f8555bc1b1/attempt-1788874825852959216/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/902f45bccca63367/attempt-1788875167569662137/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/90fddff997d2112d/attempt-1788874653721968204/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/a6380b3bdf81b115/attempt-1788875116982469625/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/d8441f1762a944e2/attempt-1788875092757282281/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/da174e0ecbfd4271/attempt-1788875069144713653/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/e5683791d177cb64/attempt-1788875142866314993/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/e85007ca3cb81c2a/attempt-1788874899798892350/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/98ff1bda9d3eabe6/attempt-1788877529307148558/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/d0084e8974653182/attempt-1788877553414615745/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/8a92e230a686dbcb/attempt-1788877577978390279/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/ab2ddad7cdb602a1/attempt-1788877601919735151/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/45b325d71fb807f1/attempt-1788877626086011074/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/fd6ed802e7124f44/attempt-1788877649273596553/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/0c3c06a318106153/attempt-1788877673128977992/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/325a0a66b41eea9f/attempt-1788877695983028915/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/6ac5689165fffa19/attempt-1788877745714524406/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/efd269720f7aed06/attempt-1788877770944067818/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/7fd0ee47a46552a6/attempt-1788877796131669847/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/c7fa885cfe74a289/attempt-1788877820255574147/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/77965ac647f8c0d7/attempt-1788877845767914484/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/8fb40cfd25f7dfd2/attempt-1788877870736178479/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/c09bc55f52fc62b6/attempt-1788878051474435911/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/a2ba960801b89b17/attempt-1788878075257480674/run.json"
+        ]
+      },
+      {
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              20971520,
+              24117248
+            ],
+            "qualified": false,
+            "ratio": 3.215667878503577,
+            "same_cpu": false,
+            "sources": [
+              "machines/sunbird/uncertainty-v1/capacity_repeat/f481398df4370ed2/attempt-1788875408590032671/run.json",
+              "machines/sunbird/uncertainty-v1/capacity_repeat/2388cfaf7972a536/attempt-1788875323410844257/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              27262976,
+              30408704
+            ],
+            "qualified": true,
+            "ratio": 1.4035942405542925,
+            "same_cpu": true,
+            "sources": [
+              "machines/sunbird/uncertainty-v1/capacity_matched/72cb6cb71be27fd7/attempt-1788878180160778512/run.json",
+              "machines/sunbird/uncertainty-v1/capacity_matched/5f822c6441325fe1/attempt-1788878149377987894/run.json"
+            ]
+          }
+        ],
+        "page": "base",
+        "seed": 5923327,
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_repeat/2388cfaf7972a536/attempt-1788875323410844257/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/469684888e0b9ab7/attempt-1788875432727821865/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/960e51fb6bc44d64/attempt-1788875477685564695/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/9c7702bb0018d268/attempt-1788875614439407852/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/abb0e8e6a54c320c/attempt-1788875267245129715/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/b6ceef83f17acf4a/attempt-1788875500877189564/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/c177fd2a028f59ec/attempt-1788875454497254206/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/dd5aa0c4b0a0ce31/attempt-1788875670547295567/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/e4538ad69eda7cc6/attempt-1788875695072051147/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/f10f366661a89eb1/attempt-1788875557002116283/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/f481398df4370ed2/attempt-1788875408590032671/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/6f1ff135365c98cb/attempt-1788878100510969971/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/c0c46bb6291ae64b/attempt-1788878124321263149/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/5f822c6441325fe1/attempt-1788878149377987894/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/72cb6cb71be27fd7/attempt-1788878180160778512/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/346eafaf05623124/attempt-1788878204074646550/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/2bef576559f7b950/attempt-1788878230135737150/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/f6e81aaca3e41e8a/attempt-1788878255187134666/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/4ef5eaceeb20b4de/attempt-1788878280810441895/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/1e490d66588de9df/attempt-1788878309034879446/run.json"
+        ]
+      },
+      {
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              16252928,
+              17039360
+            ],
+            "qualified": true,
+            "ratio": 2.3859060402684564,
+            "same_cpu": true,
+            "sources": [
+              "machines/sunbird/uncertainty-v1/capacity_repeat/7ffbcd3e5d2ddcc0/attempt-1788873694629521008/run.json",
+              "machines/sunbird/uncertainty-v1/capacity_repeat/3a48e59638a86af7/attempt-1788873428237768637/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              17039360,
+              17825792
+            ],
+            "qualified": true,
+            "ratio": 1.170182841068917,
+            "same_cpu": true,
+            "sources": [
+              "machines/sunbird/uncertainty-v1/capacity_repeat/3a48e59638a86af7/attempt-1788873428237768637/run.json",
+              "machines/sunbird/uncertainty-v1/capacity_repeat/5b89904dcb2676f5/attempt-1788873161319870648/run.json"
+            ]
+          }
+        ],
+        "page": "huge",
+        "seed": 5923227,
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_repeat/12b91f42abce3811/attempt-1788873526487965698/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/34076e8f3bd4e4cb/attempt-1788873316685921022/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/3a48e59638a86af7/attempt-1788873428237768637/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/3d9439ad63f69f7e/attempt-1788873504540268595/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/3f5fcef511e5a2f2/attempt-1788873612810831939/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/470d3ec0fa83b0ae/attempt-1788873267218030005/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/52fad34bd0eb46a0/attempt-1788873139442364302/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/56776762dff6016a/attempt-1788872978270317441/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/5b89904dcb2676f5/attempt-1788873161319870648/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/5c71b142b4b01c06/attempt-1788873389187120162/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/5d95eaf049f7924e/attempt-1788873460531321900/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/5e74f0ecd88a2364/attempt-1788873067257687859/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/7ffbcd3e5d2ddcc0/attempt-1788873694629521008/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/8406986ce2368b14/attempt-1788873246382108610/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/89aea669d64671a4/attempt-1788873088750568349/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/98dda2309165acce/attempt-1788873649944971505/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/b6329e1f96640b16/attempt-1788873572726692103/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/b806f2366fba8274/attempt-1788873367940152600/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/c4a234ed96fb615e/attempt-1788873195785255240/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/eacfa12153bb12ed/attempt-1788873024875721390/run.json"
+        ]
+      },
+      {
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              16252928,
+              17039360
+            ],
+            "qualified": true,
+            "ratio": 2.311669913228263,
+            "same_cpu": true,
+            "sources": [
+              "machines/sunbird/uncertainty-v1/capacity_repeat/7659d01209e8957d/attempt-1788874216756208891/run.json",
+              "machines/sunbird/uncertainty-v1/capacity_repeat/d88fd89d95b09a81/attempt-1788874393864399637/run.json"
+            ]
+          },
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              17039360,
+              17825792
+            ],
+            "qualified": true,
+            "ratio": 1.1797150298759,
+            "same_cpu": true,
+            "sources": [
+              "machines/sunbird/uncertainty-v1/capacity_repeat/d88fd89d95b09a81/attempt-1788874393864399637/run.json",
+              "machines/sunbird/uncertainty-v1/capacity_repeat/97bf51b4db100b74/attempt-1788873924978373618/run.json"
+            ]
+          }
+        ],
+        "page": "huge",
+        "seed": 5923327,
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_repeat/0e2780ce52ac7851/attempt-1788873957997177299/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/143cdb021c1cbe75/attempt-1788873794694808381/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/166e63d2b2eafcd3/attempt-1788873841207272399/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/18c997c92e6c9b11/attempt-1788874424391264077/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/26fc41b73531cbc4/attempt-1788874059279451814/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/2a396ed7c331ef37/attempt-1788874109216489026/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/3ba73869d621f076/attempt-1788873903748924351/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/45fecd665374a058/attempt-1788874276388981629/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/65024cea88595b64/attempt-1788874008401229993/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/6bb33a30183e2d91/attempt-1788874354121327284/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/7659d01209e8957d/attempt-1788874216756208891/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/97bf51b4db100b74/attempt-1788873924978373618/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/a389403fb6d38423/attempt-1788874238482235049/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/a4f4e6c13d0ac6ab/attempt-1788873882875093362/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/b378340c2f4ffb24/attempt-1788874151861878924/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/bc5735cae7679f2f/attempt-1788874130642729309/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/d88fd89d95b09a81/attempt-1788874393864399637/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/e55d958bc5c4109d/attempt-1788874311559379560/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/f2ba9f2bc4049364/attempt-1788874172485435884/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_repeat/ff25faf54702a26c/attempt-1788873745389433830/run.json"
+        ]
+      }
+    ],
+    "interpretation": "Replicated timing departure intervals, conditional on physical-level assignment; not specification confidence intervals",
+    "matched_cohorts": [
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          11534336,
+          12320768
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_matched/98ff1bda9d3eabe6/attempt-1788877529307148558/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/d0084e8974653182/attempt-1788877553414615745/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          13893632,
+          14680064
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_matched/8a92e230a686dbcb/attempt-1788877577978390279/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/ab2ddad7cdb602a1/attempt-1788877601919735151/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          14680064,
+          15466496
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_matched/45b325d71fb807f1/attempt-1788877626086011074/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/fd6ed802e7124f44/attempt-1788877649273596553/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          15466496,
+          16252928
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_matched/0c3c06a318106153/attempt-1788877673128977992/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/325a0a66b41eea9f/attempt-1788877695983028915/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          16252928,
+          17039360
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_matched/6ac5689165fffa19/attempt-1788877745714524406/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/efd269720f7aed06/attempt-1788877770944067818/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          17039360,
+          17825792
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_matched/7fd0ee47a46552a6/attempt-1788877796131669847/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/c7fa885cfe74a289/attempt-1788877820255574147/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          17825792,
+          18612224
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_matched/77965ac647f8c0d7/attempt-1788877845767914484/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/8fb40cfd25f7dfd2/attempt-1788877870736178479/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          20185088,
+          20971520
+        ],
+        "page": "base",
+        "seed": 5923227,
+        "series": "matched-pair",
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_matched/c09bc55f52fc62b6/attempt-1788878051474435911/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/a2ba960801b89b17/attempt-1788878075257480674/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          20971520,
+          24117248
+        ],
+        "page": "base",
+        "seed": 5923327,
+        "series": "matched-pair",
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_matched/6f1ff135365c98cb/attempt-1788878100510969971/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/c0c46bb6291ae64b/attempt-1788878124321263149/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [
+          {
+            "backing_verified": true,
+            "clean": true,
+            "interval": [
+              27262976,
+              30408704
+            ],
+            "qualified": true,
+            "ratio": 1.4035942405542925,
+            "same_cpu": true,
+            "sources": [
+              "machines/sunbird/uncertainty-v1/capacity_matched/72cb6cb71be27fd7/attempt-1788878180160778512/run.json",
+              "machines/sunbird/uncertainty-v1/capacity_matched/5f822c6441325fe1/attempt-1788878149377987894/run.json"
+            ]
+          }
+        ],
+        "interval": [
+          27262976,
+          30408704
+        ],
+        "page": "base",
+        "seed": 5923327,
+        "series": "matched-pair",
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_matched/5f822c6441325fe1/attempt-1788878149377987894/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/72cb6cb71be27fd7/attempt-1788878180160778512/run.json"
+        ]
+      },
+      {
+        "accepted": true,
+        "edges": [],
+        "interval": [
+          27262976,
+          30408704
+        ],
+        "page": "base",
+        "seed": 5923327,
+        "series": "matched-refinement",
+        "sources": [
+          "machines/sunbird/uncertainty-v1/capacity_matched/346eafaf05623124/attempt-1788878204074646550/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/2bef576559f7b950/attempt-1788878230135737150/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/f6e81aaca3e41e8a/attempt-1788878255187134666/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/4ef5eaceeb20b4de/attempt-1788878280810441895/run.json",
+          "machines/sunbird/uncertainty-v1/capacity_matched/1e490d66588de9df/attempt-1788878309034879446/run.json"
+        ]
+      }
+    ],
+    "prior_interval": [
+      8388608,
+      33554432
+    ],
+    "replicated_intervals": []
+  },
+  "complete": true,
+  "conflict": {
+    "conditional_candidates": [],
+    "conditional_l2_ways": null,
+    "curves": [],
+    "geometry_checks": [],
+    "interpretation": "Effective ring thresholds only. Fixed scrub contributes to the timed average; neither complete candidate L1 eviction nor unique lower-index congruence is independently proven. Geometry compatibility alone does not establish physical ways.",
+    "physical_l2_ways": null,
+    "repeated_thresholds": []
+  },
+  "flagged_attempts": 9,
+  "full_attempts": 141,
+  "host": "sunbird",
+  "issues": [],
+  "missing_stages": [],
+  "noisy_selected": 0,
+  "selected_points": 132,
+  "smoke_attempts": 4,
+  "spatial": {
+    "cohorts": [
+      {
+        "align": 0,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          8.796875,
+          13.2734375,
+          13.484375
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/sunbird/uncertainty-v1/spatial_residency/0e0c163db8bf5b6d/attempt-1788875765185532915/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/419e05018003636e/attempt-1788875788433551761/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/f6e839d11c102c67/attempt-1788875775027965054/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          8.703125,
+          13.0,
+          13.2265625
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/sunbird/uncertainty-v1/spatial_residency/c29077b4ec1cbd9c/attempt-1788875829036996084/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/8ae6f1820d4e9ba3/attempt-1788875815095164961/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/6b74c563788d9d02/attempt-1788875801471649448/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          8.828125,
+          13.0,
+          13.1640625
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/sunbird/uncertainty-v1/spatial_residency/ca9507ef06000638/attempt-1788875838837884678/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/a96342765990ba23/attempt-1788875861723656950/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/ec32139318de066e/attempt-1788875848668585707/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 262144,
+        "full_huge_backing": true,
+        "medians": [
+          8.78125,
+          13.3046875,
+          12.8984375
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/sunbird/uncertainty-v1/spatial_residency/73a05ddca85d33d0/attempt-1788875902408248550/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/af2afd8cacaa1fae/attempt-1788875888189978159/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/9e73cb2efb0037d5/attempt-1788875874902410542/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 8388608,
+        "full_huge_backing": true,
+        "medians": [
+          23.5859375,
+          41.8046875,
+          41.8671875
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/sunbird/uncertainty-v1/spatial_residency/92153d854609ac8a/attempt-1788875913388475887/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/98d9164bdacd6c39/attempt-1788875949076462492/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/de50c29fe60eab41/attempt-1788875929226189141/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 0,
+        "bytes": 8388608,
+        "full_huge_backing": true,
+        "medians": [
+          23.625,
+          41.8515625,
+          41.8671875
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/sunbird/uncertainty-v1/spatial_residency/96d918bf2c2460e3/attempt-1788876011732014146/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/34700b9e65d43e6a/attempt-1788875990584358747/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/0553d81ce98b1e0c/attempt-1788875969811811697/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 8388608,
+        "full_huge_backing": true,
+        "medians": [
+          23.59375,
+          41.796875,
+          41.8828125
+        ],
+        "same_cpu": true,
+        "seed": 5923427,
+        "sources": [
+          "machines/sunbird/uncertainty-v1/spatial_residency/3bd30986496745ff/attempt-1788876029423837094/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/78e9ad5b9e540c47/attempt-1788876066715650811/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/0e0627628f4384b3/attempt-1788876046038454125/run.json"
+        ],
+        "supports": true
+      },
+      {
+        "align": 24,
+        "bytes": 8388608,
+        "full_huge_backing": true,
+        "medians": [
+          23.59375,
+          41.828125,
+          41.84375
+        ],
+        "same_cpu": true,
+        "seed": 5923527,
+        "sources": [
+          "machines/sunbird/uncertainty-v1/spatial_residency/eeae54556926fadd/attempt-1788876125932017598/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/0234b8998d854172/attempt-1788876106009615250/run.json",
+          "machines/sunbird/uncertainty-v1/spatial_residency/79a33c8a2e19aaff/attempt-1788876086045501938/run.json"
+        ],
+        "supports": true
+      }
+    ],
+    "limitation": "Visible spatial granularity at these working sets; offsets change active-line count and set coverage as well as spatial reuse. Separate per-level physical line sizes remain unestablished",
+    "status": "reproduced",
+    "supported": 8,
+    "total": 8
+  },
+  "stages": {
+    "capacity": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 79,
+      "points": 79,
+      "records": [
+        "capacity_repeat/56776762dff6016a/attempt-1788872978270317441",
+        "capacity_repeat/eacfa12153bb12ed/attempt-1788873024875721390",
+        "capacity_repeat/5e74f0ecd88a2364/attempt-1788873067257687859",
+        "capacity_repeat/89aea669d64671a4/attempt-1788873088750568349",
+        "capacity_repeat/52fad34bd0eb46a0/attempt-1788873139442364302",
+        "capacity_repeat/5b89904dcb2676f5/attempt-1788873161319870648",
+        "capacity_repeat/c4a234ed96fb615e/attempt-1788873195785255240",
+        "capacity_repeat/8406986ce2368b14/attempt-1788873246382108610",
+        "capacity_repeat/470d3ec0fa83b0ae/attempt-1788873267218030005",
+        "capacity_repeat/34076e8f3bd4e4cb/attempt-1788873316685921022",
+        "capacity_repeat/b806f2366fba8274/attempt-1788873367940152600",
+        "capacity_repeat/5c71b142b4b01c06/attempt-1788873389187120162",
+        "capacity_repeat/3a48e59638a86af7/attempt-1788873428237768637",
+        "capacity_repeat/5d95eaf049f7924e/attempt-1788873460531321900",
+        "capacity_repeat/3d9439ad63f69f7e/attempt-1788873504540268595",
+        "capacity_repeat/12b91f42abce3811/attempt-1788873526487965698",
+        "capacity_repeat/b6329e1f96640b16/attempt-1788873572726692103",
+        "capacity_repeat/3f5fcef511e5a2f2/attempt-1788873612810831939",
+        "capacity_repeat/98dda2309165acce/attempt-1788873649944971505",
+        "capacity_repeat/7ffbcd3e5d2ddcc0/attempt-1788873694629521008",
+        "capacity_regular_repeat/5ad0e40faf6eda76/attempt-1788873716255369681",
+        "capacity_regular_repeat/380c29cda4436eb6/attempt-1788873730344607398",
+        "capacity_repeat/ff25faf54702a26c/attempt-1788873745389433830",
+        "capacity_repeat/143cdb021c1cbe75/attempt-1788873794694808381",
+        "capacity_repeat/166e63d2b2eafcd3/attempt-1788873841207272399",
+        "capacity_repeat/a4f4e6c13d0ac6ab/attempt-1788873882875093362",
+        "capacity_repeat/3ba73869d621f076/attempt-1788873903748924351",
+        "capacity_repeat/97bf51b4db100b74/attempt-1788873924978373618",
+        "capacity_repeat/0e2780ce52ac7851/attempt-1788873957997177299",
+        "capacity_repeat/65024cea88595b64/attempt-1788874008401229993",
+        "capacity_repeat/26fc41b73531cbc4/attempt-1788874059279451814",
+        "capacity_repeat/2a396ed7c331ef37/attempt-1788874109216489026",
+        "capacity_repeat/bc5735cae7679f2f/attempt-1788874130642729309",
+        "capacity_repeat/b378340c2f4ffb24/attempt-1788874151861878924",
+        "capacity_repeat/f2ba9f2bc4049364/attempt-1788874172485435884",
+        "capacity_repeat/7659d01209e8957d/attempt-1788874216756208891",
+        "capacity_repeat/a389403fb6d38423/attempt-1788874238482235049",
+        "capacity_repeat/45fecd665374a058/attempt-1788874276388981629",
+        "capacity_repeat/e55d958bc5c4109d/attempt-1788874311559379560",
+        "capacity_repeat/6bb33a30183e2d91/attempt-1788874354121327284",
+        "capacity_repeat/d88fd89d95b09a81/attempt-1788874393864399637",
+        "capacity_repeat/18c997c92e6c9b11/attempt-1788874424391264077",
+        "capacity_regular_repeat/877c583886e49c99/attempt-1788874497352662962",
+        "capacity_regular_repeat/eca7088f3ad76acd/attempt-1788874511506594692",
+        "capacity_repeat/638bb0e8a6bf97fd/attempt-1788874526442358717",
+        "capacity_repeat/2e213bdf8ce5e837/attempt-1788874576274947032",
+        "capacity_repeat/3313c2d8c8353799/attempt-1788874621586630780",
+        "capacity_repeat/90fddff997d2112d/attempt-1788874653721968204",
+        "capacity_repeat/3b8ef2f3e0f32ba7/attempt-1788874707623292651",
+        "capacity_repeat/622c752c41bfbed0/attempt-1788874730651522212",
+        "capacity_repeat/5495000d0e516820/attempt-1788874770811905545",
+        "capacity_repeat/8fffb5f8555bc1b1/attempt-1788874825852959216",
+        "capacity_repeat/60cdc6168f687298/attempt-1788874847158861492",
+        "capacity_repeat/e85007ca3cb81c2a/attempt-1788874899798892350",
+        "capacity_repeat/575637884b46f8b6/attempt-1788874957555880629",
+        "capacity_repeat/1e0aa907054a6395/attempt-1788874980259950446",
+        "capacity_repeat/8c19b87a0f281222/attempt-1788875044878488329",
+        "capacity_repeat/da174e0ecbfd4271/attempt-1788875069144713653",
+        "capacity_repeat/d8441f1762a944e2/attempt-1788875092757282281",
+        "capacity_repeat/a6380b3bdf81b115/attempt-1788875116982469625",
+        "capacity_repeat/e5683791d177cb64/attempt-1788875142866314993",
+        "capacity_repeat/902f45bccca63367/attempt-1788875167569662137",
+        "capacity_repeat/6a858aef7f198bfd/attempt-1788875191721351454",
+        "capacity_repeat/70864dc1ca35359a/attempt-1788875215398553421",
+        "capacity_regular_repeat/354f1a31a3fe36eb/attempt-1788875239350220645",
+        "capacity_regular_repeat/9addf93158628bbb/attempt-1788875253259812293",
+        "capacity_repeat/abb0e8e6a54c320c/attempt-1788875267245129715",
+        "capacity_repeat/2388cfaf7972a536/attempt-1788875323410844257",
+        "capacity_repeat/f481398df4370ed2/attempt-1788875408590032671",
+        "capacity_repeat/469684888e0b9ab7/attempt-1788875432727821865",
+        "capacity_repeat/c177fd2a028f59ec/attempt-1788875454497254206",
+        "capacity_repeat/960e51fb6bc44d64/attempt-1788875477685564695",
+        "capacity_repeat/b6ceef83f17acf4a/attempt-1788875500877189564",
+        "capacity_repeat/f10f366661a89eb1/attempt-1788875557002116283",
+        "capacity_repeat/9c7702bb0018d268/attempt-1788875614439407852",
+        "capacity_repeat/dd5aa0c4b0a0ce31/attempt-1788875670547295567",
+        "capacity_repeat/e4538ad69eda7cc6/attempt-1788875695072051147",
+        "capacity_regular_repeat/39b334fce8ad02b6/attempt-1788875719084142349",
+        "capacity_regular_repeat/f3c35d2487b94c9c/attempt-1788875733913740215"
+      ],
+      "stage": "capacity",
+      "time": "2026-09-08T13:55:47.487964+00:00"
+    },
+    "capacity_repair": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 27,
+      "points": 27,
+      "records": [
+        "capacity_matched/98ff1bda9d3eabe6/attempt-1788877529307148558",
+        "capacity_matched/d0084e8974653182/attempt-1788877553414615745",
+        "capacity_matched/8a92e230a686dbcb/attempt-1788877577978390279",
+        "capacity_matched/ab2ddad7cdb602a1/attempt-1788877601919735151",
+        "capacity_matched/45b325d71fb807f1/attempt-1788877626086011074",
+        "capacity_matched/fd6ed802e7124f44/attempt-1788877649273596553",
+        "capacity_matched/0c3c06a318106153/attempt-1788877673128977992",
+        "capacity_matched/325a0a66b41eea9f/attempt-1788877695983028915",
+        "capacity_matched/6ac5689165fffa19/attempt-1788877745714524406",
+        "capacity_matched/efd269720f7aed06/attempt-1788877770944067818",
+        "capacity_matched/7fd0ee47a46552a6/attempt-1788877796131669847",
+        "capacity_matched/c7fa885cfe74a289/attempt-1788877820255574147",
+        "capacity_matched/77965ac647f8c0d7/attempt-1788877845767914484",
+        "capacity_matched/8fb40cfd25f7dfd2/attempt-1788877870736178479",
+        "capacity_matched/ed1d63b10ce54676/attempt-1788877927736508668",
+        "capacity_matched/fcc34a09a1d7a6e8/attempt-1788878026165671271",
+        "capacity_matched/c09bc55f52fc62b6/attempt-1788878051474435911",
+        "capacity_matched/a2ba960801b89b17/attempt-1788878075257480674",
+        "capacity_matched/6f1ff135365c98cb/attempt-1788878100510969971",
+        "capacity_matched/c0c46bb6291ae64b/attempt-1788878124321263149",
+        "capacity_matched/5f822c6441325fe1/attempt-1788878149377987894",
+        "capacity_matched/72cb6cb71be27fd7/attempt-1788878180160778512",
+        "capacity_matched/346eafaf05623124/attempt-1788878204074646550",
+        "capacity_matched/2bef576559f7b950/attempt-1788878230135737150",
+        "capacity_matched/f6e81aaca3e41e8a/attempt-1788878255187134666",
+        "capacity_matched/4ef5eaceeb20b4de/attempt-1788878280810441895",
+        "capacity_matched/1e490d66588de9df/attempt-1788878309034879446"
+      ],
+      "stage": "capacity_repair",
+      "time": "2026-09-08T14:38:53.911606+00:00"
+    },
+    "conflict": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 0,
+      "points": 0,
+      "records": [],
+      "stage": "conflict",
+      "time": "2026-09-08T13:09:32.912088+00:00"
+    },
+    "controls": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 2,
+      "points": 2,
+      "records": [
+        "timer/627972eddbffe065/attempt-1788872841369136145",
+        "timer/b247e68cafa7ea7e/attempt-1788872847676194535"
+      ],
+      "stage": "controls",
+      "time": "2026-09-08T13:07:31.132907+00:00"
+    },
+    "smoke": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 4,
+      "points": 4,
+      "records": [
+        "smoke/6f5d112f9653daee/attempt-1788872827176375522",
+        "smoke/2058aeed09d30114/attempt-1788872829376471104",
+        "smoke/9abdebaca3fa3a04/attempt-1788872831590493145",
+        "batched_conflict/2879118ed348517d/attempt-1788872833786260196"
+      ],
+      "stage": "smoke",
+      "time": "2026-09-08T13:07:15.984748+00:00"
+    },
+    "spatial": {
+      "failed": 0,
+      "noisy": 0,
+      "passed": 24,
+      "points": 24,
+      "records": [
+        "spatial_residency/0e0c163db8bf5b6d/attempt-1788875765185532915",
+        "spatial_residency/f6e839d11c102c67/attempt-1788875775027965054",
+        "spatial_residency/419e05018003636e/attempt-1788875788433551761",
+        "spatial_residency/6b74c563788d9d02/attempt-1788875801471649448",
+        "spatial_residency/8ae6f1820d4e9ba3/attempt-1788875815095164961",
+        "spatial_residency/c29077b4ec1cbd9c/attempt-1788875829036996084",
+        "spatial_residency/ca9507ef06000638/attempt-1788875838837884678",
+        "spatial_residency/ec32139318de066e/attempt-1788875848668585707",
+        "spatial_residency/a96342765990ba23/attempt-1788875861723656950",
+        "spatial_residency/9e73cb2efb0037d5/attempt-1788875874902410542",
+        "spatial_residency/af2afd8cacaa1fae/attempt-1788875888189978159",
+        "spatial_residency/73a05ddca85d33d0/attempt-1788875902408248550",
+        "spatial_residency/92153d854609ac8a/attempt-1788875913388475887",
+        "spatial_residency/de50c29fe60eab41/attempt-1788875929226189141",
+        "spatial_residency/98d9164bdacd6c39/attempt-1788875949076462492",
+        "spatial_residency/0553d81ce98b1e0c/attempt-1788875969811811697",
+        "spatial_residency/34700b9e65d43e6a/attempt-1788875990584358747",
+        "spatial_residency/96d918bf2c2460e3/attempt-1788876011732014146",
+        "spatial_residency/3bd30986496745ff/attempt-1788876029423837094",
+        "spatial_residency/0e0627628f4384b3/attempt-1788876046038454125",
+        "spatial_residency/78e9ad5b9e540c47/attempt-1788876066715650811",
+        "spatial_residency/79a33c8a2e19aaff/attempt-1788876086045501938",
+        "spatial_residency/0234b8998d854172/attempt-1788876106009615250",
+        "spatial_residency/eeae54556926fadd/attempt-1788876125932017598"
+      ],
+      "stage": "spatial",
+      "time": "2026-09-08T14:02:22.102615+00:00"
+    }
+  },
+  "time": "2026-09-08T20:51:02.618550+00:00",
+  "timer_gate": {
+    "fraction": 0.02835538752362949,
+    "limit": 0.05,
+    "note": "Unsubtracted native timer units; batch amortizes overhead",
+    "passed": true,
+    "sources": [
+      "timer/627972eddbffe065/attempt-1788872841369136145",
+      "timer/b247e68cafa7ea7e/attempt-1788872847676194535"
+    ],
+    "time": "2026-09-08T13:07:31.132582+00:00"
+  },
+  "unsuccessful": []
+}

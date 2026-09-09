@@ -1,0 +1,34 @@
+{
+  "batch": 4096,
+  "calibrations": [
+    {
+      "attempts": [
+        {
+          "fraction": null,
+          "records": [
+            "calibration/d445a2735c6b0cfc/attempt-1788928709591650910",
+            "calibration/44b6019a19a40346/attempt-1788928712169020864",
+            "calibration/511efc2dfa06b8df/attempt-1788928715683864761",
+            "calibration/037f0b274cdbd2e9/attempt-1788928724612079407"
+          ],
+          "same_core_clean": false
+        },
+        {
+          "fraction": 0.02857142857142857,
+          "records": [
+            "calibration/fa120c31508d38c9/attempt-1788928729447549986",
+            "calibration/39674ad348edf8a9/attempt-1788928732013457139",
+            "calibration/6c74514be0b24c3f/attempt-1788928735447930144",
+            "calibration/c4e520b28d160f03/attempt-1788928744003879532"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "batch": 4096,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "source_digest": "ecd64e61f88e228ffbd24fcdfb3ddd58b9d5b103b0787633a25e647f56b3e4c2",
+  "time": "2026-09-09T04:39:08.765206+00:00"
+}

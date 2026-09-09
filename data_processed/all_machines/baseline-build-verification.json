@@ -1,0 +1,382 @@
+{
+  "hosts": {
+    "artemisia": {
+      "binary_sha256": "3a1946d35a6d2041332288c92b001a784f9327750af5d63c6888d6f2837a7781",
+      "compile_command": [
+        "/usr/lib64/ccache/gcc",
+        "-O0",
+        "-g",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-fno-omit-frame-pointer",
+        "cache_bench.c",
+        "-o",
+        "cache_bench"
+      ],
+      "errors": [],
+      "manual_review": "docs/assembly-review.md covers both native ISA paths; wrapper traffic remains outside the repeated load loop",
+      "passed": true,
+      "smoke_gate": {
+        "points": 7,
+        "purpose": "functional validation; noise flags retained; full data have separate quality gates",
+        "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+        "time": "2026-09-08T03:45:10.990651+00:00"
+      },
+      "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+      "supplemental": {
+        "binary_sha256": "fb8805fd06891fd7e7155c27a76ee700470c5e52b6af337c356b35954ea74909",
+        "compile_command": [
+          "/usr/lib64/ccache/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "page_control.c",
+          "-o",
+          "page_control"
+        ],
+        "smoke_gate": {
+          "samples_per_point": 2048,
+          "time": "2026-09-08T06:06:48.479009+00:00",
+          "wrapper_sha256": "61ee1c1e1b31ce906ea203ab71ec2b9b2f5cb95a26cc473b1fd2e7db1c504a7f"
+        }
+      }
+    },
+    "charnwood": {
+      "binary_sha256": "d160e584e669f1da3eccb5fbb8868e703a1a3ff5365b09ce7d839f9e784e54ca",
+      "compile_command": [
+        "/usr/bin/gcc",
+        "-O0",
+        "-g",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-fno-omit-frame-pointer",
+        "cache_bench.c",
+        "-o",
+        "cache_bench"
+      ],
+      "errors": [],
+      "manual_review": "docs/assembly-review.md covers both native ISA paths; wrapper traffic remains outside the repeated load loop",
+      "passed": true,
+      "smoke_gate": {
+        "points": 7,
+        "purpose": "functional validation; noise flags retained; full data have separate quality gates",
+        "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+        "time": "2026-09-08T03:45:06.352866+00:00"
+      },
+      "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+      "supplemental": {
+        "binary_sha256": "526873ef43251f6e06e2459af856fe116a78b06b1c9e6791d1083d7e828f3101",
+        "compile_command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "page_control.c",
+          "-o",
+          "page_control"
+        ],
+        "smoke_gate": {
+          "samples_per_point": 2048,
+          "time": "2026-09-08T06:42:28.912236+00:00",
+          "wrapper_sha256": "61ee1c1e1b31ce906ea203ab71ec2b9b2f5cb95a26cc473b1fd2e7db1c504a7f"
+        }
+      }
+    },
+    "crux": {
+      "binary_sha256": "7854683e4a83e5a217edbe112d08193bae5aa2eef2d05c6a95f0a3a3ca54add8",
+      "compile_command": [
+        "/usr/bin/gcc",
+        "-O0",
+        "-g",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-fno-omit-frame-pointer",
+        "cache_bench.c",
+        "-o",
+        "cache_bench"
+      ],
+      "errors": [],
+      "manual_review": "docs/assembly-review.md covers both native ISA paths; wrapper traffic remains outside the repeated load loop",
+      "passed": true,
+      "smoke_gate": {
+        "points": 7,
+        "purpose": "functional validation; noise flags retained; full data have separate quality gates",
+        "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+        "time": "2026-09-08T03:50:20.508338+00:00"
+      },
+      "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+      "supplemental": {
+        "binary_sha256": "5c2b133970fa14b6edba9f8d0fe1f7ffe2db9885c1c74dacc6ca32e02d55c793",
+        "compile_command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "page_control.c",
+          "-o",
+          "page_control"
+        ],
+        "smoke_gate": {
+          "samples_per_point": 2048,
+          "time": "2026-09-08T05:09:17.195481+00:00",
+          "wrapper_sha256": "61ee1c1e1b31ce906ea203ab71ec2b9b2f5cb95a26cc473b1fd2e7db1c504a7f"
+        }
+      }
+    },
+    "ookay": {
+      "binary_sha256": "d39adecfc9421494818da0c1fdcbeb68919f6711f1a86fd6b467cb7d711a7ad7",
+      "compile_command": [
+        "/usr/bin/gcc",
+        "-O0",
+        "-g",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-fno-omit-frame-pointer",
+        "cache_bench.c",
+        "-o",
+        "cache_bench"
+      ],
+      "errors": [],
+      "manual_review": "docs/assembly-review.md covers both native ISA paths; wrapper traffic remains outside the repeated load loop",
+      "passed": true,
+      "smoke_gate": {
+        "points": 7,
+        "purpose": "functional validation; noise flags retained; full data have separate quality gates",
+        "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+        "time": "2026-09-08T03:51:42.322003+00:00"
+      },
+      "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+      "supplemental": {
+        "binary_sha256": "5887a91ba55aa005e49e7d85915770edab6ab8076728e184c09a0528d5b24edc",
+        "compile_command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "page_control.c",
+          "-o",
+          "page_control"
+        ],
+        "smoke_gate": {
+          "samples_per_point": 2048,
+          "time": "2026-09-08T05:23:32.431681+00:00",
+          "wrapper_sha256": "61ee1c1e1b31ce906ea203ab71ec2b9b2f5cb95a26cc473b1fd2e7db1c504a7f"
+        }
+      }
+    },
+    "skylark": {
+      "binary_sha256": "4c7fbaca7425db1d073684df8c4313a49c4e4c5008ed039e18bc7106220b4ddf",
+      "compile_command": [
+        "/usr/bin/gcc",
+        "-O0",
+        "-g",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-fno-omit-frame-pointer",
+        "cache_bench.c",
+        "-o",
+        "cache_bench"
+      ],
+      "errors": [],
+      "manual_review": "docs/assembly-review.md covers both native ISA paths; wrapper traffic remains outside the repeated load loop",
+      "passed": true,
+      "smoke_gate": {
+        "points": 7,
+        "purpose": "functional validation; noise flags retained; full data have separate quality gates",
+        "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+        "time": "2026-09-08T03:45:04.234007+00:00"
+      },
+      "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+      "supplemental": {
+        "binary_sha256": "4ebad491bcacda6691c6c6bbf7ce9633d0903decd84567ff2116308f2176ee2d",
+        "compile_command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "page_control.c",
+          "-o",
+          "page_control"
+        ],
+        "smoke_gate": {
+          "samples_per_point": 2048,
+          "time": "2026-09-08T04:57:04.724919+00:00",
+          "wrapper_sha256": "61ee1c1e1b31ce906ea203ab71ec2b9b2f5cb95a26cc473b1fd2e7db1c504a7f"
+        }
+      }
+    },
+    "sunbird": {
+      "binary_sha256": "bbddb3d2084a7315e48b476a628f0cb955aa9db96ec1ee4b8831d395a118349d",
+      "compile_command": [
+        "/usr/bin/gcc",
+        "-O0",
+        "-g",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-fno-omit-frame-pointer",
+        "cache_bench.c",
+        "-o",
+        "cache_bench"
+      ],
+      "errors": [],
+      "manual_review": "docs/assembly-review.md covers both native ISA paths; wrapper traffic remains outside the repeated load loop",
+      "passed": true,
+      "smoke_gate": {
+        "points": 7,
+        "purpose": "functional validation; noise flags retained; full data have separate quality gates",
+        "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+        "time": "2026-09-08T03:50:57.929343+00:00"
+      },
+      "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+      "supplemental": {
+        "binary_sha256": "56edc62bf9004a13c40a827df14c083d09dbf60e94188833877aa5f82b4ce27c",
+        "compile_command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "page_control.c",
+          "-o",
+          "page_control"
+        ],
+        "smoke_gate": {
+          "samples_per_point": 2048,
+          "time": "2026-09-08T05:23:31.668332+00:00",
+          "wrapper_sha256": "61ee1c1e1b31ce906ea203ab71ec2b9b2f5cb95a26cc473b1fd2e7db1c504a7f"
+        }
+      }
+    },
+    "thunderbird": {
+      "binary_sha256": "552b28c8cc4e001eac4ce05d069ae30814dc2689f3bbd7d1d7a61bb863ad8bfa",
+      "compile_command": [
+        "/usr/bin/gcc",
+        "-O0",
+        "-g",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-fno-omit-frame-pointer",
+        "cache_bench.c",
+        "-o",
+        "cache_bench"
+      ],
+      "errors": [],
+      "manual_review": "docs/assembly-review.md covers both native ISA paths; wrapper traffic remains outside the repeated load loop",
+      "passed": true,
+      "smoke_gate": {
+        "points": 7,
+        "purpose": "functional validation; noise flags retained; full data have separate quality gates",
+        "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+        "time": "2026-09-08T03:45:09.019868+00:00"
+      },
+      "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+      "supplemental": {
+        "binary_sha256": "4c5ee7806aa9831181499561c3881629c81636ac444861435f2b3a2418a46927",
+        "compile_command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "page_control.c",
+          "-o",
+          "page_control"
+        ],
+        "smoke_gate": {
+          "samples_per_point": 2048,
+          "time": "2026-09-08T05:38:26.960601+00:00",
+          "wrapper_sha256": "61ee1c1e1b31ce906ea203ab71ec2b9b2f5cb95a26cc473b1fd2e7db1c504a7f"
+        }
+      }
+    },
+    "upgrade": {
+      "binary_sha256": "b70bc5887df55c84d95ad1fa10c0339509ed7befa2a5d6a03caf982e76730469",
+      "compile_command": [
+        "/usr/bin/gcc",
+        "-O0",
+        "-g",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-fno-omit-frame-pointer",
+        "cache_bench.c",
+        "-o",
+        "cache_bench"
+      ],
+      "errors": [],
+      "manual_review": "docs/assembly-review.md covers both native ISA paths; wrapper traffic remains outside the repeated load loop",
+      "passed": true,
+      "smoke_gate": {
+        "points": 7,
+        "purpose": "functional validation; noise flags retained; full data have separate quality gates",
+        "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+        "time": "2026-09-08T03:50:20.636383+00:00"
+      },
+      "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+      "supplemental": {
+        "binary_sha256": "18dab9feb3f8afd28ac3ee7a63a553ae54a2397d066bc6c64745f4837a380454",
+        "compile_command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "page_control.c",
+          "-o",
+          "page_control"
+        ],
+        "smoke_gate": {
+          "samples_per_point": 2048,
+          "time": "2026-09-08T05:20:46.978396+00:00",
+          "wrapper_sha256": "61ee1c1e1b31ce906ea203ab71ec2b9b2f5cb95a26cc473b1fd2e7db1c504a7f"
+        }
+      }
+    }
+  },
+  "passed": true,
+  "time": "2026-09-08T06:52:13.833080+00:00"
+}

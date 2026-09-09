@@ -1,0 +1,210 @@
+{
+  "artemisia": {
+    "parallel4": {
+      "disassembly": "<parallel4>:\n  40224b:\t55                   \tpush   %rbp\n  40224c:\t48 89 e5             \tmov    %rsp,%rbp\n  40224f:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  402253:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  402257:\t48 89 55 e8          \tmov    %rdx,-0x18(%rbp)\n  40225b:\t48 89 4d e0          \tmov    %rcx,-0x20(%rbp)\n  40225f:\t4c 89 45 d8          \tmov    %r8,-0x28(%rbp)\n  402263:\t48 8b 7d f8          \tmov    -0x8(%rbp),%rdi\n  402267:\t48 8b 75 f0          \tmov    -0x10(%rbp),%rsi\n  40226b:\t48 8b 4d e8          \tmov    -0x18(%rbp),%rcx\n  40226f:\t48 8b 55 e0          \tmov    -0x20(%rbp),%rdx\n  402273:\t48 8b 45 d8          \tmov    -0x28(%rbp),%rax\n  402277:\t48 8b 3f             \tmov    (%rdi),%rdi\n  40227a:\t48 8b 36             \tmov    (%rsi),%rsi\n  40227d:\t48 8b 09             \tmov    (%rcx),%rcx\n  402280:\t48 8b 12             \tmov    (%rdx),%rdx\n  402283:\t48 ff c8             \tdec    %rax\n  402286:\t75 ef                \tjne    402277 <parallel4+0x2c>\n  402288:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  40228c:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  402290:\t48 89 4d e8          \tmov    %rcx,-0x18(%rbp)\n  402294:\t48 89 55 e0          \tmov    %rdx,-0x20(%rbp)\n  402298:\t48 89 45 d8          \tmov    %rax,-0x28(%rbp)\n  40229c:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n  4022a0:\t48 33 45 f0          \txor    -0x10(%rbp),%rax\n  4022a4:\t48 33 45 e8          \txor    -0x18(%rbp),%rax\n  4022a8:\t48 33 45 e0          \txor    -0x20(%rbp),%rax\n  4022ac:\t5d                   \tpop    %rbp\n  4022ad:\tc3                   \tretq   ",
+      "inner_loop": "  402277:\t48 8b 3f             \tmov    (%rdi),%rdi\n  40227a:\t48 8b 36             \tmov    (%rsi),%rsi\n  40227d:\t48 8b 09             \tmov    (%rcx),%rcx\n  402280:\t48 8b 12             \tmov    (%rdx),%rdx\n  402283:\t48 ff c8             \tdec    %rax\n  402286:\t75 ef                \tjne    402277 <parallel4+0x2c>",
+      "load_registers": [
+        "rdi",
+        "rsi",
+        "rcx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    },
+    "serial4": {
+      "disassembly": "<serial4>:\n  402218:\t55                   \tpush   %rbp\n  402219:\t48 89 e5             \tmov    %rsp,%rbp\n  40221c:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  402220:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  402224:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n  402228:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n  40222c:\t48 8b 12             \tmov    (%rdx),%rdx\n  40222f:\t48 8b 12             \tmov    (%rdx),%rdx\n  402232:\t48 8b 12             \tmov    (%rdx),%rdx\n  402235:\t48 8b 12             \tmov    (%rdx),%rdx\n  402238:\t48 ff c8             \tdec    %rax\n  40223b:\t75 ef                \tjne    40222c <serial4+0x14>\n  40223d:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n  402241:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n  402245:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n  402249:\t5d                   \tpop    %rbp\n  40224a:\tc3                   \tretq   ",
+      "inner_loop": "  40222c:\t48 8b 12             \tmov    (%rdx),%rdx\n  40222f:\t48 8b 12             \tmov    (%rdx),%rdx\n  402232:\t48 8b 12             \tmov    (%rdx),%rdx\n  402235:\t48 8b 12             \tmov    (%rdx),%rdx\n  402238:\t48 ff c8             \tdec    %rax\n  40223b:\t75 ef                \tjne    40222c <serial4+0x14>",
+      "load_registers": [
+        "rdx",
+        "rdx",
+        "rdx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    }
+  },
+  "charnwood": {
+    "parallel4": {
+      "disassembly": "<parallel4>:\n    25cd:\tf3 0f 1e fa          \tendbr64\n    25d1:\t55                   \tpush   %rbp\n    25d2:\t48 89 e5             \tmov    %rsp,%rbp\n    25d5:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    25d9:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    25dd:\t48 89 55 e8          \tmov    %rdx,-0x18(%rbp)\n    25e1:\t48 89 4d e0          \tmov    %rcx,-0x20(%rbp)\n    25e5:\t4c 89 45 d8          \tmov    %r8,-0x28(%rbp)\n    25e9:\t48 8b 7d f8          \tmov    -0x8(%rbp),%rdi\n    25ed:\t48 8b 75 f0          \tmov    -0x10(%rbp),%rsi\n    25f1:\t48 8b 4d e8          \tmov    -0x18(%rbp),%rcx\n    25f5:\t48 8b 55 e0          \tmov    -0x20(%rbp),%rdx\n    25f9:\t48 8b 45 d8          \tmov    -0x28(%rbp),%rax\n    25fd:\t48 8b 3f             \tmov    (%rdi),%rdi\n    2600:\t48 8b 36             \tmov    (%rsi),%rsi\n    2603:\t48 8b 09             \tmov    (%rcx),%rcx\n    2606:\t48 8b 12             \tmov    (%rdx),%rdx\n    2609:\t48 ff c8             \tdec    %rax\n    260c:\t75 ef                \tjne    25fd <parallel4+0x30>\n    260e:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    2612:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    2616:\t48 89 4d e8          \tmov    %rcx,-0x18(%rbp)\n    261a:\t48 89 55 e0          \tmov    %rdx,-0x20(%rbp)\n    261e:\t48 89 45 d8          \tmov    %rax,-0x28(%rbp)\n    2622:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    2626:\t48 33 45 f0          \txor    -0x10(%rbp),%rax\n    262a:\t48 33 45 e8          \txor    -0x18(%rbp),%rax\n    262e:\t48 33 45 e0          \txor    -0x20(%rbp),%rax\n    2632:\t5d                   \tpop    %rbp\n    2633:\tc3                   \tret",
+      "inner_loop": "    25fd:\t48 8b 3f             \tmov    (%rdi),%rdi\n    2600:\t48 8b 36             \tmov    (%rsi),%rsi\n    2603:\t48 8b 09             \tmov    (%rcx),%rcx\n    2606:\t48 8b 12             \tmov    (%rdx),%rdx\n    2609:\t48 ff c8             \tdec    %rax\n    260c:\t75 ef                \tjne    25fd <parallel4+0x30>",
+      "load_registers": [
+        "rdi",
+        "rsi",
+        "rcx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    },
+    "serial4": {
+      "disassembly": "<serial4>:\n    2596:\tf3 0f 1e fa          \tendbr64\n    259a:\t55                   \tpush   %rbp\n    259b:\t48 89 e5             \tmov    %rsp,%rbp\n    259e:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    25a2:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    25a6:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n    25aa:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n    25ae:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b1:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b4:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b7:\t48 8b 12             \tmov    (%rdx),%rdx\n    25ba:\t48 ff c8             \tdec    %rax\n    25bd:\t75 ef                \tjne    25ae <serial4+0x18>\n    25bf:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n    25c3:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n    25c7:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    25cb:\t5d                   \tpop    %rbp\n    25cc:\tc3                   \tret",
+      "inner_loop": "    25ae:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b1:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b4:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b7:\t48 8b 12             \tmov    (%rdx),%rdx\n    25ba:\t48 ff c8             \tdec    %rax\n    25bd:\t75 ef                \tjne    25ae <serial4+0x18>",
+      "load_registers": [
+        "rdx",
+        "rdx",
+        "rdx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    }
+  },
+  "crux": {
+    "parallel4": {
+      "disassembly": "<parallel4>:\n    25cd:\tf3 0f 1e fa          \tendbr64\n    25d1:\t55                   \tpush   %rbp\n    25d2:\t48 89 e5             \tmov    %rsp,%rbp\n    25d5:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    25d9:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    25dd:\t48 89 55 e8          \tmov    %rdx,-0x18(%rbp)\n    25e1:\t48 89 4d e0          \tmov    %rcx,-0x20(%rbp)\n    25e5:\t4c 89 45 d8          \tmov    %r8,-0x28(%rbp)\n    25e9:\t48 8b 7d f8          \tmov    -0x8(%rbp),%rdi\n    25ed:\t48 8b 75 f0          \tmov    -0x10(%rbp),%rsi\n    25f1:\t48 8b 4d e8          \tmov    -0x18(%rbp),%rcx\n    25f5:\t48 8b 55 e0          \tmov    -0x20(%rbp),%rdx\n    25f9:\t48 8b 45 d8          \tmov    -0x28(%rbp),%rax\n    25fd:\t48 8b 3f             \tmov    (%rdi),%rdi\n    2600:\t48 8b 36             \tmov    (%rsi),%rsi\n    2603:\t48 8b 09             \tmov    (%rcx),%rcx\n    2606:\t48 8b 12             \tmov    (%rdx),%rdx\n    2609:\t48 ff c8             \tdec    %rax\n    260c:\t75 ef                \tjne    25fd <parallel4+0x30>\n    260e:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    2612:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    2616:\t48 89 4d e8          \tmov    %rcx,-0x18(%rbp)\n    261a:\t48 89 55 e0          \tmov    %rdx,-0x20(%rbp)\n    261e:\t48 89 45 d8          \tmov    %rax,-0x28(%rbp)\n    2622:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    2626:\t48 33 45 f0          \txor    -0x10(%rbp),%rax\n    262a:\t48 33 45 e8          \txor    -0x18(%rbp),%rax\n    262e:\t48 33 45 e0          \txor    -0x20(%rbp),%rax\n    2632:\t5d                   \tpop    %rbp\n    2633:\tc3                   \tret",
+      "inner_loop": "    25fd:\t48 8b 3f             \tmov    (%rdi),%rdi\n    2600:\t48 8b 36             \tmov    (%rsi),%rsi\n    2603:\t48 8b 09             \tmov    (%rcx),%rcx\n    2606:\t48 8b 12             \tmov    (%rdx),%rdx\n    2609:\t48 ff c8             \tdec    %rax\n    260c:\t75 ef                \tjne    25fd <parallel4+0x30>",
+      "load_registers": [
+        "rdi",
+        "rsi",
+        "rcx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    },
+    "serial4": {
+      "disassembly": "<serial4>:\n    2596:\tf3 0f 1e fa          \tendbr64\n    259a:\t55                   \tpush   %rbp\n    259b:\t48 89 e5             \tmov    %rsp,%rbp\n    259e:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    25a2:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    25a6:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n    25aa:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n    25ae:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b1:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b4:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b7:\t48 8b 12             \tmov    (%rdx),%rdx\n    25ba:\t48 ff c8             \tdec    %rax\n    25bd:\t75 ef                \tjne    25ae <serial4+0x18>\n    25bf:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n    25c3:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n    25c7:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    25cb:\t5d                   \tpop    %rbp\n    25cc:\tc3                   \tret",
+      "inner_loop": "    25ae:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b1:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b4:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b7:\t48 8b 12             \tmov    (%rdx),%rdx\n    25ba:\t48 ff c8             \tdec    %rax\n    25bd:\t75 ef                \tjne    25ae <serial4+0x18>",
+      "load_registers": [
+        "rdx",
+        "rdx",
+        "rdx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    }
+  },
+  "ookay": {
+    "parallel4": {
+      "disassembly": "<parallel4>:\n    25cd:\tf3 0f 1e fa          \tendbr64\n    25d1:\t55                   \tpush   %rbp\n    25d2:\t48 89 e5             \tmov    %rsp,%rbp\n    25d5:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    25d9:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    25dd:\t48 89 55 e8          \tmov    %rdx,-0x18(%rbp)\n    25e1:\t48 89 4d e0          \tmov    %rcx,-0x20(%rbp)\n    25e5:\t4c 89 45 d8          \tmov    %r8,-0x28(%rbp)\n    25e9:\t48 8b 7d f8          \tmov    -0x8(%rbp),%rdi\n    25ed:\t48 8b 75 f0          \tmov    -0x10(%rbp),%rsi\n    25f1:\t48 8b 4d e8          \tmov    -0x18(%rbp),%rcx\n    25f5:\t48 8b 55 e0          \tmov    -0x20(%rbp),%rdx\n    25f9:\t48 8b 45 d8          \tmov    -0x28(%rbp),%rax\n    25fd:\t48 8b 3f             \tmov    (%rdi),%rdi\n    2600:\t48 8b 36             \tmov    (%rsi),%rsi\n    2603:\t48 8b 09             \tmov    (%rcx),%rcx\n    2606:\t48 8b 12             \tmov    (%rdx),%rdx\n    2609:\t48 ff c8             \tdec    %rax\n    260c:\t75 ef                \tjne    25fd <parallel4+0x30>\n    260e:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    2612:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    2616:\t48 89 4d e8          \tmov    %rcx,-0x18(%rbp)\n    261a:\t48 89 55 e0          \tmov    %rdx,-0x20(%rbp)\n    261e:\t48 89 45 d8          \tmov    %rax,-0x28(%rbp)\n    2622:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    2626:\t48 33 45 f0          \txor    -0x10(%rbp),%rax\n    262a:\t48 33 45 e8          \txor    -0x18(%rbp),%rax\n    262e:\t48 33 45 e0          \txor    -0x20(%rbp),%rax\n    2632:\t5d                   \tpop    %rbp\n    2633:\tc3                   \tret",
+      "inner_loop": "    25fd:\t48 8b 3f             \tmov    (%rdi),%rdi\n    2600:\t48 8b 36             \tmov    (%rsi),%rsi\n    2603:\t48 8b 09             \tmov    (%rcx),%rcx\n    2606:\t48 8b 12             \tmov    (%rdx),%rdx\n    2609:\t48 ff c8             \tdec    %rax\n    260c:\t75 ef                \tjne    25fd <parallel4+0x30>",
+      "load_registers": [
+        "rdi",
+        "rsi",
+        "rcx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    },
+    "serial4": {
+      "disassembly": "<serial4>:\n    2596:\tf3 0f 1e fa          \tendbr64\n    259a:\t55                   \tpush   %rbp\n    259b:\t48 89 e5             \tmov    %rsp,%rbp\n    259e:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    25a2:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    25a6:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n    25aa:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n    25ae:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b1:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b4:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b7:\t48 8b 12             \tmov    (%rdx),%rdx\n    25ba:\t48 ff c8             \tdec    %rax\n    25bd:\t75 ef                \tjne    25ae <serial4+0x18>\n    25bf:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n    25c3:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n    25c7:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    25cb:\t5d                   \tpop    %rbp\n    25cc:\tc3                   \tret",
+      "inner_loop": "    25ae:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b1:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b4:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b7:\t48 8b 12             \tmov    (%rdx),%rdx\n    25ba:\t48 ff c8             \tdec    %rax\n    25bd:\t75 ef                \tjne    25ae <serial4+0x18>",
+      "load_registers": [
+        "rdx",
+        "rdx",
+        "rdx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    }
+  },
+  "skylark": {
+    "parallel4": {
+      "disassembly": "<parallel4>:\n  40224b:\t55                   \tpush   %rbp\n  40224c:\t48 89 e5             \tmov    %rsp,%rbp\n  40224f:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  402253:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  402257:\t48 89 55 e8          \tmov    %rdx,-0x18(%rbp)\n  40225b:\t48 89 4d e0          \tmov    %rcx,-0x20(%rbp)\n  40225f:\t4c 89 45 d8          \tmov    %r8,-0x28(%rbp)\n  402263:\t48 8b 7d f8          \tmov    -0x8(%rbp),%rdi\n  402267:\t48 8b 75 f0          \tmov    -0x10(%rbp),%rsi\n  40226b:\t48 8b 4d e8          \tmov    -0x18(%rbp),%rcx\n  40226f:\t48 8b 55 e0          \tmov    -0x20(%rbp),%rdx\n  402273:\t48 8b 45 d8          \tmov    -0x28(%rbp),%rax\n  402277:\t48 8b 3f             \tmov    (%rdi),%rdi\n  40227a:\t48 8b 36             \tmov    (%rsi),%rsi\n  40227d:\t48 8b 09             \tmov    (%rcx),%rcx\n  402280:\t48 8b 12             \tmov    (%rdx),%rdx\n  402283:\t48 ff c8             \tdec    %rax\n  402286:\t75 ef                \tjne    402277 <parallel4+0x2c>\n  402288:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  40228c:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  402290:\t48 89 4d e8          \tmov    %rcx,-0x18(%rbp)\n  402294:\t48 89 55 e0          \tmov    %rdx,-0x20(%rbp)\n  402298:\t48 89 45 d8          \tmov    %rax,-0x28(%rbp)\n  40229c:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n  4022a0:\t48 33 45 f0          \txor    -0x10(%rbp),%rax\n  4022a4:\t48 33 45 e8          \txor    -0x18(%rbp),%rax\n  4022a8:\t48 33 45 e0          \txor    -0x20(%rbp),%rax\n  4022ac:\t5d                   \tpop    %rbp\n  4022ad:\tc3                   \tretq   ",
+      "inner_loop": "  402277:\t48 8b 3f             \tmov    (%rdi),%rdi\n  40227a:\t48 8b 36             \tmov    (%rsi),%rsi\n  40227d:\t48 8b 09             \tmov    (%rcx),%rcx\n  402280:\t48 8b 12             \tmov    (%rdx),%rdx\n  402283:\t48 ff c8             \tdec    %rax\n  402286:\t75 ef                \tjne    402277 <parallel4+0x2c>",
+      "load_registers": [
+        "rdi",
+        "rsi",
+        "rcx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    },
+    "serial4": {
+      "disassembly": "<serial4>:\n  402218:\t55                   \tpush   %rbp\n  402219:\t48 89 e5             \tmov    %rsp,%rbp\n  40221c:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  402220:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  402224:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n  402228:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n  40222c:\t48 8b 12             \tmov    (%rdx),%rdx\n  40222f:\t48 8b 12             \tmov    (%rdx),%rdx\n  402232:\t48 8b 12             \tmov    (%rdx),%rdx\n  402235:\t48 8b 12             \tmov    (%rdx),%rdx\n  402238:\t48 ff c8             \tdec    %rax\n  40223b:\t75 ef                \tjne    40222c <serial4+0x14>\n  40223d:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n  402241:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n  402245:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n  402249:\t5d                   \tpop    %rbp\n  40224a:\tc3                   \tretq   ",
+      "inner_loop": "  40222c:\t48 8b 12             \tmov    (%rdx),%rdx\n  40222f:\t48 8b 12             \tmov    (%rdx),%rdx\n  402232:\t48 8b 12             \tmov    (%rdx),%rdx\n  402235:\t48 8b 12             \tmov    (%rdx),%rdx\n  402238:\t48 ff c8             \tdec    %rax\n  40223b:\t75 ef                \tjne    40222c <serial4+0x14>",
+      "load_registers": [
+        "rdx",
+        "rdx",
+        "rdx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    }
+  },
+  "sunbird": {
+    "parallel4": {
+      "disassembly": "<parallel4>:\n  40224b:\t55                   \tpush   %rbp\n  40224c:\t48 89 e5             \tmov    %rsp,%rbp\n  40224f:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  402253:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  402257:\t48 89 55 e8          \tmov    %rdx,-0x18(%rbp)\n  40225b:\t48 89 4d e0          \tmov    %rcx,-0x20(%rbp)\n  40225f:\t4c 89 45 d8          \tmov    %r8,-0x28(%rbp)\n  402263:\t48 8b 7d f8          \tmov    -0x8(%rbp),%rdi\n  402267:\t48 8b 75 f0          \tmov    -0x10(%rbp),%rsi\n  40226b:\t48 8b 4d e8          \tmov    -0x18(%rbp),%rcx\n  40226f:\t48 8b 55 e0          \tmov    -0x20(%rbp),%rdx\n  402273:\t48 8b 45 d8          \tmov    -0x28(%rbp),%rax\n  402277:\t48 8b 3f             \tmov    (%rdi),%rdi\n  40227a:\t48 8b 36             \tmov    (%rsi),%rsi\n  40227d:\t48 8b 09             \tmov    (%rcx),%rcx\n  402280:\t48 8b 12             \tmov    (%rdx),%rdx\n  402283:\t48 ff c8             \tdec    %rax\n  402286:\t75 ef                \tjne    402277 <parallel4+0x2c>\n  402288:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  40228c:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  402290:\t48 89 4d e8          \tmov    %rcx,-0x18(%rbp)\n  402294:\t48 89 55 e0          \tmov    %rdx,-0x20(%rbp)\n  402298:\t48 89 45 d8          \tmov    %rax,-0x28(%rbp)\n  40229c:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n  4022a0:\t48 33 45 f0          \txor    -0x10(%rbp),%rax\n  4022a4:\t48 33 45 e8          \txor    -0x18(%rbp),%rax\n  4022a8:\t48 33 45 e0          \txor    -0x20(%rbp),%rax\n  4022ac:\t5d                   \tpop    %rbp\n  4022ad:\tc3                   \tretq   ",
+      "inner_loop": "  402277:\t48 8b 3f             \tmov    (%rdi),%rdi\n  40227a:\t48 8b 36             \tmov    (%rsi),%rsi\n  40227d:\t48 8b 09             \tmov    (%rcx),%rcx\n  402280:\t48 8b 12             \tmov    (%rdx),%rdx\n  402283:\t48 ff c8             \tdec    %rax\n  402286:\t75 ef                \tjne    402277 <parallel4+0x2c>",
+      "load_registers": [
+        "rdi",
+        "rsi",
+        "rcx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    },
+    "serial4": {
+      "disassembly": "<serial4>:\n  402218:\t55                   \tpush   %rbp\n  402219:\t48 89 e5             \tmov    %rsp,%rbp\n  40221c:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  402220:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  402224:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n  402228:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n  40222c:\t48 8b 12             \tmov    (%rdx),%rdx\n  40222f:\t48 8b 12             \tmov    (%rdx),%rdx\n  402232:\t48 8b 12             \tmov    (%rdx),%rdx\n  402235:\t48 8b 12             \tmov    (%rdx),%rdx\n  402238:\t48 ff c8             \tdec    %rax\n  40223b:\t75 ef                \tjne    40222c <serial4+0x14>\n  40223d:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n  402241:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n  402245:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n  402249:\t5d                   \tpop    %rbp\n  40224a:\tc3                   \tretq   ",
+      "inner_loop": "  40222c:\t48 8b 12             \tmov    (%rdx),%rdx\n  40222f:\t48 8b 12             \tmov    (%rdx),%rdx\n  402232:\t48 8b 12             \tmov    (%rdx),%rdx\n  402235:\t48 8b 12             \tmov    (%rdx),%rdx\n  402238:\t48 ff c8             \tdec    %rax\n  40223b:\t75 ef                \tjne    40222c <serial4+0x14>",
+      "load_registers": [
+        "rdx",
+        "rdx",
+        "rdx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    }
+  },
+  "thunderbird": {
+    "parallel4": {
+      "disassembly": "<parallel4>:\n  401bc4:\td100c3ff \tsub\tsp, sp, #0x30\n  401bc8:\tf90017e0 \tstr\tx0, [sp, #40]\n  401bcc:\tf90013e1 \tstr\tx1, [sp, #32]\n  401bd0:\tf9000fe2 \tstr\tx2, [sp, #24]\n  401bd4:\tf9000be3 \tstr\tx3, [sp, #16]\n  401bd8:\tf90007e4 \tstr\tx4, [sp, #8]\n  401bdc:\tf94017e4 \tldr\tx4, [sp, #40]\n  401be0:\tf94013e3 \tldr\tx3, [sp, #32]\n  401be4:\tf9400fe2 \tldr\tx2, [sp, #24]\n  401be8:\tf9400be1 \tldr\tx1, [sp, #16]\n  401bec:\tf94007e0 \tldr\tx0, [sp, #8]\n  401bf0:\tf9400084 \tldr\tx4, [x4]\n  401bf4:\tf9400063 \tldr\tx3, [x3]\n  401bf8:\tf9400042 \tldr\tx2, [x2]\n  401bfc:\tf9400021 \tldr\tx1, [x1]\n  401c00:\tf1000400 \tsubs\tx0, x0, #0x1\n  401c04:\t54ffff61 \tb.ne\t401bf0 <parallel4+0x2c>  // b.any\n  401c08:\tf90017e4 \tstr\tx4, [sp, #40]\n  401c0c:\tf90013e3 \tstr\tx3, [sp, #32]\n  401c10:\tf9000fe2 \tstr\tx2, [sp, #24]\n  401c14:\tf9000be1 \tstr\tx1, [sp, #16]\n  401c18:\tf90007e0 \tstr\tx0, [sp, #8]\n  401c1c:\tf94017e1 \tldr\tx1, [sp, #40]\n  401c20:\tf94013e0 \tldr\tx0, [sp, #32]\n  401c24:\tca000021 \teor\tx1, x1, x0\n  401c28:\tf9400fe0 \tldr\tx0, [sp, #24]\n  401c2c:\tca000021 \teor\tx1, x1, x0\n  401c30:\tf9400be0 \tldr\tx0, [sp, #16]\n  401c34:\tca000020 \teor\tx0, x1, x0\n  401c38:\t9100c3ff \tadd\tsp, sp, #0x30\n  401c3c:\td65f03c0 \tret",
+      "inner_loop": "  401bf0:\tf9400084 \tldr\tx4, [x4]\n  401bf4:\tf9400063 \tldr\tx3, [x3]\n  401bf8:\tf9400042 \tldr\tx2, [x2]\n  401bfc:\tf9400021 \tldr\tx1, [x1]\n  401c00:\tf1000400 \tsubs\tx0, x0, #0x1\n  401c04:\t54ffff61 \tb.ne\t401bf0 <parallel4+0x2c>  // b.any",
+      "load_registers": [
+        "x4",
+        "x3",
+        "x2",
+        "x1"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    },
+    "serial4": {
+      "disassembly": "<serial4>:\n  401b84:\td10043ff \tsub\tsp, sp, #0x10\n  401b88:\tf90007e0 \tstr\tx0, [sp, #8]\n  401b8c:\tf90003e1 \tstr\tx1, [sp]\n  401b90:\tf94007e1 \tldr\tx1, [sp, #8]\n  401b94:\tf94003e0 \tldr\tx0, [sp]\n  401b98:\tf9400021 \tldr\tx1, [x1]\n  401b9c:\tf9400021 \tldr\tx1, [x1]\n  401ba0:\tf9400021 \tldr\tx1, [x1]\n  401ba4:\tf9400021 \tldr\tx1, [x1]\n  401ba8:\tf1000400 \tsubs\tx0, x0, #0x1\n  401bac:\t54ffff61 \tb.ne\t401b98 <serial4+0x14>  // b.any\n  401bb0:\tf90007e1 \tstr\tx1, [sp, #8]\n  401bb4:\tf90003e0 \tstr\tx0, [sp]\n  401bb8:\tf94007e0 \tldr\tx0, [sp, #8]\n  401bbc:\t910043ff \tadd\tsp, sp, #0x10\n  401bc0:\td65f03c0 \tret",
+      "inner_loop": "  401b98:\tf9400021 \tldr\tx1, [x1]\n  401b9c:\tf9400021 \tldr\tx1, [x1]\n  401ba0:\tf9400021 \tldr\tx1, [x1]\n  401ba4:\tf9400021 \tldr\tx1, [x1]\n  401ba8:\tf1000400 \tsubs\tx0, x0, #0x1\n  401bac:\t54ffff61 \tb.ne\t401b98 <serial4+0x14>  // b.any",
+      "load_registers": [
+        "x1",
+        "x1",
+        "x1",
+        "x1"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    }
+  },
+  "upgrade": {
+    "parallel4": {
+      "disassembly": "<parallel4>:\n    25cd:\tf3 0f 1e fa          \tendbr64 \n    25d1:\t55                   \tpush   %rbp\n    25d2:\t48 89 e5             \tmov    %rsp,%rbp\n    25d5:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    25d9:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    25dd:\t48 89 55 e8          \tmov    %rdx,-0x18(%rbp)\n    25e1:\t48 89 4d e0          \tmov    %rcx,-0x20(%rbp)\n    25e5:\t4c 89 45 d8          \tmov    %r8,-0x28(%rbp)\n    25e9:\t48 8b 7d f8          \tmov    -0x8(%rbp),%rdi\n    25ed:\t48 8b 75 f0          \tmov    -0x10(%rbp),%rsi\n    25f1:\t48 8b 4d e8          \tmov    -0x18(%rbp),%rcx\n    25f5:\t48 8b 55 e0          \tmov    -0x20(%rbp),%rdx\n    25f9:\t48 8b 45 d8          \tmov    -0x28(%rbp),%rax\n    25fd:\t48 8b 3f             \tmov    (%rdi),%rdi\n    2600:\t48 8b 36             \tmov    (%rsi),%rsi\n    2603:\t48 8b 09             \tmov    (%rcx),%rcx\n    2606:\t48 8b 12             \tmov    (%rdx),%rdx\n    2609:\t48 ff c8             \tdec    %rax\n    260c:\t75 ef                \tjne    25fd <parallel4+0x30>\n    260e:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    2612:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    2616:\t48 89 4d e8          \tmov    %rcx,-0x18(%rbp)\n    261a:\t48 89 55 e0          \tmov    %rdx,-0x20(%rbp)\n    261e:\t48 89 45 d8          \tmov    %rax,-0x28(%rbp)\n    2622:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    2626:\t48 33 45 f0          \txor    -0x10(%rbp),%rax\n    262a:\t48 33 45 e8          \txor    -0x18(%rbp),%rax\n    262e:\t48 33 45 e0          \txor    -0x20(%rbp),%rax\n    2632:\t5d                   \tpop    %rbp\n    2633:\tc3                   \tret    ",
+      "inner_loop": "    25fd:\t48 8b 3f             \tmov    (%rdi),%rdi\n    2600:\t48 8b 36             \tmov    (%rsi),%rsi\n    2603:\t48 8b 09             \tmov    (%rcx),%rcx\n    2606:\t48 8b 12             \tmov    (%rdx),%rdx\n    2609:\t48 ff c8             \tdec    %rax\n    260c:\t75 ef                \tjne    25fd <parallel4+0x30>",
+      "load_registers": [
+        "rdi",
+        "rsi",
+        "rcx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    },
+    "serial4": {
+      "disassembly": "<serial4>:\n    2596:\tf3 0f 1e fa          \tendbr64 \n    259a:\t55                   \tpush   %rbp\n    259b:\t48 89 e5             \tmov    %rsp,%rbp\n    259e:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    25a2:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    25a6:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n    25aa:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n    25ae:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b1:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b4:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b7:\t48 8b 12             \tmov    (%rdx),%rdx\n    25ba:\t48 ff c8             \tdec    %rax\n    25bd:\t75 ef                \tjne    25ae <serial4+0x18>\n    25bf:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n    25c3:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n    25c7:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    25cb:\t5d                   \tpop    %rbp\n    25cc:\tc3                   \tret    ",
+      "inner_loop": "    25ae:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b1:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b4:\t48 8b 12             \tmov    (%rdx),%rdx\n    25b7:\t48 8b 12             \tmov    (%rdx),%rdx\n    25ba:\t48 ff c8             \tdec    %rax\n    25bd:\t75 ef                \tjne    25ae <serial4+0x18>",
+      "load_registers": [
+        "rdx",
+        "rdx",
+        "rdx",
+        "rdx"
+      ],
+      "loads_per_iteration": 4,
+      "stack_free_inner_loop": true
+    }
+  }
+}

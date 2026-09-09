@@ -1,0 +1,158 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/ookay/full/inclusion_policy/09264f309289607b/attempt-1788844043311081298/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/09264f309289607b/complete.json",
+      "sha256": "31e7d2152499d26b96e8b89d6744686789c9f2094a02f82f60c5980db4aa0ae4"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/09fcceb9f0701d51/attempt-1788844133692561759/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/09fcceb9f0701d51/complete.json",
+      "sha256": "6469de2496c0b32873d2f2bcdd412fe312bf6c25d9a2259ba5faab51d0ea33ee"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/0ae4fe51612aff70/attempt-1788844030290243582/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/0ae4fe51612aff70/complete.json",
+      "sha256": "bac60c0f925624a8109a25d2bd19a91301a56f3651daf225a0f1995bb802fc1f"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/0cdcd6079a6e1f74/attempt-1788844270449267562/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/0cdcd6079a6e1f74/complete.json",
+      "sha256": "11fa2adde27545d198866cf2d6c9262bfff0d15247298b10cc2e4cb8180cfdf1"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/0ffcaa1244f6ed2c/attempt-1788844037910688736/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/0ffcaa1244f6ed2c/complete.json",
+      "sha256": "29877295790727248e56bac38d032a67e7212e60bf90f4e132b320a7f7189e4c"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/10769efbbbd50276/attempt-1788844122608470408/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/10769efbbbd50276/complete.json",
+      "sha256": "48e61fda9a28395a2effc693d144ce69723933151ce34cb35683ffd4d7678bd8"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/2a6bf9962dbfcbb8/attempt-1788844207752281736/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/2a6bf9962dbfcbb8/complete.json",
+      "sha256": "c275e5b2dcecb7070c5ebbd76a73034ab4d674c235ee3d9e31c1d7bfdaa38657"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/2d7d892dbf1e5f68/attempt-1788844091607898534/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/2d7d892dbf1e5f68/complete.json",
+      "sha256": "0fba89992fab4946f2627848fbc988cad1e7456877da26cb06d3089ef51c7767"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/3ebca3d513de705c/attempt-1788844116495059683/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/3ebca3d513de705c/complete.json",
+      "sha256": "36f5715d3fb5f13b05e1168a714c8d42c9dcb12099666c7ed24c69b14cb2fd6d"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/4c8b3e660b6fa37a/attempt-1788844085815732647/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/4c8b3e660b6fa37a/complete.json",
+      "sha256": "680983a493a5796d624279447961a7000e2a98e4447cbbdd945a45a76472c716"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/5641d229bd0d48bd/attempt-1788844602479315340/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/5641d229bd0d48bd/complete.json",
+      "sha256": "4ea939092f0dc5c9d946e5073299907b987639d9b60b2df93b95bba46513ec41"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/56bc7148eecc0adc/attempt-1788844586247098505/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/56bc7148eecc0adc/complete.json",
+      "sha256": "c400c9ece2a218501d9fd8152afb50818af0e2fa60fa63d24daf58a5f95c01d1"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/70cd82f89c6f8acf/attempt-1788844223527261574/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/70cd82f89c6f8acf/complete.json",
+      "sha256": "91b0623d5565dd6e392b120b8db4fc23d614b867f7253b8cfe8eae59ddfc34cb"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/8136a51d3f6be3a0/attempt-1788844412306745111/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/8136a51d3f6be3a0/complete.json",
+      "sha256": "af0b284985024a24426e354f451f1b35793ead850f48e8d2bf472f722e26228d"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/a06fdfd78d47aab2/attempt-1788844060120077794/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/a06fdfd78d47aab2/complete.json",
+      "sha256": "2331b8fb680c62060b87e6ecd6262e58d5d9ffaa2f7158a4dee7af48b81251c7"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/a6b01235c80730fc/attempt-1788844201026317551/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/a6b01235c80730fc/complete.json",
+      "sha256": "ebec8b108620c02c478a604357563ffd0ac7a4ec3a1c2c8c528043da22f60ac1"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/ad0279856ca99a1d/attempt-1788844050355759126/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/ad0279856ca99a1d/complete.json",
+      "sha256": "c3067ef2018b5f47ed2c3060e379b9aec9281c91b751973aafb72574eebdfa7d"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/be954dc7d28a0a2b/attempt-1788844019480743169/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/be954dc7d28a0a2b/complete.json",
+      "sha256": "a66ef7b15f3fc0982a46ad1e49f7213877fbdbca3227ceb316872dd574de0b8a"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/c160b97e3dd18261/attempt-1788844155444252439/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/c160b97e3dd18261/complete.json",
+      "sha256": "51de50ee7f8aeb6055b4bd94bad9186cba1155089f1b90fcc1c7559175c9dd04"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/c848d2583fbba81d/attempt-1788844301625659024/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/c848d2583fbba81d/complete.json",
+      "sha256": "a4a38845775d2acededca52697060547b6de316998d4897e3e311a9581521b6c"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/c8807688c6ae1afc/attempt-1788844262565040290/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/c8807688c6ae1afc/complete.json",
+      "sha256": "a8a0cd4e9e92eb52366cc6625b79d971faa11804aa6cb996d67be702d0718687"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/d09ff6863574f5c3/attempt-1788844403747913349/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/d09ff6863574f5c3/complete.json",
+      "sha256": "6f8f54727f769c75cc21e37a6e614c0ca2d59089d47637b906533e29ce43eb5c"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/dcf2b2bd876406e9/attempt-1788844656890956027/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/dcf2b2bd876406e9/complete.json",
+      "sha256": "2b38320baafbbde98a67e9ba6927a23e57e59a22b16c997526a9e779992c9691"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/e411b38fea03d5c5/attempt-1788844450519131471/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/e411b38fea03d5c5/complete.json",
+      "sha256": "2bc0eccf1120c607aab0fccac5a798132405ef151f056db5a008d8dfd7edbcd0"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/f13d936e89a1136a/attempt-1788844073376733962/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/f13d936e89a1136a/complete.json",
+      "sha256": "cda9f16c56cdcd33d167a17e1936d477bd300e7ae3a6887f5e1ad3cb3f6b3c16"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/f2810db75d34e351/attempt-1788844173968078937/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/f2810db75d34e351/complete.json",
+      "sha256": "af53874b17308c32b6a335a4825e2fc6b2606394595972fe7c82c0ff6051d25d"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/f553baebb942c696/attempt-1788844024618059653/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/f553baebb942c696/complete.json",
+      "sha256": "5d314cd4f78c4a59bda9750016d41a6fcd215c8bc25a291ed6f50f0c656f7494"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/f86af340938284f7/attempt-1788844100562055449/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/f86af340938284f7/complete.json",
+      "sha256": "91fe489c0a8444651c14528bdc90931600f0256185f9bf761493902778cac51e"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/fbbffd030515d451/attempt-1788844161861160145/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/fbbffd030515d451/complete.json",
+      "sha256": "a5617e229624364ecb09a8414768570ba59f842418bcdf3baecf68eb7eb8c2b2"
+    },
+    {
+      "raw": "machines/ookay/full/inclusion_policy/fe2db7388c6d6d64/attempt-1788844065632058912/samples.u64.gz",
+      "record": "machines/ookay/full/inclusion_policy/fe2db7388c6d6d64/complete.json",
+      "sha256": "e0f80580be1509813746ab39e7a1fab197f3cb7b18e064a6c27b1d2fd2bf4c1b"
+    }
+  ]
+}

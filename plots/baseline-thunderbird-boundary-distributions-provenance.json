@@ -1,0 +1,48 @@
+{
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "selection": "Up to seven successive final-batch random points starting three points before the first exploratory departure; smallest points if no departure is resolved. Noisy points remain visible. Complete box plots cover every verified point separately.",
+  "sources": [
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/thunderbird/full/capacity/ca289531c91d914a/attempt-1788839611887537503/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/ca289531c91d914a/complete.json",
+      "sha256": "fccb9dc76502ecefdd8e303493d9249643833007e71da61020078ec026b1c6de"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/thunderbird/full/capacity/0e6ce208cfd66a00/attempt-1788839430783689200/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/0e6ce208cfd66a00/complete.json",
+      "sha256": "bb271f452b961ae08c14fd0dfe0bad16fe60b18a3c6ff6f3e3cbd5a1ea5fead7"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/thunderbird/full/capacity/60f9f215f14d306f/attempt-1788839444322925753/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/60f9f215f14d306f/complete.json",
+      "sha256": "7106bab4965cfc21c15ba3495513c5598e34ccfa3ac462eb29d969c5eef5c30e"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/thunderbird/full/capacity/08e18ee43ee643c5/attempt-1788842662551039453/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/08e18ee43ee643c5/complete.json",
+      "sha256": "281df35dda950ab4cd19fbf06f93b285158933b593031c95dfc49d6be1d85761"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/thunderbird/full/capacity/40bdf2c3a0bb9517/attempt-1788840431459980791/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/40bdf2c3a0bb9517/complete.json",
+      "sha256": "d6faf56786fae76858c6b717fb7913effa04d9070fae5770b6d67abd2d4583a7"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/thunderbird/full/capacity/ec389fdae0dd0a66/attempt-1788842167426757477/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/ec389fdae0dd0a66/complete.json",
+      "sha256": "10333f2e7c0b883d28e9dbe50c4521d654e2a940dd523e262958dede19e15978"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/thunderbird/full/capacity/1ce57817110636b8/attempt-1788840627374844169/samples.u64.gz",
+      "record": "machines/thunderbird/full/capacity/1ce57817110636b8/complete.json",
+      "sha256": "c450fc0fda297ab21884401d690258d0492e599ddbf4c5f0ebe4f88be1c2048b"
+    }
+  ]
+}

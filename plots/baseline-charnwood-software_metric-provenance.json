@@ -1,0 +1,23 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/charnwood/full/software_metric/00cef01de4beae11/attempt-1788849644705009178/samples.u64.gz",
+      "record": "machines/charnwood/full/software_metric/00cef01de4beae11/complete.json",
+      "sha256": "2dd048ac083e1212d642fe44dd4a5da5a1c8936fec7a64aaaf39bc78553b7e4c"
+    },
+    {
+      "raw": "machines/charnwood/full/software_metric/321cb4ea8263334b/attempt-1788849648893431450/samples.u64.gz",
+      "record": "machines/charnwood/full/software_metric/321cb4ea8263334b/complete.json",
+      "sha256": "49f160cc97ba0fdb584ef447c115625c6447616adcd79daff15b0befeee27ab6"
+    },
+    {
+      "raw": "machines/charnwood/full/software_metric/484f3d0a0a6e6e81/attempt-1788849656818619445/samples.u64.gz",
+      "record": "machines/charnwood/full/software_metric/484f3d0a0a6e6e81/complete.json",
+      "sha256": "6f67577c308b8981fff63ceadd3da842777992f5c9acb12df806f5b6c2b0faff"
+    }
+  ]
+}

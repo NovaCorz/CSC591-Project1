@@ -1,0 +1,158 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/09264f309289607b/attempt-1788847330714052117/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/09264f309289607b/complete.json",
+      "sha256": "61aa2cf95746e866d7a9cdcf277c0ca2f0ad7268a5a57dab489e2dc92c2a2f67"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/09fcceb9f0701d51/attempt-1788847408570753346/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/09fcceb9f0701d51/complete.json",
+      "sha256": "c12a6be599f096b73354d3c981912356a66308a26ce7cf8c2df3bd5ae6594cca"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/0ae4fe51612aff70/attempt-1788847301222459979/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/0ae4fe51612aff70/complete.json",
+      "sha256": "0e10e5daef9c2dfbae7aeff9e7a3961e3bd22fc6f4343bef5e2d69d873e43f99"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/0cdcd6079a6e1f74/attempt-1788847608159004203/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/0cdcd6079a6e1f74/complete.json",
+      "sha256": "ad770062f8d43af6bc34fabc4615cdb5d8ca78af717a91443c25eff7a3a0e163"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/0ffcaa1244f6ed2c/attempt-1788847308776535542/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/0ffcaa1244f6ed2c/complete.json",
+      "sha256": "d84b2b657db2d8b322a55da3607dce6961dddb00e1ba6b44fe6cf9f677bbdd55"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/10769efbbbd50276/attempt-1788847396930540705/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/10769efbbbd50276/complete.json",
+      "sha256": "fbb8e04d0cd79c98c3211f74bbebad1a6566670f91671600e60af20a2c547bed"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/2a6bf9962dbfcbb8/attempt-1788847498457814691/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/2a6bf9962dbfcbb8/complete.json",
+      "sha256": "8a74ad7133d37a01b66f276d30c3d7ebfed1e46f9836de9e4a589e879f5b2802"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/3ebca3d513de705c/attempt-1788847391243074640/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/3ebca3d513de705c/complete.json",
+      "sha256": "7cac4397e857a690808ebe7cfa06ada1e555fb7fcdd32b6908eb9e5634cc45f9"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/3f1ca38365853e16/attempt-1788848184549551146/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/3f1ca38365853e16/complete.json",
+      "sha256": "3c2a7773ec2776cca90aa52b2567d873432569f3924bcb32b25e87cf959fa780"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/46c54f30bcfb3857/attempt-1788848173861240758/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/46c54f30bcfb3857/complete.json",
+      "sha256": "7e230e820d2a61a203d8c166da8ecc20d847bf749f44165da084611f3deab1e3"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/5641d229bd0d48bd/attempt-1788848831415134976/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/5641d229bd0d48bd/attempt-1788848831415134976/run.json",
+      "sha256": "bf389b601911efc04b92e31fd9fa8783cfc547aa69054fa16c3b186d4ca5ac39"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/56bc7148eecc0adc/attempt-1788848814342314091/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/56bc7148eecc0adc/complete.json",
+      "sha256": "ec36dda979c444421129f3d6b93bf4aaccb8ffeb7c79450092e47b18e54a14b2"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/5743e022151a0e5e/attempt-1788848236863085854/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/5743e022151a0e5e/attempt-1788848236863085854/run.json",
+      "sha256": "8ff8a38e09702a81de144de2eb99727b0e82d0c8a8157512545dbd8426030388"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/70cd82f89c6f8acf/attempt-1788847557570448665/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/70cd82f89c6f8acf/complete.json",
+      "sha256": "dc06961c362c7ab8b44d95eceaa626cd20d5b1d8df1f7c24ebdb9de548b6effb"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/8136a51d3f6be3a0/attempt-1788847979303180232/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/8136a51d3f6be3a0/complete.json",
+      "sha256": "bb0f6d561393d83edd343c64a2faa53982a625da2b84f89132948bc960ff841c"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/a06fdfd78d47aab2/attempt-1788847350739996006/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/a06fdfd78d47aab2/complete.json",
+      "sha256": "c2c0b7b85591eb575c7a5144ca7fa7f1204e9aba5f463f4bf084ad3c077ca4f9"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/a6b01235c80730fc/attempt-1788847492158290418/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/a6b01235c80730fc/complete.json",
+      "sha256": "6450a095a0b859d200d1b4537ca0bc8533ba90008c78ed908638fee964f2eb51"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/ad0279856ca99a1d/attempt-1788847338519133166/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/ad0279856ca99a1d/complete.json",
+      "sha256": "d765d4c70d939e9b0bc79862937d544b098b409c55ceb3c5e248a9e4ef869570"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/be954dc7d28a0a2b/attempt-1788847292095253878/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/be954dc7d28a0a2b/complete.json",
+      "sha256": "3df484f1e0561f04f3299349222e6f908d64115c7d18af6e03a238a374a60f63"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/c160b97e3dd18261/attempt-1788847436397908000/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/c160b97e3dd18261/complete.json",
+      "sha256": "8118846b40b47c531e71ae138499a47a85f35909db0c6dd46ef7c7ca566c066c"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/c848d2583fbba81d/attempt-1788847641151270655/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/c848d2583fbba81d/attempt-1788847641151270655/run.json",
+      "sha256": "6aa145eca8fd66904886c7b03b555a70c85717375c6bfc0cd37952a43dea5f48"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/c8807688c6ae1afc/attempt-1788847600382039358/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/c8807688c6ae1afc/complete.json",
+      "sha256": "48e6479e47289eeb6376df91cf572b31ae84502c3a833216966ae2655e13073b"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/d09ff6863574f5c3/attempt-1788847970963969647/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/d09ff6863574f5c3/complete.json",
+      "sha256": "21d29deec0cabe67c5fdcca759e437aaf248854e0cd5022cc1bea87e55042068"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/dcf2b2bd876406e9/attempt-1788849020816224019/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/dcf2b2bd876406e9/attempt-1788849020816224019/run.json",
+      "sha256": "8927b5887611e9f18966130942badfda2c7227a0255abc9d488578e64b631082"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/e411b38fea03d5c5/attempt-1788848021802456828/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/e411b38fea03d5c5/complete.json",
+      "sha256": "be6856cd14803f83b1deeeab2efd31c9b6f6964e79094223cda38bc88e2a8913"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/f13d936e89a1136a/attempt-1788847378135190221/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/f13d936e89a1136a/complete.json",
+      "sha256": "fc3c8349a9f2aa3a284517c211076f8fed4482175fc6f375b0f72d60d4d90c22"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/f2810db75d34e351/attempt-1788847456815308882/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/f2810db75d34e351/complete.json",
+      "sha256": "62b9b7be5933670ac0c54d95e2dbd050475011a4af03f561b673f0935cc3c53e"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/f553baebb942c696/attempt-1788847296282571791/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/f553baebb942c696/complete.json",
+      "sha256": "aa94fccd935898f9305e0431877a4a5588bf8f79ed48615651f215d292524857"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/fbbffd030515d451/attempt-1788847442745256108/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/fbbffd030515d451/complete.json",
+      "sha256": "c016694a586937aef6a45e9a67852ee1b876c72f6249b06515ff547b8b331981"
+    },
+    {
+      "raw": "machines/charnwood/full/inclusion_policy/fe2db7388c6d6d64/attempt-1788847355754054053/samples.u64.gz",
+      "record": "machines/charnwood/full/inclusion_policy/fe2db7388c6d6d64/complete.json",
+      "sha256": "51d0fe600399d4d01c9fa6bb6f12e60b974afef227a7609e65ea0c86d59c368f"
+    }
+  ]
+}

@@ -1,0 +1,2054 @@
+{
+  "passed": true,
+  "policy": "First chronological full raw attempt without flags and first with flags, per host/round; unavailable categories explicitly recorded",
+  "limitation": "Representative restore regression only; complete coverage and all-attempt verification remain in final-verification.json and the external archives",
+  "command": [
+    "/usr/bin/python3",
+    "/tmp/phase1-curation-qxmaongx/stage/scripts/verify_restored_samples.py",
+    "--workspace",
+    "/gpfs_common/share04/ece592f26/hlee58/tmp/phase1-curation-restore-20260908-qxmaongx",
+    "--output",
+    "/tmp/phase1-curation-qxmaongx/stage/data_processed/all_machines/curation-raw-checks.json"
+  ],
+  "workspace": "/gpfs_common/share04/ece592f26/hlee58/tmp/phase1-curation-restore-20260908-qxmaongx",
+  "groups": 24,
+  "distributions": 47,
+  "samples": 47000000,
+  "results": [
+    {
+      "host": "sunbird",
+      "round": "full",
+      "full_raw_attempts": 380,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/sunbird/full/timer/5b5e8cd2c400f50c/attempt-1788839516810778770/run.json",
+          "raw": "machines/sunbird/full/timer/5b5e8cd2c400f50c/attempt-1788839516810778770/samples.u64.gz",
+          "raw_sha256": "c119331311841f3162b28cfc716f40bc755f48a8393de14b353ee282f22e6c5b",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 57.092104,
+            "stddev": 22.605230807263254,
+            "median": 56.0,
+            "q1": 56.0,
+            "q3": 60.0,
+            "p05": 56.0,
+            "p95": 60.0,
+            "minimum": 56.0,
+            "maximum": 7304.0,
+            "outliers": 43,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 5,
+            "cpu": 5,
+            "node": 1,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              5,
+              29
+            ],
+            "socket": 1
+          },
+          "idle_evidence": "machines/sunbird/full/timer/5b5e8cd2c400f50c/attempt-1788839516810778770/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/sunbird/full/loop/49f938069234e658/attempt-1788839519377987297/run.json",
+          "raw": "machines/sunbird/full/loop/49f938069234e658/attempt-1788839519377987297/samples.u64.gz",
+          "raw_sha256": "34a3153a21d0f37b69fb76d2a39a593dccd0683872ff1630cecf70f98e67b402",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 1.7562688125,
+            "stddev": 1.0783899437467346,
+            "median": 1.75,
+            "q1": 1.75,
+            "q3": 1.75,
+            "p05": 1.75,
+            "p95": 1.75,
+            "minimum": 1.71875,
+            "maximum": 835.1875,
+            "outliers": 993,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 3,
+            "cpu": 3,
+            "node": 1,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              3,
+              27
+            ],
+            "socket": 1
+          },
+          "idle_evidence": "machines/sunbird/full/loop/49f938069234e658/attempt-1788839519377987297/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "sunbird",
+      "round": "followup-v1",
+      "full_raw_attempts": 746,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/sunbird/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859346811432625/run.json",
+          "raw": "machines/sunbird/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859346811432625/samples.u64.gz",
+          "raw_sha256": "fc6ff0c6ff6306d236a357be34d72b4971b798eaa234291906bd6ab93ed4c711",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 46.028039984375,
+            "stddev": 5.260679876372039,
+            "median": 45.8359375,
+            "q1": 45.7421875,
+            "q3": 46.0625,
+            "p05": 45.6640625,
+            "p95": 46.2265625,
+            "minimum": 45.515625,
+            "maximum": 2159.5390625,
+            "outliers": 9468,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 5,
+            "cpu": 5,
+            "node": 1,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              5,
+              29
+            ],
+            "socket": 1
+          },
+          "idle_evidence": "machines/sunbird/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859346811432625/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/sunbird/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859331539448163/run.json",
+          "raw": "machines/sunbird/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859331539448163/samples.u64.gz",
+          "raw_sha256": "c48ee0d0f9b7f11f7e33c08118596714a26d663df7c40021e00a37db2868d461",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 46.18664803125,
+            "stddev": 2.257556456120368,
+            "median": 46.0234375,
+            "q1": 45.8359375,
+            "q3": 46.2890625,
+            "p05": 45.71875,
+            "p95": 46.4765625,
+            "minimum": 45.515625,
+            "maximum": 744.703125,
+            "outliers": 9726,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 3,
+            "cpu": 3,
+            "node": 1,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              3,
+              27
+            ],
+            "socket": 1
+          },
+          "idle_evidence": "machines/sunbird/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859331539448163/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "sunbird",
+      "round": "uncertainty-v1",
+      "full_raw_attempts": 141,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/sunbird/uncertainty-v1/timer/627972eddbffe065/attempt-1788872841369136145/run.json",
+          "raw": "machines/sunbird/uncertainty-v1/timer/627972eddbffe065/attempt-1788872841369136145/samples.u64.gz",
+          "raw_sha256": "d6170c05f483128656abf3ecaa7526864bcca317c10e932fb2655c7307dae8ca",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 58.378508,
+            "stddev": 127.28237812241613,
+            "median": 60.0,
+            "q1": 56.0,
+            "q3": 60.0,
+            "p05": 56.0,
+            "p95": 60.0,
+            "minimum": 56.0,
+            "maximum": 115304.0,
+            "outliers": 56,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 3,
+            "cpu": 3,
+            "node": 1,
+            "peak_busy_fraction": 0.009900990099009901,
+            "siblings": [
+              3,
+              27
+            ],
+            "socket": 1
+          },
+          "idle_evidence": "machines/sunbird/uncertainty-v1/timer/627972eddbffe065/attempt-1788872841369136145/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/sunbird/uncertainty-v1/timer/b247e68cafa7ea7e/attempt-1788872843988907555/run.json",
+          "raw": "machines/sunbird/uncertainty-v1/timer/b247e68cafa7ea7e/attempt-1788872843988907555/samples.u64.gz",
+          "raw_sha256": "3a9cb557f5804ef29bb148b13885f4fac76351950a9868c8c0f8ea786e434410",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 4.1479809453125,
+            "stddev": 0.8996403714101899,
+            "median": 4.1328125,
+            "q1": 4.1328125,
+            "q3": 4.140625,
+            "p05": 4.125,
+            "p95": 4.140625,
+            "minimum": 4.125,
+            "maximum": 696.7109375,
+            "outliers": 2161,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 3,
+            "cpu": 3,
+            "node": 1,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              3,
+              27
+            ],
+            "socket": 1
+          },
+          "idle_evidence": "machines/sunbird/uncertainty-v1/timer/b247e68cafa7ea7e/attempt-1788872843988907555/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "thunderbird",
+      "round": "full",
+      "full_raw_attempts": 375,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/thunderbird/full/loop/49f938069234e658/attempt-1788839177021566515/run.json",
+          "raw": "machines/thunderbird/full/loop/49f938069234e658/attempt-1788839177021566515/samples.u64.gz",
+          "raw_sha256": "134526f0447cd1a4acadb625749c70f2e918dcfec5f046a18f80c85f718b62d9",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 0.0153700546875,
+            "stddev": 0.002495530542695424,
+            "median": 0.015625,
+            "q1": 0.015625,
+            "q3": 0.015625,
+            "p05": 0.015625,
+            "p95": 0.015625,
+            "minimum": 0.0078125,
+            "maximum": 1.59375,
+            "outliers": 33415,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 2,
+            "cpu": 2,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              2
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/thunderbird/full/loop/49f938069234e658/attempt-1788839177021566515/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/thunderbird/full/timer/5b5e8cd2c400f50c/attempt-1788839167799705382/run.json",
+          "raw": "machines/thunderbird/full/timer/5b5e8cd2c400f50c/attempt-1788839167799705382/samples.u64.gz",
+          "raw_sha256": "9747a35cef812b42c7b9cbce33256d974cfb14db84f319b1a57d49839a9ec1ad",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 0.901394,
+            "stddev": 0.928050493260856,
+            "median": 1.0,
+            "q1": 1.0,
+            "q3": 1.0,
+            "p05": 0.0,
+            "p95": 1.0,
+            "minimum": 0.0,
+            "maximum": 849.0,
+            "outliers": 99811,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 99805
+          },
+          "flags": [
+            "timer resolution: more than 1 percent zero intervals"
+          ],
+          "selected_core": {
+            "core": 4,
+            "cpu": 4,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              4
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/thunderbird/full/timer/5b5e8cd2c400f50c/attempt-1788839167799705382/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "thunderbird",
+      "round": "followup-v1",
+      "full_raw_attempts": 620,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/thunderbird/followup-v1/spatial_alignment/34e138f009e175f5/attempt-1788859328519427118/run.json",
+          "raw": "machines/thunderbird/followup-v1/spatial_alignment/34e138f009e175f5/attempt-1788859328519427118/samples.u64.gz",
+          "raw_sha256": "62be7fd75fb5064587e1551e21988a396c22fc8dddf948122015fdddbc81bb44",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 0.1393448388671875,
+            "stddev": 0.00620168334550452,
+            "median": 0.138671875,
+            "q1": 0.13671875,
+            "q3": 0.1416015625,
+            "p05": 0.1337890625,
+            "p95": 0.1455078125,
+            "minimum": 0.1298828125,
+            "maximum": 2.837890625,
+            "outliers": 21622,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 1,
+            "cpu": 1,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              1
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/thunderbird/followup-v1/spatial_alignment/34e138f009e175f5/attempt-1788859328519427118/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/thunderbird/followup-v1/capacity_refinement/f2183f943388594f/attempt-1788862604157120909/run.json",
+          "raw": "machines/thunderbird/followup-v1/capacity_refinement/f2183f943388594f/attempt-1788862604157120909/samples.u64.gz",
+          "raw_sha256": "a51ba21f83b5ba2e835e4ac3beff32ef3e8f88f4a5cada39d0de37c57505bfa8",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 0.129051552734375,
+            "stddev": 0.0492661336680941,
+            "median": 0.126953125,
+            "q1": 0.125,
+            "q3": 0.130859375,
+            "p05": 0.1220703125,
+            "p95": 0.1357421875,
+            "minimum": 0.115234375,
+            "maximum": 26.6474609375,
+            "outliers": 23140,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/thunderbird/followup-v1/capacity_refinement/f2183f943388594f/attempt-1788862604157120909/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "thunderbird",
+      "round": "uncertainty-v1",
+      "full_raw_attempts": 1379,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/thunderbird/uncertainty-v1/timer/1a28110628321513/attempt-1788872837265509282/run.json",
+          "raw": "machines/thunderbird/uncertainty-v1/timer/1a28110628321513/attempt-1788872837265509282/samples.u64.gz",
+          "raw_sha256": "591d9fe6c483e2820494170a0c4a57a10f2b48296970e202f17f086131bc5bdb",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 0.900551,
+            "stddev": 0.43763122365764523,
+            "median": 1.0,
+            "q1": 1.0,
+            "q3": 1.0,
+            "p05": 0.0,
+            "p95": 1.0,
+            "minimum": 0.0,
+            "maximum": 179.0,
+            "outliers": 100137,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 100130
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/thunderbird/uncertainty-v1/timer/1a28110628321513/attempt-1788872837265509282/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/thunderbird/uncertainty-v1/batched_conflict/add21501f1391d9a/attempt-1788873040946842580/run.json",
+          "raw": "machines/thunderbird/uncertainty-v1/batched_conflict/add21501f1391d9a/attempt-1788873040946842580/samples.u64.gz",
+          "raw_sha256": "ac466a2bd006b97e469796000c7681e1ace97e7e4f4fc7932fc39af0a83ac1d2",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 0.1777814892578125,
+            "stddev": 0.053021214389049276,
+            "median": 0.1611328125,
+            "q1": 0.1552734375,
+            "q3": 0.2060546875,
+            "p05": 0.1171875,
+            "p95": 0.2978515625,
+            "minimum": 0.1171875,
+            "maximum": 3.6064453125,
+            "outliers": 60078,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "block median drift exceeds 20 percent"
+          ],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/thunderbird/uncertainty-v1/batched_conflict/add21501f1391d9a/attempt-1788873040946842580/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "skylark",
+      "round": "full",
+      "full_raw_attempts": 329,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/skylark/full/timer/5b5e8cd2c400f50c/attempt-1788839166994454748/run.json",
+          "raw": "machines/skylark/full/timer/5b5e8cd2c400f50c/attempt-1788839166994454748/samples.u64.gz",
+          "raw_sha256": "5ceda15e965e94bd11f31b83d4d05ffd62aa83e3c969c9eec61fd64a4b4485ca",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 71.8818,
+            "stddev": 20.884240970442782,
+            "median": 72.0,
+            "q1": 72.0,
+            "q3": 72.0,
+            "p05": 48.0,
+            "p95": 72.0,
+            "minimum": 48.0,
+            "maximum": 4704.0,
+            "outliers": 96074,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/skylark/full/timer/5b5e8cd2c400f50c/attempt-1788839166994454748/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/skylark/full/capacity/02f93595f3da4a10/attempt-1788840419876213840/run.json",
+          "raw": "machines/skylark/full/capacity/02f93595f3da4a10/attempt-1788840419876213840/samples.u64.gz",
+          "raw_sha256": "e90db51622a30be01e0ff7d8684631fc65e9cd7c863656c036d1e724d21af67e",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 27.992907609375,
+            "stddev": 7.105972442511176,
+            "median": 27.75,
+            "q1": 27.46875,
+            "q3": 28.078125,
+            "p05": 27.09375,
+            "p95": 28.828125,
+            "minimum": 26.015625,
+            "maximum": 6202.96875,
+            "outliers": 49417,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/skylark/full/capacity/02f93595f3da4a10/attempt-1788840419876213840/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "skylark",
+      "round": "followup-v1",
+      "full_raw_attempts": 678,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/skylark/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859327613842771/run.json",
+          "raw": "machines/skylark/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859327613842771/samples.u64.gz",
+          "raw_sha256": "1f6c45f8e5c301063f42128fa1ef0adf765c734087642877b874f960af3c9c64",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 16.174557,
+            "stddev": 2.6006843705907863,
+            "median": 16.03125,
+            "q1": 15.890625,
+            "q3": 16.3125,
+            "p05": 15.75,
+            "p95": 16.640625,
+            "minimum": 15.375,
+            "maximum": 1060.96875,
+            "outliers": 14057,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/skylark/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859327613842771/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/skylark/followup-v1/spatial_alignment/cb8cd038ad709a09/attempt-1788859346938108897/run.json",
+          "raw": "machines/skylark/followup-v1/spatial_alignment/cb8cd038ad709a09/attempt-1788859346938108897/samples.u64.gz",
+          "raw_sha256": "7b82d636ada902f506fe343d2e72df621a7e5af4f311153eaaf3c14367af4004",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 15.301232953125,
+            "stddev": 2.3379752068570974,
+            "median": 15.234375,
+            "q1": 15.046875,
+            "q3": 15.421875,
+            "p05": 14.8125,
+            "p95": 15.75,
+            "minimum": 14.25,
+            "maximum": 1017.140625,
+            "outliers": 19779,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/skylark/followup-v1/spatial_alignment/cb8cd038ad709a09/attempt-1788859346938108897/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "skylark",
+      "round": "uncertainty-v1",
+      "full_raw_attempts": 30,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/skylark/uncertainty-v1/timer/627972eddbffe065/attempt-1788872836001647103/run.json",
+          "raw": "machines/skylark/uncertainty-v1/timer/627972eddbffe065/attempt-1788872836001647103/samples.u64.gz",
+          "raw_sha256": "480a4da227c1710174c5f3211565aa6da02cf1b5470940324e58785d93094dd5",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 71.584056,
+            "stddev": 20.64096801602155,
+            "median": 72.0,
+            "q1": 72.0,
+            "q3": 72.0,
+            "p05": 72.0,
+            "p95": 72.0,
+            "minimum": 48.0,
+            "maximum": 9000.0,
+            "outliers": 71039,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/skylark/uncertainty-v1/timer/627972eddbffe065/attempt-1788872836001647103/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/skylark/uncertainty-v1/spatial_residency/361a93ad175e470c/attempt-1788873012933787716/run.json",
+          "raw": "machines/skylark/uncertainty-v1/spatial_residency/361a93ad175e470c/attempt-1788873012933787716/samples.u64.gz",
+          "raw_sha256": "ce8cbe333ef221ef9cb244c2e874029922ab18c54d95b9681d41f0c555a3017f",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 6.117609328125,
+            "stddev": 1.4057660795478286,
+            "median": 6.046875,
+            "q1": 6.0,
+            "q3": 6.140625,
+            "p05": 5.953125,
+            "p95": 6.28125,
+            "minimum": 5.859375,
+            "maximum": 950.578125,
+            "outliers": 43968,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/skylark/uncertainty-v1/spatial_residency/361a93ad175e470c/attempt-1788873012933787716/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "artemisia",
+      "round": "full",
+      "full_raw_attempts": 429,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/artemisia/full/timer/5b5e8cd2c400f50c/attempt-1788839168800138957/run.json",
+          "raw": "machines/artemisia/full/timer/5b5e8cd2c400f50c/attempt-1788839168800138957/samples.u64.gz",
+          "raw_sha256": "598aa4f44f2ea9ad5eaa6309a44de960e4734d78c6b34022a7bf76fe21ce6fd3",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 66.382978,
+            "stddev": 29.386127124818326,
+            "median": 66.0,
+            "q1": 66.0,
+            "q3": 66.0,
+            "p05": 64.0,
+            "p95": 70.0,
+            "minimum": 60.0,
+            "maximum": 10536.0,
+            "outliers": 246835,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 1,
+            "cpu": 1,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              1,
+              57
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/artemisia/full/timer/5b5e8cd2c400f50c/attempt-1788839168800138957/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/artemisia/full/latency/a2061cd0d0459e0e/attempt-1788839185402268148/run.json",
+          "raw": "machines/artemisia/full/latency/a2061cd0d0459e0e/attempt-1788839185402268148/samples.u64.gz",
+          "raw_sha256": "b236e0c66b1000ca1062b3d33e3188a8da4be9954971b3d61a99769aff93078c",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 5.14730040234375,
+            "stddev": 1.7394872011990523,
+            "median": 5.12890625,
+            "q1": 5.12109375,
+            "q3": 5.13671875,
+            "p05": 5.1171875,
+            "p95": 5.14453125,
+            "minimum": 5.09765625,
+            "maximum": 1411.78515625,
+            "outliers": 3387,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0,
+              56
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/artemisia/full/latency/a2061cd0d0459e0e/attempt-1788839185402268148/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "artemisia",
+      "round": "followup-v1",
+      "full_raw_attempts": 693,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/artemisia/followup-v1/spatial_alignment/0a19cc442025c532/attempt-1788859358557389259/run.json",
+          "raw": "machines/artemisia/followup-v1/spatial_alignment/0a19cc442025c532/attempt-1788859358557389259/samples.u64.gz",
+          "raw_sha256": "ec1c0c6d13ed864be4c46f1c258f30796bb0b787ea06b78e1c12c9f8f0f9da24",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 17.2451592890625,
+            "stddev": 1.1559335385451281,
+            "median": 17.203125,
+            "q1": 17.109375,
+            "q3": 17.2578125,
+            "p05": 17.03125,
+            "p95": 17.421875,
+            "minimum": 16.9375,
+            "maximum": 403.3671875,
+            "outliers": 6220,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 8,
+            "cpu": 8,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              8,
+              64
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/artemisia/followup-v1/spatial_alignment/0a19cc442025c532/attempt-1788859358557389259/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/artemisia/followup-v1/spatial_alignment/0a19cc442025c532/attempt-1788859330932564932/run.json",
+          "raw": "machines/artemisia/followup-v1/spatial_alignment/0a19cc442025c532/attempt-1788859330932564932/samples.u64.gz",
+          "raw_sha256": "cd399743d375fb7b0f80e606caa3cad6fe79895c8f09554df0b1ffa22164cca7",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 17.3562307890625,
+            "stddev": 1.896514147152477,
+            "median": 17.2734375,
+            "q1": 17.203125,
+            "q3": 17.375,
+            "p05": 17.015625,
+            "p95": 17.625,
+            "minimum": 16.875,
+            "maximum": 609.8984375,
+            "outliers": 47814,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches",
+            "SMT sibling became busy"
+          ],
+          "selected_core": {
+            "core": 3,
+            "cpu": 3,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              3,
+              59
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/artemisia/followup-v1/spatial_alignment/0a19cc442025c532/attempt-1788859330932564932/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "artemisia",
+      "round": "uncertainty-v1",
+      "full_raw_attempts": 30,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/artemisia/uncertainty-v1/timer/19e9f752ba9c575a/attempt-1788872841084869664/run.json",
+          "raw": "machines/artemisia/uncertainty-v1/timer/19e9f752ba9c575a/attempt-1788872841084869664/samples.u64.gz",
+          "raw_sha256": "5841488b883274764431a7e5b8a040d9c19eabee27b08132c3f2326fa6efacd0",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 63.32422,
+            "stddev": 29.498987500961174,
+            "median": 64.0,
+            "q1": 62.0,
+            "q3": 64.0,
+            "p05": 60.0,
+            "p95": 66.0,
+            "minimum": 56.0,
+            "maximum": 7568.0,
+            "outliers": 30024,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 28,
+            "cpu": 28,
+            "node": 1,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              28,
+              84
+            ],
+            "socket": 1
+          },
+          "idle_evidence": "machines/artemisia/uncertainty-v1/timer/19e9f752ba9c575a/attempt-1788872841084869664/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/artemisia/uncertainty-v1/spatial_residency/21dc41a0ad02b8f0/attempt-1788873038799831482/run.json",
+          "raw": "machines/artemisia/uncertainty-v1/spatial_residency/21dc41a0ad02b8f0/attempt-1788873038799831482/samples.u64.gz",
+          "raw_sha256": "01e0a391324679d98584e73d6832a73e730b353a48d3b434dfadc0ad40973053",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 16.96324959375,
+            "stddev": 105.06057942075508,
+            "median": 16.328125,
+            "q1": 16.2734375,
+            "q3": 16.6015625,
+            "p05": 16.234375,
+            "p95": 17.6875,
+            "minimum": 16.1484375,
+            "maximum": 54775.203125,
+            "outliers": 100347,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 28,
+            "cpu": 28,
+            "node": 1,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              28,
+              84
+            ],
+            "socket": 1
+          },
+          "idle_evidence": "machines/artemisia/uncertainty-v1/spatial_residency/21dc41a0ad02b8f0/attempt-1788873038799831482/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "charnwood",
+      "round": "full",
+      "full_raw_attempts": 403,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/charnwood/full/timer/5b5e8cd2c400f50c/attempt-1788839173815309427/run.json",
+          "raw": "machines/charnwood/full/timer/5b5e8cd2c400f50c/attempt-1788839173815309427/samples.u64.gz",
+          "raw_sha256": "544ff77172f375d1eedfa3c9e40f9cdf4872786b92b81730a9f7d0f2d87a13d5",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 67.257266,
+            "stddev": 47.56454894763073,
+            "median": 66.0,
+            "q1": 66.0,
+            "q3": 68.0,
+            "p05": 64.0,
+            "p95": 70.0,
+            "minimum": 60.0,
+            "maximum": 16086.0,
+            "outliers": 53465,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 1,
+            "cpu": 5,
+            "node": 0,
+            "peak_busy_fraction": 0.02,
+            "siblings": [
+              1,
+              5
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/charnwood/full/timer/5b5e8cd2c400f50c/attempt-1788839173815309427/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/charnwood/full/timer/5b5e8cd2c400f50c/attempt-1788839169708377989/run.json",
+          "raw": "machines/charnwood/full/timer/5b5e8cd2c400f50c/attempt-1788839169708377989/samples.u64.gz",
+          "raw_sha256": "f22e4f04803215a3d6b6704e115253e483b773da54dc0a4364fa17bdd1de9cb4",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 67.133128,
+            "stddev": 50.44808902173899,
+            "median": 66.0,
+            "q1": 66.0,
+            "q3": 68.0,
+            "p05": 64.0,
+            "p95": 70.0,
+            "minimum": 60.0,
+            "maximum": 21310.0,
+            "outliers": 46229,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "SMT sibling became busy"
+          ],
+          "selected_core": {
+            "core": 1,
+            "cpu": 1,
+            "node": 0,
+            "peak_busy_fraction": 0.01,
+            "siblings": [
+              1,
+              5
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/charnwood/full/timer/5b5e8cd2c400f50c/attempt-1788839169708377989/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "charnwood",
+      "round": "followup-v1",
+      "full_raw_attempts": 781,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/charnwood/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859347041591318/run.json",
+          "raw": "machines/charnwood/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859347041591318/samples.u64.gz",
+          "raw_sha256": "18815cd14c6a5a2f8a6917b0fdb907fd974e50a4d4111a87f6ba9d114f008c58",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 36.89156290234375,
+            "stddev": 3.6377408282383477,
+            "median": 36.359375,
+            "q1": 36.07421875,
+            "q3": 37.19921875,
+            "p05": 35.8359375,
+            "p95": 38.00390625,
+            "minimum": 33.125,
+            "maximum": 181.48828125,
+            "outliers": 20877,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.01,
+            "siblings": [
+              0,
+              4
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/charnwood/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859347041591318/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/charnwood/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859331680100933/run.json",
+          "raw": "machines/charnwood/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859331680100933/samples.u64.gz",
+          "raw_sha256": "6c46339bfd58fad5f71d3d65fc2392d95a4440c57b009a18a78b6184c20cd364",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 36.54251678125,
+            "stddev": 2.4141404155206456,
+            "median": 36.3515625,
+            "q1": 36.0546875,
+            "q3": 36.56640625,
+            "p05": 35.921875,
+            "p95": 36.9296875,
+            "minimum": 33.38671875,
+            "maximum": 286.71484375,
+            "outliers": 25530,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 1,
+            "cpu": 1,
+            "node": 0,
+            "peak_busy_fraction": 0.01,
+            "siblings": [
+              1,
+              5
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/charnwood/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859331680100933/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "charnwood",
+      "round": "uncertainty-v1",
+      "full_raw_attempts": 197,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/charnwood/uncertainty-v1/timer/627972eddbffe065/attempt-1788872841506540791/run.json",
+          "raw": "machines/charnwood/uncertainty-v1/timer/627972eddbffe065/attempt-1788872841506540791/samples.u64.gz",
+          "raw_sha256": "9fa017a3100440ce45873af1d7c96862830a344501ffbdfd15486efaaa944bc3",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 77.103078,
+            "stddev": 61.30632624282386,
+            "median": 76.0,
+            "q1": 76.0,
+            "q3": 78.0,
+            "p05": 74.0,
+            "p95": 80.0,
+            "minimum": 68.0,
+            "maximum": 14604.0,
+            "outliers": 28270,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0196078431372549,
+            "siblings": [
+              0,
+              4
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/charnwood/uncertainty-v1/timer/627972eddbffe065/attempt-1788872841506540791/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/charnwood/uncertainty-v1/capacity_repeat/7375f17884811610/attempt-1788872978116332974/run.json",
+          "raw": "machines/charnwood/uncertainty-v1/capacity_repeat/7375f17884811610/attempt-1788872978116332974/samples.u64.gz",
+          "raw_sha256": "e372de8c3a4f530afa4e93efec7178004ce8cab7c1c4b44e3c71b5e4b5330703",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 218.1862741015625,
+            "stddev": 14.932980252954241,
+            "median": 216.26953125,
+            "q1": 210.48828125,
+            "q3": 222.765625,
+            "p05": 202.59375,
+            "p95": 241.71484375,
+            "minimum": 159.921875,
+            "maximum": 3236.76953125,
+            "outliers": 53802,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.01,
+            "siblings": [
+              0,
+              4
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/charnwood/uncertainty-v1/capacity_repeat/7375f17884811610/attempt-1788872978116332974/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "crux",
+      "round": "full",
+      "full_raw_attempts": 335,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/crux/full/timer/5b5e8cd2c400f50c/attempt-1788839481748643333/run.json",
+          "raw": "machines/crux/full/timer/5b5e8cd2c400f50c/attempt-1788839481748643333/samples.u64.gz",
+          "raw_sha256": "ec3065255f88e7047257debbbeb1bac4ee0fdad4e48b9a5beae2f59b3f314cec",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 40.512801,
+            "stddev": 15.095975954634037,
+            "median": 40.0,
+            "q1": 40.0,
+            "q3": 41.0,
+            "p05": 39.0,
+            "p95": 43.0,
+            "minimum": 37.0,
+            "maximum": 5498.0,
+            "outliers": 99597,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 1,
+            "cpu": 1,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              1
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/crux/full/timer/5b5e8cd2c400f50c/attempt-1788839481748643333/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/crux/full/capacity/dfe9639c5b8f4223/attempt-1788839981900299888/run.json",
+          "raw": "machines/crux/full/capacity/dfe9639c5b8f4223/attempt-1788839981900299888/samples.u64.gz",
+          "raw_sha256": "4f1b4b8398bca4695c624637fc338879f9e95b2cdd9169dcd3eca4c0a80ef958",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 23.4561516484375,
+            "stddev": 127.47388178086847,
+            "median": 22.876953125,
+            "q1": 22.56640625,
+            "q3": 23.259765625,
+            "p05": 22.123046875,
+            "p95": 23.9140625,
+            "minimum": 20.98828125,
+            "maximum": 57773.302734375,
+            "outliers": 27346,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 1,
+            "cpu": 1,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              1
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/crux/full/capacity/dfe9639c5b8f4223/attempt-1788839981900299888/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "crux",
+      "round": "followup-v1",
+      "full_raw_attempts": 717,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/crux/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859329365154375/run.json",
+          "raw": "machines/crux/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859329365154375/samples.u64.gz",
+          "raw_sha256": "1ac763d6d34d0bf4d97e1facf344ad895931701e2ac80b40e19a08046e33e4d1",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 21.018182072265624,
+            "stddev": 3.6034061277420446,
+            "median": 20.802734375,
+            "q1": 20.712890625,
+            "q3": 21.01171875,
+            "p05": 20.609375,
+            "p95": 21.212890625,
+            "minimum": 20.318359375,
+            "maximum": 659.009765625,
+            "outliers": 16916,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 4,
+            "cpu": 4,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              4
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/crux/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859329365154375/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/crux/followup-v1/capacity_control/ce6c6fab6f9b4830/attempt-1788860180381341733/run.json",
+          "raw": "machines/crux/followup-v1/capacity_control/ce6c6fab6f9b4830/attempt-1788860180381341733/samples.u64.gz",
+          "raw_sha256": "53aca1d61b722f427a83042eda3a9c4a7257ea32d798c0c690579fe8cd15699f",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 98.92240868945312,
+            "stddev": 126.78229575095553,
+            "median": 97.505859375,
+            "q1": 94.28515625,
+            "q3": 101.09375,
+            "p05": 89.96865234375001,
+            "p95": 108.626953125,
+            "minimum": 77.09375,
+            "maximum": 56808.75,
+            "outliers": 33496,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 1,
+            "cpu": 1,
+            "node": 0,
+            "peak_busy_fraction": 0.009900990099009901,
+            "siblings": [
+              1
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/crux/followup-v1/capacity_control/ce6c6fab6f9b4830/attempt-1788860180381341733/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "crux",
+      "round": "uncertainty-v1",
+      "full_raw_attempts": 523,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/crux/uncertainty-v1/timer/627972eddbffe065/attempt-1788872838808852768/run.json",
+          "raw": "machines/crux/uncertainty-v1/timer/627972eddbffe065/attempt-1788872838808852768/samples.u64.gz",
+          "raw_sha256": "05f6574b6c9b9b3128de3f9ad7bb9e75bb8a116991a61aff738485ce31fe3a21",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 40.898541,
+            "stddev": 115.56606027110904,
+            "median": 40.0,
+            "q1": 40.0,
+            "q3": 42.0,
+            "p05": 39.0,
+            "p95": 43.0,
+            "minimum": 37.0,
+            "maximum": 55284.0,
+            "outliers": 120,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 1,
+            "cpu": 1,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              1
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/crux/uncertainty-v1/timer/627972eddbffe065/attempt-1788872838808852768/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/crux/uncertainty-v1/batched_conflict/caded068f7728c38/attempt-1788875442353234791/run.json",
+          "raw": "machines/crux/uncertainty-v1/batched_conflict/caded068f7728c38/attempt-1788875442353234791/samples.u64.gz",
+          "raw_sha256": "fd49e291373a199759d33ad88aff140e21bba1c50e5f62c49f95b5df41b4cc3c",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 12.668055916015625,
+            "stddev": 105.97709076758812,
+            "median": 12.115234375,
+            "q1": 12.0546875,
+            "q3": 12.21875,
+            "p05": 12.00390625,
+            "p95": 12.7265625,
+            "minimum": 11.763671875,
+            "maximum": 55998.9296875,
+            "outliers": 143143,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 2,
+            "cpu": 2,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              2
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/crux/uncertainty-v1/batched_conflict/caded068f7728c38/attempt-1788875442353234791/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "ookay",
+      "round": "full",
+      "full_raw_attempts": 371,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/ookay/full/timer/5b5e8cd2c400f50c/attempt-1788839586943494008/run.json",
+          "raw": "machines/ookay/full/timer/5b5e8cd2c400f50c/attempt-1788839586943494008/samples.u64.gz",
+          "raw_sha256": "ef01fa4cbcb2706b19bfc2f73547e04cd1df4cffb61679995d108cd5e59f48fd",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 53.738932,
+            "stddev": 34.58170255197866,
+            "median": 54.0,
+            "q1": 52.0,
+            "q3": 54.0,
+            "p05": 52.0,
+            "p95": 56.0,
+            "minimum": 48.0,
+            "maximum": 10296.0,
+            "outliers": 2676,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 2,
+            "cpu": 2,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              2,
+              6
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/ookay/full/timer/5b5e8cd2c400f50c/attempt-1788839586943494008/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/ookay/full/capacity/db1aa23d31e6a01c/attempt-1788839681254727566/run.json",
+          "raw": "machines/ookay/full/capacity/db1aa23d31e6a01c/attempt-1788839681254727566/samples.u64.gz",
+          "raw_sha256": "9906a22535aa3e8f3983ffbd997d86e938a622c1be4ca078c9d0138010217ec3",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 3.80674316015625,
+            "stddev": 0.5479984445424694,
+            "median": 3.73046875,
+            "q1": 3.72265625,
+            "q3": 3.73828125,
+            "p05": 3.71484375,
+            "p95": 4.6953125,
+            "minimum": 3.6796875,
+            "maximum": 124.20703125,
+            "outliers": 78478,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "block median drift exceeds 20 percent"
+          ],
+          "selected_core": {
+            "core": 2,
+            "cpu": 2,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              2,
+              6
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/ookay/full/capacity/db1aa23d31e6a01c/attempt-1788839681254727566/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "ookay",
+      "round": "followup-v1",
+      "full_raw_attempts": 674,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/ookay/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859332378253303/run.json",
+          "raw": "machines/ookay/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859332378253303/samples.u64.gz",
+          "raw_sha256": "508ac0baa16a19e7fdae79ef1b729d5356e3029d264d6fd238ca905594d6e06b",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 26.67874751171875,
+            "stddev": 1.5386852662725343,
+            "median": 26.6015625,
+            "q1": 26.3671875,
+            "q3": 26.828125,
+            "p05": 25.96875,
+            "p95": 27.171875,
+            "minimum": 25.52734375,
+            "maximum": 152.61328125,
+            "outliers": 14214,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 2,
+            "cpu": 2,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              2,
+              6
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/ookay/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859332378253303/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/ookay/followup-v1/capacity_refinement/bbf24140bcfc6f9c/attempt-1788861978572950041/run.json",
+          "raw": "machines/ookay/followup-v1/capacity_refinement/bbf24140bcfc6f9c/attempt-1788861978572950041/samples.u64.gz",
+          "raw_sha256": "f593419659df66a53781ad889e4a66ff13946dcc5b41c0dab03d77447d0f77f6",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 27.1143994609375,
+            "stddev": 1.47863190848273,
+            "median": 27.03515625,
+            "q1": 26.64453125,
+            "q3": 27.38671875,
+            "p05": 26.2578125,
+            "p95": 27.859375,
+            "minimum": 25.48828125,
+            "maximum": 157.90625,
+            "outliers": 6765,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "SMT sibling became busy"
+          ],
+          "selected_core": {
+            "core": 2,
+            "cpu": 2,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              2,
+              6
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/ookay/followup-v1/capacity_refinement/bbf24140bcfc6f9c/attempt-1788861978572950041/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "ookay",
+      "round": "uncertainty-v1",
+      "full_raw_attempts": 26,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/ookay/uncertainty-v1/timer/627972eddbffe065/attempt-1788872842006250817/run.json",
+          "raw": "machines/ookay/uncertainty-v1/timer/627972eddbffe065/attempt-1788872842006250817/samples.u64.gz",
+          "raw_sha256": "c7b449ce31d509a3972d08fc2694705a72ef943886326566d3a2ae2693bca76b",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 53.907828,
+            "stddev": 50.758557827755595,
+            "median": 54.0,
+            "q1": 52.0,
+            "q3": 54.0,
+            "p05": 52.0,
+            "p95": 56.0,
+            "minimum": 48.0,
+            "maximum": 31710.0,
+            "outliers": 3809,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 2,
+            "cpu": 2,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              2,
+              6
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/ookay/uncertainty-v1/timer/627972eddbffe065/attempt-1788872842006250817/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": false,
+          "reason": "No full raw attempt in this category"
+        }
+      ]
+    },
+    {
+      "host": "upgrade",
+      "round": "full",
+      "full_raw_attempts": 368,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/upgrade/full/timer/5b5e8cd2c400f50c/attempt-1788839482481731355/run.json",
+          "raw": "machines/upgrade/full/timer/5b5e8cd2c400f50c/attempt-1788839482481731355/samples.u64.gz",
+          "raw_sha256": "d612ac1b6a24a4736d7069a67f524af20843cc400d3adf558a28873a8aac4089",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 43.927372,
+            "stddev": 164.90381093364846,
+            "median": 43.0,
+            "q1": 42.0,
+            "q3": 44.0,
+            "p05": 41.0,
+            "p95": 45.0,
+            "minimum": 39.0,
+            "maximum": 48013.0,
+            "outliers": 525,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0,
+              6
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/upgrade/full/timer/5b5e8cd2c400f50c/attempt-1788839482481731355/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/upgrade/full/capacity/27619a8563b84088/attempt-1788839576114555067/run.json",
+          "raw": "machines/upgrade/full/capacity/27619a8563b84088/attempt-1788839576114555067/samples.u64.gz",
+          "raw_sha256": "0b87260f22d7e6a0b3a5b421f620e4726f6244ceba800d77bd23802d162162c8",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 3.559749220703125,
+            "stddev": 7.391806912403562,
+            "median": 3.3203125,
+            "q1": 3.18359375,
+            "q3": 3.423828125,
+            "p05": 3.03125,
+            "p95": 4.5546875,
+            "minimum": 2.990234375,
+            "maximum": 2278.8671875,
+            "outliers": 155710,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "block median drift exceeds 20 percent"
+          ],
+          "selected_core": {
+            "core": 1,
+            "cpu": 1,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              1,
+              7
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/upgrade/full/capacity/27619a8563b84088/attempt-1788839576114555067/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "upgrade",
+      "round": "followup-v1",
+      "full_raw_attempts": 715,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/upgrade/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859331743188708/run.json",
+          "raw": "machines/upgrade/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859331743188708/samples.u64.gz",
+          "raw_sha256": "02b931f93e655cfda43bed6dfe4619dc9dfce9736b1f60670c37c1107ef55213",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 23.53699640625,
+            "stddev": 5.920519781625324,
+            "median": 23.23828125,
+            "q1": 22.87109375,
+            "q3": 23.421875,
+            "p05": 22.708984375,
+            "p95": 23.587890625,
+            "minimum": 22.265625,
+            "maximum": 1570.96875,
+            "outliers": 9399,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0,
+              6
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/upgrade/followup-v1/spatial_alignment/2be89c5843e8a525/attempt-1788859331743188708/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/upgrade/followup-v1/spatial_alignment/2987e04ef6c352a0/attempt-1788859688753790398/run.json",
+          "raw": "machines/upgrade/followup-v1/spatial_alignment/2987e04ef6c352a0/attempt-1788859688753790398/samples.u64.gz",
+          "raw_sha256": "17180dd6041495d3acdd6a0fba74c1913e5d84b9af39aec5ae954c9b13e706a5",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 28.821813384765626,
+            "stddev": 7.87436185649041,
+            "median": 28.146484375,
+            "q1": 27.845703125,
+            "q3": 28.3984375,
+            "p05": 27.62890625,
+            "p95": 28.978515625,
+            "minimum": 27.166015625,
+            "maximum": 1620.216796875,
+            "outliers": 22910,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0,
+              6
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/upgrade/followup-v1/spatial_alignment/2987e04ef6c352a0/attempt-1788859688753790398/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "host": "upgrade",
+      "round": "uncertainty-v1",
+      "full_raw_attempts": 157,
+      "checks": [
+        {
+          "category": "clean",
+          "available": true,
+          "record": "machines/upgrade/uncertainty-v1/timer/627972eddbffe065/attempt-1788872841389488159/run.json",
+          "raw": "machines/upgrade/uncertainty-v1/timer/627972eddbffe065/attempt-1788872841389488159/samples.u64.gz",
+          "raw_sha256": "1136d051802a877d76ccd69fc2ea0e15d8738fcbeea5ef9c71772cd62ef619e2",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 43.841984,
+            "stddev": 119.54599473921577,
+            "median": 44.0,
+            "q1": 42.0,
+            "q3": 44.0,
+            "p05": 41.0,
+            "p95": 45.0,
+            "minimum": 41.0,
+            "maximum": 49406.0,
+            "outliers": 198,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.009900990099009901,
+            "siblings": [
+              0,
+              6
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/upgrade/uncertainty-v1/timer/627972eddbffe065/attempt-1788872841389488159/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        },
+        {
+          "category": "flagged",
+          "available": true,
+          "record": "machines/upgrade/uncertainty-v1/capacity_repeat/13fba9c9008ea5d8/attempt-1788872978737237837/run.json",
+          "raw": "machines/upgrade/uncertainty-v1/capacity_repeat/13fba9c9008ea5d8/attempt-1788872978737237837/samples.u64.gz",
+          "raw_sha256": "28db21a01a6980f156fff9b0b17ee87cb718280b23e344da60db67fc05bad71a",
+          "samples": 1000000,
+          "statistics": {
+            "n": 1000000,
+            "mean": 160.11223211914063,
+            "stddev": 10.311363051177711,
+            "median": 159.181640625,
+            "q1": 156.662109375,
+            "q3": 161.794921875,
+            "p05": 153.041015625,
+            "p95": 166.703125,
+            "minimum": 141.48046875,
+            "maximum": 1955.126953125,
+            "outliers": 32322,
+            "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+            "zero_samples": 0
+          },
+          "flags": [
+            "frequent involuntary context switches"
+          ],
+          "selected_core": {
+            "core": 0,
+            "cpu": 0,
+            "node": 0,
+            "peak_busy_fraction": 0.0,
+            "siblings": [
+              0,
+              6
+            ],
+            "socket": 0
+          },
+          "idle_evidence": "machines/upgrade/uncertainty-v1/capacity_repeat/13fba9c9008ea5d8/attempt-1788872978737237837/idle.json",
+          "idle_windows": 2,
+          "problems": [],
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

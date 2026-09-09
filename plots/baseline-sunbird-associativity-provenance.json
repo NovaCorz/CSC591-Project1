@@ -1,0 +1,468 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/sunbird/full/associativity/0125e466aff06267/attempt-1788843153357784484/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/0125e466aff06267/complete.json",
+      "sha256": "ecfe7707a3cb0cd3c02f14d8c49a69155f84a7fd3e0fdc160da656773e4372ac"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/02fbddef25557571/attempt-1788843424679227646/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/02fbddef25557571/complete.json",
+      "sha256": "038e33b34dcfa5207746182a09d1fadb2a1090b1cee11687f4b28f8581e1f979"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/08e694a1c29ab6ef/attempt-1788843125391209484/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/08e694a1c29ab6ef/complete.json",
+      "sha256": "3cd84ca61d0b577e1ce0a276886bf352c9cb9b6b64f0138bb3767e15414156d7"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/098869a5267a74a2/attempt-1788843300802144385/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/098869a5267a74a2/complete.json",
+      "sha256": "d1f9e982b3bcb0ac10194c7efaea7079703c6715e9b47e5e5a9d8cd4168404dc"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/0de71e85b6737d96/attempt-1788843146536986600/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/0de71e85b6737d96/complete.json",
+      "sha256": "e80fd2821d2117fe68382aea5fc193b03d720bf3718c33c96ceabedcd9f67e58"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/0df74d8fb894b6e1/attempt-1788843435094557589/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/0df74d8fb894b6e1/complete.json",
+      "sha256": "edf95697914793f9f0258e673d8979448171d84282b9fda49802c568c9a40d89"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/13f0d7d0a263471d/attempt-1788843305908532044/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/13f0d7d0a263471d/complete.json",
+      "sha256": "9c9572ebc2bc7983e6431995a41f9429f4743d6a4570c6a5049de6bc4077c2e1"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/14eb24556379dcfb/attempt-1788843069896165467/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/14eb24556379dcfb/complete.json",
+      "sha256": "0d32ea6bd34ff10fabe9a961fb2bee2cedf99e6877440aa49e70da2b1f417617"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/16279bfa69c6f5ec/attempt-1788843397331232854/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/16279bfa69c6f5ec/complete.json",
+      "sha256": "65dd1b311a57f578b363e2ed0c5a9fd1fc4995bae1477eb85fbddcfae89d3d9b"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/180abd395db1ba35/attempt-1788843407816868579/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/180abd395db1ba35/complete.json",
+      "sha256": "df4abbc6e7de9fa98b2a8fa216375a2be413d5fd3448434d2233368daf46f67b"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/1dcefc50fe2a0414/attempt-1788843249874373353/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/1dcefc50fe2a0414/complete.json",
+      "sha256": "7c7d8d0a8c28eab4b3f096df44bf259ae68751d7114a224f63e0cad322024f89"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/1f1398fac073658d/attempt-1788843265604169651/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/1f1398fac073658d/complete.json",
+      "sha256": "3eae5d7a7c48b8095a02e882b0dfcc29a979dcd9af788ad0fb4ad8e6e40ebad1"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/20957831421355f7/attempt-1788843480578962934/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/20957831421355f7/complete.json",
+      "sha256": "211e2788432592df459e0d4de05abebdbf63a5d1495babd259f7b8c4eac170ac"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/24729dfe26beb956/attempt-1788843270994896266/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/24729dfe26beb956/complete.json",
+      "sha256": "5041b7e2dc0f6738142fe634ca20e0cc1d20d529b7e8d8ad61382a18e98b5682"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/27d23ad65a377d16/attempt-1788843188269217638/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/27d23ad65a377d16/complete.json",
+      "sha256": "43135e2db82f6ed519aca5dd907a3e86aede4e518ea11c22b584d8074b2ad0a5"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/281860d2f409d065/attempt-1788843227200605352/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/281860d2f409d065/complete.json",
+      "sha256": "a47cb83fec401a78eb33fd41aede0dc381c00fb55a4aaa1b9bc87c862f7f0097"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/2ddcfada1c8098bf/attempt-1788843602976566579/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/2ddcfada1c8098bf/complete.json",
+      "sha256": "8d03c1b906d3ae45263ddd7e6db6446f6dbe9dc2b79ae42eee17bde47e6b5474"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/2df98e23c5f70c9a/attempt-1788843526275244666/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/2df98e23c5f70c9a/complete.json",
+      "sha256": "ada865c589388b730ffbe739e065aebf705456beea88f91cf5cc2125ab90095d"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/30fd2a2bd7bcefce/attempt-1788843577090884555/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/30fd2a2bd7bcefce/complete.json",
+      "sha256": "1019fd067fb4f6b60f6a45c8ed556ead7ac094fbbdb1cfe55b8326d541e40878"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/388dc7570096aa3a/attempt-1788843260211609662/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/388dc7570096aa3a/complete.json",
+      "sha256": "7012532938c13d31df70d4ea619ab11b8b51f43e94d5a5f08bfef6e9fe5425db"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/3a03af60a1bdec56/attempt-1788843519909648065/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/3a03af60a1bdec56/complete.json",
+      "sha256": "2dbc43c7d9d5f5d915b3d274927f8715763fbe63a3bfc349c6a56d8eedc991a8"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/3a82d6c5dbdc1fe3/attempt-1788843195263377854/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/3a82d6c5dbdc1fe3/complete.json",
+      "sha256": "3a8319d5b7ad77db92b390a8072d623b04a02a4bc64c4f0e5b9d3d5c10bd248e"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/3bebd36e39c445ff/attempt-1788843404404147522/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/3bebd36e39c445ff/complete.json",
+      "sha256": "f9f85ed725a8d71a4e6dfe271bce080b6e0f5c5560294ae91d088094758fb4d1"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/3fe4d33777dba3bc/attempt-1788843092386420909/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/3fe4d33777dba3bc/complete.json",
+      "sha256": "59f89b7b9023865afb6487595eb6439bb5c8e48c6b7f99900a0e5c9b88b22785"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/42e97128993f103c/attempt-1788843392219606415/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/42e97128993f103c/complete.json",
+      "sha256": "d4dc925872cfc807d991240257e63da734e98cc7090ac1bb9622f4c15d7dd9f8"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/44c16700f7805804/attempt-1788843230620903923/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/44c16700f7805804/complete.json",
+      "sha256": "bd5ac873d2654993d32da8000d202fead5d64063ca8e0141eca33c5c8e520fff"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/48443caa3aa66312/attempt-1788843291913861026/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/48443caa3aa66312/complete.json",
+      "sha256": "8c917ea1ce5b95ca1006c79aba8cc161fed68206c87972b48a2852a548e8e59c"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/4938d01266084527/attempt-1788843454424990554/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/4938d01266084527/complete.json",
+      "sha256": "10f71dfac5dfafdfb17e48874cb9a928d60c2f944d37ff8cb2102f9d3b18c53b"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/505d2ac1dc5fcc7f/attempt-1788843548938000122/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/505d2ac1dc5fcc7f/complete.json",
+      "sha256": "d1d0103214e3d3cd512770844934b8adae0d6434ffbb0ca196b70167d60e6487"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/530219a0bf931bd2/attempt-1788843657794425520/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/530219a0bf931bd2/complete.json",
+      "sha256": "e89735580329cef5eda723f0283a33f99c5b8f5cfa5a968971d2979b9604854d"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/5592ad41907b54cc/attempt-1788843649631645760/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/5592ad41907b54cc/complete.json",
+      "sha256": "53b5eea206f14cb229314326493fc67f92dc82f5e02faceba52cc314846504cd"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/5862871edda3f66f/attempt-1788843095825122988/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/5862871edda3f66f/attempt-1788843095825122988/run.json",
+      "sha256": "0a941cc5973d919158d05b4f9eacbbbea70c506bd47c29455d38eeefd2fd75c0"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/5a4471c57508772d/attempt-1788843177885196516/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/5a4471c57508772d/complete.json",
+      "sha256": "46d7fd06932172bd651ea372753e2708c6b9343830899bdcbe68049419d0b040"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/5c66ff202ea02acd/attempt-1788843341675954928/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/5c66ff202ea02acd/complete.json",
+      "sha256": "73682dceb1436b1132d787420332cffab9d1726d0de6729bf432653796201187"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/5dff651cf4f0caa4/attempt-1788843204171584664/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/5dff651cf4f0caa4/complete.json",
+      "sha256": "f73b07cd8b6d8f5d9f778ed6ac4e3f60cab8fdeece3041d13e6c0bc121d59121"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/638c4c3e9b48fd08/attempt-1788843612309347052/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/638c4c3e9b48fd08/complete.json",
+      "sha256": "a5ca49ea0dcb1b59b3b42f6353fdc8e80bc8f79d1d95dc5f5496334ba8bd3fa2"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/659fd270a9e5a2d4/attempt-1788843370233979184/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/659fd270a9e5a2d4/complete.json",
+      "sha256": "abc21d47e52259418e42b482967bce0a7f9edd607fa78073b34ab23c54870a6c"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/6839bef175a68eac/attempt-1788843475213212071/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/6839bef175a68eac/complete.json",
+      "sha256": "1409e1d3cc7af66262384ee2cdf661e9bba173d488b9352a924036162b00cb83"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/69c9ed5f6754eeaa/attempt-1788843442124483297/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/69c9ed5f6754eeaa/complete.json",
+      "sha256": "3fb1a9465e25d93cbe1e1cc5cc431832ae1d898f20c056f47c9111c7205c927d"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/752648bc3404a517/attempt-1788843512174293910/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/752648bc3404a517/complete.json",
+      "sha256": "2b9c0ada07f36199b0f60d6ae43bb1348b9b964319b0651040c8a94e5e5b2cab"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/78b9dd44be6af32c/attempt-1788843542600864213/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/78b9dd44be6af32c/complete.json",
+      "sha256": "8b88e538b6a3fd269cbdbcbe53da01ca96b32b9b5a942ca55b81fd3310caa847"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/792252eb1eb26a03/attempt-1788843461353094250/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/792252eb1eb26a03/complete.json",
+      "sha256": "c670c99e98d69013ffe56d32541466bb7b2d9eca8503ec4d7da2eee87e2189cb"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/7b4562ca32f32ed0/attempt-1788843447499596116/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/7b4562ca32f32ed0/complete.json",
+      "sha256": "dd29eb293e4473b8b0548dd25edb01f79f82173131f3f03dbd5266ba8aa89573"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/7deeba925a88c9fb/attempt-1788843645516070765/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/7deeba925a88c9fb/complete.json",
+      "sha256": "08d8724beb24b9a033c33d02f32759551fd499c887d4171430aca065565fc1bb"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/7fcc9389c5f4af43/attempt-1788843503534526755/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/7fcc9389c5f4af43/complete.json",
+      "sha256": "dda4f9da8ce25920ba4fd58dae65954ebed675015415bcdb9f5e86f2014b3cc7"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/814e9ac69897bde6/attempt-1788843468298259900/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/814e9ac69897bde6/complete.json",
+      "sha256": "f5c5c00776ac01f3c3517f3cc17ecd930354b6c9d00549dfddeb9bc7251857a5"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/81adc5d41eb91805/attempt-1788843167244928283/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/81adc5d41eb91805/complete.json",
+      "sha256": "cc028acfa138320eeb602accbea9eeab3a2ae0703ad8119cc94b923cd7a69de7"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/822e3b9eb63c8bc8/attempt-1788843284968114102/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/822e3b9eb63c8bc8/complete.json",
+      "sha256": "84aa78142c1026c057ed3237b3a78b497c105e81f20ad87fc17f641b0cc5e54a"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/850d2357fc60dbbe/attempt-1788843297378870258/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/850d2357fc60dbbe/complete.json",
+      "sha256": "8552a7eade9656a673a3eabff1b1f3cfa6203262d862098e671e062b0c5dcbb4"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/86259665373d7261/attempt-1788843274491396219/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/86259665373d7261/complete.json",
+      "sha256": "8a223a9512b5d5bd6f1bc480ce40cbd00016275aa3b7cef7326670d1bd7a5a07"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/8a5199b2344a7db9/attempt-1788843350638577797/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/8a5199b2344a7db9/complete.json",
+      "sha256": "bd4b974df51b67aeb9cb5ed6c745474ccb411a082601d3a68474a288489f11a7"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/8c3337288e765847/attempt-1788843113045567742/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/8c3337288e765847/complete.json",
+      "sha256": "85578b1eaf7942051177cff2bebb617171ae613a07bc4d2c35fffc2d811b1172"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/8d8010a811f1f295/attempt-1788843413207685706/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/8d8010a811f1f295/complete.json",
+      "sha256": "c02a95e6381ac89edaa8ee3c637b0ea42f1eec2d0a42e7f68b249ea274afe100"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/96d395d7b98f1f84/attempt-1788843622878078144/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/96d395d7b98f1f84/complete.json",
+      "sha256": "b37ea64f901673062462dd0617d38a08d2a4b66df79d44e9f73ba9f472a72e41"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/9e14f50d66aa0600/attempt-1788843088922324619/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/9e14f50d66aa0600/complete.json",
+      "sha256": "df1d34614af2d1708bdab3e658ff4753b121d7f1be9fc726fc08ae287714e998"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/9e35b188b4dae9e7/attempt-1788843253301326616/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/9e35b188b4dae9e7/complete.json",
+      "sha256": "ef9ec423bea4d9e29312b0c46bfc9c3620670348f84d52a57553390a7b0eefaa"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/a4ae72f4ac2fdfe7/attempt-1788843665941564746/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/a4ae72f4ac2fdfe7/complete.json",
+      "sha256": "8b17fba8457accaf28b033956243348f36278972732befd5904eeea6fcba1333"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/a4de057e0636bebc/attempt-1788843277924879085/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/a4de057e0636bebc/complete.json",
+      "sha256": "f3edb1450dd7479bbb2bd355bb226d9dfea132d7b46efc0320c65a5126d99d68"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/ab77a3ff24635136/attempt-1788843172525471109/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/ab77a3ff24635136/complete.json",
+      "sha256": "3da176624af0cb233908d4e88d192fda7e6c412aef8b7de30d3b96a3d1ce6fb7"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/b0cbc542b99cf3c1/attempt-1788843496636504522/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/b0cbc542b99cf3c1/complete.json",
+      "sha256": "e70e1a3217165da4eb268560f0bc31671f22867e9b42d255e7602e8e8c760275"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/b302653091758b95/attempt-1788843356022495173/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/b302653091758b95/complete.json",
+      "sha256": "ea469fe327430686167eb128340d8141224f4f26228a8cd1c0687f424aac4e4c"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/b45167dbb1a4dcf4/attempt-1788843083559176176/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/b45167dbb1a4dcf4/complete.json",
+      "sha256": "9325c98317ba73e15578c4efd9c8cd4308f54ac1c7d8cfc2b778c74f93998922"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/b7a993fa7f02e0ab/attempt-1788843316803201251/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/b7a993fa7f02e0ab/complete.json",
+      "sha256": "73198f4cff216722e587f6dad67af516e0a515a5d15857f4eab5e6a97d4e9361"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/b8432cf4fb2d6975/attempt-1788843421245552205/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/b8432cf4fb2d6975/complete.json",
+      "sha256": "8e77b58b0bbc407e255601e7d3c19883ae03b167762a53f61e590623670f50ed"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/b961cb295a6d1d6d/attempt-1788843134304324213/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/b961cb295a6d1d6d/complete.json",
+      "sha256": "906e2a48a70fe55ccc551b5445e0d57349af764784e97fd483f72ba84fe1d942"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/bbbe41129a09f065/attempt-1788843585315488656/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/bbbe41129a09f065/complete.json",
+      "sha256": "26584a2b48ccdbf3314cb164fafb91ae37909e8e64b388cee3e9d47d382e569f"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/bc58d547e93e0757/attempt-1788843534535675542/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/bc58d547e93e0757/complete.json",
+      "sha256": "e6a8a7fbd9dc3f0fb687f4a846b00f37d4b60a6bfb6ee0fe489786d2c81d66bc"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/be141e4541c91629/attempt-1788843160291913871/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/be141e4541c91629/complete.json",
+      "sha256": "daac8150e876b21ab5b5e146a6d4afccf3f3985b066208dd451d9713c33adc78"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/c00ea5e9bbe91dc5/attempt-1788843555389813044/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/c00ea5e9bbe91dc5/complete.json",
+      "sha256": "83f7370c4cd373e69aea1c50d257e49d365d0f3b7281782589f90457c14aa95d"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/c1e2d649e275ca86/attempt-1788843223781664507/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/c1e2d649e275ca86/complete.json",
+      "sha256": "e992c338d737b02a96d3a6355d7f72a0f91a1e200ee0756e5d36d229a62055b0"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/c3d91f8271f056bd/attempt-1788843431602211394/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/c3d91f8271f056bd/complete.json",
+      "sha256": "a74d68a5aa677d4722f1f7b1f5a64612db8db57a61230a845923cc24fe501c6e"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/c7672bc58ae7edc5/attempt-1788843078432200822/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/c7672bc58ae7edc5/complete.json",
+      "sha256": "b4c03e571baf0084e5aee9bec1d09525064cabd21894c3f9b56389fcc14f7f0a"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/c8f03f004e7a5530/attempt-1788843181306420198/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/c8f03f004e7a5530/complete.json",
+      "sha256": "4e5d64c5c2517d1e5ca78dbe4a53dd230d2b1672acb122b888b4495ea28f85b5"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/ca2022425061c7cd/attempt-1788843562295581347/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/ca2022425061c7cd/complete.json",
+      "sha256": "fda859b78eca1e53d5a3f469e5a48df6bf11cc3f9b813acc21fdf22dedba59e0"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/cb392f19918325e5/attempt-1788843490085134688/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/cb392f19918325e5/complete.json",
+      "sha256": "6ef8b0cefb6793fba7547b7c35610165de09b024d9c2d8a4b9919cc97214b1f9"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/cd3f9e1f8a17355f/attempt-1788843119979264571/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/cd3f9e1f8a17355f/complete.json",
+      "sha256": "dd6a36b295e1153928d66e70b5cb7c6d7dac1ff8c80b52a7769ae965efb4112f"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/d16d772ae8def436/attempt-1788843568937570064/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/d16d772ae8def436/complete.json",
+      "sha256": "f299189eaab77a43a714509c3ed7eeb399f17f051847d6d59f839b717c2b75af"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/d70164ad97cd0003/attempt-1788843637256384800/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/d70164ad97cd0003/complete.json",
+      "sha256": "e0c03f918c5a298849e4c560f1542b1263c5c5adf33084e6853fbb67586dca4b"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/d9df9d9b0b454499/attempt-1788843234037419835/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/d9df9d9b0b454499/complete.json",
+      "sha256": "0015addfc7a916a2941d4c53d39c18f39b9f8a38e727b1fc1fd04ebcf9f3943f"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/db76ef0097e679f5/attempt-1788843240960324919/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/db76ef0097e679f5/complete.json",
+      "sha256": "e98c96f7e2b7cfd2d884e47e882d84a58a806e5f849bf84251fd842f96c31f95"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/e219f3927eab6efd/attempt-1788843592199398278/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/e219f3927eab6efd/complete.json",
+      "sha256": "8bd12efaf894c38aaed41f95984be66621d5860d6c996758b8ba52a2b7e87e70"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/e6e172d565f205e5/attempt-1788843075014408741/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/e6e172d565f205e5/complete.json",
+      "sha256": "d9253077343457c6a997e96202ceac5e6b1bdb37ee06424da6a8d3bb7f33e60c"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/e7f0d9f17222c50b/attempt-1788843364834304020/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/e7f0d9f17222c50b/complete.json",
+      "sha256": "3514ea500d650d4b3d45038bf90c8d9439b43d168adb13489594fd0de6b33173"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/e80e28eefa71015a/attempt-1788843598880583964/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/e80e28eefa71015a/complete.json",
+      "sha256": "8c4245b33935980c9d9c4dc8e1aa7f289ac09c228afdf2ca2252014265364b9c"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/ea535e1485bb4bda/attempt-1788843323752510140/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/ea535e1485bb4bda/complete.json",
+      "sha256": "58b2d7608de206762e18fbeb5975b7f3a734d40fcdfc04995d070cfc90902bf9"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/ed6eec5e0dc485a1/attempt-1788843312957262688/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/ed6eec5e0dc485a1/complete.json",
+      "sha256": "75a760fdec2303cb78911c1882658172e06bdaa96bcdbbf00bdabb595d95e154"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/f1ae36ee3c789452/attempt-1788843361413045421/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/f1ae36ee3c789452/complete.json",
+      "sha256": "47095988873ab23f211feed01265554063f026e55f9490a93ddbbf0ef5340c09"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/f218da51803830aa/attempt-1788843139620473838/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/f218da51803830aa/complete.json",
+      "sha256": "ef8c8c4160641adf8f322fe42875b8f099cab35ecacae3bba9cf662a00958a9c"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/f3f5fb048dd1d997/attempt-1788843207591772070/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/f3f5fb048dd1d997/complete.json",
+      "sha256": "a47d5f7b24def089a03cf32b08e3d1efa2973b81e032487fd1e25a24762f9512"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/f587803830f9b5b8/attempt-1788843386736257243/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/f587803830f9b5b8/complete.json",
+      "sha256": "8bcad7213b854971656b8d77df1fdb51eebda7dc3e0ef2c424a7188918918556"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/fc548c8314677411/attempt-1788843631038159819/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/fc548c8314677411/complete.json",
+      "sha256": "71283d9a402b59254ed32362f698c25783875bc7caac6c9cfe3923bc54b38adc"
+    },
+    {
+      "raw": "machines/sunbird/full/associativity/fca5de5ceeffc77a/attempt-1788843484425580920/samples.u64.gz",
+      "record": "machines/sunbird/full/associativity/fca5de5ceeffc77a/complete.json",
+      "sha256": "5e47542359e4b3dfc0859f9daae87e6d93053419aacee535dbebfa6f932273f2"
+    }
+  ]
+}

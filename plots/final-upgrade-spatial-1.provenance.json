@@ -1,0 +1,19 @@
+{
+  "comparison_cohort_policy": "machines/upgrade/uncertainty-v1/spatial-cohorts.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/upgrade/uncertainty-v1/spatial_residency/0e0c163db8bf5b6d/attempt-1788874976063121526/run.json",
+    "machines/upgrade/uncertainty-v1/spatial_residency/419e05018003636e/attempt-1788874991793175173/run.json",
+    "machines/upgrade/uncertainty-v1/spatial_residency/f6e839d11c102c67/attempt-1788874983475784336/run.json",
+    "machines/upgrade/uncertainty-v1/spatial_residency/c29077b4ec1cbd9c/attempt-1788875017178778841/run.json",
+    "machines/upgrade/uncertainty-v1/spatial_residency/8ae6f1820d4e9ba3/attempt-1788875008655456359/run.json",
+    "machines/upgrade/uncertainty-v1/spatial_residency/6b74c563788d9d02/attempt-1788875000074601325/run.json",
+    "machines/upgrade/uncertainty-v1/spatial_residency/ca9507ef06000638/attempt-1788875024456809993/run.json",
+    "machines/upgrade/uncertainty-v1/spatial_residency/a96342765990ba23/attempt-1788875040000473500/run.json",
+    "machines/upgrade/uncertainty-v1/spatial_residency/ec32139318de066e/attempt-1788875031629009006/run.json",
+    "machines/upgrade/uncertainty-v1/spatial_residency/73a05ddca85d33d0/attempt-1788875065315017445/run.json",
+    "machines/upgrade/uncertainty-v1/spatial_residency/af2afd8cacaa1fae/attempt-1788875056936144209/run.json",
+    "machines/upgrade/uncertainty-v1/spatial_residency/9e73cb2efb0037d5/attempt-1788875048434594645/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:26.303369+00:00"
+}

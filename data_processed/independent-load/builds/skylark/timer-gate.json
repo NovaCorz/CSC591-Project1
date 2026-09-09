@@ -1,0 +1,24 @@
+{
+  "batch": 4096,
+  "calibrations": [
+    {
+      "attempts": [
+        {
+          "fraction": 0.03125,
+          "records": [
+            "calibration/d445a2735c6b0cfc/attempt-1788928707220690823",
+            "calibration/44b6019a19a40346/attempt-1788928709662659805",
+            "calibration/511efc2dfa06b8df/attempt-1788928712435863086",
+            "calibration/037f0b274cdbd2e9/attempt-1788928720060787946"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "batch": 4096,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "source_digest": "ecd64e61f88e228ffbd24fcdfb3ddd58b9d5b103b0787633a25e647f56b3e4c2",
+  "time": "2026-09-09T04:38:43.881733+00:00"
+}

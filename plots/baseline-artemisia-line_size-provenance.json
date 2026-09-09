@@ -1,0 +1,238 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/artemisia/full/line_size/0147a6c8dc0b8283/attempt-1788844239881087335/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/0147a6c8dc0b8283/complete.json",
+      "sha256": "522c36b3880917cd786fc6efcbf8eca1a4236f78710f6600753ddb6937dcf8d2"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/01b33ae6b426fcef/attempt-1788844368169255171/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/01b33ae6b426fcef/complete.json",
+      "sha256": "a49b2275355032aba7df07a8f1bbfd08e7d325471469fb7527367e0a2a6dddfb"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/07e89c49504c2500/attempt-1788843733314959924/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/07e89c49504c2500/complete.json",
+      "sha256": "d07b1b9ff0a893c8b14c172ae722829ee44442068cf6512fcd0472390cdebb2f"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/0e7d91f7904f6f65/attempt-1788844499298529017/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/0e7d91f7904f6f65/complete.json",
+      "sha256": "73c83eeba3b58f724c2baa45318b203e360371869144d16f1c38b1dc872a6797"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/105289973e395ea9/attempt-1788843951781475079/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/105289973e395ea9/complete.json",
+      "sha256": "0755744a6c19b24b20bb8a48af9c2b510204314fcae2a41d4858e1e585a3912a"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/107f16620d57b45b/attempt-1788844514902898130/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/107f16620d57b45b/complete.json",
+      "sha256": "c797a4d320560156833e0316e4097048583025dab110eb78ff6f0046c9af41d3"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/161f3e642cd2e7d6/attempt-1788843775690772489/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/161f3e642cd2e7d6/complete.json",
+      "sha256": "2e5cc66c1114abf8d0900bbf1ea4d855bd1e3f7c2c4eb419aa552bc0ab966172"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/19d87b88b30ce586/attempt-1788844321989439472/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/19d87b88b30ce586/complete.json",
+      "sha256": "c5a675342726721574f5dfd09f5d515ac2a6b80ed0a2f84866228aab47849405"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/1a0fe92204406a47/attempt-1788843894046839919/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/1a0fe92204406a47/complete.json",
+      "sha256": "3b7567faf6e3664ceacc07426aab6a63c6c66f9d081a0952cb291d07193b1187"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/1cb79712650f1cd0/attempt-1788844118070811409/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/1cb79712650f1cd0/complete.json",
+      "sha256": "99481b7c519e3cc4172011f52aa38dc02cf2326c9ac50814a46d68de0e751fe3"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/27a1be29080330b9/attempt-1788844482566995264/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/27a1be29080330b9/complete.json",
+      "sha256": "19536bc4fe949f81750c1e83ee03b10b6b6113f4df220dda455713cb862965ff"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/35eebd7c3c42f7c6/attempt-1788844149628947568/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/35eebd7c3c42f7c6/complete.json",
+      "sha256": "fc6ed3edaad6e89c9067f0c5f6c875a76a7a74fa2afa2d5ce5e3b1f8943affcb"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/3a8cd90a95cbb4a0/attempt-1788844384228264575/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/3a8cd90a95cbb4a0/complete.json",
+      "sha256": "69305f4faf4bae4c0129a0264d7f308860ae1147ffc5ed98740ba29bed7fc7a5"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/3db240964b227d67/attempt-1788843979801623399/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/3db240964b227d67/complete.json",
+      "sha256": "2f61890127eb3f8aabbf03bb4a5f38b67868724dc46b8eb94615bcff30362f42"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/4940f29d7376c357/attempt-1788843908750957203/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/4940f29d7376c357/complete.json",
+      "sha256": "5805076ad0485d5a113c2a3ecc273eed5b6c35af3050e9491a7124b07091d86b"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/58e98f00b103946d/attempt-1788844338369732382/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/58e98f00b103946d/complete.json",
+      "sha256": "ab043dbf54727111db00d7177443ffc33f8df7f9720ac9c6019f723ee124c645"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/5d2927fff7a318bd/attempt-1788843759186595292/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/5d2927fff7a318bd/complete.json",
+      "sha256": "fa174f1e250e93a8d8540261a8e450f220f52ee633da8943ce60a576a16f54a5"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/64adc4135a4d5ffe/attempt-1788844305783157078/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/64adc4135a4d5ffe/complete.json",
+      "sha256": "fe149ef6a70f064a2374f97317f324b9b25a5b19c8bf8286021cc1fba27cf376"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/64b44c2a04b74f88/attempt-1788844135729353685/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/64b44c2a04b74f88/complete.json",
+      "sha256": "680fcc1413489920dadb9f5221845ea03aabb38fa607d36c9e19fbf2b7dc72bc"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/6ad6536b26478c14/attempt-1788843876363022117/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/6ad6536b26478c14/complete.json",
+      "sha256": "cd9888606a0543bc1b13047570bd34a89538d2a9a90ed240746cce9ff772b398"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/73ff28a3a3d03884/attempt-1788843925075438178/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/73ff28a3a3d03884/complete.json",
+      "sha256": "38fd6da80f382ebe6cf9acbd23e8f3c3ccc7dac91f1f8f02d6983155b586fcf0"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/7959a908e327455f/attempt-1788843848270638693/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/7959a908e327455f/complete.json",
+      "sha256": "93379439b2f534cf85613050e592de830b395aca0cbc38db432b93eb6b1ebd52"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/7c96dd48b8ca24c2/attempt-1788844162350821739/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/7c96dd48b8ca24c2/complete.json",
+      "sha256": "cd447147045310b78d8b874f026ccb002c8d07919872f49a0e3498cd007fa6e1"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/822494cd46496ba3/attempt-1788843992757781612/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/822494cd46496ba3/complete.json",
+      "sha256": "d3309cad8fbff2fe2daf71f8c266f65ec654537c910fc67a5878f36430c88a06"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/82907d438bee4f70/attempt-1788844055666498374/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/82907d438bee4f70/complete.json",
+      "sha256": "9349c0b92f2a523211ed3d1d098b891a29f62345a30a16e1a6ccb14423178516"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/866bcd7ac64da8fe/attempt-1788844010916632942/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/866bcd7ac64da8fe/complete.json",
+      "sha256": "c4a00d788ecaf111ca9fa6cca8973f289390ab95c45658ef683428ad9fa033a5"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/8cad103f59b6b112/attempt-1788844353366711146/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/8cad103f59b6b112/complete.json",
+      "sha256": "0b3c793d539f0fe87d06dfa5c8b34da83b922d3f6a085d289bdd3ffdf8ab3505"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/9708ea1530fe8dcd/attempt-1788844527947802906/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/9708ea1530fe8dcd/complete.json",
+      "sha256": "8be576822b91a692460858d93bed999207d54ce27130f555f24c94b2d5e9b93f"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/973df8c62cc4ff0b/attempt-1788844401096027066/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/973df8c62cc4ff0b/complete.json",
+      "sha256": "b51cdd102df95b9b1cb96d2bfa8893e2065ed89c201a207c8364068cde4c5e13"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/9dc2cdb7921f4820/attempt-1788844466237078428/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/9dc2cdb7921f4820/complete.json",
+      "sha256": "a2282d83c624793d816c79d9762712c794b3f0ea6bed11e06df3f4dac319c518"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/a744d864b87f507f/attempt-1788844449956276732/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/a744d864b87f507f/complete.json",
+      "sha256": "577fa630c0a3f1b1403a9277feb9f044970b09dc1edec8514f3c7465bf06af61"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/aaf8ec76811a6ec0/attempt-1788843967835866525/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/aaf8ec76811a6ec0/complete.json",
+      "sha256": "262408c01b161e79944583ece2c0837c82975d3979ba74f4979a0e1eacc01d31"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/acce400b69ed2ba5/attempt-1788843835005695389/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/acce400b69ed2ba5/complete.json",
+      "sha256": "115e8074f80f3e2e783a532484e264131ede7ac93044c95ef46727ac61490dcd"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/c6abf9a39dd16aca/attempt-1788844175474119963/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/c6abf9a39dd16aca/complete.json",
+      "sha256": "dfa5ed540f08327d673429e81038d2786bc2068bbca3963f72b328f555e29b58"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/c7d283e11d3d0097/attempt-1788844433397749881/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/c7d283e11d3d0097/complete.json",
+      "sha256": "4796cc8b99a61b9e07b4eab870239697a4fe3bc9d70aa60253557836186565b2"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/d526932d8d01bd02/attempt-1788844254254525532/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/d526932d8d01bd02/complete.json",
+      "sha256": "b7520ebe7f88abc60238536032b49c4e0d3f88002e342309b52b3456ff9fd22e"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/d6657ef2025fdf42/attempt-1788844541644208892/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/d6657ef2025fdf42/complete.json",
+      "sha256": "ed93e9091fe77566f4c20431282addd3c29658e4ac9101084bb9a0f8b5b207a1"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/d76ba408cb8de30e/attempt-1788844101842685995/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/d76ba408cb8de30e/complete.json",
+      "sha256": "808aab4d0138936596eaa0875a0c82529febb013b5311deb44d0d52eb2aaf47c"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/da9867440a614d3b/attempt-1788843822200821724/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/da9867440a614d3b/complete.json",
+      "sha256": "1377907d3bc46a8349f19fbbd444b6fe94f11f5af1623310115e4c746f120e67"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/dc576ae190a4f2e8/attempt-1788843746710443897/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/dc576ae190a4f2e8/complete.json",
+      "sha256": "2e82e49654b1dd7309678d11d5d585174a16bd35d9103f7074d04bcd1d6830c5"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/e60e972e59e5461c/attempt-1788844190994497602/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/e60e972e59e5461c/attempt-1788844190994497602/run.json",
+      "sha256": "91e05ad52dbb160c597239c6311847c2e635ab5540a81cb217ca3ec623f15136"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/f430e8cbf3d7a236/attempt-1788844586886348895/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/f430e8cbf3d7a236/complete.json",
+      "sha256": "a4df23b4c7c59f56e17c3d6d04e08c4de04bce0295dadd166a58125a5f5921c7"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/f58382e257a41385/attempt-1788844417224554636/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/f58382e257a41385/complete.json",
+      "sha256": "8878146f11919675a8b2ad8aee02abea2be082d6fe11aed78f524a158e3d65cf"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/f68057e5c08e7b45/attempt-1788844027319275686/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/f68057e5c08e7b45/complete.json",
+      "sha256": "97cc051819f2af5aac89bad96cff905b395de7e5750f65b497a273ba07841584"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/fa336e86efff2e3c/attempt-1788843938719128529/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/fa336e86efff2e3c/complete.json",
+      "sha256": "85c6e2457cb7021f1d744f32ca429f7ee07c03930bc6274c03f98f3073f23726"
+    },
+    {
+      "raw": "machines/artemisia/full/line_size/fa7b6fe29da02a80/attempt-1788843804860260687/samples.u64.gz",
+      "record": "machines/artemisia/full/line_size/fa7b6fe29da02a80/complete.json",
+      "sha256": "be0a734936ac6fce0665cd5a8d63d6418050bf0f0d77786dc73c3e63c9570b22"
+    }
+  ]
+}

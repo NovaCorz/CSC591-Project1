@@ -1,0 +1,48 @@
+{
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "selection": "Up to seven successive final-batch random points starting three points before the first exploratory departure; smallest points if no departure is resolved. Noisy points remain visible. Complete box plots cover every verified point separately.",
+  "sources": [
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/sunbird/full/capacity/31448ada748bc89c/attempt-1788840118803764918/samples.u64.gz",
+      "record": "machines/sunbird/full/capacity/31448ada748bc89c/complete.json",
+      "sha256": "984aed78043f5f608ab1f23feb1ce26649fc3a24da1ba1c0fd8f65bbd6ca78e8"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/sunbird/full/capacity/1089444a01cfc92f/attempt-1788840055552717509/samples.u64.gz",
+      "record": "machines/sunbird/full/capacity/1089444a01cfc92f/complete.json",
+      "sha256": "74f8cf82ee1d38c0a47b314954ed4baef7317af5f78ac38ff381c6a03a5f1d46"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/sunbird/full/capacity/88507a7d2ae5e605/attempt-1788839798968358939/samples.u64.gz",
+      "record": "machines/sunbird/full/capacity/88507a7d2ae5e605/complete.json",
+      "sha256": "af5854e27dcfe69756d87a9b90f882275a10a9f7c470155a48b13580d1caa5af"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/sunbird/full/capacity/537b9a090d377e7b/attempt-1788842133670497483/samples.u64.gz",
+      "record": "machines/sunbird/full/capacity/537b9a090d377e7b/complete.json",
+      "sha256": "fcc296436f257cf962e7c027468e6830c7ebff7d47e55c5ad0c99c71eb1191b9"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/sunbird/full/capacity/627ef310d2a3463d/attempt-1788840781847583738/samples.u64.gz",
+      "record": "machines/sunbird/full/capacity/627ef310d2a3463d/complete.json",
+      "sha256": "3242d25418f9ed3d9347e08afb0ee70868041e5a766704bb0b33661fd6fd702c"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/sunbird/full/capacity/ced5ad1cf10390ae/attempt-1788841904561082884/samples.u64.gz",
+      "record": "machines/sunbird/full/capacity/ced5ad1cf10390ae/complete.json",
+      "sha256": "997899aba1d749c83d34bc14c538640685243742dc910062934f71039f4ea517"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/sunbird/full/capacity/69579aa3f48854e8/attempt-1788841056500660592/samples.u64.gz",
+      "record": "machines/sunbird/full/capacity/69579aa3f48854e8/complete.json",
+      "sha256": "49126bb9e0cb78ccc5db6168083daeda66b402b938da4661347725fa8ffac232"
+    }
+  ]
+}

@@ -1,0 +1,1387 @@
+{
+  "alternate_batch_control_points": 0,
+  "associativity": {
+    "bounded_candidates": [],
+    "candidates": [
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/crux/full/associativity/c3d91f8271f056bd/complete.json",
+          "machines/crux/full/associativity/ed6eec5e0dc485a1/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 9,
+        "sources": [
+          "machines/crux/full/associativity/ed6eec5e0dc485a1/complete.json",
+          "machines/crux/full/associativity/fc548c8314677411/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 21,
+        "sources": [
+          "machines/crux/full/associativity/ca2022425061c7cd/complete.json",
+          "machines/crux/full/associativity/81adc5d41eb91805/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 23,
+        "sources": [
+          "machines/crux/full/associativity/ab77a3ff24635136/complete.json",
+          "machines/crux/full/associativity/c00ea5e9bbe91dc5/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/crux/full/associativity/24729dfe26beb956/complete.json",
+          "machines/crux/full/associativity/20957831421355f7/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 16,
+        "sources": [
+          "machines/crux/full/associativity/b961cb295a6d1d6d/complete.json",
+          "machines/crux/full/associativity/752648bc3404a517/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 17,
+        "sources": [
+          "machines/crux/full/associativity/752648bc3404a517/complete.json",
+          "machines/crux/full/associativity/2ddcfada1c8098bf/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 21,
+        "sources": [
+          "machines/crux/full/associativity/7fcc9389c5f4af43/complete.json",
+          "machines/crux/full/associativity/5592ad41907b54cc/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 23,
+        "sources": [
+          "machines/crux/full/associativity/a4ae72f4ac2fdfe7/complete.json",
+          "machines/crux/full/associativity/27d23ad65a377d16/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 4,
+        "sources": [
+          "machines/crux/full/associativity/86259665373d7261/complete.json",
+          "machines/crux/full/associativity/3a03af60a1bdec56/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/crux/full/associativity/505d2ac1dc5fcc7f/complete.json",
+          "machines/crux/full/associativity/d70164ad97cd0003/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 4,
+        "sources": [
+          "machines/crux/full/associativity/5862871edda3f66f/complete.json",
+          "machines/crux/full/associativity/098869a5267a74a2/complete.json"
+        ],
+        "stride": 262144
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/crux/full/associativity/c7672bc58ae7edc5/complete.json",
+          "machines/crux/full/associativity/d9df9d9b0b454499/complete.json"
+        ],
+        "stride": 262144
+      },
+      {
+        "candidate_resident_addresses": 23,
+        "sources": [
+          "machines/crux/full/associativity/659fd270a9e5a2d4/complete.json",
+          "machines/crux/full/associativity/f3f5fb048dd1d997/complete.json"
+        ],
+        "stride": 262144
+      }
+    ],
+    "limitation": "Only virtual low bits controlled. Physical indexing, page translation, replacement, and slice hashing are unresolved. No way count or derived set count is manufactured.",
+    "status": "effective conflict thresholds; no verified per-level associativity"
+  },
+  "attempts": 338,
+  "cache_table": [
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": 2.705078125,
+      "host": "crux",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": 0.771484375,
+      "level": "L1D candidate",
+      "line_size": "unresolved",
+      "next_level_latency_median": 3.4765625,
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": 32768,
+      "size_upper_bytes": 36864,
+      "status": "unresolved; next-class latency is the first measured departure, not a pure L2-hit latency",
+      "unit": "TSC_ticks/access"
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "crux",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "L2 role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "crux",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "LLC role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    }
+  ],
+  "capacity_candidates": [
+    {
+      "above": {
+        "maximum": 165.484375,
+        "mean": 4.0938372890625,
+        "median": 4.056640625,
+        "minimum": 3.728515625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 82733,
+        "p05": 3.791015625,
+        "p95": 4.37890625,
+        "q1": 3.98046875,
+        "q3": 4.115234375,
+        "stddev": 1.4911515874686527,
+        "zero_samples": 0
+      },
+      "above_record": "machines/crux/full/capacity/627ef310d2a3463d/complete.json",
+      "below": {
+        "maximum": 157.10546875,
+        "mean": 2.835829572265625,
+        "median": 2.79296875,
+        "minimum": 2.720703125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 71547,
+        "p05": 2.736328125,
+        "p95": 3.1015625,
+        "q1": 2.7578125,
+        "q3": 2.8125,
+        "stddev": 1.2903690982791056,
+        "zero_samples": 0
+      },
+      "below_record": "machines/crux/full/capacity/88507a7d2ae5e605/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        2,
+        1
+      ],
+      "lower_bytes": 32768,
+      "ratio": 1.4524475524475524,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 40960
+    },
+    {
+      "above": {
+        "maximum": 658.427734375,
+        "mean": 8.158788779296875,
+        "median": 8.037109375,
+        "minimum": 7.15625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 28093,
+        "p05": 7.619140625,
+        "p95": 8.73828125,
+        "q1": 7.84765625,
+        "q3": 8.28515625,
+        "stddev": 2.2140962029932765,
+        "zero_samples": 0
+      },
+      "above_record": "machines/crux/full/capacity/e498a7ff1c318350/complete.json",
+      "below": {
+        "maximum": 178.74609375,
+        "mean": 6.89781446484375,
+        "median": 6.771484375,
+        "minimum": 6.37109375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 44969,
+        "p05": 6.490234375,
+        "p95": 7.291015625,
+        "q1": 6.6484375,
+        "q3": 6.91796875,
+        "stddev": 2.4090038444429602,
+        "zero_samples": 0
+      },
+      "below_record": "machines/crux/full/capacity/8e47b8249e580624/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        5,
+        4
+      ],
+      "lower_bytes": 114688,
+      "ratio": 1.1869051052783386,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 122880
+    },
+    {
+      "above": {
+        "maximum": 162.5625,
+        "mean": 8.257049048828126,
+        "median": 8.146484375,
+        "minimum": 7.185546875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 27499,
+        "p05": 7.677734375,
+        "p95": 8.859375,
+        "q1": 7.939453125,
+        "q3": 8.390625,
+        "stddev": 2.13083636878876,
+        "zero_samples": 0
+      },
+      "above_record": "machines/crux/full/capacity/1eb9edaa7eeecf00/complete.json",
+      "below": {
+        "maximum": 213.2578125,
+        "mean": 7.132224134765625,
+        "median": 6.931640625,
+        "minimum": 6.626953125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 53501,
+        "p05": 6.708984375,
+        "p95": 7.625,
+        "q1": 6.82421875,
+        "q3": 7.134765625,
+        "stddev": 3.0267031657161683,
+        "zero_samples": 0
+      },
+      "below_record": "machines/crux/full/capacity/5b8f357225fa6ed4/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        7,
+        3
+      ],
+      "lower_bytes": 131072,
+      "ratio": 1.1752606367990983,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 147456
+    },
+    {
+      "above": {
+        "maximum": 172.8671875,
+        "mean": 9.89611846875,
+        "median": 9.7890625,
+        "minimum": 8.39453125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 27665,
+        "p05": 9.234375,
+        "p95": 10.591796875,
+        "q1": 9.54296875,
+        "q3": 10.064453125,
+        "stddev": 1.9919458383928208,
+        "zero_samples": 0
+      },
+      "above_record": "machines/crux/full/capacity/2f0f6977bcd27752/complete.json",
+      "below": {
+        "maximum": 161.240234375,
+        "mean": 7.8667431875,
+        "median": 7.75,
+        "minimum": 6.939453125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 38814,
+        "p05": 7.38671875,
+        "p95": 8.4296875,
+        "q1": 7.580078125,
+        "q3": 7.958984375,
+        "stddev": 1.9193256878794616,
+        "zero_samples": 0
+      },
+      "below_record": "machines/crux/full/capacity/c53878dbe7d394ce/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        1,
+        1
+      ],
+      "lower_bytes": 163840,
+      "ratio": 1.2631048387096775,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 180224
+    },
+    {
+      "above": {
+        "maximum": 1800.587890625,
+        "mean": 10.6711194453125,
+        "median": 10.45703125,
+        "minimum": 8.6875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 30277,
+        "p05": 9.73046875,
+        "p95": 11.466796875,
+        "q1": 10.150390625,
+        "q3": 10.796875,
+        "stddev": 4.034818450409074,
+        "zero_samples": 0
+      },
+      "above_record": "machines/crux/full/capacity/6420e5cf20964004/complete.json",
+      "below": {
+        "maximum": 176.642578125,
+        "mean": 7.899194908203125,
+        "median": 7.75,
+        "minimum": 7.13671875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 42179,
+        "p05": 7.419921875,
+        "p95": 8.544921875,
+        "q1": 7.580078125,
+        "q3": 7.998046875,
+        "stddev": 2.0187460523351763,
+        "zero_samples": 0
+      },
+      "below_record": "machines/crux/full/capacity/0a63d699389b24c3/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        3,
+        1
+      ],
+      "lower_bytes": 196608,
+      "ratio": 1.3492943548387097,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 212992
+    },
+    {
+      "above": {
+        "maximum": 170.619140625,
+        "mean": 15.61274289453125,
+        "median": 15.51953125,
+        "minimum": 13.345703125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 26731,
+        "p05": 14.66796875,
+        "p95": 16.45703125,
+        "q1": 15.1796875,
+        "q3": 15.861328125,
+        "stddev": 2.295633261450609,
+        "zero_samples": 0
+      },
+      "above_record": "machines/crux/full/capacity/6825d113a21a1aac/complete.json",
+      "below": {
+        "maximum": 696.529296875,
+        "mean": 13.47670637109375,
+        "median": 13.259765625,
+        "minimum": 11.66796875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 32462,
+        "p05": 12.529296875,
+        "p95": 14.443359375,
+        "q1": 12.931640625,
+        "q3": 13.64453125,
+        "stddev": 3.4697190329011134,
+        "zero_samples": 0
+      },
+      "below_record": "machines/crux/full/capacity/4e34f3ad57e36324/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        4,
+        3
+      ],
+      "lower_bytes": 327680,
+      "ratio": 1.1704227426719693,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 360448
+    },
+    {
+      "above": {
+        "maximum": 1961.4140625,
+        "mean": 25.519415001953124,
+        "median": 25.244140625,
+        "minimum": 23.5,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 34524,
+        "p05": 24.30078125,
+        "p95": 26.66015625,
+        "q1": 24.83984375,
+        "q3": 25.701171875,
+        "stddev": 4.661878857448122,
+        "zero_samples": 0
+      },
+      "above_record": "machines/crux/full/capacity/2bfd577f5a53cf4e/complete.json",
+      "below": {
+        "maximum": 205.826171875,
+        "mean": 22.275747455078125,
+        "median": 22.103515625,
+        "minimum": 20.3515625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 18192,
+        "p05": 21.375,
+        "p95": 22.89453125,
+        "q1": 21.79296875,
+        "q3": 22.41015625,
+        "stddev": 3.619242082867042,
+        "zero_samples": 0
+      },
+      "below_record": "machines/crux/full/capacity/dfe9639c5b8f4223/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        2,
+        1
+      ],
+      "lower_bytes": 589824,
+      "ratio": 1.1420871255633118,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 655360
+    },
+    {
+      "above": {
+        "maximum": 1812.65625,
+        "mean": 94.19153182421876,
+        "median": 92.587890625,
+        "minimum": 56.322265625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 37709,
+        "p05": 84.732421875,
+        "p95": 104.392578125,
+        "q1": 89.310546875,
+        "q3": 96.3125,
+        "stddev": 12.329116759022002,
+        "zero_samples": 0
+      },
+      "above_record": "machines/crux/full/capacity/bb8f195574b8069a/complete.json",
+      "below": {
+        "maximum": 229.42578125,
+        "mean": 35.14986040625,
+        "median": 34.67578125,
+        "minimum": 30.998046875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 30787,
+        "p05": 32.923828125,
+        "p95": 37.853515625,
+        "q1": 33.8515625,
+        "q3": 35.744140625,
+        "stddev": 4.310828397532177,
+        "zero_samples": 0
+      },
+      "below_record": "machines/crux/full/capacity/ba48e619bcbb7d2e/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        2,
+        5
+      ],
+      "lower_bytes": 5242880,
+      "ratio": 2.670102512109947,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 7864320
+    },
+    {
+      "above": {
+        "maximum": 1378.501953125,
+        "mean": 133.8207805234375,
+        "median": 132.689453125,
+        "minimum": 109.96875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 32660,
+        "p05": 124.56640625,
+        "p95": 143.91015625,
+        "q1": 129.2578125,
+        "q3": 136.306640625,
+        "stddev": 12.33549626666291,
+        "zero_samples": 0
+      },
+      "above_record": "machines/crux/full/capacity/ee102c2c94072c68/complete.json",
+      "below": {
+        "maximum": 1879.32421875,
+        "mean": 100.90050701171874,
+        "median": 99.705078125,
+        "minimum": 78.08984375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 34494,
+        "p05": 91.9765625,
+        "p95": 111.439453125,
+        "q1": 96.392578125,
+        "q3": 103.38671875,
+        "stddev": 10.939795047015828,
+        "zero_samples": 0
+      },
+      "below_record": "machines/crux/full/capacity/c5eb83809e4f0568/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        1,
+        4
+      ],
+      "lower_bytes": 8388608,
+      "ratio": 1.3308194088033067,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 10485760
+    }
+  ],
+  "chosen_primary_batch": 512,
+  "clean_points": 326,
+  "collection_complete": true,
+  "course_cpu_model": "Core i7-9700",
+  "coverage_issues": [],
+  "cpu_model": "model name\t: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz",
+  "host": "crux",
+  "inclusion_policy": {
+    "reason": "Same-core pressure may directly evict upper copies; lower-level-only eviction and upper residency were not independently established. No global inclusion/exclusion classification.",
+    "status": "uncertain"
+  },
+  "integrity_or_quality_issues": [],
+  "isa": "x86_64",
+  "l1_candidate": {
+    "capacity_endpoint_cpus": [
+      2,
+      4
+    ],
+    "capacity_interval_bytes": [
+      32768,
+      36864
+    ],
+    "capacity_rule": "First departure by >10% from median of first three small-footprint centers; interval, not a rounded cache answer",
+    "capacity_sources": [
+      "machines/crux/full/capacity/88507a7d2ae5e605/complete.json",
+      "machines/crux/full/capacity/537b9a090d377e7b/complete.json"
+    ],
+    "caveat": "Conditional L1 interpretation of the smallest timing class. All numerical candidates come from measured plateaus and repeated spatial/conflict edges; no specification value is used.",
+    "geometry": null,
+    "hit_class_median_ns": 0.9017179238414041,
+    "hit_class_statistics": {
+      "maximum": 151.94921875,
+      "mean": 2.7308102109375,
+      "median": 2.705078125,
+      "minimum": 2.689453125,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 19219,
+      "p05": 2.697265625,
+      "p95": 2.712890625,
+      "q1": 2.701171875,
+      "q3": 2.708984375,
+      "stddev": 1.311347960077636,
+      "zero_samples": 0
+    },
+    "line_bytes": null,
+    "nanosecond_conversion": "per-run timer/CLOCK_MONOTONIC_RAW calibration; approximate",
+    "next_class_statistics": {
+      "maximum": 155.12109375,
+      "mean": 3.5521350703125,
+      "median": 3.4765625,
+      "minimum": 3.318359375,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 83066,
+      "p05": 3.37890625,
+      "p95": 3.80078125,
+      "q1": 3.4375,
+      "q3": 3.51953125,
+      "stddev": 1.939186333033994,
+      "zero_samples": 0
+    },
+    "status": "unresolved",
+    "unit": "TSC_ticks/access",
+    "ways": null
+  },
+  "line_size": {
+    "candidates": [
+      {
+        "footprint": 524288,
+        "offset_lower": 56,
+        "offset_upper": 64,
+        "sources": [
+          "machines/crux/full/line_size/d4f6690422559771/complete.json",
+          "machines/crux/full/line_size/16add745949c27be/complete.json"
+        ]
+      },
+      {
+        "footprint": 524288,
+        "offset_lower": 120,
+        "offset_upper": 128,
+        "sources": [
+          "machines/crux/full/line_size/ed0ccf1eba241cd9/complete.json",
+          "machines/crux/full/line_size/92a56a26287dc3bf/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 56,
+        "offset_upper": 64,
+        "sources": [
+          "machines/crux/full/line_size/7043913155835203/complete.json",
+          "machines/crux/full/line_size/268d244815b7c11f/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 120,
+        "offset_upper": 128,
+        "sources": [
+          "machines/crux/full/line_size/5c39c44369d3553d/complete.json",
+          "machines/crux/full/line_size/44e36cada10712d7/complete.json"
+        ]
+      }
+    ],
+    "limitation": "Random 512-byte blocks have fixed allocation and node count; physical line occupancy changes with offset. Prefetching and residency can obscure or imitate a boundary.",
+    "status": "candidate spatial granularity only; distinct line sizes per cache level not established"
+  },
+  "missing_families": [],
+  "noisy_points": 0,
+  "observed_cpus": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "observed_numa_nodes": [
+    0
+  ],
+  "observed_sockets": [
+    0
+  ],
+  "page_control": {
+    "alternate_batch_control_points": 0,
+    "attempts": 11,
+    "complete": true,
+    "interpretation": "Changed latency with confirmed huge backing is consistent with translation effects, but allocation/physical indexing and changed cores may also contribute. No cache geometry is read from page metadata.",
+    "issues": [],
+    "missing_working_sets": [],
+    "pairs": [
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/crux/full/capacity/a2061cd0d0459e0e/complete.json",
+        "baseline_statistics": {
+          "maximum": 151.94921875,
+          "mean": 2.7308102109375,
+          "median": 2.705078125,
+          "minimum": 2.689453125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 19219,
+          "p05": 2.697265625,
+          "p95": 2.712890625,
+          "q1": 2.701171875,
+          "q3": 2.708984375,
+          "stddev": 1.311347960077636,
+          "zero_samples": 0
+        },
+        "bytes": 1024,
+        "control_cpu": 3,
+        "control_raw": "machines/crux/page_control/page_control/7652f53c8295cc01/attempt-1788844172597161608/samples.u64.gz",
+        "control_record": "machines/crux/page_control/page_control/7652f53c8295cc01/complete.json",
+        "control_sha256": "2bdbe483b1b74186a539bf483d2be33ac6a7518aaa1158e0bf75b07d7b160c1a",
+        "control_statistics": {
+          "maximum": 151.81640625,
+          "mean": 2.7202233671875,
+          "median": 2.705078125,
+          "minimum": 2.685546875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 15625,
+          "p05": 2.697265625,
+          "p95": 2.712890625,
+          "q1": 2.701171875,
+          "q3": 2.708984375,
+          "stddev": 0.882772041294603,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1024,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/crux/full/capacity/e60873bc36eeda47/complete.json",
+        "baseline_statistics": {
+          "maximum": 164.9609375,
+          "mean": 2.728340013671875,
+          "median": 2.705078125,
+          "minimum": 2.689453125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 26706,
+          "p05": 2.697265625,
+          "p95": 2.712890625,
+          "q1": 2.701171875,
+          "q3": 2.708984375,
+          "stddev": 1.0905582327374264,
+          "zero_samples": 0
+        },
+        "bytes": 4096,
+        "control_cpu": 3,
+        "control_raw": "machines/crux/page_control/page_control/742a26d8d16caf54/attempt-1788844168229884441/samples.u64.gz",
+        "control_record": "machines/crux/page_control/page_control/742a26d8d16caf54/complete.json",
+        "control_sha256": "a239d24ffb8eabc22c76bf32ef2056159ff3874b4f3a15058929c50fbbdea482",
+        "control_statistics": {
+          "maximum": 146.685546875,
+          "mean": 2.71745782421875,
+          "median": 2.705078125,
+          "minimum": 2.6875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 14123,
+          "p05": 2.697265625,
+          "p95": 2.712890625,
+          "q1": 2.701171875,
+          "q3": 2.708984375,
+          "stddev": 0.6635200075025806,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4096,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 3,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/crux/full/capacity/1089444a01cfc92f/complete.json",
+        "baseline_statistics": {
+          "maximum": 174.00390625,
+          "mean": 2.80452229296875,
+          "median": 2.7578125,
+          "minimum": 2.685546875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 44589,
+          "p05": 2.697265625,
+          "p95": 2.775390625,
+          "q1": 2.705078125,
+          "q3": 2.765625,
+          "stddev": 2.122578658136687,
+          "zero_samples": 0
+        },
+        "bytes": 16384,
+        "control_cpu": 3,
+        "control_raw": "machines/crux/page_control/page_control/09ef7df9f81f7f93/attempt-1788844237230271975/samples.u64.gz",
+        "control_record": "machines/crux/page_control/page_control/09ef7df9f81f7f93/complete.json",
+        "control_sha256": "458ed3dd73faf724dee74fecbf180a9a6236cca511e793a32ecf5f12eaf8b52c",
+        "control_statistics": {
+          "maximum": 151.490234375,
+          "mean": 2.72789048828125,
+          "median": 2.705078125,
+          "minimum": 2.689453125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 36379,
+          "p05": 2.697265625,
+          "p95": 2.712890625,
+          "q1": 2.701171875,
+          "q3": 2.708984375,
+          "stddev": 0.7463738533712261,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16384,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 3,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/crux/full/capacity/a1613987f08ccb36/complete.json",
+        "baseline_statistics": {
+          "maximum": 160.015625,
+          "mean": 5.749401005859375,
+          "median": 5.666015625,
+          "minimum": 5.31640625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 43925,
+          "p05": 5.390625,
+          "p95": 6.107421875,
+          "q1": 5.564453125,
+          "q3": 5.787109375,
+          "stddev": 1.7029513606477409,
+          "zero_samples": 0
+        },
+        "bytes": 65536,
+        "control_cpu": 3,
+        "control_raw": "machines/crux/page_control/page_control/c393682c95f11b8d/attempt-1788844229732622272/samples.u64.gz",
+        "control_record": "machines/crux/page_control/page_control/c393682c95f11b8d/complete.json",
+        "control_sha256": "7621fa0ae2eb923910065a3d9783c5a0ca156769eee2211ab2fe30560176466b",
+        "control_statistics": {
+          "maximum": 166.0859375,
+          "mean": 5.730583736328125,
+          "median": 5.677734375,
+          "minimum": 5.328125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 52033,
+          "p05": 5.40234375,
+          "p95": 6.083984375,
+          "q1": 5.564453125,
+          "q3": 5.76953125,
+          "stddev": 1.383571369977674,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 65536,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/crux/full/capacity/27b21893ade16f10/complete.json",
+        "baseline_statistics": {
+          "maximum": 174.638671875,
+          "mean": 12.22834432421875,
+          "median": 12.10546875,
+          "minimum": 10.333984375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 24402,
+          "p05": 11.3515625,
+          "p95": 13.052734375,
+          "q1": 11.78125,
+          "q3": 12.451171875,
+          "stddev": 2.5404226942283574,
+          "zero_samples": 0
+        },
+        "bytes": 262144,
+        "control_cpu": 1,
+        "control_raw": "machines/crux/page_control/page_control/ea97dc017b281ef5/attempt-1788844249852924162/samples.u64.gz",
+        "control_record": "machines/crux/page_control/page_control/ea97dc017b281ef5/complete.json",
+        "control_sha256": "0448d051b7101218f7c556c36666dd8f172fc49ad20666e5128f881828db2305",
+        "control_statistics": {
+          "maximum": 154.927734375,
+          "mean": 7.715469068359375,
+          "median": 7.564453125,
+          "minimum": 7.162109375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 49134,
+          "p05": 7.33203125,
+          "p95": 8.296875,
+          "q1": 7.443359375,
+          "q3": 7.7890625,
+          "stddev": 1.6401630704163959,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 262144,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/crux/full/capacity/b89afa08c865a1d6/complete.json",
+        "baseline_statistics": {
+          "maximum": 1819.052734375,
+          "mean": 28.203391166015624,
+          "median": 28.015625,
+          "minimum": 26.53515625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 11789,
+          "p05": 27.302734375,
+          "p95": 28.76171875,
+          "q1": 27.705078125,
+          "q3": 28.3203125,
+          "stddev": 4.148374705239654,
+          "zero_samples": 0
+        },
+        "bytes": 1048576,
+        "control_cpu": 3,
+        "control_raw": "machines/crux/page_control/page_control/eb86a5e6e74cc28b/attempt-1788844176911894083/samples.u64.gz",
+        "control_record": "machines/crux/page_control/page_control/eb86a5e6e74cc28b/complete.json",
+        "control_sha256": "cd4f951966622c5d306a896c91862dd2217b46905c50d1b59778c3add46a2d9f",
+        "control_statistics": {
+          "maximum": 181.453125,
+          "mean": 22.304703416015624,
+          "median": 22.212890625,
+          "minimum": 19.919921875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 15197,
+          "p05": 21.5625,
+          "p95": 22.822265625,
+          "q1": 21.97265625,
+          "q3": 22.4453125,
+          "stddev": 2.5825517918575933,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1048576,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/crux/full/capacity/c4b6829afa284d31/complete.json",
+        "baseline_statistics": {
+          "maximum": 1926.78515625,
+          "mean": 33.569908447265625,
+          "median": 33.19921875,
+          "minimum": 31.77734375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 54442,
+          "p05": 32.517578125,
+          "p95": 34.71484375,
+          "q1": 32.892578125,
+          "q3": 33.583984375,
+          "stddev": 5.104550247949976,
+          "zero_samples": 0
+        },
+        "bytes": 4194304,
+        "control_cpu": 3,
+        "control_raw": "machines/crux/page_control/page_control/946ad6dfc55470b4/attempt-1788844157195948477/samples.u64.gz",
+        "control_record": "machines/crux/page_control/page_control/946ad6dfc55470b4/complete.json",
+        "control_sha256": "b14f7a1c2018cca5dcc4f8dd4316f991febaaea1906b798f6a3c38040e667a5f",
+        "control_statistics": {
+          "maximum": 480.142578125,
+          "mean": 26.168141234375,
+          "median": 25.78125,
+          "minimum": 24.755859375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 71469,
+          "p05": 25.23828125,
+          "p95": 27.765625,
+          "q1": 25.529296875,
+          "q3": 26.28515625,
+          "stddev": 3.41353468930516,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 4194304,
+        "huge_backing_before_bytes": 4194304,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 4096,
+          "anon_huge_before_kib": 4096,
+          "anon_huge_kib": 4096,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4194304,
+          "mapped_bytes": 4194304,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/crux/full/capacity/f457b4c719bde7ec/complete.json",
+        "baseline_statistics": {
+          "maximum": 2215.43359375,
+          "mean": 176.28996992578124,
+          "median": 174.859375,
+          "minimum": 153.34375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 35386,
+          "p05": 167.533203125,
+          "p95": 184.5546875,
+          "q1": 171.859375,
+          "q3": 178.025390625,
+          "stddev": 15.097802234414651,
+          "zero_samples": 0
+        },
+        "bytes": 16777216,
+        "control_cpu": 1,
+        "control_raw": "machines/crux/page_control/page_control/e952e84d554347d9/attempt-1788844258071428300/samples.u64.gz",
+        "control_record": "machines/crux/page_control/page_control/e952e84d554347d9/complete.json",
+        "control_sha256": "cdae43a5286c4bc1beded2c508f28f6de7b14a346cdebc5b2a12ae771a4ba99a",
+        "control_statistics": {
+          "maximum": 2041.1328125,
+          "mean": 148.67651431054688,
+          "median": 147.822265625,
+          "minimum": 103.0625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 21995,
+          "p05": 138.892578125,
+          "p95": 158.59375,
+          "q1": 144.05859375,
+          "q3": 151.751953125,
+          "stddev": 11.475703391018119,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 16777216,
+        "huge_backing_before_bytes": 16777216,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 16384,
+          "anon_huge_before_kib": 16384,
+          "anon_huge_kib": 16384,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16777216,
+          "mapped_bytes": 16777216,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 2,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/crux/full/capacity/72d9857904afde50/complete.json",
+        "baseline_statistics": {
+          "maximum": 1879.9609375,
+          "mean": 228.6419778535156,
+          "median": 223.271484375,
+          "minimum": 206.943359375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 138880,
+          "p05": 217.556640625,
+          "p95": 247.22265625,
+          "q1": 220.73046875,
+          "q3": 228.4375,
+          "stddev": 21.52761001414251,
+          "zero_samples": 0
+        },
+        "bytes": 67108864,
+        "control_cpu": 3,
+        "control_raw": "machines/crux/page_control/page_control/e78f1f36b5bdfcc9/attempt-1788844187504568913/samples.u64.gz",
+        "control_record": "machines/crux/page_control/page_control/e78f1f36b5bdfcc9/complete.json",
+        "control_sha256": "e3cb96598ab284359577b2fe85a48254a0c3c555bd14df9246518ef011a02316",
+        "control_statistics": {
+          "maximum": 1058.14453125,
+          "mean": 196.96477284375,
+          "median": 195.8046875,
+          "minimum": 178.951171875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 44166,
+          "p05": 191.173828125,
+          "p95": 202.51953125,
+          "q1": 193.90234375,
+          "q3": 197.83203125,
+          "stddev": 12.38131338764972,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 67108864,
+        "huge_backing_before_bytes": 67108864,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 65536,
+          "anon_huge_before_kib": 65536,
+          "anon_huge_kib": 65536,
+          "kernel_page_kib": 4,
+          "logical_bytes": 67108864,
+          "mapped_bytes": 67108864,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/crux/full/capacity/9997ce58d3098d2d/complete.json",
+        "baseline_statistics": {
+          "maximum": 2145.634765625,
+          "mean": 241.2436125078125,
+          "median": 239.29296875,
+          "minimum": 226.9921875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 59616,
+          "p05": 234.822265625,
+          "p95": 248.34189453124986,
+          "q1": 237.447265625,
+          "q3": 241.24609375,
+          "stddev": 17.46157681196751,
+          "zero_samples": 0
+        },
+        "bytes": 268435456,
+        "control_cpu": 1,
+        "control_raw": "machines/crux/page_control/page_control/8dc216dca06e838f/attempt-1788844291654106130/samples.u64.gz",
+        "control_record": "machines/crux/page_control/page_control/8dc216dca06e838f/complete.json",
+        "control_sha256": "07958df50367552d946ac89ae766faa53033797f8f6a2f5b5b13bcc76584fae4",
+        "control_statistics": {
+          "maximum": 2275.3515625,
+          "mean": 206.07813990820313,
+          "median": 204.771484375,
+          "minimum": 191.255859375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 47522,
+          "p05": 200.521484375,
+          "p95": 211.185546875,
+          "q1": 202.990234375,
+          "q3": 206.654296875,
+          "stddev": 13.849648624326129,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 268435456,
+        "huge_backing_before_bytes": 268435456,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 262144,
+          "anon_huge_before_kib": 262144,
+          "anon_huge_kib": 262144,
+          "kernel_page_kib": 4,
+          "logical_bytes": 268435456,
+          "mapped_bytes": 268435456,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      }
+    ],
+    "unavailable": false
+  },
+  "plots": [
+    "plots/crux-capacity.svg",
+    "plots/crux-line_size.svg",
+    "plots/crux-associativity.svg",
+    "plots/crux-inclusion_policy.svg",
+    "plots/crux-latency.svg",
+    "plots/crux-software_metric.svg",
+    "plots/crux-timer.svg",
+    "plots/crux-loop.svg",
+    "plots/crux-boundary-distributions.svg",
+    "plots/crux-page-control.svg"
+  ],
+  "primary_collection_complete": true,
+  "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+  "software_metric": {
+    "block_rate_range": [
+      0.9766,
+      0.9999
+    ],
+    "calibration_and_workload_cpus": [
+      4,
+      4,
+      4
+    ],
+    "classified_hits": 995035,
+    "estimate": 0.995035,
+    "limitations": "Single-load timer overhead/quantization; smallest/largest footprints are empirical proxies, not PMU-confirmed classes. Adjacent samples are correlated. Wilson intervals omit calibration/classification error; threshold-sensitivity and block ranges expose additional uncertainty. Phase-II validation not performed.",
+    "same_logical_cpu": true,
+    "sources": [
+      "machines/crux/full/software_metric/00cef01de4beae11/complete.json",
+      "machines/crux/full/software_metric/321cb4ea8263334b/complete.json",
+      "machines/crux/full/software_metric/484f3d0a0a6e6e81/complete.json"
+    ],
+    "standardized_workload_bytes": 1048576,
+    "status": "timing-classified cache-residency proxy; not a validated hardware hit rate",
+    "threshold_raw_ticks": 143.5,
+    "threshold_sensitivity_limits_raw_ticks": [
+      51.0,
+      236.0
+    ],
+    "threshold_sensitivity_rate_range": [
+      0.011347,
+      0.998354
+    ],
+    "total_timed_accesses": 1000000,
+    "unit": "TSC_ticks",
+    "wilson_95_independent_sample_assumption": [
+      0.9948953216954626,
+      0.9951708748662367
+    ]
+  },
+  "unsuccessful_attempts": 12,
+  "verified_points": 326
+}

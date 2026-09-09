@@ -1,0 +1,362 @@
+{
+  "hosts": {
+    "artemisia": {
+      "batch": 256,
+      "capacity_interval": null,
+      "conflict_counts": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64
+      ],
+      "conflict_required": false,
+      "conflict_strides": [
+        16384,
+        32768,
+        65536,
+        131072,
+        262144,
+        524288
+      ],
+      "l1_period": 4096,
+      "l1_ways": 12,
+      "l2_interval": [
+        2097152,
+        2359296
+      ],
+      "llc_interval": [
+        25165824,
+        27262976
+      ],
+      "source": "data_processed/followup/artemisia-inference.json",
+      "source_sha256": "4d7549838ed5326bf6ca260843fd7a7728470ab66afa4fbfe9c2655cb9207ef1",
+      "spatial_allocations": [
+        2097152,
+        25165824
+      ]
+    },
+    "charnwood": {
+      "batch": 512,
+      "capacity_interval": [
+        4194304,
+        8388608
+      ],
+      "conflict_counts": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64
+      ],
+      "conflict_required": false,
+      "conflict_strides": [
+        16384,
+        32768,
+        65536,
+        131072,
+        262144,
+        524288
+      ],
+      "l1_period": 4096,
+      "l1_ways": 8,
+      "l2_interval": [
+        262144,
+        294912
+      ],
+      "llc_interval": [
+        4194304,
+        8388608
+      ],
+      "source": "data_processed/followup/charnwood-inference.json",
+      "source_sha256": "6d5ae78c5cc852afe1138e19a088ac53af28907a0c43630ab38b81c1fcaf3b0f",
+      "spatial_allocations": [
+        262144,
+        4194304
+      ]
+    },
+    "crux": {
+      "batch": 512,
+      "capacity_interval": [
+        4194304,
+        16777216
+      ],
+      "conflict_counts": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64
+      ],
+      "conflict_required": true,
+      "conflict_strides": [
+        16384,
+        32768,
+        65536,
+        131072,
+        262144,
+        524288
+      ],
+      "l1_period": 4096,
+      "l1_ways": 8,
+      "l2_interval": [
+        262144,
+        294912
+      ],
+      "llc_interval": [
+        4194304,
+        16777216
+      ],
+      "source": "data_processed/followup/crux-inference.json",
+      "source_sha256": "97c087586d2d5a96751878ab99663ad2ed2f2fbb8f11ddb0619d8d5de46c3c3a",
+      "spatial_allocations": [
+        262144,
+        4194304
+      ]
+    },
+    "ookay": {
+      "batch": 512,
+      "capacity_interval": null,
+      "conflict_counts": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64
+      ],
+      "conflict_required": false,
+      "conflict_strides": [
+        16384,
+        32768,
+        65536,
+        131072,
+        262144,
+        524288
+      ],
+      "l1_period": 4096,
+      "l1_ways": 8,
+      "l2_interval": [
+        262144,
+        294912
+      ],
+      "llc_interval": [
+        5242880,
+        5767168
+      ],
+      "source": "data_processed/followup/ookay-inference.json",
+      "source_sha256": "e78ab7f39b6a81291a250b0a9a85b7cfe7840cc7cce6a0d0bc9d22dd30c8beb0",
+      "spatial_allocations": [
+        262144,
+        5242880
+      ]
+    },
+    "skylark": {
+      "batch": 512,
+      "capacity_interval": null,
+      "conflict_counts": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64
+      ],
+      "conflict_required": false,
+      "conflict_strides": [
+        16384,
+        32768,
+        65536,
+        131072,
+        262144,
+        524288
+      ],
+      "l1_period": 4096,
+      "l1_ways": 8,
+      "l2_interval": [
+        524288,
+        589824
+      ],
+      "llc_interval": [
+        16777216,
+        18874368
+      ],
+      "source": "data_processed/followup/skylark-inference.json",
+      "source_sha256": "5670570ab4bb982523e8808516b2ffc7b514d63630048920ae60195992a80433",
+      "spatial_allocations": [
+        524288,
+        16777216
+      ]
+    },
+    "sunbird": {
+      "batch": 512,
+      "capacity_interval": [
+        8388608,
+        33554432
+      ],
+      "conflict_counts": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64
+      ],
+      "conflict_required": false,
+      "conflict_strides": [
+        16384,
+        32768,
+        65536,
+        131072,
+        262144,
+        524288
+      ],
+      "l1_period": 4096,
+      "l1_ways": 8,
+      "l2_interval": [
+        262144,
+        294912
+      ],
+      "llc_interval": [
+        8388608,
+        33554432
+      ],
+      "source": "data_processed/followup/sunbird-inference.json",
+      "source_sha256": "69ce9c92fd78f4ce6451cfd99526e21bff3fd8720a1e61cf4ff1e259668c82b6",
+      "spatial_allocations": [
+        262144,
+        8388608
+      ]
+    },
+    "thunderbird": {
+      "batch": 1024,
+      "capacity_interval": null,
+      "conflict_counts": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64
+      ],
+      "conflict_required": true,
+      "conflict_strides": [
+        32768,
+        65536,
+        131072,
+        262144,
+        524288
+      ],
+      "l1_period": 16384,
+      "l1_ways": 4,
+      "l2_interval": [
+        1048576,
+        1179648
+      ],
+      "llc_interval": [
+        16777216,
+        18874368
+      ],
+      "source": "data_processed/followup/thunderbird-inference.json",
+      "source_sha256": "4854c912a1813daee36b259ae3c28f1625f50a7a67e44ce8b6d7c2573485f5a9",
+      "spatial_allocations": [
+        1048576,
+        16777216
+      ]
+    },
+    "upgrade": {
+      "batch": 512,
+      "capacity_interval": [
+        2097152,
+        16777216
+      ],
+      "conflict_counts": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64
+      ],
+      "conflict_required": false,
+      "conflict_strides": [
+        16384,
+        32768,
+        65536,
+        131072,
+        262144,
+        524288
+      ],
+      "l1_period": 4096,
+      "l1_ways": 8,
+      "l2_interval": [
+        262144,
+        294912
+      ],
+      "llc_interval": [
+        2097152,
+        16777216
+      ],
+      "source": "data_processed/followup/upgrade-inference.json",
+      "source_sha256": "8158e429fc902930fbdee78b14473d1185543ed9c78157164c8a183fcfde3d0c",
+      "spatial_allocations": [
+        262144,
+        2097152
+      ]
+    }
+  },
+  "phase": "I timing only",
+  "rules": [
+    "All hypotheses derived from preserved timing inference, never cache specifications.",
+    "Full distributions have 1000000 intervals. Native identical-source smoke precedes full tests.",
+    "Clean means recorded scheduler/SMT/drift controls pass. Same-core comparisons only; never choose fastest observations.",
+    "Every >15% IQR-separated discovery transition is refined; absence of an edge remains inconclusive.",
+    "Batched conflict ring mixes fixed scrub and candidate loads. Threshold is effective until level isolation and indexing geometry are independently supported.",
+    "Spatial transfer visible at a working-set size is not automatically an independent per-level line size.",
+    "Uncertain outcomes are retained with evidence and limitations; no requirement to force exact values."
+  ],
+  "time": "2026-09-08T13:05:45.190002+00:00"
+}

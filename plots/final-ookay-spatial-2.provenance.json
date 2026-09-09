@@ -1,0 +1,19 @@
+{
+  "comparison_cohort_policy": "machines/ookay/uncertainty-v1/spatial-cohorts.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/ookay/uncertainty-v1/spatial_residency/7db64ffc937a3f71/attempt-1788873115202574745/run.json",
+    "machines/ookay/uncertainty-v1/spatial_residency/01b8bb52d50e828c/attempt-1788873141268761276/run.json",
+    "machines/ookay/uncertainty-v1/spatial_residency/f3ba0ebeac7f722e/attempt-1788873128780340234/run.json",
+    "machines/ookay/uncertainty-v1/spatial_residency/8b474f991e760762/attempt-1788873178451528752/run.json",
+    "machines/ookay/uncertainty-v1/spatial_residency/01cf88c65aa6f315/attempt-1788873166793003767/run.json",
+    "machines/ookay/uncertainty-v1/spatial_residency/395783db535e030e/attempt-1788873153280200865/run.json",
+    "machines/ookay/uncertainty-v1/spatial_residency/6964453aa8c64cce/attempt-1788873190812814124/run.json",
+    "machines/ookay/uncertainty-v1/spatial_residency/329488a0fc1e544f/attempt-1788873215719343997/run.json",
+    "machines/ookay/uncertainty-v1/spatial_residency/519bc06a79997719/attempt-1788873204105094544/run.json",
+    "machines/ookay/uncertainty-v1/spatial_residency/6c7d4e079d8e6b39/attempt-1788873253123165390/run.json",
+    "machines/ookay/uncertainty-v1/spatial_residency/e0d9a2a328ac0ea0/attempt-1788873241202891382/run.json",
+    "machines/ookay/uncertainty-v1/spatial_residency/059bfd5937b8d023/attempt-1788873228702489637/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:23.000157+00:00"
+}

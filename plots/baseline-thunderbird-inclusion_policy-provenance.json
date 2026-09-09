@@ -1,0 +1,188 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/09fcceb9f0701d51/attempt-1788844644828478072/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/09fcceb9f0701d51/complete.json",
+      "sha256": "36be1769f4d734527848d956cde842f570febaa00b5a1a88f9e591f85e9ad1fe"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/0ae4fe51612aff70/attempt-1788844595824236577/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/0ae4fe51612aff70/complete.json",
+      "sha256": "447068ee9c9c97d2c3c189f06d375e5c8bd499f7babacb83366448dcafe1289a"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/0cdcd6079a6e1f74/attempt-1788844837863175914/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/0cdcd6079a6e1f74/complete.json",
+      "sha256": "7448a05b0844aba22823d1781abd01471943841bdae2da2c0eb2fc0548d04ce0"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/10769efbbbd50276/attempt-1788844639497787952/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/10769efbbbd50276/complete.json",
+      "sha256": "5af1debf17c8720d92b46efe9ef40ff6970964af16da5066c5923541d6a0beda"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/2a6bf9962dbfcbb8/attempt-1788844756899886237/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/2a6bf9962dbfcbb8/complete.json",
+      "sha256": "29e5dcedd242dee11b81a1ab65f8df2e01693ce19c85a8e91e0a79f3721ba017"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/2d7d892dbf1e5f68/attempt-1788844620113221781/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/2d7d892dbf1e5f68/complete.json",
+      "sha256": "af67d5514d4dcb8c3f6689b269e06f2e3cd8cbe29584a141ab3ba7494a74be67"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/3ebca3d513de705c/attempt-1788844636761206578/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/3ebca3d513de705c/complete.json",
+      "sha256": "368a07711be341b0ace724505cf8a39794cc3033d59a42e17dad7eb250ce5c4d"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/3f1ca38365853e16/attempt-1788845272445637641/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/3f1ca38365853e16/complete.json",
+      "sha256": "e2501963ba640b383e41e56866598a2cf9f48ac080260425f03c9998091d702b"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/40721af77d4e5b98/attempt-1788844694742708650/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/40721af77d4e5b98/complete.json",
+      "sha256": "43d5c958bf49136bb787a3105c1f96cee92eec6476cda354be1089d79b0b6a8e"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/46c54f30bcfb3857/attempt-1788845264986744478/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/46c54f30bcfb3857/complete.json",
+      "sha256": "b052425735caa02c3ed4de32aab065295c1cc339345c076694035693a3c0f685"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/4c8b3e660b6fa37a/attempt-1788844617427741511/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/4c8b3e660b6fa37a/complete.json",
+      "sha256": "b0288599982eda80e5e4ccc4f2a3ee9daa0cdd297bb10790dd620d34c6fe0178"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/5641d229bd0d48bd/attempt-1788845526846853363/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/5641d229bd0d48bd/complete.json",
+      "sha256": "5215cccb3c3808ad6e10636d24de91b82271bfea2ae2db490dccf42bc8debde8"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/56bc7148eecc0adc/attempt-1788845510662182990/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/56bc7148eecc0adc/complete.json",
+      "sha256": "2e0c2782e5ad5e3d0f7a3c3d49fea65f773670f2cc0da220ab0128cedcaeee28"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/5743e022151a0e5e/attempt-1788845322863299952/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/5743e022151a0e5e/complete.json",
+      "sha256": "d604e0c4ad6a2c23b58edd8321838fc2556b51496940989292a579295f6afcce"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/70cd82f89c6f8acf/attempt-1788844773844056979/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/70cd82f89c6f8acf/complete.json",
+      "sha256": "f4acef217039e1fdc2c5f2e20492db9953641ba88a74d2ae1ba5de3da5e9fedb"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/7da9521ccced31d1/attempt-1788844707973877941/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/7da9521ccced31d1/complete.json",
+      "sha256": "1e1806f1e47bdc8940d269a911c48cd9b7ac2b2c237d41fd1ce342275275967c"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/8136a51d3f6be3a0/attempt-1788844935969651391/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/8136a51d3f6be3a0/complete.json",
+      "sha256": "5b8784a6de99130b819f72ce10dda3f2757c9aba200c635d83bea4c94ce3b731"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/980f853270813f31/attempt-1788844691504008270/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/980f853270813f31/complete.json",
+      "sha256": "ef6f25ea82cd30f82eb7245d5c83ecc929d08080647f0c9adb969f8c08e3269b"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/a06fdfd78d47aab2/attempt-1788844601105134672/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/a06fdfd78d47aab2/complete.json",
+      "sha256": "af194cea4cba2ea1a28378e940f68b9628daf8e21f8715bac13572169985c1e2"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/a6b01235c80730fc/attempt-1788844753467469003/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/a6b01235c80730fc/complete.json",
+      "sha256": "7fd64a218a4e8d8bdf08efc96cfba9327990e131e1a916440fd933e75c542f59"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/a6f0b0f462ccae90/attempt-1788845060156047421/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/a6f0b0f462ccae90/complete.json",
+      "sha256": "3a489c6267887b23e7207b32faee78fd972280e6ca57f692b8c986f59221de3f"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/ae79028b1c513462/attempt-1788845107661327859/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/ae79028b1c513462/complete.json",
+      "sha256": "c7e455294a6bddc5d682ef278582c6679eb2a3dcad63ba7b704811663376f572"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/be954dc7d28a0a2b/attempt-1788844590004112260/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/be954dc7d28a0a2b/complete.json",
+      "sha256": "634daaed648c31fc2377dd7fae4be5441b2d749cb6371a3a1f86564561e52c07"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/c160b97e3dd18261/attempt-1788844658819906934/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/c160b97e3dd18261/complete.json",
+      "sha256": "a455c0069a2162126e82256299068d835de107f0213836d372fbc6ff57255f1b"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/c848d2583fbba81d/attempt-1788844858125130394/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/c848d2583fbba81d/complete.json",
+      "sha256": "ce26a5bc89d1695a6d79c16f9053d492dba29fc4cb8bd0862027cf97624c3dbc"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/c8807688c6ae1afc/attempt-1788844834169837513/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/c8807688c6ae1afc/complete.json",
+      "sha256": "cd65f54a411e63afc49a8ab8421ae5f5ad514d6f56ca8dbd5adb75f7486cf8c4"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/d09ff6863574f5c3/attempt-1788844931675915805/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/d09ff6863574f5c3/complete.json",
+      "sha256": "3f74437287dc50afdfad9fea1a5e4effa56cbcb6d42b780b8c491f32898f68b0"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/d79a201811763c19/attempt-1788845065959687393/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/d79a201811763c19/complete.json",
+      "sha256": "8bfea3c525e0396246572c1f59842b518bac1220bc1134cd7a8d3d311e26dd45"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/dcf2b2bd876406e9/attempt-1788845595117091325/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/dcf2b2bd876406e9/complete.json",
+      "sha256": "66eafe32d2e36671de7a7a97def73b3b2790c44421535aba8a00a8dbba476e4a"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/e411b38fea03d5c5/attempt-1788844962324260044/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/e411b38fea03d5c5/complete.json",
+      "sha256": "e6e25b8edf7529a6118df29e54697f669b70859cd7e32f74ef05542be0e0a15f"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/f13d936e89a1136a/attempt-1788844607830913192/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/f13d936e89a1136a/complete.json",
+      "sha256": "9829a75a2028728e88c3869c50a50e48f6875c919caab3627b9369d7ddc9847e"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/f2810db75d34e351/attempt-1788844669168254820/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/f2810db75d34e351/complete.json",
+      "sha256": "15b893649b86e0b2a916d3f615e69342304202b79d268fa18e732714c763b340"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/f553baebb942c696/attempt-1788844592587118279/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/f553baebb942c696/complete.json",
+      "sha256": "8f93c91d85ce3dc20020c0be0c9f6b5bd5506c7bd078f27a9efe5cd0792e4279"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/f86af340938284f7/attempt-1788844624938581213/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/f86af340938284f7/complete.json",
+      "sha256": "03a73e7469f3fe902458c191e4383b2c49eb59dd29fcd378ea1beac128c3c06d"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/fbbffd030515d451/attempt-1788844661655569636/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/fbbffd030515d451/complete.json",
+      "sha256": "c59f4f3e0fa10f9bbd551375ce17ba4e7b67f903e13ab2beb2e042409a511b8e"
+    },
+    {
+      "raw": "machines/thunderbird/full/inclusion_policy/fe2db7388c6d6d64/attempt-1788844603739858357/samples.u64.gz",
+      "record": "machines/thunderbird/full/inclusion_policy/fe2db7388c6d6d64/complete.json",
+      "sha256": "abbe9ad63eb7e6d86223ef5ffb2fd4200e0be5a61a3d083c49f7fa56c1422444"
+    }
+  ]
+}

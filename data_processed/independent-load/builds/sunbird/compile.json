@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/usr/bin/gcc",
+    "-O0",
+    "-g",
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fno-omit-frame-pointer",
+    "source/src/independent_load.c",
+    "-o",
+    "independent_load"
+  ],
+  "cwd": "/tmp/ece592-independent-hlee58-ecd64e61f88e/machines/sunbird/independent-load-v1/build/ecd64e61f88e228ffbd24fcdfb3ddd58b9d5b103b0787633a25e647f56b3e4c2",
+  "finished": "2026-09-09T04:37:32.180950+00:00",
+  "returncode": 0,
+  "started": "2026-09-09T04:37:32.069112+00:00",
+  "stderr": "",
+  "stdout": ""
+}

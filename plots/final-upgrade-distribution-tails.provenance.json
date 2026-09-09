@@ -1,0 +1,9 @@
+{
+  "comparison_cohort_policy": "First chronological clean distribution per configuration, otherwise first retained noisy distribution; comparison qualifications are in the host inference JSON",
+  "sources": [
+    "machines/upgrade/uncertainty-v1/spatial_residency/0e0c163db8bf5b6d/attempt-1788874976063121526/run.json",
+    "machines/upgrade/uncertainty-v1/capacity_repeat/13fba9c9008ea5d8/attempt-1788873012033322866/run.json"
+  ],
+  "statistics": "Exact empirical tail frequencies from the complete raw distributions; zero intervals stated separately from the logarithmic axis. First chronological clean distribution per shown family, or first noisy distribution if none is clean.",
+  "time": "2026-09-08T21:01:28.037781+00:00"
+}

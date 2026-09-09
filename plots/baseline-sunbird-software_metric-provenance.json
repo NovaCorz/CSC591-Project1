@@ -1,0 +1,23 @@
+{
+  "command": "python3 scripts/analyze.py",
+  "contributor": "Codex automation; student producer/checker attribution pending",
+  "plotting": "median curves; IQR shading; box plots include all verified points, with noisy points marked and excluded from confident inference. All outliers retained in raw data and tabulated. No background grid.",
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "sources": [
+    {
+      "raw": "machines/sunbird/full/software_metric/00cef01de4beae11/attempt-1788844868140605182/samples.u64.gz",
+      "record": "machines/sunbird/full/software_metric/00cef01de4beae11/complete.json",
+      "sha256": "1e44b5fe5fd0ef9eb801f33752b0e17cb88acec841696fbc7671f90ebb52340e"
+    },
+    {
+      "raw": "machines/sunbird/full/software_metric/321cb4ea8263334b/attempt-1788844870710460163/samples.u64.gz",
+      "record": "machines/sunbird/full/software_metric/321cb4ea8263334b/complete.json",
+      "sha256": "21d90cc2b0b92c7aef1519141eeaf1fc510122eec60b43e6c362bcbb3f22bdfb"
+    },
+    {
+      "raw": "machines/sunbird/full/software_metric/484f3d0a0a6e6e81/attempt-1788844880080271116/samples.u64.gz",
+      "record": "machines/sunbird/full/software_metric/484f3d0a0a6e6e81/complete.json",
+      "sha256": "1a8010b1a1118c6d7cd1fd50281956b9ea9520c702585657a07075eba3e53c9a"
+    }
+  ]
+}

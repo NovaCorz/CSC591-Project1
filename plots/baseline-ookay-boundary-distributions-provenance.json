@@ -1,0 +1,48 @@
+{
+  "script_sha256": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+  "selection": "Up to seven successive final-batch random points starting three points before the first exploratory departure; smallest points if no departure is resolved. Noisy points remain visible. Complete box plots cover every verified point separately.",
+  "sources": [
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/ookay/full/capacity/31448ada748bc89c/attempt-1788839957032984155/samples.u64.gz",
+      "record": "machines/ookay/full/capacity/31448ada748bc89c/complete.json",
+      "sha256": "96fd0f17a077e733af4dff3e8d272887b5b245fb80d2a2ab31e49f4c77a599b0"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/ookay/full/capacity/1089444a01cfc92f/attempt-1788839911352677903/samples.u64.gz",
+      "record": "machines/ookay/full/capacity/1089444a01cfc92f/complete.json",
+      "sha256": "3e315fa6849dbb205a44fc3e99da40025e93ac75eca12b8c99182761cd11ff89"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/ookay/full/capacity/88507a7d2ae5e605/attempt-1788839735712522710/samples.u64.gz",
+      "record": "machines/ookay/full/capacity/88507a7d2ae5e605/complete.json",
+      "sha256": "d259f08226c34decf633b5569145848d7581b537b569ad195b2e30a12bc4bbdd"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/ookay/full/capacity/537b9a090d377e7b/attempt-1788841996499306181/samples.u64.gz",
+      "record": "machines/ookay/full/capacity/537b9a090d377e7b/complete.json",
+      "sha256": "3ca9bee41f325354e36bcb25a9506707cb459a8e9f00b9254dd3c1112005678b"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/ookay/full/capacity/627ef310d2a3463d/attempt-1788840405079615616/samples.u64.gz",
+      "record": "machines/ookay/full/capacity/627ef310d2a3463d/complete.json",
+      "sha256": "ab5a0276d637da270a22ba484a814df3f6d89b5b2475d58e566eadd7a7666cb6"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/ookay/full/capacity/ced5ad1cf10390ae/attempt-1788841701046812328/samples.u64.gz",
+      "record": "machines/ookay/full/capacity/ced5ad1cf10390ae/complete.json",
+      "sha256": "c96fef3568db04e635791305d57fd901616f3245f0e9ec12d76cd12c62a20f3c"
+    },
+    {
+      "qualification": "verified_clean",
+      "raw": "machines/ookay/full/capacity/69579aa3f48854e8/attempt-1788840489935825157/samples.u64.gz",
+      "record": "machines/ookay/full/capacity/69579aa3f48854e8/complete.json",
+      "sha256": "573de5459f588e8000731b67eab496a3a6d78d0432a1c781930a9403c4dc7c96"
+    }
+  ]
+}

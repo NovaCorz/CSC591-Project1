@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "passed": true,
+  "utc": "2026-09-09T03:09:55.579995+00:00",
+  "python": "3.9.25",
+  "compiler": "gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-14)",
+  "original_source_preserved": true,
+  "unchanged_import_hashes_verified": 728,
+  "preserved_directories": 307,
+  "parsed_artifacts": {
+    "svg": 301,
+    "json": 389,
+    "csv": 17,
+    "python": 27
+  },
+  "native_toolkit_tests": {
+    "command": [
+      "make",
+      "test"
+    ],
+    "returncode": 0,
+    "tests": 42,
+    "log": "curation-toolkit-tests.log"
+  },
+  "restore_helper_tests": {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "scripts",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "tests": 7,
+    "log": "curation-restore-tests.log"
+  },
+  "archive_restore": {
+    "complete": true,
+    "workspace": "/gpfs_common/share04/ece592f26/hlee58/tmp/phase1-curation-restore-20260908-qxmaongx",
+    "archives": [
+      {
+        "name": "phase1-revised.zip",
+        "sha256": "66556285f9ed2d1af478deaf5a1c151cc69cb5f1f7018a57df9423dc25ac75c2",
+        "bytes": 6924281580,
+        "members": 76865
+      },
+      {
+        "name": "phase1-uncertainty.zip",
+        "sha256": "505f021d63a55feec38871be601aa0a9c7d80a8dc8a447fef3716dec515c555d",
+        "bytes": 2372753088,
+        "members": 21821
+      }
+    ],
+    "safe_member_preflight": true,
+    "crc_checked_during_extraction": true
+  },
+  "representative_raw_checks": {
+    "passed": true,
+    "groups": 24,
+    "distributions": 47,
+    "samples": 47000000,
+    "details": "curation-raw-checks.json"
+  },
+  "reference_check": "curation-reference-checks.json",
+  "plotting_smoke": {
+    "host": "ookay",
+    "followup_svg": 18,
+    "additional_svg": 3,
+    "well_formed": true,
+    "provenance_matches_original_ignoring_generation_time": true
+  },
+  "table_regeneration": {
+    "passed": true,
+    "byte_identical": [
+      "inferred-cache-table.csv",
+      "historical-behavior.csv"
+    ]
+  },
+  "scope": "Curation validation only. No new experiments and no Phase II. Final measurement verification and all noise qualifications are unchanged."
+}

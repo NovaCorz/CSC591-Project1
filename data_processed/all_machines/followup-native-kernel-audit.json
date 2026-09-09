@@ -1,0 +1,238 @@
+{
+  "hosts": {
+    "artemisia": {
+      "compile": {
+        "command": [
+          "/usr/lib64/ccache/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "-pthread",
+          "followup_bench.c",
+          "-o",
+          "followup_bench"
+        ],
+        "cwd": "/tmp/ece592-phase1-followup-hlee58-v1/machines/artemisia/followup-v1/build",
+        "finished": "2026-09-08T11:14:31.817237+00:00",
+        "returncode": 0,
+        "started": "2026-09-08T11:14:31.705930+00:00",
+        "stderr": "",
+        "stdout": ""
+      },
+      "dependent_chase_listing": "00000000004013e7 <chase>:\n  4013e7:\t55                   \tpush   %rbp\n  4013e8:\t48 89 e5             \tmov    %rsp,%rbp\n  4013eb:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  4013ef:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  4013f3:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n  4013f7:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n  4013fb:\t48 8b 12             \tmov    (%rdx),%rdx\n  4013fe:\t48 ff c8             \tdec    %rax\n  401401:\t75 f8                \tjne    4013fb <chase+0x14>\n  401403:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n  401407:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n  40140b:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n  40140f:\t5d                   \tpop    %rbp\n  401410:\tc3                   \tretq   \n",
+      "disassembly_sha256": "0f25db51e49d4b75fb2981fd4bf2473ccb9baf1801e6e5a1e8f04670f299565b",
+      "note": "Reviewed x86-64 and AArch64 loops: one register-dependent load, register decrement and conditional back edge; stack setup/teardown lies outside the per-load loop. Reload wrappers retain separately documented timer/call/sink-store overhead.",
+      "passed": true,
+      "source_sha256": "87a9ec142e667728e1ffd12bbebe3caf3733b84e08fab0defe0d41aedb467516"
+    },
+    "charnwood": {
+      "compile": {
+        "command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "-pthread",
+          "followup_bench.c",
+          "-o",
+          "followup_bench"
+        ],
+        "cwd": "/tmp/ece592-phase1-followup-hlee58-v1/machines/charnwood/followup-v1/build",
+        "finished": "2026-09-08T11:03:29.431232+00:00",
+        "returncode": 0,
+        "started": "2026-09-08T11:03:29.308759+00:00",
+        "stderr": "",
+        "stdout": ""
+      },
+      "dependent_chase_listing": "000000000000165d <chase>:\n    165d:\tf3 0f 1e fa          \tendbr64\n    1661:\t55                   \tpush   %rbp\n    1662:\t48 89 e5             \tmov    %rsp,%rbp\n    1665:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    1669:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    166d:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n    1671:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n    1675:\t48 8b 12             \tmov    (%rdx),%rdx\n    1678:\t48 ff c8             \tdec    %rax\n    167b:\t75 f8                \tjne    1675 <chase+0x18>\n    167d:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n    1681:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n    1685:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    1689:\t5d                   \tpop    %rbp\n    168a:\tc3                   \tret\n",
+      "disassembly_sha256": "6a0d63d9471e66abc5567c020c2e9f0234b6bac8ef0a6f04d410f70818e4bf14",
+      "note": "Reviewed x86-64 and AArch64 loops: one register-dependent load, register decrement and conditional back edge; stack setup/teardown lies outside the per-load loop. Reload wrappers retain separately documented timer/call/sink-store overhead.",
+      "passed": true,
+      "source_sha256": "87a9ec142e667728e1ffd12bbebe3caf3733b84e08fab0defe0d41aedb467516"
+    },
+    "crux": {
+      "compile": {
+        "command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "-pthread",
+          "followup_bench.c",
+          "-o",
+          "followup_bench"
+        ],
+        "cwd": "/tmp/ece592-phase1-followup-hlee58-v1/machines/crux/followup-v1/build",
+        "finished": "2026-09-08T11:12:05.116488+00:00",
+        "returncode": 0,
+        "started": "2026-09-08T11:12:05.049859+00:00",
+        "stderr": "",
+        "stdout": ""
+      },
+      "dependent_chase_listing": "000000000000165d <chase>:\n    165d:\tf3 0f 1e fa          \tendbr64\n    1661:\t55                   \tpush   %rbp\n    1662:\t48 89 e5             \tmov    %rsp,%rbp\n    1665:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    1669:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    166d:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n    1671:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n    1675:\t48 8b 12             \tmov    (%rdx),%rdx\n    1678:\t48 ff c8             \tdec    %rax\n    167b:\t75 f8                \tjne    1675 <chase+0x18>\n    167d:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n    1681:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n    1685:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    1689:\t5d                   \tpop    %rbp\n    168a:\tc3                   \tret\n",
+      "disassembly_sha256": "6a0d63d9471e66abc5567c020c2e9f0234b6bac8ef0a6f04d410f70818e4bf14",
+      "note": "Reviewed x86-64 and AArch64 loops: one register-dependent load, register decrement and conditional back edge; stack setup/teardown lies outside the per-load loop. Reload wrappers retain separately documented timer/call/sink-store overhead.",
+      "passed": true,
+      "source_sha256": "87a9ec142e667728e1ffd12bbebe3caf3733b84e08fab0defe0d41aedb467516"
+    },
+    "ookay": {
+      "compile": {
+        "command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "-pthread",
+          "followup_bench.c",
+          "-o",
+          "followup_bench"
+        ],
+        "cwd": "/tmp/ece592-phase1-followup-hlee58-v1/machines/ookay/followup-v1/build",
+        "finished": "2026-09-08T11:12:05.707974+00:00",
+        "returncode": 0,
+        "started": "2026-09-08T11:12:05.494076+00:00",
+        "stderr": "",
+        "stdout": ""
+      },
+      "dependent_chase_listing": "000000000000165d <chase>:\n    165d:\tf3 0f 1e fa          \tendbr64\n    1661:\t55                   \tpush   %rbp\n    1662:\t48 89 e5             \tmov    %rsp,%rbp\n    1665:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    1669:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    166d:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n    1671:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n    1675:\t48 8b 12             \tmov    (%rdx),%rdx\n    1678:\t48 ff c8             \tdec    %rax\n    167b:\t75 f8                \tjne    1675 <chase+0x18>\n    167d:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n    1681:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n    1685:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    1689:\t5d                   \tpop    %rbp\n    168a:\tc3                   \tret\n",
+      "disassembly_sha256": "6a0d63d9471e66abc5567c020c2e9f0234b6bac8ef0a6f04d410f70818e4bf14",
+      "note": "Reviewed x86-64 and AArch64 loops: one register-dependent load, register decrement and conditional back edge; stack setup/teardown lies outside the per-load loop. Reload wrappers retain separately documented timer/call/sink-store overhead.",
+      "passed": true,
+      "source_sha256": "87a9ec142e667728e1ffd12bbebe3caf3733b84e08fab0defe0d41aedb467516"
+    },
+    "skylark": {
+      "compile": {
+        "command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "-pthread",
+          "followup_bench.c",
+          "-o",
+          "followup_bench"
+        ],
+        "cwd": "/tmp/ece592-phase1-followup-hlee58-v1/machines/skylark/followup-v1/build",
+        "finished": "2026-09-08T11:25:32.297536+00:00",
+        "returncode": 0,
+        "started": "2026-09-08T11:25:32.220087+00:00",
+        "stderr": "",
+        "stdout": ""
+      },
+      "dependent_chase_listing": "00000000004013e7 <chase>:\n  4013e7:\t55                   \tpush   %rbp\n  4013e8:\t48 89 e5             \tmov    %rsp,%rbp\n  4013eb:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  4013ef:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  4013f3:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n  4013f7:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n  4013fb:\t48 8b 12             \tmov    (%rdx),%rdx\n  4013fe:\t48 ff c8             \tdec    %rax\n  401401:\t75 f8                \tjne    4013fb <chase+0x14>\n  401403:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n  401407:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n  40140b:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n  40140f:\t5d                   \tpop    %rbp\n  401410:\tc3                   \tretq   \n",
+      "disassembly_sha256": "0f25db51e49d4b75fb2981fd4bf2473ccb9baf1801e6e5a1e8f04670f299565b",
+      "note": "Reviewed x86-64 and AArch64 loops: one register-dependent load, register decrement and conditional back edge; stack setup/teardown lies outside the per-load loop. Reload wrappers retain separately documented timer/call/sink-store overhead.",
+      "passed": true,
+      "source_sha256": "87a9ec142e667728e1ffd12bbebe3caf3733b84e08fab0defe0d41aedb467516"
+    },
+    "sunbird": {
+      "compile": {
+        "command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "-pthread",
+          "followup_bench.c",
+          "-o",
+          "followup_bench"
+        ],
+        "cwd": "/tmp/ece592-phase1-followup-hlee58-v1/machines/sunbird/followup-v1/build",
+        "finished": "2026-09-08T11:15:24.489924+00:00",
+        "returncode": 0,
+        "started": "2026-09-08T11:15:24.376662+00:00",
+        "stderr": "",
+        "stdout": ""
+      },
+      "dependent_chase_listing": "00000000004013e7 <chase>:\n  4013e7:\t55                   \tpush   %rbp\n  4013e8:\t48 89 e5             \tmov    %rsp,%rbp\n  4013eb:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n  4013ef:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n  4013f3:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n  4013f7:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n  4013fb:\t48 8b 12             \tmov    (%rdx),%rdx\n  4013fe:\t48 ff c8             \tdec    %rax\n  401401:\t75 f8                \tjne    4013fb <chase+0x14>\n  401403:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n  401407:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n  40140b:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n  40140f:\t5d                   \tpop    %rbp\n  401410:\tc3                   \tretq   \n",
+      "disassembly_sha256": "0f25db51e49d4b75fb2981fd4bf2473ccb9baf1801e6e5a1e8f04670f299565b",
+      "note": "Reviewed x86-64 and AArch64 loops: one register-dependent load, register decrement and conditional back edge; stack setup/teardown lies outside the per-load loop. Reload wrappers retain separately documented timer/call/sink-store overhead.",
+      "passed": true,
+      "source_sha256": "87a9ec142e667728e1ffd12bbebe3caf3733b84e08fab0defe0d41aedb467516"
+    },
+    "thunderbird": {
+      "compile": {
+        "command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "-pthread",
+          "followup_bench.c",
+          "-o",
+          "followup_bench"
+        ],
+        "cwd": "/tmp/ece592-phase1-followup-hlee58-v1/machines/thunderbird/followup-v1/build",
+        "finished": "2026-09-08T11:35:04.040921+00:00",
+        "returncode": 0,
+        "started": "2026-09-08T11:35:03.949208+00:00",
+        "stderr": "",
+        "stdout": ""
+      },
+      "dependent_chase_listing": "0000000000401124 <chase>:\n  401124:\td10043ff \tsub\tsp, sp, #0x10\n  401128:\tf90007e0 \tstr\tx0, [sp, #8]\n  40112c:\tf90003e1 \tstr\tx1, [sp]\n  401130:\tf94007e1 \tldr\tx1, [sp, #8]\n  401134:\tf94003e0 \tldr\tx0, [sp]\n  401138:\tf9400021 \tldr\tx1, [x1]\n  40113c:\tf1000400 \tsubs\tx0, x0, #0x1\n  401140:\t54ffffc1 \tb.ne\t401138 <chase+0x14>  // b.any\n  401144:\tf90007e1 \tstr\tx1, [sp, #8]\n  401148:\tf90003e0 \tstr\tx0, [sp]\n  40114c:\tf94007e0 \tldr\tx0, [sp, #8]\n  401150:\t910043ff \tadd\tsp, sp, #0x10\n  401154:\td65f03c0 \tret\n",
+      "disassembly_sha256": "7fffdab8ddea6d5142d88f505b67aa37997a4f2691768acb44685791e0e41c69",
+      "note": "Reviewed x86-64 and AArch64 loops: one register-dependent load, register decrement and conditional back edge; stack setup/teardown lies outside the per-load loop. Reload wrappers retain separately documented timer/call/sink-store overhead.",
+      "passed": true,
+      "source_sha256": "87a9ec142e667728e1ffd12bbebe3caf3733b84e08fab0defe0d41aedb467516"
+    },
+    "upgrade": {
+      "compile": {
+        "command": [
+          "/usr/bin/gcc",
+          "-O0",
+          "-g",
+          "-std=c11",
+          "-Wall",
+          "-Wextra",
+          "-Werror",
+          "-fno-omit-frame-pointer",
+          "-pthread",
+          "followup_bench.c",
+          "-o",
+          "followup_bench"
+        ],
+        "cwd": "/tmp/ece592-phase1-followup-hlee58-v1/machines/upgrade/followup-v1/build",
+        "finished": "2026-09-08T11:12:05.427941+00:00",
+        "returncode": 0,
+        "started": "2026-09-08T11:12:05.350574+00:00",
+        "stderr": "",
+        "stdout": ""
+      },
+      "dependent_chase_listing": "000000000000165d <chase>:\n    165d:\tf3 0f 1e fa          \tendbr64 \n    1661:\t55                   \tpush   %rbp\n    1662:\t48 89 e5             \tmov    %rsp,%rbp\n    1665:\t48 89 7d f8          \tmov    %rdi,-0x8(%rbp)\n    1669:\t48 89 75 f0          \tmov    %rsi,-0x10(%rbp)\n    166d:\t48 8b 55 f8          \tmov    -0x8(%rbp),%rdx\n    1671:\t48 8b 45 f0          \tmov    -0x10(%rbp),%rax\n    1675:\t48 8b 12             \tmov    (%rdx),%rdx\n    1678:\t48 ff c8             \tdec    %rax\n    167b:\t75 f8                \tjne    1675 <chase+0x18>\n    167d:\t48 89 55 f8          \tmov    %rdx,-0x8(%rbp)\n    1681:\t48 89 45 f0          \tmov    %rax,-0x10(%rbp)\n    1685:\t48 8b 45 f8          \tmov    -0x8(%rbp),%rax\n    1689:\t5d                   \tpop    %rbp\n    168a:\tc3                   \tret    \n",
+      "disassembly_sha256": "c7a25b59e67c248dcae6c49b677b1e267b067db770de4c8f9377c1aeaa14d5d4",
+      "note": "Reviewed x86-64 and AArch64 loops: one register-dependent load, register decrement and conditional back edge; stack setup/teardown lies outside the per-load loop. Reload wrappers retain separately documented timer/call/sink-store overhead.",
+      "passed": true,
+      "source_sha256": "87a9ec142e667728e1ffd12bbebe3caf3733b84e08fab0defe0d41aedb467516"
+    }
+  },
+  "passed": true,
+  "time": "2026-09-08T11:37:02.062212+00:00"
+}

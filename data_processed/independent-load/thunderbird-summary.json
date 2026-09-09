@@ -1,0 +1,121 @@
+{
+  "batch": 4096,
+  "calibration_cpu": 1,
+  "calibration_records": [
+    "calibration/fa120c31508d38c9/attempt-1788928729447549986",
+    "calibration/39674ad348edf8a9/attempt-1788928732013457139",
+    "calibration/6c74514be0b24c3f/attempt-1788928735447930144",
+    "calibration/c4e520b28d160f03/attempt-1788928744003879532"
+  ],
+  "conclusion": "Four independent chains have lower median ticks/load in every qualified pair; evidence of load overlap, not physical hit latency.",
+  "cpus": [
+    1
+  ],
+  "dependent_median": 0.03369140625,
+  "failed_full": 0,
+  "full_attempts": 28,
+  "host": "thunderbird",
+  "independent_median": 0.008544921875,
+  "limitations": "One hot 1 KiB footprint; four chains share the same address set. Native ticks, not core cycles. Batch boundaries reset pointers; wrapper costs retained. Six seed/order pairs are not six independent machines or million independent repetitions.",
+  "noisy_full": 7,
+  "pairs": [
+    {
+      "cpu": 1,
+      "dependent": 0.03369140625,
+      "independent": 0.008544921875,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.942857142857143,
+      "records": [
+        "machines/thunderbird/independent-load-v1/comparison/98fe8851d5b49f3b/attempt-1788928748765771180/run.json",
+        "machines/thunderbird/independent-load-v1/comparison/ac51a66fec63c2e3/attempt-1788928757508716597/run.json"
+      ],
+      "seed": 5924101
+    },
+    {
+      "cpu": 1,
+      "dependent": 0.03369140625,
+      "independent": 0.008544921875,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.942857142857143,
+      "records": [
+        "machines/thunderbird/independent-load-v1/comparison/5b00283720cdb052/attempt-1788928780025259841/run.json",
+        "machines/thunderbird/independent-load-v1/comparison/af4d095a3047be9b/attempt-1788928775364987288/run.json"
+      ],
+      "seed": 5924101
+    },
+    {
+      "cpu": 1,
+      "dependent": 0.03369140625,
+      "independent": 0.008544921875,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.942857142857143,
+      "records": [
+        "machines/thunderbird/independent-load-v1/comparison/26168ef12a4fc427/attempt-1788928802171656947/run.json",
+        "machines/thunderbird/independent-load-v1/comparison/e3a0766061ae68b3/attempt-1788928810705961213/run.json"
+      ],
+      "seed": 5924102
+    },
+    {
+      "cpu": 1,
+      "dependent": 0.03369140625,
+      "independent": 0.008544921875,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.942857142857143,
+      "records": [
+        "machines/thunderbird/independent-load-v1/comparison/b8271f9eb2c0e80a/attempt-1788928819636440818/run.json",
+        "machines/thunderbird/independent-load-v1/comparison/aef35aa059820215/attempt-1788928815168325135/run.json"
+      ],
+      "seed": 5924102
+    },
+    {
+      "cpu": 1,
+      "dependent": 0.03369140625,
+      "independent": 0.008544921875,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.942857142857143,
+      "records": [
+        "machines/thunderbird/independent-load-v1/comparison/b79582f7eb2d8b1b/attempt-1788928854986014589/run.json",
+        "machines/thunderbird/independent-load-v1/comparison/ca582a66ce420eb4/attempt-1788928863698830866/run.json"
+      ],
+      "seed": 5924103
+    },
+    {
+      "cpu": 1,
+      "dependent": 0.03369140625,
+      "independent": 0.008544921875,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.942857142857143,
+      "records": [
+        "machines/thunderbird/independent-load-v1/comparison/7c4b52a3911e1e5e/attempt-1788928873239950984/run.json",
+        "machines/thunderbird/independent-load-v1/comparison/a9ad2e39352d03a8/attempt-1788928868462192903/run.json"
+      ],
+      "seed": 5924103
+    }
+  ],
+  "planned_pairs": 6,
+  "qualified_pairs": 6,
+  "ratio_max": 3.942857142857143,
+  "ratio_median": 3.942857142857143,
+  "ratio_min": 3.942857142857143,
+  "smoke_attempts": 4,
+  "timer_fraction": 0.02857142857142857,
+  "unit": "CNTVCT_ticks/load"
+}

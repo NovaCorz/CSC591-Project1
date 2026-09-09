@@ -1,0 +1,122 @@
+{
+  "batch": 4096,
+  "calibration_cpu": 2,
+  "calibration_records": [
+    "calibration/f6b3068c23ae9066/attempt-1788929166099902263",
+    "calibration/82fd8208f0a1ab11/attempt-1788929169365917479",
+    "calibration/508cebc58ca8a5f1/attempt-1788929173706700052",
+    "calibration/7ac69699ec772d68/attempt-1788929182384143203"
+  ],
+  "conclusion": "Four independent chains have lower median ticks/load in every qualified pair; evidence of load overlap, not physical hit latency.",
+  "cpus": [
+    1,
+    2
+  ],
+  "dependent_median": 5.12841796875,
+  "failed_full": 0,
+  "full_attempts": 44,
+  "host": "charnwood",
+  "independent_median": 1.29150390625,
+  "limitations": "One hot 1 KiB footprint; four chains share the same address set. Native ticks, not core cycles. Batch boundaries reset pointers; wrapper costs retained. Six seed/order pairs are not six independent machines or million independent repetitions.",
+  "noisy_full": 9,
+  "pairs": [
+    {
+      "cpu": 2,
+      "dependent": 3.74560546875,
+      "independent": 0.91845703125,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 4.078149920255183,
+      "records": [
+        "machines/charnwood/independent-load-v1/comparison/1ad90b4742366b34/attempt-1788929187856248553/run.json",
+        "machines/charnwood/independent-load-v1/comparison/2d9361de1ff55154/attempt-1788929196536836452/run.json"
+      ],
+      "seed": 5924101
+    },
+    {
+      "cpu": 1,
+      "dependent": 5.12841796875,
+      "independent": 1.29150390625,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.9708884688090738,
+      "records": [
+        "machines/charnwood/independent-load-v1/comparison/1c7b72f95c57ba82/attempt-1788929232972554537/run.json",
+        "machines/charnwood/independent-load-v1/comparison/9cefaf7dc28e0bc8/attempt-1788929224812421460/run.json"
+      ],
+      "seed": 5924101
+    },
+    {
+      "cpu": 1,
+      "dependent": 5.1279296875,
+      "independent": 1.29150390625,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.9705103969754254,
+      "records": [
+        "machines/charnwood/independent-load-v1/comparison/4b28dd82bfef8d00/attempt-1788929245333475741/run.json",
+        "machines/charnwood/independent-load-v1/comparison/1d61ab1133b55ef1/attempt-1788929257793241631/run.json"
+      ],
+      "seed": 5924102
+    },
+    {
+      "cpu": 1,
+      "dependent": 5.12841796875,
+      "independent": 1.29150390625,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.9708884688090738,
+      "records": [
+        "machines/charnwood/independent-load-v1/comparison/af0f33ba8f5a05af/attempt-1788929274074311525/run.json",
+        "machines/charnwood/independent-load-v1/comparison/34bc745d6aeb24e8/attempt-1788929265808147253/run.json"
+      ],
+      "seed": 5924102
+    },
+    {
+      "cpu": 1,
+      "dependent": 5.12841796875,
+      "independent": 1.29150390625,
+      "order": [
+        1,
+        4
+      ],
+      "ratio": 3.9708884688090738,
+      "records": [
+        "machines/charnwood/independent-load-v1/comparison/0df8c68af566d516/attempt-1788929286412001535/run.json",
+        "machines/charnwood/independent-load-v1/comparison/814175e4ab3a6e4a/attempt-1788929298845586972/run.json"
+      ],
+      "seed": 5924103
+    },
+    {
+      "cpu": 1,
+      "dependent": 5.12841796875,
+      "independent": 1.29296875,
+      "order": [
+        4,
+        1
+      ],
+      "ratio": 3.9663897280966767,
+      "records": [
+        "machines/charnwood/independent-load-v1/comparison/42a44574a810d682/attempt-1788929315062483747/run.json",
+        "machines/charnwood/independent-load-v1/comparison/3fa7d8a9291e2dac/attempt-1788929306988384304/run.json"
+      ],
+      "seed": 5924103
+    }
+  ],
+  "planned_pairs": 6,
+  "qualified_pairs": 6,
+  "ratio_max": 4.078149920255183,
+  "ratio_median": 3.9708884688090738,
+  "ratio_min": 3.9663897280966767,
+  "smoke_attempts": 4,
+  "timer_fraction": 0.021243523316062177,
+  "unit": "TSC_ticks/load"
+}

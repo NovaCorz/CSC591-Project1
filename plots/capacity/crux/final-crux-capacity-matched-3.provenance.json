@@ -1,0 +1,9 @@
+{
+  "comparison_cohort_policy": "machines/crux/uncertainty-v1/capacity-matched.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/crux/uncertainty-v1/capacity_matched/dcd54dbc267fd200/attempt-1788879448445548605/run.json",
+    "machines/crux/uncertainty-v1/capacity_matched/c8e5a44f47fbf8a9/attempt-1788879404471900440/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:15.251403+00:00"
+}

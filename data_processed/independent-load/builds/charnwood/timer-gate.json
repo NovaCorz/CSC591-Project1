@@ -1,0 +1,44 @@
+{
+  "batch": 4096,
+  "calibrations": [
+    {
+      "attempts": [
+        {
+          "fraction": null,
+          "records": [
+            "calibration/de98d91fb8e3668c/attempt-1788929108679890297",
+            "calibration/9a6dd1d6e8eb12b4/attempt-1788929112669937199",
+            "calibration/96499456dd517e4e/attempt-1788929118724251397",
+            "calibration/1f4c30e5f975185c/attempt-1788929130035798695"
+          ],
+          "same_core_clean": false
+        },
+        {
+          "fraction": null,
+          "records": [
+            "calibration/38a8997bfc25a96f/attempt-1788929138102637905",
+            "calibration/9605bfb47360cd8c/attempt-1788929142709376688",
+            "calibration/ed50da3967b5a845/attempt-1788929148744432681",
+            "calibration/f319e479e2cbd736/attempt-1788929160591192604"
+          ],
+          "same_core_clean": false
+        },
+        {
+          "fraction": 0.021243523316062177,
+          "records": [
+            "calibration/f6b3068c23ae9066/attempt-1788929166099902263",
+            "calibration/82fd8208f0a1ab11/attempt-1788929169365917479",
+            "calibration/508cebc58ca8a5f1/attempt-1788929173706700052",
+            "calibration/7ac69699ec772d68/attempt-1788929182384143203"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "batch": 4096,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "source_digest": "ecd64e61f88e228ffbd24fcdfb3ddd58b9d5b103b0787633a25e647f56b3e4c2",
+  "time": "2026-09-09T04:46:27.855807+00:00"
+}

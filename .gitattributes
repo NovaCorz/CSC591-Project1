@@ -1,7 +1,8 @@
-# Preserve the exact archived bytes and their manifest checksums.
-*.csv -text whitespace=cr-at-eol
-# objdump pads instruction columns; do not rewrite the recorded disassembly.
-*.dis -text -whitespace
-*.bin.gz -text
-*.pdf -text
-*.png -text
+* text=auto
+*.py -text
+*.c -text
+*.json -text
+*.csv -text
+*.svg -text
+*.log -text
+Makefile -text

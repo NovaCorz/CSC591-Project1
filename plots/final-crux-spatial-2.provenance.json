@@ -1,0 +1,19 @@
+{
+  "comparison_cohort_policy": "machines/crux/uncertainty-v1/spatial-cohorts.json (when present); all attempted cohorts retained, first clean same-core cohort supports inference",
+  "sources": [
+    "machines/crux/uncertainty-v1/spatial_residency/005b42285b5e72b5/attempt-1788878189035855742/run.json",
+    "machines/crux/uncertainty-v1/spatial_residency/5f8fd2e44f178a9b/attempt-1788878209237756561/run.json",
+    "machines/crux/uncertainty-v1/spatial_residency/b4c234a8bc597872/attempt-1788878198656028472/run.json",
+    "machines/crux/uncertainty-v1/spatial_residency/889022a0fae8148d/attempt-1788878241167800236/run.json",
+    "machines/crux/uncertainty-v1/spatial_residency/e50d2de3e1eeffa3/attempt-1788878230530617788/run.json",
+    "machines/crux/uncertainty-v1/spatial_residency/cd8031180479cdf3/attempt-1788878219945613899/run.json",
+    "machines/crux/uncertainty-v1/spatial_residency/6755e70d45ae95d8/attempt-1788878250519460837/run.json",
+    "machines/crux/uncertainty-v1/spatial_residency/354f78a782200e0f/attempt-1788878270742002435/run.json",
+    "machines/crux/uncertainty-v1/spatial_residency/3fa9bff711b6876f/attempt-1788878260122262126/run.json",
+    "machines/crux/uncertainty-v1/spatial_residency/bbe48f5b10d4c582/attempt-1788878302420349030/run.json",
+    "machines/crux/uncertainty-v1/spatial_residency/6e2ebf4af4e4ff8f/attempt-1788878291869913385/run.json",
+    "machines/crux/uncertainty-v1/spatial_residency/41f154276766ecb7/attempt-1788878281409896748/run.json"
+  ],
+  "statistics": "Native median/IQR; boxes use P05/P95 whiskers. All outliers remain in raw files.",
+  "time": "2026-09-08T21:01:16.314328+00:00"
+}

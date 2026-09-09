@@ -1,0 +1,53 @@
+test_extra_dense_class_does_not_shift_common_level_boundaries (test_followup.CapacityMatchingTests) ... ok
+test_refinement_does_not_borrow_coarse_endpoint_from_another_core (test_followup.CapacityMatchingTests) ... ok
+test_empty_lower_pool_preserves_scrub (test_followup.LowerConstructionTests) ... ok
+test_upper_and_lower_lists_stay_disjoint_and_bounded (test_followup.LowerConstructionTests) ... ok
+test_other_core_smt_sibling_must_also_be_idle (test_followup.PairSelectionTests) ... ok
+test_pair_cannot_be_formed_from_one_physical_core (test_followup.PairSelectionTests) ... ok
+test_pair_selection_tries_another_socket_before_waiting (test_followup.PairSelectionTests) ... ok
+test_all_four_independent_calibrations_required (test_followup.SaturationInferenceTests) ... ok
+test_changed_core_cannot_pass_calibration (test_followup.SaturationInferenceTests) ... ok
+test_diagonal_conditions_do_not_substitute_for_factorial_replication (test_followup.SpatialLogicTests) ... ok
+test_missing_point_cannot_create_precise_boundary (test_followup.SpatialLogicTests) ... ok
+test_noisy_boundary_cannot_supply_confirmation (test_followup.SpatialLogicTests) ... ok
+test_secondary_edge_does_not_disqualify_smallest_shifted_boundary (test_followup.SpatialLogicTests) ... ok
+test_single_alignment_or_footprint_is_insufficient (test_followup.SpatialLogicTests) ... ok
+test_small_but_resolved_repeated_effect_is_not_hidden_by_percentage_cutoff (test_followup.SpatialLogicTests) ... ok
+test_sub_resolution_shift_is_not_an_edge (test_followup.SpatialLogicTests) ... ok
+test_ratio_uses_matched_medians (test_independent.MatchedPairValidation) ... ok
+test_reject_different_cpu (test_independent.MatchedPairValidation) ... ok
+test_reject_noisy_arm (test_independent.MatchedPairValidation) ... ok
+test_both_isas (test_independent.NativeDependencyAudit) ... ok
+test_reject_missing_load (test_independent.NativeDependencyAudit) ... ok
+test_reject_serialized_parallel_kernel (test_independent.NativeDependencyAudit) ... ok
+test_does_not_skip_noisy_intermediate_point (test_uncertainty.CapacityPairRepairTests) ... ok
+test_repairs_core_changes_in_both_directions (test_uncertainty.CapacityPairRepairTests) ... ok
+test_capacity_incompatible_period_does_not_supply_ways (test_uncertainty.ConditionalGeometryTests) ... ok
+test_one_noisy_required_repeat_blocks_candidate (test_uncertainty.ConditionalGeometryTests) ... ok
+test_replicated_geometry_is_conditional_not_physical (test_uncertainty.ConditionalGeometryTests) ... ok
+test_unbacked_huge_mapping_cannot_establish_index_geometry (test_uncertainty.ConditionalGeometryTests) ... ok
+test_all_cross_core_pairs_are_repaired_without_latency_selection (test_uncertainty.QualityRepairTests) ... ok
+test_clean_same_core_pairs_do_not_trigger_repair (test_uncertainty.QualityRepairTests) ... ok
+test_noisy_endpoint_requires_both_neighbor_comparisons (test_uncertainty.QualityRepairTests) ... ok
+test_noisy_or_cross_core_edges_are_not_refined (test_uncertainty.UncertaintyTests) ... ok
+test_reject_stride_that_overlaps_scrub_index_bit (test_uncertainty.UncertaintyTests) ... ok
+test_scrub_and_candidate_index_hypotheses (test_uncertainty.UncertaintyTests) ... ok
+test_alternate_batch_cannot_create_a_boundary_at_the_same_size (test_workflow.BatchConsistencyTests) ... ok
+test_alternate_batch_cannot_satisfy_primary_coverage (test_workflow.BatchConsistencyTests) ... ok
+test_skipped_noisy_conflict_point_produces_only_a_bound (test_workflow.BatchConsistencyTests) ... ok
+test_busy_sibling_forces_another_core (test_workflow.CoreTests) ... ok
+test_cpuset_obeyed_and_idle_retry_avoids_prior (test_workflow.CoreTests) ... ok
+test_no_ticks_not_assumed_idle (test_workflow.CoreTests) ... ok
+test_recheck_catches_new_activity (test_workflow.CoreTests) ... ok
+test_retry_prefers_another_physical_core_over_previous_smt_partner (test_workflow.CoreTests) ... ok
+test_preferred_idle_core_is_kept_and_busy_core_is_replaced (test_workflow.PreferredCoreTests) ... ok
+test_rounding_allowance_cannot_hide_sample_or_median_changes (test_workflow.RecomputeTests) ... ok
+test_distribution (test_workflow.StatisticsTests) ... ok
+test_endian_and_compression (test_workflow.StatisticsTests) ... ok
+test_truncated_raw_rejected (test_workflow.StatisticsTests) ... ok
+test_counter_frequency_and_wall_calibration_are_distinct (test_workflow.TimerConversionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.058s
+
+OK
