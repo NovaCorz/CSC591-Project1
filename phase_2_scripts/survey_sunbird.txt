@@ -1,5 +1,5 @@
 == Host: sunbird.ece.ncsu.edu ==
-== Date: Thu Sep 10 01:07:12 AM UTC 2026 ==
+== Date: Thu Sep 10 06:13:52 PM UTC 2026 ==
 
 -- CPU identification --
 Architecture:                            x86_64
@@ -8,7 +8,7 @@ On-line CPU(s) list:                     0-47
 Vendor ID:                               GenuineIntel
 Model name:                              Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz
 Socket(s):                               2
-CPU(s) scaling MHz:                      50%
+CPU(s) scaling MHz:                      52%
 NUMA node0 CPU(s):                       0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46
 NUMA node1 CPU(s):                       1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47
 
@@ -1393,10 +1393,10 @@ tma_l1_bound_group: [Metrics contributing to tma_l1_bound category]
        [This metric represents Core fraction of cycles CPU dispatched uops on
 
 -- quick sanity check: can we open a basic hardware counter at all? --
-       0.000758241 seconds time elapsed
+       0.000874418 seconds time elapsed
 
        0.000000000 seconds user
-       0.000802000 seconds sys
+       0.000922000 seconds sys
 
 
 

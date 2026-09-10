@@ -1,0 +1,55 @@
+{
+  "regime": "l1_resident",
+  "size_kib": 34.0,
+  "event_batch": [
+    "cycles",
+    "instructions"
+  ],
+  "invocation": [
+    "/home/jrkuethe/CSC591-Project1/main_code/common/phase1/src/cache_bench",
+    "chase",
+    "34816",
+    "8",
+    "0",
+    "1000000",
+    "512",
+    "5922026",
+    "8",
+    "random",
+    "../data_raw/sunbird/pmu/eight_counter/l1_resident_batch0.bin"
+  ],
+  "returncode": 0,
+  "bench_metadata": {
+    "mode": "chase",
+    "bytes": 34816,
+    "stride": 8,
+    "offset": 0,
+    "nodes": 4352,
+    "samples": 1000000,
+    "batch": 512,
+    "seed": 5922026,
+    "cpu": 8,
+    "final_cpu": 8,
+    "unit": "TSC_ticks",
+    "counter_frequency": 0,
+    "empirical_ticks_per_second": 2499953931.341,
+    "calibration_ns": 20067873,
+    "elapsed_ns": 1008552115,
+    "warmup_loads": 36332544,
+    "alignment": 4096,
+    "madvise_nohugepage_rc": 0,
+    "little_endian": true,
+    "minor_faults": 0,
+    "major_faults": 0,
+    "voluntary_switches": 0,
+    "involuntary_switches": 1,
+    "address": "0x7f03655da000"
+  },
+  "counters": {
+    "cycles": "2692381216",
+    "instructions": "1723747270",
+    "time_enabled_ns": "1123969143",
+    "time_running_ns": "1123969143"
+  },
+  "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=1123969143 ns  time_running=1123969143 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+}

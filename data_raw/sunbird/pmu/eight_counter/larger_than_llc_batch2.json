@@ -1,0 +1,55 @@
+{
+  "regime": "larger_than_llc",
+  "size_kib": 131072.0,
+  "event_batch": [
+    "LL-read-access",
+    "LL-read-miss"
+  ],
+  "invocation": [
+    "/home/jrkuethe/CSC591-Project1/main_code/common/phase1/src/cache_bench",
+    "chase",
+    "134217728",
+    "8",
+    "0",
+    "1000000",
+    "512",
+    "5922026",
+    "8",
+    "random",
+    "../data_raw/sunbird/pmu/eight_counter/larger_than_llc_batch2.bin"
+  ],
+  "returncode": 0,
+  "bench_metadata": {
+    "mode": "chase",
+    "bytes": 134217728,
+    "stride": 8,
+    "offset": 0,
+    "nodes": 16777216,
+    "samples": 1000000,
+    "batch": 512,
+    "seed": 5922026,
+    "cpu": 8,
+    "final_cpu": 8,
+    "unit": "TSC_ticks",
+    "counter_frequency": 0,
+    "empirical_ticks_per_second": 2499961917.222,
+    "calibration_ns": 20074691,
+    "elapsed_ns": 44768433449,
+    "warmup_loads": 34714112,
+    "alignment": 4096,
+    "madvise_nohugepage_rc": 0,
+    "little_endian": true,
+    "minor_faults": 3,
+    "major_faults": 0,
+    "voluntary_switches": 0,
+    "involuntary_switches": 12,
+    "address": "0x7f82fa200000"
+  },
+  "counters": {
+    "LL-read-access": "897531439",
+    "LL-read-miss": "458799947",
+    "time_enabled_ns": "50039002483",
+    "time_running_ns": "50039002483"
+  },
+  "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=50039002483 ns  time_running=50039002483 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+}
