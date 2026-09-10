@@ -1,5 +1,5 @@
 == Host: artemisia.ece.ncsu.edu ==
-== Date: Thu Sep 10 01:49:51 AM UTC 2026 ==
+== Date: Thu Sep 10 06:43:56 PM UTC 2026 ==
 
 -- CPU identification --
 Architecture:                            x86_64
@@ -2141,10 +2141,10 @@ tma_store_stlb_miss_group: [Metrics contributing to tma_store_stlb_miss category
        [Percentage of cycles within a transaction region]
 
 -- quick sanity check: can we open a basic hardware counter at all? --
-       0.000862825 seconds time elapsed
+       0.000880723 seconds time elapsed
 
        0.000000000 seconds user
-       0.000936000 seconds sys
+       0.000941000 seconds sys
 
 
 

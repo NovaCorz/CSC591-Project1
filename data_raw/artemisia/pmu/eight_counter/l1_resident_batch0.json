@@ -1,0 +1,55 @@
+{
+  "regime": "l1_resident",
+  "size_kib": 34.0,
+  "event_batch": [
+    "cycles",
+    "instructions"
+  ],
+  "invocation": [
+    "/home/jrkuethe/CSC591-Project1/main_code/common/phase1/src/cache_bench",
+    "chase",
+    "34816",
+    "8",
+    "0",
+    "1000000",
+    "512",
+    "5922026",
+    "29",
+    "random",
+    "../data_raw/artemisia/pmu/eight_counter/l1_resident_batch0.bin"
+  ],
+  "returncode": 0,
+  "bench_metadata": {
+    "mode": "chase",
+    "bytes": 34816,
+    "stride": 8,
+    "offset": 0,
+    "nodes": 4352,
+    "samples": 1000000,
+    "batch": 512,
+    "seed": 5922026,
+    "cpu": 29,
+    "final_cpu": 29,
+    "unit": "TSC_ticks",
+    "counter_frequency": 0,
+    "empirical_ticks_per_second": 1999948656.746,
+    "calibration_ns": 20061058,
+    "elapsed_ns": 1351494965,
+    "warmup_loads": 39625728,
+    "alignment": 4096,
+    "madvise_nohugepage_rc": 0,
+    "little_endian": true,
+    "minor_faults": 0,
+    "major_faults": 0,
+    "voluntary_switches": 0,
+    "involuntary_switches": 1,
+    "address": "0x7fa865690000"
+  },
+  "counters": {
+    "cycles": "2896389532",
+    "instructions": "1733697001",
+    "time_enabled_ns": "1459555233",
+    "time_running_ns": "1459555233"
+  },
+  "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=1459555233 ns  time_running=1459555233 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+}
