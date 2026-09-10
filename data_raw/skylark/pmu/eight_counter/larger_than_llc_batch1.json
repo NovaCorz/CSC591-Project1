@@ -1,0 +1,55 @@
+{
+  "regime": "larger_than_llc",
+  "size_kib": 131072.0,
+  "event_batch": [
+    "L1D-read-access",
+    "L1D-read-miss"
+  ],
+  "invocation": [
+    "/home/jrkuethe/CSC591-Project1/main_code/common/phase1/src/cache_bench",
+    "chase",
+    "134217728",
+    "8",
+    "0",
+    "1000000",
+    "512",
+    "5922026",
+    "1",
+    "random",
+    "../data_raw/skylark/pmu/eight_counter/larger_than_llc_batch1.bin"
+  ],
+  "returncode": 0,
+  "bench_metadata": {
+    "mode": "chase",
+    "bytes": 134217728,
+    "stride": 8,
+    "offset": 0,
+    "nodes": 16777216,
+    "samples": 1000000,
+    "batch": 512,
+    "seed": 5922026,
+    "cpu": 1,
+    "final_cpu": 1,
+    "unit": "TSC_ticks",
+    "counter_frequency": 0,
+    "empirical_ticks_per_second": 2395443953.885,
+    "calibration_ns": 20060552,
+    "elapsed_ns": 61212300700,
+    "warmup_loads": 34378240,
+    "alignment": 4096,
+    "madvise_nohugepage_rc": 0,
+    "little_endian": true,
+    "minor_faults": 4,
+    "major_faults": 0,
+    "voluntary_switches": 0,
+    "involuntary_switches": 108,
+    "address": "0x7fbc77a00000"
+  },
+  "counters": {
+    "L1D-read-access": "2360125631",
+    "L1D-read-miss": "595016566",
+    "time_enabled_ns": "66402068187",
+    "time_running_ns": "66402068187"
+  },
+  "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=66402068187 ns  time_running=66402068187 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+}

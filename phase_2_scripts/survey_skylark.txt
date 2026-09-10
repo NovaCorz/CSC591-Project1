@@ -1,5 +1,5 @@
 == Host: skylark.ece.ncsu.edu ==
-== Date: Thu Sep 10 02:42:07 AM UTC 2026 ==
+== Date: Thu Sep 10 07:51:43 PM UTC 2026 ==
 
 -- CPU identification --
 Architecture:                            x86_64
@@ -313,10 +313,10 @@ tlb:
        [L1 ITLB Misses]
 
 -- quick sanity check: can we open a basic hardware counter at all? --
-       0.000534987 seconds time elapsed
+       0.000745329 seconds time elapsed
 
        0.000000000 seconds user
-       0.000576000 seconds sys
+       0.000786000 seconds sys
 
 
 
