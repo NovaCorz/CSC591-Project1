@@ -1,0 +1,458 @@
+{
+  "sunbird": {
+    "l1": {
+      "capacity_interval_bytes": [
+        32768.0,
+        36864.0
+      ],
+      "capacity_interval_kib": [
+        32.0,
+        36.0
+      ],
+      "capacity_midpoint_kib": 34.0,
+      "line_size_bytes": 64,
+      "ways_candidate": "8",
+      "hit_latency_median": 4.1328125,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "l2": {
+      "capacity_interval_bytes": [
+        262144.0,
+        294912.0
+      ],
+      "capacity_interval_kib": [
+        256.0,
+        288.0
+      ],
+      "capacity_midpoint_kib": 272.0,
+      "line_size_bytes": null,
+      "ways_candidate": "8",
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "llc": {
+      "capacity_interval_bytes": [
+        8388608.0,
+        33554432.0
+      ],
+      "capacity_interval_kib": [
+        8192.0,
+        32768.0
+      ],
+      "capacity_midpoint_kib": 20480.0,
+      "line_size_bytes": null,
+      "ways_candidate": null,
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "over_llc_suggestion_kib": 131072.0
+  },
+  "thunderbird": {
+    "l1": {
+      "capacity_interval_bytes": [
+        65536.0,
+        73728.0
+      ],
+      "capacity_interval_kib": [
+        64.0,
+        72.0
+      ],
+      "capacity_midpoint_kib": 68.0,
+      "line_size_bytes": 64,
+      "ways_candidate": "4",
+      "hit_latency_median": 0.0341796875,
+      "hit_latency_unit": "CNTVCT_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "l2": {
+      "capacity_interval_bytes": [
+        1048576.0,
+        1179648.0
+      ],
+      "capacity_interval_kib": [
+        1024.0,
+        1152.0
+      ],
+      "capacity_midpoint_kib": 1088.0,
+      "line_size_bytes": null,
+      "ways_candidate": "8",
+      "hit_latency_median": null,
+      "hit_latency_unit": "CNTVCT_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "llc": {
+      "capacity_interval_bytes": [
+        16777216.0,
+        18874368.0
+      ],
+      "capacity_interval_kib": [
+        16384.0,
+        18432.0
+      ],
+      "capacity_midpoint_kib": 17408.0,
+      "line_size_bytes": null,
+      "ways_candidate": null,
+      "hit_latency_median": null,
+      "hit_latency_unit": "CNTVCT_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "over_llc_suggestion_kib": 73728.0
+  },
+  "skylark": {
+    "l1": {
+      "capacity_interval_bytes": [
+        32768.0,
+        36864.0
+      ],
+      "capacity_interval_kib": [
+        32.0,
+        36.0
+      ],
+      "capacity_midpoint_kib": 34.0,
+      "line_size_bytes": 64,
+      "ways_candidate": "8",
+      "hit_latency_median": 3.046875,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "l2": {
+      "capacity_interval_bytes": [
+        524288.0,
+        589824.0
+      ],
+      "capacity_interval_kib": [
+        512.0,
+        576.0
+      ],
+      "capacity_midpoint_kib": 544.0,
+      "line_size_bytes": null,
+      "ways_candidate": "8",
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "llc": {
+      "capacity_interval_bytes": [
+        16777216.0,
+        18874368.0
+      ],
+      "capacity_interval_kib": [
+        16384.0,
+        18432.0
+      ],
+      "capacity_midpoint_kib": 17408.0,
+      "line_size_bytes": null,
+      "ways_candidate": null,
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "over_llc_suggestion_kib": 73728.0
+  },
+  "artemisia": {
+    "l1": {
+      "capacity_interval_bytes": [
+        49152.0,
+        53248.0
+      ],
+      "capacity_interval_kib": [
+        48.0,
+        52.0
+      ],
+      "capacity_midpoint_kib": 50.0,
+      "line_size_bytes": 64,
+      "ways_candidate": "12",
+      "hit_latency_median": 5.25,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "l2": {
+      "capacity_interval_bytes": [
+        2097152.0,
+        2359296.0
+      ],
+      "capacity_interval_kib": [
+        2048.0,
+        2304.0
+      ],
+      "capacity_midpoint_kib": 2176.0,
+      "line_size_bytes": null,
+      "ways_candidate": "16",
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "llc": {
+      "capacity_interval_bytes": [
+        25165824.0,
+        27262976.0
+      ],
+      "capacity_interval_kib": [
+        24576.0,
+        26624.0
+      ],
+      "capacity_midpoint_kib": 25600.0,
+      "line_size_bytes": null,
+      "ways_candidate": null,
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "over_llc_suggestion_kib": 106496.0
+  },
+  "charnwood": {
+    "l1": {
+      "capacity_interval_bytes": [
+        32768.0,
+        36864.0
+      ],
+      "capacity_interval_kib": [
+        32.0,
+        36.0
+      ],
+      "capacity_midpoint_kib": 34.0,
+      "line_size_bytes": 64,
+      "ways_candidate": "8",
+      "hit_latency_median": 4.55859375,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "l2": {
+      "capacity_interval_bytes": [
+        262144.0,
+        294912.0
+      ],
+      "capacity_interval_kib": [
+        256.0,
+        288.0
+      ],
+      "capacity_midpoint_kib": 272.0,
+      "line_size_bytes": null,
+      "ways_candidate": "4",
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "llc": {
+      "capacity_interval_bytes": [
+        4194304.0,
+        8388608.0
+      ],
+      "capacity_interval_kib": [
+        4096.0,
+        8192.0
+      ],
+      "capacity_midpoint_kib": 6144.0,
+      "line_size_bytes": null,
+      "ways_candidate": null,
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "over_llc_suggestion_kib": 32768.0
+  },
+  "crux": {
+    "l1": {
+      "capacity_interval_bytes": [
+        32768.0,
+        36864.0
+      ],
+      "capacity_interval_kib": [
+        32.0,
+        36.0
+      ],
+      "capacity_midpoint_kib": 34.0,
+      "line_size_bytes": 64,
+      "ways_candidate": "8",
+      "hit_latency_median": 2.705078125,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "l2": {
+      "capacity_interval_bytes": [
+        262144.0,
+        294912.0
+      ],
+      "capacity_interval_kib": [
+        256.0,
+        288.0
+      ],
+      "capacity_midpoint_kib": 272.0,
+      "line_size_bytes": null,
+      "ways_candidate": "4",
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "llc": {
+      "capacity_interval_bytes": [
+        4194304.0,
+        16777216.0
+      ],
+      "capacity_interval_kib": [
+        4096.0,
+        16384.0
+      ],
+      "capacity_midpoint_kib": 10240.0,
+      "line_size_bytes": null,
+      "ways_candidate": null,
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "over_llc_suggestion_kib": 65536.0
+  },
+  "ookay": {
+    "l1": {
+      "capacity_interval_bytes": [
+        32768.0,
+        36864.0
+      ],
+      "capacity_interval_kib": [
+        32.0,
+        36.0
+      ],
+      "capacity_midpoint_kib": 34.0,
+      "line_size_bytes": 64,
+      "ways_candidate": "8",
+      "hit_latency_median": 3.640625,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "l2": {
+      "capacity_interval_bytes": [
+        262144.0,
+        294912.0
+      ],
+      "capacity_interval_kib": [
+        256.0,
+        288.0
+      ],
+      "capacity_midpoint_kib": 272.0,
+      "line_size_bytes": null,
+      "ways_candidate": "4",
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "llc": {
+      "capacity_interval_bytes": [
+        5242880.0,
+        5767168.0
+      ],
+      "capacity_interval_kib": [
+        5120.0,
+        5632.0
+      ],
+      "capacity_midpoint_kib": 5376.0,
+      "line_size_bytes": null,
+      "ways_candidate": null,
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "over_llc_suggestion_kib": 22528.0
+  },
+  "upgrade": {
+    "l1": {
+      "capacity_interval_bytes": [
+        32768.0,
+        36864.0
+      ],
+      "capacity_interval_kib": [
+        32.0,
+        36.0
+      ],
+      "capacity_midpoint_kib": 34.0,
+      "line_size_bytes": 64,
+      "ways_candidate": "8",
+      "hit_latency_median": 2.943359375,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "l2": {
+      "capacity_interval_bytes": [
+        262144.0,
+        294912.0
+      ],
+      "capacity_interval_kib": [
+        256.0,
+        288.0
+      ],
+      "capacity_midpoint_kib": 272.0,
+      "line_size_bytes": null,
+      "ways_candidate": "4",
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "llc": {
+      "capacity_interval_bytes": [
+        2097152.0,
+        16777216.0
+      ],
+      "capacity_interval_kib": [
+        2048.0,
+        16384.0
+      ],
+      "capacity_midpoint_kib": 9216.0,
+      "line_size_bytes": null,
+      "ways_candidate": null,
+      "hit_latency_median": null,
+      "hit_latency_unit": "TSC_ticks/access",
+      "inclusion_exclusion": "uncertain",
+      "sharing_scope": "Exact domain unverified in Phase I",
+      "status": "CONDITIONAL -- treat as bracket, not confirmed value"
+    },
+    "over_llc_suggestion_kib": 65536.0
+  }
+}
