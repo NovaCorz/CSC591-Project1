@@ -1,0 +1,43 @@
+{
+  "started_utc": "2026-09-10T02:42:07.899497+00:00",
+  "hostname": "skylark.ece.ncsu.edu",
+  "target_host": "skylark",
+  "target_level": "l1",
+  "bracket_bytes": [
+    32768.0,
+    36864.0
+  ],
+  "bracket_status": "CONDITIONAL -- treat as bracket, not confirmed value",
+  "stride": 8,
+  "batch": 512,
+  "seed": 5922026,
+  "samples": 1000000,
+  "mode": "chase",
+  "order": "random",
+  "cpu": 2,
+  "git_commit": "c1a00bf5c3b867335def5897a1a423849c5b4542",
+  "binary_sha256": "3062cfa7f8c28fae4bed46999c98d265514f88ac48394382c156940b4290c232",
+  "pmu_stat_sha256": "5c973ad4af7705458587bed158b36d795fa460770e1bb0869caa506292c53bba",
+  "command": [
+    "boundary_correlation.py",
+    "--host",
+    "skylark",
+    "--level",
+    "l1",
+    "--boundaries-json",
+    "phase1_boundaries.json",
+    "--host-config",
+    "../main_code/common/phase1/config/followup-plan.json",
+    "--binary",
+    "../main_code/common/phase1/src/cache_bench",
+    "--pmu-stat",
+    "../main_code/pmu/pmu_stat",
+    "--cpu",
+    "2",
+    "--events",
+    "cycles,instructions,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,dTLB-read-miss,cache-misses",
+    "--out",
+    "../data_raw/skylark/pmu/boundary_correlation_l1"
+  ],
+  "PHASE1_CAVEAT": "This bracket is a conditional Phase-I candidate, not a confirmed boundary. Hit latency and inclusion/exclusion remain unresolved per PHASE1_HANDOFF.md and are NOT validated by this script."
+}

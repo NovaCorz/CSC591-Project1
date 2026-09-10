@@ -1,0 +1,34 @@
+{
+  "regime": "larger_than_llc",
+  "size_kib": 131072.0,
+  "invocation": [
+    "taskset",
+    "-c",
+    "2",
+    "/home/jrkuethe/CSC591-Project1/main_code/common/phase1/src/cache_bench",
+    "134217728",
+    "8",
+    "1000000",
+    "4096",
+    "592",
+    "random",
+    "../data_raw/thunderbird/pmu/eight_counter/larger_than_llc.bin"
+  ],
+  "returncode": 2,
+  "bench_metadata": {
+    "raw_stdout_line0": "cycles=389059,instructions=401229,L1D-read-access=166381,L1D-read-miss=3998,LL-read-access=UNAVAILABLE,LL-read-miss=UNAVAILABLE,dTLB-read-miss=UNAVAILABLE,cache-misses=10573,time_enabled_ns=916909,time_running_ns=916909"
+  },
+  "counters": {
+    "cycles": "389059",
+    "instructions": "401229",
+    "L1D-read-access": "166381",
+    "L1D-read-miss": "3998",
+    "LL-read-access": "UNAVAILABLE",
+    "LL-read-miss": "UNAVAILABLE",
+    "dTLB-read-miss": "UNAVAILABLE",
+    "cache-misses": "10573",
+    "time_enabled_ns": "916909",
+    "time_running_ns": "916909"
+  },
+  "pmu_stat_stderr": "warning: unrecognized event name 'dTLB-read-miss'\nperf_event_open failed for 'LL-read-access': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)\nperf_event_open failed for 'LL-read-miss': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)\nusage: cache_bench MODE BYTES STRIDE OFFSET SAMPLES BATCH SEED CPU ORDER RAW\n-- pmu_stat result --\nchild exit status: 2\ntime_enabled=916909 ns  time_running=916909 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+}

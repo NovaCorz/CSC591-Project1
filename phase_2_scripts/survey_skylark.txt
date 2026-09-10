@@ -1,0 +1,323 @@
+== Host: skylark.ece.ncsu.edu ==
+== Date: Thu Sep 10 02:42:07 AM UTC 2026 ==
+
+-- CPU identification --
+Architecture:                            x86_64
+CPU(s):                                  64
+On-line CPU(s) list:                     0-63
+Vendor ID:                               AuthenticAMD
+Model name:                              AMD EPYC 7532 32-Core Processor
+Socket(s):                               2
+NUMA node0 CPU(s):                       0-31
+NUMA node1 CPU(s):                       32-63
+
+-- perf_event_paranoid (lower = more access; -1 is fully open) --
+2
+   If this blocks needed events and you cannot change it yourself,
+   record the exact value/error and contact the TA -- do not change
+   system-wide settings on a shared machine.
+
+-- perf tool present? --
+perf version 5.14.0-687.30.1.el9_8.x86_64
+
+-- generic hardware events perf reports as supported --
+  branch-instructions OR branches                    [Hardware event]
+  branch-misses                                      [Hardware event]
+  cache-misses                                       [Hardware event]
+  cache-references                                   [Hardware event]
+  cpu-cycles OR cycles                               [Hardware event]
+  instructions                                       [Hardware event]
+  stalled-cycles-frontend OR idle-cycles-frontend    [Hardware event]
+
+-- cache/TLB/cycle-related events (grep filter) --
+  cache-misses                                       [Hardware event]
+  cache-references                                   [Hardware event]
+  cpu-cycles OR cycles                               [Hardware event]
+  stalled-cycles-frontend OR idle-cycles-frontend    [Hardware event]
+  L1-dcache-loads OR cpu/L1-dcache-loads/
+  L1-dcache-load-misses OR cpu/L1-dcache-load-misses/
+  L1-dcache-prefetches OR cpu/L1-dcache-prefetches/
+  L1-icache-loads OR cpu/L1-icache-loads/
+  L1-icache-load-misses OR cpu/L1-icache-load-misses/
+  dTLB-loads OR cpu/dTLB-loads/
+  dTLB-load-misses OR cpu/dTLB-load-misses/
+  iTLB-loads OR cpu/iTLB-loads/
+  iTLB-load-misses OR cpu/iTLB-load-misses/
+  cache-misses OR cpu/cache-misses/                  [Kernel PMU event]
+  cache-references OR cpu/cache-references/          [Kernel PMU event]
+  cpu-cycles OR cpu/cpu-cycles/                      [Kernel PMU event]
+  stalled-cycles-frontend OR cpu/stalled-cycles-frontend/[Kernel PMU event]
+cache:
+  l2_request_g1.all_no_prefetch OR cpu/l2_request_g1.all_no_prefetch/
+  bp_l1_btb_correct
+       [L1 Branch Prediction Overrides Existing Prediction (speculative).
+  bp_l1_tlb_fetch_hit
+       [The number of instruction fetches that hit in the L1 ITLB. Unit: cpu]
+  bp_l1_tlb_fetch_hit.if1g
+       [The number of instruction fetches that hit in the L1 ITLB. Instruction
+  bp_l1_tlb_fetch_hit.if2m
+       [The number of instruction fetches that hit in the L1 ITLB. Instruction
+  bp_l1_tlb_fetch_hit.if4k
+       [The number of instruction fetches that hit in the L1 ITLB. Instruction
+  bp_l2_btb_correct
+       [L2 Branch Prediction Overrides Existing Prediction (speculative).
+  bp_tlb_rel
+       [The number of ITLB reload requests. Unit: cpu]
+cache:
+  bp_l1_tlb_miss_l2_hit
+       [The number of instruction fetches that miss in the L1 ITLB but hit in
+        the L2 ITLB. Unit: cpu]
+  bp_l1_tlb_miss_l2_tlb_miss
+       [The number of instruction fetches that miss in both the L1 and L2
+        TLBs. Unit: cpu]
+  bp_l1_tlb_miss_l2_tlb_miss.if1g
+       [The number of instruction fetches that miss in both the L1 and L2
+        TLBs. Instruction fetches to a 1GB page. Unit: cpu]
+  bp_l1_tlb_miss_l2_tlb_miss.if2m
+       [The number of instruction fetches that miss in both the L1 and L2
+        TLBs. Instruction fetches to a 2MB page. Unit: cpu]
+  bp_l1_tlb_miss_l2_tlb_miss.if4k
+       [The number of instruction fetches that miss in both the L1 and L2
+        TLBs. Instruction fetches to a 4KB page. Unit: cpu]
+  ic_cache_fill_l2
+       [The number of 64 byte instruction cache line was fulfilled from the L2
+        cache. Unit: cpu]
+  ic_cache_fill_sys
+       [The number of 64 byte instruction cache line fulfilled from system
+        memory or another cache. Unit: cpu]
+  ic_cache_inval.fill_invalidated
+        instruction cache lines invalidated. A non-SMC event is CMC (cross
+  ic_cache_inval.l2_invalidating_probe
+       [IC line invalidated due to L2 invalidating probe (external or LS). The
+        number of instruction cache lines invalidated. A non-SMC event is CMC
+       [Instruction Pipe Stall. IC pipe was stalled during this clock cycle
+       [Instruction Pipe Stall. IC pipe was stalled during this clock cycle
+       [Instruction Pipe Stall. IC pipe was stalled during this clock cycle
+        instruction decoder (includes non-cacheable and cacheable fill
+       [The number of 32B fetch windows tried to read the L1 IC and missed in
+  l2_cache_req_stat.ic_access_in_l2
+       [Core to L2 cacheable request access status (not including L2
+        Prefetch). Instruction cache requests in L2. Unit: cpu]
+  l2_cache_req_stat.ic_dc_hit_in_l2
+       [Core to L2 cacheable request access status (not including L2
+        Prefetch). Instruction cache request hit in L2 and Data cache request
+        hit in L2 (all types). Unit: cpu]
+  l2_cache_req_stat.ic_dc_miss_in_l2
+       [Core to L2 cacheable request access status (not including L2
+        Prefetch). Instruction cache request miss in L2 and Data cache request
+        miss in L2 (all types). Unit: cpu]
+  l2_cache_req_stat.ic_fill_hit_s
+       [Core to L2 cacheable request access status (not including L2
+        Prefetch). Instruction cache hit clean line in L2. Unit: cpu]
+  l2_cache_req_stat.ic_fill_hit_x
+       [Core to L2 cacheable request access status (not including L2
+        Prefetch). Instruction cache hit modifiable line in L2. Unit: cpu]
+  l2_cache_req_stat.ic_fill_miss
+       [Core to L2 cacheable request access status (not including L2
+        Prefetch). Instruction cache request miss in L2. Unit: cpu]
+  l2_cache_req_stat.ls_rd_blk_c
+       [Core to L2 cacheable request access status (not including L2
+        Prefetch). Data cache request miss in L2 (all types). Unit: cpu]
+  l2_cache_req_stat.ls_rd_blk_cs
+       [Core to L2 cacheable request access status (not including L2
+        Prefetch). Data cache shared read hit in L2. Unit: cpu]
+  l2_cache_req_stat.ls_rd_blk_l_hit_s
+       [Core to L2 cacheable request access status (not including L2
+        Prefetch). Data cache read hit on shared line in L2. Unit: cpu]
+  l2_cache_req_stat.ls_rd_blk_l_hit_x
+       [Core to L2 cacheable request access status (not including L2
+        Prefetch). Data cache read hit in L2. Unit: cpu]
+  l2_cache_req_stat.ls_rd_blk_x
+       [Core to L2 cacheable request access status (not including L2
+        Prefetch). Data cache store or state change hit in L2. Unit: cpu]
+  l2_fill_pending.l2_fill_busy
+       [Cycles with fill pending from L2. Total cycles spent with one or more
+        fill requests in flight from L2. Unit: cpu]
+  l2_latency.l2_cycles_waiting_on_fills
+       [Total cycles spent waiting for L2 fills to complete from L3 or memory,
+  l2_pf_hit_l2
+       [L2 prefetch hit in L2. Use l2_cache_hits_from_l2_hwpf instead. Unit:
+  l2_pf_miss_l2_hit_l3
+       [L2 prefetcher hits in L3. Counts all L2 prefetches accepted by the L2
+        pipeline which miss the L2 cache and hit the L3. Unit: cpu]
+  l2_pf_miss_l2_l3
+       [L2 prefetcher misses in L3. All L2 prefetches accepted by the L2
+        pipeline which miss the L2 and the L3 caches. Unit: cpu]
+  l2_request_g1.cacheable_ic_read
+       [All L2 Cache Requests (Breakdown 1 - Common). Instruction cache reads.
+  l2_request_g1.change_to_x
+       [All L2 Cache Requests (Breakdown 1 - Common). Data cache state change
+        requests. Request change to writable,check L2 for current state. Unit:
+  l2_request_g1.group2
+       [Miscellaneous events covered in more detail by l2_request_g2
+  l2_request_g1.l2_hw_pf
+       [All L2 Cache Requests (Breakdown 1 - Common). L2 Prefetcher. All
+        prefetches accepted by L2 pipeline,hit or miss. Types of PF and L2
+  l2_request_g1.ls_rd_blk_c_s
+       [All L2 Cache Requests (Breakdown 1 - Common). Data cache shared reads.
+  l2_request_g1.prefetch_l2_cmd
+       [All L2 Cache Requests (Breakdown 1 - Common). PrefetchL2Cmd. Unit: cpu]
+  l2_request_g1.rd_blk_l
+       [All L2 Cache Requests (Breakdown 1 - Common). Data cache reads
+  l2_request_g1.rd_blk_x
+       [All L2 Cache Requests (Breakdown 1 - Common). Data cache stores. Unit:
+  l2_request_g2.bus_locks_originator
+       [All L2 Cache Requests (Breakdown 2 - Rare). Bus locks. Unit: cpu]
+  l2_request_g2.bus_locks_responses
+       [All L2 Cache Requests (Breakdown 2 - Rare). Bus lock response. Unit:
+  l2_request_g2.group1
+       [Miscellaneous events covered in more detail by l2_request_g1
+  l2_request_g2.ic_rd_sized
+       [All L2 Cache Requests (Breakdown 2 - Rare). Instruction cache read
+  l2_request_g2.ic_rd_sized_nc
+       [All L2 Cache Requests (Breakdown 2 - Rare). Instruction cache read
+        sized non-cacheable. Unit: cpu]
+  l2_request_g2.ls_rd_sized
+       [All L2 Cache Requests (Breakdown 2 - Rare). Data cache read sized.
+  l2_request_g2.ls_rd_sized_nc
+       [All L2 Cache Requests (Breakdown 2 - Rare). Data cache read sized
+        non-cacheable. Unit: cpu]
+  l2_request_g2.smc_inval
+       [All L2 Cache Requests (Breakdown 2 - Rare). Self-modifying code
+  l2_wcb_req.cl_zero
+       [LS to L2 WCB cache line zeroing requests. LS (Load/Store unit) to L2
+        WCB (Write Combining Buffer) cache line zeroing requests. Unit: cpu]
+  l2_wcb_req.wcb_close
+       [LS to L2 WCB close requests. LS (Load/Store unit) to L2 WCB (Write
+  l2_wcb_req.wcb_write
+       [LS to L2 WCB write requests. LS (Load/Store unit) to L2 WCB (Write
+  l2_wcb_req.zero_byte_store
+       [LS to L2 WCB zero byte store requests. LS (Load/Store unit) to L2 WCB
+       [L3 cache misses. Unit: amd_l3]
+  l3_request_g1.caching_l3_cache_accesses
+       [Caching: L3 cache accesses. Unit: amd_l3]
+       [L3 Cache Miss Latency. Total cycles for all transactions divided by
+       [Div Cycles Busy count. Unit: cpu]
+        retired per cycle. The number of events logged per cycle can vary from
+        retired SSE/AVX FLOPS. The number of events logged per cycle can vary
+        FLOPS. The number of events logged per cycle can vary from 0 to 64.
+        retired SSE/AVX FLOPS. The number of events logged per cycle can vary
+        events logged per cycle can vary from 0 to 64. This event can count
+        SSE/AVX FLOPS. The number of events logged per cycle can vary from 0
+  fpu_pipe_assignment.total1
+  fpu_pipe_assignment.total2
+       [Number of accesses to the dcache for load/store references. Unit: cpu]
+  ls_hw_pf_dc_fill.ls_mabresp_lcl_cache
+       [Hardware Prefetch Data Cache Fills by Data Source. From another cache
+       [Hardware Prefetch Data Cache Fills by Data Source. From DRAM (home
+  ls_hw_pf_dc_fill.ls_mabresp_lcl_l2
+       [Hardware Prefetch Data Cache Fills by Data Source. Local L2 hit. Unit:
+  ls_hw_pf_dc_fill.ls_mabresp_rmt_cache
+       [Hardware Prefetch Data Cache Fills by Data Source. From another cache
+       [Hardware Prefetch Data Cache Fills by Data Source. From DRAM (home
+  ls_l1_d_tlb_miss.all
+       [All L1 DTLB Misses or Reloads. Unit: cpu]
+  ls_l1_d_tlb_miss.tlb_reload_1g_l2_hit
+       [L1 DTLB Miss. DTLB reload to a 1G page that hit in the L2 TLB. Unit:
+  ls_l1_d_tlb_miss.tlb_reload_1g_l2_miss
+       [L1 DTLB Miss. DTLB reload to a 1G page that miss in the L2 TLB. Unit:
+  ls_l1_d_tlb_miss.tlb_reload_2m_l2_hit
+       [L1 DTLB Miss. DTLB reload to a 2M page that hit in the L2 TLB. Unit:
+  ls_l1_d_tlb_miss.tlb_reload_2m_l2_miss
+       [L1 DTLB Miss. DTLB reload to a 2M page that miss in the L2 TLB. Unit:
+  ls_l1_d_tlb_miss.tlb_reload_4k_l2_hit
+       [L1 DTLB Miss. DTLB reload to a 4K page that hit in the L2 TLB. Unit:
+  ls_l1_d_tlb_miss.tlb_reload_4k_l2_miss
+       [L1 DTLB Miss. DTLB reload to a 4K page that miss the L2 TLB. Unit: cpu]
+  ls_l1_d_tlb_miss.tlb_reload_coalesced_page_hit
+       [L1 DTLB Miss. DTLB reload hit a coalesced page. Unit: cpu]
+  ls_l1_d_tlb_miss.tlb_reload_coalesced_page_miss
+       [L1 DTLB Miss. DTLB reload coalesced page miss. Unit: cpu]
+        cache boundary or is done on an uncacheable memory type. Comparable to
+       [Retired lock instructions. High speculative cacheable lock speculation
+       [Retired lock instructions. Low speculative cacheable lock speculation
+       [Cycles not in Halt. Unit: cpu]
+  ls_refills_from_sys.ls_mabresp_lcl_cache
+       [Demand Data Cache Fills by Data Source. Hit in cache; local CCX (not
+        Local L2),or Remote CCX and the address's Home Node is on this
+       [Demand Data Cache Fills by Data Source. DRAM or IO from this thread's
+  ls_refills_from_sys.ls_mabresp_lcl_l2
+       [Demand Data Cache Fills by Data Source. Local L2 hit. Unit: cpu]
+  ls_refills_from_sys.ls_mabresp_rmt_cache
+       [Demand Data Cache Fills by Data Source. Hit in cache; Remote CCX and
+       [Demand Data Cache Fills by Data Source. DRAM or IO from different die.
+  ls_st_commit_cancel2.st_commit_cancel_wcb_full
+       [A non-cacheable store and the non-cacheable commit buffer is full.
+  ls_sw_pf_dc_fill.ls_mabresp_lcl_cache
+       [Software Prefetch Data Cache Fills by Data Source. From another cache
+       [Software Prefetch Data Cache Fills by Data Source. DRAM or IO from
+  ls_sw_pf_dc_fill.ls_mabresp_lcl_l2
+       [Software Prefetch Data Cache Fills by Data Source. Local L2 hit. Unit:
+  ls_sw_pf_dc_fill.ls_mabresp_rmt_cache
+       [Software Prefetch Data Cache Fills by Data Source. From another cache
+       [Software Prefetch Data Cache Fills by Data Source. From DRAM (home
+  ls_tlb_flush
+       [All TLB Flushes. Unit: cpu]
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where a dispatch group is valid but does not get dispatched due
+       [Cycles where the Micro-Op Queue is empty. Unit: cpu]
+       [Ops dispatched from either the decoders,OpCache or both. Unit: cpu]
+  de_dis_uops_from_decoder.opcache_dispatched
+       [Count of dispatched Ops from OpCache. Unit: cpu]
+       [All L1 Data Cache Accesses. Unit: cpu]
+  all_tlbs_flushed
+       [All TLBs Flushed. Unit: cpu]
+  l1_dtlb_misses
+       [L1 DTLB Misses. Unit: cpu]
+  l2_cache_accesses_from_dc_misses
+       [L2 Cache Accesses from L1 Data Cache Misses (including prefetch).
+  l2_cache_accesses_from_ic_misses
+       [L2 Cache Accesses from L1 Instruction Cache Misses (including
+  l2_cache_hits_from_dc_misses
+       [L2 Cache Hits from L1 Data Cache Misses. Unit: cpu]
+  l2_cache_hits_from_ic_misses
+       [L2 Cache Hits from L1 Instruction Cache Misses. Unit: cpu]
+  l2_cache_hits_from_l2_hwpf
+       [L2 Cache Hits from L2 HWPF. Unit: cpu]
+  l2_cache_misses_from_dc_misses
+       [L2 Cache Misses from L1 Data Cache Misses. Unit: cpu]
+  l2_cache_misses_from_ic_miss
+       [L2 Cache Misses from L1 Instruction Cache Misses. Unit: cpu]
+  l2_dtlb_misses
+       [L2 DTLB Misses & Data page walks. Unit: cpu]
+  l2_itlb_misses
+       [L2 ITLB Misses & Instruction page walks. Unit: cpu]
+l2_cache:
+  all_l2_cache_accesses
+       [All L2 Cache Accesses]
+  all_l2_cache_hits
+       [All L2 Cache Hits]
+  all_l2_cache_misses
+       [All L2 Cache Misses]
+       [L1 Instruction Cache (32B) Fetch Miss Ratio]
+  l2_cache_accesses_from_l2_hwpf
+       [L2 Cache Accesses from L2 HWPF]
+  l2_cache_misses_from_l2_hwpf
+       [L2 Cache Misses from L2 HWPF]
+l3_cache:
+tlb:
+  l1_itlb_misses
+       [L1 ITLB Misses]
+
+-- quick sanity check: can we open a basic hardware counter at all? --
+       0.000534987 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000576000 seconds sys
+
+
+
+== End survey ==
