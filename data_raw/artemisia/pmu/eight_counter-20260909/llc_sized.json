@@ -1,0 +1,34 @@
+{
+  "regime": "llc_sized",
+  "size_kib": 20480.0,
+  "invocation": [
+    "taskset",
+    "-c",
+    "29",
+    "/home/jrkuethe/CSC591-Project1/main_code/common/phase1/src/cache_bench",
+    "20971520",
+    "8",
+    "1000000",
+    "4096",
+    "592",
+    "random",
+    "data_raw/artemisia/pmu/eight_counter-20260909/llc_sized.bin"
+  ],
+  "returncode": 2,
+  "bench_metadata": {
+    "raw_stdout_line0": "cycles=721926,instructions=407295,L1D-read-access=96283,L1D-read-miss=4812,LL-read-access=2905,LL-read-miss=983,dTLB-read-miss=UNAVAILABLE,cache-misses=2840,time_enabled_ns=1479790,time_running_ns=1479790"
+  },
+  "counters": {
+    "cycles": "721926",
+    "instructions": "407295",
+    "L1D-read-access": "96283",
+    "L1D-read-miss": "4812",
+    "LL-read-access": "2905",
+    "LL-read-miss": "983",
+    "dTLB-read-miss": "UNAVAILABLE",
+    "cache-misses": "2840",
+    "time_enabled_ns": "1479790",
+    "time_running_ns": "1479790"
+  },
+  "pmu_stat_stderr": "warning: unrecognized event name 'dTLB-read-miss'\nusage: cache_bench MODE BYTES STRIDE OFFSET SAMPLES BATCH SEED CPU ORDER RAW\n-- pmu_stat result --\nchild exit status: 2\ntime_enabled=1479790 ns  time_running=1479790 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+}
