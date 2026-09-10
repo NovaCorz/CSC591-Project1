@@ -1,7 +1,0 @@
-warning: unrecognized event name 'dTLB-read-miss'
-perf_event_open failed for 'LL-read-access': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)
-perf_event_open failed for 'LL-read-miss': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)
-usage: cache_bench MODE BYTES STRIDE OFFSET SAMPLES BATCH SEED CPU ORDER RAW
--- pmu_stat result --
-child exit status: 2
-time_enabled=1244323 ns  time_running=1244323 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)

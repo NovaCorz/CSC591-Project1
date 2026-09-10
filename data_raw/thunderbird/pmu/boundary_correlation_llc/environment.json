@@ -1,5 +1,5 @@
 {
-  "started_utc": "2026-09-10T02:26:49.425743+00:00",
+  "started_utc": "2026-09-10T21:55:44.621768+00:00",
   "hostname": "thunderbird.ece.ncsu.edu",
   "target_host": "thunderbird",
   "target_level": "llc",
@@ -14,8 +14,8 @@
   "samples": 1000000,
   "mode": "chase",
   "order": "random",
-  "cpu": 2,
-  "git_commit": "25cd48cfc0e06d2513dabf5e3636bc0b449abe62",
+  "cpu": 3,
+  "git_commit": "489af5ad63684acd78d7c8a2f5b16541f0c3ba46",
   "binary_sha256": "0dd864ffdd89f9c997d1c0a6f8fa8ac7c209c83016043da553693b96659e1286",
   "pmu_stat_sha256": "128c8d659dc47e5bd6d16c9d65d480f3c776479f064ba2e1a532b90badb29804",
   "command": [
@@ -33,9 +33,11 @@
     "--pmu-stat",
     "../main_code/pmu/pmu_stat",
     "--cpu",
-    "2",
+    "3",
     "--events",
-    "cycles,instructions,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,dTLB-read-miss,cache-misses",
+    "cycles,instructions,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,DTLB-read-miss,cache-misses",
+    "--events-per-run",
+    "2",
     "--out",
     "../data_raw/thunderbird/pmu/boundary_correlation_llc"
   ],

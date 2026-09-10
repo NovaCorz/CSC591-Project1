@@ -1,29 +1,48 @@
 {
-  "started_utc": "2026-09-10T02:40:10.635969+00:00",
-  "hostname": "skylark.ece.ncsu.edu",
-  "kernel": "Linux skylark.ece.ncsu.edu 5.14.0-611.38.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Sat Feb 28 05:07:41 EST 2026 x86_64 x86_64 x86_64 GNU/Linux",
-  "cpu_model": "model name\t: AMD EPYC 7532 32-Core Processor",
-  "topology": "CPU CORE SOCKET NODE\n  0    0      0    0\n  1    1      0    0\n  2    2      0    0\n  3    3      0    0\n  4    4      0    0\n  5    5      0    0\n  6    6      0    0\n  7    7      0    0\n  8    8      0    0\n  9    9      0    0\n 10   10      0    0\n 11   11      0    0\n 12   12      0    0\n 13   13      0    0\n 14   14      0    0\n 15   15      0    0\n 16   16      0    0\n 17   17      0    0\n 18   18      0    0\n 19   19      0    0\n 20   20      0    0\n 21   21      0    0\n 22   22      0    0\n 23   23      0    0\n 24   24      0    0\n 25   25      0    0\n 26   26      0    0\n 27   27      0    0\n 28   28      0    0\n 29   29      0    0\n 30   30      0    0\n 31   31      0    0\n 32   32      1    1\n 33   33      1    1\n 34   34      1    1\n 35   35      1    1\n 36   36      1    1\n 37   37      1    1\n 38   38      1    1\n 39   39      1    1\n 40   40      1    1\n 41   41      1    1\n 42   42      1    1\n 43   43      1    1\n 44   44      1    1\n 45   45      1    1\n 46   46      1    1\n 47   47      1    1\n 48   48      1    1\n 49   49      1    1\n 50   50      1    1\n 51   51      1    1\n 52   52      1    1\n 53   53      1    1\n 54   54      1    1\n 55   55      1    1\n 56   56      1    1\n 57   57      1    1\n 58   58      1    1\n 59   59      1    1\n 60   60      1    1\n 61   61      1    1\n 62   62      1    1\n 63   63      1    1",
-  "git_commit": "c1a00bf5c3b867335def5897a1a423849c5b4542",
-  "git_status": "M ../main_code/common/phase1/src/cache_bench\n M ../main_code/pmu/pmu_stat\n M run_phase2.sh\n?? ../data_raw/thunderbird/pmu/boundary_correlation_l1/\n?? survey_skylark.ece.ncsu.edu.txt",
-  "binary_sha256": "3062cfa7f8c28fae4bed46999c98d265514f88ac48394382c156940b4290c232",
-  "pmu_stat_sha256": "5c973ad4af7705458587bed158b36d795fa460770e1bb0869caa506292c53bba",
+  "started_utc": "2026-09-10T21:28:41.224971+00:00",
+  "hostname": "thunderbird.ece.ncsu.edu",
+  "kernel": "Linux thunderbird.ece.ncsu.edu 5.14.0-611.54.1.el9_7.aarch64 #1 SMP PREEMPT_DYNAMIC Sat May 2 14:05:02 UTC 2026 aarch64 aarch64 aarch64 GNU/Linux",
+  "cpu_model": "unavailable",
+  "git_commit": "489af5ad63684acd78d7c8a2f5b16541f0c3ba46",
+  "git_status": "D ../data_raw/thunderbird/pmu/boundary_correlation_l1/environment.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_00_32768B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_00_32768B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_01_36264B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_01_36264B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_02_40132B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_02_40132B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_03_44414B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_03_44414B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_04_49152B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_04_49152B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_05_54396B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_05_54396B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_06_60199B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_06_60199B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_07_65536B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_07_65536B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_08_66621B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_08_66621B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_09_73728B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_09_73728B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_10_81593B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_10_81593B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_11_90298B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_11_90298B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_12_99931B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_12_99931B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_13_110592B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/point_13_110592B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l1/summary.csv\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/environment.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_00_524288B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_00_524288B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_01_580220B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_01_580220B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_02_642119B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_02_642119B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_03_710622B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_03_710622B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_04_786432B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_04_786432B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_05_870330B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_05_870330B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_06_963179B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_06_963179B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_07_1048576B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_07_1048576B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_08_1065932B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_08_1065932B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_09_1179648B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_09_1179648B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_10_1305495B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_10_1305495B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_11_1444768B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_11_1444768B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_12_1598898B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_12_1598898B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_13_1769472B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/point_13_1769472B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_l2/summary.csv\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/environment.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_00_8388608B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_00_8388608B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_01_9283521B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_01_9283521B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_02_10273905B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_02_10273905B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_03_11369944B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_03_11369944B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_04_12582912B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_04_12582912B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_05_13925281B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_05_13925281B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_06_15410857B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_06_15410857B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_07_16777216B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_07_16777216B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_08_17054917B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_08_17054917B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_09_18874368B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_09_18874368B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_10_20887922B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_10_20887922B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_11_23116285B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_11_23116285B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_12_25582375B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_12_25582375B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_13_28311552B.json\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/point_13_28311552B.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/boundary_correlation_llc/summary.csv\n D ../data_raw/thunderbird/pmu/eight_counter-20260909/environment.json\n D ../data_raw/thunderbird/pmu/eight_counter-20260909/l1_resident.json\n D ../data_raw/thunderbird/pmu/eight_counter-20260909/l1_resident.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/eight_counter-20260909/larger_than_llc.json\n D ../data_raw/thunderbird/pmu/eight_counter-20260909/larger_than_llc.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/eight_counter-20260909/llc_sized.json\n D ../data_raw/thunderbird/pmu/eight_counter-20260909/llc_sized.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/eight_counter-20260909/summary.csv\n D ../data_raw/thunderbird/pmu/eight_counter/environment.json\n D ../data_raw/thunderbird/pmu/eight_counter/l1_resident.json\n D ../data_raw/thunderbird/pmu/eight_counter/l1_resident.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/eight_counter/larger_than_llc.json\n D ../data_raw/thunderbird/pmu/eight_counter/larger_than_llc.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/eight_counter/llc_sized.json\n D ../data_raw/thunderbird/pmu/eight_counter/llc_sized.pmu_stat.stderr\n D ../data_raw/thunderbird/pmu/eight_counter/summary.csv\n M ../main_code/common/phase1/src/cache_bench\n M ../main_code/pmu/pmu_stat\n M run_phase2.sh\n M survey_thunderbird.txt",
+  "binary_sha256": "0dd864ffdd89f9c997d1c0a6f8fa8ac7c209c83016043da553693b96659e1286",
+  "pmu_stat_sha256": "128c8d659dc47e5bd6d16c9d65d480f3c776479f064ba2e1a532b90badb29804",
   "arguments": {
     "binary": "../main_code/common/phase1/src/cache_bench",
     "pmu_stat": "../main_code/pmu/pmu_stat",
-    "cpu": 2,
-    "spacing": 8,
+    "cpu": 3,
+    "stride": 8,
     "samples": 1000000,
-    "steps": 4096,
-    "seed": 592,
+    "batch": 512,
+    "seed": 5922026,
+    "mode": "chase",
+    "order": "random",
     "l1_kib": 34.0,
     "llc_kib": 20480.0,
     "over_llc_kib": 131072.0,
-    "events": "cycles,instructions,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,dTLB-read-miss,cache-misses",
-    "mode": "random",
+    "events": "cycles,instructions,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,DTLB-read-miss,cache-misses",
+    "events_per_run": 2,
     "out": "../data_raw/thunderbird/pmu/eight_counter",
     "notes": ""
   },
+  "event_batches": [
+    [
+      "cycles",
+      "instructions"
+    ],
+    [
+      "L1D-read-access",
+      "L1D-read-miss"
+    ],
+    [
+      "LL-read-access",
+      "LL-read-miss"
+    ],
+    [
+      "DTLB-read-miss",
+      "cache-misses"
+    ]
+  ],
   "command": [
     "pmu_eight_counter.py",
     "--binary",
@@ -31,15 +50,15 @@
     "--pmu-stat",
     "../main_code/pmu/pmu_stat",
     "--cpu",
-    "2",
-    "--spacing",
+    "3",
+    "--stride",
     "8",
     "--samples",
     "1000000",
-    "--steps",
-    "4096",
+    "--batch",
+    "512",
     "--seed",
-    "592",
+    "5922026",
     "--l1-kib",
     "34.0",
     "--llc-kib",
@@ -47,10 +66,12 @@
     "--over-llc-kib",
     "131072.0",
     "--events",
-    "cycles,instructions,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,dTLB-read-miss,cache-misses",
+    "cycles,instructions,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,DTLB-read-miss,cache-misses",
+    "--events-per-run",
+    "2",
     "--out",
     "../data_raw/thunderbird/pmu/eight_counter"
   ],
-  "PLACEHOLDER_WARNING": "l1_kib/llc_kib/over_llc_kib are provisional regime sizes, not confirmed Phase-I boundaries. Re-run once Phase I is frozen if these estimates change materially.",
+  "PLACEHOLDER_WARNING": "l1_kib/llc_kib/over_llc_kib should come from resolve_phase1_boundaries.py now that Phase I is frozen -- confirm they are not left over from before the freeze.",
   "notes": ""
 }
