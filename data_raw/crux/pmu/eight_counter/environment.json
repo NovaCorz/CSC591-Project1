@@ -1,0 +1,77 @@
+{
+  "started_utc": "2026-09-10T21:02:30.679947+00:00",
+  "hostname": "crux.ece.ncsu.edu",
+  "kernel": "Linux crux.ece.ncsu.edu 6.8.0-88-generic #89-Ubuntu SMP PREEMPT_DYNAMIC Sat Oct 11 01:02:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux",
+  "cpu_model": "model name\t: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz",
+  "git_commit": "fbc8fe3f8acd9eb00ad216c1ee2fb7e989cbdaa3",
+  "git_status": "M run_phase2.sh\n?? survey_crux.txt",
+  "binary_sha256": "d7b2bfa405f726ddafded2bfc1674687caabdfe853222850a283fefe7a119c8f",
+  "pmu_stat_sha256": "39c6c4560b5aa21ed9c31c5319b66537770ea53807627229f55454d68d8566db",
+  "arguments": {
+    "binary": "../main_code/common/phase1/src/cache_bench",
+    "pmu_stat": "../main_code/pmu/pmu_stat",
+    "cpu": 3,
+    "stride": 8,
+    "samples": 1000000,
+    "batch": 512,
+    "seed": 5922026,
+    "mode": "chase",
+    "order": "random",
+    "l1_kib": 34.0,
+    "llc_kib": 20480.0,
+    "over_llc_kib": 131072.0,
+    "events": "cycles,instructions,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,DTLB-read-miss,cache-misses",
+    "events_per_run": 2,
+    "out": "../data_raw/crux/pmu/eight_counter",
+    "notes": ""
+  },
+  "event_batches": [
+    [
+      "cycles",
+      "instructions"
+    ],
+    [
+      "L1D-read-access",
+      "L1D-read-miss"
+    ],
+    [
+      "LL-read-access",
+      "LL-read-miss"
+    ],
+    [
+      "DTLB-read-miss",
+      "cache-misses"
+    ]
+  ],
+  "command": [
+    "pmu_eight_counter.py",
+    "--binary",
+    "../main_code/common/phase1/src/cache_bench",
+    "--pmu-stat",
+    "../main_code/pmu/pmu_stat",
+    "--cpu",
+    "3",
+    "--stride",
+    "8",
+    "--samples",
+    "1000000",
+    "--batch",
+    "512",
+    "--seed",
+    "5922026",
+    "--l1-kib",
+    "34.0",
+    "--llc-kib",
+    "20480.0",
+    "--over-llc-kib",
+    "131072.0",
+    "--events",
+    "cycles,instructions,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,DTLB-read-miss,cache-misses",
+    "--events-per-run",
+    "2",
+    "--out",
+    "../data_raw/crux/pmu/eight_counter"
+  ],
+  "PLACEHOLDER_WARNING": "l1_kib/llc_kib/over_llc_kib should come from resolve_phase1_boundaries.py now that Phase I is frozen -- confirm they are not left over from before the freeze.",
+  "notes": ""
+}

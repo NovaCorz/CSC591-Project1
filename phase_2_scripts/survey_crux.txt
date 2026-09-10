@@ -1,0 +1,1009 @@
+== Host: crux.ece.ncsu.edu ==
+== Date: Thu Sep 10 09:02:30 PM UTC 2026 ==
+
+-- CPU identification --
+Architecture:                         x86_64
+CPU(s):                               8
+On-line CPU(s) list:                  0-7
+Vendor ID:                            GenuineIntel
+Model name:                           Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
+Socket(s):                            1
+CPU(s) scaling MHz:                   94%
+NUMA node0 CPU(s):                    0-7
+
+-- perf_event_paranoid (lower = more access; -1 is fully open) --
+1
+   If this blocks needed events and you cannot change it yourself,
+   record the exact value/error and contact the TA -- do not change
+   system-wide settings on a shared machine.
+
+-- perf tool present? --
+perf version 6.8.12
+
+-- generic hardware events perf reports as supported --
+  branch-instructions OR branches                    [Hardware event]
+  branch-misses                                      [Hardware event]
+  bus-cycles                                         [Hardware event]
+  cache-misses                                       [Hardware event]
+  cache-references                                   [Hardware event]
+  cpu-cycles OR cycles                               [Hardware event]
+  instructions                                       [Hardware event]
+  ref-cycles                                         [Hardware event]
+
+-- cache/TLB/cycle-related events (grep filter) --
+  bus-cycles                                         [Hardware event]
+  cache-misses                                       [Hardware event]
+  cache-references                                   [Hardware event]
+  cpu-cycles OR cycles                               [Hardware event]
+  ref-cycles                                         [Hardware event]
+cache:
+  L1-dcache-loads OR cpu/L1-dcache-loads/
+  L1-dcache-load-misses OR cpu/L1-dcache-load-misses/
+  L1-dcache-stores OR cpu/L1-dcache-stores/
+  L1-icache-load-misses OR cpu/L1-icache-load-misses/
+  LLC-loads OR cpu/LLC-loads/
+  LLC-load-misses OR cpu/LLC-load-misses/
+  LLC-stores OR cpu/LLC-stores/
+  LLC-store-misses OR cpu/LLC-store-misses/
+  dTLB-loads OR cpu/dTLB-loads/
+  dTLB-load-misses OR cpu/dTLB-load-misses/
+  dTLB-stores OR cpu/dTLB-stores/
+  dTLB-store-misses OR cpu/dTLB-store-misses/
+  iTLB-loads OR cpu/iTLB-loads/
+  iTLB-load-misses OR cpu/iTLB-load-misses/
+  bus-cycles OR cpu/bus-cycles/                      [Kernel PMU event]
+  cache-misses OR cpu/cache-misses/                  [Kernel PMU event]
+  cache-references OR cpu/cache-references/          [Kernel PMU event]
+  cpu-cycles OR cpu/cpu-cycles/                      [Kernel PMU event]
+  ref-cycles OR cpu/ref-cycles/                      [Kernel PMU event]
+cache:
+  l1d.replacement
+       [L1D data line replacements]
+  l1d_pend_miss.fb_full
+        for blocking the request. A request includes cacheable/uncacheable
+  l1d_pend_miss.pending
+       [L1D miss outstandings duration in cycles]
+  l1d_pend_miss.pending_cycles
+       [Cycles with L1D load Misses outstanding]
+  l1d_pend_miss.pending_cycles_any
+       [Cycles with L1D load Misses outstanding from any thread on physical
+  l2_lines_in.all
+       [L2 cache lines filling L2]
+  l2_lines_out.non_silent
+       [Counts the number of lines that are evicted by L2 cache when triggered
+        by an L2 cache fill. Those lines are in Modified state. Modified lines
+  l2_lines_out.silent
+       [Counts the number of lines that are silently dropped by L2 cache when
+        triggered by an L2 cache fill. These lines are typically in Shared or
+  l2_lines_out.useless_hwpf
+        used and now evicted by L2 cache]
+  l2_rqsts.all_code_rd
+       [L2 code requests]
+  l2_rqsts.all_demand_data_rd
+  l2_rqsts.all_demand_miss
+       [Demand requests that miss L2 cache]
+  l2_rqsts.all_demand_references
+       [Demand requests to L2 cache]
+  l2_rqsts.all_pf
+       [Requests from the L1/L2/L3 hardware prefetchers or Load software
+  l2_rqsts.all_rfo
+       [RFO requests to L2 cache]
+  l2_rqsts.code_rd_hit
+       [L2 cache hits when fetching instructions, code reads]
+  l2_rqsts.code_rd_miss
+       [L2 cache misses when fetching instructions]
+  l2_rqsts.demand_data_rd_hit
+       [Demand Data Read requests that hit L2 cache]
+  l2_rqsts.demand_data_rd_miss
+       [Demand Data Read miss L2, no rejects]
+  l2_rqsts.miss
+       [All requests that miss L2 cache]
+  l2_rqsts.pf_hit
+       [Requests from the L1/L2/L3 hardware prefetchers or Load software
+        prefetches that hit L2 cache]
+  l2_rqsts.pf_miss
+       [Requests from the L1/L2/L3 hardware prefetchers or Load software
+        prefetches that miss L2 cache]
+  l2_rqsts.references
+       [All L2 requests]
+  l2_rqsts.rfo_hit
+       [RFO requests that hit L2 cache]
+  l2_rqsts.rfo_miss
+       [RFO requests that miss L2 cache]
+  l2_trans.l2_wb
+       [L2 writebacks that access L2 cache]
+  longest_lat_cache.miss
+       [Core-originated cacheable demand requests missed L3 Spec update:
+  longest_lat_cache.reference
+       [Core-originated cacheable demand requests that refer to L3 Spec
+       [Retired load instructions that split across a cacheline boundary
+       [Retired store instructions that split across a cacheline boundary
+  mem_inst_retired.stlb_miss_loads
+       [Retired load instructions that miss the STLB Supports address when
+  mem_inst_retired.stlb_miss_stores
+       [Retired store instructions that miss the STLB Supports address when
+        snoop hits in on-pkg core cache Supports address when precise (Precise
+        cross-core snoop missed in on-pkg core cache Supports address when
+       [Retired instructions with at least 1 uncacheable load or lock Supports
+       [Retired load instructions which data sources were load missed L1 but
+        hit FB due to preceding miss to the same cache line with data not
+  mem_load_retired.l1_hit
+       [Retired load instructions with L1 cache hits as data sources Supports
+  mem_load_retired.l1_miss
+       [Retired load instructions missed L1 cache as data sources Supports
+  mem_load_retired.l2_hit
+       [Retired load instructions with L2 cache hits as data sources Supports
+  mem_load_retired.l2_miss
+       [Retired load instructions missed L2 cache as data sources Supports
+       [Retired load instructions with L3 cache hits as data sources Supports
+       [Retired load instructions missed L3 cache as data sources Supports
+       [Cacheable and non-cacheable code read requests]
+       [Offcore outstanding cacheable Core Data Read transactions in
+  offcore_requests_outstanding.cycles_with_data_rd
+       [Cycles when offcore outstanding cacheable Core Data Read transactions
+  offcore_requests_outstanding.cycles_with_demand_code_rd
+       [Cycles with offcore outstanding Code Reads transactions in the
+  offcore_requests_outstanding.cycles_with_demand_data_rd
+       [Cycles when offcore outstanding Demand Data Read transactions are
+  offcore_requests_outstanding.cycles_with_demand_rfo
+       [Cycles with offcore outstanding demand rfo reads transactions in
+        queue to uncore, every cycle]
+       [Cycles with at least 6 offcore outstanding Demand Data Read
+        queue to uncore, every cycle]
+       [Number of cache line split locks sent to uncore]
+       [Cycles with any input/output SSE or FP assist]
+  dsb2mite_switches.penalty_cycles
+       [Decode Stream Buffer (DSB)-to-MITE switch true penalty cycles]
+  frontend_retired.itlb_miss
+       [Retired Instructions who experienced iTLB true miss (Precise event)]
+  frontend_retired.l1i_miss
+       [Retired Instructions who experienced Instruction L1 Cache true miss
+  frontend_retired.l2_miss
+       [Retired Instructions who experienced Instruction L2 Cache true miss
+       [Retired instructions after front-end starvation of at least 1 cycle
+        front-end delivered no uops for a period of 128 cycles which was not
+        front-end delivered no uops for a period of 16 cycles which was not
+        front-end delivered no uops for a period of 2 cycles which was not
+        front-end delivered no uops for a period of 256 cycles which was not
+        front-end had at least 1 bubble-slot for a period of 2 cycles which
+        front-end had at least 2 bubble-slots for a period of 2 cycles which
+        front-end had at least 3 bubble-slots for a period of 2 cycles which
+        front-end delivered no uops for a period of 32 cycles which was not
+        front-end delivered no uops for a period of 4 cycles which was not
+        front-end delivered no uops for a period of 512 cycles which was not
+        front-end delivered no uops for a period of 64 cycles which was not
+        front-end delivered no uops for a period of 8 cycles which was not
+  frontend_retired.stlb_miss
+       [Retired Instructions who experienced STLB (2nd level TLB) true miss
+  icache_16b.ifdata_stall
+       [Cycles where a code fetch is stalled due to L1 instruction cache miss]
+  icache_64b.iftag_hit
+       [Instruction fetch tag lookups that hit in the instruction cache (L1I).
+        Counts at 64-byte cache-line granularity]
+  icache_64b.iftag_miss
+       [Instruction fetch tag lookups that miss in the instruction cache
+        (L1I). Counts at 64-byte cache-line granularity]
+  icache_64b.iftag_stall
+       [Cycles where a code fetch is stalled due to L1 instruction cache tag
+        miss. [This event is alias to ICACHE_TAG.STALLS]]
+  icache_tag.stalls
+       [Cycles where a code fetch is stalled due to L1 instruction cache tag
+        miss. [This event is alias to ICACHE_64B.IFTAG_STALL]]
+  idq.all_dsb_cycles_4_uops
+       [Cycles Decode Stream Buffer (DSB) is delivering 4 Uops [This event is
+        alias to IDQ.DSB_CYCLES_OK]]
+  idq.all_dsb_cycles_any_uops
+       [Cycles Decode Stream Buffer (DSB) is delivering any Uop [This event is
+        alias to IDQ.DSB_CYCLES_ANY]]
+  idq.all_mite_cycles_4_uops
+       [Cycles MITE is delivering 4 Uops]
+  idq.all_mite_cycles_any_uops
+       [Cycles MITE is delivering any Uop]
+  idq.dsb_cycles
+       [Cycles when uops are being delivered to Instruction Decode Queue (IDQ)
+  idq.dsb_cycles_any
+       [Cycles Decode Stream Buffer (DSB) is delivering any Uop [This event is
+        alias to IDQ.ALL_DSB_CYCLES_ANY_UOPS]]
+  idq.dsb_cycles_ok
+       [Cycles Decode Stream Buffer (DSB) is delivering 4 Uops [This event is
+        alias to IDQ.ALL_DSB_CYCLES_4_UOPS]]
+  idq.mite_cycles
+       [Cycles when uops are being delivered to Instruction Decode Queue (IDQ)
+  idq.ms_cycles
+       [Cycles when uops are being delivered to Instruction Decode Queue (IDQ)
+  idq.ms_dsb_cycles
+       [Cycles when uops initiated by Decode Stream Buffer (DSB) are being
+  idq_uops_not_delivered.cycles_0_uops_deliv.core
+       [Cycles per thread when 4 or more uops are not delivered to Resource
+  idq_uops_not_delivered.cycles_fe_was_ok
+       [Counts cycles FE delivered 4 uops or Resource Allocation Table (RAT)
+  idq_uops_not_delivered.cycles_le_1_uop_deliv.core
+       [Cycles per thread when 3 or more uops are not delivered to Resource
+  idq_uops_not_delivered.cycles_le_2_uop_deliv.core
+       [Cycles with less than 2 uops delivered by the front end]
+  idq_uops_not_delivered.cycles_le_3_uop_deliv.core
+       [Cycles with less than 3 uops delivered by the front end]
+  cycle_activity.cycles_l3_miss
+       [Cycles while L3 cache miss demand load is outstanding]
+  cycle_activity.stalls_l3_miss
+       [Execution stalls while L3 cache miss demand load is outstanding]
+        completion is greater than 128 cycles Supports address when precise
+        completion is greater than 16 cycles Supports address when precise
+        completion is greater than 256 cycles Supports address when precise
+        completion is greater than 32 cycles Supports address when precise
+        completion is greater than 4 cycles Supports address when precise
+        completion is greater than 512 cycles Supports address when precise
+        completion is greater than 64 cycles Supports address when precise
+        completion is greater than 8 cycles Supports address when precise
+       [Demand Data Read requests who miss L3 cache]
+  offcore_requests_outstanding.cycles_with_l3_miss_demand_data_rd
+       [Cycles with at least 1 Demand Data Read requests who miss L3 cache in
+        miss L3 cache in the superQ every cycle]
+       [Cycles with at least 6 Demand Data Read requests that miss L3 cache in
+       [Cycles when divide unit is busy executing divide or square root
+       [Core crystal clock cycles when this thread is unhalted and the other
+       [Core crystal clock cycles when the thread is unhalted]
+       [Core crystal clock cycles when at least one thread on the physical
+       [Core crystal clock cycles when this thread is unhalted and the other
+       [Reference cycles when the core is not in halt state]
+       [Core crystal clock cycles when the thread is unhalted]
+       [Core crystal clock cycles when at least one thread on the physical
+       [Core cycles when the thread is not in halt state]
+       [Core cycles when at least one thread on the physical core is not in
+       [Thread cycles when thread is not in halt state]
+       [Core cycles when at least one thread on the physical core is not in
+  cycle_activity.cycles_l1d_miss
+       [Cycles while L1 cache miss demand load is outstanding]
+  cycle_activity.cycles_l2_miss
+       [Cycles while L2 cache miss demand load is outstanding]
+  cycle_activity.cycles_mem_any
+       [Cycles while memory subsystem has an outstanding load]
+  cycle_activity.stalls_l1d_miss
+       [Execution stalls while L1 cache miss demand load is outstanding]
+  cycle_activity.stalls_l2_miss
+       [Execution stalls while L2 cache miss demand load is outstanding]
+  cycle_activity.stalls_mem_any
+  cycle_activity.stalls_total
+       [Cycles total of 1 uop is executed on all ports and Reservation Station
+       [Cycles total of 2 uops are executed on all ports and Reservation
+       [Cycles total of 3 uops are executed on all ports and Reservation
+       [Cycles total of 4 uops are executed on all ports and Reservation
+       [Cycles where the Store Buffer was full and no outstanding load]
+       [Cycles where no uops were executed, the Reservation Station was not
+       [Instruction decoders utilized in a cycle]
+  inst_retired.total_cycles_ps
+       [Number of cycles using always true condition applied to PEBS
+  int_misc.clear_resteer_cycles
+       [Cycles the issue-stage is waiting for front-end to fetch from
+  int_misc.recovery_cycles
+       [Core cycles the allocator was stalled due to recovery from earlier
+  int_misc.recovery_cycles_any
+       [Core cycles the allocator was stalled due to recovery from earlier
+       [Demand load dispatches that hit L1D fill buffer (FB) allocated for
+  lsd.cycles_4_uops
+       [Cycles 4 Uops delivered by the LSD, but didn't come from the decoder.
+        [This event is alias to LSD.CYCLES_OK]]
+  lsd.cycles_active
+       [Cycles Uops delivered by the LSD, but didn't come from the decoder]
+  lsd.cycles_ok
+       [Cycles 4 Uops delivered by the LSD, but didn't come from the decoder.
+        [This event is alias to LSD.CYCLES_4_UOPS]]
+       [Cycles where the pipeline is stalled due to serializing operations]
+       [Resource-related stall cycles]
+       [Cycles stalled due to no store buffers available. (not including
+  rs_events.empty_cycles
+       [Cycles when Reservation Station (RS) is empty for the thread]
+       [Cycles per thread when uops are executed in port 0]
+       [Cycles per thread when uops are executed in port 1]
+       [Cycles per thread when uops are executed in port 2]
+       [Cycles per thread when uops are executed in port 3]
+       [Cycles per thread when uops are executed in port 4]
+       [Cycles per thread when uops are executed in port 5]
+       [Cycles per thread when uops are executed in port 6]
+       [Cycles per thread when uops are executed in port 7]
+  uops_executed.core_cycles_ge_1
+       [Cycles at least 1 micro-op is executed from any thread on physical
+  uops_executed.core_cycles_ge_2
+       [Cycles at least 2 micro-op is executed from any thread on physical
+  uops_executed.core_cycles_ge_3
+       [Cycles at least 3 micro-op is executed from any thread on physical
+  uops_executed.core_cycles_ge_4
+       [Cycles at least 4 micro-op is executed from any thread on physical
+  uops_executed.core_cycles_none
+       [Cycles with no micro-ops executed from any thread on physical core]
+  uops_executed.cycles_ge_1_uop_exec
+       [Cycles where at least 1 uop was executed per-thread]
+  uops_executed.cycles_ge_2_uops_exec
+       [Cycles where at least 2 uops were executed per-thread]
+  uops_executed.cycles_ge_3_uops_exec
+       [Cycles where at least 3 uops were executed per-thread]
+  uops_executed.cycles_ge_4_uops_exec
+       [Cycles where at least 4 uops were executed per-thread]
+  uops_executed.stall_cycles
+       [Counts number of cycles no uops were dispatched to be executed on this
+       [Counts the number of uops to be executed per-thread each cycle]
+  uops_issued.stall_cycles
+       [Cycles when Resource Allocation Table (RAT) does not issue Uops to
+  uops_retired.stall_cycles
+       [Cycles without actually retired uops]
+  uops_retired.total_cycles
+       [Cycles with less than 10 actually retired uops]
+uncore cache:
+  unc_cbo_cache_lookup.any_es
+       [L3 Lookup any request that access cache and found line in E or
+  unc_cbo_cache_lookup.any_i
+       [L3 Lookup any request that access cache and found line in I-state.
+  unc_cbo_cache_lookup.any_m
+       [L3 Lookup any request that access cache and found line in M-state.
+  unc_cbo_cache_lookup.any_mesi
+       [L3 Lookup any request that access cache and found line in MESI-state.
+  unc_cbo_cache_lookup.read_es
+       [L3 Lookup read request that access cache and found line in E or
+  unc_cbo_cache_lookup.read_i
+       [L3 Lookup read request that access cache and found line in I-state.
+  unc_cbo_cache_lookup.read_mesi
+       [L3 Lookup read request that access cache and found line in any
+  unc_cbo_cache_lookup.write_es
+       [L3 Lookup write request that access cache and found line in E or
+  unc_cbo_cache_lookup.write_m
+       [L3 Lookup write request that access cache and found line in M-state.
+  unc_cbo_cache_lookup.write_mesi
+       [L3 Lookup write request that access cache and found line in
+        outstanding interval starts after LLC miss till return of first data
+  unc_arb_trk_occupancy.cycles_with_any_request
+       [Cycles with at least one request outstanding is waiting for data
+        requests initiated by IA Cores, Processor Graphics Unit, or LLC. Unit:
+        controller. The outstanding interval starts after LLC miss till return
+  dtlb_load_misses.miss_causes_a_walk
+       [Load misses in all DTLB levels that cause page walks]
+  dtlb_load_misses.stlb_hit
+       [Loads that miss the DTLB and hit the STLB]
+  dtlb_load_misses.walk_active
+       [Cycles when at least one PMH is busy with a page walk for a load. EPT
+  dtlb_load_misses.walk_completed
+       [Load miss in all TLB levels causes a page walk that completes. (All
+  dtlb_load_misses.walk_completed_1g
+  dtlb_load_misses.walk_completed_2m_4m
+  dtlb_load_misses.walk_completed_4k
+  dtlb_load_misses.walk_pending
+       [Counts 1 per cycle for each PMH that is busy with a page walk for a
+  dtlb_store_misses.miss_causes_a_walk
+       [Store misses in all DTLB levels that cause page walks]
+  dtlb_store_misses.stlb_hit
+       [Stores that miss the DTLB and hit the STLB]
+  dtlb_store_misses.walk_active
+       [Cycles when at least one PMH is busy with a page walk for a store. EPT
+  dtlb_store_misses.walk_completed
+       [Store misses in all TLB levels causes a page walk that completes. (All
+  dtlb_store_misses.walk_completed_1g
+  dtlb_store_misses.walk_completed_2m_4m
+  dtlb_store_misses.walk_completed_4k
+  dtlb_store_misses.walk_pending
+       [Counts 1 per cycle for each PMH that is busy with a page walk for a
+       [Counts 1 per cycle for each PMH that is busy with a EPT (Extended Page
+  itlb.itlb_flush
+       [Flushing of the Instruction TLB (ITLB) pages, includes 4k/2M/4M pages]
+  itlb_misses.miss_causes_a_walk
+       [Misses at all ITLB levels that cause page walks]
+  itlb_misses.stlb_hit
+       [Instruction fetch requests that miss the ITLB and hit the STLB]
+  itlb_misses.walk_active
+       [Cycles when at least one PMH is busy with a page walk for code
+  itlb_misses.walk_completed
+       [Code miss in all TLB levels causes a page walk that completes. (All
+  itlb_misses.walk_completed_1g
+       [Code miss in all TLB levels causes a page walk that completes. (1G)]
+  itlb_misses.walk_completed_2m_4m
+       [Code miss in all TLB levels causes a page walk that completes. (2M/4M)]
+  itlb_misses.walk_completed_4k
+       [Code miss in all TLB levels causes a page walk that completes. (4K)]
+  itlb_misses.walk_pending
+       [Counts 1 per cycle for each PMH that is busy with a page walk for an
+  tlb_flush.dtlb_thread
+       [DTLB flush attempts of the thread-specific entries]
+  tlb_flush.stlb_any
+       [STLB flush attempts]
+  tma_info_memory_l2mpki
+       [L2 cache true misses per kilo instruction for retired demand loads]
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric represents fraction of cycles the CPU was stalled due to
+  tma_icache_misses
+       [This metric represents fraction of cycles the CPU was stalled due to
+        instruction cache misses]
+        code footprint programs (i-side cache; TLB and BTB misses)]
+  tma_itlb_misses
+       [This metric represents fraction of cycles the CPU was stalled due to
+        Instruction TLB (ITLB) misses]
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric represents fraction of cycles the CPU was stalled due to
+CacheMisses: [Grouping from Top-down Microarchitecture Analysis Metrics spreadsheet]
+        (L1D misses that merge into ongoing miss-handling entries)]
+  tma_info_memory_l1mpki
+       [L1 cache true misses per kilo instruction for retired demand loads]
+  tma_info_memory_l1mpki_load
+       [L1 cache true misses per kilo instruction for all demand loads
+  tma_info_memory_l2hpki_all
+       [L2 cache hits per kilo instruction for all request types (including
+  tma_info_memory_l2hpki_load
+       [L2 cache hits per kilo instruction for all demand loads (including
+  tma_info_memory_l2mpki
+       [L2 cache true misses per kilo instruction for retired demand loads]
+  tma_info_memory_l2mpki_all
+       [L2 cache ([RKL+] true) misses per kilo instruction for all request
+  tma_info_memory_l2mpki_load
+       [L2 cache ([RKL+] true) misses per kilo instruction for all demand
+       [L3 cache true misses per kilo instruction for retired demand loads]
+  tma_l1_bound
+        missing the L1 data cache]
+  tma_l2_bound
+       [This metric estimates how often the CPU was stalled due to L2 cache
+        accesses to L3 cache or contended with a sibling Core]
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles in which CPU was likely
+        limited due to DSB (decoded uop cache) fetch pipeline]
+       [Fraction of Uops delivered by the DSB (aka Decoded ICache; or Uop
+        Cache)]
+       [This metric represents fraction of cycles where decoder-0 was the only
+       [This metric represents fraction of cycles the CPU was stalled due to
+  tma_info_botlnk_l2_dsb_misses
+       [Total pipeline cost of DSB (uop cache) misses - subset of the
+       [Average number of cycles of a switch from the DSB fetch-unit to MITE
+       [This metric represents Core fraction of cycles in which CPU was likely
+       [This metric estimates fraction of cycles while the memory subsystem
+  tma_info_botlnk_l2_dsb_misses
+       [Total pipeline cost of DSB (uop cache) misses - subset of the
+  tma_info_botlnk_l2_ic_misses
+       [Total pipeline cost of Instruction Cache misses - subset of the
+        code footprint programs (i-side cache; TLB and BTB misses)]
+       [Fraction of Uops delivered by the DSB (aka Decoded ICache; or Uop
+        Cache)]
+  tma_info_frontend_icache_miss_latency
+       [Average Latency for L1 instruction cache misses]
+  tma_info_memory_tlb_code_stlb_mpki
+       [STLB (2nd level TLB) code speculative misses per kilo instruction
+       [This metric represents fraction of cycles where decoder-0 was the only
+       [This metric represents Core fraction of cycles in which CPU was likely
+        limited due to DSB (decoded uop cache) fetch pipeline]
+       [Fraction of Uops delivered by the DSB (aka Decoded ICache; or Uop
+        Cache)]
+       [This metric represents Core fraction of cycles in which CPU was likely
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric represents fraction of cycles the CPU was stalled due to
+  tma_icache_misses
+       [This metric represents fraction of cycles the CPU was stalled due to
+        instruction cache misses]
+  tma_info_botlnk_l2_ic_misses
+       [Total pipeline cost of Instruction Cache misses - subset of the
+  tma_info_frontend_icache_miss_latency
+       [Average Latency for L1 instruction cache misses]
+  tma_itlb_misses
+       [This metric represents fraction of cycles the CPU was stalled due to
+        Instruction TLB (ITLB) misses]
+       [This metric represents fraction of cycles CPU was stalled due to
+       [This metric estimates the fraction of cycles when the CPU was stalled
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [Floating Point Operations Per Cycle]
+        code footprint programs (i-side cache; TLB and BTB misses)]
+  tma_icache_misses
+       [This metric represents fraction of cycles the CPU was stalled due to
+        instruction cache misses]
+  tma_info_botlnk_l2_ic_misses
+       [Total pipeline cost of Instruction Cache misses - subset of the
+        code footprint programs (i-side cache; TLB and BTB misses)]
+  tma_info_frontend_icache_miss_latency
+       [Average Latency for L1 instruction cache misses]
+  tma_info_frontend_l2mpki_code
+       [L2 cache true code cacheline misses per kilo instruction]
+  tma_info_frontend_l2mpki_code_all
+       [L2 cache speculative code cacheline misses per kilo instruction]
+       [This metric represents fraction of cycles the CPU was stalled due to
+  tma_info_bottleneck_memory_data_tlbs
+        (data-side TLBs)]
+        memory and off-core caches)]
+  tma_info_memory_core_l1d_cache_fill_bw
+       [Average per-core data fill bandwidth to the L1 data cache [GB / sec]]
+  tma_info_memory_core_l2_cache_fill_bw
+       [Average per-core data fill bandwidth to the L2 cache [GB / sec]]
+  tma_info_memory_core_l3_cache_access_bw
+       [Average per-core data access bandwidth to the L3 cache [GB / sec]]
+  tma_info_memory_core_l3_cache_fill_bw
+       [Average per-core data fill bandwidth to the L3 cache [GB / sec]]
+        (L1D misses that merge into ongoing miss-handling entries)]
+  tma_info_memory_l1mpki
+       [L1 cache true misses per kilo instruction for retired demand loads]
+  tma_info_memory_l1mpki_load
+       [L1 cache true misses per kilo instruction for all demand loads
+  tma_info_memory_l2hpki_all
+       [L2 cache hits per kilo instruction for all request types (including
+  tma_info_memory_l2hpki_load
+       [L2 cache hits per kilo instruction for all demand loads (including
+  tma_info_memory_l2mpki
+       [L2 cache true misses per kilo instruction for retired demand loads]
+  tma_info_memory_l2mpki_all
+       [L2 cache ([RKL+] true) misses per kilo instruction for all request
+  tma_info_memory_l2mpki_load
+       [L2 cache ([RKL+] true) misses per kilo instruction for all demand
+       [L3 cache true misses per kilo instruction for retired demand loads]
+       [Actual Average Latency for L1 data-cache miss demand load operations
+        (in core cycles)]
+       [Memory-Level-Parallelism (average number of L1 miss demand load when
+  tma_info_memory_thread_l1d_cache_fill_bw_1t
+       [Average per-thread data fill bandwidth to the L1 data cache [GB / sec]]
+  tma_info_memory_thread_l2_cache_fill_bw_1t
+       [Average per-thread data fill bandwidth to the L2 cache [GB / sec]]
+  tma_info_memory_thread_l3_cache_access_bw_1t
+       [Average per-thread data access bandwidth to the L3 cache [GB / sec]]
+  tma_info_memory_thread_l3_cache_fill_bw_1t
+       [Average per-thread data fill bandwidth to the L3 cache [GB / sec]]
+  tma_info_memory_tlb_load_stlb_mpki
+       [STLB (2nd level TLB) data load speculative misses per kilo instruction
+  tma_info_memory_tlb_page_walks_utilization
+       [Utilization of the core's Page Walker(s) serving STLB misses triggered
+  tma_info_memory_tlb_store_stlb_mpki
+       [STLB (2nd level TLB) data store speculative misses per kilo
+       [Average latency of all requests to external memory (in Uncore cycles)]
+       [Cycles Per Instruction (per Logical Processor)]
+       [This metric does a *rough estimation* of how often L1D Fill Buffer
+        unavailability limited additional L1D miss memory access requests to
+  tma_info_memory_core_l1d_cache_fill_bw
+       [Average per-core data fill bandwidth to the L1 data cache [GB / sec]]
+  tma_info_memory_core_l2_cache_fill_bw
+       [Average per-core data fill bandwidth to the L2 cache [GB / sec]]
+  tma_info_memory_core_l3_cache_access_bw
+       [Average per-core data access bandwidth to the L3 cache [GB / sec]]
+  tma_info_memory_core_l3_cache_fill_bw
+       [Average per-core data fill bandwidth to the L3 cache [GB / sec]]
+       [Memory-Level-Parallelism (average number of L1 miss demand load when
+  tma_info_memory_thread_l1d_cache_fill_bw_1t
+       [Average per-thread data fill bandwidth to the L1 data cache [GB / sec]]
+  tma_info_memory_thread_l2_cache_fill_bw_1t
+       [Average per-thread data fill bandwidth to the L2 cache [GB / sec]]
+  tma_info_memory_thread_l3_cache_access_bw_1t
+       [Average per-thread data access bandwidth to the L3 cache [GB / sec]]
+  tma_info_memory_thread_l3_cache_fill_bw_1t
+       [Average per-thread data fill bandwidth to the L3 cache [GB / sec]]
+       [This metric estimates fraction of cycles where the core's performance
+       [This metric measures fraction of cycles where the Super Queue (SQ) was
+       [Actual Average Latency for L1 data-cache miss demand load operations
+        (in core cycles)]
+       [Memory-Level-Parallelism (average number of L1 miss demand load when
+  tma_l1_bound
+        missing the L1 data cache]
+  tma_l2_bound
+       [This metric estimates how often the CPU was stalled due to L2 cache
+        accesses to L3 cache or contended with a sibling Core]
+        memory and off-core caches)]
+       [Actual Average Latency for L1 data-cache miss demand load operations
+        (in core cycles)]
+       [This metric represents fraction of cycles with demand load accesses
+        that hit the L3 cache under unloaded scenarios (possibly L3 latency
+       [This metric estimates fraction of cycles where the performance was
+       [This metric estimates fraction of cycles the CPU spent handling L1D
+MemoryTLB: [Grouping from Top-down Microarchitecture Analysis Metrics spreadsheet]
+  tma_dtlb_load
+       [This metric roughly estimates the fraction of cycles where the Data
+        TLB (DTLB) was missed by load accesses]
+  tma_dtlb_store
+       [This metric roughly estimates the fraction of cycles spent handling
+        first-level data TLB store misses]
+        code footprint programs (i-side cache; TLB and BTB misses)]
+  tma_info_bottleneck_memory_data_tlbs
+        (data-side TLBs)]
+  tma_info_memory_tlb_code_stlb_mpki
+       [STLB (2nd level TLB) code speculative misses per kilo instruction
+  tma_info_memory_tlb_load_stlb_mpki
+       [STLB (2nd level TLB) data load speculative misses per kilo instruction
+  tma_info_memory_tlb_page_walks_utilization
+       [Utilization of the core's Page Walker(s) serving STLB misses triggered
+  tma_info_memory_tlb_store_stlb_mpki
+       [STLB (2nd level TLB) data store speculative misses per kilo
+  tma_itlb_misses
+       [This metric represents fraction of cycles the CPU was stalled due to
+        Instruction TLB (ITLB) misses]
+  tma_load_stlb_hit
+       [This metric roughly estimates the fraction of cycles where the (first
+        level) DTLB was missed by load accesses, that later on hit in
+        second-level TLB (STLB)]
+  tma_load_stlb_miss
+       [This metric estimates the fraction of cycles where the Second-level
+        TLB (STLB) was missed by load accesses, performing a hardware page
+  tma_store_stlb_hit
+       [This metric roughly estimates the fraction of cycles where the TLB was
+        missed by store accesses, hitting in the second-level TLB (STLB)]
+  tma_store_stlb_miss
+       [This metric estimates the fraction of cycles where the STLB was missed
+  tma_info_memory_oro_data_l2_mlp
+       [Average Parallel L2 cache miss data reads]
+  tma_info_memory_oro_load_l2_mlp
+       [Average Parallel L2 cache miss demand Loads]
+  tma_info_memory_oro_load_l2_miss_latency
+       [Average Latency for L2 cache miss demand Loads]
+       [This metric estimates the fraction of cycles when the CPU was stalled
+       [Cycles Per Instruction for the Operating System (OS) Kernel mode]
+       [Fraction of cycles spent in the Operating System (OS) Kernel mode]
+       [This metric estimates fraction of cycles while the memory subsystem
+       [This metric estimates fraction of cycles while the memory subsystem
+  tma_info_bottleneck_memory_data_tlbs
+        (data-side TLBs)]
+        memory and off-core caches)]
+  tma_info_memory_core_l3_cache_access_bw
+       [Average per-core data access bandwidth to the L3 cache [GB / sec]]
+  tma_info_memory_l2mpki_all
+       [L2 cache ([RKL+] true) misses per kilo instruction for all request
+  tma_info_memory_oro_data_l2_mlp
+       [Average Parallel L2 cache miss data reads]
+  tma_info_memory_oro_load_l2_miss_latency
+       [Average Latency for L2 cache miss demand Loads]
+  tma_info_memory_oro_load_l2_mlp
+       [Average Parallel L2 cache miss demand Loads]
+  tma_info_memory_thread_l3_cache_access_bw_1t
+       [Average per-thread data access bandwidth to the L3 cache [GB / sec]]
+       [This metric represents fraction of cycles the CPU spent handling cache
+       [This metric estimates fraction of cycles where the core's performance
+       [This metric estimates fraction of cycles where the performance was
+       [This metric measures fraction of cycles where the Super Queue (SQ) was
+       [This metric estimates fraction of cycles the CPU spent handling L1D
+       [Average number of Uops retired in cycles where at least one uop has
+       [Cycles Per Instruction (per Logical Processor)]
+       [This metric estimates fraction of cycles the CPU performance was
+       [This metric represents fraction of cycles CPU executed no uops on any
+        execution port (Logical Processor cycles since ICL, Physical Core
+        cycles otherwise)]
+       [This metric represents fraction of cycles where the CPU executed total
+        of 1 uop per cycle on all execution ports (Logical Processor cycles
+        since ICL, Physical Core cycles otherwise)]
+       [This metric represents fraction of cycles CPU executed total of 2 uops
+        per cycle on all execution ports (Logical Processor cycles since ICL,
+        Physical Core cycles otherwise)]
+       [This metric represents fraction of cycles CPU executed total of 3 or
+        more uops per cycle on all execution ports (Logical Processor cycles
+        since ICL, Physical Core cycles otherwise)]
+       [This metric represents fraction of cycles the CPU issue-pipeline was
+       [Instructions Per Cycle across hyper-threads (per physical core)]
+       [Floating Point Operations Per Cycle]
+       [Average number of Uops retired in cycles where at least one uop has
+       [Instructions Per Cycle (per Logical Processor)]
+       [Instructions Per Cycle across hyper-threads (per physical core)]
+       [Fraction of cycles where both hardware Logical Processors were active]
+       [This metric estimates fraction of cycles while the memory subsystem
+       [This metric estimates fraction of cycles while the memory subsystem
+       [Average latency of all requests to external memory (in Uncore cycles)]
+       [Instructions Per Cycle (per Logical Processor)]
+TmaL1: [Grouping from Top-down Microarchitecture Analysis Metrics spreadsheet]
+       [Instructions Per Cycle across hyper-threads (per physical core)]
+TmaL2: [Grouping from Top-down Microarchitecture Analysis Metrics spreadsheet]
+  tma_l1_bound
+        missing the L1 data cache]
+  tma_l2_bound
+       [This metric estimates how often the CPU was stalled due to L2 cache
+        accesses to L3 cache or contended with a sibling Core]
+TopdownL1: [Metrics for top-down breakdown at level 1]
+TopdownL2: [Metrics for top-down breakdown at level 2]
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric represents fraction of cycles where the Divider unit was
+       [This metric represents Core fraction of cycles in which CPU was likely
+        limited due to DSB (decoded uop cache) fetch pipeline]
+       [This metric represents fraction of cycles the CPU was stalled due to
+  tma_icache_misses
+       [This metric represents fraction of cycles the CPU was stalled due to
+        instruction cache misses]
+  tma_itlb_misses
+       [This metric represents fraction of cycles the CPU was stalled due to
+        Instruction TLB (ITLB) misses]
+  tma_l1_bound
+        missing the L1 data cache]
+  tma_l2_bound
+       [This metric estimates how often the CPU was stalled due to L2 cache
+        accesses to L3 cache or contended with a sibling Core]
+       [This metric represents fraction of cycles CPU was stalled due to
+       [This metric represents Core fraction of cycles in which CPU was likely
+       [This metric estimates the fraction of cycles when the CPU was stalled
+       [This metric estimates fraction of cycles the CPU performance was
+       [This metric estimates fraction of cycles the CPU retired uops
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric estimates fraction of cycles while the memory subsystem
+       [This metric estimates fraction of cycles while the memory subsystem
+       [This metric represents fraction of cycles where decoder-0 was the only
+  tma_dtlb_load
+       [This metric roughly estimates the fraction of cycles where the Data
+        TLB (DTLB) was missed by load accesses]
+  tma_dtlb_store
+       [This metric roughly estimates the fraction of cycles spent handling
+        first-level data TLB store misses]
+       [This metric does a *rough estimation* of how often L1D Fill Buffer
+        unavailability limited additional L1D miss memory access requests to
+       [This metric represents fraction of cycles with demand load accesses
+        that hit the L3 cache under unloaded scenarios (possibly L3 latency
+       [This metric represents fraction of cycles the CPU spent handling cache
+       [This metric estimates fraction of cycles where the core's performance
+       [This metric estimates fraction of cycles where the performance was
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric represents fraction of cycles CPU executed no uops on any
+        execution port (Logical Processor cycles since ICL, Physical Core
+        cycles otherwise)]
+       [This metric represents fraction of cycles where the CPU executed total
+        of 1 uop per cycle on all execution ports (Logical Processor cycles
+        since ICL, Physical Core cycles otherwise)]
+       [This metric represents fraction of cycles CPU executed total of 2 uops
+        per cycle on all execution ports (Logical Processor cycles since ICL,
+        Physical Core cycles otherwise)]
+       [This metric represents fraction of cycles CPU executed total of 3 or
+        more uops per cycle on all execution ports (Logical Processor cycles
+        since ICL, Physical Core cycles otherwise)]
+       [This metric estimates fraction of cycles handling memory load split
+        accesses - load that cross 64-byte cache line boundary]
+       [This metric measures fraction of cycles where the Super Queue (SQ) was
+       [This metric roughly estimates fraction of cycles when the memory
+       [This metric estimates fraction of cycles the CPU spent handling L1D
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+  tma_load_stlb_hit
+       [This metric roughly estimates the fraction of cycles where the (first
+        level) DTLB was missed by load accesses, that later on hit in
+        second-level TLB (STLB)]
+  tma_load_stlb_miss
+       [This metric estimates the fraction of cycles where the Second-level
+        TLB (STLB) was missed by load accesses, performing a hardware page
+       [This metric represents fraction of cycles the CPU issue-pipeline was
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+  tma_store_stlb_hit
+       [This metric roughly estimates the fraction of cycles where the TLB was
+        missed by store accesses, hitting in the second-level TLB (STLB)]
+  tma_store_stlb_miss
+       [This metric estimates the fraction of cycles where the STLB was missed
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+  smi_cycles
+       [Percentage of cycles spent in System Management Interrupts]
+tma_L1_group: [Metrics for top-down breakdown at level 1]
+       [Instructions Per Cycle across hyper-threads (per physical core)]
+tma_L2_group: [Metrics for top-down breakdown at level 2]
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric represents fraction of cycles where the Divider unit was
+       [This metric represents Core fraction of cycles in which CPU was likely
+        limited due to DSB (decoded uop cache) fetch pipeline]
+       [This metric represents fraction of cycles the CPU was stalled due to
+  tma_icache_misses
+       [This metric represents fraction of cycles the CPU was stalled due to
+        instruction cache misses]
+  tma_itlb_misses
+       [This metric represents fraction of cycles the CPU was stalled due to
+        Instruction TLB (ITLB) misses]
+  tma_l1_bound
+        missing the L1 data cache]
+  tma_l2_bound
+       [This metric estimates how often the CPU was stalled due to L2 cache
+        accesses to L3 cache or contended with a sibling Core]
+       [This metric represents fraction of cycles CPU was stalled due to
+       [This metric represents Core fraction of cycles in which CPU was likely
+       [This metric estimates the fraction of cycles when the CPU was stalled
+       [This metric estimates fraction of cycles the CPU performance was
+       [This metric estimates fraction of cycles the CPU retired uops
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric estimates fraction of cycles while the memory subsystem
+       [This metric estimates fraction of cycles while the memory subsystem
+       [This metric represents fraction of cycles where decoder-0 was the only
+  tma_dtlb_load
+       [This metric roughly estimates the fraction of cycles where the Data
+        TLB (DTLB) was missed by load accesses]
+  tma_dtlb_store
+       [This metric roughly estimates the fraction of cycles spent handling
+        first-level data TLB store misses]
+       [This metric does a *rough estimation* of how often L1D Fill Buffer
+        unavailability limited additional L1D miss memory access requests to
+       [This metric represents fraction of cycles with demand load accesses
+        that hit the L3 cache under unloaded scenarios (possibly L3 latency
+       [This metric represents fraction of cycles the CPU spent handling cache
+       [This metric estimates fraction of cycles where the core's performance
+       [This metric estimates fraction of cycles where the performance was
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric represents fraction of cycles CPU executed no uops on any
+        execution port (Logical Processor cycles since ICL, Physical Core
+        cycles otherwise)]
+       [This metric represents fraction of cycles where the CPU executed total
+        of 1 uop per cycle on all execution ports (Logical Processor cycles
+        since ICL, Physical Core cycles otherwise)]
+       [This metric represents fraction of cycles CPU executed total of 2 uops
+        per cycle on all execution ports (Logical Processor cycles since ICL,
+        Physical Core cycles otherwise)]
+       [This metric represents fraction of cycles CPU executed total of 3 or
+        more uops per cycle on all execution ports (Logical Processor cycles
+        since ICL, Physical Core cycles otherwise)]
+       [This metric estimates fraction of cycles handling memory load split
+        accesses - load that cross 64-byte cache line boundary]
+       [This metric measures fraction of cycles where the Super Queue (SQ) was
+       [This metric roughly estimates fraction of cycles when the memory
+       [This metric estimates fraction of cycles the CPU spent handling L1D
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+  tma_load_stlb_hit
+       [This metric roughly estimates the fraction of cycles where the (first
+        level) DTLB was missed by load accesses, that later on hit in
+        second-level TLB (STLB)]
+  tma_load_stlb_miss
+       [This metric estimates the fraction of cycles where the Second-level
+        TLB (STLB) was missed by load accesses, performing a hardware page
+       [This metric represents fraction of cycles the CPU issue-pipeline was
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+  tma_store_stlb_hit
+       [This metric roughly estimates the fraction of cycles where the TLB was
+        missed by store accesses, hitting in the second-level TLB (STLB)]
+  tma_store_stlb_miss
+       [This metric estimates the fraction of cycles where the STLB was missed
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric represents fraction of cycles where the Divider unit was
+       [This metric estimates fraction of cycles the CPU performance was
+       [This metric estimates fraction of cycles where the core's performance
+       [This metric estimates fraction of cycles where the performance was
+tma_dtlb_load_group: [Metrics contributing to tma_dtlb_load category]
+  tma_load_stlb_hit
+       [This metric roughly estimates the fraction of cycles where the (first
+        level) DTLB was missed by load accesses, that later on hit in
+        second-level TLB (STLB)]
+  tma_load_stlb_miss
+       [This metric estimates the fraction of cycles where the Second-level
+        TLB (STLB) was missed by load accesses, performing a hardware page
+tma_dtlb_store_group: [Metrics contributing to tma_dtlb_store category]
+  tma_store_stlb_hit
+       [This metric roughly estimates the fraction of cycles where the TLB was
+        missed by store accesses, hitting in the second-level TLB (STLB)]
+  tma_store_stlb_miss
+       [This metric estimates the fraction of cycles where the STLB was missed
+       [This metric represents Core fraction of cycles in which CPU was likely
+        limited due to DSB (decoded uop cache) fetch pipeline]
+       [This metric represents Core fraction of cycles in which CPU was likely
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric represents fraction of cycles the CPU was stalled due to
+  tma_icache_misses
+       [This metric represents fraction of cycles the CPU was stalled due to
+        instruction cache misses]
+  tma_itlb_misses
+       [This metric represents fraction of cycles the CPU was stalled due to
+        Instruction TLB (ITLB) misses]
+       [This metric represents fraction of cycles CPU was stalled due to
+       [This metric estimates the fraction of cycles when the CPU was stalled
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents fraction of cycles CPU executed total of 2 uops
+        per cycle on all execution ports (Logical Processor cycles since ICL,
+        Physical Core cycles otherwise)]
+        code footprint programs (i-side cache; TLB and BTB misses)]
+       [This metric represents fraction of cycles the CPU was stalled due to
+       [This metric does a *rough estimation* of how often L1D Fill Buffer
+        unavailability limited additional L1D miss memory access requests to
+       [This metric estimates fraction of cycles where the core's performance
+       [This metric measures fraction of cycles where the Super Queue (SQ) was
+       [This metric represents fraction of cycles where decoder-0 was the only
+       [This metric represents fraction of cycles the CPU was stalled due to
+  tma_info_botlnk_l2_dsb_misses
+       [Total pipeline cost of DSB (uop cache) misses - subset of the
+       [Fraction of Uops delivered by the DSB (aka Decoded ICache; or Uop
+        Cache)]
+       [This metric represents fraction of cycles CPU was stalled due to
+  tma_info_botlnk_l2_ic_misses
+       [Total pipeline cost of Instruction Cache misses - subset of the
+tma_issueL1: [Metrics related by the issue $issueL1]
+  tma_l1_bound
+        missing the L1 data cache]
+       [This metric represents fraction of cycles where the CPU executed total
+        of 1 uop per cycle on all execution ports (Logical Processor cycles
+        since ICL, Physical Core cycles otherwise)]
+        memory and off-core caches)]
+       [This metric represents fraction of cycles with demand load accesses
+        that hit the L3 cache under unloaded scenarios (possibly L3 latency
+       [This metric estimates fraction of cycles where the performance was
+       [This metric represents fraction of cycles the CPU was stalled due to
+  tma_l1_bound
+        missing the L1 data cache]
+       [This metric estimates the fraction of cycles when the CPU was stalled
+       [This metric estimates the fraction of cycles when the CPU was stalled
+       [This metric estimates the fraction of cycles when the CPU was stalled
+       [This metric represents fraction of cycles the CPU spent handling cache
+       [This metric estimates fraction of cycles the CPU spent handling L1D
+       [This metric does a *rough estimation* of how often L1D Fill Buffer
+        unavailability limited additional L1D miss memory access requests to
+       [This metric estimates fraction of cycles the CPU spent handling L1D
+       [This metric estimates the fraction of cycles when the CPU was stalled
+       [This metric represents fraction of cycles the CPU issue-pipeline was
+       [This metric does a *rough estimation* of how often L1D Fill Buffer
+        unavailability limited additional L1D miss memory access requests to
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric estimates fraction of cycles while the memory subsystem
+       [This metric estimates fraction of cycles while the memory subsystem
+tma_issueTLB: [Metrics related by the issue $issueTLB]
+  tma_dtlb_load
+       [This metric roughly estimates the fraction of cycles where the Data
+        TLB (DTLB) was missed by load accesses]
+  tma_dtlb_store
+       [This metric roughly estimates the fraction of cycles spent handling
+        first-level data TLB store misses]
+  tma_info_bottleneck_memory_data_tlbs
+        (data-side TLBs)]
+tma_l1_bound_group: [Metrics contributing to tma_l1_bound category]
+  tma_dtlb_load
+       [This metric roughly estimates the fraction of cycles where the Data
+        TLB (DTLB) was missed by load accesses]
+       [This metric does a *rough estimation* of how often L1D Fill Buffer
+        unavailability limited additional L1D miss memory access requests to
+       [This metric represents fraction of cycles the CPU spent handling cache
+       [This metric estimates fraction of cycles handling memory load split
+        accesses - load that cross 64-byte cache line boundary]
+       [This metric roughly estimates fraction of cycles when the memory
+       [This metric estimates fraction of cycles while the memory subsystem
+       [This metric estimates fraction of cycles while the memory subsystem
+       [This metric represents fraction of cycles with demand load accesses
+        that hit the L3 cache under unloaded scenarios (possibly L3 latency
+       [This metric measures fraction of cycles where the Super Queue (SQ) was
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+  tma_l1_bound
+        missing the L1 data cache]
+  tma_l2_bound
+       [This metric estimates how often the CPU was stalled due to L2 cache
+        accesses to L3 cache or contended with a sibling Core]
+       [This metric estimates fraction of cycles the CPU retired uops
+       [This metric represents fraction of cycles where decoder-0 was the only
+       [This metric represents fraction of cycles CPU executed no uops on any
+        execution port (Logical Processor cycles since ICL, Physical Core
+        cycles otherwise)]
+       [This metric represents fraction of cycles where the CPU executed total
+        of 1 uop per cycle on all execution ports (Logical Processor cycles
+        since ICL, Physical Core cycles otherwise)]
+       [This metric represents fraction of cycles CPU executed total of 2 uops
+        per cycle on all execution ports (Logical Processor cycles since ICL,
+        Physical Core cycles otherwise)]
+       [This metric represents fraction of cycles CPU executed total of 3 or
+        more uops per cycle on all execution ports (Logical Processor cycles
+        since ICL, Physical Core cycles otherwise)]
+       [This metric represents fraction of cycles the CPU issue-pipeline was
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+  tma_dtlb_store
+       [This metric roughly estimates the fraction of cycles spent handling
+        first-level data TLB store misses]
+       [This metric estimates fraction of cycles the CPU spent handling L1D
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+       [This metric represents Core fraction of cycles CPU dispatched uops on
+  tsx_aborted_cycles
+       [Percentage of cycles in aborted transactions]
+  tsx_cycles_per_elision
+       [Number of cycles within a transaction divided by the number of
+  tsx_cycles_per_transaction
+       [Number of cycles within a transaction divided by the number of
+  tsx_transactional_cycles
+       [Percentage of cycles within a transaction region]
+
+-- quick sanity check: can we open a basic hardware counter at all? --
+       0.000439591 seconds time elapsed
+
+       0.000501000 seconds user
+       0.000000000 seconds sys
+
+
+
+== End survey ==
