@@ -1,0 +1,55 @@
+{
+  "regime": "llc_sized",
+  "size_kib": 20480.0,
+  "event_batch": [
+    "cycles",
+    "instructions"
+  ],
+  "invocation": [
+    "/home/jrkuethe/CSC591-Project1/main_code/common/phase1/src/cache_bench",
+    "chase",
+    "20971520",
+    "8",
+    "0",
+    "1000000",
+    "512",
+    "5922026",
+    "2",
+    "random",
+    "../data_raw/ookay/pmu/eight_counter/llc_sized_batch0.bin"
+  ],
+  "returncode": 0,
+  "bench_metadata": {
+    "mode": "chase",
+    "bytes": 20971520,
+    "stride": 8,
+    "offset": 0,
+    "nodes": 2621440,
+    "samples": 1000000,
+    "batch": 512,
+    "seed": 5922026,
+    "cpu": 2,
+    "final_cpu": 2,
+    "unit": "TSC_ticks",
+    "counter_frequency": 0,
+    "empirical_ticks_per_second": 3599959178.279,
+    "calibration_ns": 20087345,
+    "elapsed_ns": 29557836285,
+    "warmup_loads": 7131648,
+    "alignment": 4096,
+    "madvise_nohugepage_rc": 0,
+    "little_endian": true,
+    "minor_faults": 0,
+    "major_faults": 0,
+    "voluntary_switches": 0,
+    "involuntary_switches": 8,
+    "address": "0x71f232a00000"
+  },
+  "counters": {
+    "cycles": "122551750957",
+    "instructions": "1957101982",
+    "time_enabled_ns": "30072494562",
+    "time_running_ns": "30072494562"
+  },
+  "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=30072494562 ns  time_running=30072494562 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+}
