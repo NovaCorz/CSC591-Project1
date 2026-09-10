@@ -1,0 +1,55 @@
+{
+  "regime": "l1_resident",
+  "size_kib": 34.0,
+  "event_batch": [
+    "DTLB-read-miss",
+    "cache-misses"
+  ],
+  "invocation": [
+    "/home/jrkuethe/CSC591-Project1/main_code/common/phase1/src/cache_bench",
+    "chase",
+    "34816",
+    "8",
+    "0",
+    "1000000",
+    "512",
+    "5922026",
+    "2",
+    "random",
+    "../data_raw/charnwood/pmu/eight_counter/l1_resident_batch3.bin"
+  ],
+  "returncode": 0,
+  "bench_metadata": {
+    "mode": "chase",
+    "bytes": 34816,
+    "stride": 8,
+    "offset": 0,
+    "nodes": 4352,
+    "samples": 1000000,
+    "batch": 512,
+    "seed": 5922026,
+    "cpu": 2,
+    "final_cpu": 2,
+    "unit": "TSC_ticks",
+    "counter_frequency": 0,
+    "empirical_ticks_per_second": 3407862174.878,
+    "calibration_ns": 20079126,
+    "elapsed_ns": 1166096314,
+    "warmup_loads": 46314496,
+    "alignment": 4096,
+    "madvise_nohugepage_rc": 0,
+    "little_endian": true,
+    "minor_faults": 0,
+    "major_faults": 0,
+    "voluntary_switches": 0,
+    "involuntary_switches": 6,
+    "address": "0x7839f1180000"
+  },
+  "counters": {
+    "DTLB-read-miss": "15148",
+    "cache-misses": "305203",
+    "time_enabled_ns": "1282137855",
+    "time_running_ns": "1282137855"
+  },
+  "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=1282137855 ns  time_running=1282137855 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+}
