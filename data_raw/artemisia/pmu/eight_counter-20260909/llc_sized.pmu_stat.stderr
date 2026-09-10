@@ -1,5 +1,0 @@
-warning: unrecognized event name 'dTLB-read-miss'
-usage: cache_bench MODE BYTES STRIDE OFFSET SAMPLES BATCH SEED CPU ORDER RAW
--- pmu_stat result --
-child exit status: 2
-time_enabled=1479790 ns  time_running=1479790 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)

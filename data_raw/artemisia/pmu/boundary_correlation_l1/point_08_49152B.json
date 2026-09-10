@@ -1,0 +1,217 @@
+{
+  "bytes": 49152,
+  "in_bracket": true,
+  "invocation": [
+    "/home/jrkuethe/CSC591-Project1/main_code/common/phase1/src/cache_bench",
+    "chase",
+    "49152",
+    "8",
+    "0",
+    "1000000",
+    "256",
+    "5922026",
+    "29",
+    "random",
+    "../data_raw/artemisia/pmu/boundary_correlation_l1/point_08_49152B.bin"
+  ],
+  "returncode": 0,
+  "bench_metadata": {
+    "mode": "chase",
+    "bytes": 49152,
+    "stride": 8,
+    "offset": 0,
+    "nodes": 6144,
+    "samples": 1000000,
+    "batch": 256,
+    "seed": 5922026,
+    "cpu": 29,
+    "final_cpu": 29,
+    "unit": "TSC_ticks",
+    "counter_frequency": 0,
+    "empirical_ticks_per_second": 1999948850.936,
+    "calibration_ns": 20059018,
+    "elapsed_ns": 727488118,
+    "warmup_loads": 38748416,
+    "alignment": 4096,
+    "madvise_nohugepage_rc": 0,
+    "little_endian": true,
+    "minor_faults": 0,
+    "major_faults": 0,
+    "voluntary_switches": 0,
+    "involuntary_switches": 0,
+    "address": "0x7f6710f73000"
+  },
+  "counters": {
+    "cycles": "1654414192",
+    "instructions": "963254883",
+    "L1D-read-access": "326492695",
+    "L1D-read-miss": "4227989",
+    "LL-read-access": "2375",
+    "LL-read-miss": "619",
+    "DTLB-read-miss": "258",
+    "cache-misses": "940"
+  },
+  "batches": [
+    {
+      "event_batch": [
+        "cycles",
+        "instructions"
+      ],
+      "returncode": 0,
+      "bench_metadata": {
+        "mode": "chase",
+        "bytes": 49152,
+        "stride": 8,
+        "offset": 0,
+        "nodes": 6144,
+        "samples": 1000000,
+        "batch": 256,
+        "seed": 5922026,
+        "cpu": 29,
+        "final_cpu": 29,
+        "unit": "TSC_ticks",
+        "counter_frequency": 0,
+        "empirical_ticks_per_second": 1999948850.936,
+        "calibration_ns": 20059018,
+        "elapsed_ns": 727488118,
+        "warmup_loads": 38748416,
+        "alignment": 4096,
+        "madvise_nohugepage_rc": 0,
+        "little_endian": true,
+        "minor_faults": 0,
+        "major_faults": 0,
+        "voluntary_switches": 0,
+        "involuntary_switches": 0,
+        "address": "0x7f6710f73000"
+      },
+      "counters": {
+        "cycles": "1654414192",
+        "instructions": "963254883",
+        "time_enabled_ns": "834155006",
+        "time_running_ns": "834155006"
+      },
+      "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=834155006 ns  time_running=834155006 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+    },
+    {
+      "event_batch": [
+        "L1D-read-access",
+        "L1D-read-miss"
+      ],
+      "returncode": 0,
+      "bench_metadata": {
+        "mode": "chase",
+        "bytes": 49152,
+        "stride": 8,
+        "offset": 0,
+        "nodes": 6144,
+        "samples": 1000000,
+        "batch": 256,
+        "seed": 5922026,
+        "cpu": 29,
+        "final_cpu": 29,
+        "unit": "TSC_ticks",
+        "counter_frequency": 0,
+        "empirical_ticks_per_second": 1999950843.554,
+        "calibration_ns": 20058407,
+        "elapsed_ns": 728334051,
+        "warmup_loads": 38793472,
+        "alignment": 4096,
+        "madvise_nohugepage_rc": 0,
+        "little_endian": true,
+        "minor_faults": 0,
+        "major_faults": 0,
+        "voluntary_switches": 0,
+        "involuntary_switches": 0,
+        "address": "0x7f6accc6b000"
+      },
+      "counters": {
+        "L1D-read-access": "326492695",
+        "L1D-read-miss": "4227989",
+        "time_enabled_ns": "834992417",
+        "time_running_ns": "834992417"
+      },
+      "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=834992417 ns  time_running=834992417 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+    },
+    {
+      "event_batch": [
+        "LL-read-access",
+        "LL-read-miss"
+      ],
+      "returncode": 0,
+      "bench_metadata": {
+        "mode": "chase",
+        "bytes": 49152,
+        "stride": 8,
+        "offset": 0,
+        "nodes": 6144,
+        "samples": 1000000,
+        "batch": 256,
+        "seed": 5922026,
+        "cpu": 29,
+        "final_cpu": 29,
+        "unit": "TSC_ticks",
+        "counter_frequency": 0,
+        "empirical_ticks_per_second": 1999952341.097,
+        "calibration_ns": 20059211,
+        "elapsed_ns": 729144670,
+        "warmup_loads": 38809856,
+        "alignment": 4096,
+        "madvise_nohugepage_rc": 0,
+        "little_endian": true,
+        "minor_faults": 0,
+        "major_faults": 0,
+        "voluntary_switches": 0,
+        "involuntary_switches": 1,
+        "address": "0x7fe33ab9d000"
+      },
+      "counters": {
+        "LL-read-access": "2375",
+        "LL-read-miss": "619",
+        "time_enabled_ns": "835267002",
+        "time_running_ns": "835267002"
+      },
+      "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=835267002 ns  time_running=835267002 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+    },
+    {
+      "event_batch": [
+        "DTLB-read-miss",
+        "cache-misses"
+      ],
+      "returncode": 0,
+      "bench_metadata": {
+        "mode": "chase",
+        "bytes": 49152,
+        "stride": 8,
+        "offset": 0,
+        "nodes": 6144,
+        "samples": 1000000,
+        "batch": 256,
+        "seed": 5922026,
+        "cpu": 29,
+        "final_cpu": 29,
+        "unit": "TSC_ticks",
+        "counter_frequency": 0,
+        "empirical_ticks_per_second": 1999952041.733,
+        "calibration_ns": 20059107,
+        "elapsed_ns": 730682283,
+        "warmup_loads": 38797568,
+        "alignment": 4096,
+        "madvise_nohugepage_rc": 0,
+        "little_endian": true,
+        "minor_faults": 0,
+        "major_faults": 0,
+        "voluntary_switches": 0,
+        "involuntary_switches": 0,
+        "address": "0x7f1053355000"
+      },
+      "counters": {
+        "DTLB-read-miss": "258",
+        "cache-misses": "940",
+        "time_enabled_ns": "836862372",
+        "time_running_ns": "836862372"
+      },
+      "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=836862372 ns  time_running=836862372 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+    }
+  ],
+  "pmu_stat_stderr": "--- batch 0: cycles,instructions ---\n-- pmu_stat result --\nchild exit status: 0\ntime_enabled=834155006 ns  time_running=834155006 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n\n--- batch 1: L1D-read-access,L1D-read-miss ---\n-- pmu_stat result --\nchild exit status: 0\ntime_enabled=834992417 ns  time_running=834992417 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n\n--- batch 2: LL-read-access,LL-read-miss ---\n-- pmu_stat result --\nchild exit status: 0\ntime_enabled=835267002 ns  time_running=835267002 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n\n--- batch 3: DTLB-read-miss,cache-misses ---\n-- pmu_stat result --\nchild exit status: 0\ntime_enabled=836862372 ns  time_running=836862372 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+}

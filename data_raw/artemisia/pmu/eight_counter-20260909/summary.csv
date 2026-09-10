@@ -1,4 +1,0 @@
-regime,size_kib,mode,samples,steps,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,cache-misses,cycles,dTLB-read-miss,instructions,time_enabled_ns,time_running_ns
-l1_resident,34.0,random,1000000,4096,96284,4877,2971,1698,4715,807445,UNAVAILABLE,407296,1636444,1636444
-llc_sized,20480.0,random,1000000,4096,96283,4812,2905,983,2840,721926,UNAVAILABLE,407295,1479790,1479790
-larger_than_llc,131072.0,random,1000000,4096,96284,4682,2897,726,2004,695647,UNAVAILABLE,407303,1390332,1390332

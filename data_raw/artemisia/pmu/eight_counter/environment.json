@@ -1,0 +1,77 @@
+{
+  "started_utc": "2026-09-10T18:43:56.694160+00:00",
+  "hostname": "artemisia.ece.ncsu.edu",
+  "kernel": "Linux artemisia.ece.ncsu.edu 6.17.8-1.el9.elrepo.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Nov 13 18:02:25 EST 2025 x86_64 x86_64 x86_64 GNU/Linux",
+  "cpu_model": "model name\t: Intel(R) Xeon(R) Gold 5420+",
+  "git_commit": "11e644b36b60fef57bdf7a41b5130cd07ad1e69b",
+  "git_status": "D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/environment.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_00_24576B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_00_24576B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_01_27112B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_01_27112B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_02_29911B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_02_29911B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_03_32998B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_03_32998B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_04_36403B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_04_36403B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_05_40160B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_05_40160B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_06_44305B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_06_44305B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_07_48878B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_07_48878B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_08_49152B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_08_49152B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_09_53248B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_09_53248B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_10_53922B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_10_53922B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_11_59487B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_11_59487B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_12_65627B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_12_65627B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_13_72400B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_13_72400B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_14_79872B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/point_14_79872B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l1/summary.csv\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/environment.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_00_1048576B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_00_1048576B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_01_1160440B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_01_1160440B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_02_1284238B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_02_1284238B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_03_1421243B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_03_1421243B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_04_1572864B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_04_1572864B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_05_1740660B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_05_1740660B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_06_1926357B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_06_1926357B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_07_2097152B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_07_2097152B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_08_2131865B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_08_2131865B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_09_2359296B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_09_2359296B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_10_2610990B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_10_2610990B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_11_2889536B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_11_2889536B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_12_3197797B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_12_3197797B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_13_3538944B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/point_13_3538944B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_l2/summary.csv\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/environment.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_00_12582912B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_00_12582912B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_01_13881555B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_01_13881555B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_02_15314226B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_02_15314226B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_03_16894759B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_03_16894759B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_04_18638414B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_04_18638414B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_05_20562025B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_05_20562025B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_06_22684167B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_06_22684167B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_07_25025328B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_07_25025328B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_08_25165824B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_08_25165824B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_09_27262976B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_09_27262976B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_10_27608114B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_10_27608114B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_11_30457460B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_11_30457460B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_12_33600878B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_12_33600878B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_13_37068719B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_13_37068719B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_14_40894464B.json\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/point_14_40894464B.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/boundary_correlation-20260909_llc/summary.csv\n D ../data_raw/artemisia/pmu/eight_counter-20260909/environment.json\n D ../data_raw/artemisia/pmu/eight_counter-20260909/l1_resident.json\n D ../data_raw/artemisia/pmu/eight_counter-20260909/l1_resident.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/eight_counter-20260909/larger_than_llc.json\n D ../data_raw/artemisia/pmu/eight_counter-20260909/larger_than_llc.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/eight_counter-20260909/llc_sized.json\n D ../data_raw/artemisia/pmu/eight_counter-20260909/llc_sized.pmu_stat.stderr\n D ../data_raw/artemisia/pmu/eight_counter-20260909/summary.csv\n M run_phase2.sh\n M survey_artemisia.txt\n M survey_thunderbird.txt",
+  "binary_sha256": "d7b2bfa405f726ddafded2bfc1674687caabdfe853222850a283fefe7a119c8f",
+  "pmu_stat_sha256": "39c6c4560b5aa21ed9c31c5319b66537770ea53807627229f55454d68d8566db",
+  "arguments": {
+    "binary": "../main_code/common/phase1/src/cache_bench",
+    "pmu_stat": "../main_code/pmu/pmu_stat",
+    "cpu": 29,
+    "stride": 8,
+    "samples": 1000000,
+    "batch": 512,
+    "seed": 5922026,
+    "mode": "chase",
+    "order": "random",
+    "l1_kib": 34.0,
+    "llc_kib": 20480.0,
+    "over_llc_kib": 131072.0,
+    "events": "cycles,instructions,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,DTLB-read-miss,cache-misses",
+    "events_per_run": 2,
+    "out": "../data_raw/artemisia/pmu/eight_counter",
+    "notes": ""
+  },
+  "event_batches": [
+    [
+      "cycles",
+      "instructions"
+    ],
+    [
+      "L1D-read-access",
+      "L1D-read-miss"
+    ],
+    [
+      "LL-read-access",
+      "LL-read-miss"
+    ],
+    [
+      "DTLB-read-miss",
+      "cache-misses"
+    ]
+  ],
+  "command": [
+    "pmu_eight_counter.py",
+    "--binary",
+    "../main_code/common/phase1/src/cache_bench",
+    "--pmu-stat",
+    "../main_code/pmu/pmu_stat",
+    "--cpu",
+    "29",
+    "--stride",
+    "8",
+    "--samples",
+    "1000000",
+    "--batch",
+    "512",
+    "--seed",
+    "5922026",
+    "--l1-kib",
+    "34.0",
+    "--llc-kib",
+    "20480.0",
+    "--over-llc-kib",
+    "131072.0",
+    "--events",
+    "cycles,instructions,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,DTLB-read-miss,cache-misses",
+    "--events-per-run",
+    "2",
+    "--out",
+    "../data_raw/artemisia/pmu/eight_counter"
+  ],
+  "PLACEHOLDER_WARNING": "l1_kib/llc_kib/over_llc_kib should come from resolve_phase1_boundaries.py now that Phase I is frozen -- confirm they are not left over from before the freeze.",
+  "notes": ""
+}
