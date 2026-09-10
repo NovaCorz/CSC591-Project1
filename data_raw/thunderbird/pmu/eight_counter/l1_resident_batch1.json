@@ -1,0 +1,55 @@
+{
+  "regime": "l1_resident",
+  "size_kib": 34.0,
+  "event_batch": [
+    "L1D-read-access",
+    "L1D-read-miss"
+  ],
+  "invocation": [
+    "/home/jrkuethe/CSC591-Project1/main_code/common/phase1/src/cache_bench",
+    "chase",
+    "34816",
+    "8",
+    "0",
+    "1000000",
+    "512",
+    "5922026",
+    "3",
+    "random",
+    "../data_raw/thunderbird/pmu/eight_counter/l1_resident_batch1.bin"
+  ],
+  "returncode": 0,
+  "bench_metadata": {
+    "mode": "chase",
+    "bytes": 34816,
+    "stride": 8,
+    "offset": 0,
+    "nodes": 4352,
+    "samples": 1000000,
+    "batch": 512,
+    "seed": 5922026,
+    "cpu": 3,
+    "final_cpu": 3,
+    "unit": "CNTVCT_ticks",
+    "counter_frequency": 25000000,
+    "empirical_ticks_per_second": 24999363.842,
+    "calibration_ns": 25151000,
+    "elapsed_ns": 3085215240,
+    "warmup_loads": 22291456,
+    "alignment": 4096,
+    "madvise_nohugepage_rc": 0,
+    "little_endian": true,
+    "minor_faults": 0,
+    "major_faults": 0,
+    "voluntary_switches": 0,
+    "involuntary_switches": 77,
+    "address": "0xffffbd368000"
+  },
+  "counters": {
+    "L1D-read-access": "574898086",
+    "L1D-read-miss": "207728",
+    "time_enabled_ns": "813821640",
+    "time_running_ns": "813821640"
+  },
+  "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=813821640 ns  time_running=813821640 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+}
