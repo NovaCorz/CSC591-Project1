@@ -1,0 +1,5 @@
+warning: unrecognized event name 'dTLB-read-miss'
+perf_event_open failed for 'cache-misses': Invalid argument (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)
+-- pmu_stat result --
+child exit status: 0
+time_enabled=2343802436 ns  time_running=0 ns  (0.0% -- <100% means multiplexing occurred; reduce event count and re-run)
