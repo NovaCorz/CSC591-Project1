@@ -1,9 +1,9 @@
-hostname,cpu_model,DTLB-read-miss,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,any_batch_failed,batch_size,cache-misses,cycles,instructions,order,time_enabled_ns,time_running_ns
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,,,,,,,,,,,,,
-thunderbird.ece.ncsu.edu,unavailable,,,,,,,,,,,,,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,,,,,,,,,,,,,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,,,,,,,,,,,,,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,,,,,,,,,,,,,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,,,,,,,,,,,,,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,,,,,,,,,,,,,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,,,,,,,,,,,,,
+hostname,cpu_model,DTLB-read-miss,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,cache-misses,cycles,instructions
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,0.61623442578125,2.111110044921875,1.0504381640625,,,1.029886462890625,205.4435150234375,3.823151123046875
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,0.66069336328125,1.36755833984375,1.440994666015625,0.932957416015625,0.0004557109375,0.002370400390625,83.65851643359375,3.81033302734375
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,0.71266261328125,1.366307716796875,1.561329830078125,1.1091382421875,0.72361317578125,2.194493966796875,256.48435771875,3.82192875390625
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,0.713681115234375,1.36295859765625,1.5652408671875,1.082110890625,0.78155776171875,2.358107375,239.35888858789062,3.82246480859375
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,0.714020291015625,1.366854728515625,1.563545330078125,1.09813125,0.483900150390625,1.413563482421875,185.36697178710938,3.831074494140625
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,0.815788189453125,1.36883772265625,1.62188015234375,1.045738486328125,0.04090861328125,0.016805169921875,81.60827697460938,3.827550158203125
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,0.857314376953125,1.36462187109375,1.76170789453125,1.233269296875,0.92194983203125,2.702376787109375,162.1060007578125,3.81736253125
+thunderbird.ece.ncsu.edu,unavailable,1.012648033203125,1.448105333984375,1.02278020703125,,,1.023420673828125,127.08686977539062,3.89898354296875

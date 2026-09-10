@@ -1,301 +1,181 @@
 hostname,cpu_model,regime,size_kib,mode,event,raw_value,per_access
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,order,random,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,batch_size,512,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,any_batch_failed,False,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,DTLB-read-miss,371,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,L1D-read-access,598125976,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,L1D-read-miss,46561729,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,LL-read-access,3346,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,LL-read-miss,429,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,cache-misses,3757,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,cycles,2692381216,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,instructions,1723747270,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,time_enabled_ns,1117623828,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,time_running_ns,1117623828,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,order,random,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,batch_size,512,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,any_batch_failed,False,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,DTLB-read-miss,417683553,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,L1D-read-access,700844914,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,L1D-read-miss,830402638,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,LL-read-access,535418105,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,LL-read-miss,20945210,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,cache-misses,8604247,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,cycles,41783437811,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,instructions,1959705681,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,time_enabled_ns,13373600562,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,time_running_ns,13373600562,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,order,random,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,batch_size,512,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,any_batch_failed,False,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,DTLB-read-miss,530079870,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,L1D-read-access,1534497205,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,L1D-read-miss,1111428099,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,LL-read-access,897531439,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,LL-read-miss,458799947,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,cache-misses,497311450,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,cycles,125455016608,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,instructions,3780838889,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,time_enabled_ns,51814586493,
-sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,time_running_ns,51814586493,
-thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,order,random,
-thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,batch_size,512,
-thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,any_batch_failed,True,
-thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,DTLB-read-miss,3879,
-thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,L1D-read-access,574898086,
-thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,L1D-read-miss,207728,
-thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,cache-misses,241479,
-thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,cycles,2440944481,
-thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,instructions,1697059153,
-thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,time_enabled_ns,819210680,
-thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,time_running_ns,819210680,
-thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,order,random,
-thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,batch_size,512,
-thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,any_batch_failed,True,
-thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,DTLB-read-miss,518475793,
-thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,L1D-read-access,741429931,
-thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,L1D-read-miss,523663466,
-thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,cache-misses,523991385,
-thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,cycles,65068477325,
-thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,instructions,1996279574,
-thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,time_enabled_ns,20736406800,
-thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,time_running_ns,20736406800,
-thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,order,random,
-thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,batch_size,512,
-thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,any_batch_failed,True,
-thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,DTLB-read-miss,563471157,
-thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,L1D-read-access,1764380052,
-thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,L1D-read-miss,583191673,
-thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,cache-misses,583047086,
-thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,cycles,157529753082,
-thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,instructions,4026530501,
-thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,time_enabled_ns,52519835840,
-thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,time_running_ns,52519835840,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,order,random,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,batch_size,512,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,any_batch_failed,True,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,DTLB-read-miss,2216,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,L1D-read-access,634828415,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,L1D-read-miss,61521635,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,cache-misses,14967,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,cycles,2933511799,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,instructions,1827297946,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,time_enabled_ns,900631014,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,time_running_ns,900631014,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,order,random,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,batch_size,512,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,any_batch_failed,True,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,DTLB-read-miss,315512026,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,L1D-read-access,1080888343,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,L1D-read-miss,537824340,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,cache-misses,527301869,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,cycles,105187079692,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,instructions,1957453375,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,time_enabled_ns,35354342079,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,time_running_ns,35354342079,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,order,random,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,batch_size,512,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,any_batch_failed,True,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,DTLB-read-miss,529768076,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,L1D-read-access,2360125631,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,L1D-read-miss,595016566,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,cache-misses,801480717,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,cycles,217084913594,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,instructions,3787385023,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,time_enabled_ns,66311012566,
-skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,time_running_ns,66311012566,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,order,random,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,batch_size,512,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,any_batch_failed,False,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,DTLB-read-miss,275,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,L1D-read-access,583217572,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,L1D-read-miss,120143,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,LL-read-access,2372,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,LL-read-miss,685,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,cache-misses,864,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,cycles,2896389532,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,instructions,1733697001,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,time_enabled_ns,1457828681,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,time_running_ns,1457828681,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,order,random,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,batch_size,512,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,any_batch_failed,False,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,DTLB-read-miss,338275002,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,L1D-read-access,700189870,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,L1D-read-miss,737789269,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,LL-read-access,477674197,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,LL-read-miss,233324,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,cache-misses,1213645,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,cycles,42833160414,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,instructions,1950890510,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,time_enabled_ns,21596623846,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,time_running_ns,21596623846,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,order,random,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,batch_size,512,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,any_batch_failed,False,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,DTLB-read-miss,515528538,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,L1D-read-access,1533901693,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,L1D-read-miss,1062042689,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,LL-read-access,559499292,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,LL-read-miss,369057869,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,cache-misses,388864415,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,cycles,125092244382,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,instructions,3729936611,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,time_enabled_ns,63030749580,
-artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,time_running_ns,63030749580,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,order,random,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,batch_size,512,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,any_batch_failed,False,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,DTLB-read-miss,15148,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,L1D-read-access,590017727,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,L1D-read-miss,106710943,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,LL-read-access,189263,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,LL-read-miss,28653,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,cache-misses,305203,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,cycles,3299345873,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,instructions,1753542594,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,time_enabled_ns,1282137855,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,time_running_ns,1282137855,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,order,random,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,batch_size,512,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,any_batch_failed,False,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,DTLB-read-miss,438944961,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,L1D-read-access,698686398,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,L1D-read-miss,901994442,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,LL-read-access,631433880,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,LL-read-miss,472038314,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,cache-misses,1383616915,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,cycles,82998272388,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,instructions,1954489616,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,time_enabled_ns,52919530172,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,time_running_ns,52919530172,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,order,random,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,batch_size,512,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,any_batch_failed,False,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,DTLB-read-miss,548049641,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,L1D-read-access,1533524531,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,L1D-read-miss,1145129940,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,LL-read-access,1014204547,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,LL-read-miss,556580812,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,cache-misses,1719844820,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,cycles,119122951412,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,instructions,3780593303,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,time_enabled_ns,68860947271,
-charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,time_running_ns,68860947271,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,order,random,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,batch_size,512,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,any_batch_failed,False,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,DTLB-read-miss,334,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,L1D-read-access,641583480,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,L1D-read-miss,51448954,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,LL-read-access,16137,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,LL-read-miss,13687,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,cache-misses,193852,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,cycles,3008020240,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,instructions,1913021951,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,time_enabled_ns,651226894,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,time_running_ns,651226894,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,order,random,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,batch_size,512,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,any_batch_failed,False,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,DTLB-read-miss,364883258,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,L1D-read-access,699549551,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,L1D-read-miss,799400873,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,LL-read-access,567878780,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,LL-read-miss,370489946,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,cache-misses,1123580911,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,cycles,131319991152,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,instructions,1956827522,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,time_enabled_ns,28859152309,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,time_running_ns,28859152309,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,order,random,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,batch_size,512,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,any_batch_failed,False,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,DTLB-read-miss,533403781,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,L1D-read-access,1534268327,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,L1D-read-miss,1114662415,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,LL-read-access,905571940,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,LL-read-miss,540650506,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,cache-misses,1654878749,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,cycles,191050671204,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,instructions,3781564686,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,time_enabled_ns,41935141376,
-crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,time_running_ns,41935141376,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,order,random,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,batch_size,512,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,any_batch_failed,False,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,DTLB-read-miss,334,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,L1D-read-access,630560552,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,L1D-read-miss,47952763,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,LL-read-access,65139,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,LL-read-miss,58511,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,cache-misses,326071,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,cycles,2934521250,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,instructions,1877936896,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,time_enabled_ns,733532171,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,time_running_ns,733532171,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,order,random,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,batch_size,512,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,any_batch_failed,False,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,DTLB-read-miss,365404731,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,L1D-read-access,697834802,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,L1D-read-miss,801403324,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,LL-read-access,554040776,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,LL-read-miss,400157574,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,cache-misses,1207350976,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,cycles,122551750957,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,instructions,1957101982,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,time_enabled_ns,30201062143,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,time_running_ns,30201062143,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,order,random,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,batch_size,512,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,any_batch_failed,False,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,DTLB-read-miss,533761199,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,L1D-read-access,1532195115,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,L1D-read-miss,1113249474,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,LL-read-access,905459254,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,LL-read-miss,548655879,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,cache-misses,1674407613,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,cycles,171021284882,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,instructions,3781651567,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,time_enabled_ns,42003559956,
-ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,time_running_ns,42003559956,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,order,random,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,batch_size,512,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,any_batch_failed,False,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,DTLB-read-miss,348,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,L1D-read-access,641848594,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,L1D-read-miss,47678939,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,LL-read-access,18197,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,LL-read-miss,2509,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,cache-misses,194743,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,cycles,2968871813,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,instructions,1907713967,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,time_enabled_ns,666886581,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,time_running_ns,666886581,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,order,random,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,batch_size,512,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,any_batch_failed,False,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,DTLB-read-miss,365578389,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,L1D-read-access,699829621,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,L1D-read-miss,800535209,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,LL-read-access,562243200,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,LL-read-miss,247756877,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,cache-misses,723744503,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,cycles,94907889555,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,instructions,1961510141,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,time_enabled_ns,21207868584,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,time_running_ns,21207868584,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,order,random,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,batch_size,512,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,any_batch_failed,False,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,DTLB-read-miss,533689662,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,L1D-read-access,1533948564,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,L1D-read-miss,1115747387,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,LL-read-access,905205704,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,LL-read-miss,521177275,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,cache-misses,1572995403,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,cycles,178727975310,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,instructions,3798584808,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,time_enabled_ns,39767651031,
-upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,time_running_ns,39767651031,
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,DTLB-read-miss,371,7.24609375e-07
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,L1D-read-access,598125976,1.168214796875
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,L1D-read-miss,46561729,0.090940876953125
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,LL-read-access,3346,6.53515625e-06
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,LL-read-miss,429,8.37890625e-07
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,cache-misses,3757,7.337890625e-06
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,cycles,2692381216,5.2585570625
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,instructions,1723747270,3.36669388671875
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,DTLB-read-miss,417683553,0.815788189453125
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,L1D-read-access,700844914,1.36883772265625
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,L1D-read-miss,830402638,1.62188015234375
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,LL-read-access,535418105,1.045738486328125
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,LL-read-miss,20945210,0.04090861328125
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,cache-misses,8604247,0.016805169921875
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,cycles,41783437811,81.60827697460938
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,llc_sized,20480.0,chase,instructions,1959705681,3.827550158203125
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,DTLB-read-miss,530079870,1.03531224609375
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,L1D-read-access,1534497205,2.997064853515625
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,L1D-read-miss,1111428099,2.170758005859375
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,LL-read-access,897531439,1.752991091796875
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,LL-read-miss,458799947,0.896093646484375
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,cache-misses,497311450,0.97131142578125
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,cycles,125455016608,245.0293293125
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,larger_than_llc,131072.0,chase,instructions,3780838889,7.384450955078125
+thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,DTLB-read-miss,3879,7.576171875e-06
+thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,L1D-read-access,574898086,1.12284782421875
+thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,L1D-read-miss,207728,0.00040571875
+thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,cache-misses,241479,0.000471638671875
+thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,cycles,2440944481,4.767469689453125
+thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,instructions,1697059153,3.314568658203125
+thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,DTLB-read-miss,518475793,1.012648033203125
+thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,L1D-read-access,741429931,1.448105333984375
+thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,L1D-read-miss,523663466,1.02278020703125
+thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,cache-misses,523991385,1.023420673828125
+thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,cycles,65068477325,127.08686977539062
+thunderbird.ece.ncsu.edu,unavailable,llc_sized,20480.0,chase,instructions,1996279574,3.89898354296875
+thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,DTLB-read-miss,563471157,1.100529603515625
+thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,L1D-read-access,1764380052,3.4460547890625
+thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,L1D-read-miss,583191673,1.139046236328125
+thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,cache-misses,583047086,1.13876383984375
+thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,cycles,157529753082,307.67529898828127
+thunderbird.ece.ncsu.edu,unavailable,larger_than_llc,131072.0,chase,instructions,4026530501,7.864317384765625
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,DTLB-read-miss,2216,4.328125e-06
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,L1D-read-access,634828415,1.239899248046875
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,L1D-read-miss,61521635,0.120159443359375
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,cache-misses,14967,2.9232421875e-05
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,cycles,2933511799,5.729515232421875
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,instructions,1827297946,3.56894130078125
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,DTLB-read-miss,315512026,0.61623442578125
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,L1D-read-access,1080888343,2.111110044921875
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,L1D-read-miss,537824340,1.0504381640625
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,cache-misses,527301869,1.029886462890625
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,cycles,105187079692,205.4435150234375
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,llc_sized,20480.0,chase,instructions,1957453375,3.823151123046875
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,DTLB-read-miss,529768076,1.0347032734375
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,L1D-read-access,2360125631,4.609620373046875
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,L1D-read-miss,595016566,1.16214173046875
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,cache-misses,801480717,1.565392025390625
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,cycles,217084913594,423.9939718632813
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,larger_than_llc,131072.0,chase,instructions,3787385023,7.397236373046875
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,DTLB-read-miss,275,5.37109375e-07
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,L1D-read-access,583217572,1.1390968203125
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,L1D-read-miss,120143,0.000234654296875
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,LL-read-access,2372,4.6328125e-06
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,LL-read-miss,685,1.337890625e-06
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,cache-misses,864,1.6875e-06
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,cycles,2896389532,5.6570108046875
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,instructions,1733697001,3.386126955078125
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,DTLB-read-miss,338275002,0.66069336328125
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,L1D-read-access,700189870,1.36755833984375
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,L1D-read-miss,737789269,1.440994666015625
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,LL-read-access,477674197,0.932957416015625
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,LL-read-miss,233324,0.0004557109375
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,cache-misses,1213645,0.002370400390625
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,cycles,42833160414,83.65851643359375
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,llc_sized,20480.0,chase,instructions,1950890510,3.81033302734375
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,DTLB-read-miss,515528538,1.00689167578125
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,L1D-read-access,1533901693,2.995901744140625
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,L1D-read-miss,1062042689,2.074302126953125
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,LL-read-access,559499292,1.0927720546875
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,LL-read-miss,369057869,0.720816150390625
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,cache-misses,388864415,0.759500810546875
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,cycles,125092244382,244.32078980859376
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,larger_than_llc,131072.0,chase,instructions,3729936611,7.285032443359375
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,DTLB-read-miss,15148,2.95859375e-05
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,L1D-read-access,590017727,1.152378373046875
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,L1D-read-miss,106710943,0.208419810546875
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,LL-read-access,189263,0.000369654296875
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,LL-read-miss,28653,5.5962890625e-05
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,cache-misses,305203,0.000596099609375
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,cycles,3299345873,6.444034908203125
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,instructions,1753542594,3.42488787890625
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,DTLB-read-miss,438944961,0.857314376953125
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,L1D-read-access,698686398,1.36462187109375
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,L1D-read-miss,901994442,1.76170789453125
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,LL-read-access,631433880,1.233269296875
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,LL-read-miss,472038314,0.92194983203125
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,cache-misses,1383616915,2.702376787109375
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,cycles,82998272388,162.1060007578125
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,llc_sized,20480.0,chase,instructions,1954489616,3.81736253125
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,DTLB-read-miss,548049641,1.070409455078125
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,L1D-read-access,1533524531,2.995165099609375
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,L1D-read-miss,1145129940,2.2365819140625
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,LL-read-access,1014204547,1.980868255859375
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,LL-read-miss,556580812,1.0870718984375
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,cache-misses,1719844820,3.3590719140625
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,cycles,119122951412,232.6620144765625
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,larger_than_llc,131072.0,chase,instructions,3780593303,7.383971294921875
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,DTLB-read-miss,334,6.5234375e-07
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,L1D-read-access,641583480,1.253092734375
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,L1D-read-miss,51448954,0.10048623828125
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,LL-read-access,16137,3.1517578125e-05
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,LL-read-miss,13687,2.6732421875e-05
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,cache-misses,193852,0.0003786171875
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,cycles,3008020240,5.87503953125
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,instructions,1913021951,3.736370998046875
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,DTLB-read-miss,364883258,0.71266261328125
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,L1D-read-access,699549551,1.366307716796875
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,L1D-read-miss,799400873,1.561329830078125
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,LL-read-access,567878780,1.1091382421875
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,LL-read-miss,370489946,0.72361317578125
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,cache-misses,1123580911,2.194493966796875
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,cycles,131319991152,256.48435771875
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,llc_sized,20480.0,chase,instructions,1956827522,3.82192875390625
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,DTLB-read-miss,533403781,1.041804259765625
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,L1D-read-access,1534268327,2.996617826171875
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,L1D-read-miss,1114662415,2.177075029296875
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,LL-read-access,905571940,1.7686951953125
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,LL-read-miss,540650506,1.05595801953125
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,cache-misses,1654878749,3.232185056640625
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,cycles,191050671204,373.1458421953125
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,larger_than_llc,131072.0,chase,instructions,3781564686,7.38586852734375
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,DTLB-read-miss,334,6.5234375e-07
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,L1D-read-access,630560552,1.231563578125
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,L1D-read-miss,47952763,0.093657740234375
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,LL-read-access,65139,0.000127224609375
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,LL-read-miss,58511,0.000114279296875
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,cache-misses,326071,0.000636857421875
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,cycles,2934521250,5.73148681640625
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,instructions,1877936896,3.6678455
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,DTLB-read-miss,365404731,0.713681115234375
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,L1D-read-access,697834802,1.36295859765625
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,L1D-read-miss,801403324,1.5652408671875
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,LL-read-access,554040776,1.082110890625
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,LL-read-miss,400157574,0.78155776171875
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,cache-misses,1207350976,2.358107375
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,cycles,122551750957,239.35888858789062
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,llc_sized,20480.0,chase,instructions,1957101982,3.82246480859375
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,DTLB-read-miss,533761199,1.042502341796875
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,L1D-read-access,1532195115,2.992568583984375
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,L1D-read-miss,1113249474,2.17431537890625
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,LL-read-access,905459254,1.76847510546875
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,LL-read-miss,548655879,1.071593513671875
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,cache-misses,1674407613,3.270327369140625
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,cycles,171021284882,334.02594703515626
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,larger_than_llc,131072.0,chase,instructions,3781651567,7.386038216796875
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,DTLB-read-miss,348,6.796875e-07
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,L1D-read-access,641848594,1.25361053515625
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,L1D-read-miss,47678939,0.093122927734375
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,LL-read-access,18197,3.5541015625e-05
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,LL-read-miss,2509,4.900390625e-06
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,cache-misses,194743,0.000380357421875
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,cycles,2968871813,5.798577759765625
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,instructions,1907713967,3.726003841796875
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,DTLB-read-miss,365578389,0.714020291015625
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,L1D-read-access,699829621,1.366854728515625
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,L1D-read-miss,800535209,1.563545330078125
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,LL-read-access,562243200,1.09813125
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,LL-read-miss,247756877,0.483900150390625
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,cache-misses,723744503,1.413563482421875
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,cycles,94907889555,185.36697178710938
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,llc_sized,20480.0,chase,instructions,1961510141,3.831074494140625
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,DTLB-read-miss,533689662,1.04236262109375
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,L1D-read-access,1533948564,2.9959932890625
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,L1D-read-miss,1115747387,2.179194115234375
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,LL-read-access,905205704,1.767979890625
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,LL-read-miss,521177275,1.017924365234375
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,cache-misses,1572995403,3.072256646484375
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,cycles,178727975310,349.07807677734377
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,larger_than_llc,131072.0,chase,instructions,3798584808,7.419110953125
