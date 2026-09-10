@@ -11,9 +11,9 @@ or `scp` directly), and does the cross-host combination step.
 
 Usage:
   python3 combine_eight_counter.py \
-      --dirs data_raw/sunbird/pmu/eight_counter-20260910 \
-             data_raw/thunderbird/pmu/eight_counter-20260910 \
-             data_raw/skylark/pmu/eight_counter-20260910 \
+      --dirs data_raw/sunbird/pmu/eight_counter \
+             data_raw/thunderbird/pmu/eight_counter \
+             data_raw/skylark/pmu/eight_counter \
              ... (all 8) \
       --out data_processed/eight_counter_cross_machine
 
@@ -81,13 +81,25 @@ def main():
         for row in rows:
             try:
                 samples = float(row.get("samples", 0))
-                steps = float(row.get("steps", 0))
+                batch_size = float(row.get("batch_size", 0))
+                denom = samples * batch_size
             except (TypeError, ValueError):
-                samples = steps = 0
-            denom = samples * steps  # per-access normalization
+                samples = batch_size = 0
+
             for k, v in row.items():
-                if k in ("regime", "size_kib", "mode", "samples", "steps"):
+                # Only process actual PMU events.
+                if k not in {
+                    "DTLB-read-miss",
+                    "L1D-read-access",
+                    "L1D-read-miss",
+                    "LL-read-access",
+                    "LL-read-miss",
+                    "cache-misses",
+                    "cycles",
+                    "instructions",
+                }:
                     continue
+
                 if v == "UNAVAILABLE":
                     normalized = None
                 else:
@@ -96,6 +108,7 @@ def main():
                         normalized = raw / denom if denom else None
                     except (TypeError, ValueError):
                         normalized = None
+
                 long_rows.append({
                     "hostname": hostname,
                     "cpu_model": cpu_model,
