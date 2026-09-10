@@ -1,0 +1,43 @@
+{
+  "started_utc": "2026-09-10T02:23:44.721859+00:00",
+  "hostname": "thunderbird.ece.ncsu.edu",
+  "target_host": "thunderbird",
+  "target_level": "l2",
+  "bracket_bytes": [
+    1048576.0,
+    1179648.0
+  ],
+  "bracket_status": "CONDITIONAL -- treat as bracket, not confirmed value",
+  "stride": 8,
+  "batch": 1024,
+  "seed": 5922026,
+  "samples": 1000000,
+  "mode": "chase",
+  "order": "random",
+  "cpu": 2,
+  "git_commit": "25cd48cfc0e06d2513dabf5e3636bc0b449abe62",
+  "binary_sha256": "0dd864ffdd89f9c997d1c0a6f8fa8ac7c209c83016043da553693b96659e1286",
+  "pmu_stat_sha256": "128c8d659dc47e5bd6d16c9d65d480f3c776479f064ba2e1a532b90badb29804",
+  "command": [
+    "boundary_correlation.py",
+    "--host",
+    "thunderbird",
+    "--level",
+    "l2",
+    "--boundaries-json",
+    "phase1_boundaries.json",
+    "--host-config",
+    "../main_code/common/phase1/config/followup-plan.json",
+    "--binary",
+    "../main_code/common/phase1/src/cache_bench",
+    "--pmu-stat",
+    "../main_code/pmu/pmu_stat",
+    "--cpu",
+    "2",
+    "--events",
+    "cycles,instructions,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,dTLB-read-miss,cache-misses",
+    "--out",
+    "../data_raw/thunderbird/pmu/boundary_correlation-20260909_l2"
+  ],
+  "PHASE1_CAVEAT": "This bracket is a conditional Phase-I candidate, not a confirmed boundary. Hit latency and inclusion/exclusion remain unresolved per PHASE1_HANDOFF.md and are NOT validated by this script."
+}

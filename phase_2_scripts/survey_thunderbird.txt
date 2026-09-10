@@ -1,0 +1,335 @@
+== Host: thunderbird.ece.ncsu.edu ==
+== Date: Thu Sep 10 02:13:01 AM UTC 2026 ==
+
+-- CPU identification --
+Architecture:                            aarch64
+CPU(s):                                  80
+On-line CPU(s) list:                     0-79
+Vendor ID:                               ARM
+Model name:                              Neoverse-N1
+Socket(s):                               1
+CPU(s) scaling MHz:                      36%
+NUMA node0 CPU(s):                       0-79
+
+-- perf_event_paranoid (lower = more access; -1 is fully open) --
+2
+   If this blocks needed events and you cannot change it yourself,
+   record the exact value/error and contact the TA -- do not change
+   system-wide settings on a shared machine.
+
+-- perf tool present? --
+perf version 5.14.0-687.17.1.el9_8.aarch64
+
+-- generic hardware events perf reports as supported --
+  branch-instructions OR branches                    [Hardware event]
+  branch-misses                                      [Hardware event]
+  bus-cycles                                         [Hardware event]
+  cache-misses                                       [Hardware event]
+  cache-references                                   [Hardware event]
+  cpu-cycles OR cycles                               [Hardware event]
+  instructions                                       [Hardware event]
+  stalled-cycles-backend OR idle-cycles-backend      [Hardware event]
+  stalled-cycles-frontend OR idle-cycles-frontend    [Hardware event]
+
+-- cache/TLB/cycle-related events (grep filter) --
+  bus-cycles                                         [Hardware event]
+  cache-misses                                       [Hardware event]
+  cache-references                                   [Hardware event]
+  cpu-cycles OR cycles                               [Hardware event]
+  stalled-cycles-backend OR idle-cycles-backend      [Hardware event]
+  stalled-cycles-frontend OR idle-cycles-frontend    [Hardware event]
+  L1-dcache-loads OR armv8_pmuv3_0/L1-dcache-loads/
+  L1-dcache-load-misses OR armv8_pmuv3_0/L1-dcache-load-misses/
+  L1-icache-loads OR armv8_pmuv3_0/L1-icache-loads/
+  L1-icache-load-misses OR armv8_pmuv3_0/L1-icache-load-misses/
+  dTLB-loads OR armv8_pmuv3_0/dTLB-loads/
+  dTLB-load-misses OR armv8_pmuv3_0/dTLB-load-misses/
+  iTLB-loads OR armv8_pmuv3_0/iTLB-loads/
+  iTLB-load-misses OR armv8_pmuv3_0/iTLB-load-misses/
+  l3d_cache_wb OR armv8_pmuv3_0/l3d_cache_wb/        [Kernel PMU event]
+  arm_cmn/dtc_cycles/                                [Kernel PMU event]
+  arm_dmc620/clk_cycle_count/                        [Kernel PMU event]
+  arm_dmc620/clkdiv2_cycle_count/                    [Kernel PMU event]
+  arm_dsu/bus_cycles/                                [Kernel PMU event]
+  arm_dsu/cycles/                                    [Kernel PMU event]
+  arm_dsu/l3d_cache/                                 [Kernel PMU event]
+  arm_dsu/l3d_cache_allocate/                        [Kernel PMU event]
+  arm_dsu/l3d_cache_refill/                          [Kernel PMU event]
+  arm_dsu/l3d_cache_wb/                              [Kernel PMU event]
+  bus_cycles
+       [Bus cycle. Unit: armv8_pmuv3_0]
+  hnf_cache_fill
+       [Counts total allocations in HN SLC (all cache line allocations to
+  hnf_cache_miss
+       [Counts total cache misses in first lookup result (high priority).
+       [Counts number of SF eviction cache invalidations initiated. Unit:
+  hnf_slc_sf_cache_access
+       [Counts number of cache accesses in first access (high priority). Unit:
+       [Number of cycles the AR channel is waiting for new requests from HN-I
+       [Number of cycles the HN-I bridge is stalled because of backpressure on
+       [Number of cycles the AW channel is waiting for new requests from HN-I
+       [Number of cycles the HN-I bridge is stalled because of backpressure on
+       [Number of cycles the HN-I bridge is stalled because of backpressure on
+       [Number of cycles the SBSX bridge is stalled because of backpressure on
+       [Number of cycles the SBSX bridge is stalled because of backpressure on
+       [Number of cycles the SBSX bridge is stalled because of backpressure on
+  cpu_cycles
+       [Cycle. Unit: armv8_pmuv3_0]
+l1d_cache:
+  l1d_cache
+       [Level 1 data cache access. Unit: armv8_pmuv3_0]
+  l1d_cache_inval
+       [L1D cache invalidate. Unit: armv8_pmuv3_0]
+  l1d_cache_rd
+       [L1D cache access,read. Unit: armv8_pmuv3_0]
+  l1d_cache_refill
+       [Level 1 data cache refill. Unit: armv8_pmuv3_0]
+  l1d_cache_refill_inner
+       [L1D cache refill,inner. Unit: armv8_pmuv3_0]
+  l1d_cache_refill_outer
+       [L1D cache refill,outer. Unit: armv8_pmuv3_0]
+  l1d_cache_refill_rd
+       [L1D cache refill,read. Unit: armv8_pmuv3_0]
+  l1d_cache_refill_wr
+       [L1D cache refill,write. Unit: armv8_pmuv3_0]
+  l1d_cache_wb
+       [Attributable Level 1 data cache write-back. Unit: armv8_pmuv3_0]
+  l1d_cache_wb_clean
+       [L1D cache Write-Back,cleaning and coherency. Unit: armv8_pmuv3_0]
+  l1d_cache_wb_victim
+       [L1D cache Write-Back,victim. Unit: armv8_pmuv3_0]
+  l1d_cache_wr
+       [L1D cache access,write. Unit: armv8_pmuv3_0]
+l1i_cache:
+  l1i_cache
+       [Attributable Level 1 instruction cache access. Unit: armv8_pmuv3_0]
+  l1i_cache_refill
+       [Level 1 instruction cache refill. Unit: armv8_pmuv3_0]
+l2_cache:
+  l2d_cache
+       [Level 2 data cache access. Unit: armv8_pmuv3_0]
+  l2d_cache_allocate
+       [Attributable Level 2 data cache allocation without refill. Unit:
+  l2d_cache_inval
+       [L2D cache invalidate. Unit: armv8_pmuv3_0]
+  l2d_cache_rd
+       [L2D cache access,read. Unit: armv8_pmuv3_0]
+  l2d_cache_refill
+  l2d_cache_refill_rd
+       [L2D cache refill,read. Unit: armv8_pmuv3_0]
+  l2d_cache_refill_wr
+       [L2D cache refill,write. Unit: armv8_pmuv3_0]
+  l2d_cache_wb
+       [Attributable Level 2 data cache write-back. Unit: armv8_pmuv3_0]
+  l2d_cache_wb_clean
+       [L2D cache Write-Back,cleaning and coherency. Unit: armv8_pmuv3_0]
+  l2d_cache_wb_victim
+       [L2D cache Write-Back,victim. Unit: armv8_pmuv3_0]
+  l2d_cache_wr
+       [L2D cache access,write. Unit: armv8_pmuv3_0]
+l3_cache:
+  l3d_cache
+       [Attributable Level 3 data cache access. Unit: armv8_pmuv3_0]
+  l3d_cache_allocate
+       [Attributable Level 3 data cache allocation without refill. Unit:
+  l3d_cache_rd
+       [Attributable Level 3 data or unified cache access,read. Unit:
+  l3d_cache_refill
+       [Attributable Level 3 data cache refill. Unit: armv8_pmuv3_0]
+ll_cache:
+  ll_cache_miss_rd
+       [Last level cache miss,read. Unit: armv8_pmuv3_0]
+  ll_cache_rd
+       [Attributable Last level cache memory read. Unit: armv8_pmuv3_0]
+tlb:
+  dtlb_walk
+       [Access to data TLB causes a translation table walk. Unit:
+  itlb_walk
+       [Access to instruction TLB that causes a translation table walk. Unit:
+  l1d_tlb
+       [Attributable Level 1 data or unified TLB access. Unit: armv8_pmuv3_0]
+  l1d_tlb_rd
+       [L1D tlb access,read. Unit: armv8_pmuv3_0]
+  l1d_tlb_refill
+       [Attributable Level 1 data TLB refill. Unit: armv8_pmuv3_0]
+  l1d_tlb_refill_rd
+       [L1D tlb refill,read. Unit: armv8_pmuv3_0]
+  l1d_tlb_refill_wr
+       [L1D tlb refill,write. Unit: armv8_pmuv3_0]
+  l1d_tlb_wr
+       [L1D tlb access,write. Unit: armv8_pmuv3_0]
+  l1i_tlb
+       [Attributable Level 1 instruction TLB access. Unit: armv8_pmuv3_0]
+  l1i_tlb_refill
+       [Attributable Level 1 instruction TLB refill. Unit: armv8_pmuv3_0]
+  l2d_tlb
+       [Attributable Level 2 data or unified TLB access. Unit: armv8_pmuv3_0]
+  l2d_tlb_rd
+       [L2D cache access,read. Unit: armv8_pmuv3_0]
+  l2d_tlb_refill
+       [Attributable Level 2 data TLB refill. Unit: armv8_pmuv3_0]
+  l2d_tlb_refill_rd
+       [L2D cache refill,read. Unit: armv8_pmuv3_0]
+  l2d_tlb_refill_wr
+       [L2D cache refill,write. Unit: armv8_pmuv3_0]
+  l2d_tlb_wr
+       [L2D cache access,write. Unit: armv8_pmuv3_0]
+Cycle_Accounting:
+  backend_stalled_cycles
+       [This metric is the percentage of cycles that were stalled due to
+  frontend_stalled_cycles
+       [This metric is the percentage of cycles that were stalled due to
+DTLB_Effectiveness:
+  dtlb_mpki
+       [This metric measures the number of data TLB Walks per thousand
+  dtlb_walk_ratio
+       [This metric measures the ratio of instruction TLB Walks to the total
+        number of data TLB accesses. This gives an indication of the
+        effectiveness of the data TLB accesses]
+  l1d_tlb_miss_ratio
+       [This metric measures the ratio of level 1 data TLB accesses missed to
+        the total number of level 1 data TLB accesses. This gives an
+        indication of the effectiveness of the level 1 data TLB]
+  l1d_tlb_mpki
+       [This metric measures the number of level 1 instruction TLB accesses
+  l2_tlb_miss_ratio
+       [This metric measures the ratio of level 2 unified TLB accesses missed
+        to the total number of level 2 unified TLB accesses. This gives an
+        indication of the effectiveness of the level 2 TLB]
+  l2_tlb_mpki
+       [This metric measures the number of level 2 unified TLB accesses missed
+       [This metric measures the number of instructions retired per cycle]
+ITLB_Effectiveness:
+  itlb_mpki
+       [This metric measures the number of instruction TLB Walks per thousand
+  itlb_walk_ratio
+       [This metric measures the ratio of instruction TLB Walks to the total
+        number of instruction TLB accesses. This gives an indication of the
+        effectiveness of the instruction TLB accesses]
+  l1i_tlb_miss_ratio
+       [This metric measures the ratio of level 1 instruction TLB accesses
+        missed to the total number of level 1 instruction TLB accesses. This
+        TLB]
+  l1i_tlb_mpki
+       [This metric measures the number of level 1 instruction TLB accesses
+  l2_tlb_miss_ratio
+       [This metric measures the ratio of level 2 unified TLB accesses missed
+        to the total number of level 2 unified TLB accesses. This gives an
+        indication of the effectiveness of the level 2 TLB]
+  l2_tlb_mpki
+       [This metric measures the number of level 2 unified TLB accesses missed
+L1D_Cache_Effectiveness:
+  l1d_cache_miss_ratio
+       [This metric measures the ratio of level 1 data cache accesses missed
+        to the total number of level 1 data cache accesses. This gives an
+        indication of the effectiveness of the level 1 data cache]
+  l1d_cache_mpki
+       [This metric measures the number of level 1 data cache accesses missed
+L1I_Cache_Effectiveness:
+  l1i_cache_miss_ratio
+       [This metric measures the ratio of level 1 instruction cache accesses
+        missed to the total number of level 1 instruction cache accesses. This
+        cache]
+  l1i_cache_mpki
+       [This metric measures the number of level 1 instruction cache accesses
+L2_Cache_Effectiveness:
+  l2_cache_miss_ratio
+       [This metric measures the ratio of level 2 cache accesses missed to the
+        total number of level 2 cache accesses. This gives an indication of
+        the effectiveness of the level 2 cache,which is a unified cache that
+        stores both data and instruction. Note that cache accesses in this
+        cache are either data memory access or instruction fetch as this is a
+        unified cache]
+  l2_cache_mpki
+       [This metric measures the number of level 2 unified cache accesses
+        missed per thousand instructions executed. Note that cache accesses in
+        this cache are either data memory access or instruction fetch as this
+        is a unified cache]
+LL_Cache_Effectiveness:
+  ll_cache_read_hit_ratio
+       [This metric measures the ratio of last level cache read accesses hit
+        in the cache to the total number of last level cache accesses. This
+        gives an indication of the effectiveness of the last level cache for
+        read traffic. Note that cache accesses in this cache are either data
+        memory access or instruction fetch as this is a system level cache]
+  ll_cache_read_miss_ratio
+       [This metric measures the ratio of last level cache read accesses
+        missed to the total number of last level cache accesses. This gives an
+        indication of the effectiveness of the last level cache for read
+        traffic. Note that cache accesses in this cache are either data memory
+        access or instruction fetch as this is a system level cache]
+  ll_cache_read_mpki
+       [This metric measures the number of last level cache read accesses
+  dtlb_mpki
+       [This metric measures the number of data TLB Walks per thousand
+  itlb_mpki
+       [This metric measures the number of instruction TLB Walks per thousand
+  l1d_cache_mpki
+       [This metric measures the number of level 1 data cache accesses missed
+  l1d_tlb_mpki
+       [This metric measures the number of level 1 instruction TLB accesses
+  l1i_cache_mpki
+       [This metric measures the number of level 1 instruction cache accesses
+  l1i_tlb_mpki
+       [This metric measures the number of level 1 instruction TLB accesses
+  l2_cache_mpki
+       [This metric measures the number of level 2 unified cache accesses
+        missed per thousand instructions executed. Note that cache accesses in
+        this cache are either data memory access or instruction fetch as this
+        is a unified cache]
+  l2_tlb_mpki
+       [This metric measures the number of level 2 unified TLB accesses missed
+  ll_cache_read_mpki
+       [This metric measures the number of last level cache read accesses
+  dtlb_walk_ratio
+       [This metric measures the ratio of instruction TLB Walks to the total
+        number of data TLB accesses. This gives an indication of the
+        effectiveness of the data TLB accesses]
+  itlb_walk_ratio
+       [This metric measures the ratio of instruction TLB Walks to the total
+        number of instruction TLB accesses. This gives an indication of the
+        effectiveness of the instruction TLB accesses]
+  l1d_cache_miss_ratio
+       [This metric measures the ratio of level 1 data cache accesses missed
+        to the total number of level 1 data cache accesses. This gives an
+        indication of the effectiveness of the level 1 data cache]
+  l1d_tlb_miss_ratio
+       [This metric measures the ratio of level 1 data TLB accesses missed to
+        the total number of level 1 data TLB accesses. This gives an
+        indication of the effectiveness of the level 1 data TLB]
+  l1i_cache_miss_ratio
+       [This metric measures the ratio of level 1 instruction cache accesses
+        missed to the total number of level 1 instruction cache accesses. This
+        cache]
+  l1i_tlb_miss_ratio
+       [This metric measures the ratio of level 1 instruction TLB accesses
+        missed to the total number of level 1 instruction TLB accesses. This
+        TLB]
+  l2_cache_miss_ratio
+       [This metric measures the ratio of level 2 cache accesses missed to the
+        total number of level 2 cache accesses. This gives an indication of
+        the effectiveness of the level 2 cache,which is a unified cache that
+        stores both data and instruction. Note that cache accesses in this
+        cache are either data memory access or instruction fetch as this is a
+        unified cache]
+  l2_tlb_miss_ratio
+       [This metric measures the ratio of level 2 unified TLB accesses missed
+        to the total number of level 2 unified TLB accesses. This gives an
+        indication of the effectiveness of the level 2 TLB]
+  ll_cache_read_miss_ratio
+       [This metric measures the ratio of last level cache read accesses
+        missed to the total number of last level cache accesses. This gives an
+        indication of the effectiveness of the last level cache for read
+        traffic. Note that cache accesses in this cache are either data memory
+        access or instruction fetch as this is a system level cache]
+       [The system level cache miss rate]
+
+-- quick sanity check: can we open a basic hardware counter at all? --
+       0.000721400 seconds time elapsed
+
+       0.000778000 seconds user
+       0.000000000 seconds sys
+
+
+
+== End survey ==
