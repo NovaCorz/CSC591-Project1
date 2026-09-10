@@ -98,31 +98,122 @@ def log_spaced_points(low, high, n, margin_frac):
     pts.add(round(high))
     return sorted(pts)
 
+def run_one_point(binary, pmu_stat, events, events_per_run, cpu, bytes_,
+                  stride, samples, batch, seed, mode, order, out_bin):
 
-def run_one_point(binary, pmu_stat, events, cpu, bytes_, stride, samples,
-                   batch, seed, mode, order, out_bin):
-    invocation = [str(binary), mode, str(bytes_), str(stride), "0",
-                  str(samples), str(batch), str(seed), str(cpu), order,
-                  str(out_bin)]
-    full_cmd = [str(pmu_stat), "-e", events, "--"] + invocation
-    result = subprocess.run(full_cmd, text=True, capture_output=True)
-    stdout_lines = [ln for ln in result.stdout.splitlines() if ln.strip()]
+    invocation = [
+        str(binary), mode, str(bytes_), str(stride), "0",
+        str(samples), str(batch), str(seed), str(cpu), order,
+        str(out_bin)
+    ]
 
-    bench_meta = None
-    counters = {}
-    if stdout_lines:
-        try:
-            bench_meta = json.loads(stdout_lines[0])
-        except json.JSONDecodeError:
-            bench_meta = {"raw_stdout_line0": stdout_lines[0]}
-        counters = parse_counter_line(stdout_lines[-1])
+    event_list = [e.strip() for e in events.split(",") if e.strip()]
+
+    event_batches = [
+        event_list[i:i + events_per_run]
+        for i in range(0, len(event_list), events_per_run)
+    ]
+
+    combined_counters = {}
+    batch_results = []
+    all_stderr = []
+    overall_returncode = 0
+
+    for batch_idx, event_batch in enumerate(event_batches):
+
+        batch_events = ",".join(event_batch)
+
+        batch_cmd = [
+            str(pmu_stat),
+            "-e",
+            batch_events,
+            "--"
+        ] + invocation
+
+        print(
+            f"    PMU batch {batch_idx}: {batch_events}",
+            flush=True
+        )
+
+        result = subprocess.run(
+            batch_cmd,
+            text=True,
+            capture_output=True
+        )
+
+        stdout_lines = [
+            ln for ln in result.stdout.splitlines()
+            if ln.strip()
+        ]
+
+        bench_meta = None
+        counters = {}
+
+        if stdout_lines:
+            try:
+                bench_meta = json.loads(stdout_lines[0])
+            except json.JSONDecodeError:
+                bench_meta = {
+                    "raw_stdout_line0": stdout_lines[0]
+                }
+
+            counters = parse_counter_line(stdout_lines[-1])
+
+        batch_time_enabled = counters.get("time_enabled_ns")
+        batch_time_running = counters.get("time_running_ns")
+
+        if result.returncode != 0:
+            overall_returncode = result.returncode
+
+        if (
+            batch_time_enabled is not None
+            and batch_time_running is not None
+        ):
+            try:
+                enabled = int(batch_time_enabled)
+                running = int(batch_time_running)
+
+                if enabled > 0 and running == 0:
+                    overall_returncode = 1
+                    print(
+                        f"    WARNING: batch {batch_idx} has "
+                        f"time_running=0; counters are invalid.",
+                        file=sys.stderr,
+                        flush=True
+                    )
+
+            except ValueError:
+                pass
+
+        combined_counters.update({
+            k: v
+            for k, v in counters.items()
+            if k not in ("time_enabled_ns", "time_running_ns")
+        })
+
+        batch_results.append({
+            "event_batch": event_batch,
+            "returncode": result.returncode,
+            "bench_metadata": bench_meta,
+            "counters": counters,
+            "pmu_stat_stderr": result.stderr
+        })
+
+        all_stderr.append(
+            f"--- batch {batch_idx}: {batch_events} ---\n"
+            f"{result.stderr}"
+        )
 
     return {
         "invocation": invocation,
-        "returncode": result.returncode,
-        "bench_metadata": bench_meta,
-        "counters": counters,
-        "pmu_stat_stderr": result.stderr,
+        "returncode": overall_returncode,
+        "bench_metadata": (
+            batch_results[0]["bench_metadata"]
+            if batch_results else None
+        ),
+        "counters": combined_counters,
+        "batches": batch_results,
+        "pmu_stat_stderr": "\n".join(all_stderr)
     }
 
 
@@ -159,6 +250,9 @@ def main():
                      help="extend the swept range this fraction below/above "
                           "the bracket on each side (0.5 = ±50%%)")
     ap.add_argument("--events", required=True)
+    ap.add_argument("--events-per-run", type=int, default=2,
+                help="number of PMU events to measure together per run "
+                     "(default: 2)")
     ap.add_argument("--keep-raw", action="store_true",
                      help="keep each point's raw .bin timing samples instead "
                           "of deleting them after the counter is read")
@@ -227,9 +321,21 @@ def main():
         print(f"  [{i+1:2d}/{len(points)}] {bytes_:>10d} B "
               f"({'IN BRACKET' if in_bracket else 'margin'})", flush=True)
 
-        result = run_one_point(binary, pmu_stat, args.events, args.cpu,
-                                bytes_, stride, args.samples, batch, seed,
-                                args.mode, args.order, out_bin)
+        result = run_one_point(
+                binary,
+                pmu_stat,
+                args.events,
+                args.events_per_run,
+                args.cpu,
+                bytes_,
+                stride,
+                args.samples,
+                batch,
+                seed,
+                args.mode,
+                args.order,
+                out_bin
+                )
 
         (stem.with_suffix(".json")).write_text(
             json.dumps({"bytes": bytes_, "in_bracket": in_bracket, **result},
