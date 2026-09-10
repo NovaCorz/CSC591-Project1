@@ -1,0 +1,55 @@
+{
+  "regime": "llc_sized",
+  "size_kib": 20480.0,
+  "event_batch": [
+    "DTLB-read-miss",
+    "cache-misses"
+  ],
+  "invocation": [
+    "/home/jrkuethe/CSC591-Project1/main_code/common/phase1/src/cache_bench",
+    "chase",
+    "20971520",
+    "8",
+    "0",
+    "1000000",
+    "512",
+    "5922026",
+    "3",
+    "random",
+    "../data_raw/thunderbird/pmu/eight_counter/llc_sized_batch3.bin"
+  ],
+  "returncode": 0,
+  "bench_metadata": {
+    "mode": "chase",
+    "bytes": 20971520,
+    "stride": 8,
+    "offset": 0,
+    "nodes": 2621440,
+    "samples": 1000000,
+    "batch": 512,
+    "seed": 5922026,
+    "cpu": 3,
+    "final_cpu": 3,
+    "unit": "CNTVCT_ticks",
+    "counter_frequency": 25000000,
+    "empirical_ticks_per_second": 24999800.595,
+    "calibration_ns": 20059680,
+    "elapsed_ns": 40646022600,
+    "warmup_loads": 6664704,
+    "alignment": 4096,
+    "madvise_nohugepage_rc": 0,
+    "little_endian": true,
+    "minor_faults": 0,
+    "major_faults": 0,
+    "voluntary_switches": 0,
+    "involuntary_switches": 1033,
+    "address": "0xffff9b800000"
+  },
+  "counters": {
+    "DTLB-read-miss": "518475793",
+    "cache-misses": "523991385",
+    "time_enabled_ns": "20736406800",
+    "time_running_ns": "20736406800"
+  },
+  "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=20736406800 ns  time_running=20736406800 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+}
