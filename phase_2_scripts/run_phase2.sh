@@ -29,7 +29,7 @@ python3 boundary_correlation.py \
     --pmu-stat ../main_code/pmu/pmu_stat \
     --cpu 2 \
     --events cycles,instructions,L1D-read-access,L1D-read-miss,LL-read-access,LL-read-miss,dTLB-read-miss,cache-misses \
-    --out ../data_raw/skylarkbird/pmu/boundary_correlation_l2
+    --out ../data_raw/skylark/pmu/boundary_correlation_l2
 
 python3 boundary_correlation.py \
     --host skylark --level llc \
