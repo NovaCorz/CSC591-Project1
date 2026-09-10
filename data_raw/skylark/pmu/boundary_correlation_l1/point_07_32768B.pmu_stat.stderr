@@ -1,6 +1,19 @@
-warning: unrecognized event name 'dTLB-read-miss'
-perf_event_open failed for 'LL-read-access': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)
-perf_event_open failed for 'LL-read-miss': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)
+--- batch 0: cycles,instructions ---
 -- pmu_stat result --
 child exit status: 0
-time_enabled=799644283 ns  time_running=799644283 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)
+time_enabled=820546083 ns  time_running=820546083 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)
+
+--- batch 1: L1D-read-access,L1D-read-miss ---
+-- pmu_stat result --
+child exit status: 0
+time_enabled=823422700 ns  time_running=823422700 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)
+
+--- batch 2: LL-read-access,LL-read-miss ---
+perf_event_open failed for 'LL-read-access': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)
+perf_event_open failed for 'LL-read-miss': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)
+no events opened successfully; aborting run
+
+--- batch 3: DTLB-read-miss,cache-misses ---
+-- pmu_stat result --
+child exit status: 0
+time_enabled=821055189 ns  time_running=821055189 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)

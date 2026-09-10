@@ -10,11 +10,11 @@
     "1000000",
     "512",
     "5922026",
-    "2",
+    "1",
     "random",
     "../data_raw/skylark/pmu/boundary_correlation_llc/point_03_11369944B.bin"
   ],
-  "returncode": 0,
+  "returncode": 1,
   "bench_metadata": {
     "mode": "chase",
     "bytes": 11369944,
@@ -24,34 +24,162 @@
     "samples": 1000000,
     "batch": 512,
     "seed": 5922026,
-    "cpu": 2,
-    "final_cpu": 2,
+    "cpu": 1,
+    "final_cpu": 1,
     "unit": "TSC_ticks",
     "counter_frequency": 0,
-    "empirical_ticks_per_second": 2395451109.655,
-    "calibration_ns": 20066784,
-    "elapsed_ns": 9525794181,
-    "warmup_loads": 8200566,
+    "empirical_ticks_per_second": 2395471416.164,
+    "calibration_ns": 20059781,
+    "elapsed_ns": 16819227871,
+    "warmup_loads": 5882230,
     "alignment": 4096,
     "madvise_nohugepage_rc": 0,
     "little_endian": true,
-    "minor_faults": 5,
+    "minor_faults": 4,
     "major_faults": 0,
     "voluntary_switches": 0,
-    "involuntary_switches": 13,
-    "address": "0x7fb1aed28000"
+    "involuntary_switches": 15,
+    "address": "0x7f3d55928000"
   },
   "counters": {
-    "cycles": "31569872817",
-    "instructions": "1693201644",
-    "L1D-read-access": "697399911",
-    "L1D-read-miss": "537199718",
-    "LL-read-access": "UNAVAILABLE",
-    "LL-read-miss": "UNAVAILABLE",
-    "dTLB-read-miss": "UNAVAILABLE",
-    "cache-misses": "519712955",
-    "time_enabled_ns": "9717861164",
-    "time_running_ns": "9717861164"
+    "cycles": "55873198441",
+    "instructions": "1806377139",
+    "L1D-read-access": "817513469",
+    "L1D-read-miss": "537864370",
+    "DTLB-read-miss": "139829753",
+    "cache-misses": "519991786"
   },
-  "pmu_stat_stderr": "warning: unrecognized event name 'dTLB-read-miss'\nperf_event_open failed for 'LL-read-access': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)\nperf_event_open failed for 'LL-read-miss': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)\n-- pmu_stat result --\nchild exit status: 0\ntime_enabled=9717861164 ns  time_running=9717861164 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+  "batches": [
+    {
+      "event_batch": [
+        "cycles",
+        "instructions"
+      ],
+      "returncode": 0,
+      "bench_metadata": {
+        "mode": "chase",
+        "bytes": 11369944,
+        "stride": 8,
+        "offset": 0,
+        "nodes": 1421243,
+        "samples": 1000000,
+        "batch": 512,
+        "seed": 5922026,
+        "cpu": 1,
+        "final_cpu": 1,
+        "unit": "TSC_ticks",
+        "counter_frequency": 0,
+        "empirical_ticks_per_second": 2395471416.164,
+        "calibration_ns": 20059781,
+        "elapsed_ns": 16819227871,
+        "warmup_loads": 5882230,
+        "alignment": 4096,
+        "madvise_nohugepage_rc": 0,
+        "little_endian": true,
+        "minor_faults": 4,
+        "major_faults": 0,
+        "voluntary_switches": 0,
+        "involuntary_switches": 15,
+        "address": "0x7f3d55928000"
+      },
+      "counters": {
+        "cycles": "55873198441",
+        "instructions": "1806377139",
+        "time_enabled_ns": "17066605696",
+        "time_running_ns": "17066605696"
+      },
+      "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=17066605696 ns  time_running=17066605696 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+    },
+    {
+      "event_batch": [
+        "L1D-read-access",
+        "L1D-read-miss"
+      ],
+      "returncode": 0,
+      "bench_metadata": {
+        "mode": "chase",
+        "bytes": 11369944,
+        "stride": 8,
+        "offset": 0,
+        "nodes": 1421243,
+        "samples": 1000000,
+        "batch": 512,
+        "seed": 5922026,
+        "cpu": 1,
+        "final_cpu": 1,
+        "unit": "TSC_ticks",
+        "counter_frequency": 0,
+        "empirical_ticks_per_second": 2395457053.699,
+        "calibration_ns": 20062927,
+        "elapsed_ns": 16730392361,
+        "warmup_loads": 5910902,
+        "alignment": 4096,
+        "madvise_nohugepage_rc": 0,
+        "little_endian": true,
+        "minor_faults": 4,
+        "major_faults": 0,
+        "voluntary_switches": 0,
+        "involuntary_switches": 27,
+        "address": "0x7f635e728000"
+      },
+      "counters": {
+        "L1D-read-access": "817513469",
+        "L1D-read-miss": "537864370",
+        "time_enabled_ns": "16976465081",
+        "time_running_ns": "16976465081"
+      },
+      "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=16976465081 ns  time_running=16976465081 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+    },
+    {
+      "event_batch": [
+        "LL-read-access",
+        "LL-read-miss"
+      ],
+      "returncode": 1,
+      "bench_metadata": null,
+      "counters": {},
+      "pmu_stat_stderr": "perf_event_open failed for 'LL-read-access': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)\nperf_event_open failed for 'LL-read-miss': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)\nno events opened successfully; aborting run\n"
+    },
+    {
+      "event_batch": [
+        "DTLB-read-miss",
+        "cache-misses"
+      ],
+      "returncode": 0,
+      "bench_metadata": {
+        "mode": "chase",
+        "bytes": 11369944,
+        "stride": 8,
+        "offset": 0,
+        "nodes": 1421243,
+        "samples": 1000000,
+        "batch": 512,
+        "seed": 5922026,
+        "cpu": 1,
+        "final_cpu": 1,
+        "unit": "TSC_ticks",
+        "counter_frequency": 0,
+        "empirical_ticks_per_second": 2395459525.524,
+        "calibration_ns": 20059049,
+        "elapsed_ns": 16839668686,
+        "warmup_loads": 5878134,
+        "alignment": 4096,
+        "madvise_nohugepage_rc": 0,
+        "little_endian": true,
+        "minor_faults": 4,
+        "major_faults": 0,
+        "voluntary_switches": 0,
+        "involuntary_switches": 32,
+        "address": "0x7f94dd128000"
+      },
+      "counters": {
+        "DTLB-read-miss": "139829753",
+        "cache-misses": "519991786",
+        "time_enabled_ns": "17087436395",
+        "time_running_ns": "17087436395"
+      },
+      "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=17087436395 ns  time_running=17087436395 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+    }
+  ],
+  "pmu_stat_stderr": "--- batch 0: cycles,instructions ---\n-- pmu_stat result --\nchild exit status: 0\ntime_enabled=17066605696 ns  time_running=17066605696 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n\n--- batch 1: L1D-read-access,L1D-read-miss ---\n-- pmu_stat result --\nchild exit status: 0\ntime_enabled=16976465081 ns  time_running=16976465081 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n\n--- batch 2: LL-read-access,LL-read-miss ---\nperf_event_open failed for 'LL-read-access': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)\nperf_event_open failed for 'LL-read-miss': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)\nno events opened successfully; aborting run\n\n--- batch 3: DTLB-read-miss,cache-misses ---\n-- pmu_stat result --\nchild exit status: 0\ntime_enabled=17087436395 ns  time_running=17087436395 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
 }
