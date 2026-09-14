@@ -56,20 +56,20 @@ python3 stride_correlation.py \
       --out ../../data_raw/thunderbird/pmu/stride_correlation
 
 python3 associativity_correlation.py \
-      --host artemisia --level l1 \
+      --host charnwood --level l1 \
       --plan-json ../common/phase1/config/uncertainty-plan.json \
       --binary ../common/phase1/src/followup_bench \
-      --pmu-stat ../pmu/pmu_stat --cpu 29 \
+      --pmu-stat ../pmu/pmu_stat --cpu 2 \
       --events cycles,instructions,L1D-read-access,L1D-read-miss,cache-misses \
       --events-per-run 2 \
-      --out ../../data_raw/artemisia/pmu/associativity_correlation_l1
+      --out ../../data_raw/charnwood/pmu/associativity_correlation_l1
 
 python3 associativity_correlation.py \
-      --host artemisia --level l2 --period 106496 --ways 16 \
+      --host charnwood --level l2 --period 32768 --ways 4 \
       --binary ../common/phase1/src/followup_bench \
-      --pmu-stat ../pmu/pmu_stat --cpu 29 \
+      --pmu-stat ../pmu/pmu_stat --cpu 2 \
       --events cycles,instructions,LL-read-access,LL-read-miss,cache-misses \
       --events-per-run 2 \
-      --out ../../data_raw/artemisia/pmu/associativity_correlation_l2
+      --out ../../data_raw/charnwood/pmu/associativity_correlation_l2
 
 echo "Bash script finished."
