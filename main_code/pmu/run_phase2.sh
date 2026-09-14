@@ -48,4 +48,28 @@ python3 boundary_correlation.py \
     --events-per-run 2 \
     --out ../data_raw/thunderbird/pmu/boundary_correlation_llc
 
+python3 stride_correlation.py \
+      --host thunderbird --binary ../common/phase1/src/cache_bench \
+      --pmu-stat ../pmu/pmu_stat --cpu 3 \
+      --host-config ../common/phase1/config/followup-plan.json \
+      --events cycles,instructions,L1D-read-access,L1D-read-miss \
+      --out ../../data_raw/thunderbird/pmu/stride_correlation
+
+python3 associativity_correlation.py \
+      --host skylark --level l1 \
+      --plan-json ../common/phase1/config/uncertainty-plan.json \
+      --binary ../common/phase1/src/followup_bench \
+      --pmu-stat ../pmu/pmu_stat --cpu 1 \
+      --events cycles,instructions,L1D-read-access,L1D-read-miss,cache-misses \
+      --events-per-run 2 \
+      --out ../../data_raw/skylark/pmu/associativity_correlation_l1
+
+python3 associativity_correlation.py \
+      --host skylark --level l2 --period 73728 --ways 8 \
+      --binary ../common/phase1/src/followup_bench \
+      --pmu-stat ../pmu/pmu_stat --cpu 1 \
+      --events cycles,instructions,LL-read-access,LL-read-miss,cache-misses \
+      --events-per-run 2 \
+      --out ../../data_raw/skylark/pmu/associativity_correlation_l2
+
 echo "Bash script finished."
