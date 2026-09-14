@@ -31,11 +31,11 @@ exact historical sweep.
 
 Usage:
   python3 stride_correlation.py \
-      --host upgrade --binary ../common/phase1/src/cache_bench \
+      --host ookay --binary ../common/phase1/src/cache_bench \
       --pmu-stat ../pmu/pmu_stat --cpu 3 \
       --host-config ../common/phase1/config/followup-plan.json \
       --events cycles,instructions,L1D-read-access,L1D-read-miss \
-      --out ../../data_raw/upgrade/pmu/stride_correlation
+      --out ../../data_raw/ookay/pmu/stride_correlation
 """
 import argparse
 import csv
