@@ -1,0 +1,14 @@
+--- batch 0: cycles,instructions ---
+-- pmu_stat result --
+child exit status: 0
+time_enabled=389198090 ns  time_running=389198090 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)
+
+--- batch 1: L1D-read-access,L1D-read-miss ---
+-- pmu_stat result --
+child exit status: 0
+time_enabled=389720137 ns  time_running=389720137 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)
+
+--- batch 2: cache-misses ---
+-- pmu_stat result --
+child exit status: 0
+time_enabled=407443302 ns  time_running=407443302 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)
