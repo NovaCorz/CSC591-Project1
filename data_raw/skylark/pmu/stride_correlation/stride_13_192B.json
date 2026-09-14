@@ -1,0 +1,52 @@
+{
+  "stride": 192,
+  "invocation": [
+    "/home/jrkuethe/CSC591-Project1/main_code/common/phase1/src/cache_bench",
+    "spatial",
+    "262144",
+    "192",
+    "8",
+    "1000000",
+    "512",
+    "5922026",
+    "1",
+    "random",
+    "../../data_raw/skylark/pmu/stride_correlation/stride_13_192B.bin"
+  ],
+  "returncode": 0,
+  "bench_metadata": {
+    "mode": "spatial",
+    "bytes": 262144,
+    "stride": 192,
+    "offset": 8,
+    "nodes": 2730,
+    "samples": 1000000,
+    "batch": 512,
+    "seed": 5922026,
+    "cpu": 1,
+    "final_cpu": 1,
+    "unit": "TSC_ticks",
+    "counter_frequency": 0,
+    "empirical_ticks_per_second": 2395459508.034,
+    "calibration_ns": 20057386,
+    "elapsed_ns": 1268042351,
+    "warmup_loads": 43370324,
+    "alignment": 4096,
+    "madvise_nohugepage_rc": 0,
+    "little_endian": true,
+    "minor_faults": 0,
+    "major_faults": 0,
+    "voluntary_switches": 0,
+    "involuntary_switches": 1,
+    "address": "0x7f50813c5000"
+  },
+  "counters": {
+    "cycles": "4487707981",
+    "instructions": "1702473388",
+    "L1D-read-access": "560132457",
+    "L1D-read-miss": "322616295",
+    "time_enabled_ns": "1373034469",
+    "time_running_ns": "1373034469"
+  },
+  "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=1373034469 ns  time_running=1373034469 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+}
