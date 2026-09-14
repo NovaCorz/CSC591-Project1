@@ -1,0 +1,6 @@
+constraint,cpu_model,hostname,baseline_job_ids,baseline_cpus,cpu_core_socket_numa,date,source_commit
+haswell,Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz,c207n01,810638,"[10, 11]",10/10/1/1; 11/11/1/1,2026-09-12T02:07:28.795542+00:00,1f687d7f6eec0cf79e74afc57118db013aa036c3
+cascadelake,Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz,c020n02,810641,"[25, 26]",25/25/1/1; 26/26/1/1,2026-09-12T02:07:27.903595+00:00,1f687d7f6eec0cf79e74afc57118db013aa036c3
+icelake_8358,Intel(R) Xeon(R) Platinum 8358 CPU @ 2.60GHz,c059n01,810646,"[0, 32]",0/0/0/0; 32/32/1/1,2026-09-12T02:08:01.660346+00:00,1f687d7f6eec0cf79e74afc57118db013aa036c3
+genoa,AMD EPYC 9654 96-Core Processor,n0398,"810648,810673,811148","[0, 96]",0/0/0/0; 96/96/1/1,2026-09-12T02:07:59.738060+00:00,1f687d7f6eec0cf79e74afc57118db013aa036c3
+turin,AMD EPYC 9655 96-Core Processor,n0405,810649,[80],80/80/0/0,2026-09-12T02:07:59.299937+00:00,1f687d7f6eec0cf79e74afc57118db013aa036c3

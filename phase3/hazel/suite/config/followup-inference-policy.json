@@ -1,0 +1,17 @@
+{
+  "phase": "I timing only",
+  "spatial": "Smallest shifted boundary with IQR separation >=2 native interval ticks after batch scaling, followed by new-seed same-core triplets; larger edges do not invalidate it. The original 10% relative cutoff is retained as a sensitivity field. It was replaced because a small relative change can still be clearly separated and repeat with alignment; no timing samples were changed.",
+  "hierarchy_model": {
+    "input": "Clean, fully huge-backed, power-of-two working sets; fit dense and timing-candidate-spaced curves separately",
+    "response": "log native-timer median per dependent access",
+    "models": "2 through 5 contiguous timing classes, at least 2 geometric points per class",
+    "selection": "Minimum BIC = n*log(SSE/n) + (2*k-1)*log(n)",
+    "limits": "Exploratory segmentation, not confidence intervals. Physical role labels are conditional, and require dense/sparse model agreement. A four-class fit suggests L1-like, L2-like, LLC-like, memory-like classes; other class counts remain explicitly effective residency classes. No expected capacity enters the fit.",
+    "boundary_alignment": "After independently anchoring the first departure, match overlapping dense/sparse class-change brackets by footprint, allowing extra spacing-specific classes. The first two common deeper boundaries support conditional L2-like/LLC-like roles. Refine only using the earliest edge within its original refinement cohort; cross-core early endpoints leave the bracket broad.",
+    "llc_envelopes": "If several deeper common timing classes remain, retain their whole envelope. If individual boundaries disagree, report the intersection of the two deeper-class envelopes as a broad mixed-residency bound. Neither case is narrowed to a single refined edge."
+  },
+  "conflict": "All discovery trials retained; new-seed/mapping hold-outs and individual deletions determine a replicated effective bound, never automatically a physical way count",
+  "inclusion": "Report measured remote-pressure behavior; no global classification without establishing lower-level eviction and the target's upper residency",
+  "lower_confirmation": "Select the first three-count stable upper-pressure timing class prospectively, then independently confirm one/selected/selected+4 with two scrub patterns and two new seeds. Repeat prior lower-conflict discovery intervals at the selected scrub count. Require all four calibration and threshold conditions plus capacity consistency for conditional geometry.",
+  "latency_representatives": "Lower middle footprint by sample order within each fitted class, with full raw-recomputed statistics; same-core differences of representative medians are effective transition penalties, not isolated hardware miss penalties."
+}

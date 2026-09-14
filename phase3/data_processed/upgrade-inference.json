@@ -1,0 +1,1366 @@
+{
+  "alternate_batch_control_points": 0,
+  "associativity": {
+    "bounded_candidates": [],
+    "candidates": [
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/upgrade/full/associativity/c3d91f8271f056bd/complete.json",
+          "machines/upgrade/full/associativity/ed6eec5e0dc485a1/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/upgrade/full/associativity/24729dfe26beb956/complete.json",
+          "machines/upgrade/full/associativity/20957831421355f7/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 16,
+        "sources": [
+          "machines/upgrade/full/associativity/b961cb295a6d1d6d/complete.json",
+          "machines/upgrade/full/associativity/752648bc3404a517/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 4,
+        "sources": [
+          "machines/upgrade/full/associativity/86259665373d7261/complete.json",
+          "machines/upgrade/full/associativity/3a03af60a1bdec56/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/upgrade/full/associativity/505d2ac1dc5fcc7f/complete.json",
+          "machines/upgrade/full/associativity/d70164ad97cd0003/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 17,
+        "sources": [
+          "machines/upgrade/full/associativity/814e9ac69897bde6/complete.json",
+          "machines/upgrade/full/associativity/0125e466aff06267/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 21,
+        "sources": [
+          "machines/upgrade/full/associativity/0df74d8fb894b6e1/complete.json",
+          "machines/upgrade/full/associativity/be141e4541c91629/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 4,
+        "sources": [
+          "machines/upgrade/full/associativity/5862871edda3f66f/complete.json",
+          "machines/upgrade/full/associativity/098869a5267a74a2/complete.json"
+        ],
+        "stride": 262144
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/upgrade/full/associativity/c7672bc58ae7edc5/complete.json",
+          "machines/upgrade/full/associativity/d9df9d9b0b454499/complete.json"
+        ],
+        "stride": 262144
+      },
+      {
+        "candidate_resident_addresses": 22,
+        "sources": [
+          "machines/upgrade/full/associativity/db76ef0097e679f5/complete.json",
+          "machines/upgrade/full/associativity/659fd270a9e5a2d4/complete.json"
+        ],
+        "stride": 262144
+      }
+    ],
+    "limitation": "Only virtual low bits controlled. Physical indexing, page translation, replacement, and slice hashing are unresolved. No way count or derived set count is manufactured.",
+    "status": "effective conflict thresholds; no verified per-level associativity"
+  },
+  "attempts": 368,
+  "cache_table": [
+    {
+      "associativity": 8,
+      "derived_sets": "unresolved",
+      "hit_latency_median": 2.943359375,
+      "host": "upgrade",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": 0.91796875,
+      "level": "L1D candidate",
+      "line_size": "unresolved",
+      "next_level_latency_median": 3.861328125,
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": 32768,
+      "size_upper_bytes": 36864,
+      "status": "unresolved; next-class latency is the first measured departure, not a pure L2-hit latency",
+      "unit": "TSC_ticks/access"
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "upgrade",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "L2 role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "upgrade",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "LLC role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    }
+  ],
+  "capacity_candidates": [
+    {
+      "above": {
+        "maximum": 162.4765625,
+        "mean": 4.522683501953125,
+        "median": 4.431640625,
+        "minimum": 3.966796875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 106153,
+        "p05": 4.1328125,
+        "p95": 4.71484375,
+        "q1": 4.369140625,
+        "q3": 4.513671875,
+        "stddev": 2.5630610665199796,
+        "zero_samples": 0
+      },
+      "above_record": "machines/upgrade/full/capacity/627ef310d2a3463d/complete.json",
+      "below": {
+        "maximum": 152.26171875,
+        "mean": 3.14300946484375,
+        "median": 3.041015625,
+        "minimum": 2.93359375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 53539,
+        "p05": 2.986328125,
+        "p95": 3.158203125,
+        "q1": 3.01953125,
+        "q3": 3.0703125,
+        "stddev": 2.5574891293870468,
+        "zero_samples": 0
+      },
+      "below_record": "machines/upgrade/full/capacity/88507a7d2ae5e605/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        1,
+        1
+      ],
+      "lower_bytes": 32768,
+      "ratio": 1.4572896596017983,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 40960
+    },
+    {
+      "above": {
+        "maximum": 153.125,
+        "mean": 8.00001840234375,
+        "median": 7.80859375,
+        "minimum": 7.052734375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 23066,
+        "p05": 7.494140625,
+        "p95": 8.30859375,
+        "q1": 7.66015625,
+        "q3": 7.990234375,
+        "stddev": 3.4886989215306574,
+        "zero_samples": 0
+      },
+      "above_record": "machines/upgrade/full/capacity/3e9714225b3e1605/complete.json",
+      "below": {
+        "maximum": 144.736328125,
+        "mean": 7.038480609375,
+        "median": 6.91796875,
+        "minimum": 6.548828125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 32558,
+        "p05": 6.73046875,
+        "p95": 7.42578125,
+        "q1": 6.8203125,
+        "q3": 7.087890625,
+        "stddev": 1.9124936801473977,
+        "zero_samples": 0
+      },
+      "below_record": "machines/upgrade/full/capacity/3c732f816bcf1eb2/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        4,
+        1
+      ],
+      "lower_bytes": 90112,
+      "ratio": 1.1287408243929984,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 98304
+    },
+    {
+      "above": {
+        "maximum": 144.970703125,
+        "mean": 9.5424307421875,
+        "median": 9.30859375,
+        "minimum": 8.2421875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 27927,
+        "p05": 8.83203125,
+        "p95": 10.009765625,
+        "q1": 9.111328125,
+        "q3": 9.544921875,
+        "stddev": 3.8814554631916205,
+        "zero_samples": 0
+      },
+      "above_record": "machines/upgrade/full/capacity/1eb9edaa7eeecf00/complete.json",
+      "below": {
+        "maximum": 131.654296875,
+        "mean": 8.39503772265625,
+        "median": 8.154296875,
+        "minimum": 7.380859375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 30293,
+        "p05": 7.83203125,
+        "p95": 8.701171875,
+        "q1": 8.009765625,
+        "q3": 8.33984375,
+        "stddev": 3.953519210725008,
+        "zero_samples": 0
+      },
+      "below_record": "machines/upgrade/full/capacity/5b8f357225fa6ed4/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        1,
+        2
+      ],
+      "lower_bytes": 131072,
+      "ratio": 1.141556886227545,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 147456
+    },
+    {
+      "above": {
+        "maximum": 159.556640625,
+        "mean": 11.45948183984375,
+        "median": 11.173828125,
+        "minimum": 9.693359375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 24718,
+        "p05": 10.548828125,
+        "p95": 12.00390625,
+        "q1": 10.90234375,
+        "q3": 11.46875,
+        "stddev": 4.465789024070997,
+        "zero_samples": 0
+      },
+      "above_record": "machines/upgrade/full/capacity/2f0f6977bcd27752/complete.json",
+      "below": {
+        "maximum": 154.697265625,
+        "mean": 7.963388154296875,
+        "median": 7.69921875,
+        "minimum": 7.341796875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 37818,
+        "p05": 7.494140625,
+        "p95": 8.34765625,
+        "q1": 7.603515625,
+        "q3": 7.931640625,
+        "stddev": 3.6270796199263264,
+        "zero_samples": 0
+      },
+      "below_record": "machines/upgrade/full/capacity/c53878dbe7d394ce/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        1,
+        1
+      ],
+      "lower_bytes": 163840,
+      "ratio": 1.4512937595129376,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 180224
+    },
+    {
+      "above": {
+        "maximum": 174.751953125,
+        "mean": 11.576316537109374,
+        "median": 11.373046875,
+        "minimum": 9.640625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 25664,
+        "p05": 10.685546875,
+        "p95": 12.255859375,
+        "q1": 11.083984375,
+        "q3": 11.689453125,
+        "stddev": 3.607284907420173,
+        "zero_samples": 0
+      },
+      "above_record": "machines/upgrade/full/capacity/389726bf16592412/complete.json",
+      "below": {
+        "maximum": 338.22265625,
+        "mean": 10.046385884765625,
+        "median": 9.94140625,
+        "minimum": 8.861328125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 27350,
+        "p05": 9.40625,
+        "p95": 10.69921875,
+        "q1": 9.705078125,
+        "q3": 10.205078125,
+        "stddev": 1.8815540437901752,
+        "zero_samples": 0
+      },
+      "below_record": "machines/upgrade/full/capacity/6420e5cf20964004/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        4,
+        1
+      ],
+      "lower_bytes": 212992,
+      "ratio": 1.144007858546169,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 229376
+    },
+    {
+      "above": {
+        "maximum": 157.833984375,
+        "mean": 14.56243488671875,
+        "median": 14.4609375,
+        "minimum": 12.220703125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 29358,
+        "p05": 13.650390625,
+        "p95": 15.400390625,
+        "q1": 14.13671875,
+        "q3": 14.798828125,
+        "stddev": 2.0794103008711438,
+        "zero_samples": 0
+      },
+      "above_record": "machines/upgrade/full/capacity/7f21ba6dd55f489f/complete.json",
+      "below": {
+        "maximum": 168.642578125,
+        "mean": 12.002949830078125,
+        "median": 11.701171875,
+        "minimum": 10.033203125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 29713,
+        "p05": 10.99609375,
+        "p95": 12.650390625,
+        "q1": 11.40234375,
+        "q3": 12.0234375,
+        "stddev": 4.565629136564687,
+        "zero_samples": 0
+      },
+      "below_record": "machines/upgrade/full/capacity/27b21893ade16f10/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        1,
+        4
+      ],
+      "lower_bytes": 262144,
+      "ratio": 1.2358537806710066,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 294912
+    },
+    {
+      "above": {
+        "maximum": 2204.82421875,
+        "mean": 18.498299498046876,
+        "median": 18.19140625,
+        "minimum": 16.041015625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 25644,
+        "p05": 17.2265625,
+        "p95": 19.33203125,
+        "q1": 17.794921875,
+        "q3": 18.60546875,
+        "stddev": 8.309333023741317,
+        "zero_samples": 0
+      },
+      "above_record": "machines/upgrade/full/capacity/6825d113a21a1aac/complete.json",
+      "below": {
+        "maximum": 167.72265625,
+        "mean": 15.2276561171875,
+        "median": 15.087890625,
+        "minimum": 12.95703125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 27463,
+        "p05": 14.298828125,
+        "p95": 16.0859375,
+        "q1": 14.767578125,
+        "q3": 15.443359375,
+        "stddev": 2.4975723379262855,
+        "zero_samples": 0
+      },
+      "below_record": "machines/upgrade/full/capacity/4e34f3ad57e36324/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        7,
+        2
+      ],
+      "lower_bytes": 327680,
+      "ratio": 1.205695792880259,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 360448
+    },
+    {
+      "above": {
+        "maximum": 315.9453125,
+        "mean": 68.73229804882813,
+        "median": 68.107421875,
+        "minimum": 51.97265625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 29011,
+        "p05": 62.091796875,
+        "p95": 75.23828125,
+        "q1": 65.62890625,
+        "q3": 70.693359375,
+        "stddev": 6.992686671635095,
+        "zero_samples": 0
+      },
+      "above_record": "machines/upgrade/full/capacity/bb8f195574b8069a/complete.json",
+      "below": {
+        "maximum": 2953.015625,
+        "mean": 42.536537876953126,
+        "median": 41.59375,
+        "minimum": 35.513671875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 20948,
+        "p05": 38.8671875,
+        "p95": 45.1796875,
+        "q1": 40.369140625,
+        "q3": 42.943359375,
+        "stddev": 11.528524045279571,
+        "zero_samples": 0
+      },
+      "below_record": "machines/upgrade/full/capacity/d9390c2e34c91278/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        1,
+        7
+      ],
+      "lower_bytes": 6815744,
+      "ratio": 1.6374436513899324,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 7864320
+    },
+    {
+      "above": {
+        "maximum": 5223.626953125,
+        "mean": 141.29382213867189,
+        "median": 140.59375,
+        "minimum": 122.08203125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 29294,
+        "p05": 133.44140625,
+        "p95": 148.861328125,
+        "q1": 137.65234375,
+        "q3": 143.603515625,
+        "stddev": 13.376326624705964,
+        "zero_samples": 0
+      },
+      "above_record": "machines/upgrade/full/capacity/62da1cc3db921f76/complete.json",
+      "below": {
+        "maximum": 2349.8828125,
+        "mean": 63.749395654296876,
+        "median": 62.505859375,
+        "minimum": 48.521484375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 30004,
+        "p05": 57.2890625,
+        "p95": 69.322265625,
+        "q1": 60.28515625,
+        "q3": 64.90234375,
+        "stddev": 12.660439345213378,
+        "zero_samples": 0
+      },
+      "below_record": "machines/upgrade/full/capacity/c5eb83809e4f0568/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        1,
+        7
+      ],
+      "lower_bytes": 8388608,
+      "ratio": 2.2492891291441426,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 13631488
+    }
+  ],
+  "chosen_primary_batch": 512,
+  "clean_points": 324,
+  "collection_complete": true,
+  "course_cpu_model": "Core i7-8700",
+  "coverage_issues": [],
+  "cpu_model": "model name\t: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+  "host": "upgrade",
+  "inclusion_policy": {
+    "reason": "Same-core pressure may directly evict upper copies; lower-level-only eviction and upper residency were not independently established. No global inclusion/exclusion classification.",
+    "status": "uncertain"
+  },
+  "integrity_or_quality_issues": [],
+  "isa": "x86_64",
+  "l1_candidate": {
+    "capacity_endpoint_cpus": [
+      1,
+      7
+    ],
+    "capacity_interval_bytes": [
+      32768,
+      36864
+    ],
+    "capacity_rule": "First departure by >10% from median of first three small-footprint centers; interval, not a rounded cache answer",
+    "capacity_sources": [
+      "machines/upgrade/full/capacity/88507a7d2ae5e605/complete.json",
+      "machines/upgrade/full/capacity/537b9a090d377e7b/complete.json"
+    ],
+    "caveat": "Conditional L1 interpretation of the smallest timing class. All numerical candidates come from measured plateaus and repeated spatial/conflict edges; no specification value is used.",
+    "conflict_strides": [
+      4096,
+      16384,
+      65536,
+      262144
+    ],
+    "geometry": null,
+    "hit_class_median_ns": 0.9221453432032579,
+    "hit_class_statistics": {
+      "maximum": 149.341796875,
+      "mean": 3.02170239453125,
+      "median": 2.943359375,
+      "minimum": 2.923828125,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 221010,
+      "p05": 2.93359375,
+      "p95": 3.01171875,
+      "q1": 2.939453125,
+      "q3": 2.94921875,
+      "stddev": 2.26173633250304,
+      "zero_samples": 0
+    },
+    "line_bytes": null,
+    "nanosecond_conversion": "per-run timer/CLOCK_MONOTONIC_RAW calibration; approximate",
+    "next_class_statistics": {
+      "maximum": 151.330078125,
+      "mean": 3.90490331640625,
+      "median": 3.861328125,
+      "minimum": 3.58984375,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 56329,
+      "p05": 3.75,
+      "p95": 4.12890625,
+      "q1": 3.810546875,
+      "q3": 3.919921875,
+      "stddev": 0.8574966967541401,
+      "zero_samples": 0
+    },
+    "status": "unresolved",
+    "unit": "TSC_ticks/access",
+    "ways": 8,
+    "ways_rule": "Unique conflict threshold reproduced at three or more strides; conditional virtual-index interpretation"
+  },
+  "line_size": {
+    "candidates": [
+      {
+        "footprint": 524288,
+        "offset_lower": 56,
+        "offset_upper": 64,
+        "sources": [
+          "machines/upgrade/full/line_size/d4f6690422559771/complete.json",
+          "machines/upgrade/full/line_size/16add745949c27be/complete.json"
+        ]
+      },
+      {
+        "footprint": 524288,
+        "offset_lower": 120,
+        "offset_upper": 128,
+        "sources": [
+          "machines/upgrade/full/line_size/ed0ccf1eba241cd9/complete.json",
+          "machines/upgrade/full/line_size/92a56a26287dc3bf/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 56,
+        "offset_upper": 64,
+        "sources": [
+          "machines/upgrade/full/line_size/7043913155835203/complete.json",
+          "machines/upgrade/full/line_size/268d244815b7c11f/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 120,
+        "offset_upper": 128,
+        "sources": [
+          "machines/upgrade/full/line_size/5c39c44369d3553d/complete.json",
+          "machines/upgrade/full/line_size/44e36cada10712d7/complete.json"
+        ]
+      }
+    ],
+    "limitation": "Random 512-byte blocks have fixed allocation and node count; physical line occupancy changes with offset. Prefetching and residency can obscure or imitate a boundary.",
+    "status": "candidate spatial granularity only; distinct line sizes per cache level not established"
+  },
+  "missing_families": [],
+  "noisy_points": 2,
+  "observed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "observed_numa_nodes": [
+    0
+  ],
+  "observed_sockets": [
+    0
+  ],
+  "page_control": {
+    "alternate_batch_control_points": 0,
+    "attempts": 13,
+    "complete": true,
+    "interpretation": "Changed latency with confirmed huge backing is consistent with translation effects, but allocation/physical indexing and changed cores may also contribute. No cache geometry is read from page metadata.",
+    "issues": [],
+    "missing_working_sets": [],
+    "pairs": [
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/upgrade/full/capacity/a2061cd0d0459e0e/complete.json",
+        "baseline_statistics": {
+          "maximum": 149.341796875,
+          "mean": 3.02170239453125,
+          "median": 2.943359375,
+          "minimum": 2.923828125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 221010,
+          "p05": 2.93359375,
+          "p95": 3.01171875,
+          "q1": 2.939453125,
+          "q3": 2.94921875,
+          "stddev": 2.26173633250304,
+          "zero_samples": 0
+        },
+        "bytes": 1024,
+        "control_cpu": 0,
+        "control_raw": "machines/upgrade/page_control/page_control/7652f53c8295cc01/attempt-1788844862922439052/samples.u64.gz",
+        "control_record": "machines/upgrade/page_control/page_control/7652f53c8295cc01/complete.json",
+        "control_sha256": "0d720701915d547bca0491539346de98b5a8770fe7fa99f812dff39b9307d676",
+        "control_statistics": {
+          "maximum": 162.6875,
+          "mean": 3.031159599609375,
+          "median": 3.005859375,
+          "minimum": 2.923828125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 214259,
+          "p05": 2.9375,
+          "p95": 3.015625,
+          "q1": 3.0,
+          "q3": 3.009765625,
+          "stddev": 1.6739601694124102,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1024,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/upgrade/full/capacity/e60873bc36eeda47/complete.json",
+        "baseline_statistics": {
+          "maximum": 113.84375,
+          "mean": 3.00432637109375,
+          "median": 2.94140625,
+          "minimum": 2.921875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 29516,
+          "p05": 2.93359375,
+          "p95": 2.951171875,
+          "q1": 2.9375,
+          "q3": 2.9453125,
+          "stddev": 2.12932346958042,
+          "zero_samples": 0
+        },
+        "bytes": 4096,
+        "control_cpu": 0,
+        "control_raw": "machines/upgrade/page_control/page_control/742a26d8d16caf54/attempt-1788844858658593332/samples.u64.gz",
+        "control_record": "machines/upgrade/page_control/page_control/742a26d8d16caf54/complete.json",
+        "control_sha256": "ac0aa82a77df76524384874f88571ef8ccfdd4fe773f1e357654424f0f7c840d",
+        "control_statistics": {
+          "maximum": 151.08984375,
+          "mean": 3.02450541015625,
+          "median": 2.947265625,
+          "minimum": 2.919921875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 14771,
+          "p05": 2.93359375,
+          "p95": 3.013671875,
+          "q1": 2.939453125,
+          "q3": 3.005859375,
+          "stddev": 2.013418843775319,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4096,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/upgrade/full/capacity/1089444a01cfc92f/complete.json",
+        "baseline_statistics": {
+          "maximum": 113.958984375,
+          "mean": 3.019651001953125,
+          "median": 2.94140625,
+          "minimum": 2.919921875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 43988,
+          "p05": 2.931640625,
+          "p95": 2.953125,
+          "q1": 2.9375,
+          "q3": 2.9453125,
+          "stddev": 2.3186778097045972,
+          "zero_samples": 0
+        },
+        "bytes": 16384,
+        "control_cpu": 2,
+        "control_raw": "machines/upgrade/page_control/page_control/09ef7df9f81f7f93/attempt-1788844964386361813/samples.u64.gz",
+        "control_record": "machines/upgrade/page_control/page_control/09ef7df9f81f7f93/complete.json",
+        "control_sha256": "8988aee49a323ef54cd837d87c44e55dac90afa2c94570361d5135b7a6d4547f",
+        "control_statistics": {
+          "maximum": 115.22265625,
+          "mean": 3.024824796875,
+          "median": 2.939453125,
+          "minimum": 2.919921875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 48476,
+          "p05": 2.931640625,
+          "p95": 2.953125,
+          "q1": 2.9375,
+          "q3": 2.9453125,
+          "stddev": 2.410146720657024,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16384,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/upgrade/full/capacity/a1613987f08ccb36/complete.json",
+        "baseline_statistics": {
+          "maximum": 119.3984375,
+          "mean": 6.291258861328125,
+          "median": 6.166015625,
+          "minimum": 5.791015625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 31740,
+          "p05": 5.875,
+          "p95": 6.533203125,
+          "q1": 6.041015625,
+          "q3": 6.26953125,
+          "stddev": 3.06458536772439,
+          "zero_samples": 0
+        },
+        "bytes": 65536,
+        "control_cpu": 2,
+        "control_raw": "machines/upgrade/page_control/page_control/c393682c95f11b8d/attempt-1788844956899873128/samples.u64.gz",
+        "control_record": "machines/upgrade/page_control/page_control/c393682c95f11b8d/complete.json",
+        "control_sha256": "d7195cb4d645221c0e1f8c097ed53c34526863bd37bcbbcae2fe64377088db44",
+        "control_statistics": {
+          "maximum": 965.548828125,
+          "mean": 6.34033458203125,
+          "median": 6.16015625,
+          "minimum": 5.78125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 47965,
+          "p05": 5.88671875,
+          "p95": 6.595703125,
+          "q1": 6.048828125,
+          "q3": 6.26953125,
+          "stddev": 3.648759318851494,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 65536,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/upgrade/full/capacity/27b21893ade16f10/complete.json",
+        "baseline_statistics": {
+          "maximum": 168.642578125,
+          "mean": 12.002949830078125,
+          "median": 11.701171875,
+          "minimum": 10.033203125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 29713,
+          "p05": 10.99609375,
+          "p95": 12.650390625,
+          "q1": 11.40234375,
+          "q3": 12.0234375,
+          "stddev": 4.565629136564687,
+          "zero_samples": 0
+        },
+        "bytes": 262144,
+        "control_cpu": 2,
+        "control_raw": "machines/upgrade/page_control/page_control/ea97dc017b281ef5/attempt-1788844968759264898/samples.u64.gz",
+        "control_record": "machines/upgrade/page_control/page_control/ea97dc017b281ef5/complete.json",
+        "control_sha256": "6fe4b92dfd487fb49d4bb8e612e4e10bfbfc68143d2ed6dc6ca58783e57139b7",
+        "control_statistics": {
+          "maximum": 854.23046875,
+          "mean": 8.4764984921875,
+          "median": 8.203125,
+          "minimum": 7.8359375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 49565,
+          "p05": 7.970703125,
+          "p95": 8.87109375,
+          "q1": 8.083984375,
+          "q3": 8.400390625,
+          "stddev": 3.8878973899368776,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 262144,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/upgrade/full/capacity/b89afa08c865a1d6/complete.json",
+        "baseline_statistics": {
+          "maximum": 553.83984375,
+          "mean": 29.5654963828125,
+          "median": 29.01171875,
+          "minimum": 27.287109375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 16230,
+          "p05": 28.263671875,
+          "p95": 29.998046875,
+          "q1": 28.69140625,
+          "q3": 29.404296875,
+          "stddev": 6.4383944604285475,
+          "zero_samples": 0
+        },
+        "bytes": 1048576,
+        "control_cpu": 0,
+        "control_raw": "machines/upgrade/page_control/page_control/eb86a5e6e74cc28b/attempt-1788844867110811432/samples.u64.gz",
+        "control_record": "machines/upgrade/page_control/page_control/eb86a5e6e74cc28b/complete.json",
+        "control_sha256": "a7a62ae41bd846b08b028c21b65c76a2e26f5669e344beac6efb354733e5b378",
+        "control_statistics": {
+          "maximum": 1480.392578125,
+          "mean": 25.589946953125,
+          "median": 25.248046875,
+          "minimum": 22.37890625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 17033,
+          "p05": 24.359375,
+          "p95": 26.130859375,
+          "q1": 24.87109375,
+          "q3": 25.595703125,
+          "stddev": 6.087424386566622,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1048576,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/upgrade/full/capacity/c4b6829afa284d31/complete.json",
+        "baseline_statistics": {
+          "maximum": 223.0,
+          "mean": 34.71849873828125,
+          "median": 34.017578125,
+          "minimum": 32.39453125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 22407,
+          "p05": 33.3203125,
+          "p95": 35.138671875,
+          "q1": 33.67578125,
+          "q3": 34.478515625,
+          "stddev": 7.044936995969512,
+          "zero_samples": 0
+        },
+        "bytes": 4194304,
+        "control_cpu": 0,
+        "control_raw": "machines/upgrade/page_control/page_control/946ad6dfc55470b4/attempt-1788844846978746377/samples.u64.gz",
+        "control_record": "machines/upgrade/page_control/page_control/946ad6dfc55470b4/complete.json",
+        "control_sha256": "71fb447964ea102e803a81692595a3e0d50deb6ca418caa8bb2a786171944223",
+        "control_statistics": {
+          "maximum": 2366.95703125,
+          "mean": 30.124102171875,
+          "median": 29.755859375,
+          "minimum": 27.630859375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 53252,
+          "p05": 28.884765625,
+          "p95": 31.384765625,
+          "q1": 29.39453125,
+          "q3": 30.1796875,
+          "stddev": 6.093792975135874,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 4194304,
+        "huge_backing_before_bytes": 4194304,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 4096,
+          "anon_huge_before_kib": 4096,
+          "anon_huge_kib": 4096,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4194304,
+          "mapped_bytes": 4194304,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/upgrade/full/capacity/f457b4c719bde7ec/complete.json",
+        "baseline_statistics": {
+          "maximum": 2462.279296875,
+          "mean": 159.78925498046874,
+          "median": 156.84375,
+          "minimum": 138.423828125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 47453,
+          "p05": 150.07421875,
+          "p95": 167.4296875,
+          "q1": 154.001953125,
+          "q3": 159.888671875,
+          "stddev": 20.287913402319994,
+          "zero_samples": 0
+        },
+        "bytes": 16777216,
+        "control_cpu": 2,
+        "control_raw": "machines/upgrade/page_control/page_control/e952e84d554347d9/attempt-1788844977387660628/samples.u64.gz",
+        "control_record": "machines/upgrade/page_control/page_control/e952e84d554347d9/complete.json",
+        "control_sha256": "4fec85232bc0a42b00e937e0e2f0f6a946cf09d93cda6738c37a9f86e36668f5",
+        "control_statistics": {
+          "maximum": 2100.5625,
+          "mean": 142.67784886914063,
+          "median": 140.572265625,
+          "minimum": 121.857421875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 41087,
+          "p05": 133.4453125,
+          "p95": 150.416015625,
+          "q1": 137.642578125,
+          "q3": 143.619140625,
+          "stddev": 16.547761259678335,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 16777216,
+        "huge_backing_before_bytes": 16777216,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 16384,
+          "anon_huge_before_kib": 16384,
+          "anon_huge_kib": 16384,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16777216,
+          "mapped_bytes": 16777216,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 3,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/upgrade/full/capacity/72d9857904afde50/complete.json",
+        "baseline_statistics": {
+          "maximum": 2003.2265625,
+          "mean": 223.55086291601563,
+          "median": 219.76171875,
+          "minimum": 208.736328125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 61010,
+          "p05": 215.6796875,
+          "p95": 233.40625,
+          "q1": 218.0390625,
+          "q3": 221.591796875,
+          "stddev": 22.47101079956226,
+          "zero_samples": 0
+        },
+        "bytes": 67108864,
+        "control_cpu": 2,
+        "control_raw": "machines/upgrade/page_control/page_control/e78f1f36b5bdfcc9/attempt-1788844917440556114/samples.u64.gz",
+        "control_record": "machines/upgrade/page_control/page_control/e78f1f36b5bdfcc9/complete.json",
+        "control_sha256": "f63e7499e039feaf1a67860cdf8b671bf95a1ceea7e4986e7098bc7e40a6c72d",
+        "control_statistics": {
+          "maximum": 1510.359375,
+          "mean": 195.1933154296875,
+          "median": 191.943359375,
+          "minimum": 180.337890625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 62268,
+          "p05": 188.205078125,
+          "p95": 202.005859375,
+          "q1": 190.458984375,
+          "q3": 193.447265625,
+          "stddev": 20.56548358857217,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 67108864,
+        "huge_backing_before_bytes": 67108864,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 65536,
+          "anon_huge_before_kib": 65536,
+          "anon_huge_kib": 65536,
+          "kernel_page_kib": 4,
+          "logical_bytes": 67108864,
+          "mapped_bytes": 67108864,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 1,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/upgrade/full/capacity/9997ce58d3098d2d/complete.json",
+        "baseline_statistics": {
+          "maximum": 2540.361328125,
+          "mean": 243.7398141875,
+          "median": 238.763671875,
+          "minimum": 230.09765625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 70251,
+          "p05": 235.646484375,
+          "p95": 253.732421875,
+          "q1": 237.517578125,
+          "q3": 240.103515625,
+          "stddev": 27.852523149657134,
+          "zero_samples": 0
+        },
+        "bytes": 268435456,
+        "control_cpu": 2,
+        "control_raw": "machines/upgrade/page_control/page_control/8dc216dca06e838f/attempt-1788845008383474568/samples.u64.gz",
+        "control_record": "machines/upgrade/page_control/page_control/8dc216dca06e838f/attempt-1788845008383474568/run.json",
+        "control_sha256": "61e6364a91eb66d70d03288ccc267afcdf0a61c9dcc27f1923d96f51b1143324",
+        "control_statistics": {
+          "maximum": 2718.78515625,
+          "mean": 214.82378989257813,
+          "median": 210.79296875,
+          "minimum": 202.69921875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 63422,
+          "p05": 207.82421875,
+          "p95": 224.166015625,
+          "q1": 209.486328125,
+          "q3": 212.3203125,
+          "stddev": 23.69040909465198,
+          "zero_samples": 0
+        },
+        "flags": [
+          "frequent involuntary context switches"
+        ],
+        "huge_backing_after_bytes": 197132288,
+        "huge_backing_before_bytes": 197132288,
+        "huge_backing_confirmed": false,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 192512,
+          "anon_huge_before_kib": 192512,
+          "anon_huge_kib": 192512,
+          "kernel_page_kib": 4,
+          "logical_bytes": 268435456,
+          "mapped_bytes": 268435456,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_noisy",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      }
+    ],
+    "unavailable": false
+  },
+  "plots": [
+    "plots/upgrade-capacity.svg",
+    "plots/upgrade-line_size.svg",
+    "plots/upgrade-associativity.svg",
+    "plots/upgrade-inclusion_policy.svg",
+    "plots/upgrade-latency.svg",
+    "plots/upgrade-software_metric.svg",
+    "plots/upgrade-timer.svg",
+    "plots/upgrade-loop.svg",
+    "plots/upgrade-boundary-distributions.svg",
+    "plots/upgrade-page-control.svg"
+  ],
+  "primary_collection_complete": true,
+  "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+  "software_metric": {
+    "block_rate_range": [
+      0.9625,
+      0.9955
+    ],
+    "calibration_and_workload_cpus": [
+      1,
+      1,
+      1
+    ],
+    "classified_hits": 971276,
+    "estimate": 0.971276,
+    "limitations": "Single-load timer overhead/quantization; smallest/largest footprints are empirical proxies, not PMU-confirmed classes. Adjacent samples are correlated. Wilson intervals omit calibration/classification error; threshold-sensitivity and block ranges expose additional uncertainty. Phase-II validation not performed.",
+    "same_logical_cpu": true,
+    "sources": [
+      "machines/upgrade/full/software_metric/00cef01de4beae11/complete.json",
+      "machines/upgrade/full/software_metric/321cb4ea8263334b/complete.json",
+      "machines/upgrade/full/software_metric/484f3d0a0a6e6e81/complete.json"
+    ],
+    "standardized_workload_bytes": 1048576,
+    "status": "timing-classified cache-residency proxy; not a validated hardware hit rate",
+    "threshold_raw_ticks": 154.5,
+    "threshold_sensitivity_limits_raw_ticks": [
+      57.0,
+      252.0
+    ],
+    "threshold_sensitivity_rate_range": [
+      0.017128,
+      0.993712
+    ],
+    "total_timed_accesses": 1000000,
+    "unit": "TSC_ticks",
+    "wilson_95_independent_sample_assumption": [
+      0.9709468068985461,
+      0.9716015722076008
+    ]
+  },
+  "unsuccessful_attempts": 44,
+  "verified_points": 326
+}

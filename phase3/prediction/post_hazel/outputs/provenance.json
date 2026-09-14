@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-09-13T03:09:30.294118+00:00",
+  "slurm_job_id": "817293",
+  "hostname": "c207n01",
+  "python": "3.9.23 (main, Aug 19 2025, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-11)]",
+  "command": [
+    "prediction/post_hazel/build.py",
+    "--output",
+    "prediction/post_hazel/results-817293"
+  ],
+  "git_commit": "68f8cfee1400043be18eed9bb6ad8f882848c461",
+  "affinity": [
+    8
+  ],
+  "prediction_manifest": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/freeze-manifest.json",
+  "timing_manifest": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/results/timing-freeze.json",
+  "models_refitted": false,
+  "published_information_used_only_for_comparison": true
+}

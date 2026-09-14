@@ -1,0 +1,19 @@
+{
+  "estimator": "unchanged Phase-I analyze.estimator",
+  "hot_bytes": 1024,
+  "target_bytes": 1048576,
+  "cold_bytes": 268435456,
+  "mode": "chase",
+  "stride_bytes": 8,
+  "offset_bytes": 0,
+  "samples_per_point": 1000000,
+  "batch": 1,
+  "seed": 5922026,
+  "order": "random",
+  "threshold": "(hot P95 + cold P05)/2 when hot P95 < cold P05; otherwise unresolved",
+  "classification": "target native ticks <= threshold",
+  "same_logical_cpu_required": true,
+  "compiler_flags": ["-O0", "-g", "-std=c11", "-Wall", "-Wextra", "-Werror", "-fno-omit-frame-pointer"],
+  "runtime_pmu_access": false,
+  "runtime_cache_specification_lookup": false
+}

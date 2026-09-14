@@ -1,0 +1,97 @@
+{
+  "constant_models": {
+    "l1_associativity_ways": {
+      "high": 12.0,
+      "low": 4.0,
+      "point": 8.0
+    },
+    "l1_capacity_kib": {
+      "high": 72.0,
+      "low": 32.0,
+      "point": 41.950554742070736
+    },
+    "l1_like_latency_ns": {
+      "high": 2.6250486779996685,
+      "low": 1.2719604170243481,
+      "point": 1.5101797094692258
+    },
+    "l2_associativity_ways": {
+      "high": 16.0,
+      "low": 8.0,
+      "point": 8.0
+    },
+    "llc_effective_capacity_mib": {
+      "high": 32.0,
+      "low": 8.0,
+      "point": 16.97056274847714
+    },
+    "software_metric_pct": {
+      "high": 99.9988,
+      "low": 0.7232999999999999,
+      "point": 99.90095
+    },
+    "visible_spatial_boundary_bytes": {
+      "high": 64.0,
+      "low": 64.0,
+      "point": 64.0
+    }
+  },
+  "forecast_training_hosts": [
+    "sunbird",
+    "skylark",
+    "thunderbird",
+    "artemisia"
+  ],
+  "l2_capacity_model": {
+    "anchor_host": "artemisia",
+    "anchor_kib": 2172.232031805074,
+    "anchor_year": 2023,
+    "anchored_r2": 0.9245283018867926,
+    "capacity_midpoint_rule": "geometric midpoint of each timing-derived operational bracket",
+    "doubling_time_years": 2.7894736842105265,
+    "equation": "log2(C_KiB) = log2(2172.232031805074) + 0.3584905660377358*(year-2023)",
+    "limitations": [
+      "four server observations only",
+      "pooled Intel/AMD/Arm model",
+      "server SKU, topology and sharing-domain variation omitted",
+      "timing-derived L2-like brackets are conditional physical-role interpretations"
+    ],
+    "loocv_constant_rmse_log2_kib": 1.4907119849998596,
+    "loocv_linear_rmse_log2_kib": 0.682062311078775,
+    "name": "server-scoped anchored log-linear",
+    "prediction_interval": "heuristic 95% Student-t interval in log2 space (df=3), combining residual scatter, slope SE, and half-width of the anchor's timing bracket; not a hardware confidence guarantee",
+    "residual_sigma_log2_kib": 0.3546634510659539,
+    "slope_log2_kib_per_year": 0.3584905660377358,
+    "slope_standard_error": 0.03444795959151984,
+    "unanchored_fit_for_selection": {
+      "intercept": -663.4150374992788,
+      "r2": 0.9333333333333181,
+      "slope": 0.3333333333333333,
+      "sse": 0.33333333333340914
+    }
+  },
+  "selection_rule": "Use a trend only when at least three comparable observations exist, R^2 >= 0.5, and leave-one-out RMSE improves by at least 20% over a constant model; otherwise use a constant descriptive median and empirical envelope or mark unsupported.",
+  "training_hosts": [
+    "sunbird",
+    "charnwood",
+    "ookay",
+    "upgrade",
+    "crux",
+    "skylark",
+    "thunderbird",
+    "artemisia"
+  ],
+  "training_scope": "ECE Phase-I observations only; server subset used for Hazel forecasts because every Hazel target is a server",
+  "unsupported": [
+    "exact physical cache-level count",
+    "physical L1 miss penalty",
+    "physical L2 hit latency",
+    "physical L2 miss penalty",
+    "physical LLC hit latency",
+    "LLC-to-memory miss penalty",
+    "LLC associativity/effective bound",
+    "LLC sharing-normalized capacity",
+    "resolved inclusion/exclusion class",
+    "PMU-derived metrics"
+  ]
+}

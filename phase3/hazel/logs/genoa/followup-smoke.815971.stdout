@@ -1,0 +1,25 @@
+Follow-up segment job=815971 constraint=genoa stage=smoke status=1 end=2026-09-12T18:17:32-04:00
+
+------------------------------------------------------------
+Resource usage summary:
+
+    Job ID            : 815971
+    Job name          : hz-genoa-f0
+    User / Account    : hlee58 / ece592f26_cpu
+    Partition / QOS   : compute_partners / short
+    Submitted         : 2026-09-12T18:17:27
+    Started           : 2026-09-12T18:17:30
+    Wait time         : 3 sec
+    Elapsed (wall)    : 00:00:06
+    Nodes             : 1 (n0399)
+    CPUs allocated    : 2
+    Tasks             : 1
+    CPU time (total)  : 0.40 sec  (user 0.14, sys 0.27)
+    CPU efficiency    : 3.3%
+    Memory in use     : 22.36 MB  (sampled at job end; see seff for peak)
+    Memory requested  : 2G
+    Working directory : /gpfs_common/share03/rotenberg/hlee58/ECE592_proj1
+    Exit code         : 0:0
+
+    For final accounting (Slurm's MaxRSS, billing, etc.):  seff 815971
+------------------------------------------------------------

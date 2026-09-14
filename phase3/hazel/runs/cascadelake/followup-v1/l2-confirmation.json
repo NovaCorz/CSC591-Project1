@@ -1,0 +1,839 @@
+{
+  "calibrations": [
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_saturation/128cdc3e1d68128c/attempt-1789191378876678409",
+            "l2_saturation/5b0a0486bb02c1b1/attempt-1789191381503331286",
+            "l2_saturation/6b29b566e6b8124e/attempt-1789191384340509268"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "seed": 5922733,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_saturation/50a24b8092a34c08/attempt-1789191387228297824",
+            "l2_saturation/9b3e5df9fbb31d58/attempt-1789191389854881863",
+            "l2_saturation/09bfb5247614f13e/attempt-1789191392678883338"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "seed": 5922834,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_saturation/a4c0292deef317b7/attempt-1789191395583545359",
+            "l2_saturation/d79e56a8cd6e4e64/attempt-1789191398214127831",
+            "l2_saturation/520864a9d71d6f17/attempt-1789191401053573157"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "seed": 5922733,
+      "variant": 2
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_saturation/2a6324cd7bc0fe08/attempt-1789191403858690618",
+            "l2_saturation/49693250a113daa0/attempt-1789191406476985395",
+            "l2_saturation/f7b1a087ab0dd848/attempt-1789191409319543085"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "seed": 5922834,
+      "variant": 2
+    }
+  ],
+  "refinements": [
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/85860f0ee693994d/attempt-1789191412203236381",
+            "l2_strong_conflict/ee4751c6c8238afb/attempt-1789191417181473813",
+            "l2_strong_conflict/f1902581c4339624/attempt-1789191421930717371",
+            "l2_strong_conflict/5d6c6b1bd1d86a4e/attempt-1789191424760676061",
+            "l2_strong_conflict/89c12f1bc7ead61d/attempt-1789191427716589400"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/85860f0ee693994d/attempt-1789191412203236381",
+        "l2_strong_conflict/ee4751c6c8238afb/attempt-1789191417181473813",
+        "l2_strong_conflict/f1902581c4339624/attempt-1789191421930717371",
+        "l2_strong_conflict/5d6c6b1bd1d86a4e/attempt-1789191424760676061",
+        "l2_strong_conflict/89c12f1bc7ead61d/attempt-1789191427716589400"
+      ],
+      "seed": 5922733,
+      "stride": 131072,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/1bc8909d602a71f7/attempt-1789191430536172232",
+            "l2_strong_conflict/b120e394341def64/attempt-1789191433423370354",
+            "l2_strong_conflict/8b1b202d49cccd0d/attempt-1789191436425167694",
+            "l2_strong_conflict/2f2d6bec6627e771/attempt-1789191441282110772",
+            "l2_strong_conflict/d90c5346cc3f29f0/attempt-1789191446103907915"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/1bc8909d602a71f7/attempt-1789191430536172232",
+        "l2_strong_conflict/b120e394341def64/attempt-1789191433423370354",
+        "l2_strong_conflict/8b1b202d49cccd0d/attempt-1789191436425167694",
+        "l2_strong_conflict/2f2d6bec6627e771/attempt-1789191441282110772",
+        "l2_strong_conflict/d90c5346cc3f29f0/attempt-1789191446103907915"
+      ],
+      "seed": 5922834,
+      "stride": 131072,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/012322a6d9ef482a/attempt-1789191448938530548",
+            "l2_strong_conflict/84162cef3228a0a6/attempt-1789191453584809764",
+            "l2_strong_conflict/abb9d8de6c9552a8/attempt-1789191456407392534",
+            "l2_strong_conflict/a2e255de1b09a5ac/attempt-1789191461348531181",
+            "l2_strong_conflict/84afef6fae2afb4e/attempt-1789191464204099684"
+          ],
+          "same_core_clean": false
+        },
+        {
+          "records": [
+            "l2_strong_conflict/14c1bc9ef0f8f26d/attempt-1789191467123424910",
+            "l2_strong_conflict/a01adcd3ceefd599/attempt-1789191472064704063",
+            "l2_strong_conflict/ab306109b1307fe4/attempt-1789191474955752526",
+            "l2_strong_conflict/7d53e6e986416a30/attempt-1789191477800083437",
+            "l2_strong_conflict/b8b548c6efc4fc9b/attempt-1789191482701020246"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/14c1bc9ef0f8f26d/attempt-1789191467123424910",
+        "l2_strong_conflict/a01adcd3ceefd599/attempt-1789191472064704063",
+        "l2_strong_conflict/ab306109b1307fe4/attempt-1789191474955752526",
+        "l2_strong_conflict/7d53e6e986416a30/attempt-1789191477800083437",
+        "l2_strong_conflict/b8b548c6efc4fc9b/attempt-1789191482701020246"
+      ],
+      "seed": 5922733,
+      "stride": 131072,
+      "variant": 2
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/f0a38c9b7595e5e2/attempt-1789191485564256796",
+            "l2_strong_conflict/4209b1837958e916/attempt-1789191490449837360",
+            "l2_strong_conflict/5d6248b955d34c2c/attempt-1789191493329228329",
+            "l2_strong_conflict/6fcd88f8785b5bc9/attempt-1789191498255930557",
+            "l2_strong_conflict/2494bd27481e57b6/attempt-1789191501082489746"
+          ],
+          "same_core_clean": false
+        },
+        {
+          "records": [
+            "l2_strong_conflict/3d67bcce83362bc8/attempt-1789191504372576473",
+            "l2_strong_conflict/4f2992ee62e6cd8d/attempt-1789191507215052583",
+            "l2_strong_conflict/a853031ce6c66b72/attempt-1789191510154445201",
+            "l2_strong_conflict/7f81837870748f53/attempt-1789191513117942031",
+            "l2_strong_conflict/91948e9e17ab3929/attempt-1789191517826977526"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/3d67bcce83362bc8/attempt-1789191504372576473",
+        "l2_strong_conflict/4f2992ee62e6cd8d/attempt-1789191507215052583",
+        "l2_strong_conflict/a853031ce6c66b72/attempt-1789191510154445201",
+        "l2_strong_conflict/7f81837870748f53/attempt-1789191513117942031",
+        "l2_strong_conflict/91948e9e17ab3929/attempt-1789191517826977526"
+      ],
+      "seed": 5922834,
+      "stride": 131072,
+      "variant": 2
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/a0ef4c27017ca11a/attempt-1789191522724325674",
+            "l2_strong_conflict/667c1f5f179f1a1f/attempt-1789191525997856431",
+            "l2_strong_conflict/fb4a1d8b936f026a/attempt-1789191529251760907",
+            "l2_strong_conflict/e063d8fb205fe373/attempt-1789191532648292869",
+            "l2_strong_conflict/3bdd7cf55ed6876f/attempt-1789191535883859180",
+            "l2_strong_conflict/901c693d30a09c8f/attempt-1789191539238603931",
+            "l2_strong_conflict/1bb63f5996406930/attempt-1789191542411041033",
+            "l2_strong_conflict/83593e526d25ea21/attempt-1789191545587058918",
+            "l2_strong_conflict/fbe1dc66102528ed/attempt-1789191548890648500",
+            "l2_strong_conflict/40c415be658cc6ef/attempt-1789191553438256356",
+            "l2_strong_conflict/97d6465aa08d1f34/attempt-1789191556823788689",
+            "l2_strong_conflict/4cecafc2e71189af/attempt-1789191560226629855",
+            "l2_strong_conflict/4abc4d76b31040d3/attempt-1789191563378142990",
+            "l2_strong_conflict/7963141e827f2c8c/attempt-1789191566803457841",
+            "l2_strong_conflict/4c498ae5e64f9cd7/attempt-1789191569983135668",
+            "l2_strong_conflict/e632d3cd314ebcd5/attempt-1789191573705020158",
+            "l2_strong_conflict/f73eec33b9d8e31e/attempt-1789191576870883847",
+            "l2_strong_conflict/c4da5871926509df/attempt-1789191582166914433",
+            "l2_strong_conflict/b41f693feaee9def/attempt-1789191585436363964"
+          ],
+          "same_core_clean": false
+        },
+        {
+          "records": [
+            "l2_strong_conflict/3a7bd62261ebbfd1/attempt-1789191588717584772",
+            "l2_strong_conflict/6a08ef3ce4b2c24d/attempt-1789191591908985112",
+            "l2_strong_conflict/61ad782ea8b5b6c7/attempt-1789191595380642184",
+            "l2_strong_conflict/a748d229b491ec87/attempt-1789191598708376798",
+            "l2_strong_conflict/3f536d73b1de887b/attempt-1789191601949396300",
+            "l2_strong_conflict/198779dd9fe1300f/attempt-1789191605139599449",
+            "l2_strong_conflict/1feca3f05d7e388a/attempt-1789191608538036830",
+            "l2_strong_conflict/d562c03c6ba3ff32/attempt-1789191611928570982",
+            "l2_strong_conflict/2110ad968e56179f/attempt-1789191615340945894",
+            "l2_strong_conflict/834090544c39c04f/attempt-1789191618486551981",
+            "l2_strong_conflict/0a152d37e4754fb0/attempt-1789191621806570428",
+            "l2_strong_conflict/1ad07f1a555ee7a2/attempt-1789191627020343634",
+            "l2_strong_conflict/40bcbd0bc911cd6d/attempt-1789191630223621065",
+            "l2_strong_conflict/c73ce91fe7762180/attempt-1789191635428560761",
+            "l2_strong_conflict/a201fba189668cfc/attempt-1789191638836830223",
+            "l2_strong_conflict/ef33c4327f491573/attempt-1789191642305836153",
+            "l2_strong_conflict/7f6adbc2d11ac87b/attempt-1789191645661294290",
+            "l2_strong_conflict/feee50321f0e4223/attempt-1789191648931316783",
+            "l2_strong_conflict/f725d76dfe6495a6/attempt-1789191652250846303"
+          ],
+          "same_core_clean": false
+        },
+        {
+          "records": [
+            "l2_strong_conflict/6422c1f4f3a36bfc/attempt-1789191655581473385",
+            "l2_strong_conflict/9b0eb8a5f9fff55f/attempt-1789191658931726011",
+            "l2_strong_conflict/656de29b2a4d4f44/attempt-1789191662226415954",
+            "l2_strong_conflict/5e8895adcd2a5b8c/attempt-1789191665419757261",
+            "l2_strong_conflict/7e2ab2f25d941f3e/attempt-1789191670344377110",
+            "l2_strong_conflict/6491ba5d3c2f8744/attempt-1789191675483312203",
+            "l2_strong_conflict/08ab072b35dc570a/attempt-1789191678982861841",
+            "l2_strong_conflict/7fc8a879c18491b9/attempt-1789191682429154663",
+            "l2_strong_conflict/3c9b27cf88c8f65e/attempt-1789191685768971984",
+            "l2_strong_conflict/87ce9cd77501ffa2/attempt-1789191688989502443",
+            "l2_strong_conflict/ff688ac12ab10047/attempt-1789191692780786374",
+            "l2_strong_conflict/c0574567ff62ce10/attempt-1789191696126926389",
+            "l2_strong_conflict/c766a1b53b2366bc/attempt-1789191699315528976",
+            "l2_strong_conflict/cf7c57a822777d54/attempt-1789191702619237200",
+            "l2_strong_conflict/3a1476d660087282/attempt-1789191705903392801",
+            "l2_strong_conflict/d2174de6df71868a/attempt-1789191709173126685",
+            "l2_strong_conflict/9d7c77d2e93a2979/attempt-1789191712478869498",
+            "l2_strong_conflict/7cc7e3f503d5f84a/attempt-1789191715702645050",
+            "l2_strong_conflict/ba5a97c61df46d54/attempt-1789191718974208901"
+          ],
+          "same_core_clean": false
+        }
+      ],
+      "counts": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "records": [
+        "l2_strong_conflict/6422c1f4f3a36bfc/attempt-1789191655581473385",
+        "l2_strong_conflict/9b0eb8a5f9fff55f/attempt-1789191658931726011",
+        "l2_strong_conflict/656de29b2a4d4f44/attempt-1789191662226415954",
+        "l2_strong_conflict/5e8895adcd2a5b8c/attempt-1789191665419757261",
+        "l2_strong_conflict/7e2ab2f25d941f3e/attempt-1789191670344377110",
+        "l2_strong_conflict/6491ba5d3c2f8744/attempt-1789191675483312203",
+        "l2_strong_conflict/08ab072b35dc570a/attempt-1789191678982861841",
+        "l2_strong_conflict/7fc8a879c18491b9/attempt-1789191682429154663",
+        "l2_strong_conflict/3c9b27cf88c8f65e/attempt-1789191685768971984",
+        "l2_strong_conflict/87ce9cd77501ffa2/attempt-1789191688989502443",
+        "l2_strong_conflict/ff688ac12ab10047/attempt-1789191692780786374",
+        "l2_strong_conflict/c0574567ff62ce10/attempt-1789191696126926389",
+        "l2_strong_conflict/c766a1b53b2366bc/attempt-1789191699315528976",
+        "l2_strong_conflict/cf7c57a822777d54/attempt-1789191702619237200",
+        "l2_strong_conflict/3a1476d660087282/attempt-1789191705903392801",
+        "l2_strong_conflict/d2174de6df71868a/attempt-1789191709173126685",
+        "l2_strong_conflict/9d7c77d2e93a2979/attempt-1789191712478869498",
+        "l2_strong_conflict/7cc7e3f503d5f84a/attempt-1789191715702645050",
+        "l2_strong_conflict/ba5a97c61df46d54/attempt-1789191718974208901"
+      ],
+      "seed": 5922733,
+      "stride": 16384,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/effd27533dd3f370/attempt-1789191722357497518",
+            "l2_strong_conflict/05ea7f31b8e25fba/attempt-1789191727496719171",
+            "l2_strong_conflict/e40299f6a25e1f21/attempt-1789191730872343326",
+            "l2_strong_conflict/268424f0c38dd543/attempt-1789191734026365978",
+            "l2_strong_conflict/d1e68c1e0853b616/attempt-1789191737281169271",
+            "l2_strong_conflict/a840758c2772c629/attempt-1789191740652186069",
+            "l2_strong_conflict/2ad89aac1280ee04/attempt-1789191743974829674",
+            "l2_strong_conflict/8d1f4a7e60a43a37/attempt-1789191747174150775",
+            "l2_strong_conflict/8b5329c28782388d/attempt-1789191750360163202",
+            "l2_strong_conflict/ef1004e6dc915c75/attempt-1789191753700644003",
+            "l2_strong_conflict/19f6ac9daac4f9cf/attempt-1789191756987941783",
+            "l2_strong_conflict/4bfdda1d3c7c4bf7/attempt-1789191760418777205",
+            "l2_strong_conflict/788b72995ca9d7a7/attempt-1789191780731096471",
+            "l2_strong_conflict/c8ea90d307b1d2b1/attempt-1789191783967738127",
+            "l2_strong_conflict/f56cbdeb8feeb149/attempt-1789191787299771179",
+            "l2_strong_conflict/0efe0cd48dd5c3c0/attempt-1789191790598169336",
+            "l2_strong_conflict/4bd0520119ada662/attempt-1789191795742169834",
+            "l2_strong_conflict/428ebb72fde01f16/attempt-1789191799005239892",
+            "l2_strong_conflict/cabfb3b96631a542/attempt-1789191802299491259"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "records": [
+        "l2_strong_conflict/effd27533dd3f370/attempt-1789191722357497518",
+        "l2_strong_conflict/05ea7f31b8e25fba/attempt-1789191727496719171",
+        "l2_strong_conflict/e40299f6a25e1f21/attempt-1789191730872343326",
+        "l2_strong_conflict/268424f0c38dd543/attempt-1789191734026365978",
+        "l2_strong_conflict/d1e68c1e0853b616/attempt-1789191737281169271",
+        "l2_strong_conflict/a840758c2772c629/attempt-1789191740652186069",
+        "l2_strong_conflict/2ad89aac1280ee04/attempt-1789191743974829674",
+        "l2_strong_conflict/8d1f4a7e60a43a37/attempt-1789191747174150775",
+        "l2_strong_conflict/8b5329c28782388d/attempt-1789191750360163202",
+        "l2_strong_conflict/ef1004e6dc915c75/attempt-1789191753700644003",
+        "l2_strong_conflict/19f6ac9daac4f9cf/attempt-1789191756987941783",
+        "l2_strong_conflict/4bfdda1d3c7c4bf7/attempt-1789191760418777205",
+        "l2_strong_conflict/788b72995ca9d7a7/attempt-1789191780731096471",
+        "l2_strong_conflict/c8ea90d307b1d2b1/attempt-1789191783967738127",
+        "l2_strong_conflict/f56cbdeb8feeb149/attempt-1789191787299771179",
+        "l2_strong_conflict/0efe0cd48dd5c3c0/attempt-1789191790598169336",
+        "l2_strong_conflict/4bd0520119ada662/attempt-1789191795742169834",
+        "l2_strong_conflict/428ebb72fde01f16/attempt-1789191799005239892",
+        "l2_strong_conflict/cabfb3b96631a542/attempt-1789191802299491259"
+      ],
+      "seed": 5922834,
+      "stride": 16384,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/50740ea39645fc59/attempt-1789191805458924061",
+            "l2_strong_conflict/8fa0f1994d5cb0b8/attempt-1789191810642878534",
+            "l2_strong_conflict/83a76b52467d8006/attempt-1789191813956887173",
+            "l2_strong_conflict/e0e94a8fcb9347fd/attempt-1789191817171117455",
+            "l2_strong_conflict/e212afb5dfab4499/attempt-1789191820586209933",
+            "l2_strong_conflict/c9e623b1e8ce39f9/attempt-1789191825860098175",
+            "l2_strong_conflict/145b2c27c74b9edf/attempt-1789191829077308805",
+            "l2_strong_conflict/e966c501de07ce2b/attempt-1789191832367736224",
+            "l2_strong_conflict/7890cad96b4c0586/attempt-1789191835642347762",
+            "l2_strong_conflict/efea6bf76c27d235/attempt-1789191838949739702",
+            "l2_strong_conflict/ae58452dafcc0f2c/attempt-1789191842261811261",
+            "l2_strong_conflict/3b6842be3718c32f/attempt-1789191845545810433",
+            "l2_strong_conflict/6e2d4789587f6729/attempt-1789191848972869882",
+            "l2_strong_conflict/efa3d7bbf7beae45/attempt-1789191852160323367",
+            "l2_strong_conflict/e6c93e88e1e48166/attempt-1789191855537240140",
+            "l2_strong_conflict/36a25da4748d2a84/attempt-1789191858900792443",
+            "l2_strong_conflict/2b654c2aa866ae10/attempt-1789191862305659201",
+            "l2_strong_conflict/5fe9b002df6f2e3d/attempt-1789191865546849111",
+            "l2_strong_conflict/fcc6eba68bfc3f8c/attempt-1789191868904056154"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "records": [
+        "l2_strong_conflict/50740ea39645fc59/attempt-1789191805458924061",
+        "l2_strong_conflict/8fa0f1994d5cb0b8/attempt-1789191810642878534",
+        "l2_strong_conflict/83a76b52467d8006/attempt-1789191813956887173",
+        "l2_strong_conflict/e0e94a8fcb9347fd/attempt-1789191817171117455",
+        "l2_strong_conflict/e212afb5dfab4499/attempt-1789191820586209933",
+        "l2_strong_conflict/c9e623b1e8ce39f9/attempt-1789191825860098175",
+        "l2_strong_conflict/145b2c27c74b9edf/attempt-1789191829077308805",
+        "l2_strong_conflict/e966c501de07ce2b/attempt-1789191832367736224",
+        "l2_strong_conflict/7890cad96b4c0586/attempt-1789191835642347762",
+        "l2_strong_conflict/efea6bf76c27d235/attempt-1789191838949739702",
+        "l2_strong_conflict/ae58452dafcc0f2c/attempt-1789191842261811261",
+        "l2_strong_conflict/3b6842be3718c32f/attempt-1789191845545810433",
+        "l2_strong_conflict/6e2d4789587f6729/attempt-1789191848972869882",
+        "l2_strong_conflict/efa3d7bbf7beae45/attempt-1789191852160323367",
+        "l2_strong_conflict/e6c93e88e1e48166/attempt-1789191855537240140",
+        "l2_strong_conflict/36a25da4748d2a84/attempt-1789191858900792443",
+        "l2_strong_conflict/2b654c2aa866ae10/attempt-1789191862305659201",
+        "l2_strong_conflict/5fe9b002df6f2e3d/attempt-1789191865546849111",
+        "l2_strong_conflict/fcc6eba68bfc3f8c/attempt-1789191868904056154"
+      ],
+      "seed": 5922733,
+      "stride": 16384,
+      "variant": 2
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/1b9c4c34ae6fbc8a/attempt-1789191872163103769",
+            "l2_strong_conflict/73725b2aa051e31f/attempt-1789191875524996510",
+            "l2_strong_conflict/46e252b2acc21644/attempt-1789191878846637777",
+            "l2_strong_conflict/7bab2de8fe82d598/attempt-1789191884191079596",
+            "l2_strong_conflict/4f27b553cf0d1de3/attempt-1789191887452737138",
+            "l2_strong_conflict/1e9278335f4cb11d/attempt-1789191890717287123",
+            "l2_strong_conflict/6f0b4bc9070b33c2/attempt-1789191893864585266",
+            "l2_strong_conflict/b0c81c30cfc9ad57/attempt-1789191898886550065",
+            "l2_strong_conflict/44018f9d9bc057bb/attempt-1789191902194079314",
+            "l2_strong_conflict/313f7eaa9c2bb69f/attempt-1789191905638606505",
+            "l2_strong_conflict/956d6aed8945455a/attempt-1789191908906955851",
+            "l2_strong_conflict/acd7d1c2e019ee10/attempt-1789191912254408054",
+            "l2_strong_conflict/37bf89203b2f4a31/attempt-1789191915925847862",
+            "l2_strong_conflict/345a30c1c6d5eb29/attempt-1789191919235520727",
+            "l2_strong_conflict/f9cd831b27be484a/attempt-1789191922517560389",
+            "l2_strong_conflict/126449ce62490dce/attempt-1789191925840307948",
+            "l2_strong_conflict/4a5144ed7cfd08b5/attempt-1789191929160780199",
+            "l2_strong_conflict/429ac1f5ba57d5bc/attempt-1789191932431689980",
+            "l2_strong_conflict/8aa6c18a12c733db/attempt-1789191935761466775"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "records": [
+        "l2_strong_conflict/1b9c4c34ae6fbc8a/attempt-1789191872163103769",
+        "l2_strong_conflict/73725b2aa051e31f/attempt-1789191875524996510",
+        "l2_strong_conflict/46e252b2acc21644/attempt-1789191878846637777",
+        "l2_strong_conflict/7bab2de8fe82d598/attempt-1789191884191079596",
+        "l2_strong_conflict/4f27b553cf0d1de3/attempt-1789191887452737138",
+        "l2_strong_conflict/1e9278335f4cb11d/attempt-1789191890717287123",
+        "l2_strong_conflict/6f0b4bc9070b33c2/attempt-1789191893864585266",
+        "l2_strong_conflict/b0c81c30cfc9ad57/attempt-1789191898886550065",
+        "l2_strong_conflict/44018f9d9bc057bb/attempt-1789191902194079314",
+        "l2_strong_conflict/313f7eaa9c2bb69f/attempt-1789191905638606505",
+        "l2_strong_conflict/956d6aed8945455a/attempt-1789191908906955851",
+        "l2_strong_conflict/acd7d1c2e019ee10/attempt-1789191912254408054",
+        "l2_strong_conflict/37bf89203b2f4a31/attempt-1789191915925847862",
+        "l2_strong_conflict/345a30c1c6d5eb29/attempt-1789191919235520727",
+        "l2_strong_conflict/f9cd831b27be484a/attempt-1789191922517560389",
+        "l2_strong_conflict/126449ce62490dce/attempt-1789191925840307948",
+        "l2_strong_conflict/4a5144ed7cfd08b5/attempt-1789191929160780199",
+        "l2_strong_conflict/429ac1f5ba57d5bc/attempt-1789191932431689980",
+        "l2_strong_conflict/8aa6c18a12c733db/attempt-1789191935761466775"
+      ],
+      "seed": 5922834,
+      "stride": 16384,
+      "variant": 2
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/85fd424933d472d9/attempt-1789191938935681934",
+            "l2_strong_conflict/4b4250de70bef9db/attempt-1789191941760047957",
+            "l2_strong_conflict/a499a944ccf23d79/attempt-1789191946652749474",
+            "l2_strong_conflict/cd06b51e58618424/attempt-1789191951416085777",
+            "l2_strong_conflict/be66bde78cd3b259/attempt-1789191954303475787"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/85fd424933d472d9/attempt-1789191938935681934",
+        "l2_strong_conflict/4b4250de70bef9db/attempt-1789191941760047957",
+        "l2_strong_conflict/a499a944ccf23d79/attempt-1789191946652749474",
+        "l2_strong_conflict/cd06b51e58618424/attempt-1789191951416085777",
+        "l2_strong_conflict/be66bde78cd3b259/attempt-1789191954303475787"
+      ],
+      "seed": 5922733,
+      "stride": 262144,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/6d0fc8386a190b73/attempt-1789191957167032361",
+            "l2_strong_conflict/a4a750a576ac3e1f/attempt-1789191960009985136",
+            "l2_strong_conflict/d94e68b3785818a2/attempt-1789191962875984266",
+            "l2_strong_conflict/6696612bdcaeabef/attempt-1789191967740233886",
+            "l2_strong_conflict/793def54200c9663/attempt-1789191972513167721"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/6d0fc8386a190b73/attempt-1789191957167032361",
+        "l2_strong_conflict/a4a750a576ac3e1f/attempt-1789191960009985136",
+        "l2_strong_conflict/d94e68b3785818a2/attempt-1789191962875984266",
+        "l2_strong_conflict/6696612bdcaeabef/attempt-1789191967740233886",
+        "l2_strong_conflict/793def54200c9663/attempt-1789191972513167721"
+      ],
+      "seed": 5922834,
+      "stride": 262144,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/0cd8a0ba1e569ad3/attempt-1789191975400995193",
+            "l2_strong_conflict/9640c1497e157438/attempt-1789191978257744655",
+            "l2_strong_conflict/23f05cd44655dd08/attempt-1789191981131845732",
+            "l2_strong_conflict/ebfc59d5a15eeeda/attempt-1789191986248935976",
+            "l2_strong_conflict/99a21ac2bf977d2a/attempt-1789191989130023372"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/0cd8a0ba1e569ad3/attempt-1789191975400995193",
+        "l2_strong_conflict/9640c1497e157438/attempt-1789191978257744655",
+        "l2_strong_conflict/23f05cd44655dd08/attempt-1789191981131845732",
+        "l2_strong_conflict/ebfc59d5a15eeeda/attempt-1789191986248935976",
+        "l2_strong_conflict/99a21ac2bf977d2a/attempt-1789191989130023372"
+      ],
+      "seed": 5922733,
+      "stride": 262144,
+      "variant": 2
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/0c2497bd1f3b5593/attempt-1789191994028652629",
+            "l2_strong_conflict/ca918cfd57b9772b/attempt-1789191998910807602",
+            "l2_strong_conflict/0bfcb44f581eb9d4/attempt-1789192001748131806",
+            "l2_strong_conflict/0f359e9521ec9810/attempt-1789192004607317866",
+            "l2_strong_conflict/861cd47c0a286024/attempt-1789192007487927092"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/0c2497bd1f3b5593/attempt-1789191994028652629",
+        "l2_strong_conflict/ca918cfd57b9772b/attempt-1789191998910807602",
+        "l2_strong_conflict/0bfcb44f581eb9d4/attempt-1789192001748131806",
+        "l2_strong_conflict/0f359e9521ec9810/attempt-1789192004607317866",
+        "l2_strong_conflict/861cd47c0a286024/attempt-1789192007487927092"
+      ],
+      "seed": 5922834,
+      "stride": 262144,
+      "variant": 2
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/46a2651df391c4cb/attempt-1789192012382708870",
+            "l2_strong_conflict/2710376b524eb728/attempt-1789192017310177471",
+            "l2_strong_conflict/a4261017c2d3e0da/attempt-1789192022276834054",
+            "l2_strong_conflict/12688119d8f65c01/attempt-1789192025146618287",
+            "l2_strong_conflict/102455c718d9ebab/attempt-1789192028017715445"
+          ],
+          "same_core_clean": false
+        },
+        {
+          "records": [
+            "l2_strong_conflict/7d69a1a80a0f8662/attempt-1789192030847882989",
+            "l2_strong_conflict/93812c63e3c77078/attempt-1789192035791130419",
+            "l2_strong_conflict/0f53688429f2f703/attempt-1789192038682662766",
+            "l2_strong_conflict/0a78fd7a2ee70333/attempt-1789192041524257567",
+            "l2_strong_conflict/1d5a8113fd6c7204/attempt-1789192044343410947"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/7d69a1a80a0f8662/attempt-1789192030847882989",
+        "l2_strong_conflict/93812c63e3c77078/attempt-1789192035791130419",
+        "l2_strong_conflict/0f53688429f2f703/attempt-1789192038682662766",
+        "l2_strong_conflict/0a78fd7a2ee70333/attempt-1789192041524257567",
+        "l2_strong_conflict/1d5a8113fd6c7204/attempt-1789192044343410947"
+      ],
+      "seed": 5922733,
+      "stride": 65536,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/e2b29ddfae67480c/attempt-1789192049212227391",
+            "l2_strong_conflict/5bea2c3ff747fe77/attempt-1789192052093050062",
+            "l2_strong_conflict/cca296e971ba5fdc/attempt-1789192056994348464",
+            "l2_strong_conflict/f9ae247dbcd44491/attempt-1789192061621935700",
+            "l2_strong_conflict/f84b715b960858b4/attempt-1789192064458125897"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/e2b29ddfae67480c/attempt-1789192049212227391",
+        "l2_strong_conflict/5bea2c3ff747fe77/attempt-1789192052093050062",
+        "l2_strong_conflict/cca296e971ba5fdc/attempt-1789192056994348464",
+        "l2_strong_conflict/f9ae247dbcd44491/attempt-1789192061621935700",
+        "l2_strong_conflict/f84b715b960858b4/attempt-1789192064458125897"
+      ],
+      "seed": 5922834,
+      "stride": 65536,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/730d432701850743/attempt-1789192067317586763",
+            "l2_strong_conflict/ae88132434105472/attempt-1789192070132468372",
+            "l2_strong_conflict/785e7a24fa71a1cd/attempt-1789192073113845966",
+            "l2_strong_conflict/9558dc7db0387467/attempt-1789192077982112807",
+            "l2_strong_conflict/c19a16b03f9bed2d/attempt-1789192082800416540"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/730d432701850743/attempt-1789192067317586763",
+        "l2_strong_conflict/ae88132434105472/attempt-1789192070132468372",
+        "l2_strong_conflict/785e7a24fa71a1cd/attempt-1789192073113845966",
+        "l2_strong_conflict/9558dc7db0387467/attempt-1789192077982112807",
+        "l2_strong_conflict/c19a16b03f9bed2d/attempt-1789192082800416540"
+      ],
+      "seed": 5922733,
+      "stride": 65536,
+      "variant": 2
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/17d9a8c63aa433ff/attempt-1789192085632162652",
+            "l2_strong_conflict/8d37eb204d01d8f5/attempt-1789192088454151160",
+            "l2_strong_conflict/e20e2df0a43aef2a/attempt-1789192091323727799",
+            "l2_strong_conflict/47427e4e228ef9a6/attempt-1789192094222272112",
+            "l2_strong_conflict/ae7f6e76fda4d592/attempt-1789192099420053264"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/17d9a8c63aa433ff/attempt-1789192085632162652",
+        "l2_strong_conflict/8d37eb204d01d8f5/attempt-1789192088454151160",
+        "l2_strong_conflict/e20e2df0a43aef2a/attempt-1789192091323727799",
+        "l2_strong_conflict/47427e4e228ef9a6/attempt-1789192094222272112",
+        "l2_strong_conflict/ae7f6e76fda4d592/attempt-1789192099420053264"
+      ],
+      "seed": 5922834,
+      "stride": 65536,
+      "variant": 2
+    }
+  ],
+  "rule": "First same-core clean saturation scan, at most three acquisition attempts; first three consecutive tested scrub counts within 10 percent of each other and all above one-address control by 5 percent. Confirm selected count versus one and selected+4 with two patterns and two seeds, then repeat prior discovery intervals. Each refined group uses the first clean acquisition entirely on one core, at most three retained group attempts. No stable scan means no supported upper scrub; all attempts retained.",
+  "search_cohorts": [
+    {
+      "centers": [
+        57.6704,
+        63.81628,
+        65.12082000000001,
+        66.19047,
+        66.23019,
+        66.4361,
+        66.02286000000001
+      ],
+      "counts": [
+        1,
+        8,
+        10,
+        12,
+        14,
+        16,
+        20
+      ],
+      "records": [
+        "l2_saturation/4b6449aa18f27e11/attempt-1789191359112900682",
+        "l2_saturation/0224bac3a432a42b/attempt-1789191361742443040",
+        "l2_saturation/a1a7a649af834582/attempt-1789191364594164543",
+        "l2_saturation/8a9a4290575ed557/attempt-1789191367347357233",
+        "l2_saturation/985f747e02fc397c/attempt-1789191370271794383",
+        "l2_saturation/85cd1e99f975c44c/attempt-1789191373099514966",
+        "l2_saturation/136f752a745479a7/attempt-1789191375839029240"
+      ],
+      "same_core_clean": true
+    }
+  ],
+  "selected_scrub_count": 8,
+  "time": "2026-09-12T05:48:23.964599+00:00"
+}

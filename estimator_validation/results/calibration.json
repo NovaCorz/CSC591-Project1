@@ -1,0 +1,66 @@
+[
+  {
+    "host": "artemisia",
+    "hot_p95": 76.0,
+    "cold_p05": 168.0,
+    "threshold": 122.0,
+    "hot_cpu": 0,
+    "cold_cpu": 0
+  },
+  {
+    "host": "charnwood",
+    "hot_p95": 70.0,
+    "cold_p05": 350.0,
+    "threshold": 210.0,
+    "hot_cpu": 3,
+    "cold_cpu": 3
+  },
+  {
+    "host": "crux",
+    "hot_p95": 51.0,
+    "cold_p05": 236.0,
+    "threshold": 143.5,
+    "hot_cpu": 3,
+    "cold_cpu": 3
+  },
+  {
+    "host": "ookay",
+    "hot_p95": 66.0,
+    "cold_p05": 286.0,
+    "threshold": 176.0,
+    "hot_cpu": 0,
+    "cold_cpu": 0
+  },
+  {
+    "host": "skylark",
+    "hot_p95": 96.0,
+    "cold_p05": 168.0,
+    "threshold": 132.0,
+    "hot_cpu": 1,
+    "cold_cpu": 1
+  },
+  {
+    "host": "sunbird",
+    "hot_p95": 72.0,
+    "cold_p05": 172.0,
+    "threshold": 122.0,
+    "hot_cpu": 1,
+    "cold_cpu": 1
+  },
+  {
+    "host": "thunderbird",
+    "hot_p95": 1.0,
+    "cold_p05": 2.0,
+    "threshold": 1.5,
+    "hot_cpu": 0,
+    "cold_cpu": 0
+  },
+  {
+    "host": "upgrade",
+    "hot_p95": 54.0,
+    "cold_p05": 244.0,
+    "threshold": 149.0,
+    "hot_cpu": 1,
+    "cold_cpu": 3
+  }
+]

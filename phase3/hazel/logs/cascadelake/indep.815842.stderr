@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/hazel_aux_worker.py", line 171, in <module>
+    main()
+  File "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/hazel_aux_worker.py", line 167, in main
+    (page_control if args.kind == 'page_control' else independent)(constraint)
+  File "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/hazel_aux_worker.py", line 150, in independent
+    independent_worker.run('full', out, config, rows, plan, digest)
+  File "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/independent_worker.py", line 97, in run
+    if not clean or batch>=plan['maximum_batch']:raise RuntimeError('Timer calibration unresolved; retained; do not launch comparisons')
+RuntimeError: Timer calibration unresolved; retained; do not launch comparisons
+srun: error: c020n01: task 0: Exited with exit code 1

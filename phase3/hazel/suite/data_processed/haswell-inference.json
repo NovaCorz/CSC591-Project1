@@ -1,0 +1,1222 @@
+{
+  "alternate_batch_control_points": 0,
+  "associativity": {
+    "bounded_candidates": [],
+    "candidates": [
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/haswell/full/associativity/c3d91f8271f056bd/complete.json",
+          "machines/haswell/full/associativity/ed6eec5e0dc485a1/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 9,
+        "sources": [
+          "machines/haswell/full/associativity/ed6eec5e0dc485a1/complete.json",
+          "machines/haswell/full/associativity/fc548c8314677411/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/haswell/full/associativity/24729dfe26beb956/complete.json",
+          "machines/haswell/full/associativity/20957831421355f7/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 9,
+        "sources": [
+          "machines/haswell/full/associativity/20957831421355f7/complete.json",
+          "machines/haswell/full/associativity/78b9dd44be6af32c/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 16,
+        "sources": [
+          "machines/haswell/full/associativity/b961cb295a6d1d6d/complete.json",
+          "machines/haswell/full/associativity/752648bc3404a517/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 4,
+        "sources": [
+          "machines/haswell/full/associativity/86259665373d7261/complete.json",
+          "machines/haswell/full/associativity/3a03af60a1bdec56/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/haswell/full/associativity/505d2ac1dc5fcc7f/complete.json",
+          "machines/haswell/full/associativity/d70164ad97cd0003/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 4,
+        "sources": [
+          "machines/haswell/full/associativity/5862871edda3f66f/complete.json",
+          "machines/haswell/full/associativity/098869a5267a74a2/complete.json"
+        ],
+        "stride": 262144
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/haswell/full/associativity/c7672bc58ae7edc5/complete.json",
+          "machines/haswell/full/associativity/d9df9d9b0b454499/complete.json"
+        ],
+        "stride": 262144
+      },
+      {
+        "candidate_resident_addresses": 16,
+        "sources": [
+          "machines/haswell/full/associativity/2df98e23c5f70c9a/complete.json",
+          "machines/haswell/full/associativity/8d8010a811f1f295/complete.json"
+        ],
+        "stride": 262144
+      },
+      {
+        "candidate_resident_addresses": 17,
+        "sources": [
+          "machines/haswell/full/associativity/8d8010a811f1f295/complete.json",
+          "machines/haswell/full/associativity/3a82d6c5dbdc1fe3/complete.json"
+        ],
+        "stride": 262144
+      }
+    ],
+    "limitation": "Only virtual low bits controlled. Physical indexing, page translation, replacement, and slice hashing are unresolved. No way count or derived set count is manufactured.",
+    "status": "effective conflict thresholds; no verified per-level associativity"
+  },
+  "attempts": 327,
+  "cache_table": [
+    {
+      "associativity": 8,
+      "derived_sets": 64,
+      "hit_latency_median": 3.66015625,
+      "host": "haswell",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": 1.03515625,
+      "level": "L1D candidate",
+      "line_size": 64,
+      "next_level_latency_median": 4.6953125,
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": 32768,
+      "size_upper_bytes": 36864,
+      "status": "timing-supported, internally consistent L1 candidate with capacity interval; next-class latency is the first measured departure, not a pure L2-hit latency",
+      "unit": "TSC_ticks/access"
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "haswell",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "L2 role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "haswell",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "LLC role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    }
+  ],
+  "capacity_candidates": [
+    {
+      "above": {
+        "maximum": 43.13671875,
+        "mean": 5.462803490234375,
+        "median": 5.46875,
+        "minimum": 4.98828125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 87678,
+        "p05": 5.169921875,
+        "p95": 5.58984375,
+        "q1": 5.396484375,
+        "q3": 5.515625,
+        "stddev": 0.5654208416174008,
+        "zero_samples": 0
+      },
+      "above_record": "machines/haswell/full/capacity/627ef310d2a3463d/complete.json",
+      "below": {
+        "maximum": 57.91796875,
+        "mean": 3.80301780078125,
+        "median": 3.78515625,
+        "minimum": 3.6640625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 5463,
+        "p05": 3.70703125,
+        "p95": 3.86328125,
+        "q1": 3.755859375,
+        "q3": 3.826171875,
+        "stddev": 0.4765013366658294,
+        "zero_samples": 0
+      },
+      "below_record": "machines/haswell/full/capacity/88507a7d2ae5e605/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        10,
+        10
+      ],
+      "lower_bytes": 32768,
+      "ratio": 1.4447884416924666,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 40960
+    },
+    {
+      "above": {
+        "maximum": 230.185546875,
+        "mean": 11.28399023828125,
+        "median": 11.20703125,
+        "minimum": 10.0078125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 21794,
+        "p05": 10.708984375,
+        "p95": 11.865234375,
+        "q1": 10.990234375,
+        "q3": 11.44140625,
+        "stddev": 0.9927475945818023,
+        "zero_samples": 0
+      },
+      "above_record": "machines/haswell/full/capacity/2f0f6977bcd27752/complete.json",
+      "below": {
+        "maximum": 143.318359375,
+        "mean": 9.53564246484375,
+        "median": 9.494140625,
+        "minimum": 9.1875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 28062,
+        "p05": 9.30078125,
+        "p95": 9.720703125,
+        "q1": 9.416015625,
+        "q3": 9.564453125,
+        "stddev": 0.8356070530314904,
+        "zero_samples": 0
+      },
+      "below_record": "machines/haswell/full/capacity/c53878dbe7d394ce/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        10,
+        10
+      ],
+      "lower_bytes": 163840,
+      "ratio": 1.1804155523554825,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 180224
+    },
+    {
+      "above": {
+        "maximum": 154.25,
+        "mean": 18.667293384765625,
+        "median": 18.609375,
+        "minimum": 15.939453125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 10937,
+        "p05": 17.28515625,
+        "p95": 19.85546875,
+        "q1": 18.076171875,
+        "q3": 19.142578125,
+        "stddev": 1.460596513968673,
+        "zero_samples": 0
+      },
+      "above_record": "machines/haswell/full/capacity/7f21ba6dd55f489f/complete.json",
+      "below": {
+        "maximum": 136.353515625,
+        "mean": 11.7057549921875,
+        "median": 11.64453125,
+        "minimum": 10.169921875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 18819,
+        "p05": 11.0625,
+        "p95": 12.279296875,
+        "q1": 11.404296875,
+        "q3": 11.89453125,
+        "stddev": 1.0016340970045579,
+        "zero_samples": 0
+      },
+      "below_record": "machines/haswell/full/capacity/389726bf16592412/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        10,
+        10
+      ],
+      "lower_bytes": 229376,
+      "ratio": 1.5981214357598121,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 294912
+    },
+    {
+      "above": {
+        "maximum": 1107.208984375,
+        "mean": 60.6852866015625,
+        "median": 60.21875,
+        "minimum": 55.703125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 29647,
+        "p05": 58.134765625,
+        "p95": 63.30859375,
+        "q1": 59.30859375,
+        "q3": 61.2734375,
+        "stddev": 3.591828868891407,
+        "zero_samples": 0
+      },
+      "above_record": "machines/haswell/full/capacity/f457b4c719bde7ec/complete.json",
+      "below": {
+        "maximum": 470.720703125,
+        "mean": 45.898427111328125,
+        "median": 45.611328125,
+        "minimum": 43.873046875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 41886,
+        "p05": 44.85546875,
+        "p95": 46.6875,
+        "q1": 45.310546875,
+        "q3": 45.947265625,
+        "stddev": 2.567468649910708,
+        "zero_samples": 0
+      },
+      "below_record": "machines/haswell/full/capacity/c4b6829afa284d31/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        10,
+        10
+      ],
+      "lower_bytes": 4194304,
+      "ratio": 1.3202586391470046,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 16777216
+    },
+    {
+      "above": {
+        "maximum": 1336.5390625,
+        "mean": 82.08495571679687,
+        "median": 81.5,
+        "minimum": 70.173828125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 29721,
+        "p05": 76.9609375,
+        "p95": 87.615234375,
+        "q1": 79.55859375,
+        "q3": 83.626953125,
+        "stddev": 5.109446435275294,
+        "zero_samples": 0
+      },
+      "above_record": "machines/haswell/full/capacity/fbe0de3513f36ba6/complete.json",
+      "below": {
+        "maximum": 1219.037109375,
+        "mean": 70.08795640234375,
+        "median": 69.611328125,
+        "minimum": 61.224609375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 26891,
+        "p05": 66.11328125,
+        "p95": 74.185546875,
+        "q1": 68.107421875,
+        "q3": 71.228515625,
+        "stddev": 4.303986268817221,
+        "zero_samples": 0
+      },
+      "below_record": "machines/haswell/full/capacity/d2ff657e414fc31e/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        10,
+        10
+      ],
+      "lower_bytes": 20971520,
+      "ratio": 1.1707864538032042,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 23068672
+    },
+    {
+      "above": {
+        "maximum": 1952.26953125,
+        "mean": 140.5353464042969,
+        "median": 139.75390625,
+        "minimum": 119.265625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 43220,
+        "p05": 132.626953125,
+        "p95": 149.931640625,
+        "q1": 136.791015625,
+        "q3": 142.923828125,
+        "stddev": 7.242150531708151,
+        "zero_samples": 0
+      },
+      "above_record": "machines/haswell/full/capacity/e04e746abcaf4914/complete.json",
+      "below": {
+        "maximum": 1778.318359375,
+        "mean": 122.76799712109376,
+        "median": 122.12109375,
+        "minimum": 105.189453125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 34708,
+        "p05": 115.4609375,
+        "p95": 130.74609375,
+        "q1": 119.32421875,
+        "q3": 125.080078125,
+        "stddev": 6.610749827818319,
+        "zero_samples": 0
+      },
+      "below_record": "machines/haswell/full/capacity/1ae065576dcd7003/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        10,
+        10
+      ],
+      "lower_bytes": 33554432,
+      "ratio": 1.1443879346191985,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 37748736
+    }
+  ],
+  "chosen_primary_batch": 512,
+  "clean_points": 326,
+  "collection_complete": true,
+  "course_cpu_model": "haswell constraint; exact allocated model recorded separately",
+  "coverage_issues": [],
+  "cpu_model": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
+  "host": "haswell",
+  "inclusion_policy": {
+    "reason": "Same-core pressure may directly evict upper copies; lower-level-only eviction and upper residency were not independently established. No global inclusion/exclusion classification.",
+    "status": "uncertain"
+  },
+  "integrity_or_quality_issues": [],
+  "isa": "x86_64",
+  "l1_candidate": {
+    "capacity_endpoint_cpus": [
+      10,
+      10
+    ],
+    "capacity_interval_bytes": [
+      32768,
+      36864
+    ],
+    "capacity_rule": "First departure by >10% from median of first three small-footprint centers; interval, not a rounded cache answer",
+    "capacity_sources": [
+      "machines/haswell/full/capacity/88507a7d2ae5e605/complete.json",
+      "machines/haswell/full/capacity/537b9a090d377e7b/complete.json"
+    ],
+    "caveat": "Conditional L1 interpretation of the smallest timing class. All numerical candidates come from measured plateaus and repeated spatial/conflict edges; no specification value is used.",
+    "conflict_strides": [
+      4096,
+      16384,
+      65536,
+      262144
+    ],
+    "derived_set_interval": [
+      64.0,
+      72.0
+    ],
+    "geometry": {
+      "capacity_candidate_bytes": 32768,
+      "derived_sets": 64,
+      "line_candidate_bytes": 64,
+      "status": "internally consistent candidate; smallest tested agreeing stride may not be fundamental; no rounding applied",
+      "tested_index_period_bytes": 4096,
+      "ways_candidate": 8
+    },
+    "hit_class_median_ns": 1.591414413541592,
+    "hit_class_statistics": {
+      "maximum": 53.193359375,
+      "mean": 3.669092197265625,
+      "median": 3.66015625,
+      "minimum": 3.640625,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 912,
+      "p05": 3.646484375,
+      "p95": 3.666015625,
+      "q1": 3.646484375,
+      "q3": 3.66015625,
+      "stddev": 0.447254559141788,
+      "zero_samples": 0
+    },
+    "line_bytes": 64,
+    "line_rule": "Unique spatial edge shared by at least two fixed-footprint sweeps; 8-byte offset resolution; transfer-granularity candidate",
+    "nanosecond_conversion": "per-run timer/CLOCK_MONOTONIC_RAW calibration; approximate",
+    "next_class_statistics": {
+      "maximum": 59.021484375,
+      "mean": 4.708586904296875,
+      "median": 4.6953125,
+      "minimum": 4.318359375,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 4497,
+      "p05": 4.515625,
+      "p95": 4.845703125,
+      "q1": 4.6171875,
+      "q3": 4.76171875,
+      "stddev": 0.5372923312233786,
+      "zero_samples": 0
+    },
+    "status": "timing-supported, internally consistent L1 candidate with capacity interval",
+    "unit": "TSC_ticks/access",
+    "ways": 8,
+    "ways_rule": "Unique conflict threshold reproduced at three or more strides; conditional virtual-index interpretation"
+  },
+  "line_size": {
+    "candidates": [
+      {
+        "footprint": 524288,
+        "offset_lower": 56,
+        "offset_upper": 64,
+        "sources": [
+          "machines/haswell/full/line_size/d4f6690422559771/complete.json",
+          "machines/haswell/full/line_size/16add745949c27be/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 56,
+        "offset_upper": 64,
+        "sources": [
+          "machines/haswell/full/line_size/7043913155835203/complete.json",
+          "machines/haswell/full/line_size/268d244815b7c11f/complete.json"
+        ]
+      }
+    ],
+    "limitation": "Random 512-byte blocks have fixed allocation and node count; physical line occupancy changes with offset. Prefetching and residency can obscure or imitate a boundary.",
+    "status": "candidate spatial granularity only; distinct line sizes per cache level not established"
+  },
+  "missing_families": [],
+  "noisy_points": 0,
+  "observed_cpus": [
+    10,
+    11
+  ],
+  "observed_numa_nodes": [
+    1
+  ],
+  "observed_sockets": [
+    1
+  ],
+  "page_control": {
+    "alternate_batch_control_points": 0,
+    "attempts": 10,
+    "complete": true,
+    "interpretation": "Changed latency with confirmed huge backing is consistent with translation effects, but allocation/physical indexing and changed cores may also contribute. No cache geometry is read from page metadata.",
+    "issues": [],
+    "missing_working_sets": [],
+    "pairs": [
+      {
+        "baseline_cpu": 10,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/haswell/full/capacity/a2061cd0d0459e0e/complete.json",
+        "baseline_statistics": {
+          "maximum": 53.193359375,
+          "mean": 3.669092197265625,
+          "median": 3.66015625,
+          "minimum": 3.640625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 912,
+          "p05": 3.646484375,
+          "p95": 3.666015625,
+          "q1": 3.646484375,
+          "q3": 3.66015625,
+          "stddev": 0.447254559141788,
+          "zero_samples": 0
+        },
+        "bytes": 1024,
+        "control_cpu": 10,
+        "control_raw": "machines/haswell/page_control/page_control/7652f53c8295cc01/attempt-1789183824121283074/samples.u64.gz",
+        "control_record": "machines/haswell/page_control/page_control/7652f53c8295cc01/complete.json",
+        "control_sha256": "54087952713ea1468d50fd2d5b67ab425843b339c1ffb942cae0a63234aef18f",
+        "control_statistics": {
+          "maximum": 61.177734375,
+          "mean": 3.667813748046875,
+          "median": 3.66015625,
+          "minimum": 3.640625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 1270,
+          "p05": 3.646484375,
+          "p95": 3.666015625,
+          "q1": 3.646484375,
+          "q3": 3.66015625,
+          "stddev": 0.40378131207256734,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1024,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 10,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/haswell/full/capacity/e60873bc36eeda47/complete.json",
+        "baseline_statistics": {
+          "maximum": 52.923828125,
+          "mean": 3.668141341796875,
+          "median": 3.66015625,
+          "minimum": 3.640625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 894,
+          "p05": 3.646484375,
+          "p95": 3.666015625,
+          "q1": 3.646484375,
+          "q3": 3.66015625,
+          "stddev": 0.4123012370082324,
+          "zero_samples": 0
+        },
+        "bytes": 4096,
+        "control_cpu": 10,
+        "control_raw": "machines/haswell/page_control/page_control/742a26d8d16caf54/attempt-1789183820677588264/samples.u64.gz",
+        "control_record": "machines/haswell/page_control/page_control/742a26d8d16caf54/complete.json",
+        "control_sha256": "723680b39a167ab8bd9bacf2d6aa1b140fa51f79f6155e7b1a374969da341b04",
+        "control_statistics": {
+          "maximum": 59.59765625,
+          "mean": 3.667607296875,
+          "median": 3.66015625,
+          "minimum": 3.640625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 887,
+          "p05": 3.646484375,
+          "p95": 3.666015625,
+          "q1": 3.646484375,
+          "q3": 3.66015625,
+          "stddev": 0.3991537722463058,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4096,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 10,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/haswell/full/capacity/1089444a01cfc92f/complete.json",
+        "baseline_statistics": {
+          "maximum": 83.9453125,
+          "mean": 3.66943865234375,
+          "median": 3.66015625,
+          "minimum": 3.640625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 2556,
+          "p05": 3.646484375,
+          "p95": 3.666015625,
+          "q1": 3.646484375,
+          "q3": 3.66015625,
+          "stddev": 0.44646744132558924,
+          "zero_samples": 0
+        },
+        "bytes": 16384,
+        "control_cpu": 10,
+        "control_raw": "machines/haswell/page_control/page_control/09ef7df9f81f7f93/attempt-1789183901735494081/samples.u64.gz",
+        "control_record": "machines/haswell/page_control/page_control/09ef7df9f81f7f93/complete.json",
+        "control_sha256": "cf1d10ecf113603166503e9484d08ffc9ead11597adfec1cf4dc670360f12f81",
+        "control_statistics": {
+          "maximum": 62.0625,
+          "mean": 3.66822886328125,
+          "median": 3.66015625,
+          "minimum": 3.640625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 2762,
+          "p05": 3.646484375,
+          "p95": 3.666015625,
+          "q1": 3.646484375,
+          "q3": 3.66015625,
+          "stddev": 0.40499253786632566,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16384,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 10,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/haswell/full/capacity/a1613987f08ccb36/complete.json",
+        "baseline_statistics": {
+          "maximum": 101.3203125,
+          "mean": 7.65615873046875,
+          "median": 7.6484375,
+          "minimum": 7.248046875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 2901,
+          "p05": 7.34375,
+          "p95": 7.912109375,
+          "q1": 7.498046875,
+          "q3": 7.73828125,
+          "stddev": 0.6836539402571634,
+          "zero_samples": 0
+        },
+        "bytes": 65536,
+        "control_cpu": 10,
+        "control_raw": "machines/haswell/page_control/page_control/c393682c95f11b8d/attempt-1789183892504411585/samples.u64.gz",
+        "control_record": "machines/haswell/page_control/page_control/c393682c95f11b8d/complete.json",
+        "control_sha256": "398c0242cfc799025a0a27a37fbc38ce0422610654f7aa352b712169bb23adf6",
+        "control_statistics": {
+          "maximum": 64.7578125,
+          "mean": 7.6393489375,
+          "median": 7.625,
+          "minimum": 7.27734375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 2847,
+          "p05": 7.326171875,
+          "p95": 7.900390625,
+          "q1": 7.48046875,
+          "q3": 7.732421875,
+          "stddev": 0.6104237171442505,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 65536,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 10,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/haswell/full/capacity/27b21893ade16f10/complete.json",
+        "baseline_statistics": {
+          "maximum": 171.369140625,
+          "mean": 15.888458818359375,
+          "median": 15.7890625,
+          "minimum": 13.505859375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 15487,
+          "p05": 14.8359375,
+          "p95": 16.93359375,
+          "q1": 15.36328125,
+          "q3": 16.2421875,
+          "stddev": 1.3140360220801783,
+          "zero_samples": 0
+        },
+        "bytes": 262144,
+        "control_cpu": 10,
+        "control_raw": "machines/haswell/page_control/page_control/ea97dc017b281ef5/attempt-1789183905218912499/samples.u64.gz",
+        "control_record": "machines/haswell/page_control/page_control/ea97dc017b281ef5/complete.json",
+        "control_sha256": "a4abd1be02b204f4bf476e2c53f0321ef3529c7b59295783e47519cac2a8e6cd",
+        "control_statistics": {
+          "maximum": 193.296875,
+          "mean": 10.3188389375,
+          "median": 10.115234375,
+          "minimum": 9.703125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 81301,
+          "p05": 9.888671875,
+          "p95": 11.361328125,
+          "q1": 10.013671875,
+          "q3": 10.248046875,
+          "stddev": 1.1684960032791947,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 262144,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 10,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/haswell/full/capacity/b89afa08c865a1d6/complete.json",
+        "baseline_statistics": {
+          "maximum": 226.431640625,
+          "mean": 39.2510126796875,
+          "median": 39.087890625,
+          "minimum": 36.798828125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 12643,
+          "p05": 38.02734375,
+          "p95": 40.11328125,
+          "q1": 38.6640625,
+          "q3": 39.580078125,
+          "stddev": 1.8075942271811902,
+          "zero_samples": 0
+        },
+        "bytes": 1048576,
+        "control_cpu": 10,
+        "control_raw": "machines/haswell/page_control/page_control/eb86a5e6e74cc28b/attempt-1789183827563194324/samples.u64.gz",
+        "control_record": "machines/haswell/page_control/page_control/eb86a5e6e74cc28b/complete.json",
+        "control_sha256": "14f8773401ee33b6c91ba17fa66eaaaee381c69dcb17c7c720b56db5f02daeed",
+        "control_statistics": {
+          "maximum": 203.69921875,
+          "mean": 34.05159001367188,
+          "median": 33.896484375,
+          "minimum": 31.810546875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 12082,
+          "p05": 32.876953125,
+          "p95": 34.998046875,
+          "q1": 33.494140625,
+          "q3": 34.404296875,
+          "stddev": 1.634460338684677,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1048576,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 10,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/haswell/full/capacity/c4b6829afa284d31/complete.json",
+        "baseline_statistics": {
+          "maximum": 470.720703125,
+          "mean": 45.898427111328125,
+          "median": 45.611328125,
+          "minimum": 43.873046875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 41886,
+          "p05": 44.85546875,
+          "p95": 46.6875,
+          "q1": 45.310546875,
+          "q3": 45.947265625,
+          "stddev": 2.567468649910708,
+          "zero_samples": 0
+        },
+        "bytes": 4194304,
+        "control_cpu": 10,
+        "control_raw": "machines/haswell/page_control/page_control/946ad6dfc55470b4/attempt-1789183800780509134/samples.u64.gz",
+        "control_record": "machines/haswell/page_control/page_control/946ad6dfc55470b4/complete.json",
+        "control_sha256": "e1f2e9d97b1619b01908d779f1fd056f2297679d57319a7690a186d3e0d3a48a",
+        "control_statistics": {
+          "maximum": 291.72265625,
+          "mean": 39.23610762304688,
+          "median": 39.10546875,
+          "minimum": 37.603515625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 13651,
+          "p05": 38.345703125,
+          "p95": 39.85546875,
+          "q1": 38.787109375,
+          "q3": 39.41796875,
+          "stddev": 1.672515718005887,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 4194304,
+        "huge_backing_before_bytes": 4194304,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 4096,
+          "anon_huge_before_kib": 4096,
+          "anon_huge_kib": 4096,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4194304,
+          "mapped_bytes": 4194304,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 10,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/haswell/full/capacity/f457b4c719bde7ec/complete.json",
+        "baseline_statistics": {
+          "maximum": 1107.208984375,
+          "mean": 60.6852866015625,
+          "median": 60.21875,
+          "minimum": 55.703125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 29647,
+          "p05": 58.134765625,
+          "p95": 63.30859375,
+          "q1": 59.30859375,
+          "q3": 61.2734375,
+          "stddev": 3.591828868891407,
+          "zero_samples": 0
+        },
+        "bytes": 16777216,
+        "control_cpu": 10,
+        "control_raw": "machines/haswell/page_control/page_control/e952e84d554347d9/attempt-1789183919735319901/samples.u64.gz",
+        "control_record": "machines/haswell/page_control/page_control/e952e84d554347d9/complete.json",
+        "control_sha256": "33a954c6e29bd6222529a70cc6e394467e952044c9aeae79d8dbdd07e4d2581a",
+        "control_statistics": {
+          "maximum": 364.21484375,
+          "mean": 40.797888044921876,
+          "median": 40.615234375,
+          "minimum": 38.638671875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 27020,
+          "p05": 39.8671875,
+          "p95": 41.5859375,
+          "q1": 40.302734375,
+          "q3": 40.951171875,
+          "stddev": 1.7851264357628878,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 16777216,
+        "huge_backing_before_bytes": 16777216,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 16384,
+          "anon_huge_before_kib": 16384,
+          "anon_huge_kib": 16384,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16777216,
+          "mapped_bytes": 16777216,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 10,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/haswell/full/capacity/72d9857904afde50/complete.json",
+        "baseline_statistics": {
+          "maximum": 3183.283203125,
+          "mean": 186.19215299609374,
+          "median": 185.29296875,
+          "minimum": 166.2421875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 47579,
+          "p05": 178.48828125,
+          "p95": 195.46484375,
+          "q1": 182.4609375,
+          "q3": 188.32421875,
+          "stddev": 8.256567165308201,
+          "zero_samples": 0
+        },
+        "bytes": 67108864,
+        "control_cpu": 10,
+        "control_raw": "machines/haswell/page_control/page_control/e78f1f36b5bdfcc9/attempt-1789183845106323224/samples.u64.gz",
+        "control_record": "machines/haswell/page_control/page_control/e78f1f36b5bdfcc9/complete.json",
+        "control_sha256": "72b5acf7047002c15cf1d2a4981fda5727e03da62e5b59f0f11ad92cbd55629b",
+        "control_statistics": {
+          "maximum": 681.08203125,
+          "mean": 156.088041015625,
+          "median": 155.3515625,
+          "minimum": 137.974609375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 50518,
+          "p05": 148.630859375,
+          "p95": 167.01953125,
+          "q1": 152.525390625,
+          "q3": 158.435546875,
+          "stddev": 5.817035515426135,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 67108864,
+        "huge_backing_before_bytes": 67108864,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 65536,
+          "anon_huge_before_kib": 65536,
+          "anon_huge_kib": 65536,
+          "kernel_page_kib": 4,
+          "logical_bytes": 67108864,
+          "mapped_bytes": 67108864,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 10,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/haswell/full/capacity/9997ce58d3098d2d/complete.json",
+        "baseline_statistics": {
+          "maximum": 11113.216796875,
+          "mean": 242.5121785078125,
+          "median": 241.314453125,
+          "minimum": 226.052734375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 58294,
+          "p05": 236.0859375,
+          "p95": 260.6796875,
+          "q1": 239.134765625,
+          "q3": 243.65625,
+          "stddev": 22.643190548643783,
+          "zero_samples": 0
+        },
+        "bytes": 268435456,
+        "control_cpu": 10,
+        "control_raw": "machines/haswell/page_control/page_control/8dc216dca06e838f/attempt-1789183940279568513/samples.u64.gz",
+        "control_record": "machines/haswell/page_control/page_control/8dc216dca06e838f/complete.json",
+        "control_sha256": "ecddedb569e3f01ee7630a0ada1655bbaac0be10043e1b7072e53d478a2ce630",
+        "control_statistics": {
+          "maximum": 1190.490234375,
+          "mean": 198.99379823242188,
+          "median": 198.21875,
+          "minimum": 184.50390625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 59062,
+          "p05": 193.080078125,
+          "p95": 210.419921875,
+          "q1": 196.0625,
+          "q3": 200.54296875,
+          "stddev": 5.3639113221689545,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 268435456,
+        "huge_backing_before_bytes": 268435456,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 262144,
+          "anon_huge_before_kib": 262144,
+          "anon_huge_kib": 262144,
+          "kernel_page_kib": 4,
+          "logical_bytes": 268435456,
+          "mapped_bytes": 268435456,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": true,
+        "unit": "TSC_ticks/access"
+      }
+    ],
+    "unavailable": false
+  },
+  "plots": [
+    "plots/haswell-capacity.svg",
+    "plots/haswell-line_size.svg",
+    "plots/haswell-associativity.svg",
+    "plots/haswell-inclusion_policy.svg",
+    "plots/haswell-latency.svg",
+    "plots/haswell-software_metric.svg",
+    "plots/haswell-timer.svg",
+    "plots/haswell-loop.svg",
+    "plots/haswell-boundary-distributions.svg",
+    "plots/haswell-page-control.svg"
+  ],
+  "primary_collection_complete": true,
+  "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+  "software_metric": {
+    "block_rate_range": [
+      0.888,
+      0.9031
+    ],
+    "calibration_and_workload_cpus": [
+      11,
+      11,
+      11
+    ],
+    "classified_hits": 894925,
+    "estimate": 0.894925,
+    "limitations": "Single-load timer overhead/quantization; smallest/largest footprints are empirical proxies, not PMU-confirmed classes. Adjacent samples are correlated. Wilson intervals omit calibration/classification error; threshold-sensitivity and block ranges expose additional uncertainty. Phase-II validation not performed.",
+    "same_logical_cpu": true,
+    "sources": [
+      "machines/haswell/full/software_metric/00cef01de4beae11/complete.json",
+      "machines/haswell/full/software_metric/321cb4ea8263334b/complete.json",
+      "machines/haswell/full/software_metric/484f3d0a0a6e6e81/complete.json"
+    ],
+    "standardized_workload_bytes": 1048576,
+    "status": "timing-classified cache-residency proxy; not a validated hardware hit rate",
+    "threshold_raw_ticks": 115.0,
+    "threshold_sensitivity_limits_raw_ticks": [
+      68.0,
+      162.0
+    ],
+    "threshold_sensitivity_rate_range": [
+      0.032065,
+      0.999946
+    ],
+    "total_timed_accesses": 1000000,
+    "unit": "TSC_ticks",
+    "wilson_95_independent_sample_assumption": [
+      0.8943224480317119,
+      0.8955245176921843
+    ]
+  },
+  "unsuccessful_attempts": 1,
+  "verified_points": 326
+}

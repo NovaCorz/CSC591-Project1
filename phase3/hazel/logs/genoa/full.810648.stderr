@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/hazel_worker.py", line 166, in <module>
+    main()
+  File "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/hazel_worker.py", line 146, in main
+    worker.run_suite(out, config, rows, args.stage == 'smoke')
+  File "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/worker.py", line 262, in run_suite
+    raise RuntimeError('Adaptive batch calibration remained noisy')
+RuntimeError: Adaptive batch calibration remained noisy
+srun: error: n0398: task 0: Exited with exit code 1

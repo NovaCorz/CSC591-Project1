@@ -1,0 +1,1113 @@
+{
+  "alternate_batch_control_points": 0,
+  "associativity": {
+    "bounded_candidates": [],
+    "candidates": [
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/cascadelake/full/associativity/c3d91f8271f056bd/complete.json",
+          "machines/cascadelake/full/associativity/ed6eec5e0dc485a1/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 9,
+        "sources": [
+          "machines/cascadelake/full/associativity/ed6eec5e0dc485a1/complete.json",
+          "machines/cascadelake/full/associativity/fc548c8314677411/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/cascadelake/full/associativity/24729dfe26beb956/complete.json",
+          "machines/cascadelake/full/associativity/20957831421355f7/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 16,
+        "sources": [
+          "machines/cascadelake/full/associativity/b961cb295a6d1d6d/complete.json",
+          "machines/cascadelake/full/associativity/752648bc3404a517/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 4,
+        "sources": [
+          "machines/cascadelake/full/associativity/86259665373d7261/complete.json",
+          "machines/cascadelake/full/associativity/3a03af60a1bdec56/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/cascadelake/full/associativity/505d2ac1dc5fcc7f/complete.json",
+          "machines/cascadelake/full/associativity/d70164ad97cd0003/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 4,
+        "sources": [
+          "machines/cascadelake/full/associativity/5862871edda3f66f/complete.json",
+          "machines/cascadelake/full/associativity/098869a5267a74a2/complete.json"
+        ],
+        "stride": 262144
+      },
+      {
+        "candidate_resident_addresses": 8,
+        "sources": [
+          "machines/cascadelake/full/associativity/c7672bc58ae7edc5/complete.json",
+          "machines/cascadelake/full/associativity/d9df9d9b0b454499/complete.json"
+        ],
+        "stride": 262144
+      }
+    ],
+    "limitation": "Only virtual low bits controlled. Physical indexing, page translation, replacement, and slice hashing are unresolved. No way count or derived set count is manufactured.",
+    "status": "effective conflict thresholds; no verified per-level associativity"
+  },
+  "attempts": 312,
+  "cache_table": [
+    {
+      "associativity": 8,
+      "derived_sets": 64,
+      "hit_latency_median": 3.33203125,
+      "host": "cascadelake",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": 1.18359375,
+      "level": "L1D candidate",
+      "line_size": 64,
+      "next_level_latency_median": 4.515625,
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": 32768,
+      "size_upper_bytes": 36864,
+      "status": "timing-supported, internally consistent L1 candidate with capacity interval; next-class latency is the first measured departure, not a pure L2-hit latency",
+      "unit": "TSC_ticks/access"
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "cascadelake",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "L2 role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "cascadelake",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "LLC role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    }
+  ],
+  "capacity_candidates": [
+    {
+      "above": {
+        "maximum": 82.6171875,
+        "mean": 5.39299420703125,
+        "median": 5.375,
+        "minimum": 4.796875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 10701,
+        "p05": 5.0625,
+        "p95": 5.5859375,
+        "q1": 5.28515625,
+        "q3": 5.484375,
+        "stddev": 0.742150261283162,
+        "zero_samples": 0
+      },
+      "above_record": "machines/cascadelake/full/capacity/627ef310d2a3463d/complete.json",
+      "below": {
+        "maximum": 50.1015625,
+        "mean": 3.4820920703125,
+        "median": 3.453125,
+        "minimum": 3.40234375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 14333,
+        "p05": 3.4140625,
+        "p95": 3.5703125,
+        "q1": 3.4296875,
+        "q3": 3.4921875,
+        "stddev": 0.5306372146969831,
+        "zero_samples": 0
+      },
+      "below_record": "machines/cascadelake/full/capacity/88507a7d2ae5e605/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        26,
+        25
+      ],
+      "lower_bytes": 32768,
+      "ratio": 1.5565610859728507,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 40960
+    },
+    {
+      "above": {
+        "maximum": 322.359375,
+        "mean": 33.9695252109375,
+        "median": 33.7890625,
+        "minimum": 29.453125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 14001,
+        "p05": 31.96484375,
+        "p95": 35.87890625,
+        "q1": 33.02734375,
+        "q3": 34.59765625,
+        "stddev": 2.234413104341998,
+        "zero_samples": 0
+      },
+      "above_record": "machines/cascadelake/full/capacity/aebd3489e2a7a97b/complete.json",
+      "below": {
+        "maximum": 247.51171875,
+        "mean": 14.65646711328125,
+        "median": 14.62109375,
+        "minimum": 14.015625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 18650,
+        "p05": 14.25,
+        "p95": 14.890625,
+        "q1": 14.47265625,
+        "q3": 14.73828125,
+        "stddev": 1.1394149910120406,
+        "zero_samples": 0
+      },
+      "below_record": "machines/cascadelake/full/capacity/50f66977c835a802/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        25,
+        25
+      ],
+      "lower_bytes": 524288,
+      "ratio": 2.310980496927598,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 1441792
+    },
+    {
+      "above": {
+        "maximum": 434.1171875,
+        "mean": 55.60889199609375,
+        "median": 53.609375,
+        "minimum": 46.203125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 49162,
+        "p05": 49.421875,
+        "p95": 68.0703125,
+        "q1": 51.37109375,
+        "q3": 58.08984375,
+        "stddev": 6.2429934233476745,
+        "zero_samples": 0
+      },
+      "above_record": "machines/cascadelake/full/capacity/a8c119c65bfae2ec/complete.json",
+      "below": {
+        "maximum": 275.578125,
+        "mean": 47.77390101953125,
+        "median": 47.01953125,
+        "minimum": 40.62890625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 41935,
+        "p05": 44.28515625,
+        "p95": 53.18359375,
+        "q1": 45.70703125,
+        "q3": 48.8984375,
+        "stddev": 3.5630559789529266,
+        "zero_samples": 0
+      },
+      "below_record": "machines/cascadelake/full/capacity/d0d592e2c380fb57/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        26,
+        25
+      ],
+      "lower_bytes": 2359296,
+      "ratio": 1.140151200465232,
+      "same_logical_cpu": false,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 2621440
+    },
+    {
+      "above": {
+        "maximum": 848.5859375,
+        "mean": 234.08826996484376,
+        "median": 225.95703125,
+        "minimum": 151.74609375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 77709,
+        "p05": 201.20703125,
+        "p95": 298.8634765624997,
+        "q1": 215.77734375,
+        "q3": 237.72265625,
+        "stddev": 40.70429055096879,
+        "zero_samples": 0
+      },
+      "above_record": "machines/cascadelake/full/capacity/bb8f195574b8069a/complete.json",
+      "below": {
+        "maximum": 708.26171875,
+        "mean": 149.74158360546875,
+        "median": 151.25,
+        "minimum": 57.5078125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 32689,
+        "p05": 112.4609375,
+        "p95": 179.359375,
+        "q1": 139.47265625,
+        "q3": 162.89453125,
+        "stddev": 20.250859008147106,
+        "zero_samples": 0
+      },
+      "below_record": "machines/cascadelake/full/capacity/c4b6829afa284d31/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        25,
+        25
+      ],
+      "lower_bytes": 4194304,
+      "ratio": 1.493930785123967,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 7864320
+    }
+  ],
+  "chosen_primary_batch": 512,
+  "clean_points": 289,
+  "collection_complete": true,
+  "course_cpu_model": "cascadelake constraint; exact allocated model recorded separately",
+  "coverage_issues": [],
+  "cpu_model": "Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz",
+  "host": "cascadelake",
+  "inclusion_policy": {
+    "reason": "Same-core pressure may directly evict upper copies; lower-level-only eviction and upper residency were not independently established. No global inclusion/exclusion classification.",
+    "status": "uncertain"
+  },
+  "integrity_or_quality_issues": [],
+  "isa": "x86_64",
+  "l1_candidate": {
+    "capacity_endpoint_cpus": [
+      26,
+      26
+    ],
+    "capacity_interval_bytes": [
+      32768,
+      36864
+    ],
+    "capacity_rule": "First departure by >10% from median of first three small-footprint centers; interval, not a rounded cache answer",
+    "capacity_sources": [
+      "machines/cascadelake/full/capacity/88507a7d2ae5e605/complete.json",
+      "machines/cascadelake/full/capacity/537b9a090d377e7b/complete.json"
+    ],
+    "caveat": "Conditional L1 interpretation of the smallest timing class. All numerical candidates come from measured plateaus and repeated spatial/conflict edges; no specification value is used.",
+    "conflict_strides": [
+      4096,
+      16384,
+      65536,
+      262144
+    ],
+    "derived_set_interval": [
+      64.0,
+      72.0
+    ],
+    "geometry": {
+      "capacity_candidate_bytes": 32768,
+      "derived_sets": 64,
+      "line_candidate_bytes": 64,
+      "status": "internally consistent candidate; smallest tested agreeing stride may not be fundamental; no rounding applied",
+      "tested_index_period_bytes": 4096,
+      "ways_candidate": 8
+    },
+    "hit_class_median_ns": 1.1517465114451004,
+    "hit_class_statistics": {
+      "maximum": 73.265625,
+      "mean": 3.34530037890625,
+      "median": 3.33203125,
+      "minimum": 3.32421875,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 4472,
+      "p05": 3.328125,
+      "p95": 3.3359375,
+      "q1": 3.328125,
+      "q3": 3.3359375,
+      "stddev": 0.48492039189424135,
+      "zero_samples": 0
+    },
+    "line_bytes": 64,
+    "line_rule": "Unique spatial edge shared by at least two fixed-footprint sweeps; 8-byte offset resolution; transfer-granularity candidate",
+    "nanosecond_conversion": "per-run timer/CLOCK_MONOTONIC_RAW calibration; approximate",
+    "next_class_statistics": {
+      "maximum": 95.16015625,
+      "mean": 4.53120668359375,
+      "median": 4.515625,
+      "minimum": 4.12109375,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 4404,
+      "p05": 4.3359375,
+      "p95": 4.67578125,
+      "q1": 4.43359375,
+      "q3": 4.58984375,
+      "stddev": 0.677396210868649,
+      "zero_samples": 0
+    },
+    "status": "timing-supported, internally consistent L1 candidate with capacity interval",
+    "unit": "TSC_ticks/access",
+    "ways": 8,
+    "ways_rule": "Unique conflict threshold reproduced at three or more strides; conditional virtual-index interpretation"
+  },
+  "line_size": {
+    "candidates": [
+      {
+        "footprint": 524288,
+        "offset_lower": 56,
+        "offset_upper": 64,
+        "sources": [
+          "machines/cascadelake/full/line_size/d4f6690422559771/complete.json",
+          "machines/cascadelake/full/line_size/16add745949c27be/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 56,
+        "offset_upper": 64,
+        "sources": [
+          "machines/cascadelake/full/line_size/7043913155835203/complete.json",
+          "machines/cascadelake/full/line_size/268d244815b7c11f/complete.json"
+        ]
+      }
+    ],
+    "limitation": "Random 512-byte blocks have fixed allocation and node count; physical line occupancy changes with offset. Prefetching and residency can obscure or imitate a boundary.",
+    "status": "candidate spatial granularity only; distinct line sizes per cache level not established"
+  },
+  "missing_families": [],
+  "noisy_points": 3,
+  "observed_cpus": [
+    25,
+    26
+  ],
+  "observed_numa_nodes": [
+    1
+  ],
+  "observed_sockets": [
+    1
+  ],
+  "page_control": {
+    "alternate_batch_control_points": 0,
+    "attempts": 19,
+    "complete": true,
+    "interpretation": "Changed latency with confirmed huge backing is consistent with translation effects, but allocation/physical indexing and changed cores may also contribute. No cache geometry is read from page metadata.",
+    "issues": [],
+    "missing_working_sets": [],
+    "pairs": [
+      {
+        "baseline_cpu": 25,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/cascadelake/full/capacity/a2061cd0d0459e0e/complete.json",
+        "baseline_statistics": {
+          "maximum": 73.265625,
+          "mean": 3.34530037890625,
+          "median": 3.33203125,
+          "minimum": 3.32421875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 4472,
+          "p05": 3.328125,
+          "p95": 3.3359375,
+          "q1": 3.328125,
+          "q3": 3.3359375,
+          "stddev": 0.48492039189424135,
+          "zero_samples": 0
+        },
+        "bytes": 1024,
+        "control_cpu": 14,
+        "control_raw": "machines/cascadelake/page_control/page_control/7652f53c8295cc01/attempt-1789183648578085735/samples.u64.gz",
+        "control_record": "machines/cascadelake/page_control/page_control/7652f53c8295cc01/complete.json",
+        "control_sha256": "8892c6ba7b68a328a5cb5b9a1816a1ce794c2615279a84fd87bc29afd7ad982c",
+        "control_statistics": {
+          "maximum": 126.859375,
+          "mean": 3.34568433203125,
+          "median": 3.33203125,
+          "minimum": 3.32421875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 8538,
+          "p05": 3.328125,
+          "p95": 3.3359375,
+          "q1": 3.328125,
+          "q3": 3.3359375,
+          "stddev": 0.4950462717614593,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1024,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 26,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/cascadelake/full/capacity/e60873bc36eeda47/complete.json",
+        "baseline_statistics": {
+          "maximum": 76.55078125,
+          "mean": 3.3451602109375,
+          "median": 3.33203125,
+          "minimum": 3.32421875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 6328,
+          "p05": 3.328125,
+          "p95": 3.3359375,
+          "q1": 3.33203125,
+          "q3": 3.3359375,
+          "stddev": 0.4898597994262305,
+          "zero_samples": 0
+        },
+        "bytes": 4096,
+        "control_cpu": 24,
+        "control_raw": "machines/cascadelake/page_control/page_control/742a26d8d16caf54/attempt-1789183639579136316/samples.u64.gz",
+        "control_record": "machines/cascadelake/page_control/page_control/742a26d8d16caf54/complete.json",
+        "control_sha256": "3c378849e133f3231f29c24ddfb8629ff0adc231fe412b105a983cf8d337a80c",
+        "control_statistics": {
+          "maximum": 126.7109375,
+          "mean": 3.34375504296875,
+          "median": 3.33203125,
+          "minimum": 3.32421875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 2437,
+          "p05": 3.328125,
+          "p95": 3.3359375,
+          "q1": 3.328125,
+          "q3": 3.3359375,
+          "stddev": 0.49552231322393103,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4096,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 25,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/cascadelake/full/capacity/1089444a01cfc92f/complete.json",
+        "baseline_statistics": {
+          "maximum": 97.25,
+          "mean": 3.347157453125,
+          "median": 3.33203125,
+          "minimum": 3.32421875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 10193,
+          "p05": 3.328125,
+          "p95": 3.3359375,
+          "q1": 3.33203125,
+          "q3": 3.3359375,
+          "stddev": 0.5097135740536507,
+          "zero_samples": 0
+        },
+        "bytes": 16384,
+        "control_cpu": 14,
+        "control_raw": "machines/cascadelake/page_control/page_control/09ef7df9f81f7f93/attempt-1789183927900467797/samples.u64.gz",
+        "control_record": "machines/cascadelake/page_control/page_control/09ef7df9f81f7f93/complete.json",
+        "control_sha256": "ff59a290c22ed695fe1117d2a3b82b47731cff8106519a7743127a216882c2c3",
+        "control_statistics": {
+          "maximum": 118.671875,
+          "mean": 3.37132873046875,
+          "median": 3.33203125,
+          "minimum": 3.32421875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 78462,
+          "p05": 3.328125,
+          "p95": 3.58203125,
+          "q1": 3.328125,
+          "q3": 3.3359375,
+          "stddev": 0.7694576072585868,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16384,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 26,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/cascadelake/full/capacity/a1613987f08ccb36/complete.json",
+        "baseline_statistics": {
+          "maximum": 71.296875,
+          "mean": 7.88215683203125,
+          "median": 7.87890625,
+          "minimum": 7.40625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 2221,
+          "p05": 7.46875,
+          "p95": 8.17578125,
+          "q1": 7.703125,
+          "q3": 8.03515625,
+          "stddev": 0.7730840443867241,
+          "zero_samples": 0
+        },
+        "bytes": 65536,
+        "control_cpu": 14,
+        "control_raw": "machines/cascadelake/page_control/page_control/c393682c95f11b8d/attempt-1789183919288700684/samples.u64.gz",
+        "control_record": "machines/cascadelake/page_control/page_control/c393682c95f11b8d/complete.json",
+        "control_sha256": "3a6073b53a1596cf6ff4c99c83f5de4048e2d14632bc07cbe8b6f1a99fdc6b9d",
+        "control_statistics": {
+          "maximum": 623.01953125,
+          "mean": 7.71327993359375,
+          "median": 7.71484375,
+          "minimum": 6.875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 3802,
+          "p05": 7.06640625,
+          "p95": 8.203125,
+          "q1": 7.3515625,
+          "q3": 7.9375,
+          "stddev": 1.5688529896132877,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 65536,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 25,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/cascadelake/full/capacity/27b21893ade16f10/complete.json",
+        "baseline_statistics": {
+          "maximum": 327.77734375,
+          "mean": 10.6401699375,
+          "median": 10.59375,
+          "minimum": 10.296875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 6233,
+          "p05": 10.3984375,
+          "p95": 10.80078125,
+          "q1": 10.51953125,
+          "q3": 10.6796875,
+          "stddev": 1.0372536197693263,
+          "zero_samples": 0
+        },
+        "bytes": 262144,
+        "control_cpu": 14,
+        "control_raw": "machines/cascadelake/page_control/page_control/ea97dc017b281ef5/attempt-1789183932846920785/samples.u64.gz",
+        "control_record": "machines/cascadelake/page_control/page_control/ea97dc017b281ef5/complete.json",
+        "control_sha256": "3ebf38e91f1596667496edb75071859c96ec5c68980421f09755feb777899501",
+        "control_statistics": {
+          "maximum": 221.26953125,
+          "mean": 10.23483914453125,
+          "median": 10.234375,
+          "minimum": 9.45703125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 2366,
+          "p05": 9.58203125,
+          "p95": 10.7421875,
+          "q1": 9.7421875,
+          "q3": 10.54296875,
+          "stddev": 1.8076679980963655,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 262144,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 25,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/cascadelake/full/capacity/b89afa08c865a1d6/complete.json",
+        "baseline_statistics": {
+          "maximum": 369.6328125,
+          "mean": 17.26823166015625,
+          "median": 17.06640625,
+          "minimum": 16.0859375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 48529,
+          "p05": 16.6015625,
+          "p95": 18.26171875,
+          "q1": 16.84375,
+          "q3": 17.4140625,
+          "stddev": 1.5029624065133935,
+          "zero_samples": 0
+        },
+        "bytes": 1048576,
+        "control_cpu": 14,
+        "control_raw": "machines/cascadelake/page_control/page_control/eb86a5e6e74cc28b/attempt-1789183653085435786/samples.u64.gz",
+        "control_record": "machines/cascadelake/page_control/page_control/eb86a5e6e74cc28b/attempt-1789183653085435786/run.json",
+        "control_sha256": "b856def907eac37e8f50dcbef0d2872c21358dc0861aa3da0022e49045cdd9ab",
+        "control_statistics": {
+          "maximum": 4166.46875,
+          "mean": 11.62147389453125,
+          "median": 11.20703125,
+          "minimum": 10.125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 72315,
+          "p05": 10.30078125,
+          "p95": 14.07421875,
+          "q1": 10.50390625,
+          "q3": 11.62109375,
+          "stddev": 5.530988349744633,
+          "zero_samples": 0
+        },
+        "flags": [
+          "frequent involuntary context switches"
+        ],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1048576,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_noisy",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 25,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/cascadelake/full/capacity/c4b6829afa284d31/complete.json",
+        "baseline_statistics": {
+          "maximum": 708.26171875,
+          "mean": 149.74158360546875,
+          "median": 151.25,
+          "minimum": 57.5078125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 32689,
+          "p05": 112.4609375,
+          "p95": 179.359375,
+          "q1": 139.47265625,
+          "q3": 162.89453125,
+          "stddev": 20.250859008147106,
+          "zero_samples": 0
+        },
+        "bytes": 4194304,
+        "control_cpu": 24,
+        "control_raw": "machines/cascadelake/page_control/page_control/946ad6dfc55470b4/attempt-1789183618565380009/samples.u64.gz",
+        "control_record": "machines/cascadelake/page_control/page_control/946ad6dfc55470b4/complete.json",
+        "control_sha256": "c189d4c00922289bc6f0d9104ec0db47ed6d0b976e1e237825eff7cbedbf26a0",
+        "control_statistics": {
+          "maximum": 375.5703125,
+          "mean": 51.2752436796875,
+          "median": 51.10546875,
+          "minimum": 46.4609375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 16136,
+          "p05": 49.4375,
+          "p95": 52.91796875,
+          "q1": 50.39453125,
+          "q3": 51.85546875,
+          "stddev": 2.1251403319643605,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 4194304,
+        "huge_backing_before_bytes": 4194304,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 4096,
+          "anon_huge_before_kib": 4096,
+          "anon_huge_kib": 4096,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4194304,
+          "mapped_bytes": 4194304,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 26,
+        "baseline_qualification": "verified_noisy",
+        "baseline_record": "machines/cascadelake/full/capacity/f457b4c719bde7ec/attempt-1789179781599244281/run.json",
+        "baseline_statistics": {
+          "maximum": 1455.2109375,
+          "mean": 254.57557939453125,
+          "median": 248.37890625,
+          "minimum": 206.859375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 78322,
+          "p05": 232.140625,
+          "p95": 306.19921875,
+          "q1": 241.265625,
+          "q3": 257.046875,
+          "stddev": 29.111844706913406,
+          "zero_samples": 0
+        },
+        "bytes": 16777216,
+        "control_cpu": 14,
+        "control_raw": "machines/cascadelake/page_control/page_control/e952e84d554347d9/attempt-1789183941121281157/samples.u64.gz",
+        "control_record": "machines/cascadelake/page_control/page_control/e952e84d554347d9/attempt-1789183941121281157/run.json",
+        "control_sha256": "7fd64df7099b7302ad431d10ecf3260c8e58a66543e552444af73f53ff544c45",
+        "control_statistics": {
+          "maximum": 24020.05078125,
+          "mean": 354.62093312890624,
+          "median": 372.87890625,
+          "minimum": 55.33203125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 21320,
+          "p05": 137.03105468750002,
+          "p95": 529.6953125,
+          "q1": 282.21875,
+          "q3": 411.96875,
+          "stddev": 116.60751290796387,
+          "zero_samples": 0
+        },
+        "flags": [
+          "block median drift exceeds 20 percent"
+        ],
+        "huge_backing_after_bytes": 16777216,
+        "huge_backing_before_bytes": 16777216,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 16384,
+          "anon_huge_before_kib": 16384,
+          "anon_huge_kib": 16384,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16777216,
+          "mapped_bytes": 16777216,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_noisy",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 25,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/cascadelake/full/capacity/72d9857904afde50/complete.json",
+        "baseline_statistics": {
+          "maximum": 4473.53125,
+          "mean": 269.4117213320313,
+          "median": 268.22265625,
+          "minimum": 236.51171875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 29043,
+          "p05": 254.09375,
+          "p95": 289.15234375,
+          "q1": 262.0390625,
+          "q3": 275.11328125,
+          "stddev": 13.254038004341428,
+          "zero_samples": 0
+        },
+        "bytes": 67108864,
+        "control_cpu": 24,
+        "control_raw": "machines/cascadelake/page_control/page_control/e78f1f36b5bdfcc9/attempt-1789183684311602307/samples.u64.gz",
+        "control_record": "machines/cascadelake/page_control/page_control/e78f1f36b5bdfcc9/attempt-1789183684311602307/run.json",
+        "control_sha256": "991aaa700d95893fca2c6ce0f9051ff1dbc4fb82241e2ddc01b18939a8b85a7c",
+        "control_statistics": {
+          "maximum": 4360.390625,
+          "mean": 249.8333322578125,
+          "median": 237.34375,
+          "minimum": 192.4140625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 109373,
+          "p05": 217.390625,
+          "p95": 322.30078125,
+          "q1": 229.515625,
+          "q3": 254.09765625,
+          "stddev": 41.707012302628875,
+          "zero_samples": 0
+        },
+        "flags": [
+          "frequent involuntary context switches",
+          "block median drift exceeds 20 percent"
+        ],
+        "huge_backing_after_bytes": 67108864,
+        "huge_backing_before_bytes": 67108864,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 65536,
+          "anon_huge_before_kib": 65536,
+          "anon_huge_kib": 65536,
+          "kernel_page_kib": 4,
+          "logical_bytes": 67108864,
+          "mapped_bytes": 67108864,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_noisy",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 26,
+        "baseline_qualification": "verified_noisy",
+        "baseline_record": "machines/cascadelake/full/capacity/9997ce58d3098d2d/attempt-1789178876388188310/run.json",
+        "baseline_statistics": {
+          "maximum": 3988.2265625,
+          "mean": 302.76056882421875,
+          "median": 293.2578125,
+          "minimum": 253.859375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 74189,
+          "p05": 274.94140625,
+          "p95": 361.50390625,
+          "q1": 284.86328125,
+          "q3": 304.42578125,
+          "stddev": 42.947301101661324,
+          "zero_samples": 0
+        },
+        "bytes": 268435456,
+        "control_cpu": 14,
+        "control_raw": "machines/cascadelake/page_control/page_control/8dc216dca06e838f/attempt-1789184146683905669/samples.u64.gz",
+        "control_record": "machines/cascadelake/page_control/page_control/8dc216dca06e838f/complete.json",
+        "control_sha256": "e70f9b9dc2b897098fe15927cdf7674e2d34b38b0259f9756ac5593250e03bd0",
+        "control_statistics": {
+          "maximum": 2396.22265625,
+          "mean": 437.9179029609375,
+          "median": 422.3828125,
+          "minimum": 372.7734375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 111213,
+          "p05": 401.53125,
+          "p95": 541.0234375,
+          "q1": 413.6796875,
+          "q3": 436.3671875,
+          "stddev": 57.34053130640202,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 268435456,
+        "huge_backing_before_bytes": 268435456,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 262144,
+          "anon_huge_before_kib": 262144,
+          "anon_huge_kib": 262144,
+          "kernel_page_kib": 4,
+          "logical_bytes": 268435456,
+          "mapped_bytes": 268435456,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      }
+    ],
+    "unavailable": false
+  },
+  "plots": [
+    "plots/cascadelake-capacity.svg",
+    "plots/cascadelake-line_size.svg",
+    "plots/cascadelake-associativity.svg",
+    "plots/cascadelake-inclusion_policy.svg",
+    "plots/cascadelake-latency.svg",
+    "plots/cascadelake-software_metric.svg",
+    "plots/cascadelake-timer.svg",
+    "plots/cascadelake-loop.svg",
+    "plots/cascadelake-boundary-distributions.svg",
+    "plots/cascadelake-page-control.svg"
+  ],
+  "primary_collection_complete": true,
+  "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+  "software_metric": {
+    "block_rate_range": [
+      0.9913,
+      1.0
+    ],
+    "calibration_and_workload_cpus": [
+      25,
+      25,
+      25
+    ],
+    "classified_hits": 999255,
+    "estimate": 0.999255,
+    "limitations": "Single-load timer overhead/quantization; smallest/largest footprints are empirical proxies, not PMU-confirmed classes. Adjacent samples are correlated. Wilson intervals omit calibration/classification error; threshold-sensitivity and block ranges expose additional uncertainty. Phase-II validation not performed.",
+    "same_logical_cpu": true,
+    "sources": [
+      "machines/cascadelake/full/software_metric/00cef01de4beae11/complete.json",
+      "machines/cascadelake/full/software_metric/321cb4ea8263334b/complete.json",
+      "machines/cascadelake/full/software_metric/484f3d0a0a6e6e81/complete.json"
+    ],
+    "standardized_workload_bytes": 1048576,
+    "status": "timing-classified cache-residency proxy; not a validated hardware hit rate",
+    "threshold_raw_ticks": 171.0,
+    "threshold_sensitivity_limits_raw_ticks": [
+      62.0,
+      280.0
+    ],
+    "threshold_sensitivity_rate_range": [
+      0.007973,
+      0.999443
+    ],
+    "total_timed_accesses": 1000000,
+    "unit": "TSC_ticks",
+    "wilson_95_independent_sample_assumption": [
+      0.999199570133425,
+      0.9993065940052949
+    ]
+  },
+  "unsuccessful_attempts": 23,
+  "verified_points": 292
+}

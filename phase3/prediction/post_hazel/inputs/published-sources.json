@@ -1,0 +1,477 @@
+{
+  "retrieved_utc": "2026-09-13",
+  "sources": {
+    "intel3": {
+      "title": "Intel third-generation Xeon Scalable overview",
+      "url": "https://www.intel.com/content/www/us/en/developer/articles/technical/third-generation-xeon-scalable-family-overview.html",
+      "locator": "Table 1",
+      "facts": "Cascade Lake: L1D 32 KiB, private L2 1 MiB, 14 nm. Ice Lake-SP: L1D 48 KiB, private L2 1.25 MiB, 10 nm."
+    },
+    "haswellsku": {
+      "title": "Intel Xeon E5 v3 family product table",
+      "url": "https://www.intel.com/content/www/us/en/ark/products/series/78583/intel-xeon-processor-e5-v3-family.html",
+      "locator": "E5-2650 v3 row",
+      "facts": "10 cores, 25 MB Smart Cache, Q3 2014."
+    },
+    "cascadesku": {
+      "title": "Intel Xeon Gold 6226R specifications",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/199347/intel-xeon-gold-6226r-processor-22m-cache-2-90-ghz/specifications.html",
+      "locator": "Essentials and CPU Specifications",
+      "facts": "16 cores, 22 MB cache; SKU launch 2020 differs from generation year 2019."
+    },
+    "icesku": {
+      "title": "Intel Ice Lake product table",
+      "url": "https://www.intel.com/content/www/us/en/ark/products/codename/74979/products-formerly-ice-lake.html",
+      "locator": "Xeon Platinum 8358 row",
+      "facts": "32 cores, 48 MB cache, Q2 2021."
+    },
+    "intelcache": {
+      "title": "Intel cache hierarchy changes",
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000027820/processors/intel-xeon-processors.html",
+      "locator": "Resolution",
+      "facts": "Prior E5 architectures use inclusive shared LLC; Xeon Scalable shifts to non-inclusive LLC."
+    },
+    "fog": {
+      "title": "Agner Fog, The microarchitecture of Intel, AMD, and VIA CPUs",
+      "url": "https://www.agner.org/optimize/microarchitecture.pdf",
+      "locator": "2026-05-23 edition: Tables 10.2 (p147), 11.2 (p160), 12.3 (p169), 25.1 (p258); generic core references only",
+      "facts": "Haswell core L1D 32 KiB/8 ways/64 B; L2 256 KiB/8 ways/64 B. Ice Lake core L1D 48 KiB/12 ways/64 B. Generic core reference; client LLC figures are not used for Xeon."
+    },
+    "intelopt": {
+      "title": "Intel Optimization Reference Manual Volume 1",
+      "url": "https://cdrdv2-public.intel.com/814198/248966-Optimization-Reference-Manual-V1-049.pdf",
+      "locator": "section 2.5.1.1",
+      "facts": "Skylake-server lineage private L2: 1 MiB, 16 ways, 64-byte line; applied to Cascade Lake with Intel generation-overview capacity corroboration."
+    },
+    "genoa": {
+      "title": "AMD EPYC 9004 BIOS and Workload Tuning Guide",
+      "url": "https://docs.amd.com/api/khub/documents/goX~9ubv8i5r60A_Qrp3Rw/content",
+      "locator": "58011 rev1.4, sections 2.5\u20132.8, printed pp4\u20136 (PDF pp10\u201312)",
+      "facts": "Genoa: 5nm cores, L1D 32 KiB/8 ways; private L2 1 MiB; all line sizes 64 B. Eight cores share 32 MiB L3 in a non-X Genoa CCD."
+    },
+    "genoasku": {
+      "title": "AMD EPYC 9654 specifications",
+      "url": "https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9654.html",
+      "locator": "General Specifications",
+      "facts": "96 cores, package L3 384 MB, launch 2022-11-10."
+    },
+    "turin": {
+      "title": "AMD fifth-generation EPYC architecture white paper",
+      "url": "https://docs.amd.com/api/khub/documents/UIqhAbjRhgnzgzzdVU4pUw/content",
+      "locator": "70353 revB; printed pp6,8 (PDF pp6,8)",
+      "facts": "Zen5: 48 KiB L1D, 1 MiB L2 per core, 32 MiB L3 shared by eight cores in a CCD. Core dies use 4 nm; I/O die uses 6 nm (as in Genoa); printed p5."
+    },
+    "turinsku": {
+      "title": "AMD EPYC 9655 specifications",
+      "url": "https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9655.html",
+      "locator": "General Specifications",
+      "facts": "96 cores, package L3 384 MB, launch 2024-10-10."
+    },
+    "zen5slides": {
+      "title": "AMD Zen5 Architecture Deep Dive, Tech Day 2024 (AMD-authored slides, mirrored)",
+      "url": "https://www.slideshare.net/slideshow/amd-zen-5-architecture-deep-dive-from-tech-day/270466492",
+      "locator": "slides 13\u201314",
+      "facts": "Zen4 L1D 32 KiB/8 ways and L2 1 MiB/8 ways; Zen5 L1D 48 KiB/12 ways and L2 1 MiB/16 ways. Zen5 complex L3 32 MiB/16 ways, filled from L2 victims. Core-level evidence, not a SKU latency guarantee."
+    },
+    "haswellinclusive": {
+      "title": "Intel, Enabling NFV to Deliver on its Promise",
+      "url": "https://www.intel.com/content/dam/www/public/us/en/documents/solution-briefs/nfv-packet-processing-brief.pdf",
+      "locator": "E5-2600 v3 cache hierarchy diagram (Inclusive Shared L3 Cache)",
+      "facts": "E5-2600 v3 has an inclusive shared L3 cache."
+    }
+  },
+  "rows": [
+    {
+      "constraint": "haswell",
+      "metric": "l1_capacity",
+      "published_value": 32,
+      "unit": "KiB",
+      "source_id": "fog",
+      "qualification": "private core data cache"
+    },
+    {
+      "constraint": "haswell",
+      "metric": "l2_capacity",
+      "published_value": 256,
+      "unit": "KiB",
+      "source_id": "fog",
+      "qualification": "private core unified cache"
+    },
+    {
+      "constraint": "haswell",
+      "metric": "llc_capacity",
+      "published_value": 25,
+      "unit": "MiB",
+      "source_id": "haswellsku",
+      "qualification": "socket shared LLC; correspondence to measured domain conditional"
+    },
+    {
+      "constraint": "haswell",
+      "metric": "llc_package",
+      "published_value": 25,
+      "unit": "MiB",
+      "source_id": "haswellsku",
+      "qualification": "package total; separate from pinned-core timing inference"
+    },
+    {
+      "constraint": "haswell",
+      "metric": "llc_domain_cores",
+      "published_value": 10,
+      "unit": "cores",
+      "source_id": "haswellsku",
+      "qualification": "published domain geometry; actual experimental cache allocation unverified"
+    },
+    {
+      "constraint": "haswell",
+      "metric": "l1_associativity",
+      "published_value": 8,
+      "unit": "ways",
+      "source_id": "fog",
+      "qualification": "core organization"
+    },
+    {
+      "constraint": "haswell",
+      "metric": "line_size",
+      "published_value": 64,
+      "unit": "bytes",
+      "source_id": "fog",
+      "qualification": "published core line granularity"
+    },
+    {
+      "constraint": "haswell",
+      "metric": "l2_associativity",
+      "published_value": 8,
+      "unit": "ways",
+      "source_id": "fog",
+      "qualification": "core-family reference"
+    },
+    {
+      "constraint": "haswell",
+      "metric": "inclusion",
+      "published_value": "inclusive",
+      "unit": "category",
+      "source_id": "haswellinclusive",
+      "qualification": "LLC policy; not every pairwise cache relationship"
+    },
+    {
+      "constraint": "cascadelake",
+      "metric": "l1_capacity",
+      "published_value": 32,
+      "unit": "KiB",
+      "source_id": "intel3",
+      "qualification": "private core data cache"
+    },
+    {
+      "constraint": "cascadelake",
+      "metric": "l2_capacity",
+      "published_value": 1024,
+      "unit": "KiB",
+      "source_id": "intel3",
+      "qualification": "private core unified cache"
+    },
+    {
+      "constraint": "cascadelake",
+      "metric": "llc_capacity",
+      "published_value": 22,
+      "unit": "MiB",
+      "source_id": "cascadesku",
+      "qualification": "socket shared LLC; correspondence to measured domain conditional"
+    },
+    {
+      "constraint": "cascadelake",
+      "metric": "llc_package",
+      "published_value": 22,
+      "unit": "MiB",
+      "source_id": "cascadesku",
+      "qualification": "package total; separate from pinned-core timing inference"
+    },
+    {
+      "constraint": "cascadelake",
+      "metric": "llc_domain_cores",
+      "published_value": 16,
+      "unit": "cores",
+      "source_id": "cascadesku",
+      "qualification": "published domain geometry; actual experimental cache allocation unverified"
+    },
+    {
+      "constraint": "cascadelake",
+      "metric": "l1_associativity",
+      "published_value": 8,
+      "unit": "ways",
+      "source_id": "fog",
+      "qualification": "shared core lineage; no separate SKU-specific claim"
+    },
+    {
+      "constraint": "cascadelake",
+      "metric": "line_size",
+      "published_value": 64,
+      "unit": "bytes",
+      "source_id": "fog",
+      "qualification": "published core line granularity"
+    },
+    {
+      "constraint": "cascadelake",
+      "metric": "l2_associativity",
+      "published_value": 16,
+      "unit": "ways",
+      "source_id": "intelopt",
+      "qualification": "core-family reference"
+    },
+    {
+      "constraint": "cascadelake",
+      "metric": "inclusion",
+      "published_value": "non-inclusive",
+      "unit": "category",
+      "source_id": "intelcache",
+      "qualification": "LLC policy; not every pairwise cache relationship"
+    },
+    {
+      "constraint": "icelake_8358",
+      "metric": "l1_capacity",
+      "published_value": 48,
+      "unit": "KiB",
+      "source_id": "intel3",
+      "qualification": "private core data cache"
+    },
+    {
+      "constraint": "icelake_8358",
+      "metric": "l2_capacity",
+      "published_value": 1280,
+      "unit": "KiB",
+      "source_id": "intel3",
+      "qualification": "private core unified cache"
+    },
+    {
+      "constraint": "icelake_8358",
+      "metric": "llc_capacity",
+      "published_value": 48,
+      "unit": "MiB",
+      "source_id": "icesku",
+      "qualification": "socket shared LLC; correspondence to measured domain conditional"
+    },
+    {
+      "constraint": "icelake_8358",
+      "metric": "llc_package",
+      "published_value": 48,
+      "unit": "MiB",
+      "source_id": "icesku",
+      "qualification": "package total; separate from pinned-core timing inference"
+    },
+    {
+      "constraint": "icelake_8358",
+      "metric": "llc_domain_cores",
+      "published_value": 32,
+      "unit": "cores",
+      "source_id": "icesku",
+      "qualification": "published domain geometry; actual experimental cache allocation unverified"
+    },
+    {
+      "constraint": "icelake_8358",
+      "metric": "l1_associativity",
+      "published_value": 12,
+      "unit": "ways",
+      "source_id": "fog",
+      "qualification": "core organization"
+    },
+    {
+      "constraint": "icelake_8358",
+      "metric": "line_size",
+      "published_value": 64,
+      "unit": "bytes",
+      "source_id": "fog",
+      "qualification": "published core line granularity"
+    },
+    {
+      "constraint": "icelake_8358",
+      "metric": "inclusion",
+      "published_value": "non-inclusive",
+      "unit": "category",
+      "source_id": "intelcache",
+      "qualification": "LLC policy; not every pairwise cache relationship"
+    },
+    {
+      "constraint": "genoa",
+      "metric": "l1_capacity",
+      "published_value": 32,
+      "unit": "KiB",
+      "source_id": "genoa",
+      "qualification": "private core data cache"
+    },
+    {
+      "constraint": "genoa",
+      "metric": "l2_capacity",
+      "published_value": 1024,
+      "unit": "KiB",
+      "source_id": "genoa",
+      "qualification": "private core unified cache"
+    },
+    {
+      "constraint": "genoa",
+      "metric": "llc_capacity",
+      "published_value": 32,
+      "unit": "MiB",
+      "source_id": "genoa",
+      "qualification": "one 8-core CCD; not 384 MiB package sum"
+    },
+    {
+      "constraint": "genoa",
+      "metric": "llc_package",
+      "published_value": 384,
+      "unit": "MiB",
+      "source_id": "genoasku",
+      "qualification": "package total; separate from pinned-core timing inference"
+    },
+    {
+      "constraint": "genoa",
+      "metric": "llc_domain_cores",
+      "published_value": 8,
+      "unit": "cores",
+      "source_id": "genoa",
+      "qualification": "published domain geometry; actual experimental cache allocation unverified"
+    },
+    {
+      "constraint": "genoa",
+      "metric": "l1_associativity",
+      "published_value": 8,
+      "unit": "ways",
+      "source_id": "genoa",
+      "qualification": "core organization"
+    },
+    {
+      "constraint": "genoa",
+      "metric": "line_size",
+      "published_value": 64,
+      "unit": "bytes",
+      "source_id": "genoa",
+      "qualification": "published core line granularity"
+    },
+    {
+      "constraint": "genoa",
+      "metric": "l2_associativity",
+      "published_value": 8,
+      "unit": "ways",
+      "source_id": "zen5slides",
+      "qualification": "core-family reference"
+    },
+    {
+      "constraint": "genoa",
+      "metric": "inclusion",
+      "published_value": "victim-like L3 fill",
+      "unit": "category",
+      "source_id": "zen5slides",
+      "qualification": "L2-victim fill does not establish strict global exclusivity"
+    },
+    {
+      "constraint": "turin",
+      "metric": "l1_capacity",
+      "published_value": 48,
+      "unit": "KiB",
+      "source_id": "turin",
+      "qualification": "private core data cache"
+    },
+    {
+      "constraint": "turin",
+      "metric": "l2_capacity",
+      "published_value": 1024,
+      "unit": "KiB",
+      "source_id": "turin",
+      "qualification": "private core unified cache"
+    },
+    {
+      "constraint": "turin",
+      "metric": "llc_capacity",
+      "published_value": 32,
+      "unit": "MiB",
+      "source_id": "turin",
+      "qualification": "one 8-core CCD; not 384 MiB package sum"
+    },
+    {
+      "constraint": "turin",
+      "metric": "llc_package",
+      "published_value": 384,
+      "unit": "MiB",
+      "source_id": "turinsku",
+      "qualification": "package total; separate from pinned-core timing inference"
+    },
+    {
+      "constraint": "turin",
+      "metric": "llc_domain_cores",
+      "published_value": 8,
+      "unit": "cores",
+      "source_id": "turin",
+      "qualification": "published domain geometry; actual experimental cache allocation unverified"
+    },
+    {
+      "constraint": "turin",
+      "metric": "l1_associativity",
+      "published_value": 12,
+      "unit": "ways",
+      "source_id": "zen5slides",
+      "qualification": "core organization"
+    },
+    {
+      "constraint": "turin",
+      "metric": "line_size",
+      "published_value": 64,
+      "unit": "bytes",
+      "source_id": "fog",
+      "qualification": "Zen5 core 64-byte line; generic core reference, not the guide\u2019s SKU-dependent LLC capacity"
+    },
+    {
+      "constraint": "turin",
+      "metric": "l2_associativity",
+      "published_value": 16,
+      "unit": "ways",
+      "source_id": "zen5slides",
+      "qualification": "core-family reference"
+    },
+    {
+      "constraint": "turin",
+      "metric": "inclusion",
+      "published_value": "victim-like L3 fill",
+      "unit": "category",
+      "source_id": "zen5slides",
+      "qualification": "L2-victim fill does not establish strict global exclusivity"
+    },
+    {
+      "constraint": "haswell",
+      "metric": "hierarchy",
+      "published_value": "L1D + L2 + L3",
+      "unit": "cache levels",
+      "source_id": "fog",
+      "qualification": "published data/unified hierarchy; instruction L1 is separate; timing physical-level count remains unresolved"
+    },
+    {
+      "constraint": "cascadelake",
+      "metric": "hierarchy",
+      "published_value": "L1D + L2 + L3",
+      "unit": "cache levels",
+      "source_id": "intel3",
+      "qualification": "published data/unified hierarchy; instruction L1 is separate; timing physical-level count remains unresolved"
+    },
+    {
+      "constraint": "icelake_8358",
+      "metric": "hierarchy",
+      "published_value": "L1D + L2 + L3",
+      "unit": "cache levels",
+      "source_id": "intel3",
+      "qualification": "published data/unified hierarchy; instruction L1 is separate; timing physical-level count remains unresolved"
+    },
+    {
+      "constraint": "genoa",
+      "metric": "hierarchy",
+      "published_value": "L1D + L2 + L3",
+      "unit": "cache levels",
+      "source_id": "genoa",
+      "qualification": "published data/unified hierarchy; instruction L1 is separate; timing physical-level count remains unresolved"
+    },
+    {
+      "constraint": "turin",
+      "metric": "hierarchy",
+      "published_value": "L1D + L2 + L3",
+      "unit": "cache levels",
+      "source_id": "turin",
+      "qualification": "published data/unified hierarchy; instruction L1 is separate; timing physical-level count remains unresolved"
+    }
+  ]
+}

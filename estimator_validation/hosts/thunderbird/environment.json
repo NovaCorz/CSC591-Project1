@@ -1,0 +1,34 @@
+{
+  "allowed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "architecture": "aarch64",
+  "cpu_identity": [
+    "CPU implementer\t: 0x41",
+    "CPU part\t: 0xd0c"
+  ],
+  "host": "thunderbird",
+  "hostname": "thunderbird.ece.ncsu.edu",
+  "platform": "Linux-5.14.0-611.54.1.el9_7.aarch64-aarch64-with-glibc2.34",
+  "source_manifest": {
+    "cache_bench.c": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+    "common.py": "5b88cf6993875cf67ca4a7606fc6d5aee22d9cef5eafbcdbbd515351474d1b10",
+    "partner_repository_commit": "f0b43d2419224bcc16f9fb4e9a187aeeb90da847",
+    "phase1_source_repository_commit": "68f8cfee1400043be18eed9bb6ad8f882848c461",
+    "region_pmu.c": "93735e19787d9a31e41b9be3dc763b2575698784fd84273278b3231845b031ca",
+    "worker.py": "06fc05324e959bebb66719a144269ffa61a36f3e363574d193016bebeadbd1b0"
+  },
+  "timestamp": "2026-09-13T05:25:12.569432+00:00",
+  "topology": {
+    "command": [
+      "lscpu",
+      "-p=CPU,CORE,SOCKET,NODE"
+    ],
+    "stderr": "",
+    "stdout": "# The following is the parsable format, which can be fed to other\n# programs. Each different item in every column has an unique ID\n# starting usually from zero.\n# CPU,Core,Socket,Node\n0,0,0,0\n1,1,0,0\n2,2,0,0\n3,3,0,0\n4,4,0,0\n5,5,0,0\n6,6,0,0\n7,7,0,0\n8,8,0,0\n9,9,0,0\n10,10,0,0\n11,11,0,0\n12,12,0,0\n13,13,0,0\n14,14,0,0\n15,15,0,0\n16,16,0,0\n17,17,0,0\n18,18,0,0\n19,19,0,0\n20,20,0,0\n21,21,0,0\n22,22,0,0\n23,23,0,0\n24,24,0,0\n25,25,0,0\n26,26,0,0\n27,27,0,0\n28,28,0,0\n29,29,0,0\n30,30,0,0\n31,31,0,0\n32,32,0,0\n33,33,0,0\n34,34,0,0\n35,35,0,0\n36,36,0,0\n37,37,0,0\n38,38,0,0\n39,39,0,0\n40,40,0,0\n41,41,0,0\n42,42,0,0\n43,43,0,0\n44,44,0,0\n45,45,0,0\n46,46,0,0\n47,47,0,0\n48,48,0,0\n49,49,0,0\n50,50,0,0\n51,51,0,0\n52,52,0,0\n53,53,0,0\n54,54,0,0\n55,55,0,0\n56,56,0,0\n57,57,0,0\n58,58,0,0\n59,59,0,0\n60,60,0,0\n61,61,0,0\n62,62,0,0\n63,63,0,0\n64,64,0,0\n65,65,0,0\n66,66,0,0\n67,67,0,0\n68,68,0,0\n69,69,0,0\n70,70,0,0\n71,71,0,0\n72,72,0,0\n73,73,0,0\n74,74,0,0\n75,75,0,0\n76,76,0,0\n77,77,0,0\n78,78,0,0\n79,79,0,0\n"
+  }
+}

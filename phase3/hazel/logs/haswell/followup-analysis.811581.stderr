@@ -1,0 +1,39 @@
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib64/python3.9/concurrent/futures/process.py", line 246, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/usr/lib64/python3.9/concurrent/futures/process.py", line 205, in _process_chunk
+    return [fn(*args) for args in chunk]
+  File "/usr/lib64/python3.9/concurrent/futures/process.py", line 205, in <listcomp>
+    return [fn(*args) for args in chunk]
+  File "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/analyze_followup.py", line 573, in host_analysis
+    result['revised_cache_table']=revised_cache_table(result)
+  File "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/analyze_followup.py", line 325, in revised_cache_table
+    host=result['host'];base=json.loads((ROOT/'data_processed'/(host+'-inference.json')).read_text())
+  File "/usr/lib64/python3.9/pathlib.py", line 1194, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/usr/lib64/python3.9/pathlib.py", line 1180, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/usr/lib64/python3.9/pathlib.py", line 1038, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/data_processed/haswell-inference.json'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/analyze_followup.py", line 631, in <module>
+    if __name__=='__main__':main()
+  File "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/analyze_followup.py", line 585, in main
+    results=dict(zip(hosts,pool.map(host_analysis,hosts)))
+  File "/usr/lib64/python3.9/concurrent/futures/process.py", line 562, in _chain_from_iterable_of_lists
+    for element in iterable:
+  File "/usr/lib64/python3.9/concurrent/futures/_base.py", line 609, in result_iterator
+    yield fs.pop().result()
+  File "/usr/lib64/python3.9/concurrent/futures/_base.py", line 446, in result
+    return self.__get_result()
+  File "/usr/lib64/python3.9/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+FileNotFoundError: [Errno 2] No such file or directory: '/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/data_processed/haswell-inference.json'
+srun: error: c207n09: task 0: Exited with exit code 1

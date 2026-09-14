@@ -1,0 +1,221 @@
+{
+  "calibrations": [
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_saturation/db7e6a8f3419cccf/attempt-1789257933883321560",
+            "l2_saturation/eb3491fab865cf3b/attempt-1789257936718175094",
+            "l2_saturation/e102d8bd8a196010/attempt-1789257939874621550"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "seed": 5922733,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_saturation/5fd08aa5feb371df/attempt-1789257943134142499",
+            "l2_saturation/4e7f4e1946ca2d70/attempt-1789257945959909666",
+            "l2_saturation/2edee349211fd2dc/attempt-1789257949755608717"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "seed": 5922834,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_saturation/e97c6c770525d012/attempt-1789257952988628631",
+            "l2_saturation/7a0daf06114f33a0/attempt-1789257955807774112",
+            "l2_saturation/57efd95ddb2d3ddb/attempt-1789257958952770191"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "seed": 5922733,
+      "variant": 2
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_saturation/864a65c8b088b974/attempt-1789257962193025616",
+            "l2_saturation/7a34abd9ec7b80fd/attempt-1789257965007415749",
+            "l2_saturation/87f0c2d51235f513/attempt-1789257968041199243"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "seed": 5922834,
+      "variant": 2
+    }
+  ],
+  "refinements": [
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/07100fcf1a37ab67/attempt-1789257971290761551",
+            "l2_strong_conflict/d63d6b2a95375315/attempt-1789257975133071706",
+            "l2_strong_conflict/b40c0159771ea299/attempt-1789257978532681806",
+            "l2_strong_conflict/cdb6b79192dfa7db/attempt-1789257981915430049",
+            "l2_strong_conflict/0b4e15aa5feb3a40/attempt-1789257985466903940"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/07100fcf1a37ab67/attempt-1789257971290761551",
+        "l2_strong_conflict/d63d6b2a95375315/attempt-1789257975133071706",
+        "l2_strong_conflict/b40c0159771ea299/attempt-1789257978532681806",
+        "l2_strong_conflict/cdb6b79192dfa7db/attempt-1789257981915430049",
+        "l2_strong_conflict/0b4e15aa5feb3a40/attempt-1789257985466903940"
+      ],
+      "seed": 5922733,
+      "stride": 16384,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/8cd077ad9faa80c9/attempt-1789257989461363494",
+            "l2_strong_conflict/563364efeeb7b6d6/attempt-1789257993062393083",
+            "l2_strong_conflict/41efb4fce6a0e5e1/attempt-1789257996430426983",
+            "l2_strong_conflict/9d4f15a81ae77205/attempt-1789257999807658642",
+            "l2_strong_conflict/3824ba51c105330d/attempt-1789258003179132978"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/8cd077ad9faa80c9/attempt-1789257989461363494",
+        "l2_strong_conflict/563364efeeb7b6d6/attempt-1789257993062393083",
+        "l2_strong_conflict/41efb4fce6a0e5e1/attempt-1789257996430426983",
+        "l2_strong_conflict/9d4f15a81ae77205/attempt-1789257999807658642",
+        "l2_strong_conflict/3824ba51c105330d/attempt-1789258003179132978"
+      ],
+      "seed": 5922834,
+      "stride": 16384,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/9ab972b5d1e0f34a/attempt-1789258007203499287",
+            "l2_strong_conflict/1fb7d775bd1a9dd8/attempt-1789258010835844993",
+            "l2_strong_conflict/3a6a13fc4f63a79f/attempt-1789258014168586178",
+            "l2_strong_conflict/82871aa7731d8dae/attempt-1789258017547124694",
+            "l2_strong_conflict/61d2b7c28422083f/attempt-1789258020897580345"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/9ab972b5d1e0f34a/attempt-1789258007203499287",
+        "l2_strong_conflict/1fb7d775bd1a9dd8/attempt-1789258010835844993",
+        "l2_strong_conflict/3a6a13fc4f63a79f/attempt-1789258014168586178",
+        "l2_strong_conflict/82871aa7731d8dae/attempt-1789258017547124694",
+        "l2_strong_conflict/61d2b7c28422083f/attempt-1789258020897580345"
+      ],
+      "seed": 5922733,
+      "stride": 16384,
+      "variant": 2
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_strong_conflict/16815dc7a96f175d/attempt-1789258024227064603",
+            "l2_strong_conflict/21a6ecf7e87f383f/attempt-1789258027868867208",
+            "l2_strong_conflict/efa2919ca83c69f8/attempt-1789258031417383023",
+            "l2_strong_conflict/2b8aa99ca8f009ce/attempt-1789258035003367205",
+            "l2_strong_conflict/42c72ac4aa2057e6/attempt-1789258038383183835"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "counts": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "records": [
+        "l2_strong_conflict/16815dc7a96f175d/attempt-1789258024227064603",
+        "l2_strong_conflict/21a6ecf7e87f383f/attempt-1789258027868867208",
+        "l2_strong_conflict/efa2919ca83c69f8/attempt-1789258031417383023",
+        "l2_strong_conflict/2b8aa99ca8f009ce/attempt-1789258035003367205",
+        "l2_strong_conflict/42c72ac4aa2057e6/attempt-1789258038383183835"
+      ],
+      "seed": 5922834,
+      "stride": 16384,
+      "variant": 2
+    }
+  ],
+  "rule": "First same-core clean saturation scan, at most three acquisition attempts; first three consecutive tested scrub counts within 10 percent of each other and all above one-address control by 5 percent. Confirm selected count versus one and selected+4 with two patterns and two seeds, then repeat prior discovery intervals. Each refined group uses the first clean acquisition entirely on one core, at most three retained group attempts. No stable scan means no supported upper scrub; all attempts retained.",
+  "search_cohorts": [
+    {
+      "centers": [
+        81.60022000000001,
+        89.61316,
+        89.98599999999999,
+        89.94128,
+        89.75642,
+        89.68764999999999,
+        89.95831
+      ],
+      "counts": [
+        1,
+        12,
+        14,
+        16,
+        18,
+        20,
+        24
+      ],
+      "records": [
+        "l2_saturation/9f7a56984acfea95/attempt-1789257911075128839",
+        "l2_saturation/08e8877d2319b676/attempt-1789257913952734384",
+        "l2_saturation/0717f646d84a3f4d/attempt-1789257917187087813",
+        "l2_saturation/fb5fba42065a002e/attempt-1789257920449297283",
+        "l2_saturation/2f6dd2a7bad96f12/attempt-1789257923735615566",
+        "l2_saturation/ec1d95107fec5cbd/attempt-1789257927091233064",
+        "l2_saturation/c04ead9691dd7221/attempt-1789257930403491954"
+      ],
+      "same_core_clean": true
+    }
+  ],
+  "selected_scrub_count": 12,
+  "time": "2026-09-13T00:07:21.760601+00:00"
+}

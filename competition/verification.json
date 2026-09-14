@@ -1,0 +1,21 @@
+{
+  "job_id": "824844",
+  "packages": {
+    "phase3": {
+      "verified_files": 648,
+      "mismatches": []
+    },
+    "estimator_validation": {
+      "verified_files": 107,
+      "mismatches": []
+    }
+  },
+  "issues": [],
+  "scorecard_candidates": 70,
+  "smoke_returncode": 0,
+  "smoke_samples": 6144,
+  "smoke_estimate": "timing-classified cache-residency proxy; not a validated hardware hit rate",
+  "full_rejects_smoke": true,
+  "original_classifier_equal": true,
+  "passed": true
+}

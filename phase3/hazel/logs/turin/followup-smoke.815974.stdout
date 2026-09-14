@@ -1,0 +1,28 @@
+{"event": "point_passed", "family": "functional", "params": {"mode": "cross", "bytes": 65536, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random", "align": 0, "page": "base", "address_list": "-", "extra_args": [0, "base", "-", -1], "timed_loads": 1, "paired_core": true}, "median": 78.0}
+{"event": "point_passed", "family": "functional", "params": {"mode": "cross", "bytes": 65536, "stride": 8, "offset": 1, "batch": 32, "seed": 5922026, "order": "random", "align": 0, "page": "base", "address_list": "-", "extra_args": [0, "base", "-", -1], "timed_loads": 1, "paired_core": true}, "median": 78.0}
+Follow-up segment job=815974 constraint=turin stage=smoke status=0 end=2026-09-12T18:19:07-04:00
+{"record": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/submissions/turin/followup-spatial-20260912T221908.474751Z.json", "returncode": 0, "job_id": "815976", "stderr": ""}
+
+------------------------------------------------------------
+Resource usage summary:
+
+    Job ID            : 815974
+    Job name          : hz-turin-f0
+    User / Account    : hlee58 / ece592f26_cpu
+    Partition / QOS   : compute_partners / short
+    Submitted         : 2026-09-12T18:18:54
+    Started           : 2026-09-12T18:19:00
+    Wait time         : 6 sec
+    Elapsed (wall)    : 00:00:12
+    Nodes             : 1 (n0405)
+    CPUs allocated    : 3
+    Tasks             : 1
+    CPU time (total)  : 0.60 sec  (user 0.44, sys 0.17)
+    CPU efficiency    : 1.7%
+    Memory in use     : 33.48 MB  (sampled at job end; see seff for peak)
+    Memory requested  : 2G
+    Working directory : /gpfs_common/share03/rotenberg/hlee58/ECE592_proj1
+    Exit code         : 0:0
+
+    For final accounting (Slurm's MaxRSS, billing, etc.):  seff 815974
+------------------------------------------------------------

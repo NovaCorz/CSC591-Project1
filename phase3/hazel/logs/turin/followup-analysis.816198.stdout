@@ -1,0 +1,24 @@
+
+------------------------------------------------------------
+Resource usage summary:
+
+    Job ID            : 816198
+    Job name          : hz-turin-fverify
+    User / Account    : hlee58 / ece592f26_cpu
+    Partition / QOS   : compute / normal
+    Submitted         : 2026-09-12T20:25:12
+    Started           : 2026-09-12T20:25:39
+    Wait time         : 27 sec
+    Elapsed (wall)    : 00:01:56
+    Nodes             : 1 (c207n01)
+    CPUs allocated    : 1
+    Tasks             : 1
+    CPU time (total)  : 79.99 sec  (user 78.99, sys 1.01)
+    CPU efficiency    : 69.0%
+    Memory in use     : 76.32 MB  (sampled at job end; see seff for peak)
+    Memory requested  : 4G
+    Working directory : /gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite
+    Exit code         : 0:0
+
+    For final accounting (Slurm's MaxRSS, billing, etc.):  seff 816198
+------------------------------------------------------------

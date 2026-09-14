@@ -1,0 +1,96 @@
+{
+  "calibrations": [
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_saturation/bf84f4930924e12a/attempt-1789259170595542341",
+            "l2_saturation/82be32b044ff7a68/attempt-1789259173593628111",
+            "l2_saturation/1fb9b4176da3dc37/attempt-1789259177136972101"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "seed": 5922733,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_saturation/bd07557e684b6410/attempt-1789259180418686631",
+            "l2_saturation/1e29527a8290f9be/attempt-1789259183428240773",
+            "l2_saturation/2c9d5f35cc60bcf2/attempt-1789259187377635481"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "seed": 5922834,
+      "variant": 1
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_saturation/47d37cd2423600f6/attempt-1789259191099940038",
+            "l2_saturation/a4cf90ea1301b7d2/attempt-1789259194100288336",
+            "l2_saturation/ae261f316b8daeda/attempt-1789259197477552975"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "seed": 5922733,
+      "variant": 2
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "l2_saturation/b24c0d0bf981ae6a/attempt-1789259201194110830",
+            "l2_saturation/4475c3e90bee7cf1/attempt-1789259204211967551",
+            "l2_saturation/a8643df4813a27a7/attempt-1789259207827425658"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "seed": 5922834,
+      "variant": 2
+    }
+  ],
+  "refinements": [],
+  "rule": "First same-core clean saturation scan, at most three acquisition attempts; first three consecutive tested scrub counts within 10 percent of each other and all above one-address control by 5 percent. Confirm selected count versus one and selected+4 with two patterns and two seeds, then repeat prior discovery intervals. Each refined group uses the first clean acquisition entirely on one core, at most three retained group attempts. No stable scan means no supported upper scrub; all attempts retained.",
+  "search_cohorts": [
+    {
+      "centers": [
+        125.96328,
+        132.32184,
+        137.79852,
+        137.95319999999998,
+        137.84436,
+        137.82587999999998,
+        137.61816
+      ],
+      "counts": [
+        1,
+        8,
+        10,
+        12,
+        14,
+        16,
+        20
+      ],
+      "records": [
+        "l2_saturation/56044b555d1ff36b/attempt-1789259144229955830",
+        "l2_saturation/1fe3b4b05a8ad7f3/attempt-1789259147226815342",
+        "l2_saturation/4ced0b49fd9b98d0/attempt-1789259151519705104",
+        "l2_saturation/78fec8ab0de06211/attempt-1789259155152570003",
+        "l2_saturation/e43a7eb4a013f828/attempt-1789259158858986367",
+        "l2_saturation/2cc07c2c7f89d719/attempt-1789259162674841415",
+        "l2_saturation/9ded261278a11e10/attempt-1789259166485825162"
+      ],
+      "same_core_clean": true
+    }
+  ],
+  "selected_scrub_count": 8,
+  "time": "2026-09-13T00:26:51.536141+00:00"
+}

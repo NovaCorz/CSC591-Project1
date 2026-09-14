@@ -1,0 +1,114 @@
+{
+  "artifact": "lab-only Hazel predictions",
+  "commit_note": "The user is managing the existing dirty repository state. Commit this directory to create the prediction checkpoint.",
+  "data_isolation_statement": "No Hazel measurements were used or accessed.",
+  "generated_utc": "2026-09-12T03:17:31.668889+00:00",
+  "git_head_at_generation": "68f8cfee1400043be18eed9bb6ad8f882848c461",
+  "git_worktree_dirty_at_generation": true,
+  "hazel_results_used": false,
+  "input_manifest_sha256": "701387a88b5f1a28a79eecc662ebc0a36630a0bdedd6c66d88b6b0110cad4e3f",
+  "outputs": [
+    {
+      "bytes": 4178,
+      "path": "chronological-supported.gnuplot",
+      "sha256": "20b972d7b3165200a3fa2bdcfd8fbd58bf72a0bdec3a017cdfd8667f4fb52042"
+    },
+    {
+      "bytes": 483,
+      "path": "future-predictions.csv",
+      "sha256": "c7c4491d2f1aebdafaf57b2afd3bb905a8a9a0a15359fa26b71079721b584650"
+    },
+    {
+      "bytes": 5612,
+      "path": "hazel-predictions.csv",
+      "sha256": "524f2f3af10cf854272e96ebc1dc41057095bb94783f4343e811f25440d500fb"
+    },
+    {
+      "bytes": 2373,
+      "path": "hazel-predictions.md",
+      "sha256": "65d2794355c1dca3955581605160630c59c117dcbaf0cd9fce61b0c11edc584f"
+    },
+    {
+      "bytes": 6459,
+      "path": "lab-only-chronological-master.csv",
+      "sha256": "6a62ead2cc72625c8fc1f868c9f343ad45b3cf0c0fe4d0266c110754c4fa325f"
+    },
+    {
+      "bytes": 1610,
+      "path": "model-comparison.csv",
+      "sha256": "9505fccb927d66a605ddf260ec862998cd6da6240efab3452a69921feb5adbd9"
+    },
+    {
+      "bytes": 3163,
+      "path": "model-parameters.json",
+      "sha256": "61f4c03662896d3be82c866249dfa8a58237f5e538920c4ee45462a64b68223f"
+    },
+    {
+      "bytes": 4873,
+      "path": "plot-data/future-models.dat",
+      "sha256": "19bbb14b4002fece49c1c683484d2fb07a24591f57ecbcbd10b3627ce5cfeb66"
+    },
+    {
+      "bytes": 1239,
+      "path": "plot-data/lab-all.dat",
+      "sha256": "953cb1f7f2df114e9a48c02af92459bdaee67c754231b0e95f5fb5ae4224f790"
+    },
+    {
+      "bytes": 276,
+      "path": "plot-data/lab-amd.dat",
+      "sha256": "de2c74e60d38a1070f65b9cdabf3dbc629cfbf07ceaa618b9f65301e4b819149"
+    },
+    {
+      "bytes": 279,
+      "path": "plot-data/lab-ampere.dat",
+      "sha256": "201c710a69ca982a0b0b1ad48789da6327a52200e74d614d9733d54a1cca5397"
+    },
+    {
+      "bytes": 954,
+      "path": "plot-data/lab-intel.dat",
+      "sha256": "e7896b1fc9395a8d70fbefa27e74cdb31ac7aaeda0e366e1f137023332c8a30b"
+    },
+    {
+      "bytes": 151,
+      "path": "plot-data/lab-servers.dat",
+      "sha256": "1b7d0d8f37b807ea2951d10f87a087efd837fd84e79a947743447c3ac6a986ae"
+    },
+    {
+      "bytes": 22710,
+      "path": "plots/chronological-supported.pdf",
+      "sha256": "07366cc1edb073967877bf3f4b1f8761bd5f8f5551446c35e9b81c493213113d"
+    },
+    {
+      "bytes": 13702,
+      "path": "plots/team-law-predictions.pdf",
+      "sha256": "f227412da2478c88e7fda478f48b289243c873916eab12cebcd607145494bb13"
+    },
+    {
+      "bytes": 1716,
+      "path": "prediction-summary.md",
+      "sha256": "9f39d3a2b76b2f030c1b0ca03790de058d200bf3fa2de689f11996d1381153b5"
+    },
+    {
+      "bytes": 1534,
+      "path": "required-plot-status.csv",
+      "sha256": "556d10b2be9569d4afb9c6e80c870ee6d41ebbfb60f87654f11f34e7cb4bcc61"
+    },
+    {
+      "bytes": 2220,
+      "path": "team-cache-laws.md",
+      "sha256": "59e6972e66ee92be66d0a9fef86b2fd9958c5694af546673b6c5249038dbc290"
+    },
+    {
+      "bytes": 1127,
+      "path": "team-law-predictions.gnuplot",
+      "sha256": "ecfb171adf826c25a71570ca4db02506c5a4fe4035d3e9a23efeebb88b8addcb"
+    },
+    {
+      "bytes": 799,
+      "path": "validation.json",
+      "sha256": "45096111d5df0f33ad2581dd9b49ebb184de5f7ab7f1d32556ae334f1e8d2433"
+    }
+  ],
+  "prediction_git_commit": null,
+  "prediction_status": "LAB_ONLY_NO_HAZEL_ACCESS"
+}

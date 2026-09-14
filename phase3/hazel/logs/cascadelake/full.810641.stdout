@@ -1,0 +1,343 @@
+Hazel segment: job=810641 constraint=cascadelake stage=full start=2026-09-11T22:07:27-04:00
+Invocation: srun --cpu-bind=cores --hint=nomultithread python3 scripts/hazel_worker.py full
+{"event": "point_passed", "family": "timer", "params": {"mode": "overhead", "bytes": 1024, "stride": 8, "offset": 0, "batch": 128, "seed": 5922026, "order": "random"}, "median": 48.0}
+{"event": "point_passed", "family": "loop", "params": {"mode": "loop", "bytes": 1024, "stride": 8, "offset": 0, "batch": 128, "seed": 5922026, "order": "random"}, "median": 1.671875}
+{"event": "point_passed", "family": "latency", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 128, "seed": 5922026, "order": "random"}, "median": 3.65625}
+{"event": "point_passed", "family": "latency", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 256, "seed": 5922026, "order": "random"}, "median": 3.4453125}
+{"event": "point_passed", "family": "latency", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 2048, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 4194304, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.421875}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/9997ce58d3098d2d/attempt-1789178876388188310"}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/9997ce58d3098d2d/attempt-1789178949487471497"}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/9997ce58d3098d2d/attempt-1789179025832774275"}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1048576, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.38671875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/27619a8563b84088/attempt-1789179113692023709"}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 8388608, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.4609375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 134217728, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.68359375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 32768, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.453125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 4096, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 262144, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 65536, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 7.87890625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 33554432, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.68359375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 65536, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 4096, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.33203125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 2097152, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 44.1640625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.33203125}
+{"event": "waiting_for_idle", "family": "capacity", "reason": "No core and complete SMT sibling group passed all idle windows", "next_check_seconds": 15}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 131072, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/72d9857904afde50/attempt-1789179223431159476"}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/72d9857904afde50/attempt-1789179284739987141"}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 67108864, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 268.22265625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 131072, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 9.60546875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 16384, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 524288, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 14.62109375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 8192, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.33203125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 524288, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 2048, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.33203125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 8192, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 16777216, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.67578125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 134217728, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 287.39453125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 2097152, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.4296875}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/c4b6829afa284d31/attempt-1789179529796937621"}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 4194304, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 151.25}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 16384, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.33203125}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/c5eb83809e4f0568/attempt-1789179607967254659"}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/c5eb83809e4f0568/attempt-1789179663631463872"}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/c5eb83809e4f0568/attempt-1789179714631461668"}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 32768, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.37109375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 67108864, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.64453125}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/f457b4c719bde7ec/attempt-1789179781599244281"}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/f457b4c719bde7ec/attempt-1789179836121093064"}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/f457b4c719bde7ec/attempt-1789179895941445544"}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1048576, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 17.06640625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 262144, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 10.59375}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/1ae065576dcd7003/attempt-1789179976896542619"}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 33554432, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 269.73828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 268435456, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.7109375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 40960, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 36864, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.38671875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 2359296, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 47.01953125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 26214400, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.69140625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 18874368, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.66796875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 73728, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 3145728, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.4296875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 49152, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 6.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 2883584, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.453125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1703936, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 37.37109375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 3670016, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 113.8203125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 61440, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/bb8f195574b8069a/attempt-1789180228990055189"}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/bb8f195574b8069a/attempt-1789180280839493407"}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 7864320, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 225.95703125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 45056, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 458752, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 14.02734375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 360448, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 425984, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 90112, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1966080, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 44.125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 81920, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 8.48046875}
+{"event": "waiting_for_idle", "family": "capacity", "reason": "No core and complete SMT sibling group passed all idle windows", "next_check_seconds": 15}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 22544384, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.73046875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1572864, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.44921875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 114688, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1179648, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.44140625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1310720, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.44921875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 3932160, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.4453125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 294912, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.51171875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1703936, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.46484375}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/a4cbcd9f16a3ab20/attempt-1789180521382868077"}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 11534336, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 234.41015625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 491520, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 393216, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 13.234375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 57344, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 7.140625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 2359296, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.46875}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/c47b80592a3b2d88/attempt-1789180659684731367"}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/c47b80592a3b2d88/attempt-1789180698889630801"}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 3932160, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 142.55078125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 294912, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 106496, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1835008, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.453125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 122880, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 9.4296875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 360448, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 12.80078125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 98304, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 57344, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.38671875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 45056, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 5.890625}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/6cdfd0f5b699186b/attempt-1789180820286674401"}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/6cdfd0f5b699186b/attempt-1789180875817151147"}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 15204352, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 259.84765625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1441792, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.46484375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1572864, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 36.5}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 2621440, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 53.609375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1310720, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 29.73046875}
+{"event": "waiting_for_idle", "family": "capacity", "reason": "No core and complete SMT sibling group passed all idle windows", "next_check_seconds": 15}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 61440, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 7.53125}
+{"event": "waiting_for_idle", "family": "capacity", "reason": "No core and complete SMT sibling group passed all idle windows", "next_check_seconds": 15}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 40960, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 5.375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 98304, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 8.9296875}
+{"event": "point_noisy", "family": "capacity", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/capacity/970f2c745fdda3f3/attempt-1789181102970323459"}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 3407872, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 84.0234375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 15204352, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.69921875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 327680, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 12.17578125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 49152, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 114688, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 9.40234375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 18874368, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 248.703125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 29884416, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 274.59765625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 327680, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 11534336, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.63671875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 29884416, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.703125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 3407872, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.42578125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 22544384, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 261.59765625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 3670016, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.4296875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 36864, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 4.515625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 106496, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 9.1171875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 7864320, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.44140625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 53248, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 6.8046875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 53248, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 3145728, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 66.16015625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 393216, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1835008, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 39.7890625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 81920, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1179648, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 23.37890625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1966080, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.41796875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 90112, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 8.69140625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 458752, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 26214400, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 267.80859375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 2621440, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.42578125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 425984, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 13.67578125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 73728, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 8.1015625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 2883584, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 54.4453125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 122880, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 3.3828125}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1441792, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 33.7890625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 491520, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 14.328125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 248, "batch": 512, "seed": 5922026, "order": "random"}, "median": 13.27734375}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 112, "batch": 512, "seed": 5922026, "order": "random"}, "median": 64.91796875}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 256, "batch": 512, "seed": 5922026, "order": "random"}, "median": 13.23828125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 256, "batch": 512, "seed": 5922026, "order": "random"}, "median": 66.38671875}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 136, "batch": 512, "seed": 5922026, "order": "random"}, "median": 13.27734375}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 8, "batch": 512, "seed": 5922026, "order": "random"}, "median": 9.23828125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 72, "batch": 512, "seed": 5922026, "order": "random"}, "median": 64.453125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 128, "batch": 512, "seed": 5922026, "order": "random"}, "median": 13.2890625}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 96, "batch": 512, "seed": 5922026, "order": "random"}, "median": 13.26171875}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 40, "batch": 512, "seed": 5922026, "order": "random"}, "median": 9.23828125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 112, "batch": 512, "seed": 5922026, "order": "random"}, "median": 12.44140625}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 32, "batch": 512, "seed": 5922026, "order": "random"}, "median": 34.703125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 120, "batch": 512, "seed": 5922026, "order": "random"}, "median": 62.328125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 8, "batch": 512, "seed": 5922026, "order": "random"}, "median": 34.16796875}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 184, "batch": 512, "seed": 5922026, "order": "random"}, "median": 12.44140625}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 24, "batch": 512, "seed": 5922026, "order": "random"}, "median": 8.54296875}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 88, "batch": 512, "seed": 5922026, "order": "random"}, "median": 12.2734375}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 72, "batch": 512, "seed": 5922026, "order": "random"}, "median": 12.234375}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 24, "batch": 512, "seed": 5922026, "order": "random"}, "median": 34.05859375}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 136, "batch": 512, "seed": 5922026, "order": "random"}, "median": 64.60546875}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 104, "batch": 512, "seed": 5922026, "order": "random"}, "median": 62.19140625}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 40, "batch": 512, "seed": 5922026, "order": "random"}, "median": 34.9140625}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 96, "batch": 512, "seed": 5922026, "order": "random"}, "median": 62.6328125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 200, "batch": 512, "seed": 5922026, "order": "random"}, "median": 12.24609375}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 56, "batch": 512, "seed": 5922026, "order": "random"}, "median": 8.7421875}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 64, "batch": 512, "seed": 5922026, "order": "random"}, "median": 12.2578125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 32, "batch": 512, "seed": 5922026, "order": "random"}, "median": 8.5546875}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 16, "batch": 512, "seed": 5922026, "order": "random"}, "median": 34.3203125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 48, "batch": 512, "seed": 5922026, "order": "random"}, "median": 8.56640625}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 16, "batch": 512, "seed": 5922026, "order": "random"}, "median": 9.828125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 64, "batch": 512, "seed": 5922026, "order": "random"}, "median": 62.92578125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 192, "batch": 512, "seed": 5922026, "order": "random"}, "median": 63.52734375}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 80, "batch": 512, "seed": 5922026, "order": "random"}, "median": 13.29296875}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 264, "batch": 512, "seed": 5922026, "order": "random"}, "median": 65.14453125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 264, "batch": 512, "seed": 5922026, "order": "random"}, "median": 13.265625}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 192, "batch": 512, "seed": 5922026, "order": "random"}, "median": 13.29296875}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 80, "batch": 512, "seed": 5922026, "order": "random"}, "median": 62.8359375}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 104, "batch": 512, "seed": 5922026, "order": "random"}, "median": 13.28515625}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 48, "batch": 512, "seed": 5922026, "order": "random"}, "median": 35.51171875}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 200, "batch": 512, "seed": 5922026, "order": "random"}, "median": 63.73828125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 248, "batch": 512, "seed": 5922026, "order": "random"}, "median": 63.93359375}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 524288, "stride": 512, "offset": 120, "batch": 512, "seed": 5922026, "order": "random"}, "median": 13.26171875}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 56, "batch": 512, "seed": 5922026, "order": "random"}, "median": 35.78125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 128, "batch": 512, "seed": 5922026, "order": "random"}, "median": 65.77734375}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 88, "batch": 512, "seed": 5922026, "order": "random"}, "median": 63.8828125}
+{"event": "point_passed", "family": "line_size", "params": {"mode": "spatial", "bytes": 2097152, "stride": 512, "offset": 184, "batch": 512, "seed": 5922026, "order": "random"}, "median": 65.89453125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 327680, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 10.578125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 3407872, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 262144, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 2097152, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 10.828125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 458752, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 10.578125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1441792, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_noisy", "family": "associativity", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/baseline/full/associativity/b302653091758b95/attempt-1789182242041299860"}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 61440, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 6029312, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 212992, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 344064, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1835008, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 10.578125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 4194304, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 49152, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 65536, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 3670016, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.6328125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 2621440, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 245760, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1048576, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1572864, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 10.578125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 36864, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 7.8046875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 196608, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 4718592, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 983040, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 90112, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.3828125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1048576, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 12288, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 2359296, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 163840, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 24576, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 4456448, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 720896, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 114688, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 180224, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.3828125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 32768, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 786432, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 294912, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 15.41796875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 73728, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 5767168, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.6328125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 229376, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 196608, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 6291456, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 28672, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 94208, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.3828125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 131072, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 278528, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 13.51953125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1507328, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1179648, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 147456, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 69632, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 81920, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1114112, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 45056, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 393216, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 10.578125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 524288, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 10.578125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1572864, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 851968, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.6328125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 655360, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 98304, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 77824, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1310720, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 524288, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 53248, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 3932160, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1376256, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1245184, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.6328125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 40960, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 589824, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 49152, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 360448, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 327680, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 376832, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 311296, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 17.10546875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 32768, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 2883584, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 98304, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 8192, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1310720, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 10.578125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 3145728, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.6328125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 57344, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 5505024, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 81920, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 393216, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.6328125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 86016, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.38671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 917504, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 131072, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 16384, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 4980736, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 65536, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 20480, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 262144, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 3.33203125}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 786432, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 5242880, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 18.63671875}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 1024, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 58.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 1024, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 64.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 1024, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 58.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 65536, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 58.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 65536, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 64.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 65536, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 70.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 131072, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 58.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 131072, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 66.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 131072, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 72.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 524288, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 58.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 524288, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 74.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 524288, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 78.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 2097152, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 58.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 2097152, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 74.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 2097152, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 78.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 4194304, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 58.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 4194304, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 74.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 4194304, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 78.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 33554432, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 58.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 33554432, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 78.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 33554432, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 94.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 268435456, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 58.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 268435456, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 78.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 268435456, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 102.0}
+{"event": "point_passed", "family": "software_metric", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 1, "seed": 5922026, "order": "random"}, "median": 58.0}
+{"event": "point_passed", "family": "software_metric", "params": {"mode": "chase", "bytes": 1048576, "stride": 8, "offset": 0, "batch": 1, "seed": 5922026, "order": "random"}, "median": 74.0}
+{"event": "point_passed", "family": "software_metric", "params": {"mode": "chase", "bytes": 268435456, "stride": 8, "offset": 0, "batch": 1, "seed": 5922026, "order": "random"}, "median": 312.0}
+Hazel segment: job=810641 constraint=cascadelake stage=full status=0 end=2026-09-11T23:25:01-04:00
+
+------------------------------------------------------------
+Resource usage summary:
+
+    Job ID            : 810641
+    Job name          : hz-cascadelak-full
+    User / Account    : hlee58 / ece592f26_cpu
+    Partition / QOS   : compute / normal
+    Submitted         : 2026-09-11T22:07:24
+    Started           : 2026-09-11T22:07:27
+    Wait time         : 3 sec
+    Elapsed (wall)    : 01:17:34
+    Nodes             : 1 (c020n02)
+    CPUs allocated    : 2
+    Tasks             : 1
+    CPU time (total)  : 3936.53 sec  (user 3924.62, sys 11.91)
+    CPU efficiency    : 42.3%
+    Memory in use     : 582.99 MB  (sampled at job end; see seff for peak)
+    Memory requested  : 2G
+    Working directory : /gpfs_common/share03/rotenberg/hlee58/ECE592_proj1
+    Exit code         : 0:0
+
+    For final accounting (Slurm's MaxRSS, billing, etc.):  seff 810641
+------------------------------------------------------------

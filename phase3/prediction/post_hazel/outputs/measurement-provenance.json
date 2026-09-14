@@ -1,0 +1,34 @@
+[
+  {
+    "host": "haswell",
+    "kind": "L1-like ns conversion",
+    "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/machines/haswell/followup-v1/capacity_control/3ce59bbd207d9f88/attempt-1789186042959429750/run.json",
+    "rate_ticks_per_second": 2299946110.668,
+    "conversion": "native statistic * 1e9 / empirical_ticks_per_second",
+    "nominal_GHz_used": false
+  },
+  {
+    "host": "icelake_8358",
+    "kind": "L1-like ns conversion",
+    "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/machines/icelake_8358/followup-v1/capacity_control/dc71c055839ed13a/attempt-1789252764282078365/run.json",
+    "rate_ticks_per_second": 2593752184.128,
+    "conversion": "native statistic * 1e9 / empirical_ticks_per_second",
+    "nominal_GHz_used": false
+  },
+  {
+    "host": "genoa",
+    "kind": "L1-like ns conversion",
+    "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/machines/genoa/followup-v1/capacity_control/3ce59bbd207d9f88/attempt-1789253738085863553/run.json",
+    "rate_ticks_per_second": 2396240214.492,
+    "conversion": "native statistic * 1e9 / empirical_ticks_per_second",
+    "nominal_GHz_used": false
+  },
+  {
+    "host": "turin",
+    "kind": "L1-like ns conversion",
+    "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/machines/turin/followup-v1/capacity_control/3ce59bbd207d9f88/attempt-1789252938369583237/run.json",
+    "rate_ticks_per_second": 2596072821.015,
+    "conversion": "native statistic * 1e9 / empirical_ticks_per_second",
+    "nominal_GHz_used": false
+  }
+]

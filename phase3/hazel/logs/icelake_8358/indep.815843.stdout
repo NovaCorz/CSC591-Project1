@@ -1,0 +1,33 @@
+{"event": "point_noisy", "family": "calibration", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-v1/calibration/44b6019a19a40346/attempt-1789248865638064199"}
+{"event": "point_noisy", "family": "calibration", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-v1/calibration/511efc2dfa06b8df/attempt-1789248868649814015"}
+{"event": "point_passed", "family": "calibration", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 4, "extra_args": [4], "repetition": 0}, "median": 0.970703125}
+{"event": "point_passed", "family": "calibration", "params": {"mode": "loop", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 1, "extra_args": [1], "repetition": 1}, "median": 0.20947265625}
+{"event": "point_noisy", "family": "calibration", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-v1/calibration/6c74514be0b24c3f/attempt-1789248888794778698"}
+{"event": "point_passed", "family": "calibration", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 4, "extra_args": [4], "repetition": 1}, "median": 0.970703125}
+{"event": "point_passed", "family": "calibration", "params": {"mode": "loop", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 1, "extra_args": [1], "repetition": 2}, "median": 0.20947265625}
+{"event": "point_passed", "family": "calibration", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 1, "extra_args": [1], "repetition": 2}, "median": 3.837890625}
+{"event": "point_passed", "family": "calibration", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 4, "extra_args": [4], "repetition": 2}, "median": 0.97119140625}
+
+------------------------------------------------------------
+Resource usage summary:
+
+    Job ID            : 815843
+    Job name          : hz-icelake83-indep
+    User / Account    : hlee58 / ece592f26_cpu
+    Partition / QOS   : compute_partners / short
+    Submitted         : 2026-09-12T17:34:11
+    Started           : 2026-09-12T17:34:23
+    Wait time         : 12 sec
+    Elapsed (wall)    : 00:01:02
+    Nodes             : 1 (c059n01)
+    CPUs allocated    : 2
+    Tasks             : 1
+    CPU time (total)  : 41.37 sec  (user 41.02, sys 0.36)
+    CPU efficiency    : 33.4%
+    Memory in use     : 61.89 MB  (sampled at job end; see seff for peak)
+    Memory requested  : 2G
+    Working directory : /gpfs_common/share03/rotenberg/hlee58/ECE592_proj1
+    Exit code         : 0:0
+
+    For final accounting (Slurm's MaxRSS, billing, etc.):  seff 815843
+------------------------------------------------------------

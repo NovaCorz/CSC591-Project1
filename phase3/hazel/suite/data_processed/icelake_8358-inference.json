@@ -1,0 +1,1134 @@
+{
+  "alternate_batch_control_points": 0,
+  "associativity": {
+    "bounded_candidates": [
+      {
+        "reason": "Intermediate configurations are missing or noisy; no exact threshold inferred",
+        "resident_addresses_lower": 12,
+        "resident_addresses_upper": 23,
+        "sources": [
+          "machines/icelake_8358/full/associativity/dc40442c8a0f6cb2/complete.json",
+          "machines/icelake_8358/full/associativity/89f69cf5fe189f4e/complete.json"
+        ],
+        "stride": 262144
+      }
+    ],
+    "candidates": [
+      {
+        "candidate_resident_addresses": 10,
+        "sources": [
+          "machines/icelake_8358/full/associativity/12121ee0b611d82b/complete.json",
+          "machines/icelake_8358/full/associativity/ec6c8fc1aa841772/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 12,
+        "sources": [
+          "machines/icelake_8358/full/associativity/9d9613d20a7aaee6/complete.json",
+          "machines/icelake_8358/full/associativity/2677fffff38720ff/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 14,
+        "sources": [
+          "machines/icelake_8358/full/associativity/471107240c027724/complete.json",
+          "machines/icelake_8358/full/associativity/a029dff7d1b56dff/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 22,
+        "sources": [
+          "machines/icelake_8358/full/associativity/a1408148e84383c2/complete.json",
+          "machines/icelake_8358/full/associativity/30e88e6d1584e91c/complete.json"
+        ],
+        "stride": 4096
+      },
+      {
+        "candidate_resident_addresses": 9,
+        "sources": [
+          "machines/icelake_8358/full/associativity/c1a9ed716e8aa294/complete.json",
+          "machines/icelake_8358/full/associativity/dbb40d907ba12958/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 12,
+        "sources": [
+          "machines/icelake_8358/full/associativity/81ee6142ee68d942/complete.json",
+          "machines/icelake_8358/full/associativity/1e90118842f3c7c6/complete.json"
+        ],
+        "stride": 16384
+      },
+      {
+        "candidate_resident_addresses": 4,
+        "sources": [
+          "machines/icelake_8358/full/associativity/64902fca6b3a3884/complete.json",
+          "machines/icelake_8358/full/associativity/b9c40225a0f611aa/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 10,
+        "sources": [
+          "machines/icelake_8358/full/associativity/1b098b29f3cf94c9/complete.json",
+          "machines/icelake_8358/full/associativity/8b973359e663b192/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 12,
+        "sources": [
+          "machines/icelake_8358/full/associativity/d135b016f6205cf8/complete.json",
+          "machines/icelake_8358/full/associativity/8ef542ee337bfae8/complete.json"
+        ],
+        "stride": 65536
+      },
+      {
+        "candidate_resident_addresses": 4,
+        "sources": [
+          "machines/icelake_8358/full/associativity/1b2a7fcfb44a1d94/complete.json",
+          "machines/icelake_8358/full/associativity/b41605ea4dcae012/complete.json"
+        ],
+        "stride": 262144
+      }
+    ],
+    "limitation": "Only virtual low bits controlled. Physical indexing, page translation, replacement, and slice hashing are unresolved. No way count or derived set count is manufactured.",
+    "status": "effective conflict thresholds; no verified per-level associativity"
+  },
+  "attempts": 416,
+  "cache_table": [
+    {
+      "associativity": 12,
+      "derived_sets": 64,
+      "hit_latency_median": 5.25,
+      "host": "icelake_8358",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": 0.84375,
+      "level": "L1D candidate",
+      "line_size": 64,
+      "next_level_latency_median": 6.09375,
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": 49152,
+      "size_upper_bytes": 53248,
+      "status": "timing-supported, internally consistent L1 candidate with capacity interval; next-class latency is the first measured departure, not a pure L2-hit latency",
+      "unit": "TSC_ticks/access"
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "icelake_8358",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "L2 role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    },
+    {
+      "associativity": "unresolved",
+      "derived_sets": "unresolved",
+      "hit_latency_median": "",
+      "host": "icelake_8358",
+      "inclusion_exclusion": "uncertain",
+      "incremental_difference": "",
+      "level": "LLC role unassigned",
+      "line_size": "unresolved",
+      "next_level_latency_median": "",
+      "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+      "size_lower_bytes": "",
+      "size_upper_bytes": "",
+      "status": "Measured effective transitions are listed separately; cache/translation separation and physical level assignment remain uncertain",
+      "unit": ""
+    }
+  ],
+  "capacity_candidates": [
+    {
+      "above": {
+        "maximum": 251.8046875,
+        "mean": 6.861391,
+        "median": 6.828125,
+        "minimum": 6.0234375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 8559,
+        "p05": 6.5078125,
+        "p95": 7.1875,
+        "q1": 6.6875,
+        "q3": 6.96875,
+        "stddev": 0.710209714162695,
+        "zero_samples": 0
+      },
+      "above_record": "machines/icelake_8358/full/capacity/4f9e3b4f27b8c8df/complete.json",
+      "below": {
+        "maximum": 145.3515625,
+        "mean": 5.39408709375,
+        "median": 5.3671875,
+        "minimum": 5.21875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 14958,
+        "p05": 5.28125,
+        "p95": 5.4921875,
+        "q1": 5.3203125,
+        "q3": 5.421875,
+        "stddev": 0.5612965636619088,
+        "zero_samples": 0
+      },
+      "below_record": "machines/icelake_8358/full/capacity/08999873af33fb06/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        32,
+        32
+      ],
+      "lower_bytes": 49152,
+      "ratio": 1.272197962154294,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 57344
+    },
+    {
+      "above": {
+        "maximum": 2986.2578125,
+        "mean": 12.939265875,
+        "median": 12.8984375,
+        "minimum": 12.15625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 10711,
+        "p05": 12.5390625,
+        "p95": 13.234375,
+        "q1": 12.765625,
+        "q3": 13.046875,
+        "stddev": 3.655478326478594,
+        "zero_samples": 0
+      },
+      "above_record": "machines/icelake_8358/full/capacity/d51f07d382755a6f/complete.json",
+      "below": {
+        "maximum": 166.734375,
+        "mean": 11.286829625,
+        "median": 11.265625,
+        "minimum": 10.421875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 17459,
+        "p05": 10.890625,
+        "p95": 11.625,
+        "q1": 11.0859375,
+        "q3": 11.4296875,
+        "stddev": 0.8178586696510382,
+        "zero_samples": 0
+      },
+      "below_record": "machines/icelake_8358/full/capacity/5c81c33f1bf87d40/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        32,
+        32
+      ],
+      "lower_bytes": 131072,
+      "ratio": 1.1449375866851594,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 262144
+    },
+    {
+      "above": {
+        "maximum": 5691.25,
+        "mean": 140.8091384375,
+        "median": 139.8046875,
+        "minimum": 109.875,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 25878,
+        "p05": 128.109375,
+        "p95": 157.109375,
+        "q1": 134.703125,
+        "q3": 145.609375,
+        "stddev": 13.340995207151202,
+        "zero_samples": 0
+      },
+      "above_record": "machines/icelake_8358/full/capacity/98d82976833e95f4/complete.json",
+      "below": {
+        "maximum": 518.4609375,
+        "mean": 21.16124059375,
+        "median": 20.9921875,
+        "minimum": 14.2734375,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 48975,
+        "p05": 19.3203125,
+        "p95": 23.6953125,
+        "q1": 20.234375,
+        "q3": 22.0078125,
+        "stddev": 2.2175067143428797,
+        "zero_samples": 0
+      },
+      "below_record": "machines/icelake_8358/full/capacity/8030d623a0b1b36c/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        32,
+        32
+      ],
+      "lower_bytes": 1048576,
+      "ratio": 6.659843691849646,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "broad candidate transition; no exact capacity claimed",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 67108864
+    },
+    {
+      "above": {
+        "maximum": 17961.4609375,
+        "mean": 242.9337452421875,
+        "median": 242.2265625,
+        "minimum": 207.953125,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 15589,
+        "p05": 228.9375,
+        "p95": 258.828125,
+        "q1": 236.515625,
+        "q3": 248.4140625,
+        "stddev": 36.491530382749424,
+        "zero_samples": 0
+      },
+      "above_record": "machines/icelake_8358/full/capacity/5b6e9fb0a066f7ea/complete.json",
+      "below": {
+        "maximum": 9416.0,
+        "mean": 208.1360712578125,
+        "median": 207.4765625,
+        "minimum": 170.515625,
+        "n": 1000000,
+        "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+        "outliers": 14867,
+        "p05": 193.71875,
+        "p95": 224.5546875,
+        "q1": 201.5703125,
+        "q3": 213.8515625,
+        "stddev": 16.173250686649233,
+        "zero_samples": 0
+      },
+      "below_record": "machines/icelake_8358/full/capacity/f33fcb49f940a0ac/complete.json",
+      "cross_run_caveat": "Sequential runs may differ in frequency, placement and interference; changed cores/domains add a confound. This is exploratory candidate detection, not a change-point confidence interval.",
+      "endpoint_cpus": [
+        32,
+        32
+      ],
+      "lower_bytes": 134217728,
+      "ratio": 1.1674887976804609,
+      "same_logical_cpu": true,
+      "same_socket_and_numa": true,
+      "status": "candidate effective transition; mapping to a cache level is uncertain",
+      "unit": "TSC_ticks/access",
+      "upper_bytes": 268435456
+    }
+  ],
+  "chosen_primary_batch": 256,
+  "clean_points": 249,
+  "collection_complete": true,
+  "course_cpu_model": "icelake_8358 constraint; exact allocated model recorded separately",
+  "coverage_issues": [],
+  "cpu_model": "Intel(R) Xeon(R) Platinum 8358 CPU @ 2.60GHz",
+  "host": "icelake_8358",
+  "inclusion_policy": {
+    "reason": "Same-core pressure may directly evict upper copies; lower-level-only eviction and upper residency were not independently established. No global inclusion/exclusion classification.",
+    "status": "uncertain"
+  },
+  "integrity_or_quality_issues": [],
+  "isa": "x86_64",
+  "l1_candidate": {
+    "capacity_endpoint_cpus": [
+      32,
+      32
+    ],
+    "capacity_interval_bytes": [
+      49152,
+      53248
+    ],
+    "capacity_rule": "First departure by >10% from median of first three small-footprint centers; interval, not a rounded cache answer",
+    "capacity_sources": [
+      "machines/icelake_8358/full/capacity/08999873af33fb06/complete.json",
+      "machines/icelake_8358/full/capacity/7c66029d896ba77a/complete.json"
+    ],
+    "caveat": "Conditional L1 interpretation of the smallest timing class. All numerical candidates come from measured plateaus and repeated spatial/conflict edges; no specification value is used.",
+    "conflict_strides": [
+      4096,
+      16384,
+      65536
+    ],
+    "derived_set_interval": [
+      64.0,
+      69.33333333333333
+    ],
+    "geometry": {
+      "capacity_candidate_bytes": 49152,
+      "derived_sets": 64,
+      "line_candidate_bytes": 64,
+      "status": "internally consistent candidate; smallest tested agreeing stride may not be fundamental; no rounding applied",
+      "tested_index_period_bytes": 4096,
+      "ways_candidate": 12
+    },
+    "hit_class_median_ns": 2.024086760505698,
+    "hit_class_statistics": {
+      "maximum": 168.6484375,
+      "mean": 5.2580615390625,
+      "median": 5.25,
+      "minimum": 5.234375,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 36346,
+      "p05": 5.2421875,
+      "p95": 5.2578125,
+      "q1": 5.2421875,
+      "q3": 5.25,
+      "stddev": 0.5327500366042727,
+      "zero_samples": 0
+    },
+    "line_bytes": 64,
+    "line_rule": "Unique spatial edge shared by at least two fixed-footprint sweeps; 8-byte offset resolution; transfer-granularity candidate",
+    "nanosecond_conversion": "per-run timer/CLOCK_MONOTONIC_RAW calibration; approximate",
+    "next_class_statistics": {
+      "maximum": 255.9453125,
+      "mean": 6.1297613125,
+      "median": 6.09375,
+      "minimum": 5.453125,
+      "n": 1000000,
+      "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+      "outliers": 10096,
+      "p05": 5.84375,
+      "p95": 6.40625,
+      "q1": 5.984375,
+      "q3": 6.2265625,
+      "stddev": 0.7358257256579451,
+      "zero_samples": 0
+    },
+    "status": "timing-supported, internally consistent L1 candidate with capacity interval",
+    "unit": "TSC_ticks/access",
+    "ways": 12,
+    "ways_rule": "Unique conflict threshold reproduced at three or more strides; conditional virtual-index interpretation"
+  },
+  "line_size": {
+    "candidates": [
+      {
+        "footprint": 524288,
+        "offset_lower": 56,
+        "offset_upper": 64,
+        "sources": [
+          "machines/icelake_8358/full/line_size/07e89c49504c2500/complete.json",
+          "machines/icelake_8358/full/line_size/fa336e86efff2e3c/complete.json"
+        ]
+      },
+      {
+        "footprint": 2097152,
+        "offset_lower": 56,
+        "offset_upper": 64,
+        "sources": [
+          "machines/icelake_8358/full/line_size/866bcd7ac64da8fe/complete.json",
+          "machines/icelake_8358/full/line_size/e60e972e59e5461c/complete.json"
+        ]
+      }
+    ],
+    "limitation": "Random 512-byte blocks have fixed allocation and node count; physical line occupancy changes with offset. Prefetching and residency can obscure or imitate a boundary.",
+    "status": "candidate spatial granularity only; distinct line sizes per cache level not established"
+  },
+  "missing_families": [],
+  "noisy_points": 42,
+  "observed_cpus": [
+    0,
+    32
+  ],
+  "observed_numa_nodes": [
+    0,
+    1
+  ],
+  "observed_sockets": [
+    0,
+    1
+  ],
+  "page_control": {
+    "alternate_batch_control_points": 0,
+    "attempts": 11,
+    "complete": true,
+    "interpretation": "Changed latency with confirmed huge backing is consistent with translation effects, but allocation/physical indexing and changed cores may also contribute. No cache geometry is read from page metadata.",
+    "issues": [],
+    "missing_working_sets": [],
+    "pairs": [
+      {
+        "baseline_cpu": 32,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/icelake_8358/full/capacity/e2f3323faa76ee0b/complete.json",
+        "baseline_statistics": {
+          "maximum": 168.6484375,
+          "mean": 5.2580615390625,
+          "median": 5.25,
+          "minimum": 5.234375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 36346,
+          "p05": 5.2421875,
+          "p95": 5.2578125,
+          "q1": 5.2421875,
+          "q3": 5.25,
+          "stddev": 0.5327500366042727,
+          "zero_samples": 0
+        },
+        "bytes": 1024,
+        "control_cpu": 0,
+        "control_raw": "machines/icelake_8358/page_control/page_control/4fda25358f8dad15/attempt-1789183040977712436/samples.u64.gz",
+        "control_record": "machines/icelake_8358/page_control/page_control/4fda25358f8dad15/complete.json",
+        "control_sha256": "281975135018abba568712563d21f2e0b5354d1516528c991f4c6201049c91fe",
+        "control_statistics": {
+          "maximum": 165.2734375,
+          "mean": 5.2585160859375,
+          "median": 5.2421875,
+          "minimum": 5.234375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 9674,
+          "p05": 5.2421875,
+          "p95": 5.25,
+          "q1": 5.2421875,
+          "q3": 5.25,
+          "stddev": 0.5971466056532369,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1024,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 32,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/icelake_8358/full/capacity/1b0b34d0dd539637/complete.json",
+        "baseline_statistics": {
+          "maximum": 129.7890625,
+          "mean": 5.25700471875,
+          "median": 5.25,
+          "minimum": 5.234375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 7190,
+          "p05": 5.2421875,
+          "p95": 5.25,
+          "q1": 5.2421875,
+          "q3": 5.25,
+          "stddev": 0.49826588695012025,
+          "zero_samples": 0
+        },
+        "bytes": 4096,
+        "control_cpu": 0,
+        "control_raw": "machines/icelake_8358/page_control/page_control/4e5cf7726422f2cf/attempt-1789183037401085709/samples.u64.gz",
+        "control_record": "machines/icelake_8358/page_control/page_control/4e5cf7726422f2cf/complete.json",
+        "control_sha256": "33bf6c463a3b40fc089f74f28e41f5bd13ed6288714dadc9931208f6167fd008",
+        "control_statistics": {
+          "maximum": 85.25,
+          "mean": 5.25782809375,
+          "median": 5.2421875,
+          "minimum": 5.234375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 9036,
+          "p05": 5.2421875,
+          "p95": 5.25,
+          "q1": 5.2421875,
+          "q3": 5.25,
+          "stddev": 0.5376536409548284,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4096,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 32,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/icelake_8358/full/capacity/87de17c63b508e69/complete.json",
+        "baseline_statistics": {
+          "maximum": 71.703125,
+          "mean": 5.2573478515625,
+          "median": 5.25,
+          "minimum": 5.234375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 8498,
+          "p05": 5.2421875,
+          "p95": 5.25,
+          "q1": 5.2421875,
+          "q3": 5.25,
+          "stddev": 0.48941955368011436,
+          "zero_samples": 0
+        },
+        "bytes": 16384,
+        "control_cpu": 0,
+        "control_raw": "machines/icelake_8358/page_control/page_control/d20351e6eb99a2ad/attempt-1789183084993384763/samples.u64.gz",
+        "control_record": "machines/icelake_8358/page_control/page_control/d20351e6eb99a2ad/complete.json",
+        "control_sha256": "b9a6d90de746113311ada46da589cd5831edfd59703dbb9ccfce1ed855c57e87",
+        "control_statistics": {
+          "maximum": 239.0859375,
+          "mean": 5.2619838671875,
+          "median": 5.2421875,
+          "minimum": 5.234375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 137020,
+          "p05": 5.2421875,
+          "p95": 5.2734375,
+          "q1": 5.2421875,
+          "q3": 5.25,
+          "stddev": 0.5888342596603862,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16384,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 32,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/icelake_8358/full/capacity/7cfad63962e6986f/complete.json",
+        "baseline_statistics": {
+          "maximum": 175.046875,
+          "mean": 8.0169067265625,
+          "median": 7.984375,
+          "minimum": 7.1796875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 7625,
+          "p05": 7.6171875,
+          "p95": 8.453125,
+          "q1": 7.8125,
+          "q3": 8.1640625,
+          "stddev": 0.738093464324546,
+          "zero_samples": 0
+        },
+        "bytes": 65536,
+        "control_cpu": 0,
+        "control_raw": "machines/icelake_8358/page_control/page_control/75e57dc22b18f59a/attempt-1789183075404942131/samples.u64.gz",
+        "control_record": "machines/icelake_8358/page_control/page_control/75e57dc22b18f59a/complete.json",
+        "control_sha256": "c412c9ed6c6d46808595c5e973cc408ad082b5fb016b0152410f8f09164fc89c",
+        "control_statistics": {
+          "maximum": 1679.03125,
+          "mean": 8.041387625,
+          "median": 7.9921875,
+          "minimum": 7.2109375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 16338,
+          "p05": 7.640625,
+          "p95": 8.4921875,
+          "q1": 7.84375,
+          "q3": 8.1640625,
+          "stddev": 1.8865674542342254,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 65536,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 32,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/icelake_8358/full/capacity/d51f07d382755a6f/complete.json",
+        "baseline_statistics": {
+          "maximum": 2986.2578125,
+          "mean": 12.939265875,
+          "median": 12.8984375,
+          "minimum": 12.15625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 10711,
+          "p05": 12.5390625,
+          "p95": 13.234375,
+          "q1": 12.765625,
+          "q3": 13.046875,
+          "stddev": 3.655478326478594,
+          "zero_samples": 0
+        },
+        "bytes": 262144,
+        "control_cpu": 0,
+        "control_raw": "machines/icelake_8358/page_control/page_control/928eb8c3854e41c6/attempt-1789183088564934122/samples.u64.gz",
+        "control_record": "machines/icelake_8358/page_control/page_control/928eb8c3854e41c6/complete.json",
+        "control_sha256": "762e9405422d7c46bdc05b44a50376188142e32abad2bf1e99b7ebf04a6aed19",
+        "control_statistics": {
+          "maximum": 1436.125,
+          "mean": 12.783401296875,
+          "median": 12.765625,
+          "minimum": 12.0703125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 25389,
+          "p05": 12.3828125,
+          "p95": 13.0546875,
+          "q1": 12.625,
+          "q3": 12.875,
+          "stddev": 1.7848348359278297,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 262144,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 32,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/icelake_8358/full/capacity/8030d623a0b1b36c/complete.json",
+        "baseline_statistics": {
+          "maximum": 518.4609375,
+          "mean": 21.16124059375,
+          "median": 20.9921875,
+          "minimum": 14.2734375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 48975,
+          "p05": 19.3203125,
+          "p95": 23.6953125,
+          "q1": 20.234375,
+          "q3": 22.0078125,
+          "stddev": 2.2175067143428797,
+          "zero_samples": 0
+        },
+        "bytes": 1048576,
+        "control_cpu": 0,
+        "control_raw": "machines/icelake_8358/page_control/page_control/4a7aaa360dd764cb/attempt-1789183044573236068/samples.u64.gz",
+        "control_record": "machines/icelake_8358/page_control/page_control/4a7aaa360dd764cb/complete.json",
+        "control_sha256": "0fc4b9b879b9b42a4f5cdbb6993bbb0e06eed904e4b27c9c9ef857d386f0515e",
+        "control_statistics": {
+          "maximum": 1391.8984375,
+          "mean": 13.918383046875,
+          "median": 13.890625,
+          "minimum": 13.421875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 8443,
+          "p05": 13.6796875,
+          "p95": 14.0703125,
+          "q1": 13.796875,
+          "q3": 13.96875,
+          "stddev": 2.124058446109067,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 2097152,
+        "huge_backing_before_bytes": 2097152,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 2048,
+          "anon_huge_before_kib": 2048,
+          "anon_huge_kib": 2048,
+          "kernel_page_kib": 4,
+          "logical_bytes": 1048576,
+          "mapped_bytes": 2097152,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 32,
+        "baseline_qualification": "verified_noisy",
+        "baseline_record": "machines/icelake_8358/full/capacity/ee8db35754534f63/attempt-1789179145614210354/run.json",
+        "baseline_statistics": {
+          "maximum": 409.421875,
+          "mean": 58.0430190078125,
+          "median": 53.953125,
+          "minimum": 45.90625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 61441,
+          "p05": 50.7578125,
+          "p95": 79.3203125,
+          "q1": 52.5,
+          "q3": 60.6484375,
+          "stddev": 11.519130275785457,
+          "zero_samples": 0
+        },
+        "bytes": 4194304,
+        "control_cpu": 0,
+        "control_raw": "machines/icelake_8358/page_control/page_control/b5cd587b14d94779/attempt-1789183024052662452/samples.u64.gz",
+        "control_record": "machines/icelake_8358/page_control/page_control/b5cd587b14d94779/complete.json",
+        "control_sha256": "e33935f7b5d67d43fd05858afdb63842a6be6066c006fa8e57fb41ba49f5a299",
+        "control_statistics": {
+          "maximum": 1415.4375,
+          "mean": 51.350906921875,
+          "median": 50.890625,
+          "minimum": 40.703125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 5423,
+          "p05": 47.1796875,
+          "p95": 55.9375,
+          "q1": 49.1484375,
+          "q3": 53.34375,
+          "stddev": 4.520660173718428,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 4194304,
+        "huge_backing_before_bytes": 4194304,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 4096,
+          "anon_huge_before_kib": 4096,
+          "anon_huge_kib": 4096,
+          "kernel_page_kib": 4,
+          "logical_bytes": 4194304,
+          "mapped_bytes": 4194304,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 32,
+        "baseline_qualification": "verified_noisy",
+        "baseline_record": "machines/icelake_8358/full/capacity/f037869accb3fd53/attempt-1789179254856866095/run.json",
+        "baseline_statistics": {
+          "maximum": 1779.953125,
+          "mean": 75.8446392734375,
+          "median": 71.109375,
+          "minimum": 65.4609375,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 187634,
+          "p05": 68.9765625,
+          "p95": 99.7734375,
+          "q1": 70.171875,
+          "q3": 72.40625,
+          "stddev": 13.973115441921099,
+          "zero_samples": 0
+        },
+        "bytes": 16777216,
+        "control_cpu": 0,
+        "control_raw": "machines/icelake_8358/page_control/page_control/eb4abf762c235942/attempt-1789183111390163951/samples.u64.gz",
+        "control_record": "machines/icelake_8358/page_control/page_control/eb4abf762c235942/complete.json",
+        "control_sha256": "e7e056da7f6440957adce821d48b65d27639cf971df62f65f30eba268c48fc77",
+        "control_statistics": {
+          "maximum": 11979.015625,
+          "mean": 63.1002315625,
+          "median": 61.515625,
+          "minimum": 55.2265625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 6258,
+          "p05": 59.1484375,
+          "p95": 69.125,
+          "q1": 60.453125,
+          "q3": 66.6328125,
+          "stddev": 12.999876270911452,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 16777216,
+        "huge_backing_before_bytes": 16777216,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 16384,
+          "anon_huge_before_kib": 16384,
+          "anon_huge_kib": 16384,
+          "kernel_page_kib": 4,
+          "logical_bytes": 16777216,
+          "mapped_bytes": 16777216,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 32,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/icelake_8358/full/capacity/98d82976833e95f4/complete.json",
+        "baseline_statistics": {
+          "maximum": 5691.25,
+          "mean": 140.8091384375,
+          "median": 139.8046875,
+          "minimum": 109.875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 25878,
+          "p05": 128.109375,
+          "p95": 157.109375,
+          "q1": 134.703125,
+          "q3": 145.609375,
+          "stddev": 13.340995207151202,
+          "zero_samples": 0
+        },
+        "bytes": 67108864,
+        "control_cpu": 0,
+        "control_raw": "machines/icelake_8358/page_control/page_control/35f1753be415e3c6/attempt-1789183053254682946/samples.u64.gz",
+        "control_record": "machines/icelake_8358/page_control/page_control/35f1753be415e3c6/complete.json",
+        "control_sha256": "332c7d84338a53e6eb47b9d638e81ff005dc40f240d370c7151a9bba4c6438d0",
+        "control_statistics": {
+          "maximum": 12157.9453125,
+          "mean": 124.7504954375,
+          "median": 122.28125,
+          "minimum": 89.171875,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 51331,
+          "p05": 110.1484375,
+          "p95": 147.546875,
+          "q1": 116.8671875,
+          "q3": 129.0,
+          "stddev": 18.483442645137703,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 67108864,
+        "huge_backing_before_bytes": 67108864,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 65536,
+          "anon_huge_before_kib": 65536,
+          "anon_huge_kib": 65536,
+          "kernel_page_kib": 4,
+          "logical_bytes": 67108864,
+          "mapped_bytes": 67108864,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      },
+      {
+        "baseline_cpu": 32,
+        "baseline_qualification": "verified_clean",
+        "baseline_record": "machines/icelake_8358/full/capacity/5b6e9fb0a066f7ea/complete.json",
+        "baseline_statistics": {
+          "maximum": 17961.4609375,
+          "mean": 242.9337452421875,
+          "median": 242.2265625,
+          "minimum": 207.953125,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 15589,
+          "p05": 228.9375,
+          "p95": 258.828125,
+          "q1": 236.515625,
+          "q3": 248.4140625,
+          "stddev": 36.491530382749424,
+          "zero_samples": 0
+        },
+        "bytes": 268435456,
+        "control_cpu": 0,
+        "control_raw": "machines/icelake_8358/page_control/page_control/568e19603ebf72c9/attempt-1789183126778985020/samples.u64.gz",
+        "control_record": "machines/icelake_8358/page_control/page_control/568e19603ebf72c9/complete.json",
+        "control_sha256": "23b07e476827dc083bb35218fcba5471b99ae5226f35736dfb1ddb1cbb015952",
+        "control_statistics": {
+          "maximum": 12366.0078125,
+          "mean": 211.4850100234375,
+          "median": 210.796875,
+          "minimum": 181.9140625,
+          "n": 1000000,
+          "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+          "outliers": 16769,
+          "p05": 198.8515625,
+          "p95": 225.9453125,
+          "q1": 205.6171875,
+          "q3": 216.3828125,
+          "stddev": 20.547533961768227,
+          "zero_samples": 0
+        },
+        "flags": [],
+        "huge_backing_after_bytes": 268435456,
+        "huge_backing_before_bytes": 268435456,
+        "huge_backing_confirmed": true,
+        "page_metadata": {
+          "advice_rc": 0,
+          "anon_huge_after_kib": 262144,
+          "anon_huge_before_kib": 262144,
+          "anon_huge_kib": 262144,
+          "kernel_page_kib": 4,
+          "logical_bytes": 268435456,
+          "mapped_bytes": 268435456,
+          "mapping_found": true,
+          "mmu_page_kib": 4,
+          "note": "Primary stdout field madvise_nohugepage_rc is the return code of this HUGEPAGE hook in this separate control binary",
+          "pmd_page_bytes": 2097152,
+          "policy": "MADV_HUGEPAGE for this allocation only"
+        },
+        "qualification": "verified_clean",
+        "same_logical_cpu": false,
+        "unit": "TSC_ticks/access"
+      }
+    ],
+    "unavailable": false
+  },
+  "plots": [
+    "plots/icelake_8358-capacity.svg",
+    "plots/icelake_8358-line_size.svg",
+    "plots/icelake_8358-associativity.svg",
+    "plots/icelake_8358-inclusion_policy.svg",
+    "plots/icelake_8358-latency.svg",
+    "plots/icelake_8358-software_metric.svg",
+    "plots/icelake_8358-timer.svg",
+    "plots/icelake_8358-loop.svg",
+    "plots/icelake_8358-boundary-distributions.svg",
+    "plots/icelake_8358-page-control.svg"
+  ],
+  "primary_collection_complete": true,
+  "sharing_scope": "effective domain visible to the pinned core; exact sharing domain unverified in Phase I",
+  "software_metric": {
+    "block_rate_range": [
+      0.8407,
+      0.9219
+    ],
+    "calibration_and_workload_cpus": [
+      32,
+      32,
+      32
+    ],
+    "classified_hits": 855640,
+    "estimate": 0.85564,
+    "limitations": "Single-load timer overhead/quantization; smallest/largest footprints are empirical proxies, not PMU-confirmed classes. Adjacent samples are correlated. Wilson intervals omit calibration/classification error; threshold-sensitivity and block ranges expose additional uncertainty. Phase-II validation not performed.",
+    "same_logical_cpu": true,
+    "sources": [
+      "machines/icelake_8358/full/software_metric/00cef01de4beae11/complete.json",
+      "machines/icelake_8358/full/software_metric/321cb4ea8263334b/complete.json",
+      "machines/icelake_8358/full/software_metric/484f3d0a0a6e6e81/complete.json"
+    ],
+    "standardized_workload_bytes": 1048576,
+    "status": "timing-classified cache-residency proxy; not a validated hardware hit rate",
+    "threshold_raw_ticks": 111.0,
+    "threshold_sensitivity_limits_raw_ticks": [
+      80.0,
+      142.0
+    ],
+    "threshold_sensitivity_rate_range": [
+      0.093986,
+      0.942905
+    ],
+    "total_timed_accesses": 1000000,
+    "unit": "TSC_ticks",
+    "wilson_95_independent_sample_assumption": [
+      0.854949783136532,
+      0.8563274844207167
+    ]
+  },
+  "unsuccessful_attempts": 167,
+  "verified_points": 291
+}

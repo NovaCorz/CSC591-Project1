@@ -1,0 +1,36 @@
+{
+  "allowed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "architecture": "x86_64",
+  "cpu_identity": [
+    "model name\t: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz"
+  ],
+  "host": "charnwood",
+  "hostname": "charnwood.ece.ncsu.edu",
+  "platform": "Linux-6.8.0-101-generic-x86_64-with-glibc2.39",
+  "source_manifest": {
+    "cache_bench.c": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+    "common.py": "5b88cf6993875cf67ca4a7606fc6d5aee22d9cef5eafbcdbbd515351474d1b10",
+    "partner_repository_commit": "f0b43d2419224bcc16f9fb4e9a187aeeb90da847",
+    "phase1_source_repository_commit": "68f8cfee1400043be18eed9bb6ad8f882848c461",
+    "region_pmu.c": "93735e19787d9a31e41b9be3dc763b2575698784fd84273278b3231845b031ca",
+    "worker.py": "06fc05324e959bebb66719a144269ffa61a36f3e363574d193016bebeadbd1b0"
+  },
+  "timestamp": "2026-09-13T05:25:13.108401+00:00",
+  "topology": {
+    "command": [
+      "lscpu",
+      "-p=CPU,CORE,SOCKET,NODE"
+    ],
+    "stderr": "",
+    "stdout": "# The following is the parsable format, which can be fed to other\n# programs. Each different item in every column has an unique ID\n# starting usually from zero.\n# CPU,Core,Socket,Node\n0,0,0,0\n1,1,0,0\n2,2,0,0\n3,3,0,0\n4,0,0,0\n5,1,0,0\n6,2,0,0\n7,3,0,0\n"
+  }
+}

@@ -1,0 +1,5 @@
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+[2026-09-12T02:12:39.009] error: *** JOB 811211 ON n0398 CANCELLED AT 2026-09-12T02:12:39 DUE TO TIME LIMIT ***
+[2026-09-12T02:12:39.009] error: *** STEP 811211.0 ON n0398 CANCELLED AT 2026-09-12T02:12:39 DUE TO TIME LIMIT ***
+[2026-09-12T02:12:39.018] error: --task-epilog failed status=15
+srun: error: n0398: task 0: Terminated

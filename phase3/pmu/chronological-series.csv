@@ -1,0 +1,17 @@
+hostname,cpu_model,regime,size_kib,mode,event,raw_value,per_access,machine,year,vendor
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,DTLB-read-miss,371,7.24609375e-07,sunbird,2014,Intel
+sunbird.ece.ncsu.edu,model name	: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz,l1_resident,34.0,chase,L1D-read-miss,46561729,0.090940876953125,sunbird,2014,Intel
+thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,DTLB-read-miss,3879,7.576171875e-06,thunderbird,2020,Ampere
+thunderbird.ece.ncsu.edu,unavailable,l1_resident,34.0,chase,L1D-read-miss,207728,0.00040571875,thunderbird,2020,Ampere
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,DTLB-read-miss,2216,4.328125e-06,skylark,2019,AMD
+skylark.ece.ncsu.edu,model name	: AMD EPYC 7532 32-Core Processor,l1_resident,34.0,chase,L1D-read-miss,61521635,0.120159443359375,skylark,2019,AMD
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,DTLB-read-miss,275,5.37109375e-07,artemisia,2023,Intel
+artemisia.ece.ncsu.edu,model name	: Intel(R) Xeon(R) Gold 5420+,l1_resident,34.0,chase,L1D-read-miss,120143,0.000234654296875,artemisia,2023,Intel
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,DTLB-read-miss,15148,2.95859375e-05,charnwood,2015,Intel
+charnwood.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz,l1_resident,34.0,chase,L1D-read-miss,106710943,0.208419810546875,charnwood,2015,Intel
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,DTLB-read-miss,334,6.5234375e-07,crux,2018,Intel
+crux.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz,l1_resident,34.0,chase,L1D-read-miss,51448954,0.10048623828125,crux,2018,Intel
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,DTLB-read-miss,334,6.5234375e-07,ookay,2017,Intel
+ookay.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz,l1_resident,34.0,chase,L1D-read-miss,47952763,0.093657740234375,ookay,2017,Intel
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,DTLB-read-miss,348,6.796875e-07,upgrade,2017,Intel
+upgrade.ece.ncsu.edu,model name	: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz,l1_resident,34.0,chase,L1D-read-miss,47678939,0.093122927734375,upgrade,2017,Intel

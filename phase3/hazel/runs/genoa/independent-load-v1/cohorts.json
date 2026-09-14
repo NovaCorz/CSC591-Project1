@@ -1,0 +1,133 @@
+{
+  "batch": 4096,
+  "cohorts": [
+    {
+      "attempts": [
+        {
+          "records": [
+            "comparison/98fe8851d5b49f3b/attempt-1789186721324402710",
+            "comparison/ac51a66fec63c2e3/attempt-1789186734135767175"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "order": [
+        1,
+        4
+      ],
+      "order_index": 0,
+      "seed": 5924101,
+      "selected": [
+        "comparison/98fe8851d5b49f3b/attempt-1789186721324402710",
+        "comparison/ac51a66fec63c2e3/attempt-1789186734135767175"
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "comparison/2899815d0b6a65a1/attempt-1789186740938298405",
+            "comparison/4031ce0ff10893f0/attempt-1789186747579811785"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "order": [
+        4,
+        1
+      ],
+      "order_index": 1,
+      "seed": 5924101,
+      "selected": [
+        "comparison/2899815d0b6a65a1/attempt-1789186740938298405",
+        "comparison/4031ce0ff10893f0/attempt-1789186747579811785"
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "comparison/4e1294f70e769af0/attempt-1789186760371930884",
+            "comparison/9b7c125a29a51b90/attempt-1789186773167281714"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "order": [
+        1,
+        4
+      ],
+      "order_index": 0,
+      "seed": 5924102,
+      "selected": [
+        "comparison/4e1294f70e769af0/attempt-1789186760371930884",
+        "comparison/9b7c125a29a51b90/attempt-1789186773167281714"
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "comparison/aef35aa059820215/attempt-1789186779914585974",
+            "comparison/b8271f9eb2c0e80a/attempt-1789186786404727197"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "order": [
+        4,
+        1
+      ],
+      "order_index": 1,
+      "seed": 5924102,
+      "selected": [
+        "comparison/aef35aa059820215/attempt-1789186779914585974",
+        "comparison/b8271f9eb2c0e80a/attempt-1789186786404727197"
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "comparison/39e18bdd904491ce/attempt-1789186799240989040",
+            "comparison/097a1c22903250f2/attempt-1789186812018675788"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "order": [
+        1,
+        4
+      ],
+      "order_index": 0,
+      "seed": 5924103,
+      "selected": [
+        "comparison/39e18bdd904491ce/attempt-1789186799240989040",
+        "comparison/097a1c22903250f2/attempt-1789186812018675788"
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "records": [
+            "comparison/a9ad2e39352d03a8/attempt-1789186818788146079",
+            "comparison/7c4b52a3911e1e5e/attempt-1789186825266642485"
+          ],
+          "same_core_clean": true
+        }
+      ],
+      "order": [
+        4,
+        1
+      ],
+      "order_index": 1,
+      "seed": 5924103,
+      "selected": [
+        "comparison/a9ad2e39352d03a8/attempt-1789186818788146079",
+        "comparison/7c4b52a3911e1e5e/attempt-1789186825266642485"
+      ]
+    }
+  ],
+  "selection": "First clean same-core pair per seed/order; retry both arms at most three times. Retain all attempts. Never select by effect size or direction.",
+  "source_digest": "d1db7a614bd1ecbdc96cc8341be5868af6e7d106da711cecd46a214f6b209a87"
+}

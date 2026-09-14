@@ -1,0 +1,40 @@
+{"event": "point_passed", "family": "smoke", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 1, "extra_args": [1]}, "median": 5.01904296875}
+{"event": "point_passed", "family": "smoke", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 4, "extra_args": [4]}, "median": 1.26904296875}
+{"event": "point_noisy", "family": "comparison", "flags": ["frequent involuntary context switches", "block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-diagnostic-v2/comparison/98fe8851d5b49f3b/attempt-1789250884804854084"}
+{"event": "point_noisy", "family": "comparison", "flags": ["block median drift exceeds 20 percent"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-diagnostic-v2/comparison/ac51a66fec63c2e3/attempt-1789250894443260256"}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 1, "extra_args": [1], "order_index": 0, "repetition": 1}, "median": 3.837890625}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 4, "extra_args": [4], "order_index": 0, "repetition": 1}, "median": 0.9716796875}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 4, "extra_args": [4], "order_index": 1, "repetition": 0}, "median": 0.9716796875}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 1, "extra_args": [1], "order_index": 1, "repetition": 0}, "median": 3.837890625}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924102, "order": "random", "streams": 1, "extra_args": [1], "order_index": 0, "repetition": 0}, "median": 3.837890625}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924102, "order": "random", "streams": 4, "extra_args": [4], "order_index": 0, "repetition": 0}, "median": 0.970703125}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924102, "order": "random", "streams": 4, "extra_args": [4], "order_index": 1, "repetition": 0}, "median": 0.970703125}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924102, "order": "random", "streams": 1, "extra_args": [1], "order_index": 1, "repetition": 0}, "median": 3.837890625}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924103, "order": "random", "streams": 1, "extra_args": [1], "order_index": 0, "repetition": 0}, "median": 3.837890625}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924103, "order": "random", "streams": 4, "extra_args": [4], "order_index": 0, "repetition": 0}, "median": 0.970703125}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924103, "order": "random", "streams": 4, "extra_args": [4], "order_index": 1, "repetition": 0}, "median": 0.9716796875}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924103, "order": "random", "streams": 1, "extra_args": [1], "order_index": 1, "repetition": 0}, "median": 3.837890625}
+
+------------------------------------------------------------
+Resource usage summary:
+
+    Job ID            : 815969
+    Job name          : hz-icelake83-indep-v2
+    User / Account    : hlee58 / ece592f26_cpu
+    Partition / QOS   : compute_partners / short
+    Submitted         : 2026-09-12T18:07:48
+    Started           : 2026-09-12T18:07:59
+    Wait time         : 11 sec
+    Elapsed (wall)    : 00:02:03
+    Nodes             : 1 (c059n01)
+    CPUs allocated    : 2
+    Tasks             : 1
+    CPU time (total)  : 88.89 sec  (user 88.39, sys 0.52)
+    CPU efficiency    : 36.1%
+    Memory in use     : 63.93 MB  (sampled at job end; see seff for peak)
+    Memory requested  : 2G
+    Working directory : /gpfs_common/share03/rotenberg/hlee58/ECE592_proj1
+    Exit code         : 0:0
+
+    For final accounting (Slurm's MaxRSS, billing, etc.):  seff 815969
+------------------------------------------------------------

@@ -1,0 +1,12 @@
+{
+  "final_job_id": "817293",
+  "output": "results-817293",
+  "audit": "audit-results-817293.json",
+  "submission_command": "sbatch --output=prediction/post_hazel/logs/compare.%j.stdout --error=prediction/post_hazel/logs/compare.%j.stderr prediction/post_hazel/final.slurm",
+  "scripts": {
+    "build.py": "b7a7bc82e79df020f0ccdf4cac15c80851d557be86f1a0893d22bf5db6fa297a",
+    "audit.py": "019f547c308d643ff40143ea9231e3fd3420993d62e4c8d767622dc0ff7c9ec3",
+    "final.slurm": "45942b2d0f8a1d9bd446d75d53a49cc4bab6a8e40e65d1f00d850870532abc98",
+    "run.slurm": "de40fc99ea7590f16cdb16c4a88e8cb3ecdd6d10b4e7ca9814acdd4d6e2afa39"
+  }
+}

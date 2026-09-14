@@ -1,0 +1,26 @@
+{"passed": true, "output": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/results-817293", "master_rows": 13, "comparison_rows": 80}
+{"passed": true, "job_id": "817293", "verified_output_hashes": 78, "quantitative_comparisons": 31, "required_plot_pdf_pages": 15, "master_rows": 13, "frozen_prediction_and_curve_bytes_unchanged": true, "future_horizon_checked": 2029, "scope": "hashes, errors, missing-value handling, sample-workload identity, chronological ordering, PDF structure; visual review separate"}
+
+------------------------------------------------------------
+Resource usage summary:
+
+    Job ID            : 817293
+    Job name          : hz-compare-final
+    User / Account    : hlee58 / ece506s26_cpu
+    Partition / QOS   : compute / normal
+    Submitted         : 2026-09-12T23:08:35
+    Started           : 2026-09-12T23:09:01
+    Wait time         : 26 sec
+    Elapsed (wall)    : 00:00:30
+    Nodes             : 1 (c207n01)
+    CPUs allocated    : 1
+    Tasks             : 1
+    CPU time (total)  : 25.65 sec  (user 20.04, sys 5.62)
+    CPU efficiency    : 85.5%
+    Memory in use     : 151.30 MB  (sampled at job end; see seff for peak)
+    Memory requested  : 3G
+    Working directory : /gpfs_common/share03/rotenberg/hlee58/ECE592_proj1
+    Exit code         : 0:0
+
+    For final accounting (Slurm's MaxRSS, billing, etc.):  seff 817293
+------------------------------------------------------------
