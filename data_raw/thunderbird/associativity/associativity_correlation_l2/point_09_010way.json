@@ -1,0 +1,160 @@
+{
+  "conflict_count": 10,
+  "period_bytes": 73728,
+  "bytes": 884736,
+  "batch": 20,
+  "address_list_sha256": "df1eaa931d1c2a381e8a55d203bc374905cc33bb5ed8343fc147eef3b838c6d5",
+  "address_offsets": [
+    73728,
+    147456,
+    221184,
+    294912,
+    368640,
+    442368,
+    516096,
+    589824,
+    663552,
+    737280
+  ],
+  "relation_to_ways_candidate": "above",
+  "invocation": [
+    "/home/jrkuethe/CSC591-Project1/main_code/common/phase1/src/followup_bench",
+    "probe",
+    "884736",
+    "73728",
+    "0",
+    "1000000",
+    "20",
+    "5922026",
+    "3",
+    "random",
+    "../../data_raw/thunderbird/pmu/associativity_correlation_l2/point_09_010way.bin",
+    "0",
+    "huge",
+    "../../data_raw/thunderbird/pmu/associativity_correlation_l2/address-sets/df1eaa931d1c2a381e8a55d203bc374905cc33bb5ed8343fc147eef3b838c6d5.txt",
+    "-1"
+  ],
+  "returncode": 1,
+  "bench_metadata": {
+    "samples": 1000000,
+    "batch": 20,
+    "cpu": 3,
+    "final_cpu": 3,
+    "helper_cpu": -1,
+    "unit": "CNTVCT_ticks",
+    "counter_frequency": 25000000,
+    "empirical_ticks_per_second": 24999700.917,
+    "elapsed_ns": 197904280,
+    "little_endian": true,
+    "major_faults": 0,
+    "minor_faults": 0,
+    "involuntary_switches": 3,
+    "voluntary_switches": 0,
+    "alignment_shift": 0,
+    "page_policy": "huge",
+    "mapped_bytes": 2097152,
+    "logical_bytes": 884736,
+    "anon_huge_before_kib": 2048,
+    "anon_huge_after_kib": 2048,
+    "pressure_nodes": 10,
+    "target_in_pressure_mapping": true,
+    "address": "0xffff7fe00000",
+    "target_address": "0xffff7fe00000"
+  },
+  "counters": {
+    "cycles": "904824027",
+    "instructions": "339142573",
+    "cache-misses": "42502766"
+  },
+  "batches": [
+    {
+      "event_batch": [
+        "cycles",
+        "instructions"
+      ],
+      "returncode": 0,
+      "bench_metadata": {
+        "samples": 1000000,
+        "batch": 20,
+        "cpu": 3,
+        "final_cpu": 3,
+        "helper_cpu": -1,
+        "unit": "CNTVCT_ticks",
+        "counter_frequency": 25000000,
+        "empirical_ticks_per_second": 24999700.917,
+        "elapsed_ns": 197904280,
+        "little_endian": true,
+        "major_faults": 0,
+        "minor_faults": 0,
+        "involuntary_switches": 3,
+        "voluntary_switches": 0,
+        "alignment_shift": 0,
+        "page_policy": "huge",
+        "mapped_bytes": 2097152,
+        "logical_bytes": 884736,
+        "anon_huge_before_kib": 2048,
+        "anon_huge_after_kib": 2048,
+        "pressure_nodes": 10,
+        "target_in_pressure_mapping": true,
+        "address": "0xffff7fe00000",
+        "target_address": "0xffff7fe00000"
+      },
+      "counters": {
+        "cycles": "904824027",
+        "instructions": "339142573",
+        "time_enabled_ns": "306403280",
+        "time_running_ns": "306403280"
+      },
+      "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=306403280 ns  time_running=306403280 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+    },
+    {
+      "event_batch": [
+        "LL-read-access",
+        "LL-read-miss"
+      ],
+      "returncode": 1,
+      "bench_metadata": null,
+      "counters": {},
+      "pmu_stat_stderr": "perf_event_open failed for 'LL-read-access': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)\nperf_event_open failed for 'LL-read-miss': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)\nno events opened successfully; aborting run\n"
+    },
+    {
+      "event_batch": [
+        "cache-misses"
+      ],
+      "returncode": 0,
+      "bench_metadata": {
+        "samples": 1000000,
+        "batch": 20,
+        "cpu": 3,
+        "final_cpu": 3,
+        "helper_cpu": -1,
+        "unit": "CNTVCT_ticks",
+        "counter_frequency": 25000000,
+        "empirical_ticks_per_second": 24999501.612,
+        "elapsed_ns": 200505160,
+        "little_endian": true,
+        "major_faults": 0,
+        "minor_faults": 0,
+        "involuntary_switches": 0,
+        "voluntary_switches": 0,
+        "alignment_shift": 0,
+        "page_policy": "huge",
+        "mapped_bytes": 2097152,
+        "logical_bytes": 884736,
+        "anon_huge_before_kib": 2048,
+        "anon_huge_after_kib": 2048,
+        "pressure_nodes": 10,
+        "target_in_pressure_mapping": true,
+        "address": "0xffffa9e00000",
+        "target_address": "0xffffa9e00000"
+      },
+      "counters": {
+        "cache-misses": "42502766",
+        "time_enabled_ns": "310393000",
+        "time_running_ns": "310393000"
+      },
+      "pmu_stat_stderr": "-- pmu_stat result --\nchild exit status: 0\ntime_enabled=310393000 ns  time_running=310393000 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+    }
+  ],
+  "pmu_stat_stderr": "--- batch 0: cycles,instructions ---\n-- pmu_stat result --\nchild exit status: 0\ntime_enabled=306403280 ns  time_running=306403280 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n\n--- batch 1: LL-read-access,LL-read-miss ---\nperf_event_open failed for 'LL-read-access': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)\nperf_event_open failed for 'LL-read-miss': No such file or directory (check /proc/sys/kernel/perf_event_paranoid, or this event may not be exposed on this PMU)\nno events opened successfully; aborting run\n\n--- batch 2: cache-misses ---\n-- pmu_stat result --\nchild exit status: 0\ntime_enabled=310393000 ns  time_running=310393000 ns  (100.0% -- <100% means multiplexing occurred; reduce event count and re-run)\n"
+}
