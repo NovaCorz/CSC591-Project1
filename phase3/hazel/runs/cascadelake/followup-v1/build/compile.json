@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/usr/bin/gcc",
+    "-O0",
+    "-g",
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fno-omit-frame-pointer",
+    "-pthread",
+    "followup_bench.c",
+    "-o",
+    "followup_bench"
+  ],
+  "cwd": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/build",
+  "finished": "2026-09-12T05:48:38.862850+00:00",
+  "returncode": 0,
+  "started": "2026-09-12T05:48:38.758673+00:00",
+  "stderr": "",
+  "stdout": ""
+}

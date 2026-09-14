@@ -18,3 +18,13 @@ __pycache__/
 !main_code/common/phase1/access/
 main_code/common/phase1/access/*
 !main_code/common/phase1/access/known_hosts
+
+# New competition execution outputs are retained outside version control.
+competition-runs/
+estimator.*.stdout
+estimator.*.stderr
+
+# Preserve curated Phase-III compiler/assembly provenance, not build binaries.
+!phase3/hazel/runs/**/build/
+phase3/hazel/runs/**/build/*
+!phase3/hazel/runs/**/build/*.json

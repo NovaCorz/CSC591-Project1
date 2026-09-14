@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "hosts": [
+    "haswell",
+    "broadwell",
+    "skylake",
+    "cascadelake",
+    "icelake_6326",
+    "icelake_8358",
+    "sapphirerapids",
+    "genoa",
+    "turin"
+  ],
+  "samples": 1000000,
+  "batch": 128,
+  "seed": 5922026,
+  "min_bytes": 1024,
+  "max_bytes": 268435456,
+  "idle_fraction": 0.05,
+  "idle_seconds": 1.0,
+  "idle_windows": 2,
+  "attempts": 3,
+  "point_timeout_seconds": 1200,
+  "taxonomy": "Hazel constraint labels supplied by the project specification; no cache specifications consulted"
+}

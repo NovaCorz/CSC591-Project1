@@ -1,0 +1,56 @@
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/1a8a04f25b3f755f/attempt-1789258059789830581"}
+{"event": "point_passed", "family": "cross_core_reload_final", "params": {"mode": "cross", "bytes": 262144, "stride": 64, "offset": 0, "batch": 1024, "seed": 5924027, "order": "random", "page": "huge", "align": 0, "address_list": "-", "extra_args": [0, "huge", "-", -1], "timed_loads": 1, "paired_core": true}, "median": 78.0}
+{"event": "point_passed", "family": "cross_core_reload_final", "params": {"mode": "cross", "bytes": 262144, "stride": 64, "offset": 0, "batch": 1024, "seed": 5924028, "order": "random", "page": "huge", "align": 0, "address_list": "-", "extra_args": [0, "huge", "-", -1], "timed_loads": 1, "paired_core": true}, "median": 78.0}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/ba0c5a343871bfd5/attempt-1789258068071862341"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/ba0c5a343871bfd5/attempt-1789258075169132750"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/ba0c5a343871bfd5/attempt-1789258082254717921"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/0db645aeb4832fe3/attempt-1789258089355578124"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/0db645aeb4832fe3/attempt-1789258096460829315"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/0db645aeb4832fe3/attempt-1789258103611660021"}
+{"event": "point_passed", "family": "same_core_reload_final", "params": {"mode": "probe", "bytes": 262144, "stride": 64, "offset": 0, "batch": 1024, "seed": 5924029, "order": "random", "page": "huge", "align": 0, "address_list": "-", "extra_args": [0, "huge", "-", -1], "timed_loads": 1}, "median": 78.0}
+{"event": "point_passed", "family": "cross_core_reload_final", "params": {"mode": "cross", "bytes": 8388608, "stride": 64, "offset": 0, "batch": 1024, "seed": 5924027, "order": "random", "page": "huge", "align": 0, "address_list": "-", "extra_args": [0, "huge", "-", -1], "timed_loads": 1, "paired_core": true}, "median": 78.0}
+{"event": "point_passed", "family": "cross_core_reload_final", "params": {"mode": "cross", "bytes": 8388608, "stride": 64, "offset": 0, "batch": 1024, "seed": 5924028, "order": "random", "page": "huge", "align": 0, "address_list": "-", "extra_args": [0, "huge", "-", -1], "timed_loads": 1, "paired_core": true}, "median": 78.0}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/6c8854cbba65108b/attempt-1789258124047720182"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/6c8854cbba65108b/attempt-1789258141623449067"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/6c8854cbba65108b/attempt-1789258159473495172"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/4fe782accce44bba/attempt-1789258177175199214"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/4fe782accce44bba/attempt-1789258194829888102"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/4fe782accce44bba/attempt-1789258212493337837"}
+{"event": "point_passed", "family": "same_core_reload_final", "params": {"mode": "probe", "bytes": 8388608, "stride": 64, "offset": 0, "batch": 1024, "seed": 5924029, "order": "random", "page": "huge", "align": 0, "address_list": "-", "extra_args": [0, "huge", "-", -1], "timed_loads": 1}, "median": 78.0}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/08dfb33b6ab65a8e/attempt-1789258247881531615"}
+{"event": "point_passed", "family": "cross_core_reload_final", "params": {"mode": "cross", "bytes": 67108864, "stride": 64, "offset": 0, "batch": 1024, "seed": 5924027, "order": "random", "page": "huge", "align": 0, "address_list": "-", "extra_args": [0, "huge", "-", -1], "timed_loads": 1, "paired_core": true}, "median": 78.0}
+{"event": "point_passed", "family": "cross_core_reload_final", "params": {"mode": "cross", "bytes": 67108864, "stride": 64, "offset": 0, "batch": 1024, "seed": 5924028, "order": "random", "page": "huge", "align": 0, "address_list": "-", "extra_args": [0, "huge", "-", -1], "timed_loads": 1, "paired_core": true}, "median": 78.0}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/76b811e44c611d41/attempt-1789258256878634053"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/76b811e44c611d41/attempt-1789258356048764482"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/76b811e44c611d41/attempt-1789258455134900713"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/eb102bff5aebd391/attempt-1789258567831761277"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/eb102bff5aebd391/attempt-1789258700888016637"}
+{"event": "point_noisy", "family": "cross_core_reload_final", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross_core_reload_final/eb102bff5aebd391/attempt-1789258836903645047"}
+{"event": "point_passed", "family": "same_core_reload_final", "params": {"mode": "probe", "bytes": 67108864, "stride": 64, "offset": 0, "batch": 1024, "seed": 5924029, "order": "random", "page": "huge", "align": 0, "address_list": "-", "extra_args": [0, "huge", "-", -1], "timed_loads": 1}, "median": 78.0}
+{"event": "point_passed", "family": "target_hot_final", "params": {"mode": "hot", "bytes": 1024, "stride": 8, "offset": 0, "batch": 512, "seed": 5924030, "order": "random", "align": 0, "page": "base", "address_list": "-", "extra_args": [0, "base", "-", -1], "timed_loads": 1}, "median": 78.0}
+Follow-up segment job=816181 constraint=turin stage=inclusion_final status=0 end=2026-09-12T20:25:11-04:00
+{"record": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/submissions/turin/followup-analysis-20260913T002512.144869Z.json", "returncode": 0, "job_id": "816198", "stderr": ""}
+
+------------------------------------------------------------
+Resource usage summary:
+
+    Job ID            : 816181
+    Job name          : hz-turin-f8
+    User / Account    : hlee58 / ece592f26_cpu
+    Partition / QOS   : compute_partners / short
+    Submitted         : 2026-09-12T20:07:21
+    Started           : 2026-09-12T20:07:37
+    Wait time         : 16 sec
+    Elapsed (wall)    : 00:17:39
+    Nodes             : 1 (n0405)
+    CPUs allocated    : 3
+    Tasks             : 1
+    CPU time (total)  : 1791.43 sec  (user 1790.01, sys 1.43)
+    CPU efficiency    : 56.4%
+    Memory in use     : 188.90 MB  (sampled at job end; see seff for peak)
+    Memory requested  : 2G
+    Working directory : /gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite
+    Exit code         : 0:0
+
+    For final accounting (Slurm's MaxRSS, billing, etc.):  seff 816181
+------------------------------------------------------------

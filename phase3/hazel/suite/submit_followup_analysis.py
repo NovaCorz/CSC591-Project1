@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+"""Submit compute-only raw verification for one completed follow-up suite."""
+import argparse, datetime, getpass, json
+from pathlib import Path
+import subprocess
+ROOT=Path(__file__).resolve().parents[1]
+ALLOWED=set(json.loads((ROOT/'suite/config/phase1.json').read_text())['hosts'])
+def now(): return datetime.datetime.now(datetime.timezone.utc).isoformat()
+def save(path,data):
+    path.parent.mkdir(parents=True,exist_ok=True); temp=path.with_suffix('.tmp'); temp.write_text(json.dumps(data,indent=2)+'\n'); temp.replace(path)
+def main():
+    parser=argparse.ArgumentParser();parser.add_argument('constraint',choices=ALLOWED);args=parser.parse_args()
+    marker=ROOT/'runs'/args.constraint/'followup-v1/inclusion_final-finished.json'
+    if not marker.exists():raise SystemExit('Follow-up acquisition is incomplete')
+    name='hz-'+args.constraint.replace('_','')[:8]+'-fverify'
+    active=subprocess.run(['squeue','-h','-u',getpass.getuser(),'-n',name,'-o','%i|%T|%R'],capture_output=True,text=True,timeout=30,check=True)
+    if active.stdout.strip():raise SystemExit('Refusing duplicate verification: '+active.stdout.strip())
+    logs=ROOT/'logs'/args.constraint;logs.mkdir(parents=True,exist_ok=True)
+    command=['sbatch','--parsable','--account=ece592f26_cpu','--partition=compute','--qos=normal','--nodes=1','--ntasks=1','--cpus-per-task=1','--mem=4G','--time=02:00:00',
+             '--job-name='+name,'--output='+str(logs/'followup-analysis.%j.stdout'),'--error='+str(logs/'followup-analysis.%j.stderr'),
+             str(ROOT/'suite/run_followup_analysis.sh'),args.constraint]
+    stamp=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ');path=ROOT/'submissions'/args.constraint/('followup-analysis-'+stamp+'.json')
+    record={'requested':now(),'constraint':args.constraint,'stage':'followup_analysis','command':command};save(path,record)
+    result=subprocess.run(command,capture_output=True,text=True,timeout=30);record.update(finished=now(),returncode=result.returncode,stdout=result.stdout,stderr=result.stderr)
+    if result.returncode==0:record['job_id']=result.stdout.strip().split(';')[0]
+    save(path,record);print(json.dumps({'record':str(path),'returncode':result.returncode,'job_id':record.get('job_id'),'stderr':result.stderr}));raise SystemExit(result.returncode)
+if __name__=='__main__':main()

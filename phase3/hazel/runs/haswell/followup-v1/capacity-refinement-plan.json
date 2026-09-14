@@ -1,0 +1,22 @@
+{
+  "edges": [
+    [
+      32768,
+      65536
+    ],
+    [
+      262144,
+      524288
+    ],
+    [
+      16777216,
+      33554432
+    ],
+    [
+      33554432,
+      67108864
+    ]
+  ],
+  "rule": "Every adjacent doubled-footprint sparse THP median increase >20%; seven interior points",
+  "time": "2026-09-12T04:12:12.998138+00:00"
+}

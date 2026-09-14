@@ -1,0 +1,120 @@
+{
+  "files": [
+    {
+      "bytes": 766216,
+      "path": "PROJECT 1 (3).pdf",
+      "sha256": "4b4dc98cd3cb05eb2fd0bd406b9e8278d4aa8bdd9b1a341fe8aec65564d4a86c"
+    },
+    {
+      "bytes": 44441,
+      "path": "data_processed/artemisia-inference.json",
+      "sha256": "737843e30d7310237bf8316c44bcf119ab0465bea3e0f26b58251c6da99c4832"
+    },
+    {
+      "bytes": 64571,
+      "path": "data_processed/charnwood-inference.json",
+      "sha256": "3526971219a7fc724539832b8a22f27a0147f01966637e38dca756f305679540"
+    },
+    {
+      "bytes": 51151,
+      "path": "data_processed/crux-inference.json",
+      "sha256": "a20e884024322020e138268f9ff6a11013e8d582bf8953c68062e9d244e06030"
+    },
+    {
+      "bytes": 29035,
+      "path": "data_processed/followup/latency-classes.csv",
+      "sha256": "7f918b59669dbadd136bf15607148675e5c6c8b6c7049e52f57751b65588981e"
+    },
+    {
+      "bytes": 25276,
+      "path": "data_processed/followup/revised-cache-table.csv",
+      "sha256": "699202c145f3fd63f4ffca96465601f726ef7dd41621adeb0bbf079ea661652f"
+    },
+    {
+      "bytes": 51112,
+      "path": "data_processed/ookay-inference.json",
+      "sha256": "eca0ccf6a66061e774009a03f7b59f9a22eda635677c63bdfda68e305a71ef5b"
+    },
+    {
+      "bytes": 47825,
+      "path": "data_processed/skylark-inference.json",
+      "sha256": "dbc5295e9d242531f9ba54e9ddbe886fe4f9a4278f23c4417fb483c37dbabcf8"
+    },
+    {
+      "bytes": 54271,
+      "path": "data_processed/sunbird-inference.json",
+      "sha256": "b3bcb5640f0e3634eb62726fd0de4fb381deb6c0fda01263025b5d4ff4493aa0"
+    },
+    {
+      "bytes": 45779,
+      "path": "data_processed/thunderbird-inference.json",
+      "sha256": "d18a1e99362bee4e607a6b911c6d9cda369c4005b0f39bc7fd1a7e5f3a224d71"
+    },
+    {
+      "bytes": 50672,
+      "path": "data_processed/upgrade-inference.json",
+      "sha256": "342111e32ee24a12b055c1cd4bc4f6c4f38426f345d19ff70ebc6046f035ea0e"
+    },
+    {
+      "bytes": 3790,
+      "path": "machines/artemisia/followup-v1/capacity_control/dc71c055839ed13a/attempt-1788863132291095014/run.json",
+      "sha256": "3f168ddce6ad614d54364e33168920cc7f1bb363f03427581f2e96a4a272da2a"
+    },
+    {
+      "bytes": 3005,
+      "path": "machines/charnwood/followup-v1/capacity_control/3ce59bbd207d9f88/attempt-1788862136934152622/run.json",
+      "sha256": "a3446acc8b0a0c691428abef9f60ccdcee797e03b17098ac0587a4d27eec769e"
+    },
+    {
+      "bytes": 3010,
+      "path": "machines/crux/followup-v1/capacity_control/3ce59bbd207d9f88/attempt-1788860841521300288/run.json",
+      "sha256": "45d6435f9fd505e32ea40cb7d45538084cb53b74e8c693b0a2688e2e970dd0c6"
+    },
+    {
+      "bytes": 2927,
+      "path": "machines/ookay/followup-v1/capacity_control/3ce59bbd207d9f88/attempt-1788861201017232029/run.json",
+      "sha256": "aa5933251f830198d0a7fac6ce7c9c77909fbd38989d0f051ea919ee53325afa"
+    },
+    {
+      "bytes": 3404,
+      "path": "machines/skylark/followup-v1/capacity_control/3ce59bbd207d9f88/attempt-1788860748411121542/run.json",
+      "sha256": "a57d475702e8cc963909e9d4b0bfc5c500aa5e4527eb9bafe0b39f552287128c"
+    },
+    {
+      "bytes": 3295,
+      "path": "machines/sunbird/followup-v1/capacity_control/3ce59bbd207d9f88/attempt-1788861506913165498/run.json",
+      "sha256": "f77055b30b3884e74fcf77a2a817d33aa3b690b65628d87df42c5cfe8f674094"
+    },
+    {
+      "bytes": 3629,
+      "path": "machines/thunderbird/followup-v1/capacity_control/797963775ebcf0b8/attempt-1788861802809858144/run.json",
+      "sha256": "40d1569dba3ff8ab0f2e658a99b92da6bca099019a7b68b5a6f1c476a8feaed0"
+    },
+    {
+      "bytes": 3054,
+      "path": "machines/upgrade/followup-v1/capacity_control/3ce59bbd207d9f88/attempt-1788860861074397048/run.json",
+      "sha256": "d1bcaef9f3500263cc879421ec2a8e0b262ba8d0f1dc4f9658dd55050b058a28"
+    },
+    {
+      "bytes": 41566,
+      "path": "prediction/pre_hazel/build.py",
+      "sha256": "84f3c01eb541bb05d2b8ddd56f468a3285290adbcfef8e057d1f71ad379f2788"
+    },
+    {
+      "bytes": 2329,
+      "path": "prediction/pre_hazel/inputs/hazel-targets.csv",
+      "sha256": "6e943d28dd272518d05811c2acf8dc3ceafec1d8277477ff20522aaacccba4bd"
+    },
+    {
+      "bytes": 2414,
+      "path": "prediction/pre_hazel/inputs/lab-metadata.csv",
+      "sha256": "3af0cefe9391915a1df17be05cddadbce8927ff8bf53eab664b2c35f13931900"
+    },
+    {
+      "bytes": 1552,
+      "path": "prediction/pre_hazel/requirements.md",
+      "sha256": "034091685aaca21147bac51610ec1e6a9f514551206d6cedf316b005dc956988"
+    }
+  ],
+  "policy": "explicit Phase-I allowlist; no Hazel measurement paths"
+}

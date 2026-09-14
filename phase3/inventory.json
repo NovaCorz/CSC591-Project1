@@ -1,0 +1,3894 @@
+{
+  "created_utc": "2026-09-13T04:23:51.460284+00:00",
+  "job_id": "817414",
+  "files": [
+    {
+      "path": "hazel/suite/scripts/analyze.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/analyze.py",
+      "sha256": "a446080a84b6296f5b86964d5a2c0f2dd519fab469b8f729e09c28c4d95182b5",
+      "bytes": 50068
+    },
+    {
+      "path": "hazel/suite/scripts/analyze_followup.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/analyze_followup.py",
+      "sha256": "a155edd8fe04a24b8407deb3f16ef22929c08db633cb45c0fba4a333d2c8151f",
+      "bytes": 49580
+    },
+    {
+      "path": "hazel/suite/scripts/analyze_independent.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/analyze_independent.py",
+      "sha256": "de96543a4064a0cf26893c5064e85e2b7df35907f3d2a84553e60063178ae73b",
+      "bytes": 13628
+    },
+    {
+      "path": "hazel/suite/scripts/analyze_uncertainty.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/analyze_uncertainty.py",
+      "sha256": "f6d53232528b43c455ea851c73bbf2ab5b7293fa57ae82edc133236536f2b1e6",
+      "bytes": 25049
+    },
+    {
+      "path": "hazel/suite/scripts/audit.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/audit.py",
+      "sha256": "7ecb491fa45d3b537e2a2af1450d244524ede9a23460c6d4b2a282dee59ec7cd",
+      "bytes": 1861
+    },
+    {
+      "path": "hazel/suite/scripts/check_builds.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/check_builds.py",
+      "sha256": "b96bd8200daa03ca2958a1ee7c470a014ceeb0f8cdb5d3385ca05ef85d931cbf",
+      "bytes": 3026
+    },
+    {
+      "path": "hazel/suite/scripts/check_followup_metadata.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/check_followup_metadata.py",
+      "sha256": "b152bfea2321b9d3041e53c2ee1adf9227064700d011baf2bfb17dac9e13b67b",
+      "bytes": 2845
+    },
+    {
+      "path": "hazel/suite/scripts/common.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/common.py",
+      "sha256": "5b88cf6993875cf67ca4a7606fc6d5aee22d9cef5eafbcdbbd515351474d1b10",
+      "bytes": 6575
+    },
+    {
+      "path": "hazel/suite/scripts/finalize_hazel.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/finalize_hazel.py",
+      "sha256": "80f4ed2aba4e1ec562bfab06874272f3d3887c67cdba86f44d9375238221ed45",
+      "bytes": 2389
+    },
+    {
+      "path": "hazel/suite/scripts/followup.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/followup.py",
+      "sha256": "4659b87aca0bb7b4875fefaa304b901d6ba5381a6e9f6c9ed316ce1e07270644",
+      "bytes": 3475
+    },
+    {
+      "path": "hazel/suite/scripts/followup_worker.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/followup_worker.py",
+      "sha256": "f4b5dbd5774008cefef638da6b409752f8c30cb7526f96bbea17eb5ceeac9f64",
+      "bytes": 26440
+    },
+    {
+      "path": "hazel/suite/scripts/hazel_analyze_baseline.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/hazel_analyze_baseline.py",
+      "sha256": "c38b452f717e53acbdb113de7e1a5895e0a24889968efdc79cbef8d6a70d1532",
+      "bytes": 3900
+    },
+    {
+      "path": "hazel/suite/scripts/hazel_aux_worker.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/hazel_aux_worker.py",
+      "sha256": "83bf1ae6cb1550eb0d9f5283188cd5a35e5fc9d62748b01a975fc29ddbd09bb7",
+      "bytes": 9107
+    },
+    {
+      "path": "hazel/suite/scripts/hazel_diagnostic_worker.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/hazel_diagnostic_worker.py",
+      "sha256": "4286ce302c2f8fc94a640a4584c95a82f9f02ed8bfb6e5bea7c22b098842a48e",
+      "bytes": 9162
+    },
+    {
+      "path": "hazel/suite/scripts/hazel_followup_worker.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/hazel_followup_worker.py",
+      "sha256": "42ce60bc54e607d88082e1f2a6095bb654087f220a1514cc94229f00b79f7372",
+      "bytes": 9579
+    },
+    {
+      "path": "hazel/suite/scripts/hazel_worker.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/hazel_worker.py",
+      "sha256": "5cacf27e22ba64412de7c97e68708a7fa667db436be1cb57f4f57d15a2b02473",
+      "bytes": 6978
+    },
+    {
+      "path": "hazel/suite/scripts/independent_diagnostic_worker.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/independent_diagnostic_worker.py",
+      "sha256": "1b8a2b8ffaeecd6e675daa3c1beb821d199462f5f791ef48571cc00195ee13af",
+      "bytes": 7015
+    },
+    {
+      "path": "hazel/suite/scripts/independent_load.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/independent_load.py",
+      "sha256": "9cda3ecb84edde374f293593c1b92929614a45082a3660dbc65b4d2296f5affb",
+      "bytes": 4014
+    },
+    {
+      "path": "hazel/suite/scripts/independent_repair.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/independent_repair.py",
+      "sha256": "c24d467f56c8ecfded40397888be2e82cd521146f8512d3d58de8eb15fc9c08b",
+      "bytes": 2302
+    },
+    {
+      "path": "hazel/suite/scripts/independent_worker.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/independent_worker.py",
+      "sha256": "a00832d74af3da963c7e8ba4c15ee688a60ed84168413704928b2361faf8de51",
+      "bytes": 7637
+    },
+    {
+      "path": "hazel/suite/scripts/package_hazel_results.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/package_hazel_results.py",
+      "sha256": "a7780eb348c5ad2e64e7f2831039fa6e6c35c043e165b30765e1fa97698d17bf",
+      "bytes": 5301
+    },
+    {
+      "path": "hazel/suite/scripts/package_independent.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/package_independent.py",
+      "sha256": "2114475c56cea442bf23ded973a3a76d2da48aa2c261bb062debb3ad77ba09a6",
+      "bytes": 2519
+    },
+    {
+      "path": "hazel/suite/scripts/page_control_worker.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/page_control_worker.py",
+      "sha256": "e234589fbe938682ef2aa5e77c17c291b57bfc631f08e3e90f98172a286d79ce",
+      "bytes": 3795
+    },
+    {
+      "path": "hazel/suite/scripts/phase1.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/phase1.py",
+      "sha256": "8d2bcb0289c95672fd338dc7eac77e3a4470dd50cb7a5bf5c66079e2993508ef",
+      "bytes": 7225
+    },
+    {
+      "path": "hazel/suite/scripts/plot_followup.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/plot_followup.py",
+      "sha256": "b37625349b75a92a8cb40f6067c28d7b6421016bc111a7575177b62d02a69ea5",
+      "bytes": 18095
+    },
+    {
+      "path": "hazel/suite/scripts/plot_hazel_independent.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/plot_hazel_independent.py",
+      "sha256": "98d9bf26bf15c579005a53461b169f1fe639e9a15d6a564dfca00440a587edf1",
+      "bytes": 2746
+    },
+    {
+      "path": "hazel/suite/scripts/plot_independent.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/plot_independent.py",
+      "sha256": "3d942b8499f58fd5fdbf9aed0ccef90505f294a8edabee7fa2c1f4fa18e90bf5",
+      "bytes": 2626
+    },
+    {
+      "path": "hazel/suite/scripts/plot_uncertainty.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/plot_uncertainty.py",
+      "sha256": "f7a7559f2981d18a36b51dffa6978fa73d9446eebe3babacfbf2f83baac4661c",
+      "bytes": 11491
+    },
+    {
+      "path": "hazel/suite/scripts/render_followup.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/render_followup.py",
+      "sha256": "94f1dbe85a1d0d8c0e86134b676882c9a0161f66828873a2095f1512e9499798",
+      "bytes": 977
+    },
+    {
+      "path": "hazel/suite/scripts/report_followup.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/report_followup.py",
+      "sha256": "19b3e6ead1b0ca65cf07d6e5ec4951a1e31f942d68443863b754c316b094a447",
+      "bytes": 36980
+    },
+    {
+      "path": "hazel/suite/scripts/restore_independent.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/restore_independent.py",
+      "sha256": "ae67d5c960558834cda44564ac52d421b8dd7bec1a84fa37e95a146a845fc7bc",
+      "bytes": 1690
+    },
+    {
+      "path": "hazel/suite/scripts/summarize_hazel.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/summarize_hazel.py",
+      "sha256": "346690e65f2ad92cabe2fb3aeccd5f74075691a3db02f30fe5be6c6c8215c40b",
+      "bytes": 4811
+    },
+    {
+      "path": "hazel/suite/scripts/uncertainty.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/uncertainty.py",
+      "sha256": "fd7c7dc8aec570d68a8a97df221227508d277662c63aeee6d1864c6c442ef21e",
+      "bytes": 3813
+    },
+    {
+      "path": "hazel/suite/scripts/uncertainty_status.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/uncertainty_status.py",
+      "sha256": "3999df2ff05701002b7f552c87cc48209b0bf0b3630496ea2ba3ad4a19474cde",
+      "bytes": 1593
+    },
+    {
+      "path": "hazel/suite/scripts/uncertainty_worker.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/uncertainty_worker.py",
+      "sha256": "1330552affb4cb5ffe59b8564eceaf2197f5eb8bfa2512c209dd8505f2d0be89",
+      "bytes": 18893
+    },
+    {
+      "path": "hazel/suite/scripts/worker.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/worker.py",
+      "sha256": "69b6926aff25e6a093576a36950f915792f2c6bafe8fc3accb5fc1a99b7e66a0",
+      "bytes": 22774
+    },
+    {
+      "path": "hazel/suite/src/cache_bench.c",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/src/cache_bench.c",
+      "sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+      "bytes": 7755
+    },
+    {
+      "path": "hazel/suite/src/followup_bench.c",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/src/followup_bench.c",
+      "sha256": "87a9ec142e667728e1ffd12bbebe3caf3733b84e08fab0defe0d41aedb467516",
+      "bytes": 8938
+    },
+    {
+      "path": "hazel/suite/src/independent_load.c",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/src/independent_load.c",
+      "sha256": "e3c359622796e51af3e06542c1b5ae5ef69d033e6bbdc693996eb0025135b5b2",
+      "bytes": 5702
+    },
+    {
+      "path": "hazel/suite/src/page_control.c",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/src/page_control.c",
+      "sha256": "61ee1c1e1b31ce906ea203ab71ec2b9b2f5cb95a26cc473b1fd2e7db1c504a7f",
+      "bytes": 5315
+    },
+    {
+      "path": "hazel/suite/config/followup-inference-policy.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/config/followup-inference-policy.json",
+      "sha256": "f106bf87b18bf68acc955404757acf25afef53b7b65d7430bc7519cf54b4966a",
+      "bytes": 2781
+    },
+    {
+      "path": "hazel/suite/config/followup-plan.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/config/followup-plan.json",
+      "sha256": "a6594c91ac86e1d72f80da577573286f507c1f99e003a542ab7f60f3014edae2",
+      "bytes": 3975
+    },
+    {
+      "path": "hazel/suite/config/independent-load.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/config/independent-load.json",
+      "sha256": "1e73fa8bb98971c5ec77c79bf20f5a943576e86ac4b2b2a10ca22d1274c4b605",
+      "bytes": 685
+    },
+    {
+      "path": "hazel/suite/config/phase1.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/config/phase1.json",
+      "sha256": "d901aff2a8e58e5fdd56dfd2a794d0838e4a0c1016f13a228a044d7edf5c56a9",
+      "bytes": 526
+    },
+    {
+      "path": "hazel/suite/config/uncertainty-analysis-policy.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/config/uncertainty-analysis-policy.json",
+      "sha256": "a9bac6a62dac4dccd3d1cbdc9abfdfc4d15ebf31a921ba126f19823fdfc75c11",
+      "bytes": 1204
+    },
+    {
+      "path": "hazel/suite/config/uncertainty-capacity-repair-policy.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/config/uncertainty-capacity-repair-policy.json",
+      "sha256": "dde26261ee2093dd60b24802736edc2240ec91dc50732ec6c128a7e7d3b1ce32",
+      "bytes": 1077
+    },
+    {
+      "path": "hazel/suite/config/uncertainty-plan.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/config/uncertainty-plan.json",
+      "sha256": "b0cb4469d86913d05c3972f805cf5aabd49270bfea959c49cdb187cfd88553cd",
+      "bytes": 7523
+    },
+    {
+      "path": "hazel/suite/config/uncertainty-repair-policy.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/config/uncertainty-repair-policy.json",
+      "sha256": "816628ca17f7e67e04f1c13defe2e236a1ea67d6d1ad2c8f0bdbbef196f50480",
+      "bytes": 1107
+    },
+    {
+      "path": "hazel/suite/refresh_result_tables.sh",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/refresh_result_tables.sh",
+      "sha256": "8c672ef0213b8a847e26c9898ab12069249268a9e1094135063dadaf7338783d",
+      "bytes": 275
+    },
+    {
+      "path": "hazel/suite/run_analysis.sh",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/run_analysis.sh",
+      "sha256": "7c19d548db7d36f41aec5d5efe8dda83407a22f5c1afe814e4a6cad88c8b86e1",
+      "bytes": 408
+    },
+    {
+      "path": "hazel/suite/run_followup_analysis.sh",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/run_followup_analysis.sh",
+      "sha256": "a43f3b605983ab36ad094d97e344448270e01d7a93d2f3d4d868b2d93092d133",
+      "bytes": 266
+    },
+    {
+      "path": "hazel/suite/run_followup_segment.sh",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/run_followup_segment.sh",
+      "sha256": "0f70b4baca98224c7cf7224fa57bb97ba2c0ac6fca6ec575c0733553e60cb316",
+      "bytes": 889
+    },
+    {
+      "path": "hazel/suite/run_segment.sh",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/run_segment.sh",
+      "sha256": "c965203341730a10aed3d9a09efadcc0a9e593a59e471165677fb6b2cbb80448",
+      "bytes": 1109
+    },
+    {
+      "path": "hazel/suite/submit.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/submit.py",
+      "sha256": "b5f4c79d353be048c711809b5dfcde3c121609b3a1af1cd4944d94154e9afcdf",
+      "bytes": 4227
+    },
+    {
+      "path": "hazel/suite/submit_analysis.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/submit_analysis.py",
+      "sha256": "0caebfceb55d902a839f373efd7d9b66ae8ece29d900e801d3738e13521a6af6",
+      "bytes": 2423
+    },
+    {
+      "path": "hazel/suite/submit_aux.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/submit_aux.py",
+      "sha256": "b55fe8cbe7fbf29fdc8bbb07a9d4efc31726600550a9e0bc3320241b4b201fae",
+      "bytes": 3504
+    },
+    {
+      "path": "hazel/suite/submit_diagnostic.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/submit_diagnostic.py",
+      "sha256": "eb4771f29349aa47871aa36cbe5db7a1cf2945e1d72919c0860b7c392496e792",
+      "bytes": 3690
+    },
+    {
+      "path": "hazel/suite/submit_followup.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/submit_followup.py",
+      "sha256": "1e73373f14d91c0935984dee5546b2a45edea6b8bd03ee6959b4ca48960004f5",
+      "bytes": 4648
+    },
+    {
+      "path": "hazel/suite/submit_followup_analysis.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/submit_followup_analysis.py",
+      "sha256": "4156ae92a18b34a452917c44a86e22968ea9308fee4b20651525efc4ad607807",
+      "bytes": 2368
+    },
+    {
+      "path": "hazel/suite/try_finalize.py",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/try_finalize.py",
+      "sha256": "f466198df26f9097e6abdcfaec55f6afbb5456bacc31f78daa8324581715ab30",
+      "bytes": 2558
+    },
+    {
+      "path": "hazel/results/machine-results.csv",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/results/machine-results.csv",
+      "sha256": "44b8151e5d515ae24127b54700863748fc0c8d2d9bcabefc8c1e80c2c6173d6e",
+      "bytes": 1497
+    },
+    {
+      "path": "hazel/results/cache-inference-table.csv",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/results/cache-inference-table.csv",
+      "sha256": "88dff548042a971f65b86e395a7dc5e4c392c75e98b494d9ffaed80b93143a6d",
+      "bytes": 13592
+    },
+    {
+      "path": "hazel/results/timing-freeze.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/results/timing-freeze.json",
+      "sha256": "21f46608c121e79a52c9879458f9b62ec339ebd2669be6b63000060ead4a7a5a",
+      "bytes": 175871
+    },
+    {
+      "path": "hazel/results/raw-record-inventory.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/results/raw-record-inventory.json",
+      "sha256": "34e2566f9300317e920d458eab605f9952d37fc440973e9c22122e5cdb8d03cb",
+      "bytes": 2705803
+    },
+    {
+      "path": "hazel/analysis/followup/statistics.csv",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/analysis/followup/statistics.csv",
+      "sha256": "7331da510a6ac6c68b623be88ab855945ae1f239502a4ca980a00809c2c48bdc",
+      "bytes": 1672914
+    },
+    {
+      "path": "hazel/analysis/followup/latency-classes.csv",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/analysis/followup/latency-classes.csv",
+      "sha256": "9d0b284c678f6da0b88e86f2497ef5f7a3d941285760308dc12eda34d146aa18",
+      "bytes": 14859
+    },
+    {
+      "path": "hazel/analysis/followup/verification.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/analysis/followup/verification.json",
+      "sha256": "e351f1d578e6f8f8f0ad8b5ead26d4a403b796b33863be0e0a24d234b0d11298",
+      "bytes": 1666087
+    },
+    {
+      "path": "hazel/suite/data_processed/independent-load/summary.csv",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/data_processed/independent-load/summary.csv",
+      "sha256": "9fd363516b4f8c5ae6b62cc899b96ac4627834b7c9eeb50caeda76c5d372547c",
+      "bytes": 867
+    },
+    {
+      "path": "hazel/suite/data_processed/independent-load/summary.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/data_processed/independent-load/summary.json",
+      "sha256": "11f2d498472742a90ab6ad3b4b298926b426dfc7bdd41c6753cc14931c28fc0a",
+      "bytes": 20647
+    },
+    {
+      "path": "hazel/suite/data_processed/independent-load/verification.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/data_processed/independent-load/verification.json",
+      "sha256": "7fda8f606032a08c7b63c351edb0515ef8b2c600c818d16eab22b39651168660",
+      "bytes": 36500
+    },
+    {
+      "path": "hazel/suite/data_processed/haswell-inference.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/data_processed/haswell-inference.json",
+      "sha256": "5af1ecc6f759aa4c46fcbb630dd8104658da8e590c3b775c5c0035cdf763085a",
+      "bytes": 45964
+    },
+    {
+      "path": "hazel/analysis/followup/haswell-inference.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/analysis/followup/haswell-inference.json",
+      "sha256": "213533af0763f968ec7c4da7152c7f27f3cebb6ba990b1299fcd2b35e3d0a2ea",
+      "bytes": 332306
+    },
+    {
+      "path": "hazel/runs/haswell/page_control/collection-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/page_control/collection-finished.json",
+      "sha256": "95450806aa35b483c4dbeab264ceb50fa124c4ae6722b607bcd785994b96aaf4",
+      "bytes": 311
+    },
+    {
+      "path": "hazel/runs/haswell/page_control/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/page_control/smoke-passed.json",
+      "sha256": "70a4248cd6c704ca656a5bb7b5d92e65996e9404c6e0e5d7982e1f609d2c9816",
+      "bytes": 166
+    },
+    {
+      "path": "hazel/runs/haswell/page_control/environment-history/job-811112.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/page_control/environment-history/job-811112.json",
+      "sha256": "ad4ba979c4c7a4d32e338b5b34acf86114641da2a1652d4648327de9dd5b5353",
+      "bytes": 6557
+    },
+    {
+      "path": "hazel/runs/haswell/page_control/build/compiler.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/page_control/build/compiler.json",
+      "sha256": "aee985d08a5af650a97b869edb2517f7b2e244247828643932a6b1741c8cd32b",
+      "bytes": 570
+    },
+    {
+      "path": "hazel/runs/haswell/page_control/build/objdump.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/page_control/build/objdump.json",
+      "sha256": "8e942d8d288a6e00e6195c0479c699b5c4663d44e8386b4285f3f1097c596edf",
+      "bytes": 92764
+    },
+    {
+      "path": "hazel/runs/haswell/page_control/build/compile.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/page_control/build/compile.json",
+      "sha256": "012c0d0e5a36be06c2bb7f01ea627cba1d0405bfeba3d616d515e126ef2b7723",
+      "bytes": 463
+    },
+    {
+      "path": "hazel/runs/haswell/independent-load-diagnostic-v2/diagnostic-policy.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/independent-load-diagnostic-v2/diagnostic-policy.json",
+      "sha256": "03d229e82b9464b6811f236ebe3e1537cd642dd787a0d9f607cc88d01adda6f4",
+      "bytes": 535
+    },
+    {
+      "path": "hazel/runs/haswell/independent-load-diagnostic-v2/cohorts.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/independent-load-diagnostic-v2/cohorts.json",
+      "sha256": "b17acae1a50b1e0500a85a0b123caa669c37a474713fcad48a9e1f41eb806445",
+      "bytes": 3688
+    },
+    {
+      "path": "hazel/runs/haswell/independent-load-diagnostic-v2/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/independent-load-diagnostic-v2/smoke-passed.json",
+      "sha256": "1a5de180ab1175b869dd2b1333a2e7e61001b1acc1a60ee38024da8beb050a01",
+      "bytes": 271
+    },
+    {
+      "path": "hazel/runs/haswell/independent-load-diagnostic-v2/full-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/independent-load-diagnostic-v2/full-finished.json",
+      "sha256": "83859932c5d36e922624ed421641cad172869df08ea3fdaa72e96715fb045404",
+      "bytes": 209
+    },
+    {
+      "path": "hazel/runs/haswell/independent-load-diagnostic-v2/environment-history/job-815966.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/independent-load-diagnostic-v2/environment-history/job-815966.json",
+      "sha256": "2d6994dd2f34776b342859a8e161b65d976e59c972a366de065eb947af3133ab",
+      "bytes": 7562
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/conflict-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/conflict-finished.json",
+      "sha256": "fae39573b38a311358b71cbd61b28fbdcfd64ff732684f9ba4821099122d45fb",
+      "bytes": 135
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/segment-811455.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/segment-811455.json",
+      "sha256": "985a6b12ea2c1bfaf8ec21adf464681999b2a083dc97e44ec72171b05b960502",
+      "bytes": 125
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/inclusion_final-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/inclusion_final-finished.json",
+      "sha256": "b5a05dc732605b6e544d1c0e451a23739f8893d04cb6deb12fdfb58ebbb2e1ed",
+      "bytes": 311
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/confirm-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/confirm-finished.json",
+      "sha256": "5d4e59086a8c1440cc5a3439c6dee1a8c1f1c2ed9667ca1ec3aa003aa6aea4c0",
+      "bytes": 132
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/segment-811509.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/segment-811509.json",
+      "sha256": "6407a302643705c9973cd40f4a09c7cb35263650eb08dfed0e81c8e7188d5bdc",
+      "bytes": 131
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/l2confirm-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/l2confirm-finished.json",
+      "sha256": "bdb0f0ecbaa4829d9322d4d35a2c13a5eba687976af6952f67cf3759e57a79b5",
+      "bytes": 134
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/spatial-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/spatial-finished.json",
+      "sha256": "14647debb71cf1869ec12fb49c643050eb71baffbcccad70e1b9c0a9d401561c",
+      "bytes": 132
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/smoke-passed.json",
+      "sha256": "5936d841f0d6387441731aef855da3048a1472412d4fe74a5122138544e5ec9d",
+      "bytes": 151
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/segment-811115.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/segment-811115.json",
+      "sha256": "80f7b44dbef3f937686dcaf8b0ddcdfe1052a851f059b1eb9bb3fa25e8e661aa",
+      "bytes": 123
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/l2-search.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/l2-search.json",
+      "sha256": "a06608cb7fce003321bdaff4ecfe38bc2e56c3f6f9c947179b81a699c7975e50",
+      "bytes": 54924
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/segment-811440.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/segment-811440.json",
+      "sha256": "0b424e57cc74c0aba73230492fe15576c915ef6d2d5300867b72c6e38414b915",
+      "bytes": 118
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/segment-811395.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/segment-811395.json",
+      "sha256": "9adfd99fa58887339ee734acafa1e995fc7dde7704927db5a26f7ee93c7ec7b8",
+      "bytes": 121
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/l2-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/l2-finished.json",
+      "sha256": "fef87072f98501509cad2c0f3579d793dff04f58d3c49b2bc6564d9b2aaf9e2a",
+      "bytes": 129
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/segment-811179.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/segment-811179.json",
+      "sha256": "db73daa7fdd375f6bebd3f3f753923068eed7118b5e75f4832bc60c57deeb497",
+      "bytes": 124
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/conflict-smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/conflict-smoke-passed.json",
+      "sha256": "a28e028ec6cba3e33d3647ebfe728f459bb53793e410b3ef55ede5c99f5ccd5e",
+      "bytes": 64
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/capacity-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/capacity-finished.json",
+      "sha256": "0d1ebd9fd8f479b5795b302a7320148caa3e8dd546a29a0c971baffb23bda766",
+      "bytes": 135
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/segment-811114.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/segment-811114.json",
+      "sha256": "55951c8034b602034d221a3a792334a556651bc1d34b4461c2458d9ebf415fcd",
+      "bytes": 121
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/segment-811372.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/segment-811372.json",
+      "sha256": "88e8c45b3e8af08b544f62b96080265c374c67d5233f38624a9de382e1813b33",
+      "bytes": 124
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/cross-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/cross-finished.json",
+      "sha256": "d61f12fc7184072d283a4baa9638909bf0e1dffd24ff22dca2659103d77fbe5b",
+      "bytes": 130
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/l2-confirmation.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/l2-confirmation.json",
+      "sha256": "05ec406119911fe5314c53ae237c2755ba6c37014a45d108efca09b884a0cc70",
+      "bytes": 20297
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/spatial-cohorts.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/spatial-cohorts.json",
+      "sha256": "7150e5d5eb06fc650138e57c8beb3b7cb903afeda08d4248b6a965132482b80b",
+      "bytes": 6582
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/segment-811257.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/segment-811257.json",
+      "sha256": "0790d62cc1902cd5933ba7cc6b418c2156f1663e49af7b098d9ccac1b24abbb3",
+      "bytes": 123
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/l2-smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/l2-smoke-passed.json",
+      "sha256": "056096cf166c2cd796e4b09a8f66e96ed52e510d79db14214d9f485abb01a16c",
+      "bytes": 151
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/timer-verification.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/timer-verification.json",
+      "sha256": "08fb348cfed9b840fdd647c1158449d643fb5ba5822d2e47431b5733f90f015d",
+      "bytes": 394
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/empirical-search.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/empirical-search.json",
+      "sha256": "7508cd7c161302bc6ba52d998b9e5f3aba7002002b6055fab13311e366a62488",
+      "bytes": 583598
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/capacity-refinement-plan.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/capacity-refinement-plan.json",
+      "sha256": "9f6ceaf7b89a5c53adadc1769ad60a5d8cafbb5c3a7cc5e7769bfdf2dfb3b8e9",
+      "bytes": 333
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/environment-history/job-811257.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/environment-history/job-811257.json",
+      "sha256": "63f1222ed93a473b6115a63cc2bc1c8137be952924e3db1117bc2a079b010c9f",
+      "bytes": 7226
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/environment-history/job-811440.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/environment-history/job-811440.json",
+      "sha256": "62c2491b04f549733b2cea48ff88424ac66577bb8cf1d08b3b8b9e7127f99d1f",
+      "bytes": 7221
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/environment-history/job-811372.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/environment-history/job-811372.json",
+      "sha256": "c10346f3e4d7843f3465cc7c6f6eda08fe5ee4ed2e328019d00c383a1da1b4d3",
+      "bytes": 7227
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/environment-history/job-811395.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/environment-history/job-811395.json",
+      "sha256": "5b994b25fa9f2f89d5765cc4336e79ff30880644c6bfd9fb8c3159e34a324709",
+      "bytes": 7224
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/environment-history/job-811115.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/environment-history/job-811115.json",
+      "sha256": "5439c69f9dd7de6ac93b030daf7099d7a553d302d322c282544b19f981cc0bac",
+      "bytes": 7096
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/environment-history/job-811179.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/environment-history/job-811179.json",
+      "sha256": "9a03d884f5c178574baa9e81f3ec38a7191a9c6ea94c25e15ef7bc4de2fd9638",
+      "bytes": 7227
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/environment-history/job-811509.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/environment-history/job-811509.json",
+      "sha256": "944d863723d0f76cec0491f62b8eb850cca4474abd4d7659dea692cf63785367",
+      "bytes": 7234
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/environment-history/job-811114.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/environment-history/job-811114.json",
+      "sha256": "6d8c436eb85fff88b9f851cf0fc43d0918f954911995f9893a8e37bc0c8a7274",
+      "bytes": 7094
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/environment-history/job-811455.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/environment-history/job-811455.json",
+      "sha256": "511a93199edbdb2514b6743066fcc517bfe2ae9ce5addd489112d741ddb7abe6",
+      "bytes": 7228
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/build/compiler.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/build/compiler.json",
+      "sha256": "39952dbcbe6782b1361da83c03fc37a29d832e594b0f3597288bd7606689bbf5",
+      "bytes": 569
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/build/objdump.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/build/objdump.json",
+      "sha256": "24ddbbcaf71954fdcecfc019917dfcbcef489ebf84d62feb28fa6489856d0b1c",
+      "bytes": 136705
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/build/compile.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/build/compile.json",
+      "sha256": "47a676d682da196c810537a829810b0c6c837782f86068f07e75a7ccd39e689a",
+      "bytes": 482
+    },
+    {
+      "path": "hazel/runs/haswell/followup-v1/build/assembly.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/build/assembly.json",
+      "sha256": "c60f003396f41f742241af2c3c07c829b1cdde97e8234d98279c704f0391f6e7",
+      "bytes": 494
+    },
+    {
+      "path": "hazel/runs/haswell/independent-load-v1/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/independent-load-v1/smoke-passed.json",
+      "sha256": "2afe6d2fb936d6ba8e235a3a77e1c6726ef901e74c45152d599e9a201b4ca2d9",
+      "bytes": 387
+    },
+    {
+      "path": "hazel/runs/haswell/independent-load-v1/timer-gate.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/independent-load-v1/timer-gate.json",
+      "sha256": "d1a65632ad724e398eeef0e57797da29b30321097a3b8b8ae371ea7b469a3abe",
+      "bytes": 1501
+    },
+    {
+      "path": "hazel/runs/haswell/independent-load-v1/environment-history/job-815841.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/independent-load-v1/environment-history/job-815841.json",
+      "sha256": "259c31558cf82d1c64ff95749e6f826a123b05bf4efb2d3a479021531eb8fd83",
+      "bytes": 7548
+    },
+    {
+      "path": "hazel/runs/haswell/independent-load-v1/environment-history/job-811113.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/independent-load-v1/environment-history/job-811113.json",
+      "sha256": "e5fb27b3f47bb6f15a577b11605e3c1311f71f1a496751098780e56dd5a8c9b1",
+      "bytes": 7603
+    },
+    {
+      "path": "hazel/logs/haswell/indep.815841.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/indep.815841.stdout",
+      "sha256": "e5fe165737fac4af1d28fec1fd475f03e685dfbf3c71d0d10721845ad92215a9",
+      "bytes": 1722
+    },
+    {
+      "path": "hazel/logs/haswell/followup-capacity.811179.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-capacity.811179.stdout",
+      "sha256": "9decac0cfe45ff43b6b3fa58e43d6c28bdbe86aff9c1c30200bf156204b9bbac",
+      "bytes": 42930
+    },
+    {
+      "path": "hazel/logs/haswell/analysis.811099.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/analysis.811099.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/followup-smoke.811114.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-smoke.811114.stdout",
+      "sha256": "0d688ccd2b6e7fd7aa76b3d2270415049bf6161491aceacd112496124cd7fdd3",
+      "bytes": 2623
+    },
+    {
+      "path": "hazel/logs/haswell/full.810638.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/full.810638.stdout",
+      "sha256": "032baecb86898f60c57fe00fdbe454b8e4435bde502872fdc42afd6d1edd29a1",
+      "bytes": 65624
+    },
+    {
+      "path": "hazel/logs/haswell/page.811112.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/page.811112.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/caretaker-810638.810857.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/caretaker-810638.810857.stdout",
+      "sha256": "803c0dbdfa8daa1918d631c5b64fa6f02eebe0dacb2d279210e7713c622650d4",
+      "bytes": 1436
+    },
+    {
+      "path": "hazel/logs/haswell/followup-cross.811395.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-cross.811395.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/followup-conflict.811372.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-conflict.811372.stdout",
+      "sha256": "c27a69b9a83e2398be09048790233e3ee7a22442d42ae6aae9aba104f2d9bc1c",
+      "bytes": 173986
+    },
+    {
+      "path": "hazel/logs/haswell/followup-l2confirm.811455.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-l2confirm.811455.stdout",
+      "sha256": "807d1e4317eac995f270647fb9ecfb4d013daa986de2dea431137a9649e4f504",
+      "bytes": 103560
+    },
+    {
+      "path": "hazel/logs/haswell/analysis.811099.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/analysis.811099.stdout",
+      "sha256": "d69f8809800073c7fff499b125f3ae871456201ad22dbe5d9ae81065b5727328",
+      "bytes": 705
+    },
+    {
+      "path": "hazel/logs/haswell/indep.811113.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/indep.811113.stderr",
+      "sha256": "1620d34593a0a2e390273b2173e81864aedf7452228943981b97202cc884bb53",
+      "bytes": 979
+    },
+    {
+      "path": "hazel/logs/haswell/followup-inclusion_final.811509.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-inclusion_final.811509.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/followup-conflict.811372.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-conflict.811372.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/followup-analysis.811581.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-analysis.811581.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/followup-cross.811395.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-cross.811395.stdout",
+      "sha256": "3b55b441d58fa1c11957018b7a648fcc860d545e7c67971aa64445ee3db80d94",
+      "bytes": 11340
+    },
+    {
+      "path": "hazel/logs/haswell/full.810638.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/full.810638.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/smoke.810620.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/smoke.810620.stdout",
+      "sha256": "39469d7a40430e1d59439d2b66cb88a97c48cc23de731ee48f500d42840a338d",
+      "bytes": 2509
+    },
+    {
+      "path": "hazel/logs/haswell/followup-spatial.811115.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-spatial.811115.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/followup-smoke.811114.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-smoke.811114.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/followup-capacity.811179.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-capacity.811179.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/followup-l2confirm.811455.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-l2confirm.811455.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/indep.811113.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/indep.811113.stdout",
+      "sha256": "4369db237e2807ff34743a6c0de33c75d4bb482db0bf19641aa7e2257eb3a5cd",
+      "bytes": 3907
+    },
+    {
+      "path": "hazel/logs/haswell/smoke.810620.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/smoke.810620.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/followup-spatial.811115.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-spatial.811115.stdout",
+      "sha256": "e691401778a72775d57b3fb341a087a6da2ff2e0d7ae59848c3c8cd723e99902",
+      "bytes": 20693
+    },
+    {
+      "path": "hazel/logs/haswell/followup-l2.811440.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-l2.811440.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/indep.815841.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/indep.815841.stderr",
+      "sha256": "c8c11a07009446575877461615730687af72538bf3f3cc52f902260ecbc2dd07",
+      "bytes": 979
+    },
+    {
+      "path": "hazel/logs/haswell/caretaker-810638.810857.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/caretaker-810638.810857.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/page.811112.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/page.811112.stdout",
+      "sha256": "b210f2cd431729879fa6011ce1a79ad0ae32b049c3a3a1d8abc35a360e5cc986",
+      "bytes": 2718
+    },
+    {
+      "path": "hazel/logs/haswell/followup-l2.811440.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-l2.811440.stdout",
+      "sha256": "d1ed14aecd5eef8c9c0ad7a8ee354d947b1f200ac266de58c79976d8d5deabb5",
+      "bytes": 165242
+    },
+    {
+      "path": "hazel/logs/haswell/followup-confirm.811257.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-confirm.811257.stdout",
+      "sha256": "7dd8e40dff3b51b4f1e742d2c6124b008bf5d97387c9f74fa651ec3dfbb81349",
+      "bytes": 12437
+    },
+    {
+      "path": "hazel/logs/haswell/followup-inclusion_final.811509.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-inclusion_final.811509.stdout",
+      "sha256": "a7f6bcf29e86014bd9bc7b37b18c6c6fbba0a29703325032b2a23fb23efab834",
+      "bytes": 11855
+    },
+    {
+      "path": "hazel/logs/haswell/indep-v2.815966.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/indep-v2.815966.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/haswell/indep-v2.815966.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/indep-v2.815966.stdout",
+      "sha256": "cbc3b706c76ada75da546827305c79774970d92e50f03d84e5e398c83d60c4f2",
+      "bytes": 5067
+    },
+    {
+      "path": "hazel/logs/haswell/followup-analysis.811581.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-analysis.811581.stderr",
+      "sha256": "d713ff9da073e9b8e3b73bee6045032e1e7b16124e01bf2aad0628c5a27f223e",
+      "bytes": 2624
+    },
+    {
+      "path": "hazel/logs/haswell/followup-confirm.811257.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/haswell/followup-confirm.811257.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/suite/data_processed/cascadelake-inference.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/data_processed/cascadelake-inference.json",
+      "sha256": "f061acee8830158a4d36340cd36ee79d8aaf25314b3aa4bebfdba712c2ebc0a4",
+      "bytes": 42320
+    },
+    {
+      "path": "hazel/analysis/followup/cascadelake-inference.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/analysis/followup/cascadelake-inference.json",
+      "sha256": "2e508b6df8e05f0824533e201eca695fd5dcad96bb611597a934057f1e533030",
+      "bytes": 261968
+    },
+    {
+      "path": "hazel/runs/cascadelake/page_control/collection-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/page_control/collection-finished.json",
+      "sha256": "eda7d6b805db6a6d3b0db392fbbadb50986cbec46913887787022d25a331e370",
+      "bytes": 311
+    },
+    {
+      "path": "hazel/runs/cascadelake/page_control/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/page_control/smoke-passed.json",
+      "sha256": "db275a35b68c642dd37ed5bb2244a45925aadf4b4fc2e3f8465e1404b0d5d5d1",
+      "bytes": 166
+    },
+    {
+      "path": "hazel/runs/cascadelake/page_control/environment-history/job-811084.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/page_control/environment-history/job-811084.json",
+      "sha256": "1ebc8e6475fe4baeb248adae24b48e61d310588b268f38d424735edb22c95d6e",
+      "bytes": 7710
+    },
+    {
+      "path": "hazel/runs/cascadelake/page_control/build/compiler.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/page_control/build/compiler.json",
+      "sha256": "20bc7cc88e162cf2afdd373090dd5b11f1b46398f1a1875de36349f9007d621f",
+      "bytes": 574
+    },
+    {
+      "path": "hazel/runs/cascadelake/page_control/build/objdump.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/page_control/build/objdump.json",
+      "sha256": "77e9cac5f05156722440de3851242e7ee4366fb9df1f609f9a238d34645424b1",
+      "bytes": 92768
+    },
+    {
+      "path": "hazel/runs/cascadelake/page_control/build/compile.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/page_control/build/compile.json",
+      "sha256": "ffa5541e7ab7eb4a2dc90cdec500ae5bf15fbfb0112aa77457e3a1218b8da4c6",
+      "bytes": 467
+    },
+    {
+      "path": "hazel/runs/cascadelake/independent-load-diagnostic-v2/diagnostic-policy.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/independent-load-diagnostic-v2/diagnostic-policy.json",
+      "sha256": "5ba1426ac8e1cbc6a274542bc7650296ba204a87ee194186993f96b5f049b4c4",
+      "bytes": 535
+    },
+    {
+      "path": "hazel/runs/cascadelake/independent-load-diagnostic-v2/cohorts.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/independent-load-diagnostic-v2/cohorts.json",
+      "sha256": "42e421a4ba56782ac2ed23da9c0db549bfa2f633a74766838b5592c0c89b27e7",
+      "bytes": 3688
+    },
+    {
+      "path": "hazel/runs/cascadelake/independent-load-diagnostic-v2/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/independent-load-diagnostic-v2/smoke-passed.json",
+      "sha256": "e16037a295fb04ffdcff1370c1875b0a7893ddc13c3fd12c44e054223093d71e",
+      "bytes": 271
+    },
+    {
+      "path": "hazel/runs/cascadelake/independent-load-diagnostic-v2/full-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/independent-load-diagnostic-v2/full-finished.json",
+      "sha256": "b14c625b1dd4efebe159eca7a21133d4764db7f86d3340d0d54aa7446dbcd24b",
+      "bytes": 209
+    },
+    {
+      "path": "hazel/runs/cascadelake/independent-load-diagnostic-v2/environment-history/job-815967.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/independent-load-diagnostic-v2/environment-history/job-815967.json",
+      "sha256": "94baf1a7842097e51ccb5254ee3038b030357fe86bb2e6e39fdce8f9039871ab",
+      "bytes": 8718
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/conflict-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/conflict-finished.json",
+      "sha256": "46972ebcdb4b1d5f35e96b79b1cb1e7f5bc80889208fd479899f0b0a0a978b13",
+      "bytes": 135
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/segment-811447.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/segment-811447.json",
+      "sha256": "221f8de13dda92cc68a7979576608f67cbb18ac7d02a610dfefd4b942fceafc3",
+      "bytes": 125
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/inclusion_final-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/inclusion_final-finished.json",
+      "sha256": "a7ed03ab87693eaaab706d91005a3b498f0d63e94dd1e1593b4fcecf9c193e0a",
+      "bytes": 311
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/segment-811154.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/segment-811154.json",
+      "sha256": "e24f32d7af63ed5343638a467de5a7d0f47035a4002c062999ad2ce0087f1609",
+      "bytes": 124
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/confirm-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/confirm-finished.json",
+      "sha256": "9bf92c8c18b95761ddf41145a2ecb86c67b0f58a5cab9d32befeb236f9d2d973",
+      "bytes": 132
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/l2confirm-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/l2confirm-finished.json",
+      "sha256": "7f87cb2c3715774be8dd8636be5ff04dd29c471254df83e03715bfc2c5ea59b9",
+      "bytes": 136
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/spatial-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/spatial-finished.json",
+      "sha256": "ef11124fb93d99300697363ccdf8d9b905e7046e282e02e5e5839529cc82d82c",
+      "bytes": 132
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/smoke-passed.json",
+      "sha256": "fa86f310c2836255373db8af48ddeb53169b86bfcb6a61384dd54b4ca3988316",
+      "bytes": 151
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/segment-811088.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/segment-811088.json",
+      "sha256": "fc60df10fa3a96e09feb7b858a445f8c9cbc51396ba17f37b83d723984f9e63d",
+      "bytes": 123
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/segment-811422.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/segment-811422.json",
+      "sha256": "0025fb6709a7a4b58c0a67b26885f5c2f21780989555776463ddf0d41faa808e",
+      "bytes": 118
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/l2-search.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/l2-search.json",
+      "sha256": "4862f2164e878222a28a00d572a8a4c731b074e4f029fda5e8201265d117ed13",
+      "bytes": 59178
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/l2-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/l2-finished.json",
+      "sha256": "fe3f1c1ff178ff6238b099c9f59f5210db14fcdcdaa92f1ec649401370d3e9c7",
+      "bytes": 129
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/segment-811086.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/segment-811086.json",
+      "sha256": "2ddc2eba1ef7b0a4a13dfdc51afe17eb63b7a2d8ced87cf71cb04eb6fe4deb3c",
+      "bytes": 121
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/segment-811245.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/segment-811245.json",
+      "sha256": "b50570c596239bbdc16ee0b3b949b22d5da554e20163bd124f0a22bf66811dc5",
+      "bytes": 123
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/segment-811350.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/segment-811350.json",
+      "sha256": "b355c87f24abb5c9e9760a471e13b0625416451c9ebd1e34f8af8eb1a73bd740",
+      "bytes": 124
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/conflict-smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/conflict-smoke-passed.json",
+      "sha256": "fb33ea2bfad6cd0a44e4e889d7d0da77e043ab732814775e216dc2c4a3c9a7b4",
+      "bytes": 64
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/capacity-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/capacity-finished.json",
+      "sha256": "395505f63fcfc9f8735313c48eedfec13122c13cf56c86ddeb514a63b8dbae42",
+      "bytes": 134
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/segment-811515.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/segment-811515.json",
+      "sha256": "4f78e516190d80605918b0a258efbbd692d30aafde33b644784e2409fee0965c",
+      "bytes": 131
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/segment-811384.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/segment-811384.json",
+      "sha256": "7d6ce1f96e04aeb69332d998fb4b138cad50ae710749d438346867acd70f3eee",
+      "bytes": 121
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/cross-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/cross-finished.json",
+      "sha256": "5750c12fa9994608d3659435cbb6830282e19b3b7de090867729d989dac80ff3",
+      "bytes": 130
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/l2-confirmation.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/l2-confirmation.json",
+      "sha256": "66f2c8039e990514d5c2f3254abcee995a57878a9eb00606dd3af91b01e8d2c2",
+      "bytes": 34295
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/spatial-cohorts.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/spatial-cohorts.json",
+      "sha256": "39122fe71bad1fbbb7e9b244f58df0a104eba34e7611e86f9fa772a98d9d81a4",
+      "bytes": 7003
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/l2-smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/l2-smoke-passed.json",
+      "sha256": "850a551ae92a14e84a3343357a8e572f01f245c68a75826e0d72a0daf84dc52d",
+      "bytes": 151
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/timer-verification.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/timer-verification.json",
+      "sha256": "3cd4f173a7a14bbabac5747196a73a3f1afbf9ded03c718e9f3ede41e0e23f43",
+      "bytes": 394
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/empirical-search.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/empirical-search.json",
+      "sha256": "309ff090f718086980451fb1efc23dbe56f9610d32c92540d2fcaac4475cd3e3",
+      "bytes": 542160
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/capacity-refinement-plan.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/capacity-refinement-plan.json",
+      "sha256": "e740029c017c433eed9f99b8b47950fecf918dd2d5a932e526d06506d80739c2",
+      "bytes": 209
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/environment-history/job-811088.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/environment-history/job-811088.json",
+      "sha256": "78d2cea2313e8cb2794a150ac8a6ce8f2168774a4f628b38c32eb6ba1bef4ec8",
+      "bytes": 8250
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/environment-history/job-811350.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/environment-history/job-811350.json",
+      "sha256": "33202c0c75953d8c0327a9ad5b1220648063345d9304117e4b9b880cd0a74157",
+      "bytes": 8384
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/environment-history/job-811384.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/environment-history/job-811384.json",
+      "sha256": "a4a74af56c41149c7d20ab7ce175dcf064c5aa66c2dc2341adc152f5f9a31872",
+      "bytes": 8381
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/environment-history/job-811422.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/environment-history/job-811422.json",
+      "sha256": "1bedb718d607f2f0d4577bf225582884767f6f0bd7e92b4296d709a415bf972f",
+      "bytes": 8378
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/environment-history/job-811515.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/environment-history/job-811515.json",
+      "sha256": "6eed7a4f4b4a3842e74738d1d13e554c3bd765c26bbce767494aee75e06e999f",
+      "bytes": 8391
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/environment-history/job-811086.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/environment-history/job-811086.json",
+      "sha256": "d7688be4d97e3a6142d317cdd883a7357fbdbbcb090489890fc5d84b48733475",
+      "bytes": 8248
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/environment-history/job-811447.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/environment-history/job-811447.json",
+      "sha256": "169157791a27d6445c500fcfb7938cf0c30710fe42fda32fb9aa59f02cab38bb",
+      "bytes": 8385
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/environment-history/job-811245.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/environment-history/job-811245.json",
+      "sha256": "cf630d3d2714e981c9d4887e9151786a301b81afaa3a4e43bea724aad9b63908",
+      "bytes": 8383
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/environment-history/job-811154.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/environment-history/job-811154.json",
+      "sha256": "30c4b30f4fbd492987e1569974b7453695867f588103aca294223475f669f625",
+      "bytes": 8383
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/build/compiler.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/build/compiler.json",
+      "sha256": "43ca25c8d5829a0ad176f4402ce0aaf2dea1e8466da22389f6f1f189296f6dee",
+      "bytes": 573
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/build/objdump.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/build/objdump.json",
+      "sha256": "ddd92dcc888b1711fd2303d31fc6a2e945e1fe618297ed7a1b3589536feb8263",
+      "bytes": 136709
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/build/compile.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/build/compile.json",
+      "sha256": "72a3a236d3eb35a4a08d6a9297a032725776fc9ff6e5d0d31019589a3dc93002",
+      "bytes": 486
+    },
+    {
+      "path": "hazel/runs/cascadelake/followup-v1/build/assembly.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/followup-v1/build/assembly.json",
+      "sha256": "d64bec07223a4c85bdceeb75c24fcb61e7e93fd7a7cd5c3def0cdba0f8a38268",
+      "bytes": 498
+    },
+    {
+      "path": "hazel/runs/cascadelake/independent-load-v1/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/independent-load-v1/smoke-passed.json",
+      "sha256": "adf8f8b1d32b725e113786a594ff3a99e41ef4d0cab1ecb3b19e656a94314794",
+      "bytes": 387
+    },
+    {
+      "path": "hazel/runs/cascadelake/independent-load-v1/timer-gate.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/independent-load-v1/timer-gate.json",
+      "sha256": "1fd4e19f06eb21c2c4042a0fc90c22c8948b737eddcfcaa85a0c0babc767fbdf",
+      "bytes": 1501
+    },
+    {
+      "path": "hazel/runs/cascadelake/independent-load-v1/environment-history/job-811085.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/independent-load-v1/environment-history/job-811085.json",
+      "sha256": "39b9734a25092bdaada47d7fe07f6b7e9668884d9af75e4c02aed37a46fc3790",
+      "bytes": 8756
+    },
+    {
+      "path": "hazel/runs/cascadelake/independent-load-v1/environment-history/job-815842.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/independent-load-v1/environment-history/job-815842.json",
+      "sha256": "b09851f218e3efa972aacf3ff3532a9169b552a3e9a70a65fe95fcbd00bb8dd8",
+      "bytes": 8704
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-l2confirm.811447.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-l2confirm.811447.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-capacity.811154.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-capacity.811154.stdout",
+      "sha256": "e2ce46fd8e1dd2e60b7b061471d54059e8bfa5e3f4067c3849282f6581092ddd",
+      "bytes": 45256
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-conflict.811350.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-conflict.811350.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/smoke.810623.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/smoke.810623.stdout",
+      "sha256": "835f222443fefb119aa8e96ff1d405270ccee2826ca2523c4e47027a02d02871",
+      "bytes": 2522
+    },
+    {
+      "path": "hazel/logs/cascadelake/indep-v2.815967.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/indep-v2.815967.stdout",
+      "sha256": "856f5c3a7c46657905408c97321e9f688a994609388709661ad65429c561560d",
+      "bytes": 5046
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-confirm.811245.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-confirm.811245.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-conflict.811350.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-conflict.811350.stdout",
+      "sha256": "af6ab5f9706e91b6eb8b23650d3c834bbd6243a3d360cb2b6362eb8210bb9ff4",
+      "bytes": 150226
+    },
+    {
+      "path": "hazel/logs/cascadelake/full.810641.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/full.810641.stdout",
+      "sha256": "37c03d55a8224e5e0a25da11f238a0d78dd3d4ec86355b430d920f9ea48ecc52",
+      "bytes": 64653
+    },
+    {
+      "path": "hazel/logs/cascadelake/page.811084.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/page.811084.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-l2confirm.811447.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-l2confirm.811447.stdout",
+      "sha256": "5902ce8b6055315b1b6f8da21dab0811c276a124b9285ece25d3a1033c7b0c88",
+      "bytes": 219102
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-confirm.811245.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-confirm.811245.stdout",
+      "sha256": "7402e7c79f8f9c5420337029dec6009e89444beac4d0eee09efe971c7e0b099a",
+      "bytes": 13354
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-analysis.811604.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-analysis.811604.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/indep.811085.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/indep.811085.stderr",
+      "sha256": "eb71020c5eab1b03d2736de04e54540ef1c9544db3385e221663cf88400805b9",
+      "bytes": 979
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-inclusion_final.811515.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-inclusion_final.811515.stdout",
+      "sha256": "a1149c77e44491881f276009889797ae5dadb3cd634e1c68c4203d93a1551876",
+      "bytes": 11900
+    },
+    {
+      "path": "hazel/logs/cascadelake/full.810641.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/full.810641.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-spatial.811088.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-spatial.811088.stdout",
+      "sha256": "6415181195605a4e0dbfc2bafaebd3e3242293c472e68d1d520223a277783040",
+      "bytes": 20193
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-spatial.811088.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-spatial.811088.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-cross.811384.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-cross.811384.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/caretaker-810641.810866.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/caretaker-810641.810866.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/smoke.810623.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/smoke.810623.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-smoke.811086.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-smoke.811086.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-l2.811422.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-l2.811422.stdout",
+      "sha256": "c28fa0ec103ca6e981f8a5d6604f28d9dec5ac098f3e465296214d085182a3c8",
+      "bytes": 223967
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-capacity.811154.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-capacity.811154.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/indep.811085.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/indep.811085.stdout",
+      "sha256": "de79d9aee733fb3cc93b6104d58f6b6138a9ed40a5ef2202aabbeb0ef0b35c0f",
+      "bytes": 4037
+    },
+    {
+      "path": "hazel/logs/cascadelake/page.811084.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/page.811084.stdout",
+      "sha256": "a746c37d8607a7ea3422019151b95128887d9654688bbdc22c5c1399ddfbb7da",
+      "bytes": 5376
+    },
+    {
+      "path": "hazel/logs/cascadelake/indep.815842.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/indep.815842.stdout",
+      "sha256": "82fadb2e2c3228d30ea5a8b35cf45c74b451e350edeb760ba5ccf2325fc9c948",
+      "bytes": 2392
+    },
+    {
+      "path": "hazel/logs/cascadelake/indep.815842.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/indep.815842.stderr",
+      "sha256": "fa9d8da18ddee77d97bb4dfe9e15d5d20cc8df8e82e5613241d7944e0118ddd5",
+      "bytes": 979
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-l2.811422.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-l2.811422.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-inclusion_final.811515.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-inclusion_final.811515.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/caretaker-810641.810866.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/caretaker-810641.810866.stdout",
+      "sha256": "a6b365020f295c9cfcf1096778767405db7b1d8519228326393582cd8ead5e3c",
+      "bytes": 1449
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-cross.811384.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-cross.811384.stdout",
+      "sha256": "d6e2e43d480478ba4f3f07890f9b36b94f3aa4dde30cd25d987bd21c14c31da6",
+      "bytes": 11670
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-smoke.811086.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-smoke.811086.stdout",
+      "sha256": "6479e41dc5622a332016ca0b9e6efa80d826599f2a0777309826cecca9612bb1",
+      "bytes": 2632
+    },
+    {
+      "path": "hazel/logs/cascadelake/analysis.811082.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/analysis.811082.stdout",
+      "sha256": "d157aea6f82790e699b4d229767737c24db97d31fdc477c9376395e8c067fb37",
+      "bytes": 721
+    },
+    {
+      "path": "hazel/logs/cascadelake/indep-v2.815967.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/indep-v2.815967.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/cascadelake/followup-analysis.811604.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/followup-analysis.811604.stderr",
+      "sha256": "397195c0eb318b49630b665054d5f0e6f0222cca4276fb5ef4958c74c0996117",
+      "bytes": 2632
+    },
+    {
+      "path": "hazel/logs/cascadelake/analysis.811082.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/cascadelake/analysis.811082.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/suite/data_processed/icelake_8358-inference.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/data_processed/icelake_8358-inference.json",
+      "sha256": "224c0ef4c8140bea88a74ab5cc72b5591615100b7c40683a2fbc2e4110d33aab",
+      "bytes": 42798
+    },
+    {
+      "path": "hazel/analysis/followup/icelake_8358-inference.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/analysis/followup/icelake_8358-inference.json",
+      "sha256": "323e981f315b39bd5267da54172d484246a66d7208adfef11b4219997c932ab5",
+      "bytes": 347213
+    },
+    {
+      "path": "hazel/runs/icelake_8358/page_control/collection-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/page_control/collection-finished.json",
+      "sha256": "9ab45d019e2a0357ca57e9d381192a3ec3a225ffdde7c02f69e13e558c8f1b8f",
+      "bytes": 311
+    },
+    {
+      "path": "hazel/runs/icelake_8358/page_control/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/page_control/smoke-passed.json",
+      "sha256": "0aba8a2b213d14b7c4b8104bd603d652bab9db332e099031d8e3cda50c27340e",
+      "bytes": 166
+    },
+    {
+      "path": "hazel/runs/icelake_8358/page_control/environment-history/job-811070.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/page_control/environment-history/job-811070.json",
+      "sha256": "1c405e21be2cde0f18df424aaf90dab9647af67044ce6f04ef9e2cec9c224fe6",
+      "bytes": 10763
+    },
+    {
+      "path": "hazel/runs/icelake_8358/page_control/build/compiler.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/page_control/build/compiler.json",
+      "sha256": "d3dc841802e4fef99b3a8aa02abc3de99069adcf6c96162bfba7808ab149bacc",
+      "bytes": 575
+    },
+    {
+      "path": "hazel/runs/icelake_8358/page_control/build/objdump.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/page_control/build/objdump.json",
+      "sha256": "f6bb33340b928690fb30b5ae3692dedb2790ddc042c4369aff83508b75a8f25e",
+      "bytes": 92769
+    },
+    {
+      "path": "hazel/runs/icelake_8358/page_control/build/compile.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/page_control/build/compile.json",
+      "sha256": "771096660a498bc501ab17a7fc6bea8f92480d195a12f659f45677bf1d03e57a",
+      "bytes": 468
+    },
+    {
+      "path": "hazel/runs/icelake_8358/independent-load-diagnostic-v2/diagnostic-policy.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-diagnostic-v2/diagnostic-policy.json",
+      "sha256": "457cff72e3b0402fe86ff97f05ef4e2616858d9bc229c251ca55d0778bc24bc1",
+      "bytes": 535
+    },
+    {
+      "path": "hazel/runs/icelake_8358/independent-load-diagnostic-v2/cohorts.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-diagnostic-v2/cohorts.json",
+      "sha256": "f165db84f3d74e9d4318223d924d6c80e8c0ac5e931df3c87cf012b1d25cfc38",
+      "bytes": 3688
+    },
+    {
+      "path": "hazel/runs/icelake_8358/independent-load-diagnostic-v2/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-diagnostic-v2/smoke-passed.json",
+      "sha256": "4ba46a1959bbe2c2547491da82d5ac9707ed7a1d8ab7c88238ace6b9c9b1cc83",
+      "bytes": 271
+    },
+    {
+      "path": "hazel/runs/icelake_8358/independent-load-diagnostic-v2/full-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-diagnostic-v2/full-finished.json",
+      "sha256": "d3fffc5cfc0ac2ecf0b828a14bb63e919dba3312e6b52763e6855569dc6f8794",
+      "bytes": 209
+    },
+    {
+      "path": "hazel/runs/icelake_8358/independent-load-diagnostic-v2/environment-history/job-815969.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-diagnostic-v2/environment-history/job-815969.json",
+      "sha256": "41166035e345a654319260c15ace271009a45da2997729c6d35a6b04db17f6f9",
+      "bytes": 11769
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/conflict-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/conflict-finished.json",
+      "sha256": "aadee7cd8ed38dc5cc4f2f85ac1fad2054e8088ead6e5f5f73edd16c8a5858be",
+      "bytes": 135
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/inclusion_final-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/inclusion_final-finished.json",
+      "sha256": "30391be6dda2589cc2fe3e9eedaab362375e7236104d91650f37af742c0e9290",
+      "bytes": 311
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/segment-816325.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/segment-816325.json",
+      "sha256": "1d61c82c8ac122d877cb0afc55d1b348b146e904b6476929c547599bc6014c65",
+      "bytes": 125
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/confirm-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/confirm-finished.json",
+      "sha256": "7178f376e40838234edc5d8ee0ed3806d96bab5d8709d0cbf5bf74bc703079a6",
+      "bytes": 133
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/l2confirm-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/l2confirm-finished.json",
+      "sha256": "666de87246394f2e61d6cb2359e5f5dcd04623cf9f25ddbdd135d047f9221271",
+      "bytes": 134
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/spatial-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/spatial-finished.json",
+      "sha256": "c5b41aea59745f93c124a537d54b61326067becfb4fc6890ade398fd9ff6ce71",
+      "bytes": 132
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/smoke-passed.json",
+      "sha256": "0f5282c0ae258ee88a5cb57b7e81d4019b40f299075076a2e12f4f18c9aa92a1",
+      "bytes": 151
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/segment-816041.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/segment-816041.json",
+      "sha256": "c1d3817c58324fd2bb27f1fd6ee945f6f168ca8980c5b17c33a2678a991c7d81",
+      "bytes": 123
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/l2-search.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/l2-search.json",
+      "sha256": "79a75a5f9e6cb6dd40a098721b8e1a33296a001df31fb3ee4336d5fe2274b39c",
+      "bytes": 63529
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/allocation-failure-815970.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/allocation-failure-815970.json",
+      "sha256": "dc65fa11c6e2ac882c605ae3fdb36488ac05a8c761b4c52d1023b1e2b598d2a7",
+      "bytes": 393
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/l2-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/l2-finished.json",
+      "sha256": "c08a0927e74e384d0047309143a11f7bdb35aa9c35e3d0cc124dc49393323d5f",
+      "bytes": 130
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/conflict-smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/conflict-smoke-passed.json",
+      "sha256": "c48c71a104ec8de25d4e4d2dcf28ae51416b968575f624f43632ec5a8ef29695",
+      "bytes": 64
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/segment-816184.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/segment-816184.json",
+      "sha256": "127641743b8f58964ea8a5fdd19d142cfd55b3a3be4f71e952f1bdd111119da1",
+      "bytes": 121
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/segment-815972.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/segment-815972.json",
+      "sha256": "2f2d8e427f6fa32828bb67fd74a4be82f1782b6d635917823115b56149a54fbc",
+      "bytes": 121
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/capacity-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/capacity-finished.json",
+      "sha256": "5adc3f614f1f3e30f8a6430cce09c1a43d9f1acbfae38906bbe081da25aff893",
+      "bytes": 136
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/segment-816174.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/segment-816174.json",
+      "sha256": "3bc26a22bbb528a45ff0fe1c7e2ff982a92f06f45f83c4ea7af54a61b4476118",
+      "bytes": 124
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/cross-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/cross-finished.json",
+      "sha256": "fbf4c1ffcd17eb338b3f640e007be7dba99de470f9908e59c144e279eb7e5e4c",
+      "bytes": 130
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/segment-816330.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/segment-816330.json",
+      "sha256": "884093333b404a7e79463a373dd250e1a31f0790b240344ccd58283be1f6cefe",
+      "bytes": 131
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/l2-confirmation.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/l2-confirmation.json",
+      "sha256": "24e24af0e87a078ef5f5bc50b9eca0c27f851be5b2cdfe047e9a21a03a9793fb",
+      "bytes": 19618
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/spatial-cohorts.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/spatial-cohorts.json",
+      "sha256": "51ce7a0e1f8532c4413dcb60415dd1aab4c21bc07f23226bfdecdfb4b00031b8",
+      "bytes": 11513
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/segment-816199.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/segment-816199.json",
+      "sha256": "68034a09204d2defefd7893c5fa855813d55d2b74ee79d27884de71d6ff477aa",
+      "bytes": 118
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/l2-smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/l2-smoke-passed.json",
+      "sha256": "ebb14db9a57c96722b1183d4f2cd08d4d4b3f9f38ef082c3514a371bc5c5565c",
+      "bytes": 151
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/segment-815975.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/segment-815975.json",
+      "sha256": "2eeb83798e997b879c940a4faae5f475316b52738a656b1e8bf01c902892e04d",
+      "bytes": 123
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/timer-verification.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/timer-verification.json",
+      "sha256": "09baf9d781204b4b2523e0ff5c217dc06538e76e7e61a6196e8bdb573f81df0d",
+      "bytes": 394
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/empirical-search.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/empirical-search.json",
+      "sha256": "825971c815d19dfa90d6a01fb0531a63e33cf506ed5bee1dd3e09531f5ec4634",
+      "bytes": 732113
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/segment-815980.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/segment-815980.json",
+      "sha256": "baddc0dcb427c7c71351ad70b589ecdce18ab00e87bcf679e71e5554ef49a3c3",
+      "bytes": 124
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/capacity-refinement-plan.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/capacity-refinement-plan.json",
+      "sha256": "960b0fd84067743fce19ba1cefee62827e66e28b4c79bd66bbfc8e8c0c347ed4",
+      "bytes": 336
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/environment-history/job-816174.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/environment-history/job-816174.json",
+      "sha256": "c7eda2e449390c9b24c3ff7f95cb0ab4017c409aaf19d77741147162c84a98b4",
+      "bytes": 11368
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/environment-history/job-815980.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/environment-history/job-815980.json",
+      "sha256": "12a5339f6729c9391e68f47a1d22792959900491cca563481815b1b20863e35e",
+      "bytes": 11368
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/environment-history/job-815975.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/environment-history/job-815975.json",
+      "sha256": "3bb4244f9c7e651f5688d2853b61e802fa329ebdf0aa6864b7e7a7aa1453bb63",
+      "bytes": 11235
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/environment-history/job-816199.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/environment-history/job-816199.json",
+      "sha256": "539c5ffc774c5b613d947d5bc52e3131d4afa5fa414b06b89ca8d53ec9f5c748",
+      "bytes": 11362
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/environment-history/job-815838.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/environment-history/job-815838.json",
+      "sha256": "03da66a870332f681a01df67c60353481ed38da389695d87cbe6c18715b0286e",
+      "bytes": 11250
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/environment-history/job-816330.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/environment-history/job-816330.json",
+      "sha256": "bef152cb0e779625c88403a38b304071b3f0114e627065a246fec00ba6f85471",
+      "bytes": 11375
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/environment-history/job-815972.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/environment-history/job-815972.json",
+      "sha256": "24d366e23cbde8d4ccd79e46aae745e460fd651fc9c3f0a89aee7bc01079ab12",
+      "bytes": 11227
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/environment-history/job-816041.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/environment-history/job-816041.json",
+      "sha256": "f4276473fa65564f9cb184537ea64fa6f7bb2ee29b39a231ad9a9ad7a81eb526",
+      "bytes": 11367
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/environment-history/job-816184.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/environment-history/job-816184.json",
+      "sha256": "141fb0a1f16132a0229bcfd2fedc607fb3c303627e35ce17b6ec77b65b4b9569",
+      "bytes": 11365
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/environment-history/job-816325.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/environment-history/job-816325.json",
+      "sha256": "3022cb82ca85b2015428a1aabff0c565eafb10ed8fbebb77601698395e4b32a2",
+      "bytes": 11369
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/environment-history/job-811072.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/environment-history/job-811072.json",
+      "sha256": "7d0749a3816ea99066accb2a3dfb204d9b3346179beb32782accc8b5295a5ebe",
+      "bytes": 11304
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/build/compiler.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/build/compiler.json",
+      "sha256": "08c607fd1664e3e6bd7cf92702608d3048fe7ee048e659df4e4c66d5c3a80067",
+      "bytes": 574
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/build/objdump.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/build/objdump.json",
+      "sha256": "60780d0cd55652e184884f669973a0a0ea784a9c591b3ca6f80a2d44d7aaf86e",
+      "bytes": 136710
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/build/compile.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/build/compile.json",
+      "sha256": "4f209dd4d5414f111763fddd192c354439ed48ed8a151804d1af2a92111b1945",
+      "bytes": 487
+    },
+    {
+      "path": "hazel/runs/icelake_8358/followup-v1/build/assembly.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/followup-v1/build/assembly.json",
+      "sha256": "83b3d49dda2ceecd8eed833c35683c66281ec5363ac449c7cab46ae7750c9b41",
+      "bytes": 499
+    },
+    {
+      "path": "hazel/runs/icelake_8358/independent-load-v1/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-v1/smoke-passed.json",
+      "sha256": "7dc4415f25d2016265a575d1819b0729eb8a94deffaaaa87dddeca735c675efa",
+      "bytes": 387
+    },
+    {
+      "path": "hazel/runs/icelake_8358/independent-load-v1/timer-gate.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-v1/timer-gate.json",
+      "sha256": "2802502fdb92de13e70946b90b51503f2fcb21ef3ecd9b1829445ac24b35e7ca",
+      "bytes": 1501
+    },
+    {
+      "path": "hazel/runs/icelake_8358/independent-load-v1/environment-history/job-811071.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-v1/environment-history/job-811071.json",
+      "sha256": "eff33330e9a3bfff7edacbd8034ecf68569d490839d24802c78db567f9d817a9",
+      "bytes": 11809
+    },
+    {
+      "path": "hazel/runs/icelake_8358/independent-load-v1/environment-history/job-815843.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/icelake_8358/independent-load-v1/environment-history/job-815843.json",
+      "sha256": "b4205242958031334009fd54afd85983e3502f1dbd2509539dc91230242fc421",
+      "bytes": 11755
+    },
+    {
+      "path": "hazel/logs/icelake_8358/smoke.810625.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/smoke.810625.stdout",
+      "sha256": "0b2d97718ec7da91a782f8c9c537403a57b256b68ea0644fd92c96f2c9482e2f",
+      "bytes": 2535
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-analysis.816351.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-analysis.816351.stderr",
+      "sha256": "15509360052729f7713a71ba79f3619eafd46205f383bcb6abe1647bc92075b2",
+      "bytes": 2634
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-confirm.816041.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-confirm.816041.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-spatial.815975.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-spatial.815975.stdout",
+      "sha256": "555ea1b3c3f9fe7470dfa00c8a8d8cccf611675ec1e322ba0feb352e4f95117a",
+      "bytes": 21094
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-smoke.815972.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-smoke.815972.stdout",
+      "sha256": "20aeb062d6fbf4ae16471dfa8fea0530305444cb645a918b9089f407bef7914f",
+      "bytes": 1839
+    },
+    {
+      "path": "hazel/logs/icelake_8358/analysis.811069.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/analysis.811069.stdout",
+      "sha256": "cce2d17834a4fce02a1f50dfc12af42c5d7ea35e9727d14da164d4ff919ff507",
+      "bytes": 725
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-smoke.815970.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-smoke.815970.stdout",
+      "sha256": "7a98ec0e10135e632ba29c3edffe36f78ea5e231b82cb02d3e3ef933413ecc82",
+      "bytes": 1019
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-l2.816199.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-l2.816199.stdout",
+      "sha256": "04f490ce1026669ef550e91961cd46a596ecececade0988d68c066419e903e2a",
+      "bytes": 182808
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-smoke.811072.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-smoke.811072.stderr",
+      "sha256": "65fce321f863c1833f2207d1f6d50c41382e8a07791dae6135ac4c4fcb29f6de",
+      "bytes": 409
+    },
+    {
+      "path": "hazel/logs/icelake_8358/indep.811071.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/indep.811071.stdout",
+      "sha256": "8323a162e13b4ed6ddad90bf6f8775f5ca544066d76b5f240500b08e524d88af",
+      "bytes": 4172
+    },
+    {
+      "path": "hazel/logs/icelake_8358/analysis.811069.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/analysis.811069.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-l2.816199.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-l2.816199.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-spatial.815975.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-spatial.815975.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-smoke.815972.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-smoke.815972.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-analysis.816351.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-analysis.816351.stdout",
+      "sha256": "d13e154f6996e2770c9d1f6f5545479f79d22f90c66d9b7fb65dcdebba3869fb",
+      "bytes": 935
+    },
+    {
+      "path": "hazel/logs/icelake_8358/caretaker-810646.810869.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/caretaker-810646.810869.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-capacity.815980.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-capacity.815980.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/indep.815843.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/indep.815843.stdout",
+      "sha256": "c86088009f24395fe9040442579238937a1ec498521bc559f5a5fc6822220a3f",
+      "bytes": 3221
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-smoke.815838.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-smoke.815838.stdout",
+      "sha256": "8f657d686947bdf5170c9edce73b892e6bfa29323ee2ab82eafb7d90ed1dc258",
+      "bytes": 28548
+    },
+    {
+      "path": "hazel/logs/icelake_8358/indep-v2.815969.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/indep-v2.815969.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/indep.811071.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/indep.811071.stderr",
+      "sha256": "0deafb6801609e21af116a6ed8cef7a7f7270ac7a17d36337140e9903751659e",
+      "bytes": 979
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-inclusion_final.816330.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-inclusion_final.816330.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-l2confirm.816325.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-l2confirm.816325.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-cross.816184.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-cross.816184.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-smoke.815838.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-smoke.815838.stderr",
+      "sha256": "e812c622a380e3848438496717736620032596ab5402e601a5e79cc8e39e50a3",
+      "bytes": 359
+    },
+    {
+      "path": "hazel/logs/icelake_8358/full.810646.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/full.810646.stdout",
+      "sha256": "36022954e52af6fc17444339199035e3454ca6916a8f6ec326cbcf374eaf400d",
+      "bytes": 94526
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-l2confirm.816325.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-l2confirm.816325.stdout",
+      "sha256": "914ab9bdd26396989344e59b000aa4fc0cff4df4a556348df7af713fce45cfb4",
+      "bytes": 101300
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-cross.816184.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-cross.816184.stdout",
+      "sha256": "1c78427fec4287d0a1469455b4b6f26b05ce2e5a96b135b3a8814ce411453dfc",
+      "bytes": 12717
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-capacity.815980.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-capacity.815980.stdout",
+      "sha256": "4530246e79002c36094a60b4d38a7cad455eb0ff20dd048760f1d56c000a667f",
+      "bytes": 53195
+    },
+    {
+      "path": "hazel/logs/icelake_8358/page.811070.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/page.811070.stdout",
+      "sha256": "dd81b968def77efef85c99c42e80f3564c64a41afd89a7fe12dcbc58734c423d",
+      "bytes": 3132
+    },
+    {
+      "path": "hazel/logs/icelake_8358/smoke.810625.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/smoke.810625.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/indep.815843.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/indep.815843.stderr",
+      "sha256": "0deafb6801609e21af116a6ed8cef7a7f7270ac7a17d36337140e9903751659e",
+      "bytes": 979
+    },
+    {
+      "path": "hazel/logs/icelake_8358/full.810646.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/full.810646.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/caretaker-810646.810869.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/caretaker-810646.810869.stdout",
+      "sha256": "ce250a4c871e8cf3b356a827bb5e0fab26c0a272ac30bb001ca85b02f9e5321c",
+      "bytes": 1452
+    },
+    {
+      "path": "hazel/logs/icelake_8358/page.811070.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/page.811070.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-conflict.816174.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-conflict.816174.stdout",
+      "sha256": "15f496fa0971df15ae5a31367846976539a7ffc4f60d5402d7de9c5d807184ab",
+      "bytes": 205767
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-conflict.816174.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-conflict.816174.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/icelake_8358/indep-v2.815969.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/indep-v2.815969.stdout",
+      "sha256": "d72e4e3b7007cf56e81a466bae2ee31b0fe07103419f8b4007407f6374ab2306",
+      "bytes": 5129
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-confirm.816041.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-confirm.816041.stdout",
+      "sha256": "bcb09f1bc49fabf83462c292f4385a7c95991823796f963fdda765afdd99d635",
+      "bytes": 54504
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-inclusion_final.816330.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-inclusion_final.816330.stdout",
+      "sha256": "17d68082a043bf82cf02542636f41c8a5bdf0467bde9f4046c901306f29e8a76",
+      "bytes": 13560
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-smoke.815970.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-smoke.815970.stderr",
+      "sha256": "dc85b2fe9946b4972e4cc56c5302d795687e8a5fe2fc7427368783f0370933fb",
+      "bytes": 556
+    },
+    {
+      "path": "hazel/logs/icelake_8358/followup-smoke.811072.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/icelake_8358/followup-smoke.811072.stdout",
+      "sha256": "dbe6cd6c0f51eefbc9fcd58e46f826998b9e8be5d2ab5580a9e771d9e3f1ba77",
+      "bytes": 75964
+    },
+    {
+      "path": "hazel/suite/data_processed/genoa-inference.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/data_processed/genoa-inference.json",
+      "sha256": "637c89019617d7367621972c8a927cf4863a3cbbea7d3b42d7d03bde01c48109",
+      "bytes": 53214
+    },
+    {
+      "path": "hazel/analysis/followup/genoa-inference.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/analysis/followup/genoa-inference.json",
+      "sha256": "744e3a33867415f38500729e0fb746c393580dcc5a64370de736b6ddd434a502",
+      "bytes": 282675
+    },
+    {
+      "path": "hazel/runs/genoa/page_control/collection-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/page_control/collection-finished.json",
+      "sha256": "5b17f9064c4886282cbffacc5df0452ff4474aa6c1d38760629d484274771266",
+      "bytes": 311
+    },
+    {
+      "path": "hazel/runs/genoa/page_control/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/page_control/smoke-passed.json",
+      "sha256": "318717b8002d0bf3d3f402411b737ecc404bb531724a4fb0a9e956a12788c6c1",
+      "bytes": 166
+    },
+    {
+      "path": "hazel/runs/genoa/page_control/environment-history/job-811209.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/page_control/environment-history/job-811209.json",
+      "sha256": "001a4e066a93b49191bca34eae790cae584766500bad87220af03765da1e9069",
+      "bytes": 23185
+    },
+    {
+      "path": "hazel/runs/genoa/page_control/build/compiler.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/page_control/build/compiler.json",
+      "sha256": "31113e653acd2eb85fef5f5b8e0c9ea857a9cd2d1677a7f0d20f0ba9b53ed900",
+      "bytes": 568
+    },
+    {
+      "path": "hazel/runs/genoa/page_control/build/objdump.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/page_control/build/objdump.json",
+      "sha256": "d567ac74636a8411dcca0131666cf01248ad6aef71de2370770c9557133a62de",
+      "bytes": 92762
+    },
+    {
+      "path": "hazel/runs/genoa/page_control/build/compile.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/page_control/build/compile.json",
+      "sha256": "fe080e3323d98e5d497fa83fd58d5c578625f40c2c1aa3cce2d90a8764b8fbd3",
+      "bytes": 461
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/conflict-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/conflict-finished.json",
+      "sha256": "e86dd18cbb3ffdc0cf3761d37473e299704b0de6834730cf847687032780743e",
+      "bytes": 135
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/segment-816200.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/segment-816200.json",
+      "sha256": "1520239c43ef39fb3bfd91538c2dafcbc319662b6f2d426ccd1337d4899f58ff",
+      "bytes": 131
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/segment-816183.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/segment-816183.json",
+      "sha256": "416c5770760b8001dbd08c440f977ceae4fb408bc345dd0289f275ce765819cc",
+      "bytes": 121
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/segment-815977.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/segment-815977.json",
+      "sha256": "6ace0acd12cb7517fb1c8c1c4cdb140fce90f3e52655bee31c814ea4a9eaab8c",
+      "bytes": 123
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/inclusion_final-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/inclusion_final-finished.json",
+      "sha256": "a9b3773f02c6ae8a7a907d9902067ecb886e3871f745e84e6d8325ab477db22b",
+      "bytes": 311
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/segment-816197.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/segment-816197.json",
+      "sha256": "797f18e9a5b79abd2ce4c048a0ea031b0fdc8ff5f9122a4a7d16fdd4daedf8dc",
+      "bytes": 125
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/segment-815990.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/segment-815990.json",
+      "sha256": "c69c88568c8b5298491d00df5eefc153d0f7114225eb84dc65650340bfb38532",
+      "bytes": 124
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/confirm-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/confirm-finished.json",
+      "sha256": "c1f467a926272e731723d59dc8d8afd8779ed34a84fd3fcb75d354f6412161d8",
+      "bytes": 132
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/l2confirm-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/l2confirm-finished.json",
+      "sha256": "fc8f065ba5b6c7b4d2862da85fbdf74bf106119b71726a8d2189ba648f763508",
+      "bytes": 134
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/spatial-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/spatial-finished.json",
+      "sha256": "285351f683646de5b7dd84dea0e2cce1f3d73a81ad107cf6f3d27234d2a89b9a",
+      "bytes": 132
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/smoke-passed.json",
+      "sha256": "6944e762b4b74db0f4ea005189fcaa486c5867a7565fd1919995a69ee316a090",
+      "bytes": 151
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/l2-search.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/l2-search.json",
+      "sha256": "dcf38d712e8096670ed1c75fe203d1879f93e676ed242d792d2ad77d7586a524",
+      "bytes": 32465
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/l2-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/l2-finished.json",
+      "sha256": "0bf676ea1043bf2d15bf51ce6977c6c06c23451be23c99a0583a40e17847099e",
+      "bytes": 127
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/allocation-failure-815971.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/allocation-failure-815971.json",
+      "sha256": "e063b5972efc896d9a062fb8599847be4f21e1f3858896b96de9b085bb59fc0b",
+      "bytes": 393
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/segment-815973.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/segment-815973.json",
+      "sha256": "fd6973c1ed94a1a5a4a8ea9ac6d91aaa54f5edf96e826fca5a42338e2db8d670",
+      "bytes": 121
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/segment-816170.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/segment-816170.json",
+      "sha256": "dcbf377fe8920cef8836fc57836333cd4ff547bce6e7fe49d8b5cd83ee9e7ab2",
+      "bytes": 123
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/conflict-smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/conflict-smoke-passed.json",
+      "sha256": "5ceda2d62552e68e40d4ad178d517734785e05228a360173fc7d5c6e4c18391d",
+      "bytes": 64
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/capacity-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/capacity-finished.json",
+      "sha256": "c5f1bf1b1ab6d98e0cd2bc268f71587406387c869b54a335d87675150bad2648",
+      "bytes": 135
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/cross-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/cross-finished.json",
+      "sha256": "4a0a4da0af6fda96a1d24772ed2f0d76fd05315c22848bfa7e83245b91317e37",
+      "bytes": 130
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/segment-816178.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/segment-816178.json",
+      "sha256": "d1fe0ce9935e12d942833f4799f1883f9d913cba6acbe4e8b6c117a8c8fe48a0",
+      "bytes": 124
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/l2-confirmation.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/l2-confirmation.json",
+      "sha256": "1e34606bc9149d8941448e4654e205d90371e903473522b056c30f371edee89f",
+      "bytes": 3091
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/segment-816192.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/segment-816192.json",
+      "sha256": "b4ff0573c2c7a1368e89617afe4fdd47624091c8ac9935a12cb38daacda235b4",
+      "bytes": 118
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/spatial-cohorts.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/spatial-cohorts.json",
+      "sha256": "bee8d3fd4663bd0c7cfe9672325c3541e7ff8a752a9ff1fca2b593b51273466e",
+      "bytes": 6582
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/l2-smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/l2-smoke-passed.json",
+      "sha256": "051863a4baf78dcd361e125dc5f6fe45f2d62fa60665c9b811637990d6673630",
+      "bytes": 151
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/timer-verification.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/timer-verification.json",
+      "sha256": "2ef084a634ae285690afe29847b0522b44d9605253bea8a284e0bfc5da0c68b0",
+      "bytes": 395
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/empirical-search.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/empirical-search.json",
+      "sha256": "8f6e28908b8705b65c6498cfda550e9ae7b5b67a1d69b64d339e403dc9da27f7",
+      "bytes": 646294
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/capacity-refinement-plan.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/capacity-refinement-plan.json",
+      "sha256": "8eada5b03a48d843985f95d02c2fdcd9689cd1c0c1b795e6b1e05f0c9e6efae3",
+      "bytes": 373
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/environment-history/job-816197.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/environment-history/job-816197.json",
+      "sha256": "51e536083a448608677669f213ad8bfa0e9db837939216b760543afacfeebcbe",
+      "bytes": 23767
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/environment-history/job-815977.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/environment-history/job-815977.json",
+      "sha256": "f86806b8b06e9cb333285d8eaf5e72372b743b529697d9ddfb299ca7bb93bf43",
+      "bytes": 23633
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/environment-history/job-815990.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/environment-history/job-815990.json",
+      "sha256": "98c13bdcf69e7344f356bf2c8ff89e580577123f7304ed31338e46bc3db0a6ca",
+      "bytes": 23767
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/environment-history/job-815973.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/environment-history/job-815973.json",
+      "sha256": "d90764f4b035eed9543ce433819300940e15153b90cf8ec0eabb3f5648c91d51",
+      "bytes": 23627
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/environment-history/job-811211.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/environment-history/job-811211.json",
+      "sha256": "d45cc857e85bd7a83b411889aac15f9a3288c44ff077309a51fdd6ee3e6ec57b",
+      "bytes": 23701
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/environment-history/job-816192.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/environment-history/job-816192.json",
+      "sha256": "7455adaed953419492a2fdddb4d2765f962c8246677c8ef5eef94091ecd62d24",
+      "bytes": 23760
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/environment-history/job-816200.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/environment-history/job-816200.json",
+      "sha256": "a59cef751e2ec99730c3ea02868252fa6f4f0c496bec1a3ad39cac617eac2982",
+      "bytes": 23773
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/environment-history/job-816170.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/environment-history/job-816170.json",
+      "sha256": "e4eeeec333c07df5465b67ae7a4097e7a69606c7f770f03b580fd0eb6046ad8b",
+      "bytes": 23765
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/environment-history/job-815839.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/environment-history/job-815839.json",
+      "sha256": "ab1c458635266fdf4d0f29042af6ffe2848ebf0b07dc2f7b410af704ac4c0d36",
+      "bytes": 23650
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/environment-history/job-816183.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/environment-history/job-816183.json",
+      "sha256": "752540a0238c17837b0e801e50a9bb5a8547549f5a6c8bedf024e368f67a4bd8",
+      "bytes": 23763
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/environment-history/job-816178.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/environment-history/job-816178.json",
+      "sha256": "888e33a75f6848c459a8e569ffc6a80fa50aef84ee3fe4ea85f9066ac0330416",
+      "bytes": 23766
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/build/compiler.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/build/compiler.json",
+      "sha256": "8220d6265aa4c7e4fcf6e5f6d0a1fb4fa114c6ee4c10bf3671320fda65da80b4",
+      "bytes": 567
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/build/objdump.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/build/objdump.json",
+      "sha256": "e7d90412a67b8e29e6020451c42534eb9dd658896c55cb7ade8820952c1a722e",
+      "bytes": 136703
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/build/compile.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/build/compile.json",
+      "sha256": "6a40ba8112a12f2f527ece9666b4ff2d929178869758a402065b08ac9620e8e2",
+      "bytes": 480
+    },
+    {
+      "path": "hazel/runs/genoa/followup-v1/build/assembly.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/build/assembly.json",
+      "sha256": "d8bc555c02044483dc468c9b5e1e09b7a956e98c7d3848b17292e8493e997fb5",
+      "bytes": 492
+    },
+    {
+      "path": "hazel/runs/genoa/independent-load-v1/cohorts.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/independent-load-v1/cohorts.json",
+      "sha256": "3568c419993dd7fd3f5fed3a55bf3923f1a17864512c3d32d5f31be526b92336",
+      "bytes": 3455
+    },
+    {
+      "path": "hazel/runs/genoa/independent-load-v1/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/independent-load-v1/smoke-passed.json",
+      "sha256": "1668d686c6fd31b095d4a8fb65673399b01adf93c4249359b4f84e8b67db755b",
+      "bytes": 387
+    },
+    {
+      "path": "hazel/runs/genoa/independent-load-v1/timer-gate.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/independent-load-v1/timer-gate.json",
+      "sha256": "e81a59a24b1c8620c2203b702225ee3e27a359a5f03ebd5c5ed029b169c704ab",
+      "bytes": 1106
+    },
+    {
+      "path": "hazel/runs/genoa/independent-load-v1/full-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/independent-load-v1/full-finished.json",
+      "sha256": "dc6c21da2b20c84fbbcce709784475d6c626a0a607baedb26c38ae3d09dc649c",
+      "bytes": 170
+    },
+    {
+      "path": "hazel/runs/genoa/independent-load-v1/environment-history/job-811210.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/independent-load-v1/environment-history/job-811210.json",
+      "sha256": "f064e4d8339d748f8dc35c12defb8ffccbe830f37e1c34c69f8c654da8b777f9",
+      "bytes": 24231
+    },
+    {
+      "path": "hazel/logs/genoa/followup-smoke.815971.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-smoke.815971.stderr",
+      "sha256": "486357c825c4aa316f506b2250e2b079c7500f232eb5ac74ee4f4ac2ab226ad0",
+      "bytes": 554
+    },
+    {
+      "path": "hazel/logs/genoa/analysis.811206.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/analysis.811206.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/followup-confirm.816170.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-confirm.816170.stdout",
+      "sha256": "f503f3d1c07a380e7c8e96570020ba4a45827df1d70ac0c275d20c8d3b0df93b",
+      "bytes": 13255
+    },
+    {
+      "path": "hazel/logs/genoa/full.810673.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/full.810673.stderr",
+      "sha256": "14a3aad9e9630929a8bddb777bff3e647c4ba111c85b267513d3c198f30b0b06",
+      "bytes": 53
+    },
+    {
+      "path": "hazel/logs/genoa/followup-l2.816192.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-l2.816192.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/followup-l2confirm.816197.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-l2confirm.816197.stdout",
+      "sha256": "e80c36c2cb9ca985445494c63b145a80172b0e64ac56c662bada3af4858bd054",
+      "bytes": 20995
+    },
+    {
+      "path": "hazel/logs/genoa/full.810648.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/full.810648.stdout",
+      "sha256": "ee45e5bb4e22c620f224bbb67e0a7675fb200939390528b9a5da16f78150e494",
+      "bytes": 2937
+    },
+    {
+      "path": "hazel/logs/genoa/full.811148.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/full.811148.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/followup-smoke.811211.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-smoke.811211.stdout",
+      "sha256": "06173e15afbf76af53f8f9efb8ae7c88be4dbf3179eedb171e83717d8b145d81",
+      "bytes": 76553
+    },
+    {
+      "path": "hazel/logs/genoa/analysis.811206.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/analysis.811206.stdout",
+      "sha256": "4438dd99f32f639eee72f334b890921137b7357b91ff36a190169cb876d3ef77",
+      "bytes": 1629
+    },
+    {
+      "path": "hazel/logs/genoa/followup-l2confirm.816197.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-l2confirm.816197.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/followup-smoke.815971.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-smoke.815971.stdout",
+      "sha256": "51889f1976c3f92a80e465a1cf8512237533854977441aa528b85ece2ddd2c11",
+      "bytes": 1006
+    },
+    {
+      "path": "hazel/logs/genoa/followup-inclusion_final.816200.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-inclusion_final.816200.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/followup-cross.816183.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-cross.816183.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/followup-analysis.816207.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-analysis.816207.stdout",
+      "sha256": "017b189121b6fae6402af612ef7df17a6655ca59fd6419f55a8d811088185638",
+      "bytes": 930
+    },
+    {
+      "path": "hazel/logs/genoa/indep.811210.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/indep.811210.stdout",
+      "sha256": "3412038f761ee80e857cd51acfc22de974f114f5ce3e08d0926bddf179807688",
+      "bytes": 6911
+    },
+    {
+      "path": "hazel/logs/genoa/page.811209.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/page.811209.stdout",
+      "sha256": "9cf7a0a9b2a056218e287cf4f9fc3d421240f127266bc30749f29885b335092c",
+      "bytes": 4456
+    },
+    {
+      "path": "hazel/logs/genoa/smoke.810627.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/smoke.810627.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/followup-cross.816183.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-cross.816183.stdout",
+      "sha256": "20ac36accca47b47a62d36d4c5b2546ff4f6ef80640b1f2535ec0fb2fa8f37bc",
+      "bytes": 6286
+    },
+    {
+      "path": "hazel/logs/genoa/full.810648.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/full.810648.stderr",
+      "sha256": "9ff43c5f8e11a6dd4c0620a54173cd34131dca10b41273adf0a6b6aba5d9a086",
+      "bytes": 654
+    },
+    {
+      "path": "hazel/logs/genoa/followup-inclusion_final.816200.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-inclusion_final.816200.stdout",
+      "sha256": "383df1981697001a872128e5b104bffad0f87907830b1a91d1ff53580b9a42a3",
+      "bytes": 6587
+    },
+    {
+      "path": "hazel/logs/genoa/page.811209.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/page.811209.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/followup-smoke.815839.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-smoke.815839.stderr",
+      "sha256": "75b73a1914b10660ee78a9b8f64ecf848b7098d392f54ae98631abd057ea88cf",
+      "bytes": 353
+    },
+    {
+      "path": "hazel/logs/genoa/caretaker-810673.810870.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/caretaker-810673.810870.stdout",
+      "sha256": "634413bad37b70ee0ac6042fd7b0918972ef92221d8c55fc4d8d3a90f1244028",
+      "bytes": 1287
+    },
+    {
+      "path": "hazel/logs/genoa/full.810673.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/full.810673.stdout",
+      "sha256": "49d1043d3b5efbfd6c472938aa246a65231094c010c298e357c6810fc80fc87b",
+      "bytes": 87539
+    },
+    {
+      "path": "hazel/logs/genoa/followup-conflict.816178.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-conflict.816178.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/followup-spatial.815977.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-spatial.815977.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/followup-smoke.815973.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-smoke.815973.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/followup-capacity.815990.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-capacity.815990.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/indep.811210.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/indep.811210.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/followup-smoke.811211.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-smoke.811211.stderr",
+      "sha256": "d26c57d13f83dd3c2a2bc717eb68ac6d327c5601c8bae6fc41c8ba6c2607c072",
+      "bytes": 403
+    },
+    {
+      "path": "hazel/logs/genoa/followup-l2.816192.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-l2.816192.stdout",
+      "sha256": "37bacc93d69713292c81d81b4a41657b74e0a49a75de8e982fdb70cdb7ad9635",
+      "bytes": 66101
+    },
+    {
+      "path": "hazel/logs/genoa/followup-spatial.815977.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-spatial.815977.stdout",
+      "sha256": "9d8d9724be7be09671c012abc53fb36073e0bce98b0e8fa9a456dcaecbf50100",
+      "bytes": 20980
+    },
+    {
+      "path": "hazel/logs/genoa/followup-smoke.815839.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-smoke.815839.stdout",
+      "sha256": "7bdecdaa901c3bd91897e744dcbbb16e6366291ef7d561cbe1e3fa835995a5bc",
+      "bytes": 28536
+    },
+    {
+      "path": "hazel/logs/genoa/followup-capacity.815990.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-capacity.815990.stdout",
+      "sha256": "ee10504327f03088b0a9fe503f451166ae60fbd62ffcc390586e1d4c759ff748",
+      "bytes": 53600
+    },
+    {
+      "path": "hazel/logs/genoa/full.811148.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/full.811148.stdout",
+      "sha256": "8602f95c18075416006adae99b6cd79e1c0426c04316bd959a19f000954d977a",
+      "bytes": 18722
+    },
+    {
+      "path": "hazel/logs/genoa/followup-conflict.816178.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-conflict.816178.stdout",
+      "sha256": "71d019adb34fea4b9643607b651916a8f2e7c1c330ad41ac02904d2eabbb7b8c",
+      "bytes": 180764
+    },
+    {
+      "path": "hazel/logs/genoa/followup-confirm.816170.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-confirm.816170.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/genoa/followup-analysis.816207.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-analysis.816207.stderr",
+      "sha256": "eb1533813db264b616480d6d04422d5a2285b8353bb04a7eaf055f741ba0ee3b",
+      "bytes": 2620
+    },
+    {
+      "path": "hazel/logs/genoa/caretaker-810673.810870.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/caretaker-810673.810870.stderr",
+      "sha256": "5aa1605191eb6da68fba94f2d6a95ddfbe972440dab766962dc1647b00bb17a2",
+      "bytes": 54
+    },
+    {
+      "path": "hazel/logs/genoa/smoke.810627.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/smoke.810627.stdout",
+      "sha256": "339ec9adfd3089d7cda1f077d51e44b82f14dd58a5611415412977939f3fc542",
+      "bytes": 2510
+    },
+    {
+      "path": "hazel/logs/genoa/followup-smoke.815973.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/genoa/followup-smoke.815973.stdout",
+      "sha256": "72d850c4d6e0bf729354dc23a660fbcc25caf43dcb0dbfe069792dbf68ca0501",
+      "bytes": 1822
+    },
+    {
+      "path": "hazel/suite/data_processed/turin-inference.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/data_processed/turin-inference.json",
+      "sha256": "238fbb43e18a251f4cd6828b792fa3ea16a335719eab8790af3cfc274a2d727b",
+      "bytes": 51716
+    },
+    {
+      "path": "hazel/analysis/followup/turin-inference.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/analysis/followup/turin-inference.json",
+      "sha256": "0816676f5404c59a9cfefb1abe9345c6106a02d1ffecbca533ea2540f24bacad",
+      "bytes": 275611
+    },
+    {
+      "path": "hazel/runs/turin/page_control/collection-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/page_control/collection-finished.json",
+      "sha256": "57a3f5f27624cbc3161382c6d32d6024b09edf952ad009765329945dc5e5f4db",
+      "bytes": 311
+    },
+    {
+      "path": "hazel/runs/turin/page_control/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/page_control/smoke-passed.json",
+      "sha256": "f565767a0c254f4799fc563cbff3a1b5f8ff10a70f35e7d18fa3d412ab082f51",
+      "bytes": 166
+    },
+    {
+      "path": "hazel/runs/turin/page_control/environment-history/job-811141.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/page_control/environment-history/job-811141.json",
+      "sha256": "9a321e87385e83ff78dc5dce3f183439f6c37596692aed9d0c4a7cb64ad34e44",
+      "bytes": 23171
+    },
+    {
+      "path": "hazel/runs/turin/page_control/build/compiler.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/page_control/build/compiler.json",
+      "sha256": "3ee405591052778dbcfcf380a3dfc8e1e64d46007b0b0fe47b8335dbe0724837",
+      "bytes": 568
+    },
+    {
+      "path": "hazel/runs/turin/page_control/build/objdump.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/page_control/build/objdump.json",
+      "sha256": "bc8c1d8a95feacc3b75aa7e8f83553ccf777d1b9d79e14e6caf4f1f1607740f4",
+      "bytes": 92762
+    },
+    {
+      "path": "hazel/runs/turin/page_control/build/compile.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/page_control/build/compile.json",
+      "sha256": "6aba76814b03bb34b55bf709173e26620c4c03b59fd520dbcc144867426fe570",
+      "bytes": 461
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/conflict-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/conflict-finished.json",
+      "sha256": "eee5dcc55992d5f31f4cdfaec1eb102ba2ea0dfab8434fae79b107a35ce1deea",
+      "bytes": 135
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/inclusion_final-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/inclusion_final-finished.json",
+      "sha256": "32225ab61510f5dd65d9cbe310417897e8620d68047fbcd7de997cad0a0af508",
+      "bytes": 311
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/segment-816116.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/segment-816116.json",
+      "sha256": "22d8ea89ce3a2f9d90d912d9d6cc72405f2cb6d50dbe0473bc4340fd9ae52dc1",
+      "bytes": 123
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/confirm-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/confirm-finished.json",
+      "sha256": "dd466be4d05746d9ed344b9ac2b9e26d5fd491e83e825814591b002f060ca3d7",
+      "bytes": 132
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/segment-815976.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/segment-815976.json",
+      "sha256": "fbedb0a5747f0b825ee70e49073767e674a4b8c11d0ad458b150eda52ae805a6",
+      "bytes": 123
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/l2confirm-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/l2confirm-finished.json",
+      "sha256": "10c373c518676517792f81d4c48f843e85a9803aa5d9ce1c49fd71775f867b2c",
+      "bytes": 134
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/spatial-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/spatial-finished.json",
+      "sha256": "9e3040f7ede6c75a89f458b26a000b2fbc08f5fdcc1f1900950aa4f86cf2a11e",
+      "bytes": 132
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/smoke-passed.json",
+      "sha256": "1b5ff5e8c7ad22fe7b6cd93126f0a4b1f02abd6120768616f2ea28c18d5990e4",
+      "bytes": 151
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/l2-search.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/l2-search.json",
+      "sha256": "8c76eb8812460f7defa0292713c7b2a196a6c24395c904e62369fb87d5ee4cd8",
+      "bytes": 44512
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/segment-816176.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/segment-816176.json",
+      "sha256": "9ee00f0f9c8c9afeb3239748d50344a983aa6ef437ca9936fdf35f49c512d5bd",
+      "bytes": 118
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/segment-815978.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/segment-815978.json",
+      "sha256": "897308b4eaa0c70fc396ad14369d7e2f999c59f884a6135e147864228f6b06fc",
+      "bytes": 124
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/l2-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/l2-finished.json",
+      "sha256": "aa8f502c0004f4d1e23b5449d9863febe7f9762cadd2a9a42464e40c7ae0eecd",
+      "bytes": 129
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/conflict-smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/conflict-smoke-passed.json",
+      "sha256": "f395fffba569274536b01f5fe645ce63327bb4e32b1e2c810c698510e0b00674",
+      "bytes": 64
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/segment-816179.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/segment-816179.json",
+      "sha256": "715de7aee975d0e1184d47aca1eada5324099f0ab9f102fc68d9c012cd410654",
+      "bytes": 125
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/segment-815974.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/segment-815974.json",
+      "sha256": "a2642e721a9a7774bc3c8bdf424cbac63e0e71fd85f158f41b1d4a02212c8029",
+      "bytes": 121
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/capacity-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/capacity-finished.json",
+      "sha256": "2e404f5d67435adaec764aa0a30a9ed0b70b8ef3b4143f482568cb002b70a19a",
+      "bytes": 135
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/cross-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/cross-finished.json",
+      "sha256": "2949cc32332bb011993fe3fe382dcd33f2774ae987b8be1b7278e9a593d32df3",
+      "bytes": 130
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/segment-816143.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/segment-816143.json",
+      "sha256": "3852d22df9b06ba4632da0a14b18f35848d6e2500783e38a4d8dddeaf6e0527a",
+      "bytes": 124
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/l2-confirmation.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/l2-confirmation.json",
+      "sha256": "307ccc3d076962633e69c59c475b9de5ec7fff3008d1071467bb490a0cc15ca3",
+      "bytes": 7413
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/spatial-cohorts.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/spatial-cohorts.json",
+      "sha256": "c3ddfda678b5d97c941e67d0a16c881ee33d4c99571cd2fe7f2413fa1a436957",
+      "bytes": 6594
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/segment-816169.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/segment-816169.json",
+      "sha256": "f76a2ab97182bcbd7c215e1f0064f1c4c1d9699fa6541648c81a1e30b3cc1d0a",
+      "bytes": 121
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/l2-smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/l2-smoke-passed.json",
+      "sha256": "32fa4986db9a6f354ab8ce1d119deae1742a3f21ef7cebfe5bef75372ea8b006",
+      "bytes": 151
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/timer-verification.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/timer-verification.json",
+      "sha256": "e5fe49cc21518d5de3a95a246bd98b40d878eaf2f1da4fa57f255d808358a681",
+      "bytes": 395
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/empirical-search.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/empirical-search.json",
+      "sha256": "506a5256734890675566a16d53c9766c35b81e4605a04955c2641144211f2ade",
+      "bytes": 702874
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/segment-816181.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/segment-816181.json",
+      "sha256": "384507b2e079895b26612d0a82ca93cf7ca133aa35ad14d3a4f57b89ff6ce726",
+      "bytes": 131
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/capacity-refinement-plan.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/capacity-refinement-plan.json",
+      "sha256": "5cf5152cb0ebab58364dae83e4b4ed88dee7a3a39dd4e02e3bcfe60b8a18d7fc",
+      "bytes": 335
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/environment-history/job-815974.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/environment-history/job-815974.json",
+      "sha256": "dbaa0ed44d95890e781b957cf8107c618540ffdb7a17f72ed44701e0c1dfa379",
+      "bytes": 23631
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/environment-history/job-816179.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/environment-history/job-816179.json",
+      "sha256": "0a1857da1bc28915872851de816baf462f09b49fbe96c1497a8bbd0be1a14045",
+      "bytes": 23771
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/environment-history/job-816176.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/environment-history/job-816176.json",
+      "sha256": "be6a2db746b61262b2a921c44c4b7e5c4bbbb48bfa8997a376db33c2c7334827",
+      "bytes": 23764
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/environment-history/job-816181.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/environment-history/job-816181.json",
+      "sha256": "cd68d3f95b6fee619a82cb9ad93dc82c47d4236e9c6111ee87eedafb151c9af4",
+      "bytes": 23777
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/environment-history/job-816116.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/environment-history/job-816116.json",
+      "sha256": "544e4f13a60bd471551c4ea78b7e6ab9ab005aca183f6425641c4379f869dde7",
+      "bytes": 23770
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/environment-history/job-815978.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/environment-history/job-815978.json",
+      "sha256": "895c80816f7d9169d31350bc58c26c4954004e3d436b09bba322303544eff1e3",
+      "bytes": 23771
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/environment-history/job-811143.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/environment-history/job-811143.json",
+      "sha256": "fbebad54d49e58e4f90c387e6041fa8e120cbbf5bed2770905fca4dca7558e6f",
+      "bytes": 23706
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/environment-history/job-815840.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/environment-history/job-815840.json",
+      "sha256": "b6b0e20d9a0025c5b1f43de4c3dd1d84a7b95e8b52478624031c450e48f005f0",
+      "bytes": 23653
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/environment-history/job-816169.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/environment-history/job-816169.json",
+      "sha256": "bb0706fc2fe71eca39d34ab9558e3503df19dd66ba68cb3b528f12a5e83fa70d",
+      "bytes": 23768
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/environment-history/job-815976.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/environment-history/job-815976.json",
+      "sha256": "d11f25341638e20c38b2212539868f5fa54707e4f79953e9cca0deb1c07a8f63",
+      "bytes": 23637
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/environment-history/job-816143.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/environment-history/job-816143.json",
+      "sha256": "b863cc6d8ffe144519f4588c60327399751442fb445f71dfd68b1347da4e2b09",
+      "bytes": 23771
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/build/compiler.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/build/compiler.json",
+      "sha256": "6a69b6e4a96648b88a2b659827a1cddf7d872e61858f678efb3a53b029f6c62f",
+      "bytes": 567
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/build/objdump.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/build/objdump.json",
+      "sha256": "2b396741f080a4850d9d26326ef5e39ad6cf7c41ede7185b9d22e1279ec44c18",
+      "bytes": 136703
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/build/compile.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/build/compile.json",
+      "sha256": "63bcadf12d072e0f46708f782ca892799f909caf6408ff21fdcebc3c52b3bc0d",
+      "bytes": 480
+    },
+    {
+      "path": "hazel/runs/turin/followup-v1/build/assembly.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/build/assembly.json",
+      "sha256": "83346b338533b5a9204f5a28b706b431793288c03db36747b2b52a2d4d4cd467",
+      "bytes": 492
+    },
+    {
+      "path": "hazel/runs/turin/independent-load-v1/cohorts.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/independent-load-v1/cohorts.json",
+      "sha256": "eadd2753ae620ecd933ccba8458c2c3d805f0aab31dc499bf764d094d82ceb95",
+      "bytes": 3455
+    },
+    {
+      "path": "hazel/runs/turin/independent-load-v1/smoke-passed.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/independent-load-v1/smoke-passed.json",
+      "sha256": "8cfa2b64c69ecbc3e6cdf71517341f0fd93653b6be925ee0952d43995dc8c0c8",
+      "bytes": 387
+    },
+    {
+      "path": "hazel/runs/turin/independent-load-v1/timer-gate.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/independent-load-v1/timer-gate.json",
+      "sha256": "63ab1a94ebb454fe5d2aaedc20af8c745e49dd7c6f6c849089b2ad89ba53082f",
+      "bytes": 1094
+    },
+    {
+      "path": "hazel/runs/turin/independent-load-v1/full-finished.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/independent-load-v1/full-finished.json",
+      "sha256": "ac0656f42b666ab4579914231bdddcb026874e1b984ebd0c9d4eb95808e0ae1d",
+      "bytes": 170
+    },
+    {
+      "path": "hazel/runs/turin/independent-load-v1/environment-history/job-811142.json",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/independent-load-v1/environment-history/job-811142.json",
+      "sha256": "cb7623b3d85f7c2a4cef432af6645bd7f1aa42cd9800632bbdca7836323f6d24",
+      "bytes": 24219
+    },
+    {
+      "path": "hazel/logs/turin/followup-conflict.816143.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-conflict.816143.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/indep.811142.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/indep.811142.stdout",
+      "sha256": "c2f38559a69e4634ec4fe5fd11ca4c0fc5209f6669e3c9a8f8e269bd24a1553b",
+      "bytes": 6029
+    },
+    {
+      "path": "hazel/logs/turin/followup-spatial.815976.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-spatial.815976.stdout",
+      "sha256": "4a1098d877d023400df40b1b7631ca3fc2976e3bdb2d986cb16a21d98c071713",
+      "bytes": 21142
+    },
+    {
+      "path": "hazel/logs/turin/followup-l2confirm.816179.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-l2confirm.816179.stdout",
+      "sha256": "f6ef98166162b9527ad3b65d557c1e0d0aa48a6681404e18437cdefb5e1fa3c4",
+      "bytes": 41763
+    },
+    {
+      "path": "hazel/logs/turin/caretaker-810649.810871.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/caretaker-810649.810871.stdout",
+      "sha256": "a8d7c44bbf8f92bb1263a2fc2fe3e82d35cffca0246b316db3bd9b7d7765763c",
+      "bytes": 1430
+    },
+    {
+      "path": "hazel/logs/turin/followup-smoke.811143.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-smoke.811143.stdout",
+      "sha256": "416ccbbcd049e5ad667ed148fa12be63cb316218750e50ad9cefedbf1abc6471",
+      "bytes": 75542
+    },
+    {
+      "path": "hazel/logs/turin/smoke.810628.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/smoke.810628.stdout",
+      "sha256": "94f651ea32d2be838f977b4486721189bf366a19412be60a6f97a9e724768f73",
+      "bytes": 2514
+    },
+    {
+      "path": "hazel/logs/turin/followup-capacity.815978.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-capacity.815978.stdout",
+      "sha256": "e9d78e2c35c4f3bd8ff2d2733c32e13469d6711838bd4c31ab9f96b2246caea1",
+      "bytes": 44511
+    },
+    {
+      "path": "hazel/logs/turin/analysis.811137.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/analysis.811137.stdout",
+      "sha256": "609f691903f0ff043dad81b58043cd7d4b9fc49f39290da610cf71cb1139341e",
+      "bytes": 697
+    },
+    {
+      "path": "hazel/logs/turin/followup-l2confirm.816179.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-l2confirm.816179.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/followup-analysis.816198.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-analysis.816198.stdout",
+      "sha256": "40972111dc6a293bbe68aeb6490f2c628af0f4be833e61d82c7b1b7260c4d158",
+      "bytes": 931
+    },
+    {
+      "path": "hazel/logs/turin/followup-smoke.815840.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-smoke.815840.stdout",
+      "sha256": "ea5112c86376e5012a6ae824b62ea23a79ad075bd3caceddefe8bf89bfffb7a7",
+      "bytes": 28432
+    },
+    {
+      "path": "hazel/logs/turin/followup-l2.816176.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-l2.816176.stdout",
+      "sha256": "47a9984c2beac234b8bce42dd771318aed7e4494d258fd56199c68726b1210ef",
+      "bytes": 105102
+    },
+    {
+      "path": "hazel/logs/turin/indep.811142.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/indep.811142.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/followup-spatial.815976.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-spatial.815976.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/followup-confirm.816116.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-confirm.816116.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/followup-cross.816169.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-cross.816169.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/followup-smoke.815974.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-smoke.815974.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/followup-conflict.816143.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-conflict.816143.stdout",
+      "sha256": "eb497bbd4dc305cbe94d14fd0fd8c835d803ae54c761084d7fe1a2d972a5bd33",
+      "bytes": 173806
+    },
+    {
+      "path": "hazel/logs/turin/followup-confirm.816116.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-confirm.816116.stdout",
+      "sha256": "e7abfe1af56acea256d1960f093debff49ee2f88d518866cc8aa4b79907d168a",
+      "bytes": 13324
+    },
+    {
+      "path": "hazel/logs/turin/followup-smoke.811143.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-smoke.811143.stderr",
+      "sha256": "c0299bdb8360a46223d9afda0758bb52413844a445290c253234a8992d254d5e",
+      "bytes": 300
+    },
+    {
+      "path": "hazel/logs/turin/full.810649.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/full.810649.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/followup-inclusion_final.816181.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-inclusion_final.816181.stdout",
+      "sha256": "2c23feaefc7d3b55b71663e2952f0d196ae50df9dd66280c3c166e26505dac40",
+      "bytes": 10097
+    },
+    {
+      "path": "hazel/logs/turin/page.811141.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/page.811141.stdout",
+      "sha256": "de530bac47c04dd2feb5aebe25a3cf440a9ff3f7e9b560f3b81faf42f2a9ac2f",
+      "bytes": 2966
+    },
+    {
+      "path": "hazel/logs/turin/followup-smoke.815974.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-smoke.815974.stdout",
+      "sha256": "1a0bbb51174e37ef3001c69e755620263cc929e19574166a9b21865a80f68d34",
+      "bytes": 1819
+    },
+    {
+      "path": "hazel/logs/turin/full.810649.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/full.810649.stdout",
+      "sha256": "ff934ada1227831dd455de9357cd7b4b2b77f85f0db073576b97dfbee5e5d195",
+      "bytes": 68210
+    },
+    {
+      "path": "hazel/logs/turin/analysis.811137.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/analysis.811137.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/page.811141.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/page.811141.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/followup-inclusion_final.816181.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-inclusion_final.816181.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/followup-analysis.816198.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-analysis.816198.stderr",
+      "sha256": "c91847f53d69498a76f3833bba9ad309f415d6eece0f99157baa236509baf7a9",
+      "bytes": 2620
+    },
+    {
+      "path": "hazel/logs/turin/followup-cross.816169.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-cross.816169.stdout",
+      "sha256": "02d4f8c7062d60bcce432a7da1136db77e17769a97307a6a8048363e0ff4f4af",
+      "bytes": 9508
+    },
+    {
+      "path": "hazel/logs/turin/followup-l2.816176.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-l2.816176.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/caretaker-810649.810871.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/caretaker-810649.810871.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/followup-capacity.815978.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-capacity.815978.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/smoke.810628.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/smoke.810628.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/turin/followup-smoke.815840.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/turin/followup-smoke.815840.stderr",
+      "sha256": "37b9e605dac01537304a8166f66c7e12c6ef7fd5a0156ff412edd4ea20e8e959",
+      "bytes": 353
+    },
+    {
+      "path": "hazel/logs/final/finalize.817185.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/final/finalize.817185.stdout",
+      "sha256": "b4b51e275063530a264116b5c9deb5abb1e3443832f733e06e7c70608e71c2bd",
+      "bytes": 18767
+    },
+    {
+      "path": "hazel/logs/final/finalize.817185.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/final/finalize.817185.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/final/package.817194.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/final/package.817194.stdout",
+      "sha256": "1d02a2277bf743209faf4868090fcb79f08765f09d1af781b80615f57adf884b",
+      "bytes": 1116
+    },
+    {
+      "path": "hazel/logs/final/package.817194.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/final/package.817194.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/logs/final/tables.817253.stdout",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/final/tables.817253.stdout",
+      "sha256": "f7f5dd8080255f3cabdb819328fbf3f085c92c09286aaa45ba55dc0d3a23a6d3",
+      "bytes": 1299
+    },
+    {
+      "path": "hazel/logs/final/tables.817253.stderr",
+      "source": "/share/ece592f26/hlee58/tmp/hazel-phase3-20260911/logs/final/tables.817253.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "prediction/pre_hazel/requirements.md",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/requirements.md",
+      "sha256": "034091685aaca21147bac51610ec1e6a9f514551206d6cedf316b005dc956988",
+      "bytes": 1552
+    },
+    {
+      "path": "prediction/pre_hazel/build.py",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/build.py",
+      "sha256": "84f3c01eb541bb05d2b8ddd56f468a3285290adbcfef8e057d1f71ad379f2788",
+      "bytes": 41566
+    },
+    {
+      "path": "prediction/pre_hazel/README.md",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/README.md",
+      "sha256": "41d725b3f822f3931d0bf9cc63cadcd6d02b059d3a3e8c2a9064d62e8938c666",
+      "bytes": 1900
+    },
+    {
+      "path": "prediction/pre_hazel/inputs/hazel-targets.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/inputs/hazel-targets.csv",
+      "sha256": "6e943d28dd272518d05811c2acf8dc3ceafec1d8277477ff20522aaacccba4bd",
+      "bytes": 2329
+    },
+    {
+      "path": "prediction/pre_hazel/inputs/lab-metadata.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/inputs/lab-metadata.csv",
+      "sha256": "3af0cefe9391915a1df17be05cddadbce8927ff8bf53eab664b2c35f13931900",
+      "bytes": 2414
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/future-predictions.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/future-predictions.csv",
+      "sha256": "c7c4491d2f1aebdafaf57b2afd3bb905a8a9a0a15359fa26b71079721b584650",
+      "bytes": 483
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/hazel-predictions.md",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/hazel-predictions.md",
+      "sha256": "65d2794355c1dca3955581605160630c59c117dcbaf0cd9fce61b0c11edc584f",
+      "bytes": 2373
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/hazel-predictions.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/hazel-predictions.csv",
+      "sha256": "524f2f3af10cf854272e96ebc1dc41057095bb94783f4343e811f25440d500fb",
+      "bytes": 5612
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/freeze-manifest.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/freeze-manifest.json",
+      "sha256": "d55d0bc3a0012224ad0db07058761cf21d720e818152b81e33785560f29e479b",
+      "bytes": 3836
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/input-manifest.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/input-manifest.json",
+      "sha256": "701387a88b5f1a28a79eecc662ebc0a36630a0bdedd6c66d88b6b0110cad4e3f",
+      "bytes": 4563
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/team-law-predictions.gnuplot",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/team-law-predictions.gnuplot",
+      "sha256": "ecfb171adf826c25a71570ca4db02506c5a4fe4035d3e9a23efeebb88b8addcb",
+      "bytes": 1127
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/model-parameters.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/model-parameters.json",
+      "sha256": "61f4c03662896d3be82c866249dfa8a58237f5e538920c4ee45462a64b68223f",
+      "bytes": 3163
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/validation.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/validation.json",
+      "sha256": "45096111d5df0f33ad2581dd9b49ebb184de5f7ab7f1d32556ae334f1e8d2433",
+      "bytes": 799
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/prediction-summary.md",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/prediction-summary.md",
+      "sha256": "9f39d3a2b76b2f030c1b0ca03790de058d200bf3fa2de689f11996d1381153b5",
+      "bytes": 1716
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/model-comparison.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/model-comparison.csv",
+      "sha256": "9505fccb927d66a605ddf260ec862998cd6da6240efab3452a69921feb5adbd9",
+      "bytes": 1610
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/lab-only-chronological-master.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/lab-only-chronological-master.csv",
+      "sha256": "6a62ead2cc72625c8fc1f868c9f343ad45b3cf0c0fe4d0266c110754c4fa325f",
+      "bytes": 6459
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/required-plot-status.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/required-plot-status.csv",
+      "sha256": "556d10b2be9569d4afb9c6e80c870ee6d41ebbfb60f87654f11f34e7cb4bcc61",
+      "bytes": 1534
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/chronological-supported.gnuplot",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/chronological-supported.gnuplot",
+      "sha256": "20b972d7b3165200a3fa2bdcfd8fbd58bf72a0bdec3a017cdfd8667f4fb52042",
+      "bytes": 4178
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/team-cache-laws.md",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/team-cache-laws.md",
+      "sha256": "59e6972e66ee92be66d0a9fef86b2fd9958c5694af546673b6c5249038dbc290",
+      "bytes": 2220
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/plots/team-law-predictions.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/plots/team-law-predictions.pdf",
+      "sha256": "f227412da2478c88e7fda478f48b289243c873916eab12cebcd607145494bb13",
+      "bytes": 13702
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/plots/chronological-supported.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/plots/chronological-supported.pdf",
+      "sha256": "07366cc1edb073967877bf3f4b1f8761bd5f8f5551446c35e9b81c493213113d",
+      "bytes": 22710
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/plot-data/lab-servers.dat",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/plot-data/lab-servers.dat",
+      "sha256": "1b7d0d8f37b807ea2951d10f87a087efd837fd84e79a947743447c3ac6a986ae",
+      "bytes": 151
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/plot-data/lab-ampere.dat",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/plot-data/lab-ampere.dat",
+      "sha256": "201c710a69ca982a0b0b1ad48789da6327a52200e74d614d9733d54a1cca5397",
+      "bytes": 279
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/plot-data/future-models.dat",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/plot-data/future-models.dat",
+      "sha256": "19bbb14b4002fece49c1c683484d2fb07a24591f57ecbcbd10b3627ce5cfeb66",
+      "bytes": 4873
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/plot-data/lab-amd.dat",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/plot-data/lab-amd.dat",
+      "sha256": "de2c74e60d38a1070f65b9cdabf3dbc629cfbf07ceaa618b9f65301e4b819149",
+      "bytes": 276
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/plot-data/lab-all.dat",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/plot-data/lab-all.dat",
+      "sha256": "953cb1f7f2df114e9a48c02af92459bdaee67c754231b0e95f5fb5ae4224f790",
+      "bytes": 1239
+    },
+    {
+      "path": "prediction/pre_hazel/outputs/plot-data/lab-intel.dat",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/pre_hazel/outputs/plot-data/lab-intel.dat",
+      "sha256": "e7896b1fc9395a8d70fbefa27e74cdb31ac7aaeda0e366e1f137023332c8a30b",
+      "bytes": 954
+    },
+    {
+      "path": "prediction/post_hazel/audit-results-817293.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/audit-results-817293.json",
+      "sha256": "360ef9d562daeff4c24213cb316cc846d20cc2549ceb9dfa23c962163908e73d",
+      "bytes": 394
+    },
+    {
+      "path": "prediction/post_hazel/final.slurm",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/final.slurm",
+      "sha256": "45942b2d0f8a1d9bd446d75d53a49cc4bab6a8e40e65d1f00d850870532abc98",
+      "bytes": 662
+    },
+    {
+      "path": "prediction/post_hazel/build.py",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/build.py",
+      "sha256": "b7a7bc82e79df020f0ccdf4cac15c80851d557be86f1a0893d22bf5db6fa297a",
+      "bytes": 37151
+    },
+    {
+      "path": "prediction/post_hazel/final-job.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/final-job.json",
+      "sha256": "36f8e37203821bfda68bfb71b9d1919c76e4f9961eb2cfc14ae518b6c0b6335e",
+      "bytes": 635
+    },
+    {
+      "path": "prediction/post_hazel/run.slurm",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/run.slurm",
+      "sha256": "de40fc99ea7590f16cdb16c4a88e8cb3ecdd6d10b4e7ca9814acdd4d6e2afa39",
+      "bytes": 778
+    },
+    {
+      "path": "prediction/post_hazel/README.md",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/README.md",
+      "sha256": "cd14680541725a00749c587e3ef723163cdfc05ad75492962c23f49bb55ae55e",
+      "bytes": 3864
+    },
+    {
+      "path": "prediction/post_hazel/audit.py",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/audit.py",
+      "sha256": "019f547c308d643ff40143ea9231e3fd3420993d62e4c8d767622dc0ff7c9ec3",
+      "bytes": 2904
+    },
+    {
+      "path": "prediction/post_hazel/inputs/published-sources.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/inputs/published-sources.json",
+      "sha256": "63399882a0dacf04a40255f68750ae13bd067f914533f2f3bd6c94d90cd991fa",
+      "bytes": 16411
+    },
+    {
+      "path": "prediction/post_hazel/outputs/prediction-timing-published.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/prediction-timing-published.csv",
+      "sha256": "03df502d5479ea8d4f3213a982921678369de836066db6bfb41f2d90900e0edb",
+      "bytes": 24943
+    },
+    {
+      "path": "prediction/post_hazel/outputs/team-laws-and-future.md",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/team-laws-and-future.md",
+      "sha256": "2039116792973ec9ef84de9caa6ef6931a6a46887f34ab92e7e5b3ab0154e7f9",
+      "bytes": 4109
+    },
+    {
+      "path": "prediction/post_hazel/outputs/hazel-observations.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/hazel-observations.csv",
+      "sha256": "ffc71b74ae7167542253387cf3f2438c02feb19196d098759e94dec77f9afb85",
+      "bytes": 10106
+    },
+    {
+      "path": "prediction/post_hazel/outputs/prediction-errors.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/prediction-errors.csv",
+      "sha256": "fe506f1a97318399ae7c8788b8adc52a9b9f47ad36db935bd0d7dfab8c1002aa",
+      "bytes": 24596
+    },
+    {
+      "path": "prediction/post_hazel/outputs/input-manifest.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/input-manifest.json",
+      "sha256": "0f0b6c432db58788e32663eb26ce205a3334007256e9562e2fe3a901feecc3bb",
+      "bytes": 9232
+    },
+    {
+      "path": "prediction/post_hazel/outputs/llc-domain-normalization.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/llc-domain-normalization.csv",
+      "sha256": "ea6a4c492c83f32e77bcbd70d2581054c72c33e4ca8d3a655cba0639d8850242",
+      "bytes": 914
+    },
+    {
+      "path": "prediction/post_hazel/outputs/requirements-status.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/requirements-status.csv",
+      "sha256": "a0b55e058d3e4b10a7c186947ed7d82d0aee344bd2fde30d6b7fb66aab22a97c",
+      "bytes": 2096
+    },
+    {
+      "path": "prediction/post_hazel/outputs/output-manifest.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/output-manifest.json",
+      "sha256": "452369829723efe351a2a81699e2a4321069745eb0ae104bbf01cb48ebf52f7b",
+      "bytes": 10842
+    },
+    {
+      "path": "prediction/post_hazel/outputs/measurement-provenance.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/measurement-provenance.json",
+      "sha256": "d6e5cedaa9ac76e958add3ac66ae03c1ec6c3d8add61639df44e46f190437525",
+      "bytes": 1565
+    },
+    {
+      "path": "prediction/post_hazel/outputs/validation.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/validation.json",
+      "sha256": "31b454129e778d140ff0c04fdf3617b1c8555c158728c419747fff70c538242a",
+      "bytes": 396
+    },
+    {
+      "path": "prediction/post_hazel/outputs/prediction-accuracy-summary.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/prediction-accuracy-summary.csv",
+      "sha256": "bd62ca07d6cf100eb3129d39ce43d2fdb53f564e8e8e4b97b0b440470b883f75",
+      "bytes": 1744
+    },
+    {
+      "path": "prediction/post_hazel/outputs/hazel-latency-class-evidence.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/hazel-latency-class-evidence.csv",
+      "sha256": "b7dcde6741828e1cef053384b8ea85b7ebada5e109378449538b6e0c09f26225",
+      "bytes": 17175
+    },
+    {
+      "path": "prediction/post_hazel/outputs/provenance.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/provenance.json",
+      "sha256": "f424170183236601ad681ccd0b48277738c6a1c553e1c5b1c7bc5c6615ba894e",
+      "bytes": 725
+    },
+    {
+      "path": "prediction/post_hazel/outputs/comparison-summary.md",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/comparison-summary.md",
+      "sha256": "dbe2fb08d8fb526292e731a3de06e511f0ff1e50dcfe92e60a8ead07a413f32e",
+      "bytes": 13023
+    },
+    {
+      "path": "prediction/post_hazel/outputs/chronological-master.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/chronological-master.csv",
+      "sha256": "db882a50ea79a88d86df1aa1d1c921c62f143ee90d4dc1ece143da285d758a2b",
+      "bytes": 16041
+    },
+    {
+      "path": "prediction/post_hazel/outputs/frozen-inputs/future-predictions.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/frozen-inputs/future-predictions.csv",
+      "sha256": "c7c4491d2f1aebdafaf57b2afd3bb905a8a9a0a15359fa26b71079721b584650",
+      "bytes": 483
+    },
+    {
+      "path": "prediction/post_hazel/outputs/frozen-inputs/hazel-predictions.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/frozen-inputs/hazel-predictions.csv",
+      "sha256": "524f2f3af10cf854272e96ebc1dc41057095bb94783f4343e811f25440d500fb",
+      "bytes": 5612
+    },
+    {
+      "path": "prediction/post_hazel/outputs/frozen-inputs/freeze-manifest.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/frozen-inputs/freeze-manifest.json",
+      "sha256": "d55d0bc3a0012224ad0db07058761cf21d720e818152b81e33785560f29e479b",
+      "bytes": 3836
+    },
+    {
+      "path": "prediction/post_hazel/outputs/frozen-inputs/future-models.dat",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/frozen-inputs/future-models.dat",
+      "sha256": "19bbb14b4002fece49c1c683484d2fb07a24591f57ecbcbd10b3627ce5cfeb66",
+      "bytes": 4873
+    },
+    {
+      "path": "prediction/post_hazel/outputs/frozen-inputs/model-parameters.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/frozen-inputs/model-parameters.json",
+      "sha256": "61f4c03662896d3be82c866249dfa8a58237f5e538920c4ee45462a64b68223f",
+      "bytes": 3163
+    },
+    {
+      "path": "prediction/post_hazel/outputs/frozen-inputs/team-cache-laws.md",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/frozen-inputs/team-cache-laws.md",
+      "sha256": "59e6972e66ee92be66d0a9fef86b2fd9958c5694af546673b6c5249038dbc290",
+      "bytes": 2220
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/line_size.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/line_size.pdf",
+      "sha256": "637392cc9c4884fa16fc33bd436d12ff817800b575c69a6877a4c79b4ddc58dc",
+      "bytes": 16302
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/llc_hit_memory_latency.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/llc_hit_memory_latency.pdf",
+      "sha256": "7795982f3c0d4da46a3a3473539eff611b7d847a4ed3d0bc62eef5ab40133246",
+      "bytes": 11116
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/chronological-overview.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/chronological-overview.pdf",
+      "sha256": "1e73766b17e40f85d53f8ac44043380b0682544506cc0a8b7d622cf4a36a6d38",
+      "bytes": 33176
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/l2_hit_latency.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/l2_hit_latency.pdf",
+      "sha256": "3296b6c7a5f8f6f83ca3c5db93420a2ea496831b16bda00f6585094c113acace",
+      "bytes": 10969
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/llc-normalized.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/llc-normalized.pdf",
+      "sha256": "ff975b0da869ddb5c5dab4d8d4698fb2ad09095a58857065818c5ec9c4ff2516",
+      "bytes": 13911
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/llc_associativity.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/llc_associativity.pdf",
+      "sha256": "b67cca1f57d70a48b21d2039fd9045ce2802ccf235889cca922f75161476a642",
+      "bytes": 11223
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/l2_miss_penalty.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/l2_miss_penalty.pdf",
+      "sha256": "3c8c8ba6be4cacf55fe89e85e308101297be5105936566fb339647e3d3b9f5d9",
+      "bytes": 11320
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/l2_associativity.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/l2_associativity.pdf",
+      "sha256": "972a2ff377ad0680c784a04455928d3bdd8dff8929c57012b30011d9e7570697",
+      "bytes": 15352
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/software_metric.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/software_metric.pdf",
+      "sha256": "617f039c9ed3162e012b0e9f5a99467141d508a8ebfb0a9a74adcde0f1c0faa7",
+      "bytes": 17415
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/team-laws-hazel-evaluation.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/team-laws-hazel-evaluation.pdf",
+      "sha256": "08530b1f120e3957de28a286ee18c005ea95495ecbc76318a385bc22e51e7c05",
+      "bytes": 20843
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/l1_capacity.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/l1_capacity.pdf",
+      "sha256": "ae184b6c46b733d89fdd189752d8c300622d6d571bd27a082ff46fd597275d6e",
+      "bytes": 16390
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/inclusion.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/inclusion.pdf",
+      "sha256": "b6674cdf76c50a81197cb1682fc19b87134317f743df4dde2f622039173d4bc3",
+      "bytes": 13893
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/l1_associativity.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/l1_associativity.pdf",
+      "sha256": "3e117e4dbc20af840b5f6da3863acc7d9bd693f61529a44adc44609913df232c",
+      "bytes": 16192
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/l2_capacity.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/l2_capacity.pdf",
+      "sha256": "5b0775d3d00592fc3eb23bb2cf5c3be2cc8d63c5f6310417dbcea2994631e8bb",
+      "bytes": 17836
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/l1_latency.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/l1_latency.pdf",
+      "sha256": "0722c3bd3c91d307593e194fd54a80e74f9c9e1504923e96e09fe362d6a21b52",
+      "bytes": 16762
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/future-2029.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/future-2029.pdf",
+      "sha256": "bf52291e31abdb74220cc2c93964ce83e2254092110d33950e58575a7d066f57",
+      "bytes": 18364
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/required-chronological-plots.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/required-chronological-plots.pdf",
+      "sha256": "ae449ab49a02c0b11d6e1d655028bc524b8847d9ea791b67bd38128472c50e5b",
+      "bytes": 55679
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/pmu_trends.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/pmu_trends.pdf",
+      "sha256": "a0ad6a2706e665b0f043b27745ab3116f7bc441d77d7f52b3c4c798b6a603772",
+      "bytes": 12413
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/l1_miss_penalty.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/l1_miss_penalty.pdf",
+      "sha256": "3a326b74cfb485af42792f547ab29b8a95b506c09377274037baadbbffcef929",
+      "bytes": 11339
+    },
+    {
+      "path": "prediction/post_hazel/outputs/plots/llc_capacity.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/latest/plots/llc_capacity.pdf",
+      "sha256": "5d98e6f4deffd989b61e5bcd06ba845470841f15f42b4da804fc7832653fe38f",
+      "bytes": 17431
+    },
+    {
+      "path": "data_processed/sunbird-inference.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/data_processed/sunbird-inference.json",
+      "sha256": "b3bcb5640f0e3634eb62726fd0de4fb381deb6c0fda01263025b5d4ff4493aa0",
+      "bytes": 54271
+    },
+    {
+      "path": "data_processed/thunderbird-inference.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/data_processed/thunderbird-inference.json",
+      "sha256": "d18a1e99362bee4e607a6b911c6d9cda369c4005b0f39bc7fd1a7e5f3a224d71",
+      "bytes": 45779
+    },
+    {
+      "path": "data_processed/skylark-inference.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/data_processed/skylark-inference.json",
+      "sha256": "dbc5295e9d242531f9ba54e9ddbe886fe4f9a4278f23c4417fb483c37dbabcf8",
+      "bytes": 47825
+    },
+    {
+      "path": "data_processed/artemisia-inference.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/data_processed/artemisia-inference.json",
+      "sha256": "737843e30d7310237bf8316c44bcf119ab0465bea3e0f26b58251c6da99c4832",
+      "bytes": 44441
+    },
+    {
+      "path": "data_processed/charnwood-inference.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/data_processed/charnwood-inference.json",
+      "sha256": "3526971219a7fc724539832b8a22f27a0147f01966637e38dca756f305679540",
+      "bytes": 64571
+    },
+    {
+      "path": "data_processed/crux-inference.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/data_processed/crux-inference.json",
+      "sha256": "a20e884024322020e138268f9ff6a11013e8d582bf8953c68062e9d244e06030",
+      "bytes": 51151
+    },
+    {
+      "path": "data_processed/ookay-inference.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/data_processed/ookay-inference.json",
+      "sha256": "eca0ccf6a66061e774009a03f7b59f9a22eda635677c63bdfda68e305a71ef5b",
+      "bytes": 51112
+    },
+    {
+      "path": "data_processed/upgrade-inference.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/data_processed/upgrade-inference.json",
+      "sha256": "342111e32ee24a12b055c1cd4bc4f6c4f38426f345d19ff70ebc6046f035ea0e",
+      "bytes": 50672
+    },
+    {
+      "path": "verification/audit-results-817293.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/audit-results-817293.json",
+      "sha256": "360ef9d562daeff4c24213cb316cc846d20cc2549ceb9dfa23c962163908e73d",
+      "bytes": 394
+    },
+    {
+      "path": "verification/compare.817293.stdout",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/logs/compare.817293.stdout",
+      "sha256": "3bbc63f64d697cfc70da651481b6ac4043ff2bc601ebcabd740cfaec136052f1",
+      "bytes": 1447
+    },
+    {
+      "path": "verification/compare.817293.stderr",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/prediction/post_hazel/logs/compare.817293.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "hazel/analysis/evidence-records.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/report/phase3/evidence-records.json",
+      "sha256": "dbe37af1c022a28339289e3a59d37767f3a9abfda8bbbc71e9cdcbaeacc4bc1e",
+      "bytes": 14037010
+    },
+    {
+      "path": "hazel/analysis/consolidated-plot-provenance.json",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/report/phase3/asset-provenance.json",
+      "sha256": "2be0c94fdc0963401d420afa690e534898b8724c71c0c5697dec41e2c890c017",
+      "bytes": 110879
+    },
+    {
+      "path": "hazel/results/machine-metadata.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/report/phase3/machine-metadata.csv",
+      "sha256": "9186149e9aa9dc67966afb7fde3ebf0b0467074e2ade20ea6501a96c96eca762",
+      "bytes": 939
+    },
+    {
+      "path": "plots/hazel-capacity.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/report/phase3/figures/hazel-capacity.pdf",
+      "sha256": "fb2baded0c054de95c9320a47abcfcbcb88b2e8471d320da65b4c8eb491054c7",
+      "bytes": 38434
+    },
+    {
+      "path": "plots/hazel-spatial.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/report/phase3/figures/hazel-spatial.pdf",
+      "sha256": "b327341457d624a4da8c3d798fb44388d584c0119ef53f68ad70678c40097a42",
+      "bytes": 28613
+    },
+    {
+      "path": "plots/hazel-conflict.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/report/phase3/figures/hazel-conflict.pdf",
+      "sha256": "c7d8bbcb64a5f4be591d3313df0c408c9ab9c08591b29e3da0ffdf04c5d9c6e5",
+      "bytes": 28996
+    },
+    {
+      "path": "plots/hazel-inclusion.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/report/phase3/figures/hazel-inclusion.pdf",
+      "sha256": "7a62bca72a164b2906286b05a439b14e30d8e17c1304023a3b3d0929b564f0c5",
+      "bytes": 21392
+    },
+    {
+      "path": "plots/haswell-l2-controlled-conflicts.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/report/phase3/figures/haswell-l2-controlled-conflicts.pdf",
+      "sha256": "45c613169e1e074a77a15c4c31bb52e1a2ac567a44dcae1a583cfcf2c01946d5",
+      "bytes": 22932
+    },
+    {
+      "path": "plots/hazel-independent.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/report/phase3/figures/hazel-independent.pdf",
+      "sha256": "8ac1d68f695b246f4601aae30882c03bf919bf79868df75b4178a26cec461b6d",
+      "bytes": 22258
+    },
+    {
+      "path": "plots/pmu-chronology.pdf",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/report/phase3/figures/pmu-chronology.pdf",
+      "sha256": "ff50b8edfa70a0b5f7b2067426d5b17e6ec444096a52a497806e4ccf38e0118b",
+      "bytes": 13475
+    },
+    {
+      "path": "pmu/chronological-series.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/report/phase3/pmu-chronology.csv",
+      "sha256": "45f82028d45a23aa0579c607a026f770ef478935ff8a21dbd2e9e80a11cca62f",
+      "bytes": 2443
+    },
+    {
+      "path": "pmu/phase2-combined-long.csv",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/CSC591-Project1/data_processed/eight_counter_cross_machine/combined_long.csv",
+      "sha256": "fa694a50431641df15e8f868d5d887a37c5199f9d4c3ad9a1284183da05ea9b1",
+      "bytes": 24362
+    },
+    {
+      "path": "tools/render_evidence.py",
+      "source": "/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/report/phase3/render_curated.py",
+      "sha256": "d55602490bf67087b9e1218a5f5a9c0b7559b417b168e69691ec2bf5c8d614a2",
+      "bytes": 5990
+    }
+  ]
+}

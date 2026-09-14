@@ -1,0 +1,24 @@
+{
+  "frozen_utc": "2026-09-14T03:22:58.604722+00:00",
+  "tag": "competition-v1",
+  "git_commit_reference": "Resolve competition-v1^{commit}; release hash also recorded in COMPETITION_HANDOFF.md after this snapshot is committed.",
+  "github_account": "hclee706",
+  "author_email": "hclee412@gmail.com",
+  "files": {
+    "main_code/common/phase1/src/cache_bench.c": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+    "main_code/common/phase1/scripts/analyze.py": "cb0fc86fd6b050885569a25ed8557b3ac0c2cd37a17d64997b2452ea5264cd8d",
+    "main_code/common/phase1/scripts/common.py": "5b88cf6993875cf67ca4a7606fc6d5aee22d9cef5eafbcdbbd515351474d1b10",
+    "main_code/common/phase1/Makefile": "3e14135ef93e4cf7b7844fb13d0e9d8477a9da65d0c431444915574024502ff1",
+    "competition/run.py": "a3192fe189fed43e0b9ded6afc0d06aaf39baf41c5e0cb62b6f12eafb25c48a3",
+    "competition/classify.py": "1a797c0971f1c7be4005af1d3d8a464bda177e3ac5b10f43aea437d32352f67d",
+    "competition/run.slurm": "3251e536af4e9dd34883a243b18f54f2c42f55da68ff4f4e100f3b0c5dd50ab3",
+    "competition/parameters.json": "f79465d4b14ac0e74ed75cc3d7edae6d60c908e8e5429383ef8200371a7820f8",
+    "competition/scorecard.csv": "b4e81bfc377daa43c570b95c783b6b30654f077694e313d8d055efd01e9f8611",
+    "competition/scorecard-sources.json": "705655a63a2b0d081c6ca4ab4caf25125d89a6404e22e9aa640bc4beb60336c7",
+    "phase3/inventory.json": "29f32a2cea8a8ed9287d0619cbbfd0316b1fc6a6757d9504c10a97d0d45ce9eb",
+    "estimator_validation/inventory.json": "f7da2615aae75dd7181f0b2a809a7993fd96b42ef50c87fa6fb78642f3e11090",
+    "estimator_validation/results/comparison.csv": "6e552249ddfbe469dcddb82c51deb432b2c964e24adcabe7ddf227983638c8da"
+  },
+  "verification": "competition/verification.json",
+  "scope": "Final timing-estimator source/parameters, scorecard, verified Phase-III and matched PMU-comparison packages. Historical predictions and measurements are unchanged. Official scoring/acceptance is not asserted."
+}

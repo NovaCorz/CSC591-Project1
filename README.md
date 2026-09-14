@@ -204,3 +204,11 @@ python3 scripts/analyze_uncertainty.py --final
 ```
 
 Use `--hosts` on the acquisition controllers to resume an individual machine; repeat an interrupted stage after its controller has stopped. Raw data and completion markers decide what remains. The archived full verification and the curation checks separate successful measurement collection from unresolved physical interpretation. Do not consult PMUs, cache-reporting interfaces or published cache specifications during Phase I. The optional original `audit.py` expects the original project PDF in an external experiment root (the archives supply it). Phase II requires a separate, explicit workflow.
+
+## Final competition and Phase-III package
+
+- [Competition entry points and fixed estimator parameters](competition/README.md)
+- [Phase-III Hazel results and prediction evaluation](phase3/README.md)
+- [Matched software-estimator / PMU validation](estimator_validation/README.md)
+
+The competition package records provisional scorecard decisions and estimator limitations. Original timing results and predictions remain unchanged. Reports and slides are maintained separately.

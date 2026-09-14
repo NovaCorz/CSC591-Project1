@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/hazel_followup_worker.py", line 130, in <module>
+    if __name__=='__main__': main()
+  File "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite/scripts/hazel_followup_worker.py", line 41, in main
+    raise RuntimeError('Unsuitable Slurm allocation: no same-socket physical core pair')
+RuntimeError: Unsuitable Slurm allocation: no same-socket physical core pair
+srun: error: n0399: task 0: Exited with exit code 1

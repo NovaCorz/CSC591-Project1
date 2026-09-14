@@ -1,0 +1,4161 @@
+{
+  "created_utc": "2026-09-13T01:48:15.421574+00:00",
+  "job_id": "817253",
+  "hostname": "c207n01",
+  "scope": "Hazel timing-only results before hardware verification; measurements and interpretation retain explicit uncertainties",
+  "hosts": [
+    "haswell",
+    "cascadelake",
+    "icelake_8358",
+    "genoa",
+    "turin"
+  ],
+  "files": {
+    "results/machine-results.csv": {
+      "bytes": 1497,
+      "sha256": "44b8151e5d515ae24127b54700863748fc0c8d2d9bcabefc8c1e80c2c6173d6e"
+    },
+    "results/cache-inference-table.csv": {
+      "bytes": 13592,
+      "sha256": "88dff548042a971f65b86e395a7dc5e4c392c75e98b494d9ffaed80b93143a6d"
+    },
+    "results/rendered-followup.json": {
+      "bytes": 10608,
+      "sha256": "068a11815ecb31eae19bf195a079147919d46cdcd474453ea71fd2f5b6220f28"
+    },
+    "results/raw-record-inventory.json": {
+      "bytes": 2705803,
+      "sha256": "34e2566f9300317e920d458eab605f9952d37fc440973e9c22122e5cdb8d03cb"
+    },
+    "results/README.md": {
+      "bytes": 2349,
+      "sha256": "8b26681a0fbcb907b7e3e133afc719cdef3ab3739b64a2bc21f7d45e25f674a5"
+    },
+    "results/timing-only-summary.json": {
+      "bytes": 2047521,
+      "sha256": "fb476b02204ce1f1f1acbe801d7e103f14dc5eec676987a42eb92cbb0fa59eff"
+    },
+    "analysis/followup/cascadelake-verified-records.json": {
+      "bytes": 3695341,
+      "sha256": "8691730a6ce3ed864ca22fd399861897a48a5df97c3f4ca58f7530ad4a5cf9d7"
+    },
+    "analysis/followup/turin-verified-records.json": {
+      "bytes": 2666534,
+      "sha256": "8a64f897acaa6944774c240fd2ea5d64695f76a084ce11108df97c616fddd144"
+    },
+    "analysis/followup/statistics.csv": {
+      "bytes": 1672914,
+      "sha256": "7331da510a6ac6c68b623be88ab855945ae1f239502a4ca980a00809c2c48bdc"
+    },
+    "analysis/followup/revised-cache-table.csv": {
+      "bytes": 13592,
+      "sha256": "2209858a6927ded104a66f4c1cf99e2bc1e2475d8e4c73962ddfb99c81fda81b"
+    },
+    "analysis/followup/genoa-inference.json": {
+      "bytes": 282675,
+      "sha256": "744e3a33867415f38500729e0fb746c393580dcc5a64370de736b6ddd434a502"
+    },
+    "analysis/followup/genoa-verified-records.json": {
+      "bytes": 2522819,
+      "sha256": "3100878c0c1107f29166c8dc7596525c8cd31d3f95408c2ff485e2205881c133"
+    },
+    "analysis/followup/turin-inference.json": {
+      "bytes": 275611,
+      "sha256": "0816676f5404c59a9cfefb1abe9345c6106a02d1ffecbca533ea2540f24bacad"
+    },
+    "analysis/followup/icelake_8358-inference.json": {
+      "bytes": 347213,
+      "sha256": "323e981f315b39bd5267da54172d484246a66d7208adfef11b4219997c932ab5"
+    },
+    "analysis/followup/cascadelake-inference.json": {
+      "bytes": 261968,
+      "sha256": "2e508b6df8e05f0824533e201eca695fd5dcad96bb611597a934057f1e533030"
+    },
+    "analysis/followup/verification.json": {
+      "bytes": 1666087,
+      "sha256": "e351f1d578e6f8f8f0ad8b5ead26d4a403b796b33863be0e0a24d234b0d11298"
+    },
+    "analysis/followup/icelake_8358-verified-records.json": {
+      "bytes": 3587545,
+      "sha256": "518dc437275edd21045e959039ab8b9eb8a12130087e792a9ac4ce4ee4b9b956"
+    },
+    "analysis/followup/haswell-verified-records.json": {
+      "bytes": 3216609,
+      "sha256": "2e1a46df599b7a12320d4adc048430c19f5c13a1c9ce6ea6644e94e241b1b117"
+    },
+    "analysis/followup/haswell-inference.json": {
+      "bytes": 332306,
+      "sha256": "213533af0763f968ec7c4da7152c7f27f3cebb6ba990b1299fcd2b35e3d0a2ea"
+    },
+    "analysis/followup/latency-classes.csv": {
+      "bytes": 14859,
+      "sha256": "9d0b284c678f6da0b88e86f2497ef5f7a3d941285760308dc12eda34d146aa18"
+    },
+    "suite/data_processed/icelake_8358-page-control-statistics.csv": {
+      "bytes": 5947,
+      "sha256": "f15a0d7735ce3a71b8992ea54e51c28195a678e93ddcb5fbee533868f1e9fa8d"
+    },
+    "suite/data_processed/genoa-attempts.json": {
+      "bytes": 91437,
+      "sha256": "401c6120575f1341c17e7eb148b63f18d768ab4a341020a93d119ccb476047c4"
+    },
+    "suite/data_processed/turin-attempts.json": {
+      "bytes": 58408,
+      "sha256": "7f858825ebf1a134323d9e69f4ed1a96569d9fbd94c6a9f1dbb3847f2726d128"
+    },
+    "suite/data_processed/genoa-page-control-statistics.csv": {
+      "bytes": 5732,
+      "sha256": "5e21d05a654a4c2b9916e2be0e3010a57d690798caad5da8d43447cb361b8144"
+    },
+    "suite/data_processed/statistics.csv": {
+      "bytes": 850520,
+      "sha256": "27a3a15031ba3f2aeb5b7be2d5dcb89446fce6bd7f67dd2e2505e1078b82285f"
+    },
+    "suite/data_processed/turin-page-control.json": {
+      "bytes": 22865,
+      "sha256": "413242295a5ae9f0f4cdad7b9e9c743f24b50a75a88ff1a6cfbc18ee6152ef47"
+    },
+    "suite/data_processed/inferred-cache-table.csv": {
+      "bytes": 4880,
+      "sha256": "983d30cd9cb1c976e74de2750687fe0a7f6635d610ce9f12bd00134a159dd876"
+    },
+    "suite/data_processed/icelake_8358-qualification.json": {
+      "bytes": 69296,
+      "sha256": "a1a790442da87018837848c5e7452a6eb3436b52924addfbf1a968b7b88b9854"
+    },
+    "suite/data_processed/turin-page-control-statistics.csv": {
+      "bytes": 5816,
+      "sha256": "154ec49c13648d4f8467f52291ca39c40fdf9bd91d0abd5550c44f74e853f98b"
+    },
+    "suite/data_processed/genoa-inference.json": {
+      "bytes": 53214,
+      "sha256": "637c89019617d7367621972c8a927cf4863a3cbbea7d3b42d7d03bde01c48109"
+    },
+    "suite/data_processed/turin-qualification.json": {
+      "bytes": 75558,
+      "sha256": "68d1d3c050e87d3ca54b77f1a66780eacf1ab286f6a6c406fb67fdd4a8660893"
+    },
+    "suite/data_processed/cascadelake-qualification.json": {
+      "bytes": 66342,
+      "sha256": "df414ba090e213dd2e6e31502091663f27452e935fc81ec4e40aa294e65baa0c"
+    },
+    "suite/data_processed/turin-inference.json": {
+      "bytes": 51716,
+      "sha256": "238fbb43e18a251f4cd6828b792fa3ea16a335719eab8790af3cfc274a2d727b"
+    },
+    "suite/data_processed/haswell-qualification.json": {
+      "bytes": 72480,
+      "sha256": "9835089713bba927dea3d810a82147cd00e311ad20c1844b71b46b930abd27bd"
+    },
+    "suite/data_processed/haswell-page-control.json": {
+      "bytes": 23163,
+      "sha256": "9bf1ef7d766913d13e4244d94f5558298b933ddddb85fcf421dcac9364aff247"
+    },
+    "suite/data_processed/icelake_8358-inference.json": {
+      "bytes": 42798,
+      "sha256": "224c0ef4c8140bea88a74ab5cc72b5591615100b7c40683a2fbc2e4110d33aab"
+    },
+    "suite/data_processed/cascadelake-inference.json": {
+      "bytes": 42320,
+      "sha256": "f061acee8830158a4d36340cd36ee79d8aaf25314b3aa4bebfdba712c2ebc0a4"
+    },
+    "suite/data_processed/cascadelake-page-control-statistics.csv": {
+      "bytes": 6272,
+      "sha256": "55403f4b05fdb94a12e76ebe505fbb45d806c626780b2ff84e50e233466d3e4c"
+    },
+    "suite/data_processed/genoa-page-control.json": {
+      "bytes": 22727,
+      "sha256": "c7886f25ac4cb4c07757a1462f2925c1346989671525cefa6f6596ede00876d8"
+    },
+    "suite/data_processed/icelake_8358-page-control.json": {
+      "bytes": 23024,
+      "sha256": "795b8fa1412002f3188b2cd3d50e5bb5cebe35a126e7a3306102ef68c68ae1a1"
+    },
+    "suite/data_processed/verification.json": {
+      "bytes": 262492,
+      "sha256": "17add5605bc8761f213f789206745d480a57cf5e3e003b52d9990e9fa2b12210"
+    },
+    "suite/data_processed/haswell-attempts.json": {
+      "bytes": 56405,
+      "sha256": "c6db6d3b725f48c4b700c25098304dac11082533cc8cd369aef5d262180f7b84"
+    },
+    "suite/data_processed/icelake_8358-attempts.json": {
+      "bytes": 82391,
+      "sha256": "7aa37f0bb0d989c4d91357cebe3a4d6feb7b417e5705c7b7e6f1ca83d45659fb"
+    },
+    "suite/data_processed/l1-candidates.csv": {
+      "bytes": 852,
+      "sha256": "4ee9a7fe97f6504f704cbc15ede5f4d5f221847b89c8d87fbb8ca6625aba10fb"
+    },
+    "suite/data_processed/cascadelake-attempts.json": {
+      "bytes": 56155,
+      "sha256": "0bd268dfc406453cd09a6acbabb847aae62bca6526e91caaa6da651b0363fc4e"
+    },
+    "suite/data_processed/cascadelake-page-control.json": {
+      "bytes": 23499,
+      "sha256": "7cf69571ca99efbddc238b2d60042e250974204d268f636f29e39c62a9b96d11"
+    },
+    "suite/data_processed/haswell-inference.json": {
+      "bytes": 45964,
+      "sha256": "5af1ecc6f759aa4c46fcbb630dd8104658da8e590c3b775c5c0035cdf763085a"
+    },
+    "suite/data_processed/residency-transitions.csv": {
+      "bytes": 15019,
+      "sha256": "ffdd7589a2a24ee608193b817b15cb707bbf62da681ba61482b4f51689bb9445"
+    },
+    "suite/data_processed/genoa-qualification.json": {
+      "bytes": 79362,
+      "sha256": "d2c3237c8fc60ad2582958a9e3df8a0837dff6de974efe2d746f84fa6eabaf06"
+    },
+    "suite/data_processed/haswell-page-control-statistics.csv": {
+      "bytes": 5981,
+      "sha256": "ed75829724ff635013790ae759f89bcae1f33f0a65bcaeddc44e9ca0ad823779"
+    },
+    "suite/data_processed/independent-load/statistics.csv": {
+      "bytes": 34073,
+      "sha256": "26807a3bbe87fded4e97aebcc4eef752f5eb3dd90bb3a9acd2bcb74edd3bd2f2"
+    },
+    "suite/data_processed/independent-load/verified-records.json": {
+      "bytes": 337203,
+      "sha256": "5e440f3293232a93d7dd851d16d26ccac7567c1f1b6d66faae91db587a9262d1"
+    },
+    "suite/data_processed/independent-load/native-loop-audit.json": {
+      "bytes": 18628,
+      "sha256": "a1c11c02f3406b22ddbbc8bbbb0bf82fb22546ac98b4c4b4a1ce0aff1043c63c"
+    },
+    "suite/data_processed/independent-load/cascadelake-summary.json": {
+      "bytes": 3905,
+      "sha256": "df0ca1de6e34c0e75831b116619a3bafd1e14bc5f94cbdba425fdba0516366a5"
+    },
+    "suite/data_processed/independent-load/turin-summary.json": {
+      "bytes": 3926,
+      "sha256": "68bdc3f591feb71b4fba7f6707a3f6c528265d8b5afe3c332fb53220f0f32480"
+    },
+    "suite/data_processed/independent-load/icelake_8358-summary.json": {
+      "bytes": 3896,
+      "sha256": "5c8abbd4b3f5acc2dc16c895381f2e0fc19f9995dff525b47e244c42140e3c0e"
+    },
+    "suite/data_processed/independent-load/haswell-summary.json": {
+      "bytes": 3849,
+      "sha256": "59740a9da531fd4d47bb0a193a2fbc4fef54f037fc11f380dcecdd4ebf7a3229"
+    },
+    "suite/data_processed/independent-load/genoa-summary.json": {
+      "bytes": 3871,
+      "sha256": "dedaebd0c080ae349f23ec16d67916de21c6da413233959090f450675c35b902"
+    },
+    "suite/data_processed/independent-load/summary.csv": {
+      "bytes": 867,
+      "sha256": "9fd363516b4f8c5ae6b62cc899b96ac4627834b7c9eeb50caeda76c5d372547c"
+    },
+    "suite/data_processed/independent-load/verification.json": {
+      "bytes": 36500,
+      "sha256": "7fda8f606032a08c7b63c351edb0515ef8b2c600c818d16eab22b39651168660"
+    },
+    "suite/data_processed/independent-load/summary.json": {
+      "bytes": 20647,
+      "sha256": "11f2d498472742a90ab6ad3b4b298926b426dfc7bdd41c6753cc14931c28fc0a"
+    },
+    "suite/data_processed/analysis-history/1789263100402504180.json": {
+      "bytes": 262492,
+      "sha256": "17add5605bc8761f213f789206745d480a57cf5e3e003b52d9990e9fa2b12210"
+    },
+    "suite/plots/cascadelake-capacity.pdf": {
+      "bytes": 20516,
+      "sha256": "88cf774b975aa037d59dd2719aedb5c33bca3fa6b99a111050234216548627e7"
+    },
+    "suite/plots/turin-boundary-distributions.png": {
+      "bytes": 70947,
+      "sha256": "f347990f3d6ab832af4124135d83cb5dc149bfd151d7290b81a10e0860eb0c9c"
+    },
+    "suite/plots/haswell-software_metric-boxes-0.svg": {
+      "bytes": 12238,
+      "sha256": "7172c821419ce634b725da04e5537dfdb17e9454432530566570f0a7e7970e72"
+    },
+    "suite/plots/haswell-associativity-boxes-5-provenance.json": {
+      "bytes": 837,
+      "sha256": "160d722cdbfba8527dc645f0d149510164969b2182ca3df45b9300b3655dfa4e"
+    },
+    "suite/plots/turin-capacity-boxes-5.pdf": {
+      "bytes": 19499,
+      "sha256": "73c07e5d7d5772a1736dd30aeecc154f814852e88f762f93546148be84e59b4e"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-3.svg": {
+      "bytes": 42405,
+      "sha256": "562169d726ee1aa60309db72576bff41e302b59bb9bb8a57aec168e092a28f90"
+    },
+    "suite/plots/genoa-inclusion_policy-boxes-1.svg": {
+      "bytes": 42030,
+      "sha256": "5e246736be01b0afe9cb97ea57fbabdc7dc38190d6ccbde2e6fd3e2e1365a51b"
+    },
+    "suite/plots/haswell-latency-boxes-0.pdf": {
+      "bytes": 16349,
+      "sha256": "af6977449bc8942cdade3f2580271bb9e5140577440a01d7e88199cd2c327a76"
+    },
+    "suite/plots/turin-latency.svg": {
+      "bytes": 14796,
+      "sha256": "296cc154a4d5f93753e183873eda9ceebcf8dda6ce352e8ddfff70e4a263a48f"
+    },
+    "suite/plots/icelake_8358-loop.svg": {
+      "bytes": 12667,
+      "sha256": "42660e6446812a678be8b1c7c8d18378dacb5ebcf7d3dd02f860bdb1042d0296"
+    },
+    "suite/plots/genoa-capacity.pdf": {
+      "bytes": 20622,
+      "sha256": "e3a4a6562c278a7ff23cdc7b0852b24b0a5f136df6e618885d744a5f162d7e3c"
+    },
+    "suite/plots/turin-capacity-boxes-9.svg": {
+      "bytes": 11347,
+      "sha256": "6eff6b694453ce3ea55c9d99837543ea7e15023982521fe3e8582268105dd5e4"
+    },
+    "suite/plots/genoa-associativity-boxes-3.pdf": {
+      "bytes": 17411,
+      "sha256": "f01983f1e0dacde49e3672495e5692473346ea22e2f4b7352c3cd0639b4e1150"
+    },
+    "suite/plots/turin-capacity-boxes-0-provenance.json": {
+      "bytes": 6392,
+      "sha256": "8bcfdcb30a377f0d42f5956f84cf3a7678c77925dd8d6fcf6f81130028b86337"
+    },
+    "suite/plots/turin-capacity-boxes-9-provenance.json": {
+      "bytes": 832,
+      "sha256": "19ba9bf8eadfed6d48f89423874978fbb9848eef7a693588169d2159d986a8fa"
+    },
+    "suite/plots/cascadelake-line_size-provenance.json": {
+      "bytes": 13976,
+      "sha256": "425e30026c42359d522faae954490462f9a698532b4564cd97f93a0875ec837d"
+    },
+    "suite/plots/haswell-inclusion_policy.png": {
+      "bytes": 91225,
+      "sha256": "078a1a55eb72b709165c4c2584414c6ac987921b0f39fccd95ab80e526fef614"
+    },
+    "suite/plots/turin-page_control.png": {
+      "bytes": 66499,
+      "sha256": "b6d9b8a9dcaaa9e2012fcf30b4dbe4a5c87f10789c732999760dbbcc77c876c1"
+    },
+    "suite/plots/genoa-associativity-boxes-4.pdf": {
+      "bytes": 17470,
+      "sha256": "d3d95b6258b7b0b1e78199605921493ca68a7d26e9d5162af238daf87cc7951b"
+    },
+    "suite/plots/turin-line_size-boxes-2.svg": {
+      "bytes": 24806,
+      "sha256": "4ade0bc3b397b480e92d19674349adbbefac6bd3371318eefb48c670b3db0a93"
+    },
+    "suite/plots/turin-software_metric-provenance.json": {
+      "bytes": 1334,
+      "sha256": "072678646a1eb70dbc6db8b43251088eca78d029f94bd2fc6dcea22484c4ec20"
+    },
+    "suite/plots/cascadelake-latency.pdf": {
+      "bytes": 15737,
+      "sha256": "5e0cb42df5f6e0298bd4b5b0af58949b6ab47fb6f77f90c24d5439868139f407"
+    },
+    "suite/plots/genoa-associativity-boxes-5-provenance.json": {
+      "bytes": 829,
+      "sha256": "9c289431309f1c2c9bec6a0575a57b32bb9cb7b3826e92e2bd14bc2cd635ef64"
+    },
+    "suite/plots/all-hosts-capacity-ns.png": {
+      "bytes": 120285,
+      "sha256": "50ade4d904cbe37dbe57ea6b7164e85929368fcdfe42b9d6ba6e5000b0798971"
+    },
+    "suite/plots/turin-capacity-boxes-9.pdf": {
+      "bytes": 17432,
+      "sha256": "695f5a6816fe29bb38dd07583afa5e900ea6322da3c9765e7e06c48a206704df"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-2-provenance.json": {
+      "bytes": 6670,
+      "sha256": "af21c5753667a03badf34ac1f203ec24ae522cfefcc73e4d39673b7cfc987449"
+    },
+    "suite/plots/genoa-loop-boxes-0.pdf": {
+      "bytes": 14799,
+      "sha256": "433ce2458e3c43fe0894fc86fb3fe2630744125c4b53ee1567d8192bb426edfa"
+    },
+    "suite/plots/turin-capacity-boxes-6-provenance.json": {
+      "bytes": 6450,
+      "sha256": "b5f6113c51aa489f651eafc017154b23da23849fa831739db9b67af08498f44e"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-0-provenance.json": {
+      "bytes": 6653,
+      "sha256": "ae2bff0ad78e83f1bc0a3ecf1670b1fcfce1233e69dc5c204372be39d7944897"
+    },
+    "suite/plots/cascadelake-page_control.pdf": {
+      "bytes": 16147,
+      "sha256": "26c2c5507179513dc4b4db9bb2b73a098fc746f5f79ff5425c9bc1bfcce68ed0"
+    },
+    "suite/plots/genoa-inclusion_policy-provenance.json": {
+      "bytes": 11108,
+      "sha256": "c4957274553bdeb0abc792855b9eb06cc2bf3f5961af0557af8e3e7b39414f90"
+    },
+    "suite/plots/cascadelake-capacity-boxes-3.svg": {
+      "bytes": 42125,
+      "sha256": "7e6651a5947f0fb83821ede458ae2c8a6f9c652d688187f5164606aaa1199560"
+    },
+    "suite/plots/cascadelake-associativity-boxes-0.pdf": {
+      "bytes": 17822,
+      "sha256": "2b998ad193c129eee83ac2bb3d039f6b78d32abc9e4248fe31a60b80a0c70de3"
+    },
+    "suite/plots/cascadelake-boundary-distributions.png": {
+      "bytes": 77436,
+      "sha256": "8bb96d400582303f72a4bcf111793702533d7276d49411f6ad250a7edfa2f074"
+    },
+    "suite/plots/haswell-capacity-boxes-1.pdf": {
+      "bytes": 19460,
+      "sha256": "ccbee80875b3e1e55e1101a1c6f33e3d3340a584114f81d830410ee541b63a8e"
+    },
+    "suite/plots/turin-associativity-boxes-2.svg": {
+      "bytes": 41995,
+      "sha256": "8977845b7947a690f31732db38e6e0a0b2951f1ec714ddecd54c5a8e73b81b8f"
+    },
+    "suite/plots/icelake_8358-inclusion_policy.pdf": {
+      "bytes": 16330,
+      "sha256": "a477561b29b4d2ddd8eea9754b7a4710ee987028abccc6c1f5e2aa09d32c1889"
+    },
+    "suite/plots/genoa-associativity-boxes-2-provenance.json": {
+      "bytes": 6422,
+      "sha256": "90cb900385a2d6dc77b71f4d2ccc82f1b50f7da8d1ae5a51e841970ddc87d4e2"
+    },
+    "suite/plots/genoa-capacity-boxes-3-provenance.json": {
+      "bytes": 6418,
+      "sha256": "952c6a099270c9d4cebddfdc1fdbdbfc696306f72d06fccccb5d133b72094fe6"
+    },
+    "suite/plots/genoa-capacity.svg": {
+      "bytes": 46999,
+      "sha256": "c749c549ba75bc3418e5ff9d6334f9e1284e6f0664e9be76b3f5eb9d869de9fa"
+    },
+    "suite/plots/turin-line_size-boxes-2.pdf": {
+      "bytes": 17289,
+      "sha256": "ed36de0ac555f652c36f62d89522daf2fe033a2605b7ff92291efeba386dfd6a"
+    },
+    "suite/plots/genoa-capacity-boxes-6.svg": {
+      "bytes": 40541,
+      "sha256": "575d25ede9ebe14ca6945db165066b6d08b0e6b92dbc01c91527cd724a401c98"
+    },
+    "suite/plots/genoa-boundary-distributions-provenance.json": {
+      "bytes": 2617,
+      "sha256": "7e6f63b02ffbdf61915a1e1b7eea529340edd4f999e0e5c9a661d2dc988f23a8"
+    },
+    "suite/plots/cascadelake-associativity-boxes-4-provenance.json": {
+      "bytes": 6656,
+      "sha256": "fd27c873f5f3085d1f69c39b86677245149548db3c16263239e68e097d32b402"
+    },
+    "suite/plots/icelake_8358-software_metric.svg": {
+      "bytes": 11456,
+      "sha256": "81458f700623330eaf45da9f0389c9ae25e0576e96ecdd89b898c4c44046798c"
+    },
+    "suite/plots/cascadelake-page-control.pdf": {
+      "bytes": 19021,
+      "sha256": "a0753495b490a80d99ec9750877e765b5b7bbaadcfde23fcd9e4a4be01e9c033"
+    },
+    "suite/plots/turin-latency-boxes-0-provenance.json": {
+      "bytes": 1141,
+      "sha256": "50d5fbb00aa6d606f81710887b318a9f5070a29d42ea2fa0377724daba264902"
+    },
+    "suite/plots/genoa-capacity-boxes-2.svg": {
+      "bytes": 42071,
+      "sha256": "efab17549f6b5e816b6651cd48a073fb25afd586b46db4fcdd8de8bd10655046"
+    },
+    "suite/plots/icelake_8358-timer.svg": {
+      "bytes": 12122,
+      "sha256": "53778c5faf889c3017bda5bb8bf5ba63550258d0465bd08b48c22fc37622b884"
+    },
+    "suite/plots/turin-inclusion_policy-boxes-1-provenance.json": {
+      "bytes": 5530,
+      "sha256": "dc556a71c74be3896674afaf13ebcb20f9bdc023c79bba9c0ccd80db7cf4c7bb"
+    },
+    "suite/plots/cascadelake-line_size-boxes-2.svg": {
+      "bytes": 25854,
+      "sha256": "1562363aedf09e5cd2a4ea2b1476505559f685f06e1bb8d09c1b79daa8df4681"
+    },
+    "suite/plots/turin-timer.pdf": {
+      "bytes": 15312,
+      "sha256": "01688eb1d5e4ba2974dd97031277c2f9a2f2bf3fe98490b2b96e93abbff3e6f0"
+    },
+    "suite/plots/icelake_8358-software_metric.pdf": {
+      "bytes": 15099,
+      "sha256": "9301d6ed4d703f3ca3dbf69f39596461f94c531d89fd1dcd104216192feb6487"
+    },
+    "suite/plots/haswell-boundary-distributions.pdf": {
+      "bytes": 18456,
+      "sha256": "e88c6558a7748808ef7d4268c6499b458f626fc3da4a698a1d812cbcc5064fd7"
+    },
+    "suite/plots/haswell-line_size.png": {
+      "bytes": 82975,
+      "sha256": "ede664cf78bbf1794e6729152cb52cc98e60f0ee87ebbaa36328e75860e454a7"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-3.pdf": {
+      "bytes": 19499,
+      "sha256": "2f7b20bb2748d7330b02c47285c9bb36719d514c4cc630240ca9563035de9e8f"
+    },
+    "suite/plots/haswell-capacity-boxes-7.pdf": {
+      "bytes": 19538,
+      "sha256": "5a2179f7fbff9e1e5a753726d21e8d09e1bc7a4600aade3ea4910250ba528fda"
+    },
+    "suite/plots/haswell-line_size-boxes-2.svg": {
+      "bytes": 26416,
+      "sha256": "98ae11bea71323522d68a3a44990de86acc329da9cac732ac9c6ddc8968a67e5"
+    },
+    "suite/plots/haswell-timer-provenance.json": {
+      "bytes": 730,
+      "sha256": "d938c68fd23688d31deac21a536b381ae0404ffe1fb9f8469e74c45661bde42d"
+    },
+    "suite/plots/cascadelake-software_metric.svg": {
+      "bytes": 12490,
+      "sha256": "7e5d6b60d0758287e082acbd8efd6c325ec3c24d7e592fd51285210a5b4d5ce1"
+    },
+    "suite/plots/all-hosts-capacity-ns.pdf": {
+      "bytes": 31021,
+      "sha256": "d9efb61eae586f4e57eb1f4190760fa062184791078661235b68756bf91ca104"
+    },
+    "suite/plots/cascadelake-latency.svg": {
+      "bytes": 13774,
+      "sha256": "b5ebb43865c31a840754a6958a438d06ac34e0b470d09a651e1f988cc533157d"
+    },
+    "suite/plots/haswell-page-control.png": {
+      "bytes": 81904,
+      "sha256": "e02fe879b28b6eb2ed303d9808ea055dfda2da47c5e105571b69976a0d1ce922"
+    },
+    "suite/plots/haswell-capacity-boxes-5.svg": {
+      "bytes": 40578,
+      "sha256": "f1ad7b366b56c97921ef759e60bd6dcad14ea261f86dc511fea17b69400ef7ed"
+    },
+    "suite/plots/haswell-latency-provenance.json": {
+      "bytes": 1298,
+      "sha256": "5a186d99db0dd3d062cfc40aa5cc10879693621567bab4ea8ba723e9e0e97afc"
+    },
+    "suite/plots/haswell-page_control-boxes-0.svg": {
+      "bytes": 24833,
+      "sha256": "6560288e422732d4e05e3491eadb836bc0fdb4d1806f369808de13982486202c"
+    },
+    "suite/plots/turin-capacity-provenance.json": {
+      "bytes": 46372,
+      "sha256": "8f191e54046f510beefe5743da5e5f3ba680b5b47fcf335b46b671ce9c04cd9b"
+    },
+    "suite/plots/icelake_8358-line_size-boxes-0.svg": {
+      "bytes": 40188,
+      "sha256": "9469706e84911d276282f5fae97aa870b650453012f9ccb04cdacea9b62f0e4c"
+    },
+    "suite/plots/turin-line_size.svg": {
+      "bytes": 22974,
+      "sha256": "95d8a2c064effc2e6cf08affaa6b1aa3abbd8f86b33f5a081206fa506daba74d"
+    },
+    "suite/plots/turin-associativity-boxes-5.pdf": {
+      "bytes": 15906,
+      "sha256": "3dbd3844a68ca056cf33c158f12bec96ca03d22987c8f7406631f23868b63963"
+    },
+    "suite/plots/haswell-associativity-boxes-4-provenance.json": {
+      "bytes": 6512,
+      "sha256": "481b20ca4ecb6844aad3324e0d68869c1515964b3d9c73f4acd0f79aef48ce99"
+    },
+    "suite/plots/icelake_8358-line_size-boxes-2.svg": {
+      "bytes": 26409,
+      "sha256": "9bb160b1f03de952c5efe00fb4661783c408666794232983e1ded78bfb72521e"
+    },
+    "suite/plots/haswell-loop-boxes-0.pdf": {
+      "bytes": 15238,
+      "sha256": "21d3191a6055d2404376d1f803815f6ea84622413853a3ca3a8bd748bea7d9d2"
+    },
+    "suite/plots/cascadelake-capacity-boxes-6-provenance.json": {
+      "bytes": 5250,
+      "sha256": "c512a648d0d2a311d77b2e587928a4cf99fdd079356bfb6d3192ce4d6300ed28"
+    },
+    "suite/plots/turin-line_size.pdf": {
+      "bytes": 17313,
+      "sha256": "46da1ea6726ede649e2cd9d2e96a6be6e4d3bf1525422cdc5e91c94c5628cbd6"
+    },
+    "suite/plots/turin-associativity.pdf": {
+      "bytes": 18399,
+      "sha256": "552e81835b0c52969c7451ee3d0899ee05d3267ea41b13efa9a2a03db4c19585"
+    },
+    "suite/plots/haswell-software_metric-boxes-0.pdf": {
+      "bytes": 15384,
+      "sha256": "75b1df15dec071fb8a1c37a53e64cfc6c2f1d9f4614d36971cf5f75eedc69f1e"
+    },
+    "suite/plots/turin-boundary-distributions.svg": {
+      "bytes": 21399,
+      "sha256": "2f1f3501e0800934031a6f3c6e85d321f5c265786b556d87850f130f16cd0bb9"
+    },
+    "suite/plots/turin-line_size-boxes-1.pdf": {
+      "bytes": 18353,
+      "sha256": "63c402c00c381a1b7a138505458fafd7c9e8d8cb77dbcf5c740f40cbfa848935"
+    },
+    "suite/plots/turin-associativity-boxes-1.pdf": {
+      "bytes": 17768,
+      "sha256": "50595ee8e84e8f98ea5f3778ad4370245d754301eb06cba0c50ad36123c53a3d"
+    },
+    "suite/plots/cascadelake-loop-boxes-0-provenance.json": {
+      "bytes": 472,
+      "sha256": "e8437d3637278bdf0778d2c8bdcaf16535cf407ce6fb928227a69623c807801e"
+    },
+    "suite/plots/genoa-loop.svg": {
+      "bytes": 12690,
+      "sha256": "793cb2ac2f159894339cb65c7783f307c4be206fa2e646efb01a1c2ff496dfec"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-0.svg": {
+      "bytes": 42146,
+      "sha256": "3f2d2d3c86eb3a3d9c24a074d223654ee19bcacf56ad659c1cc49bfeb127a5b6"
+    },
+    "suite/plots/genoa-associativity-boxes-4.svg": {
+      "bytes": 41464,
+      "sha256": "584afc67670acb3466ccaecf11b1afe71b118b276515e83dd8a55ab03f8794ae"
+    },
+    "suite/plots/turin-page_control.svg": {
+      "bytes": 13701,
+      "sha256": "9ce3ae0f4e2d6be44a53d37ab6c39a199ab751b3781646a244117c870dfa92c0"
+    },
+    "suite/plots/turin-capacity-boxes-1.svg": {
+      "bytes": 40438,
+      "sha256": "40fb2ed19a182abcde8e2a75dcf1ed8c73339915aef758503a2148008d06138e"
+    },
+    "suite/plots/turin-boundary-distributions-provenance.json": {
+      "bytes": 2617,
+      "sha256": "41652826addd42cdf62ad146571f384eb5625c2be96fac7d01c8dc89204bf43e"
+    },
+    "suite/plots/genoa-latency-provenance.json": {
+      "bytes": 1286,
+      "sha256": "0bafd0d354759ae5219dc5d91d3fe9654f28b1defd5b26a72a49fbb996c4bc9e"
+    },
+    "suite/plots/cascadelake-page-control-provenance.json": {
+      "bytes": 23280,
+      "sha256": "b8764f3537b5b94de1ad663783ea9e5117e9ebddf7ab48fae05eca82d453fe48"
+    },
+    "suite/plots/turin-software_metric-boxes-0.svg": {
+      "bytes": 11193,
+      "sha256": "5460f2185dae603c8ab0db9de65fb5d476d6bdf0db2b3556b2bbac8b32a52d7d"
+    },
+    "suite/plots/haswell-page_control.pdf": {
+      "bytes": 15492,
+      "sha256": "b88a9d958ffe20c6f3a5d59fe20d530be870847262a6df8d756639c8ae50eb1a"
+    },
+    "suite/plots/genoa-page_control.svg": {
+      "bytes": 14066,
+      "sha256": "e8fba5c1b3159b98ae7c17e43b10c86c47f0082de8aedfcef7e4d48834ef174c"
+    },
+    "suite/plots/icelake_8358-line_size-boxes-1.svg": {
+      "bytes": 40352,
+      "sha256": "bd135b53587159e1331b50328b342b43e06de7092bbc2d4de2e9ae9d4977913f"
+    },
+    "suite/plots/icelake_8358-page_control-boxes-0.pdf": {
+      "bytes": 17593,
+      "sha256": "2a073b20afdd9a59edfd49efe05bcd064f4c756ce8dd4803bd2ea2c58e752de7"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-2.svg": {
+      "bytes": 42478,
+      "sha256": "5e82c2bd4c3b6c71514ad7915b85339bd3bd8aa4c9d6bb90e24232df3807b514"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-5.svg": {
+      "bytes": 9775,
+      "sha256": "09957a837f8f2dc618a1b2d2c0926241fbf530b7b879481ff1825bd80e64ee42"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-4.svg": {
+      "bytes": 40668,
+      "sha256": "beaadeed9f2f825c1ffd21716ee74659ff4829271ff47047da883af363fec917"
+    },
+    "suite/plots/haswell-loop-boxes-0-provenance.json": {
+      "bytes": 464,
+      "sha256": "c63daac3469861d836f48bfe86ea45e708e49aa37ba3aa6aa09d0bbaaacea255"
+    },
+    "suite/plots/haswell-timer.pdf": {
+      "bytes": 15174,
+      "sha256": "de8356642fe71f878e07637f001d34db5c3c57b05e573964f5c9840caec73ce6"
+    },
+    "suite/plots/icelake_8358-timer-boxes-0.pdf": {
+      "bytes": 15142,
+      "sha256": "2bbbc66c6a3b1498c81c6201484a840536944212c71016d33f2338b894e6a4cd"
+    },
+    "suite/plots/icelake_8358-page_control.svg": {
+      "bytes": 13181,
+      "sha256": "74948f0bd6dee5667dd3271fc6062c9f635398ee6401f30be10ea5626be073ad"
+    },
+    "suite/plots/haswell-associativity-boxes-1.svg": {
+      "bytes": 41688,
+      "sha256": "5b3f9a45d053794fd0131b99a9b4ea706e8855a2babfd2186f85ca7bbb2f5433"
+    },
+    "suite/plots/icelake_8358-inclusion_policy-boxes-1.pdf": {
+      "bytes": 16359,
+      "sha256": "9e4bd236e861c021c07eb5ea1d518375e92488c96f2922b780bb49e729eda833"
+    },
+    "suite/plots/haswell-line_size-boxes-1-provenance.json": {
+      "bytes": 6391,
+      "sha256": "6d1b08491bed5175c312f82af7cc83925ca8a6ad9e3d62515731f80503774f43"
+    },
+    "suite/plots/cascadelake-inclusion_policy-boxes-0.svg": {
+      "bytes": 41443,
+      "sha256": "6c927479dfeeba6317ff35f8a6f96a85ccb57731bfce1043f2c323b5ee052c43"
+    },
+    "suite/plots/turin-page_control-provenance.json": {
+      "bytes": 3492,
+      "sha256": "7a37bd9612875b56200ce2382f5b0a27f8bf14f83b44d62922db0dc7e4af2527"
+    },
+    "suite/plots/turin-capacity-boxes-8-provenance.json": {
+      "bytes": 6464,
+      "sha256": "17336c36100d674047a07c8f18fcb388d1963e4047bc8dcea9045100f3d3947c"
+    },
+    "suite/plots/turin-associativity-boxes-4.pdf": {
+      "bytes": 17991,
+      "sha256": "bcde24fd41c1249644c08b9a3e33df11e560a708768c69aa5484e8b4e28e135a"
+    },
+    "suite/plots/turin-latency-boxes-0.svg": {
+      "bytes": 11725,
+      "sha256": "c4ece140932152db65432f57d37d0c80a420ef58c15471a624a830a0bbf9faa8"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-1-provenance.json": {
+      "bytes": 6652,
+      "sha256": "5ad7e296081c762ad1e71fb8d5d3fd5eda60c48c15b4e58a1ed4feb040706228"
+    },
+    "suite/plots/icelake_8358-latency-boxes-0.svg": {
+      "bytes": 9782,
+      "sha256": "19705fb75419a02942caadfce5a2b9eeeb5c2425edf0a704083ac6f096a97656"
+    },
+    "suite/plots/haswell-capacity-boxes-0.pdf": {
+      "bytes": 19437,
+      "sha256": "eef504127dfd1b4a4e831ec19a8cb98b2415d985e551540ef8965cb87e22d21c"
+    },
+    "suite/plots/turin-associativity-boxes-0.svg": {
+      "bytes": 41918,
+      "sha256": "cb7c5cabd8add35827b819bb4128e47e0c0f9cd957f3da40d2460e2bffb5101e"
+    },
+    "suite/plots/genoa-capacity-boxes-8-provenance.json": {
+      "bytes": 6454,
+      "sha256": "dc7986840014c548a2a0b469ad08ec1295d7feedae1bec40a004105103bccab9"
+    },
+    "suite/plots/turin-timer-boxes-0.svg": {
+      "bytes": 7286,
+      "sha256": "72c31726848cf7d1076f0816a9ac30dabcc0890beaee909cf5dce34da979f887"
+    },
+    "suite/plots/cascadelake-associativity.pdf": {
+      "bytes": 18257,
+      "sha256": "a3e52ebaecc5b6203b3ab4d777e596feea88b79561c41197b36877928487495e"
+    },
+    "suite/plots/genoa-line_size.png": {
+      "bytes": 83375,
+      "sha256": "4741a340f064ec6cc63a1e46101c0ccec317aa01a65aff32d480a844e55d4555"
+    },
+    "suite/plots/genoa-page-control-provenance.json": {
+      "bytes": 22508,
+      "sha256": "b14e4ce6ebe0f46eb616457987ac51ecdcf0d1e6a13299f0705524a2b0db10eb"
+    },
+    "suite/plots/haswell-page-control.pdf": {
+      "bytes": 17904,
+      "sha256": "51528e4093f939aa69aeab050cbb33965a09a88c91865100dbc20c236a870cda"
+    },
+    "suite/plots/genoa-page_control.pdf": {
+      "bytes": 15384,
+      "sha256": "2d5212f1238a3a2b6aee07b046863eba6e39804217e45b6324ce5925a70177ef"
+    },
+    "suite/plots/genoa-loop-boxes-0-provenance.json": {
+      "bytes": 460,
+      "sha256": "6415af9a9fffb26e91bf5dc40a82c23ba25174db3514ed472f9a3226b837a319"
+    },
+    "suite/plots/cascadelake-latency-boxes-0.pdf": {
+      "bytes": 16710,
+      "sha256": "565b968e3ab025004015117ac8f288b13bcd63c0aa4aaa41773730f1237a1b25"
+    },
+    "suite/plots/turin-associativity.png": {
+      "bytes": 77206,
+      "sha256": "9062543a3eeddbdb8380ee63755aa1ee31ed14380fb6536fca6defaebec73372"
+    },
+    "suite/plots/cascadelake-loop-provenance.json": {
+      "bytes": 736,
+      "sha256": "cf5a28333a7432cc8842447c56dea5d46925e424f59173d01dd220681e845678"
+    },
+    "suite/plots/genoa-latency.png": {
+      "bytes": 52424,
+      "sha256": "06ca40e74931becaf62feae20c49b1d92c2b32cd0ca89420ac4f1cba4d49bbc1"
+    },
+    "suite/plots/genoa-loop-provenance.json": {
+      "bytes": 724,
+      "sha256": "f9146884280dc4cb11da67b128336d46f839d6f5df6e38aaa7fac8bdfdec3ec9"
+    },
+    "suite/plots/turin-capacity-boxes-2-provenance.json": {
+      "bytes": 6418,
+      "sha256": "a336cd7b089146f09570832231cbcda299322fa389a9f41f1e18175baf153013"
+    },
+    "suite/plots/icelake_8358-software_metric-provenance.json": {
+      "bytes": 1376,
+      "sha256": "96d2644950a81f8b95e2f8cf294dcb1e24c75abd75cdc289c04514b6eecfd0ce"
+    },
+    "suite/plots/genoa-page-control.pdf": {
+      "bytes": 18145,
+      "sha256": "aa1003953863f41800f6c5e621accb12a82f3d3f6138d7c25735ccfadffbdaaa"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-3.svg": {
+      "bytes": 41445,
+      "sha256": "902989abc48757ec1e64826f964ec20bb92108c59237fa2202c21969efae7d4b"
+    },
+    "suite/plots/haswell-page-control-provenance.json": {
+      "bytes": 22944,
+      "sha256": "28adf4b508464eaf18f11cb50f2a0332fbdbe82303f32dafa7213aafaf970e11"
+    },
+    "suite/plots/genoa-capacity-boxes-7.pdf": {
+      "bytes": 19667,
+      "sha256": "6aadbd1c443b34f90d2c52723da0439b981a5fa4229240839f77023a931762c3"
+    },
+    "suite/plots/cascadelake-associativity-boxes-3.pdf": {
+      "bytes": 17786,
+      "sha256": "60ecf26e61e64fb15f8960462b6d3eb965fc5cc42d7c8a4c28373f3124b4f6d0"
+    },
+    "suite/plots/cascadelake-capacity-boxes-6.pdf": {
+      "bytes": 19385,
+      "sha256": "d2860e24cba8149dc20ee9e25c90a617690888e8fec8fe5927db872aadaf6135"
+    },
+    "suite/plots/turin-capacity-boxes-3-provenance.json": {
+      "bytes": 6418,
+      "sha256": "d493e630a24ebec0359da5819b2737095fc45c2f125fae2e8da99286f1cdf1e5"
+    },
+    "suite/plots/haswell-capacity-boxes-5.pdf": {
+      "bytes": 19541,
+      "sha256": "2d2ccf6b42c4e7bafe158403149a0cf49fa3b6a1bf01ebb8e80ccf0b8d4ff1f2"
+    },
+    "suite/plots/haswell-line_size-boxes-2-provenance.json": {
+      "bytes": 3617,
+      "sha256": "b1fda195cd1fb168efeafcac481ea03a899bbff70633f9f5581c7eb0cfa68c5f"
+    },
+    "suite/plots/cascadelake-software_metric-boxes-0.svg": {
+      "bytes": 13291,
+      "sha256": "b2698d3888d58132238e6046968682040e7da9b1fb3bddbd0009ee88c5436b77"
+    },
+    "suite/plots/turin-timer-boxes-0.pdf": {
+      "bytes": 14638,
+      "sha256": "1280a9b5190e8783e88db1f3b410d2bdbfad59cd9be647763ad612d6e051d43a"
+    },
+    "suite/plots/genoa-capacity-boxes-9-provenance.json": {
+      "bytes": 5763,
+      "sha256": "36cc06bc8cac0a1f372b489407a09d78aeda20b6a2733e4ced1b28045eb9175c"
+    },
+    "suite/plots/icelake_8358-loop-boxes-0.svg": {
+      "bytes": 8884,
+      "sha256": "9471d98ca7a1239ab16a6b569922cf5ceb6b6645b9e6043c28e1023bd5235b05"
+    },
+    "suite/plots/cascadelake-boundary-distributions.svg": {
+      "bytes": 21916,
+      "sha256": "9201404f242a0f259876ccd4d7f99e62db3bae3cd498470c1fd745c854749c34"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-4-provenance.json": {
+      "bytes": 6898,
+      "sha256": "99203e20a53310eb78c46496041204253fffcdc3649ac270e791158f70a260d0"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-6-provenance.json": {
+      "bytes": 5256,
+      "sha256": "1a4291d79c2d8284df81b5d56c2f75f25bd0f5427ed0c7592f8931348da57bde"
+    },
+    "suite/plots/cascadelake-associativity-boxes-0.svg": {
+      "bytes": 42290,
+      "sha256": "cd10b8f8676e46073648d75857f7e26d946be6f12bcb45dc4dafbd382c5d4aaf"
+    },
+    "suite/plots/genoa-associativity-boxes-0.svg": {
+      "bytes": 41397,
+      "sha256": "8766f9d3eec5b5b63221e7be3616398d8ea61f0b9314bc14c878e411a3afc56a"
+    },
+    "suite/plots/haswell-capacity-boxes-1.svg": {
+      "bytes": 40979,
+      "sha256": "27da76cc571539ea6438300c766a12c2ef5136df1117daea3aa57773a161337b"
+    },
+    "suite/plots/cascadelake-software_metric-boxes-0.pdf": {
+      "bytes": 15435,
+      "sha256": "afd019e951b4ed35e1791f11ed1bd20cdf3f3f0681b614d1d2f059978bf66076"
+    },
+    "suite/plots/haswell-page_control.svg": {
+      "bytes": 13177,
+      "sha256": "2253111d0fbd8f62ed2fce0b92edc370d536c3d3cf7c6dca994a503e056ef48c"
+    },
+    "suite/plots/genoa-line_size-boxes-0.svg": {
+      "bytes": 42449,
+      "sha256": "6869c258b1b4104db82003b29afd4712e0cdf6f11d52b8320086b774f464cd0e"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-1-provenance.json": {
+      "bytes": 6664,
+      "sha256": "f9fd92250e622f6a0da78d81b8e4980328c14b334174496936d8726dfbbd483e"
+    },
+    "suite/plots/genoa-associativity-boxes-5.pdf": {
+      "bytes": 15262,
+      "sha256": "387027121a5a33e01ea05625efbead64da76f2426e425189c322143738c6ed60"
+    },
+    "suite/plots/icelake_8358-inclusion_policy-boxes-0.svg": {
+      "bytes": 41479,
+      "sha256": "74debe248a78867258a3175780de7f9372599dd160ba66ba56742ec9e1e22991"
+    },
+    "suite/plots/icelake_8358-capacity.pdf": {
+      "bytes": 19966,
+      "sha256": "0ad03658c2e707df0b6ce1499a3bf2252a745607be0917d2d342fa0ff4fe043f"
+    },
+    "suite/plots/turin-inclusion_policy.png": {
+      "bytes": 76387,
+      "sha256": "86c31c786ae861047d1f9e9b6cb9e24278f6226cc50139b2af706a3a82b1f1b4"
+    },
+    "suite/plots/genoa-inclusion_policy-boxes-0-provenance.json": {
+      "bytes": 6568,
+      "sha256": "178523586fdd22483d8a3045f47aa3584db3455ef9177082850805b8bc1845df"
+    },
+    "suite/plots/icelake_8358-capacity.png": {
+      "bytes": 81259,
+      "sha256": "eaceaaffd615d640d0b48493d234e8b9d2ba89bdc7d7222898bdc4aef2c231c3"
+    },
+    "suite/plots/cascadelake-latency.png": {
+      "bytes": 57404,
+      "sha256": "f937e10a594c26f781e5af9e8bfec86e5db0fff838480dde3b30cfcb01e7d33f"
+    },
+    "suite/plots/genoa-capacity-provenance.json": {
+      "bytes": 50315,
+      "sha256": "dae340c07b7db8296b747cd60aeb402b001c20c35f1f2f1882b1f61c1c7063ee"
+    },
+    "suite/plots/genoa-capacity-boxes-4-provenance.json": {
+      "bytes": 6432,
+      "sha256": "377185ede300889ed2c7f469d4acfc37d5456125039bda5294e31036fa3c5823"
+    },
+    "suite/plots/cascadelake-inclusion_policy-provenance.json": {
+      "bytes": 7844,
+      "sha256": "b47f5171fdb0de9d5aaf962a073996495b816a3402cb5ffeec1f2a207b1cbd0f"
+    },
+    "suite/plots/genoa-associativity-boxes-5.svg": {
+      "bytes": 9271,
+      "sha256": "e14a5d5b63dd56b315739f21ed871eaa9a2dc3d180bd4a3f2e96f6e61bea8bfa"
+    },
+    "suite/plots/haswell-capacity-boxes-7.svg": {
+      "bytes": 40506,
+      "sha256": "59f61213a713cbc1505b797f5711218a622aebcdafba966f3e4a97a3fd19e08b"
+    },
+    "suite/plots/genoa-timer-provenance.json": {
+      "bytes": 726,
+      "sha256": "f3f67c8c178e9e64b17ecdcf46951c0cb37534231385d708d84502c4ec955e81"
+    },
+    "suite/plots/turin-capacity-boxes-1-provenance.json": {
+      "bytes": 6400,
+      "sha256": "b88d30e14a9b021a583906f170a8d95590e1b89544b8936751db906357fa2991"
+    },
+    "suite/plots/turin-loop-boxes-0.svg": {
+      "bytes": 9401,
+      "sha256": "f7de319c8e5f26a7064383857343be536ba7e215677ea22be9240307d3d1690e"
+    },
+    "suite/plots/haswell-capacity-boxes-6-provenance.json": {
+      "bytes": 6526,
+      "sha256": "44e6cbc074e5c8ecdbefc67219d63bee8a9c7279c6146f55785abdeebc871356"
+    },
+    "suite/plots/genoa-loop.png": {
+      "bytes": 51401,
+      "sha256": "2f2f8ce750aef3ff4ad1ea7926f1539a8fa214d19fa3265c4c3b75c801ab6f09"
+    },
+    "suite/plots/genoa-associativity-provenance.json": {
+      "bytes": 27132,
+      "sha256": "80f790dd121eee150ec920b37cbd5849cea818578c96cf1279fca2d96d3020e0"
+    },
+    "suite/plots/haswell-line_size-provenance.json": {
+      "bytes": 13608,
+      "sha256": "569ad6d606362139e569bd53e4f67dc532e7b46cbef39a5d395c5a356fb357cd"
+    },
+    "suite/plots/turin-boundary-distributions.pdf": {
+      "bytes": 18407,
+      "sha256": "5d79d31fbcd97f0768ff9e229a2ebd03bee1df6cfcf9a54367f66c8dc2e70262"
+    },
+    "suite/plots/cascadelake-inclusion_policy-boxes-1.pdf": {
+      "bytes": 16395,
+      "sha256": "1878a744c0a80caba945c727d47c93ef4e30da3b25c91ea781af21d0e432162e"
+    },
+    "suite/plots/turin-software_metric.pdf": {
+      "bytes": 16312,
+      "sha256": "49d1803e5fc84fc6f88c5927ad933ec3947aeb131d56427f48667588c84d9022"
+    },
+    "suite/plots/cascadelake-timer-boxes-0.svg": {
+      "bytes": 9404,
+      "sha256": "2d1d6ffd1f7a0f2d931c733223b007aad0274c762e640958ea961cb1af86f1eb"
+    },
+    "suite/plots/cascadelake-associativity.png": {
+      "bytes": 86439,
+      "sha256": "4d82ecbb55c8b37abdd205f82ffb310a37e5604079cf31cb739a0446d0ca379b"
+    },
+    "suite/plots/genoa-timer.svg": {
+      "bytes": 12120,
+      "sha256": "9e5a1ca1b1a918e6c8bc5e3a9e1922fd6c0d2b092c5a0336d0d9c3ae1979532e"
+    },
+    "suite/plots/haswell-associativity-boxes-4.pdf": {
+      "bytes": 17645,
+      "sha256": "5ebc06953fdf1feb5aa833024370dc17bfb73f100dad0757d8f409688175ccd9"
+    },
+    "suite/plots/cascadelake-software_metric-provenance.json": {
+      "bytes": 1370,
+      "sha256": "b39ea7d8901cfffb0ee0b24f7f0094b0e4f12a48b4e6e5007f4cfbebdd0b93cd"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-0.svg": {
+      "bytes": 40775,
+      "sha256": "0b9327d140760c0747d0ddf19848161f4433a3d498959951686da2432df1b314"
+    },
+    "suite/plots/haswell-boundary-distributions.png": {
+      "bytes": 76511,
+      "sha256": "851eae122d74ad1fd44e3996b1b60055557e9de515c0dbede6e85458ad9623a2"
+    },
+    "suite/plots/haswell-timer-boxes-0.pdf": {
+      "bytes": 14249,
+      "sha256": "8d2ac54c936acda1ee38d6b65850ce6bbb2fb599e1d757df4a68fecf9813be6f"
+    },
+    "suite/plots/turin-inclusion_policy-provenance.json": {
+      "bytes": 10220,
+      "sha256": "d86e0aeec2945a0b84faa72e2616f315b7a6032d3f08effc319b94b975953686"
+    },
+    "suite/plots/haswell-capacity-boxes-8.svg": {
+      "bytes": 17564,
+      "sha256": "01e2c4c9ade91d9b81934f9cb83aee668256b599f87cb3017cb3742da5dd32bb"
+    },
+    "suite/plots/turin-capacity-boxes-0.pdf": {
+      "bytes": 19240,
+      "sha256": "ee0aab53b1da92445ac916c1ca6803097786a8037649a041a5d541238c1ac4a4"
+    },
+    "suite/plots/haswell-latency.png": {
+      "bytes": 57382,
+      "sha256": "e4c65fa9d23ac0a8f79dd6fe61df1043e41361bbcb5fb7b47dfb63766add9e8d"
+    },
+    "suite/plots/icelake_8358-boundary-distributions-provenance.json": {
+      "bytes": 2715,
+      "sha256": "9e6d3bd1f6ae246e417766e06f8bb0fc545d14bd7917f5f25ba83d2f441ce2ea"
+    },
+    "suite/plots/turin-line_size.png": {
+      "bytes": 72397,
+      "sha256": "1719c98c55100879faae3fe94af1217e2cc7a0cb84135c3d27283964c3197a5b"
+    },
+    "suite/plots/haswell-capacity-boxes-6.svg": {
+      "bytes": 42106,
+      "sha256": "1be4862ba4367a7118fcf738362233be0e6bd9fa925a0dcbb84c00dfac963bd3"
+    },
+    "suite/plots/turin-loop.svg": {
+      "bytes": 13214,
+      "sha256": "14bd35c0cae185fc2c1be6f89e2dae35f983c22d2604b626200bb4ecd735cefb"
+    },
+    "suite/plots/cascadelake-loop.pdf": {
+      "bytes": 14640,
+      "sha256": "459e4869d5eff22e9e421e6296bd8e9eef6b1bdb5cf91cde466644ce5d34943b"
+    },
+    "suite/plots/cascadelake-capacity-boxes-3-provenance.json": {
+      "bytes": 6644,
+      "sha256": "21db4df68da9d5666c1108d4792ea915ca2a55725ce2baf9648e40ea2f8c7b28"
+    },
+    "suite/plots/turin-associativity-boxes-3.pdf": {
+      "bytes": 17962,
+      "sha256": "036dba85cadddc28341de7c1eec36cb30505049ced1c7904f368afaf2862b4f9"
+    },
+    "suite/plots/icelake_8358-latency-boxes-0-provenance.json": {
+      "bytes": 831,
+      "sha256": "e756b012f1a6acc8b814785cd3759d7d4e222cd28388a653effbff910a220d66"
+    },
+    "suite/plots/haswell-boundary-distributions-provenance.json": {
+      "bytes": 2645,
+      "sha256": "c160ec31ff53fb627560c1bd99bd085cf1611ed7f5252b483c10a75a3b261219"
+    },
+    "suite/plots/turin-capacity-boxes-3.pdf": {
+      "bytes": 19449,
+      "sha256": "086b6e8a5e38c28ea804907eab0c4f2bb699d0c19276a96c8f2baa515e5009ba"
+    },
+    "suite/plots/cascadelake-capacity-boxes-3.pdf": {
+      "bytes": 19651,
+      "sha256": "86463c92854c5a6b2d4c612444c3ead69b73cbc7a298506da538dbb0f93e672f"
+    },
+    "suite/plots/cascadelake-page_control-boxes-0-provenance.json": {
+      "bytes": 4010,
+      "sha256": "d70b4a813d65a1f7995d300541a0d9be27501ed6ab9c0d859454f4e39cd6cdc2"
+    },
+    "suite/plots/turin-page_control-boxes-0-provenance.json": {
+      "bytes": 3800,
+      "sha256": "c3474b4829e59aa3f5063425cc167755d7b8490573d50a9fa4aa1c12bcb07e96"
+    },
+    "suite/plots/genoa-latency.svg": {
+      "bytes": 14286,
+      "sha256": "5c483025f0efae63a27531f5bd29eaf667bd14841c33c48fa3a6a4783301b522"
+    },
+    "suite/plots/haswell-associativity-boxes-3.pdf": {
+      "bytes": 17396,
+      "sha256": "0126f9f19eed3202313eab323a1d3dfecbc3643932bcce05689320c7b057d82c"
+    },
+    "suite/plots/icelake_8358-loop.pdf": {
+      "bytes": 14921,
+      "sha256": "2da8d731755d053fdbf8e06e32421433e7687f4d4727d183652193a98a7bf63c"
+    },
+    "suite/plots/cascadelake-capacity-boxes-5.svg": {
+      "bytes": 42181,
+      "sha256": "a4422f5763c9673e47494353f6b065f4980667bd27d21c4639c95c3f91112cf3"
+    },
+    "suite/plots/haswell-associativity.png": {
+      "bytes": 80173,
+      "sha256": "76ba23acde67272fcdf6a2d6abbb0229e6966938e2fd96837a4f902af1cf2cd6"
+    },
+    "suite/plots/genoa-associativity.pdf": {
+      "bytes": 17778,
+      "sha256": "25cb26d3646ff207091cdf45a703e0090f59384331e0da20a1950c5733c6442e"
+    },
+    "suite/plots/turin-inclusion_policy.svg": {
+      "bytes": 20615,
+      "sha256": "300a91fa3324e837200cb5b3b270d07e7ebe1f55ba35c6a65bf6dcd90d19f6ae"
+    },
+    "suite/plots/icelake_8358-line_size-boxes-0.pdf": {
+      "bytes": 18104,
+      "sha256": "531178983baa3a9afcae30cf9492b80455aeee515e06ba31c8c8b6d3229a9539"
+    },
+    "suite/plots/cascadelake-page_control-boxes-0.pdf": {
+      "bytes": 18132,
+      "sha256": "9ad27efcc25a7d206c0e31408dffef13b57445fd248c2cd11975ac6be2ff6bac"
+    },
+    "suite/plots/haswell-line_size-boxes-2.pdf": {
+      "bytes": 17331,
+      "sha256": "fb42166e64f1ac9a95698cca18134846b0f308d0036053ee8e472c77887bafc4"
+    },
+    "suite/plots/turin-capacity-boxes-5.svg": {
+      "bytes": 41932,
+      "sha256": "61f3d9c4e4095ee83e2c5050d7f6dca59cb1f6bf9a856b3e5c53a10f65bb28ca"
+    },
+    "suite/plots/turin-capacity.png": {
+      "bytes": 70551,
+      "sha256": "ccf302552de492dc78fe71fb6fd0bf0bbd499bcc2489c3f2266543b5e8c16674"
+    },
+    "suite/plots/cascadelake-page_control-provenance.json": {
+      "bytes": 3681,
+      "sha256": "1895040f82045c5cfd4875f39ced73560d15c0bda3bc1a14fa352d307eaa45a6"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-1.pdf": {
+      "bytes": 17487,
+      "sha256": "7bf77331e8403b03b782e1e9206fa81fa7a86c2e1f3c703ee0128e1db226cdb3"
+    },
+    "suite/plots/cascadelake-associativity-boxes-5.pdf": {
+      "bytes": 15867,
+      "sha256": "20bcca53f55fd150bbec3dbe50ede3405ffdef4d02bfe6c4081fb23763192bd5"
+    },
+    "suite/plots/haswell-loop-boxes-0.svg": {
+      "bytes": 7829,
+      "sha256": "55a7161d49a88f668697d26565f6e72de572480ac5e7054084d7dbef01f49f0e"
+    },
+    "suite/plots/haswell-capacity-boxes-3.pdf": {
+      "bytes": 19505,
+      "sha256": "a522211516f671e017e974361b2bc94cf42c0694a32c81187f5432f732393328"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-6.pdf": {
+      "bytes": 18956,
+      "sha256": "8b304a3c719b6942f37c859dcfe76a025aada03ed1f3ecbf35afb516a693b229"
+    },
+    "suite/plots/icelake_8358-line_size.svg": {
+      "bytes": 22958,
+      "sha256": "23163b138f4bbe549e2d553f8a81429af526d141d7cfb80ad057993f0cf1927d"
+    },
+    "suite/plots/turin-timer.svg": {
+      "bytes": 13149,
+      "sha256": "e54663e09dae141b53deb2b85b3e7d0458a84334b812d4e89453a2fc0284abf3"
+    },
+    "suite/plots/cascadelake-loop-boxes-0.svg": {
+      "bytes": 7309,
+      "sha256": "2b5e9144c1cacb4eada1c28853ccf411d16c2023d058fb2cdf8d19177db62937"
+    },
+    "suite/plots/cascadelake-associativity-boxes-5-provenance.json": {
+      "bytes": 853,
+      "sha256": "5a845ae8d94abbb748157476037c57cc862acf3e5dadf8861a12f5e9818bd583"
+    },
+    "suite/plots/turin-capacity-boxes-0.svg": {
+      "bytes": 40825,
+      "sha256": "f9c90e835e7e7da2634eaffc603f8ac75bf68f7392185fa9a454f4e4b6507c3b"
+    },
+    "suite/plots/genoa-associativity.png": {
+      "bytes": 74081,
+      "sha256": "2248aa04e6975920d6f8941dbc76493b3369c063690976ab2ceb037c8a16b4fa"
+    },
+    "suite/plots/cascadelake-inclusion_policy-boxes-1.svg": {
+      "bytes": 18602,
+      "sha256": "b68ff1c149946d6b311bf82fabcab77371a94b578a82b9c9249e6c5560a9017a"
+    },
+    "suite/plots/icelake_8358-boundary-distributions.svg": {
+      "bytes": 21911,
+      "sha256": "d6c182c7f2e8e39575731ab96a381491e6edc23ed20f8149891c1656a5d3b1c0"
+    },
+    "suite/plots/genoa-line_size-boxes-0-provenance.json": {
+      "bytes": 6306,
+      "sha256": "b3aec57b5aedd6becc34901e021828e0152d661b1c60d27ee65a1fd679e669bf"
+    },
+    "suite/plots/genoa-capacity-boxes-0.pdf": {
+      "bytes": 19165,
+      "sha256": "539d4c571fc1784b575679062e262e8ea6a0f9f4cea5d3cd09acabe1052cacdb"
+    },
+    "suite/plots/cascadelake-associativity-boxes-4.pdf": {
+      "bytes": 17856,
+      "sha256": "48d16b64189b527f699671311c7b42fbb47f3ebb926ea9fe68520b223b8cc039"
+    },
+    "suite/plots/genoa-latency-boxes-0-provenance.json": {
+      "bytes": 1141,
+      "sha256": "162fae9da2a8e547bee0fb647794ef8d3b81ea8c4772c65fa98fd2b5fbba804e"
+    },
+    "suite/plots/haswell-associativity-boxes-2-provenance.json": {
+      "bytes": 6494,
+      "sha256": "2e066ceb2d12370187a2ef730608b8d1cc33c4e9510faa0e7c4ace67812fc238"
+    },
+    "suite/plots/haswell-latency-boxes-0-provenance.json": {
+      "bytes": 1153,
+      "sha256": "3dc38504229ef6766ea86d15aff9f618b521efa62699b6c9d3282546d5b4bbf5"
+    },
+    "suite/plots/haswell-inclusion_policy-boxes-0.svg": {
+      "bytes": 41386,
+      "sha256": "b8b16bc345b15646210516157deb42c890e2ec54790b7b6f3d1b6836442d1a59"
+    },
+    "suite/plots/genoa-latency-boxes-0.svg": {
+      "bytes": 13277,
+      "sha256": "258b33d04dda02b424533a09b06b5ac7cb78ac59ebed887a4f103785901099e1"
+    },
+    "suite/plots/genoa-line_size-boxes-1-provenance.json": {
+      "bytes": 6319,
+      "sha256": "e34e103a1d62d3911a38456ac31d529256daf8c8bf1967a0c85d8cbb3f28ec29"
+    },
+    "suite/plots/genoa-associativity-boxes-0.pdf": {
+      "bytes": 17443,
+      "sha256": "99b92d9e0be2349613590abab1b36e0e6996c4dc2e9386eac11efa31587bebb7"
+    },
+    "suite/plots/cascadelake-capacity.svg": {
+      "bytes": 37231,
+      "sha256": "fecff7707211b4e029af668731a05c0559bb2c7b582917fb786ab51ba7f6f402"
+    },
+    "suite/plots/haswell-capacity-boxes-2.pdf": {
+      "bytes": 19447,
+      "sha256": "f7a44effdd4a72c51820808c5066c41cbd29aa54094a7a0eddaddd4c63fbcc81"
+    },
+    "suite/plots/haswell-inclusion_policy-boxes-1.svg": {
+      "bytes": 29211,
+      "sha256": "ce70ee9dbbe470a850e53989c75458e078b5e09810447fdeab6245de1fca1202"
+    },
+    "suite/plots/cascadelake-associativity-boxes-3-provenance.json": {
+      "bytes": 6642,
+      "sha256": "5c53e59608428a3556ae422f883ad496e256f7e00660ed570673e8df159d3d26"
+    },
+    "suite/plots/genoa-capacity-boxes-4.pdf": {
+      "bytes": 19366,
+      "sha256": "44754932c90f643222107b669c31bc80c787743507884d8507ae58a494f38642"
+    },
+    "suite/plots/icelake_8358-page_control.pdf": {
+      "bytes": 15320,
+      "sha256": "ff44868061e57ea4f956dc842456de032a7fd32ac1b3a3b3d40a328cde6d10b4"
+    },
+    "suite/plots/cascadelake-timer-provenance.json": {
+      "bytes": 738,
+      "sha256": "6e70df40ed517ad042bb0fda05d0ff4a16c071bd250f198e2f9858799fed1f47"
+    },
+    "suite/plots/cascadelake-line_size-boxes-1.svg": {
+      "bytes": 40855,
+      "sha256": "facdf100a5ec7500475ecc98f5b0e08c7859904278ec26ffc991d547e041b4d5"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-2.svg": {
+      "bytes": 40885,
+      "sha256": "0ca23c1e62e811a19c97ce8d48f959c23535c7102bc93406ee1642891d1506ac"
+    },
+    "suite/plots/icelake_8358-page_control.png": {
+      "bytes": 75822,
+      "sha256": "f2a426e3c81b0f7f617c2336d7f2bb59700f9a1ae63ae6a2bf2255512284ee3c"
+    },
+    "suite/plots/genoa-page_control.png": {
+      "bytes": 75091,
+      "sha256": "652d8ca180e5e581a08a926870857badc4174ad960f150721e53d9cd53837b12"
+    },
+    "suite/plots/turin-associativity-boxes-3.svg": {
+      "bytes": 41891,
+      "sha256": "952d5d95908cdacfd57b0f3f21062b8bbe42f802bdbc55ff7e9887e4ca1c7e0d"
+    },
+    "suite/plots/genoa-associativity-boxes-2.pdf": {
+      "bytes": 17475,
+      "sha256": "0a56aadc7c291e0fe628213b79ccc5883f65e69888193a34c7f46cad243eeb1c"
+    },
+    "suite/plots/genoa-inclusion_policy-boxes-1-provenance.json": {
+      "bytes": 6610,
+      "sha256": "ba1b0478b841193f79504d579b2b3eba5fb37d02b6d221fc6bc39c6f86b07a75"
+    },
+    "suite/plots/icelake_8358-timer-boxes-0-provenance.json": {
+      "bytes": 476,
+      "sha256": "de35827ef29b3c4c4bde1c88cc40dd14a870a94b1dfab7d2969bf16a80e5bddf"
+    },
+    "suite/plots/turin-timer-provenance.json": {
+      "bytes": 726,
+      "sha256": "37afa9fd4122621fc0b89653cfe3d42b8552df7544f86162b1210579da777d6c"
+    },
+    "suite/plots/genoa-line_size-boxes-0.pdf": {
+      "bytes": 18304,
+      "sha256": "3f20708ea7dc79e4be51e7c4fd12d26a2db1d08b3a62590ce815f4f27babe52e"
+    },
+    "suite/plots/haswell-inclusion_policy-provenance.json": {
+      "bytes": 9452,
+      "sha256": "7a4fc6983a47e9a1fb163af8e56f56878e31ce5d8e25b7c7a961c1c8d7ff86b4"
+    },
+    "suite/plots/turin-associativity-boxes-5-provenance.json": {
+      "bytes": 829,
+      "sha256": "14445e5284823d18f0ca826aa8fe909a54839da2a73d9d35a226ea3cac5a46b8"
+    },
+    "suite/plots/genoa-capacity-boxes-0.svg": {
+      "bytes": 40471,
+      "sha256": "8d5fe6406eb9a0016a7b629854d94ed2caf39e7fbba6092c44b711d2dc2e3d84"
+    },
+    "suite/plots/cascadelake-capacity-boxes-5-provenance.json": {
+      "bytes": 6720,
+      "sha256": "7d1e8785210d92e05253376d1fb69da6a60850a3a5dc5b4af946382601c59180"
+    },
+    "suite/plots/genoa-capacity-boxes-4.svg": {
+      "bytes": 40545,
+      "sha256": "7ed7e13861d517e073b5dc8109c22d3031049e014c280794ad627521bed8a75c"
+    },
+    "suite/plots/cascadelake-capacity-boxes-0.pdf": {
+      "bytes": 19523,
+      "sha256": "4948c9bf5864bab666caf5cbf16c116976f1a615c4fd34358f323695c29494ec"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-2.pdf": {
+      "bytes": 18284,
+      "sha256": "1c331f46065270e971dd601b65be858102b4a28abec69bc76a67ab6ace604dea"
+    },
+    "suite/plots/genoa-line_size-boxes-2.pdf": {
+      "bytes": 17080,
+      "sha256": "69ba7df6213050e62f1ea38cc656a12048f48304663631398441e89fe1540f50"
+    },
+    "suite/plots/icelake_8358-page-control.svg": {
+      "bytes": 15847,
+      "sha256": "4d3445a8161017cd567631b0352397c94d2be2278033cbaf805b7a9ab988914e"
+    },
+    "suite/plots/haswell-timer.svg": {
+      "bytes": 12152,
+      "sha256": "2f8c4784ba60750fbc297d322fab49c12936b39af06cf6fb0da33f733fc8f1bc"
+    },
+    "suite/plots/icelake_8358-latency.png": {
+      "bytes": 52922,
+      "sha256": "4a127ce46882d88b3e27fda25458fce7490759540ac8c84531ae24295e39ca8c"
+    },
+    "suite/plots/genoa-associativity-boxes-1.pdf": {
+      "bytes": 17434,
+      "sha256": "2d91bcff33e9c8a4230350faa9c77f2339af28dc4e2cc379b15330f7413c16c1"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-5.svg": {
+      "bytes": 42180,
+      "sha256": "e2a52a41bdb0b3f7de703effe546672201e60bf3d36ca3159d9ecc1a99ab23f5"
+    },
+    "suite/plots/turin-line_size-boxes-0.pdf": {
+      "bytes": 18422,
+      "sha256": "327c23ede511ab0fbe2e44a291f6974eb87360ecf0160ab92a7f60334823d442"
+    },
+    "suite/plots/icelake_8358-line_size-boxes-1.pdf": {
+      "bytes": 18275,
+      "sha256": "293ae856df1e33fd508d9b22cc4d30adfd0dbf4c686de8c7da4ba026e0f79d0e"
+    },
+    "suite/plots/genoa-software_metric.png": {
+      "bytes": 68387,
+      "sha256": "d6fddc20731249aeb6e2b2d8c45870b008f1ab61246a208b8b771017225f64fe"
+    },
+    "suite/plots/genoa-boundary-distributions.svg": {
+      "bytes": 21418,
+      "sha256": "d292afc07ac940c114c35db78cca2b55900a18edbb5ad17c63a6ae250f6fb3bd"
+    },
+    "suite/plots/genoa-capacity-boxes-1-provenance.json": {
+      "bytes": 6400,
+      "sha256": "567ce957dd1eb4ed6c78d56c81ee91bef339c15d53942c01f58fa6d3760b2164"
+    },
+    "suite/plots/haswell-capacity-boxes-0.svg": {
+      "bytes": 40464,
+      "sha256": "75517b4242f687de3209a76d18f6c5e86bad3c337468a4ee79e2de8a56e0dbe1"
+    },
+    "suite/plots/turin-associativity-boxes-4-provenance.json": {
+      "bytes": 6440,
+      "sha256": "733b4c8e40038ee7048a63cf84f30b6a7629d2df12aca3db3f69002c78dc35e2"
+    },
+    "suite/plots/haswell-associativity-boxes-1.pdf": {
+      "bytes": 17420,
+      "sha256": "997e47825e6980f39290d6620e1f5a14df13e06598b37ab643c9930cd1eeaee7"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-5.pdf": {
+      "bytes": 19884,
+      "sha256": "15fe7be9734a711ee9d18ec16a0e751a44bfadea79708458f5b08d411a487f98"
+    },
+    "suite/plots/icelake_8358-inclusion_policy-provenance.json": {
+      "bytes": 7984,
+      "sha256": "38cd34e0cf1d1697db7f64afd39d2a0244dcc2716133192807edb333bef7e438"
+    },
+    "suite/plots/icelake_8358-inclusion_policy-boxes-0.pdf": {
+      "bytes": 18183,
+      "sha256": "d233a7947dc09a7a2d655f883db6cc957345b462d6f5a29b579db4a97fdbfc0b"
+    },
+    "suite/plots/icelake_8358-associativity.png": {
+      "bytes": 137708,
+      "sha256": "260fa90f14dcc8f7f91f35625bb924b06755e3aae6a71eb29c7061503dfcc518"
+    },
+    "suite/plots/haswell-loop-provenance.json": {
+      "bytes": 728,
+      "sha256": "da7a32847ae4c26f0b6dcc803fee426ca10fe452ff7c5a427b29cca172ca5c2d"
+    },
+    "suite/plots/genoa-capacity-boxes-8.pdf": {
+      "bytes": 19438,
+      "sha256": "b8613062a68ab6fd7124b7b6c1217428e426b2ae1ea8b533aeb58185c7e301b3"
+    },
+    "suite/plots/haswell-page_control-boxes-0.pdf": {
+      "bytes": 17591,
+      "sha256": "85308e709f69c422910c00b210a7f192426e81de79e06cb3c7954c4fab364155"
+    },
+    "suite/plots/turin-capacity-boxes-5-provenance.json": {
+      "bytes": 6436,
+      "sha256": "e49e81ce159a1a39b58a7b86eb1a2a652d4fecb323e4325e93dc3104027ea179"
+    },
+    "suite/plots/genoa-software_metric.pdf": {
+      "bytes": 15623,
+      "sha256": "c26f0433ec47e277bd7e158de0ae28d3ec608356237633103a122f18274b3c56"
+    },
+    "suite/plots/genoa-capacity-boxes-0-provenance.json": {
+      "bytes": 6392,
+      "sha256": "1e6938b994f3f9a60f736620989b069ff040177ec1fd9bdd1fbe06320efba224"
+    },
+    "suite/plots/cascadelake-line_size.svg": {
+      "bytes": 21373,
+      "sha256": "54c5c44a1b5c4f24081a96163b3af1ac8d88da515963d148eb7577527789469e"
+    },
+    "suite/plots/turin-capacity-boxes-7-provenance.json": {
+      "bytes": 6454,
+      "sha256": "0c573872b1b186c7ec110a6c00c90b10dd4e19eabe0aff50171f530f1a99ed09"
+    },
+    "suite/plots/cascadelake-line_size.pdf": {
+      "bytes": 18130,
+      "sha256": "9174c146786c57248b62a22682bc7dc641948ec8c94d3961a30aae680a6d1413"
+    },
+    "suite/plots/haswell-capacity-provenance.json": {
+      "bytes": 43052,
+      "sha256": "328ddde820cced1544f9930404c180b38ebda6a40bf6375fa25c923bc0c4132a"
+    },
+    "suite/plots/turin-latency-boxes-0.pdf": {
+      "bytes": 16562,
+      "sha256": "d612dbcb900cab22f8725d9bf7f2a76cafaecc998d745cb838878d96e64193f2"
+    },
+    "suite/plots/cascadelake-line_size-boxes-2.pdf": {
+      "bytes": 17488,
+      "sha256": "0bb1e94c1938120f9e1190d87d2c37a1e4418a7d9411a7f70a603f00b532bf2c"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-5.pdf": {
+      "bytes": 16074,
+      "sha256": "7b69c0f41bafbf6f3d20cce0de8ebac41344e51b64228978f1a110035875949a"
+    },
+    "suite/plots/genoa-capacity-boxes-9.pdf": {
+      "bytes": 19261,
+      "sha256": "6700e002c5d543eec393a5f78ca678f9262edfc61fa230b6b728f004aebc6dd1"
+    },
+    "suite/plots/haswell-associativity-boxes-0.svg": {
+      "bytes": 41762,
+      "sha256": "d3c6454819fabece6d59eaaeec53fd1afea58c4ab435042089f9b916aa96fe9e"
+    },
+    "suite/plots/cascadelake-capacity-boxes-4.svg": {
+      "bytes": 42146,
+      "sha256": "fe1d8f011ba6a9deb340fec4d7168346edac92278fec13406248f04d2bcff16d"
+    },
+    "suite/plots/genoa-line_size-provenance.json": {
+      "bytes": 13424,
+      "sha256": "9328a87ae16d90eec361608a818d2cfa659769dce9b3aa1ce4f0fd41af1b2ded"
+    },
+    "suite/plots/haswell-timer-boxes-0.svg": {
+      "bytes": 8855,
+      "sha256": "965e8f9d3b65730c5c5add6638ef693bbab22fc003e367197ae5fbed180e14d1"
+    },
+    "suite/plots/haswell-line_size-boxes-1.pdf": {
+      "bytes": 18522,
+      "sha256": "620aaeee56f7dfcd385f392420d860fd31e50f9bbd2a3b6baa782f038506a89f"
+    },
+    "suite/plots/haswell-associativity-boxes-2.svg": {
+      "bytes": 41891,
+      "sha256": "03cc926fb782c67038f18e11fb0422bcd36ba98960d278b1b0ab914e54121d06"
+    },
+    "suite/plots/genoa-software_metric-provenance.json": {
+      "bytes": 1334,
+      "sha256": "4507a07d92f9b302f1997102d68cc011196523d65d860e66e1a9d465da246ba9"
+    },
+    "suite/plots/genoa-capacity-boxes-5.pdf": {
+      "bytes": 19386,
+      "sha256": "63d02755f0a33d4f791681584975f852b31fcc2901073a449b6caa0d42fa43a5"
+    },
+    "suite/plots/genoa-capacity-boxes-3.pdf": {
+      "bytes": 19356,
+      "sha256": "726f0184667104c140af9a6f988effd1c3dd14d0048a214e56e99df5366e53f8"
+    },
+    "suite/plots/haswell-capacity-boxes-4.pdf": {
+      "bytes": 19546,
+      "sha256": "061140f74a3c863bd8ddd2263f40de70b8b55f775716f6052b88607b82d2805e"
+    },
+    "suite/plots/genoa-associativity-boxes-4-provenance.json": {
+      "bytes": 6440,
+      "sha256": "94ea22328ce4cb7f9dddaf37b28c801a33cbc1ab30a3e38641a45318749ab590"
+    },
+    "suite/plots/icelake_8358-software_metric-boxes-0.pdf": {
+      "bytes": 15343,
+      "sha256": "b2d3b644903af3f27198d21dee7d087c697865b5e31de53c1b368d6a1da1b8ea"
+    },
+    "suite/plots/turin-inclusion_policy-boxes-1.svg": {
+      "bytes": 35115,
+      "sha256": "626f947d7daefbf37c36ce77bb182434b17804d68cf0bf2546873e8460ed73a0"
+    },
+    "suite/plots/haswell-line_size.svg": {
+      "bytes": 22445,
+      "sha256": "112c282ad093ea1afa21b3c5d2cd59e0670f772e1b7bea734cdff85ad14db6fd"
+    },
+    "suite/plots/genoa-loop-boxes-0.svg": {
+      "bytes": 8870,
+      "sha256": "40ff3e009f8b7d048730e1cd9500e609cc69a17906acd985b5de43723b03e632"
+    },
+    "suite/plots/haswell-capacity-boxes-2.svg": {
+      "bytes": 40493,
+      "sha256": "d9f440e627aa4bf44a143479f9877f2273384eaaab7bd7c13e37b7a800dcacb6"
+    },
+    "suite/plots/cascadelake-line_size.png": {
+      "bytes": 80514,
+      "sha256": "83c55bd4f993afc11e30a4d6d8361b4a83380e70a39f1c677c3db06798cdf6b9"
+    },
+    "suite/plots/haswell-boundary-distributions.svg": {
+      "bytes": 21924,
+      "sha256": "86d4d1ae5e062e33375520c62d205ea0e3818afa2037712ee5da18addd49145b"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-3-provenance.json": {
+      "bytes": 6670,
+      "sha256": "4fbcde8f902a6b5b338263157f70f4cba8ffed0c4f1d0bbb59e7ebaf61af5f23"
+    },
+    "suite/plots/genoa-inclusion_policy.pdf": {
+      "bytes": 16470,
+      "sha256": "fc3958e1a943a1fcc2504aa5000148840d871b9306c21cab552ef01df882c67c"
+    },
+    "suite/plots/cascadelake-latency-boxes-0.svg": {
+      "bytes": 12752,
+      "sha256": "5ac5fd99f81883316f86e19308f5b14c9f60ef317de9f0a4d540afc17981fcc0"
+    },
+    "suite/plots/genoa-software_metric-boxes-0.pdf": {
+      "bytes": 15647,
+      "sha256": "1dd4a3c9ce3c81f94fa85d60e3c5d2f043b44774de5fd2f69a166646e890affc"
+    },
+    "suite/plots/turin-capacity-boxes-4.svg": {
+      "bytes": 41013,
+      "sha256": "3345df4000546bec2b8fff05bc2cdd6e54ca8aeac8848dd928132563e3d95c96"
+    },
+    "suite/plots/cascadelake-page_control.svg": {
+      "bytes": 15334,
+      "sha256": "d1d4f3363505bc13db6c1966b971d23e75c282bcef7a647e279b8c376da1940e"
+    },
+    "suite/plots/genoa-capacity-boxes-1.pdf": {
+      "bytes": 19331,
+      "sha256": "03db2a7e70454cadcbf0bccd3731103eccc116c127c767dd502a97760f082682"
+    },
+    "suite/plots/turin-page_control.pdf": {
+      "bytes": 15610,
+      "sha256": "c8900f9c2c7c612d7f94980c64b3206a5db8e9526b9fdee673909bca26098c0d"
+    },
+    "suite/plots/genoa-line_size.svg": {
+      "bytes": 21407,
+      "sha256": "dd231ac001287da3c989f0afd0c258e6f10bae7a436376200c8d862ab1efa222"
+    },
+    "suite/plots/genoa-associativity-boxes-3.svg": {
+      "bytes": 41086,
+      "sha256": "47738945b8a4d5d423f6795569e0638367874158a677ad2d2506e17473f3c5fa"
+    },
+    "suite/plots/cascadelake-software_metric.png": {
+      "bytes": 77025,
+      "sha256": "f5eeda2e8c6717db015e141614546031918643fe96dc02fa8e2918ae01771479"
+    },
+    "suite/plots/genoa-line_size-boxes-1.pdf": {
+      "bytes": 18145,
+      "sha256": "7a5af28cd7e6eaacea7ed82a48c181ebb2723696ebfd343853c9f171bd60fcc7"
+    },
+    "suite/plots/icelake_8358-inclusion_policy.svg": {
+      "bytes": 20714,
+      "sha256": "c4cee360805405c4ab9d6ae032528ab5cc3dc60f8e66348dd131c0eeeb413160"
+    },
+    "suite/plots/icelake_8358-line_size-provenance.json": {
+      "bytes": 14114,
+      "sha256": "da739b5a72340f6285e8bf684b6d7e0d84ebf1bd2d33fc58f0145f2e60218cbb"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-3.pdf": {
+      "bytes": 18201,
+      "sha256": "0aa30ea5426793e46a9edb57562dfc489589d7a51b328fff76b2a1569b682f60"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-6.svg": {
+      "bytes": 33225,
+      "sha256": "e096c03a9ed57ec6f23e682ea66ce2a062b95aa20f2d52dcde521ebd39f40ed1"
+    },
+    "suite/plots/genoa-capacity-boxes-9.svg": {
+      "bytes": 38680,
+      "sha256": "ab4e7324787e966e2b41c146d8319da106f82953367e37c9c9f3e959991a72eb"
+    },
+    "suite/plots/genoa-boundary-distributions.png": {
+      "bytes": 71925,
+      "sha256": "0d25563ee6ee56c180737c86a8b156dcff3b6024aafbd0b1ef3390eb8d9901af"
+    },
+    "suite/plots/haswell-latency.svg": {
+      "bytes": 14297,
+      "sha256": "45c51ded84f32e1515ca2e166c08fd142322fb3ee05d9f30dd1c0b82af9a9bc2"
+    },
+    "suite/plots/cascadelake-associativity-boxes-3.svg": {
+      "bytes": 41727,
+      "sha256": "df8bc6a61616265373529ea0739f038dd032e63ccbfe73cc158c09e4c119bab6"
+    },
+    "suite/plots/cascadelake-timer.png": {
+      "bytes": 55246,
+      "sha256": "4d99ca5f0ede3b31bf5ebbbfbdd430f36d3c1c07cba7c896c87ed500bbb4d92a"
+    },
+    "suite/plots/icelake_8358-line_size-boxes-2.pdf": {
+      "bytes": 17651,
+      "sha256": "cc7eb2bb45b32649ec479bf78456de20a5a6f0fc0e8f48a4467a03fcfee7b798"
+    },
+    "suite/plots/icelake_8358-page_control-provenance.json": {
+      "bytes": 3632,
+      "sha256": "e68e28989d094c80d2c8e358b80e7859ed2b2631d491c8869b95cfd7f643fd65"
+    },
+    "suite/plots/turin-associativity-boxes-0.pdf": {
+      "bytes": 17954,
+      "sha256": "4a0612abf343e6ba86743e75d77cf5e1633f2d25922ec857344ff35e24a13a03"
+    },
+    "suite/plots/haswell-associativity-boxes-2.pdf": {
+      "bytes": 17582,
+      "sha256": "7add42258d62039f8077e6ee671cc7726df1fde1f49602432d1c4bc94859cb31"
+    },
+    "suite/plots/haswell-associativity-boxes-1-provenance.json": {
+      "bytes": 6484,
+      "sha256": "2eed93306acb61240feacbc8049b840fcfc76696c1ed066fd6d5a062974328f1"
+    },
+    "suite/plots/cascadelake-capacity-boxes-1.pdf": {
+      "bytes": 19539,
+      "sha256": "2fbad1a9aca535c2c453d055260b174531e074f0d1f68bf7ead4ba49dcd9f4b9"
+    },
+    "suite/plots/cascadelake-capacity-boxes-2-provenance.json": {
+      "bytes": 6634,
+      "sha256": "1742414058ae841cc08a30b653289866aff146a720f7e19267b7d50bccfeb912"
+    },
+    "suite/plots/genoa-capacity-boxes-7.svg": {
+      "bytes": 41046,
+      "sha256": "04b081a2dcfadc4feed4ff698c378886188911161e9684d12d8603e0762d0774"
+    },
+    "suite/plots/cascadelake-capacity.png": {
+      "bytes": 80287,
+      "sha256": "28efbf4b1863cd75ddae8b000b657403841050fca066ecefaf70bf174668fef3"
+    },
+    "suite/plots/icelake_8358-loop-boxes-0.pdf": {
+      "bytes": 15104,
+      "sha256": "864c46d358ce80074a0d6ee5d09e7a91c1f20b2706b0c4f1f020d130895fd075"
+    },
+    "suite/plots/turin-capacity-boxes-6.pdf": {
+      "bytes": 19478,
+      "sha256": "464cdd78dd43fa1e4ed3c43a899fe5c9b8f4a1d8139e4611514c6528fb881639"
+    },
+    "suite/plots/haswell-line_size-boxes-0.pdf": {
+      "bytes": 18513,
+      "sha256": "6892449b22e68e7bb6f9ab0b00d98716d1decb227af2aa53bfd6973a6db8c79d"
+    },
+    "suite/plots/turin-capacity-boxes-7.pdf": {
+      "bytes": 19425,
+      "sha256": "90fef5ba37b5066220b65281ea372ccd95d341a571891032d959d6709ef33a46"
+    },
+    "suite/plots/genoa-associativity-boxes-1-provenance.json": {
+      "bytes": 6412,
+      "sha256": "2e81d0f065e249753098bd8850ce137935ca3927b349385fb2f7a10f84cb84ca"
+    },
+    "suite/plots/cascadelake-capacity-boxes-6.svg": {
+      "bytes": 34279,
+      "sha256": "f4c1db55aa9cf6d2acbbace070002428a92797263bd0e98d0ff953ec1d80ac9a"
+    },
+    "suite/plots/turin-capacity-boxes-4-provenance.json": {
+      "bytes": 6432,
+      "sha256": "cf7f5ae58ec39e7c3216ebf4e9abb2fca3c1d8404f267541c1c1c687cb54d6a0"
+    },
+    "suite/plots/turin-line_size-boxes-2-provenance.json": {
+      "bytes": 3577,
+      "sha256": "a2277b6dbdfc79690be77909ee1800f41a2e20c9242f128296475f10c9f62c3a"
+    },
+    "suite/plots/haswell-line_size.pdf": {
+      "bytes": 18147,
+      "sha256": "44d8e927a996f794b8abc6aabcf8376b2a9e11af60a955a2078e3c64758236d8"
+    },
+    "suite/plots/icelake_8358-timer-boxes-0.svg": {
+      "bytes": 9408,
+      "sha256": "c1ff1fdfc65e6d51d3a4af4fe9b0e74c44b4bd9018b080a59974f76a2c0f21f2"
+    },
+    "suite/plots/icelake_8358-inclusion_policy-boxes-1-provenance.json": {
+      "bytes": 2377,
+      "sha256": "b8b28af95d1440e69ed787ef01c93a82c417352eae4a6c95c8926f69f23e1bda"
+    },
+    "suite/plots/icelake_8358-line_size-boxes-1-provenance.json": {
+      "bytes": 6571,
+      "sha256": "f0ddb61e35bd88f17cb3ac92fc9a0dc0b63dcfdea1e64af8f96d0d1175820ac7"
+    },
+    "suite/plots/genoa-line_size.pdf": {
+      "bytes": 17547,
+      "sha256": "6c46728d58547366977ca7071fbdcbb3b6e707cfe0dedee901c2635e12b843f5"
+    },
+    "suite/plots/genoa-capacity-boxes-2-provenance.json": {
+      "bytes": 6418,
+      "sha256": "f2b3ca0337c73aeead7995ce9ab9ffce4e1dc306faeb1c59ed831c63dee15ccc"
+    },
+    "suite/plots/genoa-software_metric-boxes-0.svg": {
+      "bytes": 12252,
+      "sha256": "489f65838304e12d8a4b8f8e65f436f439066b9c8ffde20ec01266baaad1a22a"
+    },
+    "suite/plots/turin-associativity-boxes-2.pdf": {
+      "bytes": 18027,
+      "sha256": "b71425a47a5a8d3bff6d9a7eff24414e336c5b5d550a7aae633816d76f311378"
+    },
+    "suite/plots/icelake_8358-timer-provenance.json": {
+      "bytes": 740,
+      "sha256": "81893f6b3facb54c47e42f5d1aec3eee24a75fb680f1ae18305ba0c2a4283a8b"
+    },
+    "suite/plots/genoa-line_size-boxes-2-provenance.json": {
+      "bytes": 3577,
+      "sha256": "e2653a1b51eac2477884f0d3a62847c02a42c785a30e07c487c2046898350c01"
+    },
+    "suite/plots/haswell-capacity.png": {
+      "bytes": 66822,
+      "sha256": "05f5ae8baca7de0919b3d829900d352c80c54c8a1ca4907ced7d8e1c5cd4d5e4"
+    },
+    "suite/plots/cascadelake-loop-boxes-0.pdf": {
+      "bytes": 15245,
+      "sha256": "682aba8b96d90709f19576c5be6b1bdcf7fd63c9097c42d75fa37dd610260195"
+    },
+    "suite/plots/haswell-timer-boxes-0-provenance.json": {
+      "bytes": 466,
+      "sha256": "870b0a8676aadacae6f924eb64124892f0539c29fd12add3a98f76e04d98ae28"
+    },
+    "suite/plots/haswell-capacity-boxes-8.pdf": {
+      "bytes": 17925,
+      "sha256": "02b73508fe10fcfd9e8864da6b39d0d51f386a9453e29fd271742b48155f6267"
+    },
+    "suite/plots/icelake_8358-latency.svg": {
+      "bytes": 11654,
+      "sha256": "14a052e418444a79f5401cf8b33c252ce8315340d8ed1610ba08260571b337af"
+    },
+    "suite/plots/turin-associativity-boxes-0-provenance.json": {
+      "bytes": 6401,
+      "sha256": "a30d980efdf4f6bd947e5e724fb5d66e48f116e20ea86458b0f6f8c8e150cce6"
+    },
+    "suite/plots/haswell-capacity-boxes-3.svg": {
+      "bytes": 41010,
+      "sha256": "79cffcf51fd17b2034b7b92871bc7b21130dec2d8146bc6119c989baf662058d"
+    },
+    "suite/plots/turin-inclusion_policy-boxes-0-provenance.json": {
+      "bytes": 6568,
+      "sha256": "7244984fb10fda8543a8fc2a781d07932db36d4c5b01453b76763949e6d45c1c"
+    },
+    "suite/plots/haswell-software_metric.pdf": {
+      "bytes": 15129,
+      "sha256": "d8bfab15c08186e295414c0a36fcbaf9183fd89f7d4aca339943ad2f20836773"
+    },
+    "suite/plots/cascadelake-software_metric.pdf": {
+      "bytes": 15162,
+      "sha256": "fb89a5c65eaa0abb1f5e4ab75b5628e399863db614eda7692f0cabc812d15a76"
+    },
+    "suite/plots/cascadelake-loop.png": {
+      "bytes": 52414,
+      "sha256": "f12d1be8333fa2c205736d2876c00cff6a1f1c78971fadf6b35eb2ea1c4312d4"
+    },
+    "suite/plots/cascadelake-capacity-boxes-2.pdf": {
+      "bytes": 19515,
+      "sha256": "fa8f1cbacf74ab97c2d77cb10e782cd2f13bb5d4136b7b1d2b98004d3af73ec4"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-4.pdf": {
+      "bytes": 19798,
+      "sha256": "8916943b552640eb0839d76322f58ab8a26e6aee6f7576f7a8aa801d3f41de8e"
+    },
+    "suite/plots/haswell-latency.pdf": {
+      "bytes": 16117,
+      "sha256": "4198ae896153b5659ac405ea1be15eb2fbe9f9304b24c274642f35ddfdc4eb0b"
+    },
+    "suite/plots/turin-capacity-boxes-8.svg": {
+      "bytes": 42089,
+      "sha256": "57718c64a559be8e1bba50b93e39e72f328b026cd21f722b70398d205b1ffbec"
+    },
+    "suite/plots/cascadelake-inclusion_policy-boxes-1-provenance.json": {
+      "bytes": 2362,
+      "sha256": "9dd6e774eb444cd921e7cf96875094271c021ecc5de86e45b0a7379413c333ec"
+    },
+    "suite/plots/cascadelake-associativity-provenance.json": {
+      "bytes": 28236,
+      "sha256": "3ac102d1adf50335ce7c3f1195feac6e663dbc15240f173eb1f97a3f5d804728"
+    },
+    "suite/plots/genoa-timer.png": {
+      "bytes": 41717,
+      "sha256": "c60444f7a10f765434392b5e52f1e3104aa27166efc7ebe423e552a95a9e86d2"
+    },
+    "suite/plots/cascadelake-capacity-boxes-4-provenance.json": {
+      "bytes": 6652,
+      "sha256": "3b022369416b1a3da33aa05ed18159e1703c5c15956463adc24e34d7d8cb6f9d"
+    },
+    "suite/plots/icelake_8358-line_size-boxes-2-provenance.json": {
+      "bytes": 3777,
+      "sha256": "322be73d04af53efe30a1c6d6ac9ca1f6233b97513bf7c5803c1e3e31d57ef38"
+    },
+    "suite/plots/cascadelake-capacity-boxes-1.svg": {
+      "bytes": 40962,
+      "sha256": "41f06843158356ee1e746e9d8a4eb6de47360a9f3c4778ae8d479ea4eef80088"
+    },
+    "suite/plots/turin-line_size-provenance.json": {
+      "bytes": 13424,
+      "sha256": "8cd0b44c1eced52ac6307af39d007a5570691e40d89eefbf3750b0fff49163e9"
+    },
+    "suite/plots/haswell-inclusion_policy.pdf": {
+      "bytes": 15797,
+      "sha256": "7b910da5c4b436f5c7b7ed2e993d019b6c8414b6491db47c36f6eb080ca6dfee"
+    },
+    "suite/plots/icelake_8358-boundary-distributions.pdf": {
+      "bytes": 18487,
+      "sha256": "75a175ec76d80841579a79d4a07b89b270058a990462edfcd97e9451da614af6"
+    },
+    "suite/plots/turin-capacity-boxes-7.svg": {
+      "bytes": 40549,
+      "sha256": "d5bad9fff5a58659c51639e3c1088a03b7c91c1a79e722b6cbbab94e2f6c4fca"
+    },
+    "suite/plots/haswell-capacity.pdf": {
+      "bytes": 20531,
+      "sha256": "ad7bdfc0b250cca459662a7c572ba8f462419163251ab9510eaface2ead10576"
+    },
+    "suite/plots/cascadelake-timer.svg": {
+      "bytes": 13210,
+      "sha256": "ec14e30a36da30afcd4e4ae4f90f42e16d664492da11ca6fa457f70208616163"
+    },
+    "suite/plots/icelake_8358-capacity-provenance.json": {
+      "bytes": 36573,
+      "sha256": "2baaf1ba0ce6342ec75220e9b51a2e0676057309260099e5160255fad2c775b8"
+    },
+    "suite/plots/genoa-line_size-boxes-1.svg": {
+      "bytes": 40358,
+      "sha256": "4288f5e4530fad5e26207dbb1c009d4909baa15f738134411edd4f03e2f4e71f"
+    },
+    "suite/plots/genoa-page_control-boxes-0.svg": {
+      "bytes": 26398,
+      "sha256": "2634f0c0dea31bc8c2afeedcf27b0e23f92bfc8ecbf8c2a1a50584577becd743"
+    },
+    "suite/plots/icelake_8358-inclusion_policy-boxes-0-provenance.json": {
+      "bytes": 6943,
+      "sha256": "99e832271d6e25510cced282aecd471163ffb9f1bb1370770c07ae6484fea8ed"
+    },
+    "suite/plots/genoa-inclusion_policy.svg": {
+      "bytes": 22297,
+      "sha256": "9f398522f6ee53f4590a92abe2d0e0595a8b4eaf0e6b001a6d8ea300b5643859"
+    },
+    "suite/plots/icelake_8358-inclusion_policy-boxes-1.svg": {
+      "bytes": 17576,
+      "sha256": "2d486b3efe210b77b794de60b0cb024f8cc93ebb7e0349d442bbd31ed80fad6c"
+    },
+    "suite/plots/turin-capacity.pdf": {
+      "bytes": 20913,
+      "sha256": "e93a4f8efe4651f77960ff555bce9de6266b58ce342f9f3efce05a1e63aad5fc"
+    },
+    "suite/plots/cascadelake-line_size-boxes-2-provenance.json": {
+      "bytes": 3697,
+      "sha256": "e084dad33e950683abf245e9b752a838269f48ec677812532957c50a19468fe7"
+    },
+    "suite/plots/turin-associativity-boxes-5.svg": {
+      "bytes": 9802,
+      "sha256": "48405ee9e841ccca5d89093467bba5acc151e57aa6bdf7320ab091f35ddf55f5"
+    },
+    "suite/plots/haswell-page-control.svg": {
+      "bytes": 15410,
+      "sha256": "b921c31109bf3f15c8e99b22e64275a41d94b3132b5ee4bf75afdf34e6f6e13c"
+    },
+    "suite/plots/haswell-associativity.svg": {
+      "bytes": 32517,
+      "sha256": "b7f872c5e212472da61104bcb2574bad205f2b02f0dfcc1baae67a84c083522a"
+    },
+    "suite/plots/genoa-timer-boxes-0.pdf": {
+      "bytes": 14224,
+      "sha256": "f0b43b5d3b3e9020281a4e338c082baa420faba831f4e975c9c95d09535ecf86"
+    },
+    "suite/plots/cascadelake-capacity-boxes-0-provenance.json": {
+      "bytes": 6608,
+      "sha256": "f523cd3dd6b668ac955ab91d11626f08c37de48ee894857a33fe2f4d448bb83f"
+    },
+    "suite/plots/haswell-capacity-boxes-0-provenance.json": {
+      "bytes": 6464,
+      "sha256": "cf5676d0ff7ecb6230229ebfa0baea7e9c3766bffc40f7316ccb0bc1988988b5"
+    },
+    "suite/plots/icelake_8358-page-control.png": {
+      "bytes": 89346,
+      "sha256": "d7ce20f41ad4097269d80ab73ecd469ce0ac064f093ad09c76820545bbb53daa"
+    },
+    "suite/plots/turin-loop.png": {
+      "bytes": 49937,
+      "sha256": "94ea9fe4e244a784d19b62a2756458b9224981267627bdb04b8ab69f8a065cf5"
+    },
+    "suite/plots/cascadelake-inclusion_policy.png": {
+      "bytes": 86398,
+      "sha256": "9df67606cc3bddcdd228a7db6965622a5a2ea318ebf87ab82510e7da872f36fe"
+    },
+    "suite/plots/haswell-associativity-provenance.json": {
+      "bytes": 27500,
+      "sha256": "0c51752ed37f50d2a4bfa60c469c8e6a03329eff4a1e08d2306013e6aa2f2032"
+    },
+    "suite/plots/turin-line_size-boxes-0.svg": {
+      "bytes": 42291,
+      "sha256": "8152373a38a904a16a062a230d7599ad2188632c981dec40a956322cab0b5650"
+    },
+    "suite/plots/turin-latency.png": {
+      "bytes": 56945,
+      "sha256": "c2205e48a180c0d9ac8a2cef300d05a78fe4180ff2aa13e6a3df66ca62ac19f3"
+    },
+    "suite/plots/cascadelake-associativity-boxes-1.svg": {
+      "bytes": 42237,
+      "sha256": "982c86a838b54b1330f0e55e3505b8bb8a540a1eed5af8bbac2ad5ca85d9cb58"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-0.pdf": {
+      "bytes": 19425,
+      "sha256": "af1bc03a5cc16df7cfcfc9a50680bf0a0920e65debaa5f6ec2ab4736ac6c855b"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-2.pdf": {
+      "bytes": 19487,
+      "sha256": "a74cb39842a4fafb5e265855276f7a117f642d8409eb0b3154743974236e8575"
+    },
+    "suite/plots/turin-associativity-boxes-1.svg": {
+      "bytes": 42327,
+      "sha256": "adf6384a8d67e2e8c36b26f92c3cb12c453b2b38c1afb56aeb50c739a5e6ce39"
+    },
+    "suite/plots/cascadelake-line_size-boxes-0-provenance.json": {
+      "bytes": 6522,
+      "sha256": "1f1d82cfe464c19a8c22a50a2bc799d31dc4176af4df32269f74104767ed62b3"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-0.pdf": {
+      "bytes": 17498,
+      "sha256": "755b46a3d4b8708e254f8610e50bbc9af7fc3f50b5251662b163474982dddc24"
+    },
+    "suite/plots/genoa-inclusion_policy-boxes-1.pdf": {
+      "bytes": 18116,
+      "sha256": "a685dc9deeaeac02267a622eed1796430e05751bd2a398e31729ed59c78ffcf4"
+    },
+    "suite/plots/cascadelake-page_control-boxes-0.svg": {
+      "bytes": 25370,
+      "sha256": "44f234c01ce6e68f9a381866fd2fe4025a0c85c4ff847598f3beb9406e841f1e"
+    },
+    "suite/plots/genoa-inclusion_policy-boxes-0.pdf": {
+      "bytes": 18033,
+      "sha256": "9631159610c285d75eb265bab8fb67918e4e59d99363d0765636940b26525011"
+    },
+    "suite/plots/genoa-page-control.png": {
+      "bytes": 86177,
+      "sha256": "3af429d0484dbd3ec25fa77fdb532edfb74074ff81e7f5874f3548cd36b442b6"
+    },
+    "suite/plots/haswell-inclusion_policy-boxes-1.pdf": {
+      "bytes": 17128,
+      "sha256": "de413a861b500e4f828282f23828d28f9fed2d1ca59a28c801dd0667e797fa47"
+    },
+    "suite/plots/haswell-associativity.pdf": {
+      "bytes": 18506,
+      "sha256": "fde7e72cb21ab19b93c1c77703ad646fb8a0fdb54bea87e8ad4524760748c089"
+    },
+    "suite/plots/turin-inclusion_policy-boxes-0.svg": {
+      "bytes": 40871,
+      "sha256": "94cda87fbfacdc49c2a5e014d2a55860bef96a5c3084ce84e68e48860bfb2cd4"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-1.pdf": {
+      "bytes": 19496,
+      "sha256": "2409b1f40608135f15ad98669c7a7e4d6c302965b9d08cb149bb303f5d9037ca"
+    },
+    "suite/plots/turin-line_size-boxes-0-provenance.json": {
+      "bytes": 6306,
+      "sha256": "a58db6b4412178f1addbb81a61b58962b8c691bac8b462268d3f129cf90133b6"
+    },
+    "suite/plots/turin-page-control.pdf": {
+      "bytes": 18382,
+      "sha256": "f928dcf6f96ed874587097a60258931fc67371e732aee277ca3973868ddd3695"
+    },
+    "suite/plots/icelake_8358-inclusion_policy.png": {
+      "bytes": 126380,
+      "sha256": "8a68804c97cc2c3c5cb83fa6ccd7170ff2f724e7ea762e44090d1c24b830f85d"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-3-provenance.json": {
+      "bytes": 6888,
+      "sha256": "8017d6ecf056195a0095ed63be8bdd5dbe206c3af5d37389a60e50b1b81e3970"
+    },
+    "suite/plots/turin-associativity-boxes-4.svg": {
+      "bytes": 42004,
+      "sha256": "c68ed3ad89cf36a0f41e55f74adbdfec1ef66de8320dfd86e8a4c74af059a50d"
+    },
+    "suite/plots/turin-latency.pdf": {
+      "bytes": 16029,
+      "sha256": "62086ce5669555d1d4a97cc8999e2c5cace1db55670ef1cabf9775d695f17abe"
+    },
+    "suite/plots/turin-associativity-boxes-2-provenance.json": {
+      "bytes": 6422,
+      "sha256": "91f5eda40ea4773e7fdc54da57957f47a16d25f751f306f633ee25dd33abdf9d"
+    },
+    "suite/plots/icelake_8358-timer.pdf": {
+      "bytes": 15436,
+      "sha256": "4a7f7e7be6c4c2e8ea77afadd5ade68ea34ebdf0c255e96f18c0496f23abb3cb"
+    },
+    "suite/plots/turin-page_control-boxes-0.pdf": {
+      "bytes": 17933,
+      "sha256": "87b1dc5703221a6743a27dda45b6df622f102d69d32b4cbe0103e442aea92b6e"
+    },
+    "suite/plots/haswell-capacity-boxes-4-provenance.json": {
+      "bytes": 6490,
+      "sha256": "d690ba0410e7ad2623b99e7abd9cdb6b47b41e5371099be03ec14ee7ff29051e"
+    },
+    "suite/plots/cascadelake-capacity-boxes-0.svg": {
+      "bytes": 40957,
+      "sha256": "54250ddc667c7b61f25850fa39a0d1fc17e9571acd1c0da29a658149c1cdc78d"
+    },
+    "suite/plots/cascadelake-page-control.svg": {
+      "bytes": 17986,
+      "sha256": "a9899479e281d733280c1434042f1b49aeb147f24e0558a838d2702df7c0b317"
+    },
+    "suite/plots/icelake_8358-timer.png": {
+      "bytes": 45405,
+      "sha256": "760fc9ed5210e2989c6c9f74295d05d40c9ddc4ff6817b4d435ddd291dbbef19"
+    },
+    "suite/plots/turin-capacity-boxes-6.svg": {
+      "bytes": 41071,
+      "sha256": "c9b1ba546edc1f0a19b9c3a8e806753d95b42f4274e5f0e73cc27392ecc9c4fc"
+    },
+    "suite/plots/genoa-software_metric.svg": {
+      "bytes": 13532,
+      "sha256": "eb7fad2b17e33a893cb649c5fb749875b57287efaa8c3b3940c5d5b7dc717ff5"
+    },
+    "suite/plots/haswell-capacity-boxes-1-provenance.json": {
+      "bytes": 6472,
+      "sha256": "acae42bda51cc3266c3cc0fbc65c79dffee4f4462441faacacf4f2d5f3b2ee89"
+    },
+    "suite/plots/haswell-line_size-boxes-0.svg": {
+      "bytes": 41792,
+      "sha256": "8fb340cfc301ca6456b64f2f51e4163d94baf2c4dda06dac7b5e3cbf927dee9c"
+    },
+    "suite/plots/icelake_8358-line_size.pdf": {
+      "bytes": 18215,
+      "sha256": "ac01e96c28180fd1a71533923923b4fe32d7ba8bda2507e65f06a8a51a6b5377"
+    },
+    "suite/plots/genoa-capacity-boxes-8.svg": {
+      "bytes": 41619,
+      "sha256": "62406fd1e74117880368e0af62719c417d2acdcc5bdd75395c2d47137991588f"
+    },
+    "suite/plots/icelake_8358-software_metric.png": {
+      "bytes": 74972,
+      "sha256": "d98402703817079f7ee57d71646068f208af6f99cc5042f267f14e07ce8c2508"
+    },
+    "suite/plots/genoa-capacity-boxes-5-provenance.json": {
+      "bytes": 6436,
+      "sha256": "d7690b8775b9c7db761e9b08b00c7b7009ccf67c6503d65207c0f6f3b6ccf939"
+    },
+    "suite/plots/haswell-software_metric.png": {
+      "bytes": 73327,
+      "sha256": "84a48d930c4a55d8f33b16d8906de3fd0ef46c242752f3ec29339c6a31a480d9"
+    },
+    "suite/plots/haswell-associativity-boxes-4.svg": {
+      "bytes": 42433,
+      "sha256": "0762d2c0eb1a954c7b60692cafa1d31bee31c29447c3b957a76da5fee4723c05"
+    },
+    "suite/plots/icelake_8358-associativity.pdf": {
+      "bytes": 20037,
+      "sha256": "e8d64ff38fd0ed4a99b0095df73bd012f98056c6f899ee1314e8d1374dae61f5"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-2-provenance.json": {
+      "bytes": 6854,
+      "sha256": "d22d31fc867652905bb030a85cb9ddcb90c4ccaff045c64c9a16ee7d0b6341d0"
+    },
+    "suite/plots/haswell-associativity-boxes-0.pdf": {
+      "bytes": 17412,
+      "sha256": "838b10d755aaa963e559d9af01b65fe8effb2de215ddd17b2d1dd1cdfc91d0ae"
+    },
+    "suite/plots/haswell-associativity-boxes-5.svg": {
+      "bytes": 9789,
+      "sha256": "3d0e46c22c754c6224abf27d63c89f291fc6d6abbdf79b70dcde9b7eda155b26"
+    },
+    "suite/plots/turin-page_control-boxes-0.svg": {
+      "bytes": 26382,
+      "sha256": "1f8aea45c5a28448e7d6ec0c947a432ae8c216cd6993f558bf5e58d423812b76"
+    },
+    "suite/plots/genoa-associativity-boxes-0-provenance.json": {
+      "bytes": 6401,
+      "sha256": "bdd95149a0b0cae4b31178eb4dcfdd74c99d414a1ef7afb80544d722f4a719a2"
+    },
+    "suite/plots/genoa-page_control-boxes-0-provenance.json": {
+      "bytes": 3830,
+      "sha256": "564283f4ab6c04dd2956f6fb6cabdf592dace53450f41e5ec9fcbc0435487286"
+    },
+    "suite/plots/genoa-capacity.png": {
+      "bytes": 73607,
+      "sha256": "3ddfc0645a14806eb255499078c6d024689bb97e38622e49c8420855d147552a"
+    },
+    "suite/plots/icelake_8358-latency-provenance.json": {
+      "bytes": 1036,
+      "sha256": "1018df037d3a570ae067cd5460e39a44fe68aaddd9299bc615db860385b7f7c2"
+    },
+    "suite/plots/genoa-page_control-provenance.json": {
+      "bytes": 3515,
+      "sha256": "63c7dd9eca99b3fbf356371122cb7f42471b383f85cd0bf9d5276727213e2618"
+    },
+    "suite/plots/icelake_8358-loop-provenance.json": {
+      "bytes": 738,
+      "sha256": "eb1db19bae96576c2a5f62ddbdfe4210a246b7451db7a881f6324aa10baec01a"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-1.svg": {
+      "bytes": 40785,
+      "sha256": "bfd91931421b32abe934dd0f3a80864204e605e10424f09c77a8f4fb7beb4eab"
+    },
+    "suite/plots/cascadelake-latency-provenance.json": {
+      "bytes": 1322,
+      "sha256": "e98f20d63558ddcbe01573fb516a0374edf5f161ccf7af390fbb25915fe6e781"
+    },
+    "suite/plots/icelake_8358-latency.pdf": {
+      "bytes": 15613,
+      "sha256": "f9b6eed419cfb55913004b380f4f52743bc0afa856f0a5c881454446238091a9"
+    },
+    "suite/plots/cascadelake-capacity-boxes-2.svg": {
+      "bytes": 41008,
+      "sha256": "4617c3a20cdcf9a551e461776ecd05aebb559cfa66f0268c4afadd30325a600a"
+    },
+    "suite/plots/genoa-capacity-boxes-6.pdf": {
+      "bytes": 19396,
+      "sha256": "d595575a67ce93139214cd036f95710987afe5aef1dc8bf12b0f874f21148468"
+    },
+    "suite/plots/haswell-capacity-boxes-5-provenance.json": {
+      "bytes": 6518,
+      "sha256": "4c200c7bc50f4cd08d235646e966d8e39808a7ef5e3b3e576a41abed2eb04c3c"
+    },
+    "suite/plots/genoa-boundary-distributions.pdf": {
+      "bytes": 18267,
+      "sha256": "0e5025b94ae21cba4d7ae0ea80069add84a75b7b2a564aa1779afe06a6d71ee8"
+    },
+    "suite/plots/cascadelake-page-control.png": {
+      "bytes": 97027,
+      "sha256": "aeab659ae430480d16cd596374fde179d7552db88730eb00728f3afa4018c492"
+    },
+    "suite/plots/cascadelake-associativity-boxes-1.pdf": {
+      "bytes": 17829,
+      "sha256": "1cdeb82a6842b325e406c7348b713322f3637eaae4dc3fb68933e243ee9049d4"
+    },
+    "suite/plots/cascadelake-associativity-boxes-5.svg": {
+      "bytes": 9814,
+      "sha256": "ef88b2fb75264639ddf232cbc2ecbf195072afbf1d5e7f8b5f3d577ff2f1786a"
+    },
+    "suite/plots/haswell-inclusion_policy-boxes-1-provenance.json": {
+      "bytes": 4501,
+      "sha256": "d9aa60a8c9f3459f956995ac1efc08a560491ab7d9d3e1fba022d1d7550ac8d4"
+    },
+    "suite/plots/all-hosts-capacity-ns-provenance.json": {
+      "bytes": 130184,
+      "sha256": "9acb8dcb5ed75eec48234221a9ac981f563ba4bc3ac45d2845a2c34a8066a8f7"
+    },
+    "suite/plots/turin-inclusion_policy-boxes-0.pdf": {
+      "bytes": 17547,
+      "sha256": "ac19e95838060357dcff5627f3bf5bd5897ff556142f5138027f58223ef4830a"
+    },
+    "suite/plots/genoa-capacity-boxes-3.svg": {
+      "bytes": 41056,
+      "sha256": "6f2b41f5b4709cc3921933f5013f5fdb519767aa5446b5af945757dc4f3ec9ed"
+    },
+    "suite/plots/genoa-latency-boxes-0.pdf": {
+      "bytes": 16334,
+      "sha256": "f93654814ff6b1bf029c38ce8de330f2723547fd3478bff02c99763acb3b9f10"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-4-provenance.json": {
+      "bytes": 7022,
+      "sha256": "e49604a301b9d5937d792b0bd5d9b1b356d5dac71bc45341925b2c7e56472f86"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-5-provenance.json": {
+      "bytes": 6826,
+      "sha256": "102d5f3e5772a00f188436477812bb9d02ff8faae57eabaf1aeacb87c207aa84"
+    },
+    "suite/plots/cascadelake-associativity-boxes-2.svg": {
+      "bytes": 41852,
+      "sha256": "83525e623a9dd1998e38d62c89b94f256358b6562fb9fa34d68cf2fde3b113ab"
+    },
+    "suite/plots/turin-associativity.svg": {
+      "bytes": 34305,
+      "sha256": "9a6d59eafd236bec8777963f71a99f755d2f0e69c108742b7fc3c94d4529a47f"
+    },
+    "suite/plots/icelake_8358-line_size.png": {
+      "bytes": 86805,
+      "sha256": "ef27c759083d80412a1569ccc0ea662883f636aa2bc45ce296509666786e00cd"
+    },
+    "suite/plots/icelake_8358-boundary-distributions.png": {
+      "bytes": 80677,
+      "sha256": "e172863f6f2d3bcfad14acbd02e10a01257a99a74296725f5f0b0c9f0437a75b"
+    },
+    "suite/plots/cascadelake-boundary-distributions-provenance.json": {
+      "bytes": 2701,
+      "sha256": "e3493af4bba1b2208b0f6b64a3ff5ef3ec82661231e324c0abd7f0b0322379f5"
+    },
+    "suite/plots/icelake_8358-software_metric-boxes-0-provenance.json": {
+      "bytes": 1242,
+      "sha256": "f50a77753e251156f0014028cdb841cd45974bad8eef591b15b7923e0840cdf0"
+    },
+    "suite/plots/cascadelake-line_size-boxes-0.pdf": {
+      "bytes": 18531,
+      "sha256": "0a4b183ff78b2e1593295f90e386ed94889642b4d66093c19c35d310f17dd9e1"
+    },
+    "suite/plots/genoa-capacity-boxes-1.svg": {
+      "bytes": 40472,
+      "sha256": "8467e64516104976ed502c74438ded0d93253a1372819de82ca749b5f366a0fa"
+    },
+    "suite/plots/turin-loop-provenance.json": {
+      "bytes": 724,
+      "sha256": "076f1fbce8d1226ec823365a802a1d21bc3b7dfc76c7c4b32665049f834d96b7"
+    },
+    "suite/plots/haswell-capacity.svg": {
+      "bytes": 41230,
+      "sha256": "52121511933d227847d3c1bbc763f38af8b3856d5ea7bead174ae8f69af8ec0d"
+    },
+    "suite/plots/turin-line_size-boxes-1.svg": {
+      "bytes": 41374,
+      "sha256": "918e827b46c77e0da6035665482d4ba18facd2cfefceb9ffd66370a9a7d9edbe"
+    },
+    "suite/plots/icelake_8358-loop-boxes-0-provenance.json": {
+      "bytes": 474,
+      "sha256": "9c908898158b969966b591be23209015bb3211f61a24bfff003af222ff56bb83"
+    },
+    "suite/plots/genoa-capacity-boxes-2.pdf": {
+      "bytes": 19435,
+      "sha256": "5a10c770eb24f4fc09e6821a7dc1a32225bce50daecc630d63845dfac97b4f41"
+    },
+    "suite/plots/cascadelake-timer-boxes-0-provenance.json": {
+      "bytes": 474,
+      "sha256": "e2e523d6404031384534ac65f6a7606ae095337216456add1b02e677b753bfb0"
+    },
+    "suite/plots/haswell-associativity-boxes-0-provenance.json": {
+      "bytes": 6473,
+      "sha256": "924e137b5db46023f881cd16771e33675d79b26a64acd3492142599f620c4509"
+    },
+    "suite/plots/turin-loop.pdf": {
+      "bytes": 15409,
+      "sha256": "1f8971742d2d6ce9efd12d00d96775478e73d8b6766dac9b6c1050d63648cf08"
+    },
+    "suite/plots/turin-associativity-boxes-3-provenance.json": {
+      "bytes": 6426,
+      "sha256": "2dfb8bc352567ed00ca0b7d7cbff7dfc48562ff5a4bc6483cf3435a5dc209d2c"
+    },
+    "suite/plots/haswell-inclusion_policy-boxes-0-provenance.json": {
+      "bytes": 6637,
+      "sha256": "dc51cbd912550f6fa0386b569a0bec7871112a589fa5e8579613798263d2ea8e"
+    },
+    "suite/plots/genoa-capacity-boxes-5.svg": {
+      "bytes": 40998,
+      "sha256": "54052bceb96a676afc0f044e0a0b25218f71905100f5c4cdc9a868f1b460322a"
+    },
+    "suite/plots/cascadelake-inclusion_policy-boxes-0-provenance.json": {
+      "bytes": 6784,
+      "sha256": "10b6e7db53e70511623a98ced12579bd1f67e61cb7a4c54c2fb8adff154d5579"
+    },
+    "suite/plots/cascadelake-loop.svg": {
+      "bytes": 12163,
+      "sha256": "5fa1aa012da069851090f08885cc2d20e526da4336736912811faa810f7655bf"
+    },
+    "suite/plots/icelake_8358-associativity-provenance.json": {
+      "bytes": 28995,
+      "sha256": "21046349a69adfd22aeda9f7bd58a9a5ac3c61a9b963d01b544ef3ae760f3e6d"
+    },
+    "suite/plots/haswell-associativity-boxes-3.svg": {
+      "bytes": 41733,
+      "sha256": "252020d05408ce06454e8c51644f89c2bc4d939f20bd42a5d71708c4ae7d26bc"
+    },
+    "suite/plots/icelake_8358-page_control-boxes-0-provenance.json": {
+      "bytes": 3940,
+      "sha256": "f06cb21a17eb4235907bebe2527d18bcb5c05bf841cd2201834db57f4dea7e26"
+    },
+    "suite/plots/haswell-inclusion_policy-boxes-0.pdf": {
+      "bytes": 17879,
+      "sha256": "9865febe380682950c3994b71d493ea30392f33aa9500ccc7f4cc76e7a91c6aa"
+    },
+    "suite/plots/genoa-loop.pdf": {
+      "bytes": 15092,
+      "sha256": "d350ad24ac51cd73991a52cf8f7f2928f60d83ebaf3ccf074a7b3780b96b2869"
+    },
+    "suite/plots/cascadelake-associativity-boxes-4.svg": {
+      "bytes": 42255,
+      "sha256": "2d4a8c1bcdfd3676742309189ea8c451a421025142eca65bdfccc3147909629e"
+    },
+    "suite/plots/genoa-timer-boxes-0-provenance.json": {
+      "bytes": 462,
+      "sha256": "cfa0cdbed839bd96e9d735116dd9883c628f32a5462ef47b0f284a6296e4150a"
+    },
+    "suite/plots/turin-timer-boxes-0-provenance.json": {
+      "bytes": 462,
+      "sha256": "d571321bb16aa693237eaa69d1b3bff47914431de804e8d57a8ae866443e36bd"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-1.svg": {
+      "bytes": 40973,
+      "sha256": "c3005837f0b0166859f61221b443f9738d4fd6d7b67b4ea34eaff48217d292ca"
+    },
+    "suite/plots/cascadelake-timer.pdf": {
+      "bytes": 15215,
+      "sha256": "3daecebf66363371db1d7293b310eb4f11fae5a36c35545fd74bd9b5557e1721"
+    },
+    "suite/plots/genoa-associativity.svg": {
+      "bytes": 32257,
+      "sha256": "3c468b728d500d37bd5c1fc76695864533adefc09d51da849c9aefeb9f44d4a7"
+    },
+    "suite/plots/icelake_8358-capacity.svg": {
+      "bytes": 37659,
+      "sha256": "8d2165f3eddd430bef4d2efd517363950476085181b8f8072720cf47ed5e29f8"
+    },
+    "suite/plots/cascadelake-inclusion_policy.svg": {
+      "bytes": 18394,
+      "sha256": "e168ca9cd630666dafc9430abd53e0a80fe3a09eebbd6e9476803c46a20b2192"
+    },
+    "suite/plots/icelake_8358-page-control-provenance.json": {
+      "bytes": 22805,
+      "sha256": "5c3d67a147ffda90debab3af5d87b4a1f6eb556863f6f55cbcbcf8f4f38e1935"
+    },
+    "suite/plots/cascadelake-inclusion_policy.pdf": {
+      "bytes": 15607,
+      "sha256": "99b09c0ff5b9bde0ad6d84a2731b7b744e852e4decd169d14a307408a9de2804"
+    },
+    "suite/plots/cascadelake-line_size-boxes-1.pdf": {
+      "bytes": 18640,
+      "sha256": "75bb3cbacfabcdee118b67927c7deeae1ef8674ddcedda1114d89ac4a383a34a"
+    },
+    "suite/plots/turin-timer.png": {
+      "bytes": 41849,
+      "sha256": "b160d82e568b2cc770e10ba59ce005d044a2ab7845ddf1af1a73e729c24e4a3d"
+    },
+    "suite/plots/icelake_8358-loop.png": {
+      "bytes": 49793,
+      "sha256": "980efed636bf08c01be72cf4f4d8499d04dd9066a1b4a7cbb713ca6b05e759d3"
+    },
+    "suite/plots/genoa-associativity-boxes-1.svg": {
+      "bytes": 41391,
+      "sha256": "abe7843a6c6690dd381cf0dd81c2f3d5a2a5f391a0ddf65086bcdef42ce46a02"
+    },
+    "suite/plots/haswell-software_metric-provenance.json": {
+      "bytes": 1346,
+      "sha256": "cf9c3efd68136288a642ce55294662649a0a10946ab9f5ca0f869affeae6727c"
+    },
+    "suite/plots/icelake_8358-line_size-boxes-0-provenance.json": {
+      "bytes": 6558,
+      "sha256": "597f410bb3cd12ae7881af491d63c2c4a2388b2093492709b72820d8ad86d795"
+    },
+    "suite/plots/turin-software_metric.png": {
+      "bytes": 77608,
+      "sha256": "77a16ec3d06633766be7812f0dc045a6a08d46c3867202764036ce8d3cbaeb37"
+    },
+    "suite/plots/genoa-timer-boxes-0.svg": {
+      "bytes": 7812,
+      "sha256": "5fc880af7241c84b38a9545b9d37b7b24cfd24c1b0e41fa4f911051cc556526f"
+    },
+    "suite/plots/haswell-latency-boxes-0.svg": {
+      "bytes": 13288,
+      "sha256": "a98b5ed28fb57b4f7c4a8da049577aa0d19c806c13cfea3e3e202e3d1f7be9e4"
+    },
+    "suite/plots/genoa-inclusion_policy-boxes-0.svg": {
+      "bytes": 40909,
+      "sha256": "6c3f74093bbf1aaee1fc6952312982355186fabfadd1243e867855644d454134"
+    },
+    "suite/plots/turin-capacity-boxes-1.pdf": {
+      "bytes": 19393,
+      "sha256": "4a2cdc5dbd469bc7e8998a63b4be8f738e636fe33aa7482b50553d9e834ad81b"
+    },
+    "suite/plots/turin-capacity-boxes-2.svg": {
+      "bytes": 42010,
+      "sha256": "06b4621cbbfca2b40413dc885cc6c9218118e1117dfa833ea8f8824d873324c3"
+    },
+    "suite/plots/genoa-page-control.svg": {
+      "bytes": 15788,
+      "sha256": "bdf09e65d6f1157a60efde94ce693387d0ef7fbd9d911403c153ff51068c965a"
+    },
+    "suite/plots/haswell-software_metric-boxes-0-provenance.json": {
+      "bytes": 1212,
+      "sha256": "8f4a9f5b53b192edf85756aced9b7cb23bfdab924e362ae261abbfc8153c6422"
+    },
+    "suite/plots/genoa-page_control-boxes-0.pdf": {
+      "bytes": 18163,
+      "sha256": "0b706e91047de1b491a6e70c9a487b324f201d6ce97acec8240c0de210376699"
+    },
+    "suite/plots/cascadelake-capacity-boxes-1-provenance.json": {
+      "bytes": 6616,
+      "sha256": "d38b86313286671107e8e550912d42ce5b87b535cfa91fd7e4db94878980fb07"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-4.svg": {
+      "bytes": 40359,
+      "sha256": "ee0091530130858f07156ff59fb13ae934b1ad955db9ae40c95849452cbdb658"
+    },
+    "suite/plots/turin-page-control-provenance.json": {
+      "bytes": 22646,
+      "sha256": "d6fbd2a3fcb2d5848e1a3984e6092964cab60ea4740c55e5be5cda6dd3993c7c"
+    },
+    "suite/plots/cascadelake-capacity-boxes-4.pdf": {
+      "bytes": 19712,
+      "sha256": "b1e2f2812944db46901302ef15bd837a7aaedc09ebc3bd564444c15fa2367712"
+    },
+    "suite/plots/cascadelake-associativity.svg": {
+      "bytes": 34161,
+      "sha256": "13dc1b4aa28729feb7f85c5c0a0b29bfe5669e7c9fbd33d46a81d14e20a911a0"
+    },
+    "suite/plots/icelake_8358-page-control.pdf": {
+      "bytes": 18201,
+      "sha256": "df9799fa95b2e9198c5cf10f4db3df1979929d8252843eb3154883bbd442c2f3"
+    },
+    "suite/plots/genoa-timer.pdf": {
+      "bytes": 14895,
+      "sha256": "c6b9e1011a1b45f8c3d562edbfeec30985bdbcc98d8184ab8446337b5a7ee10f"
+    },
+    "suite/plots/haswell-line_size-boxes-1.svg": {
+      "bytes": 41828,
+      "sha256": "ddc0394c0137a4aa8fcbcdf1e6519261c2abf12c392c3db1b9b6222eb8463363"
+    },
+    "suite/plots/genoa-inclusion_policy.png": {
+      "bytes": 90407,
+      "sha256": "bb238889ab1f465a8363a0074397eefbcc1eb0fa0d4b66110bfe32d43b98f8b8"
+    },
+    "suite/plots/icelake_8358-page_control-boxes-0.svg": {
+      "bytes": 24848,
+      "sha256": "61adc548dc419b1df3f37cb85dfa39cd04ac79daca61c5fdfd236fd6c98fa285"
+    },
+    "suite/plots/genoa-associativity-boxes-2.svg": {
+      "bytes": 41735,
+      "sha256": "50ede56ecbe7e56a7152f13f2cfc5152aa48f36b0dca7ce0056eb5f47e943e33"
+    },
+    "suite/plots/icelake_8358-software_metric-boxes-0.svg": {
+      "bytes": 11729,
+      "sha256": "22e4a7b661b226dfc7cdf2fd0f4889751798cab7f46f2ca4eb87dcffb4ea62e2"
+    },
+    "suite/plots/genoa-capacity-boxes-6-provenance.json": {
+      "bytes": 6448,
+      "sha256": "6002d5e0edcfbeb4c89f4bed8cd391028f81ad1f343509333fec39748ec1967c"
+    },
+    "suite/plots/haswell-capacity-boxes-8-provenance.json": {
+      "bytes": 2266,
+      "sha256": "c4d7d899ba5f7734f6f11f2d79e94b0d51258fab8a01fbaf5b68fde501bf3c8b"
+    },
+    "suite/plots/cascadelake-associativity-boxes-1-provenance.json": {
+      "bytes": 6628,
+      "sha256": "70f683d86471d895cc15197ae892f7ff00f328ae215d5eddbfd1a66c91173e56"
+    },
+    "suite/plots/turin-line_size-boxes-1-provenance.json": {
+      "bytes": 6319,
+      "sha256": "8c76cb94df12530cfee75ce0d17ed8791d58e115794d34f1dfb525a14f0fd3f5"
+    },
+    "suite/plots/cascadelake-capacity-provenance.json": {
+      "bytes": 36145,
+      "sha256": "c4508a4706f8ad2494de1a819da46cbc78952d74c6f4015893af9a6dd75a4f1d"
+    },
+    "suite/plots/icelake_8358-associativity.svg": {
+      "bytes": 38456,
+      "sha256": "471795af0cf27afedd71cf83a2944c1722b88574f54d3af93240d958a61b99d2"
+    },
+    "suite/plots/haswell-loop.png": {
+      "bytes": 44128,
+      "sha256": "977a9e02e4e2f2b025c3c136625b331cc60b0ee1f71afa923918e16755748070"
+    },
+    "suite/plots/haswell-page_control-provenance.json": {
+      "bytes": 3532,
+      "sha256": "00c39872413bba48798d442ba64715cf826e79de10d56afbe15f48662d879665"
+    },
+    "suite/plots/turin-software_metric-boxes-0.pdf": {
+      "bytes": 15423,
+      "sha256": "30e164315902d7aee549570015d5d9e8314693a4bac96c5a0aae298aaa2d9ebd"
+    },
+    "suite/plots/haswell-capacity-boxes-4.svg": {
+      "bytes": 42037,
+      "sha256": "1213f03b0d20aa6d87dd07be498dd62cbcdb8472c9ce12f3e915505c21a78698"
+    },
+    "suite/plots/cascadelake-capacity-boxes-5.pdf": {
+      "bytes": 20055,
+      "sha256": "916b3c9bfb526bef8e96b20f77c91439791b6323d444cdcf5831a4a054bde875"
+    },
+    "suite/plots/turin-software_metric.svg": {
+      "bytes": 13533,
+      "sha256": "b913288d6f1eab8d81475d4b20433685c15e1372c270a69e379ad9c649da5385"
+    },
+    "suite/plots/haswell-line_size-boxes-0-provenance.json": {
+      "bytes": 6378,
+      "sha256": "df7353e7aba7253ced492521d847f19c81f557e602ab7952d1a05abf8e738314"
+    },
+    "suite/plots/turin-inclusion_policy-boxes-1.pdf": {
+      "bytes": 17191,
+      "sha256": "fcf229a0ad90c3394771d8d75954b4e027497f300749dd96fca77c9752dbef7a"
+    },
+    "suite/plots/haswell-capacity-boxes-6.pdf": {
+      "bytes": 19694,
+      "sha256": "de7fd0781c2b477c7a44c9e5b734f22475750c55acee9eed59080524c9db1046"
+    },
+    "suite/plots/cascadelake-boundary-distributions.pdf": {
+      "bytes": 18480,
+      "sha256": "3e19bd6a916cbff2a8ade5edcc66b527cde5100dc1f9f0efc832435b94136dc4"
+    },
+    "suite/plots/haswell-capacity-boxes-7-provenance.json": {
+      "bytes": 6532,
+      "sha256": "bec8b24e55cffda0b36f953cd7a064e51603ee25302c5469ce152f278407e1ec"
+    },
+    "suite/plots/haswell-timer.png": {
+      "bytes": 45167,
+      "sha256": "0e6efeaeedf8e8efb55932a3042c1c54d0c354b61610f93ef8ff567b67bfe7b4"
+    },
+    "suite/plots/cascadelake-line_size-boxes-1-provenance.json": {
+      "bytes": 6535,
+      "sha256": "33cd130fcd5b22bf90e3807d08d028325963e8c5597f5b958c6f18117419fdeb"
+    },
+    "suite/plots/turin-capacity.svg": {
+      "bytes": 44538,
+      "sha256": "9ab86c75d0ef5461c93c5e88df65b906707281e7add9dce3ca8178bb46c518f4"
+    },
+    "suite/plots/turin-inclusion_policy.pdf": {
+      "bytes": 15467,
+      "sha256": "91cc37c2a20292e077c4521f1760b97a58093c41c9b26e641af613cc8469a123"
+    },
+    "suite/plots/haswell-loop.pdf": {
+      "bytes": 15251,
+      "sha256": "4e271e4ca393c9d4def5ec3e1752404a28a7058901aeb4084aa90885cbb66edf"
+    },
+    "suite/plots/haswell-software_metric.svg": {
+      "bytes": 11968,
+      "sha256": "8899f2d395b23c7a2a4eaabdfce08c18f13488f0cc1c61a0c695a0189c846b60"
+    },
+    "suite/plots/icelake_8358-latency-boxes-0.pdf": {
+      "bytes": 15993,
+      "sha256": "0f6984d7eb5c5668509cb1564d69eb39a7cc9237622bfb58f8f66c0fca7c185f"
+    },
+    "suite/plots/haswell-associativity-boxes-3-provenance.json": {
+      "bytes": 6498,
+      "sha256": "8541e8c80c886ac8a181777cc3a062c8bdcf0a5977bf5aaa3524ce1ee6e43e07"
+    },
+    "suite/plots/cascadelake-associativity-boxes-2.pdf": {
+      "bytes": 17971,
+      "sha256": "305e4cf2169fcebabaadf5c0edd40bb5c9956595f8cfddf82b239a18501425c1"
+    },
+    "suite/plots/turin-software_metric-boxes-0-provenance.json": {
+      "bytes": 1200,
+      "sha256": "7f5322cd2204efa0e2e712fd85d7a335a7631c8021af441a1e7cfa11098bd8ba"
+    },
+    "suite/plots/haswell-page_control-boxes-0-provenance.json": {
+      "bytes": 3840,
+      "sha256": "c4397b11bde9464fb8689700af1de1ac7d4c46ddeb30e50d204f9fddc9492680"
+    },
+    "suite/plots/haswell-inclusion_policy.svg": {
+      "bytes": 19479,
+      "sha256": "783e082c45de4ae49d90fe7aa9c7405076a7fcd6c9cd23e0089c3121a2ec532c"
+    },
+    "suite/plots/turin-capacity-boxes-3.svg": {
+      "bytes": 41516,
+      "sha256": "f3f8e3719904e2098a76155d37792220443ffff47d3ad978b5211d7ecb88c82b"
+    },
+    "suite/plots/turin-loop-boxes-0.pdf": {
+      "bytes": 14663,
+      "sha256": "ae07e171ef9424e952730964e8eeb3d3a655b30574c5610dd2430f65880a22dd"
+    },
+    "suite/plots/turin-page-control.png": {
+      "bytes": 81211,
+      "sha256": "e4e0aaf30e81acc47e6428a4e2bf5d689c639844802935ba01d8933057835b1d"
+    },
+    "suite/plots/haswell-loop.svg": {
+      "bytes": 11643,
+      "sha256": "04a6a616b3866a5654f0a9aed86854f20851e6e850f01cd0f0c9b100961f5b18"
+    },
+    "suite/plots/turin-latency-provenance.json": {
+      "bytes": 1286,
+      "sha256": "076dad3b3cbb969b9aaae6be53be35c31380909c124a736403b7ac54d22aeb28"
+    },
+    "suite/plots/genoa-latency.pdf": {
+      "bytes": 15909,
+      "sha256": "553a8d2f0a5df3be7ef5779b7955b637e42a3ad16b63bae5fdbe9d35d092bb49"
+    },
+    "suite/plots/cascadelake-associativity-boxes-2-provenance.json": {
+      "bytes": 6638,
+      "sha256": "13c2bfc4c9709a9757e20838da21f7a98595dc9d4237354ef02e9b808e09b576"
+    },
+    "suite/plots/genoa-associativity-boxes-3-provenance.json": {
+      "bytes": 6426,
+      "sha256": "2e98f0e383e2e67ac506e89951e955e12bb38640e5cb6034a213b40b2bbcb075"
+    },
+    "suite/plots/turin-capacity-boxes-4.pdf": {
+      "bytes": 19453,
+      "sha256": "f7ee9b9675d6e60f5f682fae74b0de5d4d98c96bf703ab3efbb5ce9151ccd999"
+    },
+    "suite/plots/genoa-capacity-boxes-7-provenance.json": {
+      "bytes": 6484,
+      "sha256": "45286b101abac06d859044843ef325abb4f80569ab989c1ccc0616e8916ad902"
+    },
+    "suite/plots/haswell-capacity-boxes-3-provenance.json": {
+      "bytes": 6490,
+      "sha256": "31c053d1a5395ae4dd0f8c3e3b136cb31758c97bf55b74ee067f17d7d0153931"
+    },
+    "suite/plots/turin-capacity-boxes-2.pdf": {
+      "bytes": 19447,
+      "sha256": "0dc4f3e0102745ee9ca9801c5de9ec587ffddc343a62c15b0e36ed92b0d40362"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-5-provenance.json": {
+      "bytes": 887,
+      "sha256": "4e0e64954b4d5f5ea0b1fb713ba0d4867a05348a163bd983d78030ee5bfd7a4d"
+    },
+    "suite/plots/icelake_8358-capacity-boxes-0-provenance.json": {
+      "bytes": 6644,
+      "sha256": "55b237136ce3bd51d9501bc853527947341dbc382fc24a31d98aea779690701a"
+    },
+    "suite/plots/cascadelake-page_control.png": {
+      "bytes": 82547,
+      "sha256": "7bc47c3eb362a7aad42933e265f6dc4fcf9174dcad231f2064828fcaec9b8a49"
+    },
+    "suite/plots/cascadelake-inclusion_policy-boxes-0.pdf": {
+      "bytes": 17804,
+      "sha256": "215fce8e19fc64f824567201d895a848c4ec8a6ee3799571bc3e069b01519d59"
+    },
+    "suite/plots/turin-associativity-provenance.json": {
+      "bytes": 27132,
+      "sha256": "1b16abae5f12f20d5cbb52770369fab8f720b1fccaf963d7adf2b19bfc2a6773"
+    },
+    "suite/plots/haswell-capacity-boxes-2-provenance.json": {
+      "bytes": 6490,
+      "sha256": "cf0f72c2f569f14b3586283728738dc1f8f549ec1d1141f5466e05a96dba3617"
+    },
+    "suite/plots/cascadelake-line_size-boxes-0.svg": {
+      "bytes": 40259,
+      "sha256": "e332e84e35e610674ddc0690ba11562e90496cad113e01e4d26457f26d735ac1"
+    },
+    "suite/plots/haswell-associativity-boxes-5.pdf": {
+      "bytes": 15046,
+      "sha256": "1c2015533baa95f4fcf7002ceef834ec3454921c0d6f4b954c39b5e21ba1c664"
+    },
+    "suite/plots/turin-associativity-boxes-1-provenance.json": {
+      "bytes": 6412,
+      "sha256": "417dcacb25455a7cfb648b6f6179e2c691f02613f5afc380e6098ab0acfb21ad"
+    },
+    "suite/plots/turin-loop-boxes-0-provenance.json": {
+      "bytes": 460,
+      "sha256": "1e6cdaba1e4cede0e9e44a1f329c709a5243caa2f7ac670456b4a7d40d4b9953"
+    },
+    "suite/plots/turin-capacity-boxes-8.pdf": {
+      "bytes": 19521,
+      "sha256": "d5e5cb5c7dac2ca9aa7eef9a1d3517698687959d6dd584eb0dbd021807c3c73f"
+    },
+    "suite/plots/haswell-page_control.png": {
+      "bytes": 65479,
+      "sha256": "19e4e7e56b78581036b83dda887ea8a5a7a61d1fe0335b0e99af47b46b2c2a90"
+    },
+    "suite/plots/all-hosts-capacity-ns.svg": {
+      "bytes": 86163,
+      "sha256": "aa486dfd0bc92851b84e028b2e4012c5801fdc29735cacd97c392f92e25c16c5"
+    },
+    "suite/plots/cascadelake-software_metric-boxes-0-provenance.json": {
+      "bytes": 1236,
+      "sha256": "c9d7697ed66aa25247097e9ca31ff109a5d26ad7457e46bff205974942dbc594"
+    },
+    "suite/plots/turin-page-control.svg": {
+      "bytes": 15932,
+      "sha256": "270556d27be167622a3f489e7224c4104fedec7bd010318f98c04be6fc6a2864"
+    },
+    "suite/plots/cascadelake-associativity-boxes-0-provenance.json": {
+      "bytes": 6617,
+      "sha256": "2e314b7459e22dc1d656dd2eab4df6bb23d5d227bbe367c0da2ce25f7e7d1e50"
+    },
+    "suite/plots/genoa-line_size-boxes-2.svg": {
+      "bytes": 25322,
+      "sha256": "4776fc97ea2d2a11875a8d5aac5eb3cd748af56f325fe049dd754cf026068da1"
+    },
+    "suite/plots/genoa-software_metric-boxes-0-provenance.json": {
+      "bytes": 1200,
+      "sha256": "6b0b94f64dd355c3a30de5afd8c6a335256c68e38a694fcd70102233aca3943f"
+    },
+    "suite/plots/icelake_8358-associativity-boxes-4.pdf": {
+      "bytes": 18016,
+      "sha256": "91fc3ee3ffecc31b0724b7972082552eacf17c4547052d0a9466c8ab0fef7430"
+    },
+    "suite/plots/cascadelake-latency-boxes-0-provenance.json": {
+      "bytes": 1177,
+      "sha256": "323227a29d6830d34b6d984e63fb19d9addfe0a657c91a4e7082bae54f8b2572"
+    },
+    "suite/plots/cascadelake-timer-boxes-0.pdf": {
+      "bytes": 14721,
+      "sha256": "e7084e3db20175e7f749b369c358cfd4a8cbc99f332fd16b39006783397bf4e3"
+    },
+    "suite/plots/independent-load/distributions.pdf": {
+      "bytes": 22258,
+      "sha256": "8ac1d68f695b246f4601aae30882c03bf919bf79868df75b4178a26cec461b6d"
+    },
+    "suite/plots/independent-load/provenance.json": {
+      "bytes": 7758,
+      "sha256": "a7d94fea1493396b8b3384b13ba358210303d7e3be2764dc6df14832db736aa0"
+    },
+    "suite/plots/independent-load/distributions.svg": {
+      "bytes": 169081,
+      "sha256": "024b3a1e5e8cee385be126dcdd5a099f12d3479c0b5980c507348552c4655701"
+    },
+    "suite/plots/followup/haswell-empirical-conflicts.pdf": {
+      "bytes": 20246,
+      "sha256": "fae40084eaef42975f299db062ae6e971732d32966ce7232d37ee1e0dd2d7eca"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-3.svg": {
+      "bytes": 119346,
+      "sha256": "613414d65b78cd4e986a01afa6e709568b0b58305f48c010d1bd5632514fa81f"
+    },
+    "suite/plots/followup/genoa-l2-controlled-conflicts.png": {
+      "bytes": 149962,
+      "sha256": "3ee716e09fc07cfe817b932ef112b9d9374732745c1f4744a39e2f9cfad0955d"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-4.provenance.json": {
+      "bytes": 3664,
+      "sha256": "0ad001f433cd3e51c779b90bc9d37b858037529c77e6584fe1da5fc4c522a2bf"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-1.svg": {
+      "bytes": 254175,
+      "sha256": "f85da3409e42d614a15428f3456c2a2dbc908180dba347bbfa900115f8d9b09d"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-4.pdf": {
+      "bytes": 19794,
+      "sha256": "39d05649197f12ba606fe9dd61b55bd53c72d7c93d2cfee5857f63f8f6f8f8f9"
+    },
+    "suite/plots/followup/genoa-empirical-heldout-boxes-1.pdf": {
+      "bytes": 19363,
+      "sha256": "d08f05359b51fe0ea3268931e365fd21a16d06fce1c992ca4c26d03b2a4eebd1"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-1.pdf": {
+      "bytes": 19810,
+      "sha256": "cd776c3ce08ce9949e91082b395199f88f4bd0efe82a0dfc23aa5b20c9e6e92d"
+    },
+    "suite/plots/followup/icelake_8358-empirical-heldout-boxes-1.provenance.json": {
+      "bytes": 3799,
+      "sha256": "3d1cef4c90c55284c72c0bf01f7e692878dd8c32acb82909300b22f684325d3e"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-7.pdf": {
+      "bytes": 16372,
+      "sha256": "3caa84c5870673fe92f8c113761e6e2f45b9be3703392bf05b1f6f0b68c8f957"
+    },
+    "suite/plots/followup/icelake_8358-spatial-alignment.svg": {
+      "bytes": 65450,
+      "sha256": "bd92fe5d03d8755ac7f877d3a504230441c4831ffdccc468cbbe68fd6ec5e914"
+    },
+    "suite/plots/followup/genoa-empirical-conflicts.pdf": {
+      "bytes": 18999,
+      "sha256": "299d88989f45a43c9f0357a0c9f20d47aaed5426457159c0a0f4133af5678d14"
+    },
+    "suite/plots/followup/turin-confirmation-boxes-2.provenance.json": {
+      "bytes": 2341,
+      "sha256": "7ecc41edc07dbf4a154eedaf42c203f43b6e045dc16c691f283e8ff42c6342ed"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-2.provenance.json": {
+      "bytes": 3579,
+      "sha256": "700a19d906db6046517510a73b1a7184154fd703bc0d9ed5f61eded3dd2b7c5f"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-4.png": {
+      "bytes": 93966,
+      "sha256": "c027ec94f69a5a17b0b26f1bccf84ad0af19f8769d119247626fba1784a03a6d"
+    },
+    "suite/plots/followup/haswell-latency-classes.svg": {
+      "bytes": 61319,
+      "sha256": "73ba7d4df62b5474364df325fdf1ffa00ba3335ecec006f61edbf3afa4bf4997"
+    },
+    "suite/plots/followup/cascadelake-cross-core-reload.png": {
+      "bytes": 53596,
+      "sha256": "f868ccccf9024271ef48f78d8e371bc369427a73863968cbe1b77d05bc46c7e6"
+    },
+    "suite/plots/followup/genoa-confirmation-boxes-1.pdf": {
+      "bytes": 18906,
+      "sha256": "9787dd4ba51ccb8aea985a497821b977d1fc78d15ac3339fa99678c1a73b1630"
+    },
+    "suite/plots/followup/cascadelake-upper-saturation-boxes-1.pdf": {
+      "bytes": 17576,
+      "sha256": "3284a192d905df6b8bb37731e2ef6567d7d48cf233964bd1b2d41cc31efcf460"
+    },
+    "suite/plots/followup/genoa-spatial-alignment.png": {
+      "bytes": 139979,
+      "sha256": "4b40fc27101103dc04c6424e3a9794c9fdbb84ac15ea0d88d8057f48e90b81b4"
+    },
+    "suite/plots/followup/icelake_8358-upper-saturation-boxes-1.provenance.json": {
+      "bytes": 2450,
+      "sha256": "e1183d5148479a40c7e258a157653083e96ba276aa990d2132bd35119391704b"
+    },
+    "suite/plots/followup/icelake_8358-cross-core-reload.provenance.json": {
+      "bytes": 3163,
+      "sha256": "ccd86c36195fdd9602fbd541aa9e3a8db2e562dd55862f041a8bc7f2945ce415"
+    },
+    "suite/plots/followup/icelake_8358-capacity-boxes-1.png": {
+      "bytes": 118972,
+      "sha256": "a70fd5484a7eb9948a3596dba72b05c52a91fd3efbea283d0d13b909d754c2b8"
+    },
+    "suite/plots/followup/haswell-capacity-controls.pdf": {
+      "bytes": 21809,
+      "sha256": "5a7772b626c53b28470913cfeff5e0a0560c8ba5281a462039c31f53a03a4449"
+    },
+    "suite/plots/followup/turin-empirical-heldout-boxes-1.pdf": {
+      "bytes": 18189,
+      "sha256": "38150fe0dafd225dda7bf2c48dfe1d3acd0fc9ca14f38ffe36b9b6012b361548"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-4.pdf": {
+      "bytes": 18580,
+      "sha256": "b2fa7dd073dc11e24b36ba6d2035c1cab1ec87ceb56ae96059b0141402fc80a1"
+    },
+    "suite/plots/followup/haswell-capacity-boxes-1.pdf": {
+      "bytes": 20891,
+      "sha256": "1090448331699036752043efeef5856daed77d2378b473d380e3915d3fa5874f"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-5.svg": {
+      "bytes": 122718,
+      "sha256": "7a8196b40b1c6f626dc1fabca3ac80ea7c3a1fd47ac5c45bcef702bf52eb8d51"
+    },
+    "suite/plots/followup/icelake_8358-l2-controlled-conflicts.provenance.json": {
+      "bytes": 19437,
+      "sha256": "371e83a4d5af289562e50fe1308e976d28e2b0715342275e19c9b52e299c77f9"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-2.pdf": {
+      "bytes": 18601,
+      "sha256": "373cbac6e946a340bb02826b114f4c5d5933120e72e12c0bde71f0ab1af2e519"
+    },
+    "suite/plots/followup/genoa-capacity-boxes-2.svg": {
+      "bytes": 73491,
+      "sha256": "a7c5eb254e2d1269bf8b0e34626247b0f589746aae51e48b1980e0ea08a49c8f"
+    },
+    "suite/plots/followup/cascadelake-l2-controlled-conflicts.svg": {
+      "bytes": 77647,
+      "sha256": "2b390cbde822cdb36e135b7b301d0fc9d9a9696200a6a6839975960d83d4a3f3"
+    },
+    "suite/plots/followup/icelake_8358-latency-classes.pdf": {
+      "bytes": 17521,
+      "sha256": "5a729f9ac9eb16479395570139770d6072f561e7017e4d1c9cfba2671526026b"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-6.pdf": {
+      "bytes": 19428,
+      "sha256": "78f186f41d8d92d1dff85402db68a6b2e18c3da86c2f033d652ce17596041dfb"
+    },
+    "suite/plots/followup/icelake_8358-capacity-boxes-2.provenance.json": {
+      "bytes": 1069,
+      "sha256": "3c36fe169e5b0eda5f83bc18bbba904e8da6869561186deaafdc51e52b98f515"
+    },
+    "suite/plots/followup/icelake_8358-empirical-conflicts.provenance.json": {
+      "bytes": 27853,
+      "sha256": "f173e24b9860fa3f92974ec95ab1027f230291a062fafa044f5f103c46027420"
+    },
+    "suite/plots/followup/haswell-empirical-conflicts.svg": {
+      "bytes": 75666,
+      "sha256": "aa0a4eb3097cea5ff9257cfd635ddabbb6ca45caa544fb4ddc82e70b70126403"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-1.pdf": {
+      "bytes": 26965,
+      "sha256": "e0c748bf60d4a62aa0cc0a87558ac15deb5dd943d0eddb73c79bfba2bda2c5b9"
+    },
+    "suite/plots/followup/haswell-empirical-heldout-boxes-1.png": {
+      "bytes": 100051,
+      "sha256": "a3b00a35745779eb11c759cbd8ab972278e1929f914f525128c741e41142c620"
+    },
+    "suite/plots/followup/genoa-latency-classes.svg": {
+      "bytes": 60645,
+      "sha256": "2fb50394e908017b5a9b40a48cce1b2a586ad3a5bf7369c9164c285e11c854bc"
+    },
+    "suite/plots/followup/icelake_8358-upper-saturation-boxes-1.png": {
+      "bytes": 80080,
+      "sha256": "03b06934302129ccbd1ae68a02fc5d3c46b97c5988a9d0fe609a1abfef568f16"
+    },
+    "suite/plots/followup/haswell-spatial-alignment.pdf": {
+      "bytes": 20649,
+      "sha256": "1014c1bc05f538ac387f75ff58434c1df6bee689a2faa011b78a1ecf11fffb40"
+    },
+    "suite/plots/followup/genoa-empirical-conflicts.provenance.json": {
+      "bytes": 23919,
+      "sha256": "ac41b9d7671650cf009846778826d717c40f8caec4e27dbef4e7c4bb841d172a"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-6.provenance.json": {
+      "bytes": 1469,
+      "sha256": "227e02c8531a3e70954c84edeb63703b1cd60432741a5a66667a0b34053b3f11"
+    },
+    "suite/plots/followup/cascadelake-empirical-heldout-boxes-1.png": {
+      "bytes": 77867,
+      "sha256": "44bee790c681ca80ba4c3441a98cdd5cc5cbb968a8cba77ef93ab87a1b8a5dde"
+    },
+    "suite/plots/followup/turin-confirmation-boxes-2.pdf": {
+      "bytes": 18392,
+      "sha256": "26cef6023b7e61d3636abc31b325a5d4b4da4ae972f78a326ffea120b509b603"
+    },
+    "suite/plots/followup/genoa-confirmation-boxes-1.provenance.json": {
+      "bytes": 2341,
+      "sha256": "35c942c8305cccf51a3abf0946e4acced9c2be75d0e480a60fdb9930aa52c83a"
+    },
+    "suite/plots/followup/genoa-l2-controlled-conflicts.svg": {
+      "bytes": 71637,
+      "sha256": "a447a09b48f5899f99aea8670ff71b7e4c45a938943b11b7f6a5c8f712770fdf"
+    },
+    "suite/plots/followup/haswell-latency-classes.pdf": {
+      "bytes": 17696,
+      "sha256": "7b93593beaebf8330062df04ac41b478f42bf7ae0dbb50250353364a307d60af"
+    },
+    "suite/plots/followup/genoa-cross-core-reload.pdf": {
+      "bytes": 17419,
+      "sha256": "7951c334c670dd289ca25583b7c677c26a1ac0d4a81ab510bf94c1acad2c33a5"
+    },
+    "suite/plots/followup/cascadelake-empirical-heldout-boxes-1.pdf": {
+      "bytes": 18578,
+      "sha256": "225e9fc5457e8f879318aa0a0e6bdcb446b5e2c5f6aaa19fd914c0d8fa610fff"
+    },
+    "suite/plots/followup/turin-upper-saturation-boxes-1.png": {
+      "bytes": 74413,
+      "sha256": "1455fab4089477ee5565d41e7afbda5e5c4e80a6bcb0d6227e015b490c0095f9"
+    },
+    "suite/plots/followup/turin-capacity-boxes-1.svg": {
+      "bytes": 99376,
+      "sha256": "fa224b67fd661b8b0852fa4d10a7de7fd724cbac995e9cc0d67732df60ff4598"
+    },
+    "suite/plots/followup/genoa-cross-core-reload.provenance.json": {
+      "bytes": 2995,
+      "sha256": "85c0cf12a255dcdcb6c223fa686acd06ad5ed77592115f43f53bbc160d4df889"
+    },
+    "suite/plots/followup/icelake_8358-latency-classes.provenance.json": {
+      "bytes": 1387,
+      "sha256": "784c4d37623950934b008fe74427feb3fc1e295d0b0c715a8be37ea0db124dd4"
+    },
+    "suite/plots/followup/haswell-upper-saturation-boxes-1.svg": {
+      "bytes": 85496,
+      "sha256": "15e804ccf719a83a0b7a7c967a1b6c9b9ef2ed57b42ff36a2890228708f28f76"
+    },
+    "suite/plots/followup/turin-l2-heldout-boxes-1.provenance.json": {
+      "bytes": 3449,
+      "sha256": "787c4309d8f93f7a53d96104c90911833834ad7f301c4e36dc4e45f0e6710bc3"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-3.provenance.json": {
+      "bytes": 2467,
+      "sha256": "7b9b10720aacc2a327071f5dbcf2e8ba18f20d3e188979590bc0631ef5d60440"
+    },
+    "suite/plots/followup/genoa-empirical-conflicts.svg": {
+      "bytes": 77434,
+      "sha256": "592a0d6c6fe31fd7cb82b3fb6e796887825620b3323319baf2108c6c323946aa"
+    },
+    "suite/plots/followup/turin-confirmation-boxes-2.svg": {
+      "bytes": 89157,
+      "sha256": "0017070317b26c6980d4170cbd24642fe8a3508d5b0199a304e1d42fd5b30d95"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-4.pdf": {
+      "bytes": 18865,
+      "sha256": "fd29a446b13362000f9c823093d889859e32f30ccc6590a81738ff4d3fd065ef"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-4.png": {
+      "bytes": 82971,
+      "sha256": "4182f78e1c8ad6cc86fbc17bd1335ef2fa602c790b871c1f99a54014ecafcbd6"
+    },
+    "suite/plots/followup/turin-l2-controlled-conflicts.svg": {
+      "bytes": 78266,
+      "sha256": "259e2bbc2bf8b6ca76bb6b9c559b51fb5b9ade2227253354cc9ebcf6ab5706f1"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-1.pdf": {
+      "bytes": 18699,
+      "sha256": "a1535e9cf49a9e97d2ea0b00f4b870a9a862e78c7cae78c0b5a36d3992434554"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-3.pdf": {
+      "bytes": 18851,
+      "sha256": "32fe0def5a54abd14d2edc794b6c7fc22a4c4b7f2993dbdd4130f280bec44593"
+    },
+    "suite/plots/followup/haswell-empirical-conflicts.png": {
+      "bytes": 65068,
+      "sha256": "b12f2e5fd89640601a765ce8eaf968a262eb43c3091f2066cc2c543760b174b0"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-5.png": {
+      "bytes": 82386,
+      "sha256": "9e54359c70fce4909634196f7bfda364cb8bf5ac9791400e15cec689e6882f2c"
+    },
+    "suite/plots/followup/haswell-cross-core-reload.pdf": {
+      "bytes": 18529,
+      "sha256": "e07ddcc871dbe4ac26b6d47a69536bb99b206590192f946ea88a5c53bc9136d2"
+    },
+    "suite/plots/followup/genoa-latency-classes.provenance.json": {
+      "bytes": 1429,
+      "sha256": "a365f79e02065bd23f705e9d0f29731f20e7569a04f028a337af2e748eb1d9d2"
+    },
+    "suite/plots/followup/cascadelake-confirmation-boxes-1.svg": {
+      "bytes": 89408,
+      "sha256": "750ef7ab3a1050bd467cbaa8fd9dd4652c3d12b0f7258662873562f4675028d5"
+    },
+    "suite/plots/followup/haswell-confirmation-boxes-2.provenance.json": {
+      "bytes": 2377,
+      "sha256": "755fd3be220db547522ea9e4ee0d8fb1839f50a1faa0927477407ebf608d4f60"
+    },
+    "suite/plots/followup/haswell-confirmation-boxes-1.provenance.json": {
+      "bytes": 2377,
+      "sha256": "29f41fec7de3dafce0a2da36100072901bdfe881a474f690085cd8102021653f"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-4.png": {
+      "bytes": 92603,
+      "sha256": "d964ce1babc1851d5b6ca99cc0f2bac9f917a1917d669e765f055bef57b58ee7"
+    },
+    "suite/plots/followup/cascadelake-confirmation-boxes-3.provenance.json": {
+      "bytes": 724,
+      "sha256": "6f114ec57198a291f8ab59be14e9e7371bc02c19ea1eca3b18bd4b2e296ad919"
+    },
+    "suite/plots/followup/haswell-empirical-conflicts.provenance.json": {
+      "bytes": 22506,
+      "sha256": "49f13ff9988b7326dc8f018f77189658a51564768dd4b0b8c5e4552ec411c270"
+    },
+    "suite/plots/followup/haswell-cross-core-reload.provenance.json": {
+      "bytes": 3043,
+      "sha256": "48502765807e6ca7a29e0c03e85efbb1509bc9487f6eb320f3bb5d74d5b1384a"
+    },
+    "suite/plots/followup/genoa-confirmation-boxes-1.png": {
+      "bytes": 80447,
+      "sha256": "4642e49c0665118ca8792bdf797ee7a300194fe4635dc82ad2015b5f4c31274d"
+    },
+    "suite/plots/followup/genoa-l2-controlled-conflicts.pdf": {
+      "bytes": 21980,
+      "sha256": "f2e04c2e6f46dac76d84a630a67e3913c5efb74f2e971b0aea358443f1f491a7"
+    },
+    "suite/plots/followup/haswell-capacity-controls.svg": {
+      "bytes": 66470,
+      "sha256": "64df39f5956003fb76096701c4e6ea53e7a07f89480cd5c43c41eb893bdec594"
+    },
+    "suite/plots/followup/turin-upper-saturation-boxes-1.pdf": {
+      "bytes": 17442,
+      "sha256": "a5af0f2b84f46ca7ed5723152de808c941f5bdec1d7dfd64dab9490256ad9c6a"
+    },
+    "suite/plots/followup/turin-empirical-heldout-boxes-1.png": {
+      "bytes": 73461,
+      "sha256": "ba6013a42bf25d50fa35d4572689d4606247dd48b3b4567214ec8fa08af4be1f"
+    },
+    "suite/plots/followup/icelake_8358-capacity-controls.provenance.json": {
+      "bytes": 15043,
+      "sha256": "8de5f8d2a353d2fb1904029964924f97250738480e054c1e179c6dd0ba892d51"
+    },
+    "suite/plots/followup/haswell-capacity-boxes-1.svg": {
+      "bytes": 99291,
+      "sha256": "badf6a7f2b8f8a1eb867bedec82ae1debee1af1bd7c42d168d21518d44022aae"
+    },
+    "suite/plots/followup/cascadelake-l2-controlled-conflicts.pdf": {
+      "bytes": 22812,
+      "sha256": "a9fa160cf4bd55e74bd749e2a7f0f3c215aa0bd08cc80d9eaa5e85702a0a4ebe"
+    },
+    "suite/plots/followup/haswell-cross-core-reload.svg": {
+      "bytes": 94949,
+      "sha256": "aabd96c66ee04bd413ad6b5687b9378c36319cc8354c3973516059d39a31c3b8"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-4.pdf": {
+      "bytes": 19325,
+      "sha256": "5e7e300124e1dd5820e56e4c5cdc78f6b4969d5a69cbd95ed10e15d4087d7a15"
+    },
+    "suite/plots/followup/turin-l2-controlled-conflicts.pdf": {
+      "bytes": 23029,
+      "sha256": "fc980376e863dfb5dd7fc21d0e26af4036d0a4e898f093a95d4b7bca9a267d38"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-5.pdf": {
+      "bytes": 19467,
+      "sha256": "dc1d9fd6c05e586ad093100dd8e2f3862d144038529ceb0fb7ad658417b75a2a"
+    },
+    "suite/plots/followup/cascadelake-capacity-controls.svg": {
+      "bytes": 64421,
+      "sha256": "b2e78e018ba1e48ec80bd7931b080b90dc28e30b92ccb2419f829ed8db6ac185"
+    },
+    "suite/plots/followup/genoa-confirmation-boxes-2.provenance.json": {
+      "bytes": 2341,
+      "sha256": "da8d0ec5bda97d8b5310840f6d90fbbe3cf8a4fd04fb0b6597d54d305b13611b"
+    },
+    "suite/plots/followup/turin-spatial-alignment.svg": {
+      "bytes": 63993,
+      "sha256": "f71dd4ed79048f52789c55c69e600992f680e5494b8517bc6f24c698cb975fda"
+    },
+    "suite/plots/followup/icelake_8358-empirical-conflicts.png": {
+      "bytes": 81845,
+      "sha256": "721fd80d5654c2051360378a6d9688dcf020e1046c8efa2986f99378e6d0b72d"
+    },
+    "suite/plots/followup/genoa-capacity-controls.svg": {
+      "bytes": 69361,
+      "sha256": "9fea3f0e43ad6c4de1822f98b74affc42a11099cfc919f174cbc5866f11f658b"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-5.png": {
+      "bytes": 84202,
+      "sha256": "86e75fea567b5461caaffff35e042cc671d7749dfe72fd3d8566e50d77ffd8b2"
+    },
+    "suite/plots/followup/icelake_8358-empirical-conflicts.svg": {
+      "bytes": 84275,
+      "sha256": "78fd620f7e507c57b444b312abc9aa011797219fd87122472379679a33d8ee27"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-6.pdf": {
+      "bytes": 16882,
+      "sha256": "e98322a895fd4d73b787a2df51a148a767c7d5656bd18bd056c51a42163f73ea"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-2.png": {
+      "bytes": 84452,
+      "sha256": "ddcccbbeb39c5c1b597d1a48ff6013017edfb5cd176628fa145e757a1033fb5e"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-3.pdf": {
+      "bytes": 18598,
+      "sha256": "7e4565304cc6d5f0f50824653be415523582123b6e00d4b56d12d7ae09cc7a80"
+    },
+    "suite/plots/followup/turin-cross-core-reload.pdf": {
+      "bytes": 17676,
+      "sha256": "455bc50c786e4c8508cb0b353d010e8293a37c8a0e68e80b178a186658e24551"
+    },
+    "suite/plots/followup/icelake_8358-latency-classes.svg": {
+      "bytes": 58851,
+      "sha256": "8dd923cf9cc2228f8b2a79d5971fc6e03b40a0e0c72b86e879c5895d9e2c165e"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-1.provenance.json": {
+      "bytes": 3003,
+      "sha256": "adcd3e3d561d5e7d26319cd25b2be2d083ceb7da509296467ed53edb237e4435"
+    },
+    "suite/plots/followup/genoa-cross-core-reload.png": {
+      "bytes": 50045,
+      "sha256": "8ef2f3c232cda117dc14757541a4854f48e3043041ddfa5ec7c84016cdadb056"
+    },
+    "suite/plots/followup/turin-l2-heldout-boxes-2.svg": {
+      "bytes": 55437,
+      "sha256": "c71d1fbe14fd471d41976865ea470b067f05739f14ea4f891d5fd61a42a82d51"
+    },
+    "suite/plots/followup/genoa-spatial-alignment.svg": {
+      "bytes": 66278,
+      "sha256": "3fcd99c95a0123588d89c19a62b2a85be327ad4bac792f4cbeeff5d724988666"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-4.svg": {
+      "bytes": 122664,
+      "sha256": "1be4acba2e4a7f75a26e5de3b17567e6b6c0b4c48d46e44863cb9caf6b4eec97"
+    },
+    "suite/plots/followup/cascadelake-capacity-controls.png": {
+      "bytes": 108778,
+      "sha256": "8ffc13057b3f4d31430a465178e50d466834571b4c6ca2ca4f3fa4fb6107fd8a"
+    },
+    "suite/plots/followup/icelake_8358-capacity-boxes-1.provenance.json": {
+      "bytes": 2449,
+      "sha256": "a6841db554184fb2d93b9012d6f7030c757515769cd5b971e763f3cddb2ffdac"
+    },
+    "suite/plots/followup/icelake_8358-l2-controlled-conflicts.png": {
+      "bytes": 149062,
+      "sha256": "acce27b1f21f0a8875b3418f1243b549a0eda0cec2c60d73e1560130ff051a08"
+    },
+    "suite/plots/followup/cascadelake-empirical-heldout-boxes-1.svg": {
+      "bytes": 90290,
+      "sha256": "5467f224224a7ced8e192546c6684bf8d260050ecca368fd986a424568bdcf70"
+    },
+    "suite/plots/followup/turin-empirical-heldout-boxes-1.provenance.json": {
+      "bytes": 2519,
+      "sha256": "0280a1dac670d61d8f22c893bfbf9736fea05232648665293778e8d9fa94b41f"
+    },
+    "suite/plots/followup/turin-confirmation-boxes-1.provenance.json": {
+      "bytes": 2341,
+      "sha256": "80c2041e9920a88c16925a12bc14d9f8720f4870e96b6a1ff050aa871b92a038"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-2.provenance.json": {
+      "bytes": 9761,
+      "sha256": "4c58d8d0310102f39096e6f5dbe2d05408a2d6c07a3266aa7f8d5cb1df66b65b"
+    },
+    "suite/plots/followup/cascadelake-cross-core-reload.provenance.json": {
+      "bytes": 3139,
+      "sha256": "4f5bae2218dadf9de68e8797799084bc5f5e68888fd363745c82bd12d18fd3ac"
+    },
+    "suite/plots/followup/cascadelake-confirmation-boxes-1.png": {
+      "bytes": 74515,
+      "sha256": "7304c747e3e942f2f52d95653d0eeb879ff7201c36afa9ad2089cd7797641564"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-1.png": {
+      "bytes": 77229,
+      "sha256": "4f503fa0173a7b4c51a80db5a5308f1a1858ebce91332985b525883c1c3b27b8"
+    },
+    "suite/plots/followup/icelake_8358-upper-saturation-boxes-1.pdf": {
+      "bytes": 17519,
+      "sha256": "df38d4a65fc13079d254d2f09bc823897b015fa9635883eab889caff37ee1c31"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-6.png": {
+      "bytes": 95640,
+      "sha256": "b85b6f05e1be60db7ca379defc254a18bb83fb863067a8862e580d7b2b71821d"
+    },
+    "suite/plots/followup/haswell-spatial-alignment.svg": {
+      "bytes": 69024,
+      "sha256": "fbb4345e8cdefb4944d8fb73e9f66b6ab8f121b9d2b58e46982db68d7baad88d"
+    },
+    "suite/plots/followup/turin-l2-controlled-conflicts.png": {
+      "bytes": 144861,
+      "sha256": "e97400a980251c5a4e42319a8c85a0754b19d64df066883546d8877f2a0d2b25"
+    },
+    "suite/plots/followup/turin-capacity-boxes-2.png": {
+      "bytes": 62739,
+      "sha256": "768e296927d1c5cbee1d698dffb24bb57abc2b13f96189b5b99ccdf104ac3327"
+    },
+    "suite/plots/followup/haswell-capacity-boxes-2.pdf": {
+      "bytes": 18193,
+      "sha256": "106d73c36d5671f17ded797cd6cdbe156890f14fa9a600e34325ef9e85a33e38"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-1.provenance.json": {
+      "bytes": 2467,
+      "sha256": "198ef8f28ff8291d254096db7151038d09ddf36ccdc88889b07e21b3999334d4"
+    },
+    "suite/plots/followup/haswell-upper-saturation-boxes-1.pdf": {
+      "bytes": 17469,
+      "sha256": "8b7b8387f56470e5a6df947bfa4808e6af646d4bcd7ace6542953703cbd2e302"
+    },
+    "suite/plots/followup/cascadelake-empirical-conflicts.png": {
+      "bytes": 72498,
+      "sha256": "39183dd4b25f6ad7b074a2063598db89b9614eea459b8579ed5881759f6cc220"
+    },
+    "suite/plots/followup/icelake_8358-capacity-boxes-2.svg": {
+      "bytes": 52014,
+      "sha256": "47b73c87e6849d40fdacac6b8659084aaf0d2274142af44378c77acdd9b86f0d"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-6.svg": {
+      "bytes": 55905,
+      "sha256": "4228f65df0f398e9cc744d9edb99842183f436074ef254ad7ea49ed134b909aa"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-2.png": {
+      "bytes": 105194,
+      "sha256": "c98509c66e86789c0893fe3009af0d80d56bdee8632914d91872f2af02d9ff58"
+    },
+    "suite/plots/followup/genoa-l2-controlled-conflicts.provenance.json": {
+      "bytes": 6798,
+      "sha256": "6037cf8c2152e25b8d6efa40870ca38e248aae18886df2b46bb3f0c67a979f00"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-1.svg": {
+      "bytes": 91345,
+      "sha256": "dcf3a7124d1ec7dac90990e2b829845bf91fad88f61ca156746c48c8a7f60c98"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-2.png": {
+      "bytes": 91838,
+      "sha256": "40081a2096ddc97d9f24df63f567305c9d649b67c2de42d6b788dedcee8eec3f"
+    },
+    "suite/plots/followup/haswell-capacity-boxes-1.provenance.json": {
+      "bytes": 2359,
+      "sha256": "fd84dac281a3e75baad7fcc83466d73c1b309bd1c36f4efd9f3e5f6686934fa4"
+    },
+    "suite/plots/followup/cascadelake-empirical-conflicts.provenance.json": {
+      "bytes": 20719,
+      "sha256": "ca81d94ab8dd8a5e63943beb8d1bee80cd0979e7f202af4818a0f72b230cde38"
+    },
+    "suite/plots/followup/turin-cross-core-reload.provenance.json": {
+      "bytes": 2995,
+      "sha256": "c1a349c4ea778aac9dab55b3a417bbf47ec06b91c569fe9408fe303fb00c6bb8"
+    },
+    "suite/plots/followup/haswell-latency-classes.png": {
+      "bytes": 53398,
+      "sha256": "fd867a0585bbba030691da82659bfdd8998af4837bacb6eb90af67294cc41077"
+    },
+    "suite/plots/followup/turin-spatial-alignment.provenance.json": {
+      "bytes": 7587,
+      "sha256": "53d5ce1217f6ae131dba2e126179cdb7225b106a403fc277397b21960eeb3b96"
+    },
+    "suite/plots/followup/cascadelake-confirmation-boxes-3.svg": {
+      "bytes": 34404,
+      "sha256": "353d7d58026185f39ee58ac178ebaea9080c4a5164635221ac8f9dadcbf26070"
+    },
+    "suite/plots/followup/icelake_8358-capacity-controls.pdf": {
+      "bytes": 21800,
+      "sha256": "ce7e6ca7739e26fa776efb9006ceb49e8a1b8b5c0f7e2d811a67fe1aac415493"
+    },
+    "suite/plots/followup/genoa-cross-core-reload.svg": {
+      "bytes": 91682,
+      "sha256": "662d73f9418a45ee1c9f6c17b581f420e6144b095f1a830ed9726922c11c3a74"
+    },
+    "suite/plots/followup/icelake_8358-latency-classes.png": {
+      "bytes": 55861,
+      "sha256": "5baad571b5d3e163dbc2ce5da63a46742e78152501bf93e87faf8cc5d8bc7c69"
+    },
+    "suite/plots/followup/turin-latency-classes.provenance.json": {
+      "bytes": 1429,
+      "sha256": "952c63480f5f983f2a4016ed03715ea176afe09e4227af6194c004830d239567"
+    },
+    "suite/plots/followup/genoa-upper-saturation-boxes-1.svg": {
+      "bytes": 93609,
+      "sha256": "adc41e84f4d329f4b6a9d8b3445d04b1a185311b9611934f78bcd8dd023f9857"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-3.svg": {
+      "bytes": 91917,
+      "sha256": "d5e77470886342cd86adb3e58eb2923fa1752f5faa224efd9572c2585fca20e1"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-3.svg": {
+      "bytes": 122391,
+      "sha256": "840dcabfc18737d567d75d64da87242c5125f4277dcf136d105994a5cf1cc7d3"
+    },
+    "suite/plots/followup/icelake_8358-capacity-controls.png": {
+      "bytes": 106074,
+      "sha256": "502e64fe993d37651e8c5c0b77e0ce1ff41c1c48eedf1d3bac4586c01fdfdbe0"
+    },
+    "suite/plots/followup/turin-empirical-conflicts.pdf": {
+      "bytes": 18704,
+      "sha256": "4eb8ea9ed464c9bca79fed9dedc9105056a74fcffb35f58db08a1960f0872f44"
+    },
+    "suite/plots/followup/turin-empirical-conflicts.svg": {
+      "bytes": 76130,
+      "sha256": "2706994e247e1c26f14b3d19a74d79abcfb357e865911592c0b69357b241f375"
+    },
+    "suite/plots/followup/icelake_8358-capacity-boxes-2.png": {
+      "bytes": 65337,
+      "sha256": "306a9933094b99c74f7fb3f7e637cdec999df5a8936417f69078d79832aa7fee"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-2.svg": {
+      "bytes": 119727,
+      "sha256": "ef02a84f120288333c5eb659dbbac8c4a1a57fc05c3c10160f2ce5212c09c6ba"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-2.svg": {
+      "bytes": 91740,
+      "sha256": "8735a2e4b60a9a920ab6ad91d2a25425c423f6a2b4abf9bf1dc28a7a015717e7"
+    },
+    "suite/plots/followup/haswell-empirical-heldout-boxes-1.provenance.json": {
+      "bytes": 3649,
+      "sha256": "b076bf284b9a27d7014335c4d6336deaa0226a50987870a87486d3e28a652f1d"
+    },
+    "suite/plots/followup/genoa-capacity-boxes-1.provenance.json": {
+      "bytes": 2323,
+      "sha256": "ed979b4c4cafa16ac0fc79e5a69d71f4b11127b0d96629cb64bdd3832f389ed4"
+    },
+    "suite/plots/followup/icelake_8358-l2-controlled-conflicts.svg": {
+      "bytes": 87715,
+      "sha256": "f7db5d1f8fbecc53186f1125d9f9c7bafd088a599d39ac33170c013dda71ef16"
+    },
+    "suite/plots/followup/cascadelake-empirical-conflicts.svg": {
+      "bytes": 77730,
+      "sha256": "f831f148f3d6d8f02328eac819615a96de9a0aa6ead11eb987010a27718d7ddf"
+    },
+    "suite/plots/followup/turin-l2-heldout-boxes-1.png": {
+      "bytes": 77895,
+      "sha256": "f5c2136335ccbc51e751cd10044df01ccc490a15bc0eafcee8c484d8a3804d10"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-5.png": {
+      "bytes": 96211,
+      "sha256": "dd706f68b6e6e2f2481042bfc3eaadccdd59341132bc975ad6a44f221db9f3e2"
+    },
+    "suite/plots/followup/genoa-latency-classes.png": {
+      "bytes": 51767,
+      "sha256": "f424c50dc3f3b659a5656e4bd9b9b414cd37e07e7f3a81d6263a50a0474c2032"
+    },
+    "suite/plots/followup/turin-latency-classes.png": {
+      "bytes": 54693,
+      "sha256": "ea323db03a9d409afd518cc803869ecf6b2aed3fe619deb2791a6989b99395e9"
+    },
+    "suite/plots/followup/genoa-latency-classes.pdf": {
+      "bytes": 17613,
+      "sha256": "fa0fd877ee12091e648fe72106999846a6f12a6fb3a5350875be18e1fc12d1f4"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-2.svg": {
+      "bytes": 118341,
+      "sha256": "c9317c27fd9421561c0c61ce55a47e1517b0277018366e59d5dd8d2a4e088be1"
+    },
+    "suite/plots/followup/haswell-empirical-heldout-boxes-1.svg": {
+      "bytes": 127261,
+      "sha256": "1517928ada0ac38aa7ab6ac59902ade2e4ceb6960e041442fcca51ac68f9c590"
+    },
+    "suite/plots/followup/genoa-empirical-heldout-boxes-1.png": {
+      "bytes": 82087,
+      "sha256": "f60749f1c444c4cdbec0d2b46b1d3e533249747ccc94f003371d77b3a4936767"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-2.pdf": {
+      "bytes": 24697,
+      "sha256": "2e4f015c21ce986d3eea8b3be804f524a5b02f7cf77937549286265a19adc07a"
+    },
+    "suite/plots/followup/haswell-latency-classes.provenance.json": {
+      "bytes": 1449,
+      "sha256": "afb884490b12bdfab28814deb4b0d8653644ec820db88ebdc8a247fe43ad5162"
+    },
+    "suite/plots/followup/genoa-capacity-controls.pdf": {
+      "bytes": 21722,
+      "sha256": "a4703b80bf2394895456727f44d18518311e1bdab16e3490a9604cd0596139db"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-1.png": {
+      "bytes": 104090,
+      "sha256": "8172c246d1ac3ec388df687f2095d4d8c5c0f2935946ee5157cc02125bca8484"
+    },
+    "suite/plots/followup/turin-l2-heldout-boxes-2.pdf": {
+      "bytes": 16844,
+      "sha256": "d1c6647f6d85a5fb56d125ba830dca4d46f46d63ffe6c5fdbd48c4bd0c3f5ba4"
+    },
+    "suite/plots/followup/turin-capacity-boxes-1.provenance.json": {
+      "bytes": 2323,
+      "sha256": "569d0424e747e4a2e701f416d0c8d25e1822ec3878794fb103618f9de6b973d4"
+    },
+    "suite/plots/followup/haswell-confirmation-boxes-1.svg": {
+      "bytes": 88403,
+      "sha256": "5e4c23d7e29fd2d029aa5ce9565aa56822ebd3f9dfce0ac4a3ecbad537e9b444"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-3.pdf": {
+      "bytes": 19624,
+      "sha256": "c3753daf771d6551749dd7a84c1c9edfe7e3fa98f037ab8d7f84b60fe6cdfae5"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-1.png": {
+      "bytes": 94333,
+      "sha256": "990ba9ef742e15534316f915dc015ff07e9ab9fc989bf7179ca3c7dc1ce6ed92"
+    },
+    "suite/plots/followup/icelake_8358-empirical-heldout-boxes-1.png": {
+      "bytes": 100002,
+      "sha256": "49ba2549dabc3f683622cff186a56c9ea14f96e09ec5ee50f79e8d35b5e76fac"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-6.png": {
+      "bytes": 51153,
+      "sha256": "2858f0ffc58ac7e4cccd22530e4df115d0d3c083fe3cbb16c0a4ed88c3174c01"
+    },
+    "suite/plots/followup/haswell-capacity-boxes-2.svg": {
+      "bytes": 50945,
+      "sha256": "6d5ae67fbd4034404710fc0403c2e1fd855e789fc239b015e20a23fa5aa41ddb"
+    },
+    "suite/plots/followup/turin-cross-core-reload.svg": {
+      "bytes": 92459,
+      "sha256": "bf5bf443c5a0b39b1c7712ff6adb89d3a2fb5c5b545c5195e7e1140bfa020e30"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-7.svg": {
+      "bytes": 39808,
+      "sha256": "020e2be13ae3f0bddcdea15c62aa4a75c294bcedb4d31c9150c51cf8f43ade45"
+    },
+    "suite/plots/followup/haswell-l2-controlled-conflicts.provenance.json": {
+      "bytes": 17022,
+      "sha256": "0036c58b644cfd078924b9f02dbf629503b5873ead2127d774bdcce818494357"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-3.provenance.json": {
+      "bytes": 3699,
+      "sha256": "f9fab53a05ad6f7026bc514ed47ee60c04febd73bfa9e971e127c73bc2d7b2f9"
+    },
+    "suite/plots/followup/cascadelake-confirmation-boxes-2.pdf": {
+      "bytes": 18722,
+      "sha256": "e6575580e7323cc99ae5402c1f4bf65f4a5b81ca1b27d570345401fd1a211cb9"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-4.png": {
+      "bytes": 88739,
+      "sha256": "1115bf44c6f9e7b545a48f1b62ff3303b7d587fb4ffce0aa189f12428c4f378d"
+    },
+    "suite/plots/followup/turin-empirical-conflicts.png": {
+      "bytes": 62662,
+      "sha256": "2e1d8d2e48bf5eae4a73531a83dd39c7a9ef8e76d4a68625e112e1b07cd928b2"
+    },
+    "suite/plots/followup/genoa-upper-saturation-boxes-1.png": {
+      "bytes": 73630,
+      "sha256": "ccd1fca23eb48d0cb0b951de2c94a8741bb71b595a6ed0b99d8401f80e9262fb"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-1.provenance.json": {
+      "bytes": 12995,
+      "sha256": "95e238f49fdae010cd85348448e2271996f511895591d8dd954c561b86b336e2"
+    },
+    "suite/plots/followup/icelake_8358-capacity-controls.svg": {
+      "bytes": 68486,
+      "sha256": "3537a5d4b9a0345d057ae266620cb6c46a3887601c05150f88c12ed41ad5f711"
+    },
+    "suite/plots/followup/icelake_8358-l2-controlled-conflicts.pdf": {
+      "bytes": 23690,
+      "sha256": "d2a1a3760061112a353d3fb18d00b086c0a4ab6e6be31500a2e23180b4796a4b"
+    },
+    "suite/plots/followup/genoa-capacity-boxes-1.pdf": {
+      "bytes": 20813,
+      "sha256": "a210fd6baa7ba35d7c727c9fa9bfcf92f26d1107c19627617d238f0737c45cf3"
+    },
+    "suite/plots/followup/genoa-spatial-alignment.provenance.json": {
+      "bytes": 7587,
+      "sha256": "e9a64e0122b5c3e0c61a8a74747071686ec6c7f57cbcae210c9c305929cb3f05"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-3.svg": {
+      "bytes": 120100,
+      "sha256": "b07c631e75c818a0772ada8b950ab4d35d06c80f5522c0370ab26b7415f14ac5"
+    },
+    "suite/plots/followup/turin-l2-heldout-boxes-1.pdf": {
+      "bytes": 18996,
+      "sha256": "15351e905a85b3ac99bef0bc450a29608c3342519bc921eefd6e1480a09804c7"
+    },
+    "suite/plots/followup/haswell-l2-controlled-conflicts.svg": {
+      "bytes": 78568,
+      "sha256": "cfab7d5ea4ddcf58d39b9dc4ed82dae073e28ba9555c219bcb973507ea6671fa"
+    },
+    "suite/plots/followup/turin-capacity-controls.svg": {
+      "bytes": 68190,
+      "sha256": "25470fb347a7e2a5b102e6b463e97b496a33f3760bd1023e25d41d57366881ce"
+    },
+    "suite/plots/followup/cascadelake-spatial-alignment.provenance.json": {
+      "bytes": 7995,
+      "sha256": "730d4f32c0dccd7b9cdc239f30cbf34e873b347e4ede6fe3524a6ace270381a9"
+    },
+    "suite/plots/followup/haswell-spatial-alignment.provenance.json": {
+      "bytes": 7723,
+      "sha256": "b54b8b483a5ee19c3172f7e35c62ff44be43d32743ad1fabebddbf3f0c5f96a8"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-5.pdf": {
+      "bytes": 19553,
+      "sha256": "36a1a32c316dff5ce3ebaeaf0590941760fbd26f43eb7b580d36d57a4363721c"
+    },
+    "suite/plots/followup/cascadelake-confirmation-boxes-2.provenance.json": {
+      "bytes": 2449,
+      "sha256": "bb0a2a9a03b5ce546f6a1937d64e873471853c14129ab7959786d1e205fadef9"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-6.svg": {
+      "bytes": 120968,
+      "sha256": "7b1362545512503c982db404fe7346f9b60b60fa6b04c3a64d1d589dfe5373f5"
+    },
+    "suite/plots/followup/haswell-empirical-heldout-boxes-1.pdf": {
+      "bytes": 20209,
+      "sha256": "fac16a9a3f8bf8c0a0285d6228bf217683cd00e91d1839ac6799dc7ccf756438"
+    },
+    "suite/plots/followup/genoa-empirical-heldout-boxes-1.svg": {
+      "bytes": 127542,
+      "sha256": "f1ddca28bb720e28080cf1c8baeb9d6dddb9deea67393c0cbfcb9bdbc2445a4f"
+    },
+    "suite/plots/followup/cascadelake-capacity-boxes-1.pdf": {
+      "bytes": 17378,
+      "sha256": "b4166482b490cf7e35d46f500cef49b1bcc6119241a97fc5a09128e1ecfcf115"
+    },
+    "suite/plots/followup/turin-l2-heldout-boxes-2.png": {
+      "bytes": 46379,
+      "sha256": "202265de6c6d8796a5b29efd8ca6b47c675b60c277d64bfba50cbc895327129f"
+    },
+    "suite/plots/followup/cascadelake-confirmation-boxes-1.provenance.json": {
+      "bytes": 2449,
+      "sha256": "fea4b42f9c72828f08406e3f9b77f36feb340664874d4e73566ccadc094411a7"
+    },
+    "suite/plots/followup/genoa-capacity-boxes-2.png": {
+      "bytes": 91088,
+      "sha256": "f46029ab08ede483cfdc138659ac424d21b9d26abee8e048ba1783bf9fda9eed"
+    },
+    "suite/plots/followup/haswell-confirmation-boxes-2.svg": {
+      "bytes": 91288,
+      "sha256": "66d2379f34f75483977ae8f5bb7436269e72ae94a18dd134b3338bedf53b8706"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-5.provenance.json": {
+      "bytes": 3699,
+      "sha256": "ca728e1f3bfc5261a08abd208497c16a568ae09201090d119b17c2388d355fa7"
+    },
+    "suite/plots/followup/haswell-capacity-boxes-2.png": {
+      "bytes": 63210,
+      "sha256": "20db81b419ad2369ff324a060ae1f8e2cf5bcec20c808ff00827d7fffcd83811"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-4.svg": {
+      "bytes": 119935,
+      "sha256": "054762ed38c715c59368b7c851b24461277dfca5ae96f40dcd84c63a323cd514"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-3.png": {
+      "bytes": 90991,
+      "sha256": "43cdeeefc7f4592ace101475949208db89c93c97c15f66a5efcf76b0c7ddfa4b"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-5.provenance.json": {
+      "bytes": 3659,
+      "sha256": "a87950a47b988abedf0004ce8fd6b7aeb65a45724e9295837c492e20f32cc182"
+    },
+    "suite/plots/followup/cascadelake-upper-saturation-boxes-1.png": {
+      "bytes": 78383,
+      "sha256": "93a9c8b1782f209751af33742885be13188dd49344da8677c6588dc028cc182b"
+    },
+    "suite/plots/followup/genoa-capacity-controls.png": {
+      "bytes": 99924,
+      "sha256": "f488bc9690d3915f0957d874eab2d88b966ca3b146bf27e325c6ef3b8dcf0af1"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-1.provenance.json": {
+      "bytes": 3509,
+      "sha256": "38d3d20ea9163455c28b31da239fa1db4f614945c6cc4402a6a2185b23983024"
+    },
+    "suite/plots/followup/turin-capacity-boxes-2.provenance.json": {
+      "bytes": 1027,
+      "sha256": "582f597309476688f0b3de9a595828bb2cab2d436e86a95e41e2a9722961b31a"
+    },
+    "suite/plots/followup/icelake_8358-cross-core-reload.pdf": {
+      "bytes": 18249,
+      "sha256": "ea3ac45985eb9eb74d5aaec3c05e67231530879211cfbbc16a114d92668d1e08"
+    },
+    "suite/plots/followup/turin-capacity-controls.provenance.json": {
+      "bytes": 14140,
+      "sha256": "845bd46e9fd665008aaac1484d3a10ca5746f849a79bd383eddf5c655274f7b2"
+    },
+    "suite/plots/followup/turin-l2-heldout-boxes-1.svg": {
+      "bytes": 122976,
+      "sha256": "056a09e932ba37db98fea06febe6083af0cc5b868b32697121a7f87df800fbad"
+    },
+    "suite/plots/followup/cascadelake-confirmation-boxes-1.pdf": {
+      "bytes": 18299,
+      "sha256": "73d9a4de885b5e93be24d40fa4f852e1398d4285b0bd13dfa0bfcf4be3465bac"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-6.png": {
+      "bytes": 47058,
+      "sha256": "a3baa45e82395bf2fc6799b01dda9aa1403ac6090690ee613b8046e3bcbe2b91"
+    },
+    "suite/plots/followup/turin-capacity-controls.pdf": {
+      "bytes": 22124,
+      "sha256": "a756de2db313ef4a79e08f2a0e32c39b5759198006278c7105ef4ab91cd57c0f"
+    },
+    "suite/plots/followup/genoa-upper-saturation-boxes-1.pdf": {
+      "bytes": 17815,
+      "sha256": "e4a205d41a11ec72aaa3fa62fa3fc27536f22a07b0c6363e0dd15d0715c79bbc"
+    },
+    "suite/plots/followup/turin-capacity-boxes-1.png": {
+      "bytes": 112094,
+      "sha256": "7e0b01bd787cb2bcbe9254a19939e0f46bee280baa51120b953400bc6859148f"
+    },
+    "suite/plots/followup/cascadelake-capacity-boxes-1.svg": {
+      "bytes": 49399,
+      "sha256": "6d43670092ba1cc571847cc0ac684b9346678b1a7d44ee0f166e8e6cfdaacec4"
+    },
+    "suite/plots/followup/turin-l2-controlled-conflicts.provenance.json": {
+      "bytes": 10698,
+      "sha256": "ffccc339860e67b6628f87994f86512e7c2097ad869f49219cbf1acd53765985"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-2.provenance.json": {
+      "bytes": 2467,
+      "sha256": "e9218c5019f9e13d08f1a7b90ff46f55ebcf79a8c82d3ead61223018704bf5bc"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-3.pdf": {
+      "bytes": 19431,
+      "sha256": "a0e07b8c85e8525e7b4732b943de12318e5eb327c5f29db6b4245bbd1c5b9784"
+    },
+    "suite/plots/followup/icelake_8358-cross-core-reload.png": {
+      "bytes": 57611,
+      "sha256": "0cfcd4846b7d29b3369f8eaf92162a09722a6e6a6238acc95959ea46940478f9"
+    },
+    "suite/plots/followup/genoa-confirmation-boxes-1.svg": {
+      "bytes": 92060,
+      "sha256": "8b739f32e564e3d074b36f697acffbee70343cabc967d596f98f7a9726a21335"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-3.png": {
+      "bytes": 83470,
+      "sha256": "33fd3397e7b369f1cdcf59a168e7df18056e038e10d81fb9d77706028f5cf39d"
+    },
+    "suite/plots/followup/cascadelake-capacity-boxes-1.png": {
+      "bytes": 57110,
+      "sha256": "9e872f736378e5787627d2efc98a8ba9a5f9aeeeb4f3e5cac4ca21d1f266b214"
+    },
+    "suite/plots/followup/haswell-l2-controlled-conflicts.pdf": {
+      "bytes": 22932,
+      "sha256": "45c613169e1e074a77a15c4c31bb52e1a2ac567a44dcae1a583cfcf2c01946d5"
+    },
+    "suite/plots/followup/cascadelake-upper-saturation-boxes-1.provenance.json": {
+      "bytes": 2431,
+      "sha256": "553632d994f1e791897603414957af86f8a9e86e75afb6ad76012b31d7128eca"
+    },
+    "suite/plots/followup/icelake_8358-spatial-alignment.pdf": {
+      "bytes": 19867,
+      "sha256": "7768309cf3a5a0758cd7a18472861e5a44c675cc53b26bab46c07671676b12c6"
+    },
+    "suite/plots/followup/cascadelake-confirmation-boxes-2.png": {
+      "bytes": 82754,
+      "sha256": "9ba7c6686bf3870fabc85b1d63a65edd4e73b9f4d07f8711350a15c0263d5497"
+    },
+    "suite/plots/followup/cascadelake-spatial-alignment.pdf": {
+      "bytes": 20257,
+      "sha256": "d0a04144f54e966f7d2061188621b11a58d7dc96a7132a092d63af65e6e230a0"
+    },
+    "suite/plots/followup/genoa-capacity-boxes-1.png": {
+      "bytes": 113555,
+      "sha256": "a743bcc2fd939c895a0e1b4856fe6f597fb9d75d3e998769116e2e875c48a939"
+    },
+    "suite/plots/followup/cascadelake-l2-controlled-conflicts.png": {
+      "bytes": 128632,
+      "sha256": "9e2022ca1e0c78e3a71da0afa3236128bcce0859d1721c88f4304f23f3616c19"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-2.pdf": {
+      "bytes": 19620,
+      "sha256": "ef0f7d546fca489f30b5387398c30c6a98a5f89fd327d21ba0ae074ab93ff73f"
+    },
+    "suite/plots/followup/icelake_8358-capacity-boxes-2.pdf": {
+      "bytes": 18243,
+      "sha256": "9fbb64bf26ed843b5657c39d6075e0a343b6a3eb72cc06013c100de98fda270f"
+    },
+    "suite/plots/followup/cascadelake-confirmation-boxes-2.svg": {
+      "bytes": 96165,
+      "sha256": "0a265f990cbbe09b69b259a2d37b797bd5a27a704c22b713b46c138b33a5be58"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-1.pdf": {
+      "bytes": 18403,
+      "sha256": "1c81f0f6a9c53cfd8b138c69551ee43030295603f35f0dc63062bf6d06eb69e8"
+    },
+    "suite/plots/followup/icelake_8358-capacity-boxes-1.pdf": {
+      "bytes": 21043,
+      "sha256": "7fd251b7a160dddaf31b2c4fd5d4c1c7b03a389f8bcb9b94f64caa9ef3c86062"
+    },
+    "suite/plots/followup/icelake_8358-empirical-heldout-boxes-1.pdf": {
+      "bytes": 19688,
+      "sha256": "71ac38e4e750f9a2737eb027df095d1d584b93613d98037c2befb158f89987f5"
+    },
+    "suite/plots/followup/turin-latency-classes.pdf": {
+      "bytes": 17685,
+      "sha256": "3c923c180873f1e87739459f2a34b45883fc754834cb8bd6aef4170f069cef15"
+    },
+    "suite/plots/followup/genoa-confirmation-boxes-2.png": {
+      "bytes": 81414,
+      "sha256": "2280b0328da82454d0735b93379246240dc60b797cfabc46e6dad0559f89289b"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-6.svg": {
+      "bytes": 54478,
+      "sha256": "a09d86a5f57620be1aff655fc1ba44690446234f60f8d7a0fd5371bd862e5b81"
+    },
+    "suite/plots/followup/haswell-cross-core-reload.png": {
+      "bytes": 53355,
+      "sha256": "c5a8d0e8f85a7b7fd159f34b4b80e3edd4ed2aaef5381590891dc7fee9fcbfa8"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-6.pdf": {
+      "bytes": 17159,
+      "sha256": "709eda96678b338f31f574a98ea519b984c449b45b9e4ca9baa8545aca69183c"
+    },
+    "suite/plots/followup/icelake_8358-empirical-conflicts.pdf": {
+      "bytes": 20048,
+      "sha256": "9c0c7e360a73c63ead07a127c747241d2b81c626cd4763614d0685b2fca8d469"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-2.pdf": {
+      "bytes": 19074,
+      "sha256": "24800d1f342018f0269abc23f8dc78f60933c692cf38f9659e20d1b2b87d670c"
+    },
+    "suite/plots/followup/icelake_8358-spatial-alignment.png": {
+      "bytes": 109314,
+      "sha256": "aba99aae1336a91622ef43e73f6338d8d2f336d9ef319b8a582f4fe47a853127"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-5.provenance.json": {
+      "bytes": 3509,
+      "sha256": "aaeadd1b749cdee1edda5c99cd47305efebf28c7cfce0ccb709dbf619eaa252a"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-4.svg": {
+      "bytes": 119209,
+      "sha256": "3cc4b2db788915fffd75f584e40422c26e7c62b29b560d8a56e99a30e45d5c34"
+    },
+    "suite/plots/followup/haswell-l2-controlled-conflicts.png": {
+      "bytes": 114860,
+      "sha256": "365b4f81893a08f723699fd916977cc6580ffd2c51f9463b1e9c2eda4b1651ac"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-1.svg": {
+      "bytes": 120496,
+      "sha256": "c6e27d806253d58e6656422d2b6a6659c70fc1060307c36880ae41cebeeb4011"
+    },
+    "suite/plots/followup/haswell-capacity-boxes-1.png": {
+      "bytes": 108874,
+      "sha256": "e1f4b201d517f2b6b33f157d5b77becdf4b9233288459bf01e083627e977e4d4"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-3.png": {
+      "bytes": 85597,
+      "sha256": "e26f0b34801502b44ef266f8878b58834331a16c661a4483f051ce508331c4fa"
+    },
+    "suite/plots/followup/haswell-upper-saturation-boxes-1.png": {
+      "bytes": 68519,
+      "sha256": "53df25de530c8acf659200c9b986dd5f03e4f736b5b18fb140e9adbd6633f67d"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-2.png": {
+      "bytes": 90792,
+      "sha256": "23037ae0ea318e2acafa449294a8358b823adc634f58136c7ee83f669c0335a2"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-6.provenance.json": {
+      "bytes": 1519,
+      "sha256": "874259d6594f9cac49c93f2a7150fe5044740001a9bbac87cca35fbb8c9b655f"
+    },
+    "suite/plots/followup/turin-spatial-alignment.png": {
+      "bytes": 95242,
+      "sha256": "092c394c9f8fe2d1f8b94c2dd8a0234e88b52e24fb2fd9401930ea0f886c47df"
+    },
+    "suite/plots/followup/icelake_8358-upper-saturation-boxes-1.svg": {
+      "bytes": 94374,
+      "sha256": "a41cd9ea498fb6dd150b7d5402fe2bc9193a3cbcec40f9e46216e9ae4f3f870e"
+    },
+    "suite/plots/followup/cascadelake-cross-core-reload.svg": {
+      "bytes": 94267,
+      "sha256": "8819aed492e70d653a902136f89defd0242a71c0ea364ba7d9ced3df0694e4d7"
+    },
+    "suite/plots/followup/cascadelake-l2-controlled-conflicts.provenance.json": {
+      "bytes": 23606,
+      "sha256": "1b9122076f04537d70c2626741789c19d00068fe4a1a6f000f4c98b6bc1d0f7d"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-3.provenance.json": {
+      "bytes": 3659,
+      "sha256": "6e75bd78262df593ad7aa3a6725175250fa814b8ccd880121e55cac8b217dfbe"
+    },
+    "suite/plots/followup/genoa-empirical-heldout-boxes-1.provenance.json": {
+      "bytes": 3589,
+      "sha256": "a2e7379838bdde11ce5f21daf74e6010f4df5526445a6bf8a18c9c52a1626782"
+    },
+    "suite/plots/followup/haswell-capacity-boxes-2.provenance.json": {
+      "bytes": 1039,
+      "sha256": "3ae36537c4e3e4acd63bbea2fbcfde3e04ccaf3b9e4af96f151d8cb027d51592"
+    },
+    "suite/plots/followup/genoa-empirical-conflicts.png": {
+      "bytes": 57769,
+      "sha256": "d9fa2a20ac65dc9fda0bc95811be28d1c54fba13a4706501101ee669ee2adcf2"
+    },
+    "suite/plots/followup/genoa-spatial-alignment.pdf": {
+      "bytes": 20770,
+      "sha256": "bfc14a23cce4a218e4466149eb61c6a47631b7875bdd9f67ebf69cbc304c2ca4"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-6.provenance.json": {
+      "bytes": 3664,
+      "sha256": "4b1fd9ecb0743d56cce9ebb2239c9413ad9e00f032ce7ba17031b4bfaf08a74c"
+    },
+    "suite/plots/followup/cascadelake-capacity-boxes-1.provenance.json": {
+      "bytes": 1063,
+      "sha256": "609dc810e1efa221fa0528f4020d8d8c7fcbc0d00be94aadb29ff440e82d7da3"
+    },
+    "suite/plots/followup/cascadelake-empirical-conflicts.pdf": {
+      "bytes": 19667,
+      "sha256": "5f1181c74b24e70c9d4aeea3276e5ca70b6db64a6b3d96bc5e382308c19e66fd"
+    },
+    "suite/plots/followup/haswell-confirmation-boxes-2.png": {
+      "bytes": 75899,
+      "sha256": "df18136f2dbcd01781b98df69f60e39b99f614000ea9fbb44b489b6399b1362d"
+    },
+    "suite/plots/followup/genoa-confirmation-boxes-2.svg": {
+      "bytes": 92019,
+      "sha256": "6ea990b04cc26a2a6576adb928571129dacbb56be4ffdac80882e7ccb0b5a8e6"
+    },
+    "suite/plots/followup/turin-upper-saturation-boxes-1.svg": {
+      "bytes": 92463,
+      "sha256": "b1c28f469a3acd7b3fc15adb2d23c387804dd8c8a4174f56f771167db05c62da"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-4.provenance.json": {
+      "bytes": 3579,
+      "sha256": "4a3290824e2b12147a94b635247166fe46fac97a636c4b291c2d2cb7e0058e75"
+    },
+    "suite/plots/followup/genoa-capacity-boxes-1.svg": {
+      "bytes": 101959,
+      "sha256": "4db68b50f8bc17a755a15c84f747a571474aa703fd5cb0dd7a2dcfe64553ff81"
+    },
+    "suite/plots/followup/cascadelake-confirmation-boxes-3.png": {
+      "bytes": 43310,
+      "sha256": "9227ac75e79710f88a9fc78e5a89d37cc8b4ac6d4a56483f39b36994d9a496e7"
+    },
+    "suite/plots/followup/turin-latency-classes.svg": {
+      "bytes": 61521,
+      "sha256": "e6df108953c574dec810226e357701f6c4ea4d63aadffd0645bca316dc624120"
+    },
+    "suite/plots/followup/turin-l2-heldout-boxes-2.provenance.json": {
+      "bytes": 1449,
+      "sha256": "4be2dfdb807c39286bdac41b7d3accd38cdd50a6b18643c2ea6e2e275d9207f1"
+    },
+    "suite/plots/followup/genoa-confirmation-boxes-2.pdf": {
+      "bytes": 18856,
+      "sha256": "6f51ea8692a6d8baf234a7654ea9e4d3e946af75c2dc2c4b5dca499b721ab9cb"
+    },
+    "suite/plots/followup/genoa-capacity-boxes-2.pdf": {
+      "bytes": 19137,
+      "sha256": "bce88e85713082e5836c00ab7ad2c57833b1992ef4a7a79e25428200b91a12fd"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-3.png": {
+      "bytes": 87711,
+      "sha256": "c7a8ec205d56dbc96ccfc9f616d1d33831e6f4808f2665a21787196040a1fae8"
+    },
+    "suite/plots/followup/haswell-confirmation-boxes-1.png": {
+      "bytes": 75809,
+      "sha256": "30647b61cdb0dc5f8703b3bf488848af99eeea519d8b6ff332b27d98717d9227"
+    },
+    "suite/plots/followup/cascadelake-capacity-controls.provenance.json": {
+      "bytes": 8758,
+      "sha256": "b7e89ec6171af7db0762a3a4be095e7cba62f144d5735ad4b40c6c6c4332a1c4"
+    },
+    "suite/plots/followup/cascadelake-cross-core-reload.pdf": {
+      "bytes": 18130,
+      "sha256": "3a0c50655c43216205d358db0e959af42170c6718c7e3ecbfe089a5948631f55"
+    },
+    "suite/plots/followup/turin-confirmation-boxes-1.png": {
+      "bytes": 71034,
+      "sha256": "af13c4e4b528e91f3a79a054939556f00f6a4bfcca5e6af9f11195bd05c1f30d"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-7.png": {
+      "bytes": 48046,
+      "sha256": "ca26502c3e5ce2687259d8b19b99e2e04b5119d71753ef0278213cc8c7e11a69"
+    },
+    "suite/plots/followup/genoa-upper-saturation-boxes-1.provenance.json": {
+      "bytes": 2317,
+      "sha256": "d436e64afcbdcfa4dc80b05d146639504d396ce109ac5272c6be69812c457856"
+    },
+    "suite/plots/followup/haswell-capacity-controls.provenance.json": {
+      "bytes": 14398,
+      "sha256": "45bb7b336998a552d77388497e1eafed96366f5bcfe89e54fc65f249b6a7eced"
+    },
+    "suite/plots/followup/icelake_8358-capacity-boxes-1.svg": {
+      "bytes": 102957,
+      "sha256": "c5ce456a42968f5ffd5335f09450a60405ee7620e65401e30738c77d620ae2b9"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-5.svg": {
+      "bytes": 120923,
+      "sha256": "b5eefc4717fd2a897f866072941d942ce810a83d0e8a46bb300e4103497a53e4"
+    },
+    "suite/plots/followup/icelake_8358-spatial-alignment.provenance.json": {
+      "bytes": 8063,
+      "sha256": "5dc4131504b8966b4980c3bbd1a1db5236487d6d5af944b170626ab25789f8e2"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-4.provenance.json": {
+      "bytes": 3729,
+      "sha256": "20c283cf7b27593bde0ae82b3f9962a47820bb04ee3c439aec4877dc1b088877"
+    },
+    "suite/plots/followup/cascadelake-capacity-controls.pdf": {
+      "bytes": 21352,
+      "sha256": "53e7c8dd6f7c1940615ae8c537be777782d433511db1316e54da816cb69ba52d"
+    },
+    "suite/plots/followup/turin-capacity-controls.png": {
+      "bytes": 92456,
+      "sha256": "4bba50df34a935370ec90df0883da52ccbc7ada8f683bc3e5e831151dd28b204"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-1.svg": {
+      "bytes": 113466,
+      "sha256": "4983b8df73eb80d3d562d0df44a575ec4572266be9542d3a010dd0250ef80847"
+    },
+    "suite/plots/followup/icelake_8358-cross-core-reload.svg": {
+      "bytes": 94903,
+      "sha256": "bd980aca65c80f81329f15f2b439769c946612b46961740b603006e61494422a"
+    },
+    "suite/plots/followup/turin-capacity-boxes-1.pdf": {
+      "bytes": 20621,
+      "sha256": "85257c62a05ecd3d73f9fc14d8d88f1be49375b16993c71101fcc516b220e271"
+    },
+    "suite/plots/followup/turin-capacity-boxes-2.svg": {
+      "bytes": 51355,
+      "sha256": "36f88fd3c20de9cd954ca443c6f5364092844c5df1d2583ce9ec1c1d47253934"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-2.svg": {
+      "bytes": 212474,
+      "sha256": "ace89a81a2e8fdec38b95904a7df345ca6cf556218cb3bcf49c16f8978ae2844"
+    },
+    "suite/plots/followup/haswell-spatial-alignment.png": {
+      "bytes": 111680,
+      "sha256": "27e3459bf4ed4363db38c0dff21496e13d2b0e9927666ea7acedc3faeca6a176"
+    },
+    "suite/plots/followup/cascadelake-l2-heldout-boxes-7.provenance.json": {
+      "bytes": 944,
+      "sha256": "29792c46e53f58d70d558aa6cebc09f51532e94fb4be2b0a3b75395ee24c7c33"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-5.pdf": {
+      "bytes": 18768,
+      "sha256": "53af5d2b6f4125180a32c07d300682a50d3bce4a7831db79752fdfe594a91a8e"
+    },
+    "suite/plots/followup/cascadelake-confirmation-boxes-3.pdf": {
+      "bytes": 15678,
+      "sha256": "bc5aae2ee4b49f20de11f476d0f656b8825a0cccba22e2e00ca6bf4dcdc9f906"
+    },
+    "suite/plots/followup/cascadelake-upper-saturation-boxes-1.svg": {
+      "bytes": 93934,
+      "sha256": "f336e4bd52564f51117a54f4b22ddbba68f4fdbcb2bb928a3191f76457ce7680"
+    },
+    "suite/plots/followup/turin-empirical-conflicts.provenance.json": {
+      "bytes": 22956,
+      "sha256": "8de27e5dd581fa5306342a668478d3fbac685e0ca46fe25d8ba7170b6a8045c1"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-5.svg": {
+      "bytes": 119080,
+      "sha256": "3c9abd0d5c5607849e7e23f47ef0ae50c6c742e6ba8f0215f06c92322a66774b"
+    },
+    "suite/plots/followup/haswell-upper-saturation-boxes-1.provenance.json": {
+      "bytes": 2355,
+      "sha256": "0d1fd7487b3447816178169370f0bd63a8e1a9c8a373753cbc5280d76b10c425"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-2.provenance.json": {
+      "bytes": 3501,
+      "sha256": "f3b0c1bf732d4b61e6e08311721f837373676321d6cbcc22d04f044e75c80efa"
+    },
+    "suite/plots/followup/turin-confirmation-boxes-2.png": {
+      "bytes": 74611,
+      "sha256": "6dc1ce50c2e4b0a8b284a9d2123d121fa6e6224ea4269b30055c34308b8c903a"
+    },
+    "suite/plots/followup/turin-empirical-heldout-boxes-1.svg": {
+      "bytes": 90277,
+      "sha256": "84fa0aeb52d294c10413fb06628f043e49423b2ba94dca2e8be730ba79f59d05"
+    },
+    "suite/plots/followup/icelake_8358-l2-heldout-boxes-1.png": {
+      "bytes": 91776,
+      "sha256": "e8f49e177d0d3757260af9abfaacd24461a3628b730548c687fa11f5c5632be3"
+    },
+    "suite/plots/followup/turin-upper-saturation-boxes-1.provenance.json": {
+      "bytes": 2317,
+      "sha256": "7d469e8ec104293a1119c6706e57f2cd3a51e607e6bcc1d5ef6b17b4530397e6"
+    },
+    "suite/plots/followup/turin-spatial-alignment.pdf": {
+      "bytes": 19668,
+      "sha256": "818b951e5b9410ac4f1da966dfe52dd7fdcf75c1f3b832fc3d3c9cb706c3b929"
+    },
+    "suite/plots/followup/haswell-confirmation-boxes-2.pdf": {
+      "bytes": 18608,
+      "sha256": "bebed24fb408ea7e7de7f346512ccf274d7add8f04638d578c87e4f573330ab8"
+    },
+    "suite/plots/followup/icelake_8358-empirical-heldout-boxes-1.svg": {
+      "bytes": 127219,
+      "sha256": "1612f13c264e64f09ae5d23fa422c6346e338be95ba9c502866a4e989d632651"
+    },
+    "suite/plots/followup/haswell-l2-heldout-boxes-3.provenance.json": {
+      "bytes": 3509,
+      "sha256": "76434f9d4015fcc225aa0fce74f89c5c841d64e271610ddf83b5c7f9937ba8c2"
+    },
+    "suite/plots/followup/genoa-capacity-controls.provenance.json": {
+      "bytes": 16084,
+      "sha256": "9933e67c64154a17a04a20719654de7284fd3fea883a9436a834d467a449bccf"
+    },
+    "suite/plots/followup/turin-capacity-boxes-2.pdf": {
+      "bytes": 18048,
+      "sha256": "a2778d19f07ac40e65910d7620b579db4470ffe91a850350584e2f4bd8485902"
+    },
+    "suite/plots/followup/cascadelake-empirical-heldout-boxes-1.provenance.json": {
+      "bytes": 2639,
+      "sha256": "f2196d2508f43d753748a863756b2a2fa016a18047249dc0dabae8a80e0df1d0"
+    },
+    "suite/plots/followup/turin-cross-core-reload.png": {
+      "bytes": 49831,
+      "sha256": "f063b9ea11c82f1686306de5bbf65b352e40b06355331775f50ecebc0d490f20"
+    },
+    "suite/plots/followup/cascadelake-spatial-alignment.svg": {
+      "bytes": 65867,
+      "sha256": "241bb074d7af090d4bc29344b450111650f56f2ebe6969a318fac23dcf8a7b18"
+    },
+    "suite/plots/followup/haswell-confirmation-boxes-1.pdf": {
+      "bytes": 18459,
+      "sha256": "42e55999b7a66e9ed068f32ca6c7218a122d72d3e736d7f7252bcbcb5b13a632"
+    },
+    "suite/plots/followup/turin-confirmation-boxes-1.pdf": {
+      "bytes": 18340,
+      "sha256": "c953c129c0ee2d72eb4bfe32efcbc9d5f149cccb0b5a348eb40bf5eded16ae51"
+    },
+    "suite/plots/followup/cascadelake-spatial-alignment.png": {
+      "bytes": 95780,
+      "sha256": "56b4406b5bf3b83ba1235736db5f3aa6931b28bfacacdd738acecfcede36d343"
+    },
+    "suite/plots/followup/haswell-capacity-controls.png": {
+      "bytes": 94534,
+      "sha256": "e1f148f040d42b8fe9d3d27bfa7d74ef814bca5d37c77f1c71da87f68e58d0de"
+    },
+    "suite/plots/followup/turin-confirmation-boxes-1.svg": {
+      "bytes": 88981,
+      "sha256": "05d6ca2f085526a9bb8807172c3a59aa2d87d2909d0b5929170fa43883350160"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-4.svg": {
+      "bytes": 91574,
+      "sha256": "12c11946b61ee1cc14bda732f688862f48b59439f71b551084fb11835493f32f"
+    },
+    "suite/plots/followup/genoa-capacity-boxes-2.provenance.json": {
+      "bytes": 1675,
+      "sha256": "bb9333fa9539f3d29a80e6ae4cccd58a60007bab920756f0602a546c53f9019a"
+    },
+    "suite/plots/followup/icelake_8358-confirmation-boxes-4.provenance.json": {
+      "bytes": 2467,
+      "sha256": "9f6cfe15a18a1489257aa7b45de6fbd76f32f9af6a065b50da7166ca72161814"
+    },
+    "suite/scripts/uncertainty.py": {
+      "bytes": 3813,
+      "sha256": "fd7c7dc8aec570d68a8a97df221227508d277662c63aeee6d1864c6c442ef21e"
+    },
+    "suite/scripts/independent_diagnostic_worker.py": {
+      "bytes": 7015,
+      "sha256": "1b8a2b8ffaeecd6e675daa3c1beb821d199462f5f791ef48571cc00195ee13af"
+    },
+    "suite/scripts/hazel_followup_worker.py": {
+      "bytes": 9579,
+      "sha256": "42ce60bc54e607d88082e1f2a6095bb654087f220a1514cc94229f00b79f7372"
+    },
+    "suite/scripts/progress.py": {
+      "bytes": 1945,
+      "sha256": "ccc8fa39807ba917401a114b4cb088dbd8a8debb9ee69276a6d7ef855df7388b"
+    },
+    "suite/scripts/worker.py": {
+      "bytes": 22774,
+      "sha256": "69b6926aff25e6a093576a36950f915792f2c6bafe8fc3accb5fc1a99b7e66a0"
+    },
+    "suite/scripts/plot_uncertainty.py": {
+      "bytes": 11491,
+      "sha256": "f7a7559f2981d18a36b51dffa6978fa73d9446eebe3babacfbf2f83baac4661c"
+    },
+    "suite/scripts/page_control_worker.py": {
+      "bytes": 3795,
+      "sha256": "e234589fbe938682ef2aa5e77c17c291b57bfc631f08e3e90f98172a286d79ce"
+    },
+    "suite/scripts/plot_independent.py": {
+      "bytes": 2626,
+      "sha256": "3d942b8499f58fd5fdbf9aed0ccef90505f294a8edabee7fa2c1f4fa18e90bf5"
+    },
+    "suite/scripts/capture_remote_sources.py": {
+      "bytes": 1587,
+      "sha256": "c18aa7fde891487cd68f8b58edad461e69f463e541658b67ce75c0b0f6433c64"
+    },
+    "suite/scripts/hazel_analyze_baseline.py": {
+      "bytes": 3900,
+      "sha256": "c38b452f717e53acbdb113de7e1a5895e0a24889968efdc79cbef8d6a70d1532"
+    },
+    "suite/scripts/phase1.py": {
+      "bytes": 7225,
+      "sha256": "8d2bcb0289c95672fd338dc7eac77e3a4470dd50cb7a5bf5c66079e2993508ef"
+    },
+    "suite/scripts/analyze.py": {
+      "bytes": 50068,
+      "sha256": "a446080a84b6296f5b86964d5a2c0f2dd519fab469b8f729e09c28c4d95182b5"
+    },
+    "suite/scripts/restore_independent.py": {
+      "bytes": 1690,
+      "sha256": "ae67d5c960558834cda44564ac52d421b8dd7bec1a84fa37e95a146a845fc7bc"
+    },
+    "suite/scripts/render_followup.py": {
+      "bytes": 977,
+      "sha256": "94f1dbe85a1d0d8c0e86134b676882c9a0161f66828873a2095f1512e9499798"
+    },
+    "suite/scripts/package_independent.py": {
+      "bytes": 2519,
+      "sha256": "2114475c56cea442bf23ded973a3a76d2da48aa2c261bb062debb3ad77ba09a6"
+    },
+    "suite/scripts/finalize_hazel.py": {
+      "bytes": 2389,
+      "sha256": "80f4ed2aba4e1ec562bfab06874272f3d3887c67cdba86f44d9375238221ed45"
+    },
+    "suite/scripts/independent_worker.py": {
+      "bytes": 7637,
+      "sha256": "a00832d74af3da963c7e8ba4c15ee688a60ed84168413704928b2361faf8de51"
+    },
+    "suite/scripts/independent_repair.py": {
+      "bytes": 2302,
+      "sha256": "c24d467f56c8ecfded40397888be2e82cd521146f8512d3d58de8eb15fc9c08b"
+    },
+    "suite/scripts/plot_followup.py": {
+      "bytes": 18095,
+      "sha256": "b37625349b75a92a8cb40f6067c28d7b6421016bc111a7575177b62d02a69ea5"
+    },
+    "suite/scripts/uncertainty_status.py": {
+      "bytes": 1593,
+      "sha256": "3999df2ff05701002b7f552c87cc48209b0bf0b3630496ea2ba3ad4a19474cde"
+    },
+    "suite/scripts/analyze_independent.py": {
+      "bytes": 13628,
+      "sha256": "de96543a4064a0cf26893c5064e85e2b7df35907f3d2a84553e60063178ae73b"
+    },
+    "suite/scripts/report_followup.py": {
+      "bytes": 36980,
+      "sha256": "19b3e6ead1b0ca65cf07d6e5ec4951a1e31f942d68443863b754c316b094a447"
+    },
+    "suite/scripts/uncertainty_worker.py": {
+      "bytes": 18893,
+      "sha256": "1330552affb4cb5ffe59b8564eceaf2197f5eb8bfa2512c209dd8505f2d0be89"
+    },
+    "suite/scripts/analyze_uncertainty.py": {
+      "bytes": 25049,
+      "sha256": "f6d53232528b43c455ea851c73bbf2ab5b7293fa57ae82edc133236536f2b1e6"
+    },
+    "suite/scripts/hazel_aux_worker.py": {
+      "bytes": 9107,
+      "sha256": "83bf1ae6cb1550eb0d9f5283188cd5a35e5fc9d62748b01a975fc29ddbd09bb7"
+    },
+    "suite/scripts/hazel_diagnostic_worker.py": {
+      "bytes": 9162,
+      "sha256": "4286ce302c2f8fc94a640a4584c95a82f9f02ed8bfb6e5bea7c22b098842a48e"
+    },
+    "suite/scripts/plot_hazel_independent.py": {
+      "bytes": 2746,
+      "sha256": "98d9bf26bf15c579005a53461b169f1fe639e9a15d6a564dfca00440a587edf1"
+    },
+    "suite/scripts/check_followup_metadata.py": {
+      "bytes": 2845,
+      "sha256": "b152bfea2321b9d3041e53c2ee1adf9227064700d011baf2bfb17dac9e13b67b"
+    },
+    "suite/scripts/common.py": {
+      "bytes": 6575,
+      "sha256": "5b88cf6993875cf67ca4a7606fc6d5aee22d9cef5eafbcdbbd515351474d1b10"
+    },
+    "suite/scripts/analyze_followup.py": {
+      "bytes": 49580,
+      "sha256": "a155edd8fe04a24b8407deb3f16ef22929c08db633cb45c0fba4a333d2c8151f"
+    },
+    "suite/scripts/hazel_worker.py": {
+      "bytes": 6978,
+      "sha256": "5cacf27e22ba64412de7c97e68708a7fa667db436be1cb57f4f57d15a2b02473"
+    },
+    "suite/scripts/independent_load.py": {
+      "bytes": 4014,
+      "sha256": "9cda3ecb84edde374f293593c1b92929614a45082a3660dbc65b4d2296f5affb"
+    },
+    "suite/scripts/summarize_hazel.py": {
+      "bytes": 4811,
+      "sha256": "346690e65f2ad92cabe2fb3aeccd5f74075691a3db02f30fe5be6c6c8215c40b"
+    },
+    "suite/scripts/package_hazel_results.py": {
+      "bytes": 5301,
+      "sha256": "a7780eb348c5ad2e64e7f2831039fa6e6c35c043e165b30765e1fa97698d17bf"
+    },
+    "suite/scripts/check_builds.py": {
+      "bytes": 3026,
+      "sha256": "b96bd8200daa03ca2958a1ee7c470a014ceeb0f8cdb5d3385ca05ef85d931cbf"
+    },
+    "suite/scripts/followup.py": {
+      "bytes": 3475,
+      "sha256": "4659b87aca0bb7b4875fefaa304b901d6ba5381a6e9f6c9ed316ce1e07270644"
+    },
+    "suite/scripts/audit.py": {
+      "bytes": 1861,
+      "sha256": "7ecb491fa45d3b537e2a2af1450d244524ede9a23460c6d4b2a282dee59ec7cd"
+    },
+    "suite/scripts/followup_worker.py": {
+      "bytes": 26440,
+      "sha256": "f4b5dbd5774008cefef638da6b409752f8c30cb7526f96bbea17eb5ceeac9f64"
+    },
+    "suite/src/cache_bench.c": {
+      "bytes": 7755,
+      "sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad"
+    },
+    "suite/src/page_control.c": {
+      "bytes": 5315,
+      "sha256": "61ee1c1e1b31ce906ea203ab71ec2b9b2f5cb95a26cc473b1fd2e7db1c504a7f"
+    },
+    "suite/src/followup_bench.c": {
+      "bytes": 8938,
+      "sha256": "87a9ec142e667728e1ffd12bbebe3caf3733b84e08fab0defe0d41aedb467516"
+    },
+    "suite/src/independent_load.c": {
+      "bytes": 5702,
+      "sha256": "e3c359622796e51af3e06542c1b5ae5ef69d033e6bbdc693996eb0025135b5b2"
+    },
+    "suite/config/followup-plan.json": {
+      "bytes": 3975,
+      "sha256": "a6594c91ac86e1d72f80da577573286f507c1f99e003a542ab7f60f3014edae2"
+    },
+    "suite/config/uncertainty-repair-policy.json": {
+      "bytes": 1107,
+      "sha256": "816628ca17f7e67e04f1c13defe2e236a1ea67d6d1ad2c8f0bdbbef196f50480"
+    },
+    "suite/config/uncertainty-analysis-policy.json": {
+      "bytes": 1204,
+      "sha256": "a9bac6a62dac4dccd3d1cbdc9abfdfc4d15ebf31a921ba126f19823fdfc75c11"
+    },
+    "suite/config/uncertainty-plan.json": {
+      "bytes": 7523,
+      "sha256": "b0cb4469d86913d05c3972f805cf5aabd49270bfea959c49cdb187cfd88553cd"
+    },
+    "suite/config/independent-load.json": {
+      "bytes": 685,
+      "sha256": "1e73fa8bb98971c5ec77c79bf20f5a943576e86ac4b2b2a10ca22d1274c4b605"
+    },
+    "suite/config/uncertainty-capacity-repair-policy.json": {
+      "bytes": 1077,
+      "sha256": "dde26261ee2093dd60b24802736edc2240ec91dc50732ec6c128a7e7d3b1ce32"
+    },
+    "suite/config/phase1.json": {
+      "bytes": 526,
+      "sha256": "d901aff2a8e58e5fdd56dfd2a794d0838e4a0c1016f13a228a044d7edf5c56a9"
+    },
+    "suite/config/followup-inference-policy.json": {
+      "bytes": 2781,
+      "sha256": "f106bf87b18bf68acc955404757acf25afef53b7b65d7430bc7519cf54b4966a"
+    }
+  },
+  "raw_inventory": "results/raw-record-inventory.json",
+  "independent_calibration_policy": "Explicit per-host approved variant; no global calibration claim"
+}

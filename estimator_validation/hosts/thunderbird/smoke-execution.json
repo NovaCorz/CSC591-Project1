@@ -1,0 +1,22 @@
+{
+  "command": [
+    "ssh",
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "ConnectTimeout=15",
+    "-o",
+    "ConnectionAttempts=1",
+    "-o",
+    "ServerAliveInterval=30",
+    "-o",
+    "ServerAliveCountMax=3",
+    "-o",
+    "StrictHostKeyChecking=accept-new",
+    "-o",
+    "UserKnownHostsFile=/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/access/known_hosts",
+    "thunderbird.ece.ncsu.edu",
+    "cd ece592_estimator_validation_20260913_v1 && python3 worker.py smoke"
+  ],
+  "returncode": 0
+}

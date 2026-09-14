@@ -1,0 +1,23 @@
+{
+  "affinity": [
+    0,
+    97
+  ],
+  "allocated": [
+    {
+      "core": 0,
+      "cpu": 0,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 97,
+      "cpu": 97,
+      "node": 1,
+      "socket": 1
+    }
+  ],
+  "job_id": "815971",
+  "reason": "No two allocated physical cores share a socket; waiting cannot resolve this allocation",
+  "time": "2026-09-12T22:17:32.692995+00:00"
+}

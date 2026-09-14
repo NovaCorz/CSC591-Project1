@@ -1,0 +1,166 @@
+{
+  "phase": "I timing only",
+  "hosts": {
+    "sunbird": {
+      "batch": 512,
+      "spatial_footprints": [
+        524288,
+        2097152
+      ],
+      "spatial_candidate": 64,
+      "cross_footprints": [
+        262144,
+        8388608,
+        67108864
+      ],
+      "baseline_inference_sha256": "b3bcb5640f0e3634eb62726fd0de4fb381deb6c0fda01263025b5d4ff4493aa0",
+      "l1_ways_candidate": 8,
+      "l1_tested_period": 4096,
+      "l1_capacity_interval": [
+        32768,
+        36864
+      ]
+    },
+    "thunderbird": {
+      "batch": 1024,
+      "spatial_footprints": [
+        524288,
+        2097152
+      ],
+      "spatial_candidate": 64,
+      "cross_footprints": [
+        262144,
+        8388608,
+        67108864
+      ],
+      "baseline_inference_sha256": "d18a1e99362bee4e607a6b911c6d9cda369c4005b0f39bc7fd1a7e5f3a224d71",
+      "l1_ways_candidate": 4,
+      "l1_tested_period": 16384,
+      "l1_capacity_interval": [
+        65536,
+        73728
+      ]
+    },
+    "skylark": {
+      "batch": 512,
+      "spatial_footprints": [
+        524288,
+        2097152
+      ],
+      "spatial_candidate": 64,
+      "cross_footprints": [
+        262144,
+        8388608,
+        67108864
+      ],
+      "baseline_inference_sha256": "dbc5295e9d242531f9ba54e9ddbe886fe4f9a4278f23c4417fb483c37dbabcf8",
+      "l1_ways_candidate": 8,
+      "l1_tested_period": 4096,
+      "l1_capacity_interval": [
+        32768,
+        36864
+      ]
+    },
+    "artemisia": {
+      "batch": 256,
+      "spatial_footprints": [
+        524288,
+        2097152
+      ],
+      "spatial_candidate": 64,
+      "cross_footprints": [
+        262144,
+        8388608,
+        67108864
+      ],
+      "baseline_inference_sha256": "737843e30d7310237bf8316c44bcf119ab0465bea3e0f26b58251c6da99c4832",
+      "l1_ways_candidate": 12,
+      "l1_tested_period": 4096,
+      "l1_capacity_interval": [
+        49152,
+        53248
+      ]
+    },
+    "charnwood": {
+      "batch": 512,
+      "spatial_footprints": [
+        524288,
+        2097152
+      ],
+      "spatial_candidate": 64,
+      "cross_footprints": [
+        262144,
+        8388608,
+        67108864
+      ],
+      "baseline_inference_sha256": "3526971219a7fc724539832b8a22f27a0147f01966637e38dca756f305679540",
+      "l1_ways_candidate": 8,
+      "l1_tested_period": 4096,
+      "l1_capacity_interval": [
+        32768,
+        36864
+      ]
+    },
+    "crux": {
+      "batch": 512,
+      "spatial_footprints": [
+        524288,
+        2097152
+      ],
+      "spatial_candidate": 64,
+      "cross_footprints": [
+        262144,
+        8388608,
+        67108864
+      ],
+      "baseline_inference_sha256": "a20e884024322020e138268f9ff6a11013e8d582bf8953c68062e9d244e06030",
+      "l1_ways_candidate": 8,
+      "l1_tested_period": 4096,
+      "l1_capacity_interval": [
+        32768,
+        36864
+      ]
+    },
+    "ookay": {
+      "batch": 512,
+      "spatial_footprints": [
+        524288,
+        2097152
+      ],
+      "spatial_candidate": 64,
+      "cross_footprints": [
+        262144,
+        8388608,
+        67108864
+      ],
+      "baseline_inference_sha256": "eca0ccf6a66061e774009a03f7b59f9a22eda635677c63bdfda68e305a71ef5b",
+      "l1_ways_candidate": 8,
+      "l1_tested_period": 4096,
+      "l1_capacity_interval": [
+        32768,
+        36864
+      ]
+    },
+    "upgrade": {
+      "batch": 512,
+      "spatial_footprints": [
+        524288,
+        2097152
+      ],
+      "spatial_candidate": 64,
+      "cross_footprints": [
+        262144,
+        8388608,
+        67108864
+      ],
+      "baseline_inference_sha256": "342111e32ee24a12b055c1cd4bc4f6c4f38426f345d19ff70ebc6046f035ea0e",
+      "l1_ways_candidate": 8,
+      "l1_tested_period": 4096,
+      "l1_capacity_interval": [
+        32768,
+        36864
+      ]
+    }
+  },
+  "rule": "Spatial 64-byte candidate comes from retained timing edges; it remains a hypothesis. Generic cross-pressure footprints are experimental variables, not inferred capacities."
+}

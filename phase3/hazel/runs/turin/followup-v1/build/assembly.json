@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/usr/bin/gcc",
+    "-O0",
+    "-g",
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fno-omit-frame-pointer",
+    "-pthread",
+    "-S",
+    "followup_bench.c",
+    "-o",
+    "followup_bench.s"
+  ],
+  "cwd": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/followup-v1/build",
+  "finished": "2026-09-13T00:07:39.548895+00:00",
+  "returncode": 0,
+  "started": "2026-09-13T00:07:39.508492+00:00",
+  "stderr": "",
+  "stdout": ""
+}

@@ -1,0 +1,278 @@
+{
+  "binary_sha256": "8fcb633a15ec2e44d7c06841891f0794ac1ec57b49ed5a6f6f9a690f50eefd34",
+  "compiler_flags": [
+    "-O0",
+    "-g",
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fno-omit-frame-pointer",
+    "-pthread"
+  ],
+  "config": {
+    "_affinity_policy": "Retain inherited Slurm mask; never expand to unallocated CPUs",
+    "_benchmark_path": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/followup-v1/build/followup_bench",
+    "_environment_record": "environment-history/job-811440.json",
+    "_hazel_constraint": "haswell",
+    "_preferred_cpu": 11,
+    "_preferred_cpu_reason": "Most recent quality-passing acquisition; every idle window still required",
+    "_provenance_manifest": "provenance/3eaa2c2738a86495942cdfb29a5c3c49ea8a895f908c000040293a3074fa2d47/manifest.json",
+    "_slurm_job_id": "811440",
+    "_source_digest": "0adebc3b15992f7de880be989c4cf4803568cce76bd74ef4e12a807329dd5331",
+    "_use_noise_history": true,
+    "attempts": 3,
+    "batch": 512,
+    "hosts": [
+      "haswell",
+      "broadwell",
+      "skylake",
+      "cascadelake",
+      "icelake_6326",
+      "icelake_8358",
+      "sapphirerapids",
+      "genoa",
+      "turin"
+    ],
+    "idle_fraction": 0.05,
+    "idle_seconds": 1.0,
+    "idle_windows": 2,
+    "max_bytes": 268435456,
+    "min_bytes": 1024,
+    "point_timeout_seconds": 1800,
+    "samples": 1000000,
+    "schema": 1,
+    "seed": 5922026,
+    "taxonomy": "Hazel constraint labels supplied by the project specification; no cache specifications consulted"
+  },
+  "constraint": "haswell",
+  "exact_cpu_model": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
+  "git_source_commit": "1f687d7f6eec0cf79e74afc57118db013aa036c3",
+  "hostname": "c207n01",
+  "inherited_and_available_affinity": [
+    10,
+    11
+  ],
+  "isa": "x86_64",
+  "plan": {
+    "baseline_inference_sha256": "66e34b5b3c31ec7564299a8efe31bb8006a059f96f2c457175fe010abf7d3814",
+    "batch": 512,
+    "constraint": "haswell",
+    "cross_footprints": [
+      262144,
+      8388608,
+      67108864
+    ],
+    "derivation": "Same follow-up constants as Phase I; target-specific line, ways, index period, capacity interval, and batch come only from verified Hazel baseline timing inference.",
+    "l1_capacity_interval": [
+      32768,
+      36864
+    ],
+    "l1_tested_period": 4096,
+    "l1_ways_candidate": 8,
+    "missing_inputs": [],
+    "phase": "Hazel timing only",
+    "ready": true,
+    "spatial_candidate": 64,
+    "spatial_footprints": [
+      524288,
+      2097152
+    ]
+  },
+  "prediction_freeze": null,
+  "protocol_deviation": "Execution explicitly authorized without section 8.6.1 prediction freeze.",
+  "python": "3.9.23 (main, Aug 19 2025, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-11)]",
+  "slurm": {
+    "SLURM_CLUSTER_NAME": "hazel",
+    "SLURM_CONF": "/var/spool/slurmd/conf-cache/slurm.conf",
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_CPU_BIND": "quiet,mask_cpu:0x00C00",
+    "SLURM_CPU_BIND_LIST": "0x00C00",
+    "SLURM_CPU_BIND_TYPE": "mask_cpu:",
+    "SLURM_CPU_BIND_VERBOSE": "quiet",
+    "SLURM_DISTRIBUTION": "cyclic",
+    "SLURM_EXPORT_ENV": "ALL,HAZEL_CONSTRAINT=haswell,HAZEL_STAGE=smoke",
+    "SLURM_GET_USER_ENV": "1",
+    "SLURM_GTIDS": "0",
+    "SLURM_HINT": "nomultithread",
+    "SLURM_JOBID": "811440",
+    "SLURM_JOB_ACCOUNT": "ece592f26_cpu",
+    "SLURM_JOB_CPUS_PER_NODE": "2",
+    "SLURM_JOB_DEPENDENCY": "afterany:810638",
+    "SLURM_JOB_END_TIME": "1789197944",
+    "SLURM_JOB_GID": "990576078",
+    "SLURM_JOB_GROUP": "ece592f26",
+    "SLURM_JOB_ID": "811440",
+    "SLURM_JOB_NAME": "hz-haswell-f6",
+    "SLURM_JOB_NODELIST": "c207n01",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOB_PARTITION": "compute",
+    "SLURM_JOB_QOS": "normal",
+    "SLURM_JOB_START_TIME": "1789191044",
+    "SLURM_JOB_UID": "477244",
+    "SLURM_JOB_USER": "hlee58",
+    "SLURM_LAUNCH_NODE_IPADDR": "192.168.3.99",
+    "SLURM_LOCALID": "0",
+    "SLURM_MEM_PER_NODE": "2048",
+    "SLURM_NNODES": "1",
+    "SLURM_NODEID": "0",
+    "SLURM_NODELIST": "c207n01",
+    "SLURM_NPROCS": "1",
+    "SLURM_NTASKS": "1",
+    "SLURM_OOM_KILL_STEP": "0",
+    "SLURM_PRIO_PROCESS": "0",
+    "SLURM_PROCID": "0",
+    "SLURM_SCRIPT_CONTEXT": "prolog_task",
+    "SLURM_SRUN_COMM_HOST": "192.168.3.99",
+    "SLURM_SRUN_COMM_PORT": "42521",
+    "SLURM_STEPID": "0",
+    "SLURM_STEP_ID": "0",
+    "SLURM_STEP_LAUNCHER_PORT": "42521",
+    "SLURM_STEP_NODELIST": "c207n01",
+    "SLURM_STEP_NUM_NODES": "1",
+    "SLURM_STEP_NUM_TASKS": "1",
+    "SLURM_STEP_TASKS_PER_NODE": "1",
+    "SLURM_SUBMIT_DIR": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite",
+    "SLURM_SUBMIT_HOST": "c207n01",
+    "SLURM_TASKS_PER_NODE": "1",
+    "SLURM_TASK_PID": "2095236",
+    "SLURM_THREADS_PER_CORE": "1",
+    "SLURM_TOPOLOGY_ADDR": ".c207eth.c207n01",
+    "SLURM_TOPOLOGY_ADDR_PATTERN": "switch.switch.node",
+    "SLURM_TRES_PER_TASK": "cpu=2",
+    "SLURM_UMASK": "0022"
+  },
+  "stage": "l2",
+  "time": "2026-09-12T05:30:47.926311+00:00",
+  "topology": [
+    {
+      "core": 0,
+      "cpu": 0,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 1,
+      "cpu": 1,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 2,
+      "cpu": 2,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 3,
+      "cpu": 3,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 4,
+      "cpu": 4,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 5,
+      "cpu": 5,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 6,
+      "cpu": 6,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 7,
+      "cpu": 7,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 8,
+      "cpu": 8,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 9,
+      "cpu": 9,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 10,
+      "cpu": 10,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 11,
+      "cpu": 11,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 12,
+      "cpu": 12,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 13,
+      "cpu": 13,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 14,
+      "cpu": 14,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 15,
+      "cpu": 15,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 16,
+      "cpu": 16,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 17,
+      "cpu": 17,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 18,
+      "cpu": 18,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 19,
+      "cpu": 19,
+      "node": 1,
+      "socket": 1
+    }
+  ],
+  "topology_command": {
+    "command": [
+      "lscpu",
+      "-p=CPU,CORE,SOCKET,NODE"
+    ],
+    "stderr": "",
+    "stdout": "# The following is the parsable format, which can be fed to other\n# programs. Each different item in every column has an unique ID\n# starting usually from zero.\n# CPU,Core,Socket,Node\n0,0,0,0\n1,1,0,0\n2,2,0,0\n3,3,0,0\n4,4,0,0\n5,5,0,0\n6,6,0,0\n7,7,0,0\n8,8,0,0\n9,9,0,0\n10,10,1,1\n11,11,1,1\n12,12,1,1\n13,13,1,1\n14,14,1,1\n15,15,1,1\n16,16,1,1\n17,17,1,1\n18,18,1,1\n19,19,1,1\n"
+  }
+}

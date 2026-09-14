@@ -1,0 +1,25 @@
+Follow-up segment job=815970 constraint=icelake_8358 stage=smoke status=1 end=2026-09-12T18:17:31-04:00
+
+------------------------------------------------------------
+Resource usage summary:
+
+    Job ID            : 815970
+    Job name          : hz-icelake8-f0
+    User / Account    : hlee58 / ece592f26_cpu
+    Partition / QOS   : compute_partners / short
+    Submitted         : 2026-09-12T18:17:24
+    Started           : 2026-09-12T18:17:30
+    Wait time         : 6 sec
+    Elapsed (wall)    : 00:00:01
+    Nodes             : 1 (c059n01)
+    CPUs allocated    : 2
+    Tasks             : 1
+    CPU time (total)  : 0.23 sec  (user 0.12, sys 0.12)
+    CPU efficiency    : 11.5%
+    Memory in use     : 18.07 MB  (sampled at job end; see seff for peak)
+    Memory requested  : 2G
+    Working directory : /gpfs_common/share03/rotenberg/hlee58/ECE592_proj1
+    Exit code         : 0:0
+
+    For final accounting (Slurm's MaxRSS, billing, etc.):  seff 815970
+------------------------------------------------------------

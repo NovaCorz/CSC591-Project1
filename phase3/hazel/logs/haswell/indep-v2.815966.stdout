@@ -1,0 +1,40 @@
+{"event": "point_passed", "family": "smoke", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 1, "extra_args": [1]}, "median": 3.5556640625}
+{"event": "point_passed", "family": "smoke", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 4, "extra_args": [4]}, "median": 0.9052734375}
+{"event": "point_noisy", "family": "comparison", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/haswell/independent-load-diagnostic-v2/comparison/98fe8851d5b49f3b/attempt-1789250885398187813"}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 4, "extra_args": [4], "order_index": 0, "repetition": 0}, "median": 0.90283203125}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 1, "extra_args": [1], "order_index": 0, "repetition": 1}, "median": 3.5556640625}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 4, "extra_args": [4], "order_index": 0, "repetition": 1}, "median": 0.90283203125}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 4, "extra_args": [4], "order_index": 1, "repetition": 0}, "median": 0.903564453125}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924101, "order": "random", "streams": 1, "extra_args": [1], "order_index": 1, "repetition": 0}, "median": 3.5556640625}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924102, "order": "random", "streams": 1, "extra_args": [1], "order_index": 0, "repetition": 0}, "median": 3.5556640625}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924102, "order": "random", "streams": 4, "extra_args": [4], "order_index": 0, "repetition": 0}, "median": 0.90283203125}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924102, "order": "random", "streams": 4, "extra_args": [4], "order_index": 1, "repetition": 0}, "median": 0.90283203125}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924102, "order": "random", "streams": 1, "extra_args": [1], "order_index": 1, "repetition": 0}, "median": 3.5556640625}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924103, "order": "random", "streams": 1, "extra_args": [1], "order_index": 0, "repetition": 0}, "median": 3.5556640625}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924103, "order": "random", "streams": 4, "extra_args": [4], "order_index": 0, "repetition": 0}, "median": 0.90283203125}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924103, "order": "random", "streams": 4, "extra_args": [4], "order_index": 1, "repetition": 0}, "median": 0.90283203125}
+{"event": "point_passed", "family": "comparison", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 4096, "seed": 5924103, "order": "random", "streams": 1, "extra_args": [1], "order_index": 1, "repetition": 0}, "median": 3.5556640625}
+
+------------------------------------------------------------
+Resource usage summary:
+
+    Job ID            : 815966
+    Job name          : hz-haswell-indep-v2
+    User / Account    : hlee58 / ece592f26_cpu
+    Partition / QOS   : compute / normal
+    Submitted         : 2026-09-12T18:07:39
+    Started           : 2026-09-12T18:07:59
+    Wait time         : 20 sec
+    Elapsed (wall)    : 00:01:46
+    Nodes             : 1 (c207n01)
+    CPUs allocated    : 2
+    Tasks             : 1
+    CPU time (total)  : 69.75 sec  (user 69.27, sys 0.48)
+    CPU efficiency    : 32.9%
+    Memory in use     : 65.88 MB  (sampled at job end; see seff for peak)
+    Memory requested  : 2G
+    Working directory : /gpfs_common/share03/rotenberg/hlee58/ECE592_proj1
+    Exit code         : 0:0
+
+    For final accounting (Slurm's MaxRSS, billing, etc.):  seff 815966
+------------------------------------------------------------

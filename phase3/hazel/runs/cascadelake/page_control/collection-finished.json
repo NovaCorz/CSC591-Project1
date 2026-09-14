@@ -1,0 +1,17 @@
+{
+  "note": "THP advice is not proof of actual huge-page backing; own-mapping smaps evidence is recorded.",
+  "points": 10,
+  "sizes": [
+    4194304,
+    4096,
+    1024,
+    1048576,
+    67108864,
+    65536,
+    16384,
+    262144,
+    16777216,
+    268435456
+  ],
+  "time": "2026-09-12T03:37:29.695640+00:00"
+}

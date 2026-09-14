@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "all_15_plot_requirements_classified": true,
+    "all_lab_visible_boundaries_equal_64_bytes": true,
+    "all_prediction_numbers_finite_positive": true,
+    "all_selected_l1_sources_have_1000000_samples_and_passed": true,
+    "exact_eight_lab_rows": true,
+    "exact_nine_specification_targets": true,
+    "input_allowlist_contains_no_phase3_result_path": true,
+    "l2_trend_passes_declared_selection_rule": true,
+    "no_hazel_measurements_used_or_accessed": true,
+    "vector_figures_exist": true
+  },
+  "counts": {
+    "lab_rows": 8,
+    "requirements": 15,
+    "selected_latency_sources": 8,
+    "target_rows": 9
+  },
+  "note": "Passing validates construction, provenance, and Hazel-data isolation; unsupported physical cache quantities remain explicit.",
+  "passed": true
+}

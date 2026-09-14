@@ -1,0 +1,14 @@
+{
+  "retrieved_utc_date": "2026-09-14",
+  "scopt": {"title":"Intel Optimization Reference Manual, 248966-049US","url":"https://cdrdv2-public.intel.com/814198/248966-Optimization-Reference-Manual-V1-049.pdf","locator":"Table 2-14, printed p.2-32 / PDF p.87; section 2.1, printed p.2-1"},
+  "scnano": {"title":"Abel and Reineke, nanoBench Cache Analyzer results","url":"https://uops.info/cache.html","locator":"Core i7-7700 and i7-8700K L1/L2 entries; related Coffee Lake SKU comparisons are conditional"},
+  "scaltra": {"title":"Ampere Altra Processor Datasheet, issue 1.30","url":"https://amperecomputing.com/assets/Altra_Rev_A1_DS_v1_30_20220728_8170025756.pdf","locator":"sections 2.3--2.5, printed p.9"},
+  "scrome": {"title":"AMD EPYC 7002 ROME HPC Tuning Guide, 56827","url":"https://www.amd.com/content/dam/amd/en/documents/epyc-technical-docs/tuning-guides/amd-epyc-7002-tg-hpc-56827.pdf","locator":"cache-domain diagram: 16 MB L3 groups; not package capacity or a measured sharing-domain proof"},
+  "scspr": {"title":"Intel Fourth Generation Xeon Scalable Family Overview","url":"https://www.intel.com/content/www/us/en/developer/articles/technical/fourth-generation-xeon-scalable-family-overview.html","locator":"Table 1, L1D and private L2 sizes"},
+  "sc5420": {"title":"Intel Xeon Gold 5420+ Specifications","url":"https://www.intel.com/content/www/us/en/products/sku/232381/intel-xeon-gold-5420-processor-52-5m-cache-2-00-ghz/specifications.html","locator":"CPU Specifications: 52.5 MB cache"},
+  "sc2680": {"title":"Intel Xeon E5-2680 v3 Specifications","url":"https://www.intel.co.jp/content/www/jp/ja/products/sku/81908/intel-xeon-processor-e52680-v3-30m-cache-2-50-ghz/specifications.html","locator":"CPU Specifications: 30 MB Smart Cache"},
+  "sci7": {"title":"Intel Core i7 Desktop Processor Comparison Chart","url":"https://www.intel.com/content/dam/support/us/en/documents/processors/intel-core-i7-comparison-chart.pdf","locator":"p.1, rows i7-6700 (8 MB), i7-7700 (8 MB), i7-8700 (12 MB)"},
+  "sc9700": {"title":"Intel Core i7-9700 Specifications","url":"https://www.intel.com/content/www/us/en/products/sku/191792/intel-core-i79700-processor-12m-cache-up-to-4-70-ghz/specifications.html","locator":"CPU Specifications: 12 MB Smart Cache"},
+  "p3fog": {"title":"Agner Fog, The Microarchitecture of Intel, AMD, and VIA CPUs","url":"https://www.agner.org/optimize/microarchitecture.pdf","locator":"Tables 10.2 p.147, 11.2 p.160, 12.3 p.169, 13.1 p.174, 22.3 p.237, 25.1 p.258; core-family comparisons only, no client LLC substituted for server LLC"},
+  "hazel_existing_sources": "prediction/post_hazel/inputs/published-sources.json; per-field source URLs and locators in prediction/post_hazel/results-817293/prediction-timing-published.csv"
+}

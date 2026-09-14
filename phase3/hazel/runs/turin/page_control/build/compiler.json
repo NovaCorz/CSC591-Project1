@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/usr/bin/gcc",
+    "--version"
+  ],
+  "cwd": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/turin/page_control/build",
+  "finished": "2026-09-12T03:38:35.063274+00:00",
+  "returncode": 0,
+  "started": "2026-09-12T03:38:35.060711+00:00",
+  "stderr": "",
+  "stdout": "gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-11)\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+}

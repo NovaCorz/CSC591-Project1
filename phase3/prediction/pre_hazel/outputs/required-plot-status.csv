@@ -1,0 +1,16 @@
+spec_item,plot,status
+1,L1D capacity vs year,complete: timing-derived bracket; constant server forecast
+2,L1D associativity vs year,qualified: conditional ways; constant server forecast
+3,L1D hit latency vs year,qualified: L1-like batch median converted with per-run empirical timer rate; constant server forecast
+4,L1 miss penalty vs year,unsupported: no isolated L1-to-L2 penalty
+5,L2 capacity per core vs year,qualified: L2-like effective bracket; server log-linear forecast
+6,L2 associativity vs year,"partial: six conditional lab values, three server values; constant server forecast"
+7,L2 hit latency vs year,unsupported: physical L2 residency not isolated
+8,L2 miss penalty vs year,unsupported: physical L2-to-LLC transition not isolated
+9,LLC/L3 capacity vs year,partial: effective pinned-core bracket only; sharing-normalized capacity unsupported
+10,LLC associativity vs year,unsupported: held-out pressure experiment inconclusive
+11,LLC hit latency and LLC-to-memory penalty vs year,unsupported: neither service class isolated
+12,cache line/block size vs year,complete for smallest visible spatial boundary; constant 64-byte forecast
+13,inclusion/exclusion behavior vs year,complete as categorical evidence: all eight uncertain; no stronger prediction
+14,timing-derived software metric vs year,"qualified: standardized workload, but threshold-sensitive and not a hardware hit rate"
+15,at least two PMU-derived normalized metrics vs year,unsupported: Phase II data absent and forbidden from this lab-only fit

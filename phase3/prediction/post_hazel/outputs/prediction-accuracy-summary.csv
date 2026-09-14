@@ -1,0 +1,9 @@
+metric,scorable,unresolved,mean_absolute_relative_error_pct,prediction_point_inside_observation_range,interval_overlap_count,closest_constraint,closest_absolute_relative_error_pct,largest_error_constraint,largest_absolute_relative_error_pct,limitation
+l1_capacity,5,0,20.571479921904093,0,5,icelake_8358,16.031688975662124,haswell,23.598007219398742,capacity scores use bracket midpoints; broad interval overlap does not demonstrate accurate prediction
+l1_associativity,5,0,13.333333333333334,3,5,haswell,0.0,icelake_8358,33.333333333333336,capacity scores use bracket midpoints; broad interval overlap does not demonstrate accurate prediction
+l1_latency,4,1,20.021491009948477,0,3,haswell,5.104271185049098,genoa,28.51845232711103,capacity scores use bracket midpoints; broad interval overlap does not demonstrate accurate prediction
+l2_capacity,3,2,75.64572748359645,0,2,haswell,14.524378920580432,turin,156.41676054605395,capacity scores use bracket midpoints; broad interval overlap does not demonstrate accurate prediction
+l2_associativity,1,4,0.0,1,1,haswell,0.0,haswell,0.0,capacity scores use bracket midpoints; broad interval overlap does not demonstrate accurate prediction
+llc_capacity,3,2,50.00000000000001,2,3,genoa,25.00000000000001,haswell,62.50000000000001,capacity scores use bracket midpoints; broad interval overlap does not demonstrate accurate prediction
+line_size,5,0,0.0,5,5,haswell,0.0,haswell,0.0,capacity scores use bracket midpoints; broad interval overlap does not demonstrate accurate prediction
+software_metric,5,0,5.987069319300749,3,5,cascadelake,0.024568303386027546,icelake_8358,16.755820204759015,capacity scores use bracket midpoints; broad interval overlap does not demonstrate accurate prediction

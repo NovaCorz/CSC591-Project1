@@ -1,0 +1,117 @@
+Hazel segment: job=811148 constraint=genoa stage=full start=2026-09-11T23:40:06-04:00
+Invocation: srun --cpu-bind=cores --hint=nomultithread python3 scripts/hazel_worker.py full
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1048576, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 8388608, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 65536, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 4096, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 16777216, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 2097152, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 16384, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 67108864, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 41943040, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_noisy", "family": "capacity", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/baseline/full/capacity/b6752ac926ab9efa/attempt-1789184461773853603"}
+{"event": "point_noisy", "family": "capacity", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/baseline/full/capacity/b6752ac926ab9efa/attempt-1789184466237331952"}
+{"event": "point_noisy", "family": "capacity", "flags": ["frequent involuntary context switches"], "attempt": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/baseline/full/capacity/b6752ac926ab9efa/attempt-1789184470685436192"}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 720896, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 57344, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 58720256, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 61440, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 11.25}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 917504, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 20971520, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1966080, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 3932160, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 37748736, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 36864, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 3407872, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1703936, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 3145728, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 90112, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 1441792, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 73728, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 46137344, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 206.71875}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 125829120, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 36864, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 6.84375}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 81920, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "capacity", "params": {"mode": "chase", "bytes": 983040, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "regular"}, "median": 5.0625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 786432, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 5.0625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 86016, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 20.625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 77824, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 20.625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 851968, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 20.625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1310720, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 20.625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 57344, "stride": 4096, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 20.625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 6029312, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 20.625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1310720, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 5.0625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1114112, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 20.625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 180224, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 20.625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 147456, "stride": 16384, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 37.40625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1048576, "stride": 262144, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 5.0625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 1048576, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 20.625}
+{"event": "point_passed", "family": "associativity", "params": {"mode": "chase", "bytes": 458752, "stride": 65536, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 5.0625}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 1024, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 1024, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 1024, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 65536, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 65536, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 144.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 65536, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 144.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 131072, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 131072, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 144.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 131072, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 144.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 524288, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 524288, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 144.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 524288, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 1048576, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 1048576, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 144.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 1048576, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 2097152, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 2097152, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 144.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 2097152, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 4194304, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 4194304, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 144.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 4194304, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 16777216, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 16777216, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 144.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 16777216, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 33554432, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 33554432, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 33554432, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 67108864, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 67108864, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 67108864, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 134217728, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 134217728, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 134217728, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 268435456, "stride": 8, "offset": 0, "batch": 32, "seed": 5922026, "order": "random"}, "median": 120.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 268435456, "stride": 8, "offset": 0, "batch": 512, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "inclusion_policy", "params": {"mode": "reload", "bytes": 268435456, "stride": 8, "offset": 0, "batch": 2048, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "software_metric", "params": {"mode": "chase", "bytes": 1024, "stride": 8, "offset": 0, "batch": 1, "seed": 5922026, "order": "random"}, "median": 144.0}
+{"event": "point_passed", "family": "software_metric", "params": {"mode": "chase", "bytes": 1048576, "stride": 8, "offset": 0, "batch": 1, "seed": 5922026, "order": "random"}, "median": 168.0}
+{"event": "point_passed", "family": "software_metric", "params": {"mode": "chase", "bytes": 268435456, "stride": 8, "offset": 0, "batch": 1, "seed": 5922026, "order": "random"}, "median": 480.0}
+Hazel segment: job=811148 constraint=genoa stage=full status=0 end=2026-09-12T00:15:44-04:00
+Submitting compute-node raw validation and blind baseline inference
+{"record": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/submissions/genoa/analysis-20260912T041544.211640Z.json", "returncode": 0, "job_id": "811206", "stderr": ""}
+
+------------------------------------------------------------
+Resource usage summary:
+
+    Job ID            : 811148
+    Job name          : hz-genoa-full
+    User / Account    : hlee58 / ece592f26_cpu
+    Partition / QOS   : compute_partners / short
+    Submitted         : 2026-09-11T23:40:00
+    Started           : 2026-09-11T23:40:04
+    Wait time         : 4 sec
+    Elapsed (wall)    : 00:35:40
+    Nodes             : 1 (n0398)
+    CPUs allocated    : 2
+    Tasks             : 1
+    CPU time (total)  : 1942.28 sec  (user 1935.16, sys 7.13)
+    CPU efficiency    : 45.4%
+    Memory in use     : 609.79 MB  (sampled at job end; see seff for peak)
+    Memory requested  : 2G
+    Working directory : /gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite
+    Exit code         : 0:0
+
+    For final accounting (Slurm's MaxRSS, billing, etc.):  seff 811148
+------------------------------------------------------------

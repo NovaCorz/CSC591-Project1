@@ -1,0 +1,6 @@
+constraint,year,published_domain_cores,published_domain_mib,published_mib_per_domain_core,timing_low_mib_per_domain_core,timing_high_mib_per_domain_core,status,published_package_mib
+haswell,2014,10,25,2.5,1.6,12.8,conditional normalization assuming timing domain corresponds to published domain; not independently established,25
+cascadelake,2019,16,22,1.375,,,conditional normalization assuming timing domain corresponds to published domain; not independently established,22
+icelake_8358,2021,32,48,1.5,,,conditional normalization assuming timing domain corresponds to published domain; not independently established,48
+genoa,2022,8,32,4.0,1.0,8.0,conditional normalization assuming timing domain corresponds to published domain; not independently established,384
+turin,2024,8,32,4.0,4.0,8.0,conditional normalization assuming timing domain corresponds to published domain; not independently established,384

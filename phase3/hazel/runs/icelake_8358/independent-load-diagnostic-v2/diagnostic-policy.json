@@ -1,0 +1,9 @@
+{
+  "batch": 4096,
+  "calibration_gate": "not performed: user-requested diagnostic variant",
+  "controls": "Functional checks, assembly dependency audit, idle affinity, sample count, raw integrity and noise flags retained",
+  "interpretation": "Uncorrected native timer ticks/load; dependent versus independent throughput comparison. Not a physical cache-hit latency estimate.",
+  "samples": 1000000,
+  "source_digest": "e375ed2f81534fb16c59465c17ba8428638c7393e8eaed302bcc4317ca2dd768",
+  "time": "2026-09-12T22:08:04.802418+00:00"
+}
