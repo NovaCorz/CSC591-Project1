@@ -56,20 +56,20 @@ python3 stride_correlation.py \
       --out ../../data_raw/thunderbird/pmu/stride_correlation
 
 python3 associativity_correlation.py \
-      --host crux --level l1 \
+      --host thunderbird --level l1 \
       --plan-json ../common/phase1/config/uncertainty-plan.json \
       --binary ../common/phase1/src/followup_bench \
       --pmu-stat ../pmu/pmu_stat --cpu 3 \
       --events cycles,instructions,L1D-read-access,L1D-read-miss,cache-misses \
       --events-per-run 2 \
-      --out ../../data_raw/crux/pmu/associativity_correlation_l1
+      --out ../../data_raw/thunderbird/pmu/associativity_correlation_l1
 
 python3 associativity_correlation.py \
-      --host crux --level l2 --period 65536 --ways 4 \
+      --host thunderbird --level l2 --period 73728 --ways 8 \
       --binary ../common/phase1/src/followup_bench \
       --pmu-stat ../pmu/pmu_stat --cpu 3 \
       --events cycles,instructions,LL-read-access,LL-read-miss,cache-misses \
       --events-per-run 2 \
-      --out ../../data_raw/crux/pmu/associativity_correlation_l2
+      --out ../../data_raw/thunderbird/pmu/associativity_correlation_l2
 
 echo "Bash script finished."
