@@ -1,14 +1,35 @@
-# Phase I: curated timing-only experiment
+# CSC591 Project 1: Cache experiments and prediction
 
-This repository contains the code and selected evidence from the verified Phase-I timing experiments on eight lab machines. The previous incorrect experiment has been removed. All original directory paths are preserved; unused directories contain only `.gitkeep` in empty leaves. Names such as `pmu`, `hazel_genoa`, and `hazel_haswell` survive only as empty directory structure and do not represent experiments in this collection.
+This repository contains the eight-machine ECE timing experiments (Phase I), ECE PMU measurements and estimator comparisons (Phase II), five-generation Hazel measurements and prediction evaluation (Phase III), and the frozen competition estimator. Timing inferences, published cache information, and PMU comparisons remain separate; later verification does not replace the original measurements or resolve every cache property.
 
-The `report/` and `slides/` directory trees intentionally contain only the placeholders needed to preserve them. Reports and slides are maintained and submitted separately. No Phase-II measurements or specification-derived cache answers are included.
+- [GitHub repository](https://github.com/NovaCorz/CSC591-Project1)
+- [Overleaf report](https://www.overleaf.com/read/gyrqznmvwbsd#2b5b1c)
 
-## Phase-II handoff
+Report and slide files are maintained and submitted separately. The `report/` and `slides/` directory trees retain placeholders; they are not the report source package. Large timing archives also remain external, at the locations recorded below and in each phase's manifests.
 
-Read [PHASE1_HANDOFF.md](PHASE1_HANDOFF.md) before starting verification. The annotated `phase1-timing-only` tag preserves this dataset; [phase1-freeze.json](phase1-freeze.json) identifies the separate report and all three raw archives. The handoff records the unresolved controls and inclusion sequencing limitation.
+## Start here
 
-## Results and limitations
+| Work | Code, results, and documentation |
+|---|---|
+| Phase I: eight ECE machines | [Final timing-inference table](data_processed/all_machines/inferred-cache-table.csv), [latency classes](data_processed/all_machines/followup-latency-classes.csv), and [shared benchmark suite](main_code/common/phase1/). Methodology and reproduction instructions follow below. |
+| Phase II: PMU measurements | [PMU code](main_code/pmu/), per-machine `data_raw/<host>/pmu/` records, and [three-workload cross-machine counter tables](data_processed/eight_counter_cross_machine/). Unavailable events are retained as limitations. |
+| Phase II: software-estimator comparison | [Method, verified comparisons, and raw-data locations](estimator_validation/README.md). Counter populations and timing classifications differ, limiting accuracy claims. |
+| Phase III: Hazel and predictions | [Results and reproduction guide](phase3/README.md): Haswell, Cascade Lake, Ice Lake 8358, Genoa, and Turin; ECE-only predictions, timing/published comparisons, chronological plots, two cache laws, and the 2029 forecast. |
+| Competition | [Fixed estimator and execution instructions](competition/README.md), [70-candidate scorecard](competition/scorecard.csv), and [release handoff](COMPETITION_HANDOFF.md). |
+
+## Competition release
+
+The annotated tag **`competition-v1`** identifies release commit **`62d3d2b1b8539303772e2783c575cd0972df3335`**. Parameters and source hashes were frozen at `2026-09-14T03:22:58.604722+00:00`; the commit timestamp is `2026-09-14T03:24:02Z`. Later documentation commits do not move this tag or change the frozen estimator.
+
+[COMPETITION_HANDOFF.md](COMPETITION_HANDOFF.md) records the release verification and submission references. The release includes 648 manifest-listed Phase-III files and 107 estimator-validation files. The competition entry point passed a small smoke test and agreement checks against the original classifier; these checks are not an official competition score. Its runtime estimator uses timing only.
+
+On Hazel, use Slurm for benchmarks, raw-data processing, and substantial analysis; never run them on a login node or connect directly to compute nodes. ECE acquisition commands below target the designated lab hosts. Use fresh output locations for new runs and preserve the frozen evidence.
+
+## Historical Phase-I freeze and handoff
+
+Read [PHASE1_HANDOFF.md](PHASE1_HANDOFF.md) for the original timing-only handoff. The annotated `phase1-timing-only` tag preserves this dataset; [phase1-freeze.json](phase1-freeze.json) identifies the separate report and all three raw archives. The handoff records the unresolved controls and inclusion sequencing limitation.
+
+## Phase-I results and limitations
 
 These are conditional timing candidates. Capacity brackets describe observed transitions, not statistical confidence intervals or verified hardware specifications. Earlier correct baseline and follow-up evidence is retained because the additional experiment builds on it; the final table and final inference JSON take precedence over earlier candidate interpretations.
 
@@ -27,7 +48,7 @@ All eight machines supported a visible 64 B spatial boundary in all eight additi
 
 The additional round contains **2,067 selected full configurations, 2,483 full attempts and 36 smoke attempts**. Of these, **140 selected distributions are noisy** and **556 attempts carry flags**; these totals include different units of counting. Full coverage and raw-integrity checks passed, with no incomplete raw attempt in this additional round. This does not mean every physical-cache question was resolved.
 
-The authoritative machine-readable result is [inferred-cache-table.csv](data_processed/all_machines/inferred-cache-table.csv). Effective latency distributions and descriptive same-core differences are in [followup-latency-classes.csv](data_processed/all_machines/followup-latency-classes.csv). The software timing metric, hot/cold calibration, threshold sensitivity and uncertainty are in each machine's `baseline-inference.json` under `software_metric`. It is a software timing proxy, not a PMU-validated hardware hit rate. Native TSC/CNTVCT timer ticks are not labelled core cycles.
+The authoritative machine-readable result is [inferred-cache-table.csv](data_processed/all_machines/inferred-cache-table.csv). Effective latency distributions and descriptive same-core differences are in [followup-latency-classes.csv](data_processed/all_machines/followup-latency-classes.csv). The software timing metric, hot/cold calibration, threshold sensitivity and uncertainty are in each machine's `baseline-inference.json` under `software_metric`. It is a software timing proxy. The later [matched PMU comparison](estimator_validation/README.md) quantifies differences against hardware-counter references, but does not establish individual-load classification accuracy. Native TSC/CNTVCT timer ticks are not labelled core cycles.
 
 ## Measurements retained
 
@@ -96,14 +117,20 @@ python3 scripts/analyze_independent.py
 python3 scripts/plot_independent.py
 ```
 
-## Repository layout and provenance
+## Repository layout and Phase-I provenance
 
 - `main_code/common/phase1/`: native C kernels, Makefile, frozen policies, acquisition/analysis scripts and 48 functional tests (42 original plus six diagnostic tests). Original measurement and analysis files are byte-for-byte copies. Two plotting-only modules extract the original figure functions, switch output to SVG and add an external-workspace CLI; extraction provenance is recorded.
 - `data_processed/<host>/`: baseline controls/software metric, follow-up inference and verified records, final inference and all additional attempt metadata. `baseline-`, `followup-`, and `final-` identify the three correct rounds, not the deleted experiment.
 - `data_processed/all_machines/`: shared statistics, final data tables, build/coverage/blind-boundary checks, archive/import manifests and curation verification.
-- `plots/`: 302 selected SVG evidence figures and their original provenance JSON, with one image format per figure. Capacity figures use `plots/capacity/<host>/`.
+- `plots/`: Phase-I evidence includes 302 selected SVG figures and their provenance JSON. Capacity figures use `plots/capacity/<host>/`; later-phase plots are also available in their respective packages.
 - `scripts/`: external archive restore, integrity checks, representative raw verification, and final CSV export. These do not acquire data automatically.
-- `data_raw/`, unused source/plot directories and `hpc_slurm/`: preserved empty structure.
+- `main_code/pmu/`: Phase-II counter collection, capacity-boundary correlation, and cross-machine aggregation code.
+- `data_raw/<host>/pmu/`: Phase-II measurements, summaries, and logs; these directories are populated.
+- `data_processed/eight_counter_cross_machine/`: combined and workload-specific counter comparison tables.
+- `estimator_validation/`: matched software-only estimator / PMU comparison, source, verified summaries, and archive locations.
+- `phase3/`: Hazel source and Slurm snapshots, verified evidence, predictions, published comparisons, and plots.
+- `competition/`: fixed parameters, timing-only entry points, scorecard, and freeze/verification manifests.
+- `report/`, `slides/`, `hpc_slurm/`, and other unused directories: retained placeholder structure. Hazel Slurm scripts are in the Phase-III package; the competition runner is `competition/run.slurm`.
 
 [import-manifest.json](data_processed/all_machines/import-manifest.json) maps every imported file's original path to its curated destination and SHA-256. Paths inside immutable CSV/JSON/provenance remain **original archive-relative identifiers**. They are not broken relative links to be silently rewritten. Resolve them with:
 
@@ -113,7 +140,7 @@ python3 scripts/verify_phase1_import.py --resolve data_processed/followup/latenc
 
 If a path is not copied, resolve it in the restored archive overlay. Absolute paths embedded in original command logs describe the producing environment. The follow-up metadata audit explicitly resolves historical conflict-smoke aliases without rewriting records. [curation-reference-checks.json](data_processed/all_machines/curation-reference-checks.json) records the reference audit.
 
-## Check the curated copy
+## Check the Phase-I curated copy
 
 From the clone root, with Python 3.9+:
 
@@ -132,9 +159,9 @@ make -C "$TOOLKIT_TEST" test
 
 The native build needs GCC, GNU make and binutils (`objdump`). No plot packages are needed for these tests. For analysis plots, install `main_code/common/phase1/requirements-analysis.txt` into a separate virtual environment. Set `MPLCONFIGDIR` to a writable external directory on the lab servers.
 
-## External raw evidence and restore
+## External Phase-I raw evidence and restore
 
-The full evidence archives intentionally remain outside Git. They retain all raw distributions, alternate/unsuccessful attempts, source snapshots, compiler/environment records, command logs, address lists and idle observations, including material not selected for this curated view. Keep both archives available when moving the repository: cloning Git alone does not retrieve raw evidence.
+The full evidence archives intentionally remain outside Git. They retain all raw distributions, alternate/unsuccessful attempts, source snapshots, compiler/environment records, command logs, address lists and idle observations, including material not selected for this curated view. Keep all three Phase-I archives available when moving the repository: the two listed below and the independent-load archive documented above. Cloning Git alone does not retrieve that raw evidence. Phase-II estimator archives and Hazel timing data have separate inventories in [estimator_validation/README.md](estimator_validation/README.md) and [phase3/README.md](phase3/README.md).
 
 The server currently stores them under `/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/artifacts/`:
 
@@ -156,7 +183,7 @@ python3 scripts/export_phase1_tables.py --workspace "$EVIDENCE_WORKSPACE" --outp
 
 The archives preserve their original experiment layout, including historical documents externally. Nothing in this restore imports report or slide files into the curated clone. No new raw distributions are acquired by these commands.
 
-## Recompute from existing evidence
+## Recompute Phase I from existing evidence
 
 Run analysis only in the external restored workspace. To use the exact final toolkit retained here, copy its source, config and test directories over the corresponding restored directories first; this updates analysis implementation, not producing-source snapshots inside `machines/`. The import manifest and release validation record distinguish these from historical producing versions. Keep `CLONE_ROOT` set to the clone's absolute path before changing directories.
 
@@ -180,9 +207,9 @@ python3 "$CLONE_ROOT/scripts/export_phase1_tables.py" --workspace "$EVIDENCE_WOR
 
 Full raw recomputation can be lengthy. The baseline analysis also writes its historical inference-summary Markdown and additional plot formats in the external workspace; it does not change the curated clone. The two retained plotting-only modules produce SVG evidence without report/slide generation. Regenerated image bytes can vary with SVG metadata and plotting-library versions; data statistics, provenance and qualifications are the reproducibility targets.
 
-## Repeat the measurements
+## Repeat the Phase-I measurements
 
-The commands below are documentation, not part of repository cleanup. They require SSH access to the eight configured `.ece.ncsu.edu` hosts and should run from a separate working copy of the toolkit. Baseline, follow-up and additional stages are resumable, with source/coverage gates and all retries retained. No reservations are assumed; workers wait for qualifying idle cores. Do not start a second controller over an active run. The frozen follow-up and additional plans were derived from this experiment's timing evidence and are intended to reproduce these machines' experiment, not to serve as hardware specifications.
+The commands below reproduce the recorded Phase-I workflow. They require SSH access to the eight configured `.ece.ncsu.edu` hosts and should run from a separate working copy of the toolkit. Baseline, follow-up and additional stages are resumable, with source/coverage gates and all retries retained. No reservations are assumed; workers wait for qualifying idle cores. Do not start a second controller over an active run. The frozen follow-up and additional plans were derived from this experiment's timing evidence and are intended to reproduce these machines' experiment, not to serve as hardware specifications.
 
 ```bash
 make test
@@ -203,12 +230,4 @@ python3 scripts/uncertainty.py capacity_repair --hosts sunbird charnwood crux up
 python3 scripts/analyze_uncertainty.py --final
 ```
 
-Use `--hosts` on the acquisition controllers to resume an individual machine; repeat an interrupted stage after its controller has stopped. Raw data and completion markers decide what remains. The archived full verification and the curation checks separate successful measurement collection from unresolved physical interpretation. Do not consult PMUs, cache-reporting interfaces or published cache specifications during Phase I. The optional original `audit.py` expects the original project PDF in an external experiment root (the archives supply it). Phase II requires a separate, explicit workflow.
-
-## Final competition and Phase-III package
-
-- [Competition entry points and fixed estimator parameters](competition/README.md)
-- [Phase-III Hazel results and prediction evaluation](phase3/README.md)
-- [Matched software-estimator / PMU validation](estimator_validation/README.md)
-
-The competition package records provisional scorecard decisions and estimator limitations. Original timing results and predictions remain unchanged. Reports and slides are maintained separately.
+Use `--hosts` on the acquisition controllers to resume an individual machine; repeat an interrupted stage after its controller has stopped. Raw data and completion markers decide what remains. The archived full verification and the curation checks separate successful measurement collection from unresolved physical interpretation. Do not consult PMUs, cache-reporting interfaces or published cache specifications during Phase I. The optional original `audit.py` expects the original project PDF in an external experiment root (the archives supply it). The separate Phase-II workflow is under `main_code/pmu/` and `estimator_validation/`.
