@@ -31,11 +31,11 @@ exact historical sweep.
 
 Usage:
   python3 stride_correlation.py \
-      --host thunderbird --binary ../common/phase1/src/cache_bench \
-      --pmu-stat ../pmu/pmu_stat --cpu 3 \
+      --host sunbird --binary ../common/phase1/src/cache_bench \
+      --pmu-stat ../pmu/pmu_stat --cpu 8 \
       --host-config ../common/phase1/config/followup-plan.json \
       --events cycles,instructions,L1D-read-access,L1D-read-miss \
-      --out ../../data_raw/thunderbird/pmu/stride_correlation
+      --out ../../data_raw/sunbird/pmu/stride_correlation
 """
 import argparse
 import csv
