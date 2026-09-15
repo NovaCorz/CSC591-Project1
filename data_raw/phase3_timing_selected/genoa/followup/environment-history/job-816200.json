@@ -1,0 +1,1309 @@
+{
+  "binary_sha256": "eeb581a66e1910c3edbd4bc7b215c78ec2e76e229a7c30cde48845e741288350",
+  "compiler_flags": [
+    "-O0",
+    "-g",
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fno-omit-frame-pointer",
+    "-pthread"
+  ],
+  "config": {
+    "_affinity_policy": "Retain inherited Slurm mask; never expand to unallocated CPUs",
+    "_benchmark_path": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/build/followup_bench",
+    "_environment_record": "environment-history/job-816200.json",
+    "_hazel_constraint": "genoa",
+    "_preferred_cpu": 97,
+    "_preferred_cpu_reason": "Most recent quality-passing acquisition; every idle window still required",
+    "_provenance_manifest": "provenance/5ee2171f28bc6b5c1067bb611fcffab2f7f60a47bea98e7d86bee6f1fd9e67a1/manifest.json",
+    "_slurm_job_id": "816200",
+    "_source_digest": "0adebc3b15992f7de880be989c4cf4803568cce76bd74ef4e12a807329dd5331",
+    "_use_noise_history": true,
+    "attempts": 3,
+    "batch": 512,
+    "hosts": [
+      "haswell",
+      "broadwell",
+      "skylake",
+      "cascadelake",
+      "icelake_6326",
+      "icelake_8358",
+      "sapphirerapids",
+      "genoa",
+      "turin"
+    ],
+    "idle_fraction": 0.05,
+    "idle_seconds": 1.0,
+    "idle_windows": 2,
+    "max_bytes": 268435456,
+    "min_bytes": 1024,
+    "point_timeout_seconds": 1800,
+    "samples": 1000000,
+    "schema": 1,
+    "seed": 5922026,
+    "taxonomy": "Hazel constraint labels supplied by the project specification; no cache specifications consulted"
+  },
+  "constraint": "genoa",
+  "exact_cpu_model": "AMD EPYC 9654 96-Core Processor",
+  "git_source_commit": "1f687d7f6eec0cf79e74afc57118db013aa036c3",
+  "hostname": "n0399",
+  "inherited_and_available_affinity": [
+    1,
+    98,
+    99
+  ],
+  "isa": "x86_64",
+  "plan": {
+    "baseline_inference_sha256": "bacd80545915c4ab368dd8046daca160125ec2d263196244e66696d368036df0",
+    "batch": 512,
+    "constraint": "genoa",
+    "cross_footprints": [
+      262144,
+      8388608,
+      67108864
+    ],
+    "derivation": "Same follow-up constants as Phase I; target-specific line, ways, index period, capacity interval, and batch come only from verified Hazel baseline timing inference.",
+    "l1_capacity_interval": [
+      32768,
+      36864
+    ],
+    "l1_tested_period": 4096,
+    "l1_ways_candidate": 8,
+    "missing_inputs": [],
+    "phase": "Hazel timing only",
+    "ready": true,
+    "spatial_candidate": 64,
+    "spatial_footprints": [
+      524288,
+      2097152
+    ]
+  },
+  "prediction_freeze": null,
+  "protocol_deviation": "Execution explicitly authorized without section 8.6.1 prediction freeze.",
+  "python": "3.9.23 (main, Aug 19 2025, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-11)]",
+  "slurm": {
+    "SLURM_CLUSTER_NAME": "hazel",
+    "SLURM_CONF": "/var/spool/slurmd/conf-cache/slurm.conf",
+    "SLURM_CPUS_ON_NODE": "3",
+    "SLURM_CPUS_PER_TASK": "3",
+    "SLURM_CPU_BIND": "quiet,mask_cpu:0x00000000000000000000000C000000000000000000000002",
+    "SLURM_CPU_BIND_LIST": "0x00000000000000000000000C000000000000000000000002",
+    "SLURM_CPU_BIND_TYPE": "mask_cpu:",
+    "SLURM_CPU_BIND_VERBOSE": "quiet",
+    "SLURM_DISTRIBUTION": "block:block",
+    "SLURM_EXPORT_ENV": "ALL,HAZEL_CONSTRAINT=genoa,HAZEL_STAGE=smoke",
+    "SLURM_GET_USER_ENV": "1",
+    "SLURM_GTIDS": "0",
+    "SLURM_JOBID": "816200",
+    "SLURM_JOB_ACCOUNT": "ece592f26_cpu",
+    "SLURM_JOB_CPUS_PER_NODE": "3",
+    "SLURM_JOB_END_TIME": "1789266112",
+    "SLURM_JOB_GID": "990576078",
+    "SLURM_JOB_GROUP": "ece592f26",
+    "SLURM_JOB_ID": "816200",
+    "SLURM_JOB_NAME": "hz-genoa-f8",
+    "SLURM_JOB_NODELIST": "n0399",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOB_PARTITION": "compute_partners",
+    "SLURM_JOB_QOS": "short",
+    "SLURM_JOB_START_TIME": "1789259212",
+    "SLURM_JOB_UID": "477244",
+    "SLURM_JOB_USER": "hlee58",
+    "SLURM_LAUNCH_NODE_IPADDR": "192.168.2.68",
+    "SLURM_LOCALID": "0",
+    "SLURM_MEM_PER_NODE": "2048",
+    "SLURM_NNODES": "1",
+    "SLURM_NODEID": "0",
+    "SLURM_NODELIST": "n0399",
+    "SLURM_NPROCS": "1",
+    "SLURM_NTASKS": "1",
+    "SLURM_NTASKS_PER_CORE": "1",
+    "SLURM_OOM_KILL_STEP": "0",
+    "SLURM_PRIO_PROCESS": "0",
+    "SLURM_PROCID": "0",
+    "SLURM_SCRIPT_CONTEXT": "prolog_task",
+    "SLURM_SRUN_COMM_HOST": "192.168.2.68",
+    "SLURM_SRUN_COMM_PORT": "37575",
+    "SLURM_STEPID": "0",
+    "SLURM_STEP_ID": "0",
+    "SLURM_STEP_LAUNCHER_PORT": "37575",
+    "SLURM_STEP_NODELIST": "n0399",
+    "SLURM_STEP_NUM_NODES": "1",
+    "SLURM_STEP_NUM_TASKS": "1",
+    "SLURM_STEP_TASKS_PER_NODE": "1",
+    "SLURM_SUBMIT_DIR": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite",
+    "SLURM_SUBMIT_HOST": "n0399",
+    "SLURM_TASKS_PER_NODE": "1",
+    "SLURM_TASK_PID": "1571236",
+    "SLURM_TOPOLOGY_ADDR": "ibcore[01-04].ibtorb17.n0399",
+    "SLURM_TOPOLOGY_ADDR_PATTERN": "switch.switch.node",
+    "SLURM_TRES_PER_TASK": "cpu=3",
+    "SLURM_UMASK": "0022"
+  },
+  "stage": "inclusion_final",
+  "time": "2026-09-13T00:26:54.798619+00:00",
+  "topology": [
+    {
+      "core": 0,
+      "cpu": 0,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 1,
+      "cpu": 1,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 2,
+      "cpu": 2,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 3,
+      "cpu": 3,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 4,
+      "cpu": 4,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 5,
+      "cpu": 5,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 6,
+      "cpu": 6,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 7,
+      "cpu": 7,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 8,
+      "cpu": 8,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 9,
+      "cpu": 9,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 10,
+      "cpu": 10,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 11,
+      "cpu": 11,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 12,
+      "cpu": 12,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 13,
+      "cpu": 13,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 14,
+      "cpu": 14,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 15,
+      "cpu": 15,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 16,
+      "cpu": 16,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 17,
+      "cpu": 17,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 18,
+      "cpu": 18,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 19,
+      "cpu": 19,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 20,
+      "cpu": 20,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 21,
+      "cpu": 21,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 22,
+      "cpu": 22,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 23,
+      "cpu": 23,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 24,
+      "cpu": 24,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 25,
+      "cpu": 25,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 26,
+      "cpu": 26,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 27,
+      "cpu": 27,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 28,
+      "cpu": 28,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 29,
+      "cpu": 29,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 30,
+      "cpu": 30,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 31,
+      "cpu": 31,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 32,
+      "cpu": 32,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 33,
+      "cpu": 33,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 34,
+      "cpu": 34,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 35,
+      "cpu": 35,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 36,
+      "cpu": 36,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 37,
+      "cpu": 37,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 38,
+      "cpu": 38,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 39,
+      "cpu": 39,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 40,
+      "cpu": 40,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 41,
+      "cpu": 41,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 42,
+      "cpu": 42,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 43,
+      "cpu": 43,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 44,
+      "cpu": 44,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 45,
+      "cpu": 45,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 46,
+      "cpu": 46,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 47,
+      "cpu": 47,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 48,
+      "cpu": 48,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 49,
+      "cpu": 49,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 50,
+      "cpu": 50,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 51,
+      "cpu": 51,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 52,
+      "cpu": 52,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 53,
+      "cpu": 53,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 54,
+      "cpu": 54,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 55,
+      "cpu": 55,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 56,
+      "cpu": 56,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 57,
+      "cpu": 57,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 58,
+      "cpu": 58,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 59,
+      "cpu": 59,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 60,
+      "cpu": 60,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 61,
+      "cpu": 61,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 62,
+      "cpu": 62,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 63,
+      "cpu": 63,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 64,
+      "cpu": 64,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 65,
+      "cpu": 65,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 66,
+      "cpu": 66,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 67,
+      "cpu": 67,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 68,
+      "cpu": 68,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 69,
+      "cpu": 69,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 70,
+      "cpu": 70,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 71,
+      "cpu": 71,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 72,
+      "cpu": 72,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 73,
+      "cpu": 73,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 74,
+      "cpu": 74,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 75,
+      "cpu": 75,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 76,
+      "cpu": 76,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 77,
+      "cpu": 77,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 78,
+      "cpu": 78,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 79,
+      "cpu": 79,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 80,
+      "cpu": 80,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 81,
+      "cpu": 81,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 82,
+      "cpu": 82,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 83,
+      "cpu": 83,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 84,
+      "cpu": 84,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 85,
+      "cpu": 85,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 86,
+      "cpu": 86,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 87,
+      "cpu": 87,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 88,
+      "cpu": 88,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 89,
+      "cpu": 89,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 90,
+      "cpu": 90,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 91,
+      "cpu": 91,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 92,
+      "cpu": 92,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 93,
+      "cpu": 93,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 94,
+      "cpu": 94,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 95,
+      "cpu": 95,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 96,
+      "cpu": 96,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 97,
+      "cpu": 97,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 98,
+      "cpu": 98,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 99,
+      "cpu": 99,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 100,
+      "cpu": 100,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 101,
+      "cpu": 101,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 102,
+      "cpu": 102,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 103,
+      "cpu": 103,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 104,
+      "cpu": 104,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 105,
+      "cpu": 105,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 106,
+      "cpu": 106,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 107,
+      "cpu": 107,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 108,
+      "cpu": 108,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 109,
+      "cpu": 109,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 110,
+      "cpu": 110,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 111,
+      "cpu": 111,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 112,
+      "cpu": 112,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 113,
+      "cpu": 113,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 114,
+      "cpu": 114,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 115,
+      "cpu": 115,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 116,
+      "cpu": 116,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 117,
+      "cpu": 117,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 118,
+      "cpu": 118,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 119,
+      "cpu": 119,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 120,
+      "cpu": 120,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 121,
+      "cpu": 121,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 122,
+      "cpu": 122,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 123,
+      "cpu": 123,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 124,
+      "cpu": 124,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 125,
+      "cpu": 125,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 126,
+      "cpu": 126,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 127,
+      "cpu": 127,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 128,
+      "cpu": 128,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 129,
+      "cpu": 129,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 130,
+      "cpu": 130,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 131,
+      "cpu": 131,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 132,
+      "cpu": 132,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 133,
+      "cpu": 133,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 134,
+      "cpu": 134,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 135,
+      "cpu": 135,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 136,
+      "cpu": 136,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 137,
+      "cpu": 137,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 138,
+      "cpu": 138,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 139,
+      "cpu": 139,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 140,
+      "cpu": 140,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 141,
+      "cpu": 141,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 142,
+      "cpu": 142,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 143,
+      "cpu": 143,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 144,
+      "cpu": 144,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 145,
+      "cpu": 145,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 146,
+      "cpu": 146,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 147,
+      "cpu": 147,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 148,
+      "cpu": 148,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 149,
+      "cpu": 149,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 150,
+      "cpu": 150,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 151,
+      "cpu": 151,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 152,
+      "cpu": 152,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 153,
+      "cpu": 153,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 154,
+      "cpu": 154,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 155,
+      "cpu": 155,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 156,
+      "cpu": 156,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 157,
+      "cpu": 157,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 158,
+      "cpu": 158,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 159,
+      "cpu": 159,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 160,
+      "cpu": 160,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 161,
+      "cpu": 161,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 162,
+      "cpu": 162,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 163,
+      "cpu": 163,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 164,
+      "cpu": 164,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 165,
+      "cpu": 165,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 166,
+      "cpu": 166,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 167,
+      "cpu": 167,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 168,
+      "cpu": 168,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 169,
+      "cpu": 169,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 170,
+      "cpu": 170,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 171,
+      "cpu": 171,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 172,
+      "cpu": 172,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 173,
+      "cpu": 173,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 174,
+      "cpu": 174,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 175,
+      "cpu": 175,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 176,
+      "cpu": 176,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 177,
+      "cpu": 177,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 178,
+      "cpu": 178,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 179,
+      "cpu": 179,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 180,
+      "cpu": 180,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 181,
+      "cpu": 181,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 182,
+      "cpu": 182,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 183,
+      "cpu": 183,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 184,
+      "cpu": 184,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 185,
+      "cpu": 185,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 186,
+      "cpu": 186,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 187,
+      "cpu": 187,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 188,
+      "cpu": 188,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 189,
+      "cpu": 189,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 190,
+      "cpu": 190,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 191,
+      "cpu": 191,
+      "node": 1,
+      "socket": 1
+    }
+  ],
+  "topology_command": {
+    "command": [
+      "lscpu",
+      "-p=CPU,CORE,SOCKET,NODE"
+    ],
+    "stderr": "",
+    "stdout": "# The following is the parsable format, which can be fed to other\n# programs. Each different item in every column has an unique ID\n# starting usually from zero.\n# CPU,Core,Socket,Node\n0,0,0,0\n1,1,0,0\n2,2,0,0\n3,3,0,0\n4,4,0,0\n5,5,0,0\n6,6,0,0\n7,7,0,0\n8,8,0,0\n9,9,0,0\n10,10,0,0\n11,11,0,0\n12,12,0,0\n13,13,0,0\n14,14,0,0\n15,15,0,0\n16,16,0,0\n17,17,0,0\n18,18,0,0\n19,19,0,0\n20,20,0,0\n21,21,0,0\n22,22,0,0\n23,23,0,0\n24,24,0,0\n25,25,0,0\n26,26,0,0\n27,27,0,0\n28,28,0,0\n29,29,0,0\n30,30,0,0\n31,31,0,0\n32,32,0,0\n33,33,0,0\n34,34,0,0\n35,35,0,0\n36,36,0,0\n37,37,0,0\n38,38,0,0\n39,39,0,0\n40,40,0,0\n41,41,0,0\n42,42,0,0\n43,43,0,0\n44,44,0,0\n45,45,0,0\n46,46,0,0\n47,47,0,0\n48,48,0,0\n49,49,0,0\n50,50,0,0\n51,51,0,0\n52,52,0,0\n53,53,0,0\n54,54,0,0\n55,55,0,0\n56,56,0,0\n57,57,0,0\n58,58,0,0\n59,59,0,0\n60,60,0,0\n61,61,0,0\n62,62,0,0\n63,63,0,0\n64,64,0,0\n65,65,0,0\n66,66,0,0\n67,67,0,0\n68,68,0,0\n69,69,0,0\n70,70,0,0\n71,71,0,0\n72,72,0,0\n73,73,0,0\n74,74,0,0\n75,75,0,0\n76,76,0,0\n77,77,0,0\n78,78,0,0\n79,79,0,0\n80,80,0,0\n81,81,0,0\n82,82,0,0\n83,83,0,0\n84,84,0,0\n85,85,0,0\n86,86,0,0\n87,87,0,0\n88,88,0,0\n89,89,0,0\n90,90,0,0\n91,91,0,0\n92,92,0,0\n93,93,0,0\n94,94,0,0\n95,95,0,0\n96,96,1,1\n97,97,1,1\n98,98,1,1\n99,99,1,1\n100,100,1,1\n101,101,1,1\n102,102,1,1\n103,103,1,1\n104,104,1,1\n105,105,1,1\n106,106,1,1\n107,107,1,1\n108,108,1,1\n109,109,1,1\n110,110,1,1\n111,111,1,1\n112,112,1,1\n113,113,1,1\n114,114,1,1\n115,115,1,1\n116,116,1,1\n117,117,1,1\n118,118,1,1\n119,119,1,1\n120,120,1,1\n121,121,1,1\n122,122,1,1\n123,123,1,1\n124,124,1,1\n125,125,1,1\n126,126,1,1\n127,127,1,1\n128,128,1,1\n129,129,1,1\n130,130,1,1\n131,131,1,1\n132,132,1,1\n133,133,1,1\n134,134,1,1\n135,135,1,1\n136,136,1,1\n137,137,1,1\n138,138,1,1\n139,139,1,1\n140,140,1,1\n141,141,1,1\n142,142,1,1\n143,143,1,1\n144,144,1,1\n145,145,1,1\n146,146,1,1\n147,147,1,1\n148,148,1,1\n149,149,1,1\n150,150,1,1\n151,151,1,1\n152,152,1,1\n153,153,1,1\n154,154,1,1\n155,155,1,1\n156,156,1,1\n157,157,1,1\n158,158,1,1\n159,159,1,1\n160,160,1,1\n161,161,1,1\n162,162,1,1\n163,163,1,1\n164,164,1,1\n165,165,1,1\n166,166,1,1\n167,167,1,1\n168,168,1,1\n169,169,1,1\n170,170,1,1\n171,171,1,1\n172,172,1,1\n173,173,1,1\n174,174,1,1\n175,175,1,1\n176,176,1,1\n177,177,1,1\n178,178,1,1\n179,179,1,1\n180,180,1,1\n181,181,1,1\n182,182,1,1\n183,183,1,1\n184,184,1,1\n185,185,1,1\n186,186,1,1\n187,187,1,1\n188,188,1,1\n189,189,1,1\n190,190,1,1\n191,191,1,1\n"
+  }
+}

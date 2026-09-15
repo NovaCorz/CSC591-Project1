@@ -1,0 +1,109 @@
+{
+  "attempt": "comparison/39e18bdd904491ce/attempt-1789250954701108611",
+  "block_medians": [
+    3.25048828125,
+    3.25048828125,
+    3.25048828125,
+    3.25048828125,
+    3.25048828125,
+    3.25048828125,
+    3.25048828125,
+    3.25048828125,
+    3.25048828125,
+    3.25048828125
+  ],
+  "command": [
+    "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/independent-load-diagnostic-v2/build/e375ed2f81534fb16c59465c17ba8428638c7393e8eaed302bcc4317ca2dd768/independent_load",
+    "chase",
+    "1024",
+    "8",
+    "0",
+    "1000000",
+    "4096",
+    "5924103",
+    "31",
+    "random",
+    "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/cascadelake/independent-load-diagnostic-v2/comparison/39e18bdd904491ce/attempt-1789250954701108611/samples.u64",
+    "1"
+  ],
+  "environment_record": "environment-history/job-815967.json",
+  "exact_raw_count": 1000000,
+  "family": "comparison",
+  "finished": "2026-09-12T22:09:23.314635+00:00",
+  "flags": [],
+  "measurement": {
+    "batch": 4096,
+    "bytes": 1024,
+    "cpu": 31,
+    "elapsed_ns": 4657767301,
+    "final_cpu": 31,
+    "functional_checks_passed": true,
+    "involuntary_switches": 3,
+    "little_endian": true,
+    "madvise_nohugepage_rc": 0,
+    "major_faults": 0,
+    "minor_faults": 4,
+    "mode": "chase",
+    "ring_hash": "e682eb23641d6a89",
+    "samples": 1000000,
+    "seed": 5924103,
+    "streams": 1,
+    "stride": 8,
+    "unit": "TSC_ticks",
+    "voluntary_switches": 0,
+    "warmup_loads": 86937600
+  },
+  "observed_affinity_initial": [
+    30,
+    31
+  ],
+  "parameters": {
+    "batch": 4096,
+    "bytes": 1024,
+    "extra_args": [
+      1
+    ],
+    "mode": "chase",
+    "offset": 0,
+    "order": "random",
+    "order_index": 0,
+    "repetition": 0,
+    "samples": 1000000,
+    "seed": 5924103,
+    "streams": 1,
+    "stride": 8
+  },
+  "pid": 4076637,
+  "provenance_manifest": "build/e375ed2f81534fb16c59465c17ba8428638c7393e8eaed302bcc4317ca2dd768/manifest.json",
+  "raw": "comparison/39e18bdd904491ce/attempt-1789250954701108611/samples.u64.gz",
+  "raw_sha256": "38cdc1a43bd3a7cef1547017f2fc358fd33c4d6c50171d398725fcb15795b95a",
+  "returncode": 0,
+  "selected": {
+    "core": 31,
+    "cpu": 31,
+    "node": 1,
+    "peak_busy_fraction": 0.0,
+    "siblings": [
+      31
+    ],
+    "socket": 1
+  },
+  "source_sha256": "e375ed2f81534fb16c59465c17ba8428638c7393e8eaed302bcc4317ca2dd768",
+  "started": "2026-09-12T22:09:14.701484+00:00",
+  "statistics": {
+    "maximum": 37.5751953125,
+    "mean": 3.2767845346679687,
+    "median": 3.25048828125,
+    "minimum": 3.23779296875,
+    "n": 1000000,
+    "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+    "outliers": 302069,
+    "p05": 3.25,
+    "p95": 3.2509765625,
+    "q1": 3.25048828125,
+    "q3": 3.25048828125,
+    "stddev": 0.4476439626871763,
+    "zero_samples": 0
+  },
+  "status": "passed"
+}

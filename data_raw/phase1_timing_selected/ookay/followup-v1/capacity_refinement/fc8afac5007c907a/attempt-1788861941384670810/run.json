@@ -1,0 +1,123 @@
+{
+  "attempt": "capacity_refinement/fc8afac5007c907a/attempt-1788861941384670810",
+  "block_medians": [
+    11.27734375,
+    11.263671875,
+    11.28125,
+    11.24609375,
+    11.27734375,
+    11.2578125,
+    11.26171875,
+    11.26171875,
+    11.265625,
+    11.265625
+  ],
+  "command": [
+    "/tmp/ece592-phase1-followup-hlee58-v1/machines/ookay/followup-v1/build/followup_bench",
+    "chase",
+    "262144",
+    "64",
+    "0",
+    "1000000",
+    "512",
+    "5922026",
+    "2",
+    "random",
+    "/tmp/ece592-phase1-followup-hlee58-v1/machines/ookay/followup-v1/capacity_refinement/fc8afac5007c907a/attempt-1788861941384670810/samples.u64",
+    "0",
+    "huge",
+    "-",
+    "-1"
+  ],
+  "environment_record": "environment-1788860345831354678.json",
+  "exact_raw_count": 1000000,
+  "family": "capacity_refinement",
+  "finished": "2026-09-08T10:05:54.083849+00:00",
+  "flags": [],
+  "measurement": {
+    "address": "0x734f32000000",
+    "alignment_shift": 0,
+    "anon_huge_after_kib": 2048,
+    "anon_huge_before_kib": 2048,
+    "batch": 512,
+    "counter_frequency": 0,
+    "cpu": 2,
+    "elapsed_ns": 1652447591,
+    "empirical_ticks_per_second": 3599863030.161,
+    "final_cpu": 2,
+    "helper_cpu": -1,
+    "involuntary_switches": 0,
+    "little_endian": true,
+    "logical_bytes": 262144,
+    "major_faults": 0,
+    "mapped_bytes": 2097152,
+    "minor_faults": 0,
+    "page_policy": "huge",
+    "pressure_nodes": 4096,
+    "samples": 1000000,
+    "target_address": "0x734f3265e000",
+    "target_in_pressure_mapping": false,
+    "unit": "TSC_ticks",
+    "voluntary_switches": 0
+  },
+  "observed_affinity_initial": [
+    2
+  ],
+  "parameters": {
+    "address_list": "-",
+    "align": 0,
+    "batch": 512,
+    "bytes": 262144,
+    "comparison_interval": [
+      262144,
+      524288
+    ],
+    "extra_args": [
+      0,
+      "huge",
+      "-",
+      -1
+    ],
+    "mode": "chase",
+    "offset": 0,
+    "order": "random",
+    "page": "huge",
+    "samples": 1000000,
+    "seed": 5922026,
+    "stride": 64
+  },
+  "pid": 848270,
+  "provenance_manifest": "provenance/65e16798da6d1831ece34885f181792e7ecc8d2951a54a61c574207e6c3c0ec4/manifest.json",
+  "raw": "capacity_refinement/fc8afac5007c907a/attempt-1788861941384670810/samples.u64.gz",
+  "raw_sha256": "662a4a733d16d0f85569cddf4316f90f49ca90def08f9dba55c71eca4bfe9078",
+  "returncode": 0,
+  "selected": {
+    "core": 2,
+    "cpu": 2,
+    "node": 0,
+    "peak_busy_fraction": 0.0,
+    "siblings": [
+      2,
+      6
+    ],
+    "socket": 0
+  },
+  "source_sha256": "0adebc3b15992f7de880be989c4cf4803568cce76bd74ef4e12a807329dd5331",
+  "started": "2026-09-08T10:05:41.384704+00:00",
+  "statistics": {
+    "maximum": 86.75,
+    "mean": 11.4900257421875,
+    "median": 11.265625,
+    "minimum": 10.640625,
+    "n": 1000000,
+    "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+    "outliers": 51430,
+    "p05": 10.75390625,
+    "p95": 12.71484375,
+    "q1": 10.9609375,
+    "q3": 11.6484375,
+    "stddev": 1.2655953642752764,
+    "zero_samples": 0
+  },
+  "status": "passed"
+}

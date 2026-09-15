@@ -1,0 +1,132 @@
+{
+  "attempt": "cross_core_reload_final/08dfb33b6ab65a8e/attempt-1789259383348245557",
+  "block_medians": [
+    120.0,
+    120.0,
+    120.0,
+    120.0,
+    120.0,
+    120.0,
+    120.0,
+    120.0,
+    120.0,
+    120.0
+  ],
+  "command": [
+    "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/build/followup_bench",
+    "cross",
+    "67108864",
+    "64",
+    "0",
+    "1000000",
+    "1024",
+    "5924027",
+    "98",
+    "random",
+    "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/runs/genoa/followup-v1/cross_core_reload_final/08dfb33b6ab65a8e/attempt-1789259383348245557/samples.u64",
+    "0",
+    "huge",
+    "-",
+    "99"
+  ],
+  "environment_record": "environment-history/job-816200.json",
+  "exact_raw_count": 1000000,
+  "family": "cross_core_reload_final",
+  "finished": "2026-09-13T00:29:47.760198+00:00",
+  "flags": [],
+  "helper_selected": {
+    "core": 99,
+    "cpu": 99,
+    "node": 1,
+    "peak_busy_fraction": 0.0,
+    "siblings": [
+      99
+    ],
+    "socket": 1
+  },
+  "measurement": {
+    "address": "0x7fed5a800000",
+    "alignment_shift": 0,
+    "anon_huge_after_kib": 67584,
+    "anon_huge_before_kib": 67584,
+    "batch": 1024,
+    "counter_frequency": 0,
+    "cpu": 98,
+    "elapsed_ns": 349485048,
+    "empirical_ticks_per_second": 2396223451.839,
+    "final_cpu": 98,
+    "helper_cpu": 99,
+    "involuntary_switches": 3,
+    "little_endian": true,
+    "logical_bytes": 67108864,
+    "major_faults": 0,
+    "mapped_bytes": 69206016,
+    "minor_faults": 0,
+    "page_policy": "huge",
+    "pressure_nodes": 1048576,
+    "samples": 1000000,
+    "target_address": "0x7fed5effc000",
+    "target_in_pressure_mapping": false,
+    "unit": "TSC_ticks",
+    "voluntary_switches": 0
+  },
+  "observed_affinity_initial": [
+    1,
+    98,
+    99
+  ],
+  "parameters": {
+    "address_list": "-",
+    "align": 0,
+    "batch": 1024,
+    "bytes": 67108864,
+    "extra_args": [
+      0,
+      "huge",
+      "-",
+      -1
+    ],
+    "mode": "cross",
+    "offset": 0,
+    "order": "random",
+    "page": "huge",
+    "paired_core": true,
+    "samples": 1000000,
+    "seed": 5924027,
+    "stride": 64,
+    "timed_loads": 1
+  },
+  "pid": 1571602,
+  "provenance_manifest": "provenance/5ee2171f28bc6b5c1067bb611fcffab2f7f60a47bea98e7d86bee6f1fd9e67a1/manifest.json",
+  "raw": "cross_core_reload_final/08dfb33b6ab65a8e/attempt-1789259383348245557/samples.u64.gz",
+  "raw_sha256": "9970bd52a81f4bc2dd8112542babddbd79a3df99182cbdf3e55aa4d1bc2f9e52",
+  "returncode": 0,
+  "selected": {
+    "core": 98,
+    "cpu": 98,
+    "node": 1,
+    "peak_busy_fraction": 0.0,
+    "siblings": [
+      98
+    ],
+    "socket": 1
+  },
+  "source_sha256": "0adebc3b15992f7de880be989c4cf4803568cce76bd74ef4e12a807329dd5331",
+  "started": "2026-09-13T00:29:43.349338+00:00",
+  "statistics": {
+    "maximum": 46440.0,
+    "mean": 124.826952,
+    "median": 120.0,
+    "minimum": 120.0,
+    "n": 1000000,
+    "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+    "outliers": 163693,
+    "p05": 120.0,
+    "p95": 144.0,
+    "q1": 120.0,
+    "q3": 120.0,
+    "stddev": 132.81661835268886,
+    "zero_samples": 0
+  },
+  "status": "passed"
+}

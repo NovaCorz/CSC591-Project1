@@ -1,0 +1,470 @@
+{
+  "argv": [
+    "scripts/hazel_worker.py",
+    "full"
+  ],
+  "config": {
+    "_affinity_policy": "Retain inherited Slurm mask; never expand to unallocated CPUs",
+    "_hazel_constraint": "icelake_8358",
+    "_slurm_job_id": "810646",
+    "_source_digest": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+    "attempts": 3,
+    "batch": 128,
+    "hosts": [
+      "sunbird",
+      "thunderbird",
+      "skylark",
+      "artemisia",
+      "charnwood",
+      "crux",
+      "ookay",
+      "upgrade"
+    ],
+    "idle_fraction": 0.05,
+    "idle_seconds": 1.0,
+    "idle_windows": 2,
+    "max_bytes": 268435456,
+    "min_bytes": 1024,
+    "point_timeout_seconds": 1200,
+    "samples": 1000000,
+    "schema": 1,
+    "seed": 5922026,
+    "taxonomy": "Pending cache-blind primary-source research; no cache specifications consulted"
+  },
+  "constraint": "icelake_8358",
+  "cwd": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite",
+  "exact_cpu_model": "Intel(R) Xeon(R) Platinum 8358 CPU @ 2.60GHz",
+  "git_source_commit": "1f687d7f6eec0cf79e74afc57118db013aa036c3",
+  "hostname": "c059n01",
+  "inherited_and_available_affinity": [
+    0,
+    32
+  ],
+  "locality": "Anonymous mmap and first touch after benchmark CPU binding; MADV_NOHUGEPAGE; no privileged changes",
+  "prediction_freeze": null,
+  "protocol_deviation": "User explicitly directed Hazel execution without the section 8.6.1 prediction freeze; measurements cannot retroactively satisfy that ordering requirement.",
+  "python": "3.9.23 (main, Aug 19 2025, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-11)]",
+  "slurm": {
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_JOB_ACCOUNT": "ece592f26_cpu",
+    "SLURM_JOB_CONSTRAINTS": null,
+    "SLURM_JOB_END_TIME": "1789185777",
+    "SLURM_JOB_ID": "810646",
+    "SLURM_JOB_NAME": "hz-icelake835-full",
+    "SLURM_JOB_NODELIST": "c059n01",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOB_PARTITION": "compute_partners",
+    "SLURM_JOB_QOS": "short",
+    "SLURM_LOCALID": "0",
+    "SLURM_MEM_PER_NODE": "2048",
+    "SLURM_NODEID": "0",
+    "SLURM_PROCID": "0",
+    "SLURM_TASKS_PER_NODE": "1"
+  },
+  "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+  "stage": "full",
+  "time": "2026-09-12T02:08:01.660346+00:00",
+  "topology": [
+    {
+      "core": 0,
+      "cpu": 0,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 1,
+      "cpu": 1,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 2,
+      "cpu": 2,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 3,
+      "cpu": 3,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 4,
+      "cpu": 4,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 5,
+      "cpu": 5,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 6,
+      "cpu": 6,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 7,
+      "cpu": 7,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 8,
+      "cpu": 8,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 9,
+      "cpu": 9,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 10,
+      "cpu": 10,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 11,
+      "cpu": 11,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 12,
+      "cpu": 12,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 13,
+      "cpu": 13,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 14,
+      "cpu": 14,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 15,
+      "cpu": 15,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 16,
+      "cpu": 16,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 17,
+      "cpu": 17,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 18,
+      "cpu": 18,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 19,
+      "cpu": 19,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 20,
+      "cpu": 20,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 21,
+      "cpu": 21,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 22,
+      "cpu": 22,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 23,
+      "cpu": 23,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 24,
+      "cpu": 24,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 25,
+      "cpu": 25,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 26,
+      "cpu": 26,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 27,
+      "cpu": 27,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 28,
+      "cpu": 28,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 29,
+      "cpu": 29,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 30,
+      "cpu": 30,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 31,
+      "cpu": 31,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 32,
+      "cpu": 32,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 33,
+      "cpu": 33,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 34,
+      "cpu": 34,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 35,
+      "cpu": 35,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 36,
+      "cpu": 36,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 37,
+      "cpu": 37,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 38,
+      "cpu": 38,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 39,
+      "cpu": 39,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 40,
+      "cpu": 40,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 41,
+      "cpu": 41,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 42,
+      "cpu": 42,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 43,
+      "cpu": 43,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 44,
+      "cpu": 44,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 45,
+      "cpu": 45,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 46,
+      "cpu": 46,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 47,
+      "cpu": 47,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 48,
+      "cpu": 48,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 49,
+      "cpu": 49,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 50,
+      "cpu": 50,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 51,
+      "cpu": 51,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 52,
+      "cpu": 52,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 53,
+      "cpu": 53,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 54,
+      "cpu": 54,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 55,
+      "cpu": 55,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 56,
+      "cpu": 56,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 57,
+      "cpu": 57,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 58,
+      "cpu": 58,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 59,
+      "cpu": 59,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 60,
+      "cpu": 60,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 61,
+      "cpu": 61,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 62,
+      "cpu": 62,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 63,
+      "cpu": 63,
+      "node": 1,
+      "socket": 1
+    }
+  ],
+  "topology_command": {
+    "command": [
+      "lscpu",
+      "-p=CPU,CORE,SOCKET,NODE"
+    ],
+    "stderr": "",
+    "stdout": "# The following is the parsable format, which can be fed to other\n# programs. Each different item in every column has an unique ID\n# starting usually from zero.\n# CPU,Core,Socket,Node\n0,0,0,0\n1,1,0,0\n2,2,0,0\n3,3,0,0\n4,4,0,0\n5,5,0,0\n6,6,0,0\n7,7,0,0\n8,8,0,0\n9,9,0,0\n10,10,0,0\n11,11,0,0\n12,12,0,0\n13,13,0,0\n14,14,0,0\n15,15,0,0\n16,16,0,0\n17,17,0,0\n18,18,0,0\n19,19,0,0\n20,20,0,0\n21,21,0,0\n22,22,0,0\n23,23,0,0\n24,24,0,0\n25,25,0,0\n26,26,0,0\n27,27,0,0\n28,28,0,0\n29,29,0,0\n30,30,0,0\n31,31,0,0\n32,32,1,1\n33,33,1,1\n34,34,1,1\n35,35,1,1\n36,36,1,1\n37,37,1,1\n38,38,1,1\n39,39,1,1\n40,40,1,1\n41,41,1,1\n42,42,1,1\n43,43,1,1\n44,44,1,1\n45,45,1,1\n46,46,1,1\n47,47,1,1\n48,48,1,1\n49,49,1,1\n50,50,1,1\n51,51,1,1\n52,52,1,1\n53,53,1,1\n54,54,1,1\n55,55,1,1\n56,56,1,1\n57,57,1,1\n58,58,1,1\n59,59,1,1\n60,60,1,1\n61,61,1,1\n62,62,1,1\n63,63,1,1\n"
+  },
+  "uname": [
+    "Linux",
+    "c059n01",
+    "5.14.0-611.5.1.el9_7.x86_64",
+    "#1 SMP PREEMPT_DYNAMIC Fri Oct 17 14:16:35 EDT 2025",
+    "x86_64",
+    "x86_64"
+  ]
+}

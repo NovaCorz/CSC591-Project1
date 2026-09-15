@@ -1,0 +1,142 @@
+{
+  "attempt": "cross_core_reload/833a308ab62acf94/attempt-1788866134561238461",
+  "block_medians": [
+    152.0,
+    154.0,
+    178.0,
+    154.0,
+    154.0,
+    176.0,
+    152.0,
+    176.0,
+    154.0,
+    176.0
+  ],
+  "command": [
+    "/tmp/ece592-phase1-followup-hlee58-v1/machines/charnwood/followup-v1/build/followup_bench",
+    "cross",
+    "67108864",
+    "64",
+    "1",
+    "1000000",
+    "1024",
+    "5922026",
+    "0",
+    "random",
+    "/tmp/ece592-phase1-followup-hlee58-v1/machines/charnwood/followup-v1/cross_core_reload/833a308ab62acf94/attempt-1788866134561238461/samples.u64",
+    "0",
+    "huge",
+    "-",
+    "1"
+  ],
+  "environment_record": "environment-1788865409539279384.json",
+  "exact_raw_count": 1000000,
+  "family": "cross_core_reload",
+  "finished": "2026-09-08T11:16:55.942384+00:00",
+  "flags": [
+    "frequent involuntary context switches",
+    "SMT sibling became busy"
+  ],
+  "helper_selected": {
+    "core": 1,
+    "cpu": 1,
+    "node": 0,
+    "peak_busy_fraction": 0.009900990099009901,
+    "siblings": [
+      1,
+      5
+    ],
+    "socket": 0
+  },
+  "measurement": {
+    "address": "0x7891fce00000",
+    "alignment_shift": 0,
+    "anon_huge_after_kib": 67584,
+    "anon_huge_before_kib": 67584,
+    "batch": 1024,
+    "counter_frequency": 0,
+    "cpu": 0,
+    "elapsed_ns": 74745155996,
+    "empirical_ticks_per_second": 3407782299.881,
+    "final_cpu": 0,
+    "helper_cpu": 1,
+    "involuntary_switches": 669,
+    "little_endian": true,
+    "logical_bytes": 67108864,
+    "major_faults": 0,
+    "mapped_bytes": 69206016,
+    "minor_faults": 0,
+    "page_policy": "huge",
+    "pressure_nodes": 1048576,
+    "samples": 1000000,
+    "target_address": "0x78920148d000",
+    "target_in_pressure_mapping": false,
+    "unit": "TSC_ticks",
+    "voluntary_switches": 0
+  },
+  "observed_affinity_initial": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "parameters": {
+    "address_list": "-",
+    "align": 0,
+    "batch": 1024,
+    "bytes": 67108864,
+    "extra_args": [
+      0,
+      "huge",
+      "-",
+      -1
+    ],
+    "mode": "cross",
+    "offset": 1,
+    "order": "random",
+    "page": "huge",
+    "paired_core": true,
+    "samples": 1000000,
+    "seed": 5922026,
+    "stride": 64,
+    "timed_loads": 1
+  },
+  "pid": 948230,
+  "provenance_manifest": "provenance/94c4ae5145a0e552a4cf23252311f5ffd1f65370a21acf35a02e677de6413304/manifest.json",
+  "raw": "cross_core_reload/833a308ab62acf94/attempt-1788866134561238461/samples.u64.gz",
+  "raw_sha256": "3ffbf2974b2a0e8b91c9259b57fd2dd794fad63e1b0b55233ece783ffa3165cd",
+  "returncode": 0,
+  "selected": {
+    "core": 0,
+    "cpu": 0,
+    "node": 0,
+    "peak_busy_fraction": 0.0,
+    "siblings": [
+      0,
+      4
+    ],
+    "socket": 0
+  },
+  "source_sha256": "0adebc3b15992f7de880be989c4cf4803568cce76bd74ef4e12a807329dd5331",
+  "started": "2026-09-08T11:15:34.561291+00:00",
+  "statistics": {
+    "maximum": 31448.0,
+    "mean": 173.122198,
+    "median": 156.0,
+    "minimum": 90.0,
+    "n": 1000000,
+    "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+    "outliers": 42432,
+    "p05": 146.0,
+    "p95": 194.0,
+    "q1": 148.0,
+    "q3": 182.0,
+    "stddev": 125.41337180764508,
+    "zero_samples": 0
+  },
+  "status": "noisy"
+}

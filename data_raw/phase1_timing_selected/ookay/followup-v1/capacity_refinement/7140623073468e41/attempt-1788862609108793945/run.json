@@ -1,0 +1,123 @@
+{
+  "attempt": "capacity_refinement/7140623073468e41/attempt-1788862609108793945",
+  "block_medians": [
+    191.234375,
+    191.04296875,
+    191.00390625,
+    190.96875,
+    190.9765625,
+    191.046875,
+    190.93359375,
+    191.046875,
+    191.0390625,
+    190.953125
+  ],
+  "command": [
+    "/tmp/ece592-phase1-followup-hlee58-v1/machines/ookay/followup-v1/build/followup_bench",
+    "chase",
+    "6291456",
+    "64",
+    "0",
+    "1000000",
+    "512",
+    "5922026",
+    "3",
+    "random",
+    "/tmp/ece592-phase1-followup-hlee58-v1/machines/ookay/followup-v1/capacity_refinement/7140623073468e41/attempt-1788862609108793945/samples.u64",
+    "0",
+    "huge",
+    "-",
+    "-1"
+  ],
+  "environment_record": "environment-1788860345831354678.json",
+  "exact_raw_count": 1000000,
+  "family": "capacity_refinement",
+  "finished": "2026-09-08T10:17:25.800358+00:00",
+  "flags": [],
+  "measurement": {
+    "address": "0x7de103c00000",
+    "alignment_shift": 0,
+    "anon_huge_after_kib": 8192,
+    "anon_huge_before_kib": 8192,
+    "batch": 512,
+    "counter_frequency": 0,
+    "cpu": 3,
+    "elapsed_ns": 27268908546,
+    "empirical_ticks_per_second": 3599866736.151,
+    "final_cpu": 3,
+    "helper_cpu": -1,
+    "involuntary_switches": 9,
+    "little_endian": true,
+    "logical_bytes": 6291456,
+    "major_faults": 0,
+    "mapped_bytes": 8388608,
+    "minor_faults": 0,
+    "page_policy": "huge",
+    "pressure_nodes": 98304,
+    "samples": 1000000,
+    "target_address": "0x7de10497e000",
+    "target_in_pressure_mapping": false,
+    "unit": "TSC_ticks",
+    "voluntary_switches": 0
+  },
+  "observed_affinity_initial": [
+    3
+  ],
+  "parameters": {
+    "address_list": "-",
+    "align": 0,
+    "batch": 512,
+    "bytes": 6291456,
+    "comparison_interval": [
+      4194304,
+      8388608
+    ],
+    "extra_args": [
+      0,
+      "huge",
+      "-",
+      -1
+    ],
+    "mode": "chase",
+    "offset": 0,
+    "order": "random",
+    "page": "huge",
+    "samples": 1000000,
+    "seed": 5922026,
+    "stride": 64
+  },
+  "pid": 848318,
+  "provenance_manifest": "provenance/65e16798da6d1831ece34885f181792e7ecc8d2951a54a61c574207e6c3c0ec4/manifest.json",
+  "raw": "capacity_refinement/7140623073468e41/attempt-1788862609108793945/samples.u64.gz",
+  "raw_sha256": "d914988d59adbe6f120455797fe65ab8e731784828c1e349445151f67e4899e8",
+  "returncode": 0,
+  "selected": {
+    "core": 3,
+    "cpu": 3,
+    "node": 0,
+    "peak_busy_fraction": 0.0,
+    "siblings": [
+      3,
+      7
+    ],
+    "socket": 0
+  },
+  "source_sha256": "0adebc3b15992f7de880be989c4cf4803568cce76bd74ef4e12a807329dd5331",
+  "started": "2026-09-08T10:16:49.108829+00:00",
+  "statistics": {
+    "maximum": 414.42578125,
+    "mean": 191.59219205078125,
+    "median": 191.0234375,
+    "minimum": 141.5546875,
+    "n": 1000000,
+    "outlier_rule": "outside Q1 - 1.5 IQR or Q3 + 1.5 IQR; retained",
+    "outliers": 33303,
+    "p05": 183.546875,
+    "p95": 199.7265625,
+    "q1": 187.9375,
+    "q3": 194.140625,
+    "stddev": 7.5922661636040125,
+    "zero_samples": 0
+  },
+  "status": "passed"
+}

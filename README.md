@@ -16,10 +16,10 @@ The Overleaf report source is maintained in the shared Overleaf project linked a
 
 | Work | Code, results, and documentation |
 |---|---|
-| Phase I: eight ECE machines | [Final timing-inference table](data_processed/all_machines/inferred-cache-table.csv), [latency classes](data_processed/all_machines/followup-latency-classes.csv), and [shared benchmark suite](main_code/common/phase1/). Methodology and reproduction instructions follow below. |
+| Phase I: eight ECE machines | [Final timing-inference table](data_processed/all_machines/inferred-cache-table.csv), [latency classes](data_processed/all_machines/followup-latency-classes.csv), [selected report-supporting raw data](data_raw/phase1_timing_selected/), and [shared benchmark suite](main_code/common/phase1/). Methodology and reproduction instructions follow below. |
 | Phase II: PMU measurements | [PMU code](main_code/pmu/), per-machine `data_raw/<host>/pmu/` records, and [three-workload cross-machine counter tables](data_processed/eight_counter_cross_machine/). Unavailable events are retained as limitations. |
 | Phase II: software-estimator comparison | [Method, verified comparisons, and raw-data locations](estimator_validation/README.md). Counter populations and timing classifications differ, limiting accuracy claims. |
-| Phase III: Hazel and predictions | [Results and reproduction guide](phase3/README.md): Haswell, Cascade Lake, Ice Lake 8358, Genoa, and Turin; ECE-only predictions, timing/published comparisons, chronological plots, two cache laws, and the 2029 forecast. |
+| Phase III: Hazel and predictions | [Results and reproduction guide](phase3/README.md) and [selected report-supporting raw data](data_raw/phase3_timing_selected/): Haswell, Cascade Lake, Ice Lake 8358, Genoa, and Turin; ECE-only predictions, timing/published comparisons, chronological plots, two cache laws, and the 2029 forecast. |
 | Competition | [Fixed estimator and execution instructions](competition/README.md), [70-candidate scorecard](competition/scorecard.csv), and [release handoff](COMPETITION_HANDOFF.md). |
 
 ## Competition release
@@ -164,9 +164,16 @@ make -C "$TOOLKIT_TEST" test
 
 The native build needs GCC, GNU make and binutils (`objdump`). No plot packages are needed for these tests. For analysis plots, install `main_code/common/phase1/requirements-analysis.txt` into a separate virtual environment. Set `MPLCONFIGDIR` to a writable external directory on the lab servers.
 
-## External Phase-I raw evidence and restore
+## Selected raw evidence and external archives
 
-The full evidence archives intentionally remain outside Git. They retain all raw distributions, alternate/unsuccessful attempts, source snapshots, compiler/environment records, command logs, address lists and idle observations, including material not selected for this curated view. Keep all three Phase-I archives available when moving the repository: the two listed below and the independent-load archive documented above. Cloning Git alone does not retrieve that raw evidence. Phase-II estimator archives and Hazel timing data have separate inventories in [estimator_validation/README.md](estimator_validation/README.md) and [phase3/README.md](phase3/README.md).
+The repository includes compact, report-supporting subsets under [`data_raw/phase1_timing_selected/`](data_raw/phase1_timing_selected/) and [`data_raw/phase3_timing_selected/`](data_raw/phase3_timing_selected/). Their manifests preserve the selection rule, complete one-million-sample arrays, run parameters, statistics, quality status and file hashes. Verify both subsets with:
+
+```bash
+python3 scripts/verify_selected_raw.py data_raw/phase1_timing_selected
+python3 scripts/verify_selected_raw.py data_raw/phase3_timing_selected
+```
+
+The full evidence archives intentionally remain outside Git. They retain all raw distributions, alternate/unsuccessful attempts, source snapshots, compiler/environment records, command logs, address lists and idle observations, including material not selected for the compact Git subsets. Keep all three Phase-I archives available when moving the repository: the two listed below and the independent-load archive documented above. Cloning Git alone does not retrieve the exhaustive raw evidence. Phase-II estimator archives and Hazel timing data have separate inventories in [estimator_validation/README.md](estimator_validation/README.md) and [phase3/README.md](phase3/README.md).
 
 The server currently stores them under `/gpfs_common/share03/rotenberg/hlee58/ECE592_proj1/artifacts/`:
 

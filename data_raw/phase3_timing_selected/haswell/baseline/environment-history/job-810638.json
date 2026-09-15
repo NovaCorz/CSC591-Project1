@@ -1,0 +1,206 @@
+{
+  "argv": [
+    "scripts/hazel_worker.py",
+    "full"
+  ],
+  "config": {
+    "_affinity_policy": "Retain inherited Slurm mask; never expand to unallocated CPUs",
+    "_hazel_constraint": "haswell",
+    "_slurm_job_id": "810638",
+    "_source_digest": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+    "attempts": 3,
+    "batch": 128,
+    "hosts": [
+      "sunbird",
+      "thunderbird",
+      "skylark",
+      "artemisia",
+      "charnwood",
+      "crux",
+      "ookay",
+      "upgrade"
+    ],
+    "idle_fraction": 0.05,
+    "idle_seconds": 1.0,
+    "idle_windows": 2,
+    "max_bytes": 268435456,
+    "min_bytes": 1024,
+    "point_timeout_seconds": 1200,
+    "samples": 1000000,
+    "schema": 1,
+    "seed": 5922026,
+    "taxonomy": "Pending cache-blind primary-source research; no cache specifications consulted"
+  },
+  "constraint": "haswell",
+  "cwd": "/gpfs_common/share04/ece592f26/hlee58/tmp/hazel-phase3-20260911/suite",
+  "exact_cpu_model": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
+  "git_source_commit": "1f687d7f6eec0cf79e74afc57118db013aa036c3",
+  "hostname": "c207n01",
+  "inherited_and_available_affinity": [
+    10,
+    11
+  ],
+  "locality": "Anonymous mmap and first touch after benchmark CPU binding; MADV_NOHUGEPAGE; no privileged changes",
+  "prediction_freeze": null,
+  "protocol_deviation": "User explicitly directed Hazel execution without the section 8.6.1 prediction freeze; measurements cannot retroactively satisfy that ordering requirement.",
+  "python": "3.9.23 (main, Aug 19 2025, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-11)]",
+  "slurm": {
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_JOB_ACCOUNT": "ece592f26_cpu",
+    "SLURM_JOB_CONSTRAINTS": null,
+    "SLURM_JOB_END_TIME": "1789185747",
+    "SLURM_JOB_ID": "810638",
+    "SLURM_JOB_NAME": "hz-haswell-full",
+    "SLURM_JOB_NODELIST": "c207n01",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOB_PARTITION": "compute",
+    "SLURM_JOB_QOS": "normal",
+    "SLURM_LOCALID": "0",
+    "SLURM_MEM_PER_NODE": "2048",
+    "SLURM_NODEID": "0",
+    "SLURM_PROCID": "0",
+    "SLURM_TASKS_PER_NODE": "1"
+  },
+  "source_sha256": "741fb78c475ddd81ec2d67e55f517229a233eee5706af97d29477fc00fdccaad",
+  "stage": "full",
+  "time": "2026-09-12T02:07:28.795542+00:00",
+  "topology": [
+    {
+      "core": 0,
+      "cpu": 0,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 1,
+      "cpu": 1,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 2,
+      "cpu": 2,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 3,
+      "cpu": 3,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 4,
+      "cpu": 4,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 5,
+      "cpu": 5,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 6,
+      "cpu": 6,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 7,
+      "cpu": 7,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 8,
+      "cpu": 8,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 9,
+      "cpu": 9,
+      "node": 0,
+      "socket": 0
+    },
+    {
+      "core": 10,
+      "cpu": 10,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 11,
+      "cpu": 11,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 12,
+      "cpu": 12,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 13,
+      "cpu": 13,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 14,
+      "cpu": 14,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 15,
+      "cpu": 15,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 16,
+      "cpu": 16,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 17,
+      "cpu": 17,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 18,
+      "cpu": 18,
+      "node": 1,
+      "socket": 1
+    },
+    {
+      "core": 19,
+      "cpu": 19,
+      "node": 1,
+      "socket": 1
+    }
+  ],
+  "topology_command": {
+    "command": [
+      "lscpu",
+      "-p=CPU,CORE,SOCKET,NODE"
+    ],
+    "stderr": "",
+    "stdout": "# The following is the parsable format, which can be fed to other\n# programs. Each different item in every column has an unique ID\n# starting usually from zero.\n# CPU,Core,Socket,Node\n0,0,0,0\n1,1,0,0\n2,2,0,0\n3,3,0,0\n4,4,0,0\n5,5,0,0\n6,6,0,0\n7,7,0,0\n8,8,0,0\n9,9,0,0\n10,10,1,1\n11,11,1,1\n12,12,1,1\n13,13,1,1\n14,14,1,1\n15,15,1,1\n16,16,1,1\n17,17,1,1\n18,18,1,1\n19,19,1,1\n"
+  },
+  "uname": [
+    "Linux",
+    "c207n01",
+    "5.14.0-611.5.1.el9_7.x86_64",
+    "#1 SMP PREEMPT_DYNAMIC Fri Oct 17 14:16:35 EDT 2025",
+    "x86_64",
+    "x86_64"
+  ]
+}

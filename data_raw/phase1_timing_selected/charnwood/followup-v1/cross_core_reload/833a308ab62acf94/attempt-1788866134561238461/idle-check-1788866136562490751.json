@@ -1,0 +1,714 @@
+{
+  "error": null,
+  "evidence": [
+    {
+      "after": {
+        "0": {
+          "fields": [
+            17944477,
+            325480,
+            411281,
+            411928298,
+            47269,
+            0,
+            891,
+            0
+          ],
+          "idle": 411928298,
+          "iowait": 47269,
+          "total": 430657696
+        },
+        "1": {
+          "fields": [
+            12197467,
+            358428,
+            395510,
+            417655047,
+            55512,
+            0,
+            1226,
+            0
+          ],
+          "idle": 417655047,
+          "iowait": 55512,
+          "total": 430663190
+        },
+        "2": {
+          "fields": [
+            10867907,
+            360806,
+            396908,
+            418990492,
+            60689,
+            0,
+            1255,
+            0
+          ],
+          "idle": 418990492,
+          "iowait": 60689,
+          "total": 430678057
+        },
+        "3": {
+          "fields": [
+            19140520,
+            299215,
+            374520,
+            410845403,
+            51203,
+            0,
+            551,
+            0
+          ],
+          "idle": 410845403,
+          "iowait": 51203,
+          "total": 430711412
+        },
+        "4": {
+          "fields": [
+            2660410,
+            405018,
+            305278,
+            427250228,
+            60370,
+            0,
+            1988,
+            0
+          ],
+          "idle": 427250228,
+          "iowait": 60370,
+          "total": 430683292
+        },
+        "5": {
+          "fields": [
+            7544101,
+            404273,
+            349419,
+            422354023,
+            57852,
+            0,
+            1351,
+            0
+          ],
+          "idle": 422354023,
+          "iowait": 57852,
+          "total": 430711019
+        },
+        "6": {
+          "fields": [
+            6770054,
+            396985,
+            385236,
+            423085024,
+            59697,
+            0,
+            1509,
+            0
+          ],
+          "idle": 423085024,
+          "iowait": 59697,
+          "total": 430698505
+        },
+        "7": {
+          "fields": [
+            3152618,
+            391939,
+            401326,
+            426105973,
+            54417,
+            0,
+            83268,
+            0
+          ],
+          "idle": 426105973,
+          "iowait": 54417,
+          "total": 430189541
+        }
+      },
+      "before": {
+        "0": {
+          "fields": [
+            17944477,
+            325480,
+            411281,
+            411928199,
+            47269,
+            0,
+            891,
+            0
+          ],
+          "idle": 411928199,
+          "iowait": 47269,
+          "total": 430657597
+        },
+        "1": {
+          "fields": [
+            12197466,
+            358428,
+            395510,
+            417654947,
+            55512,
+            0,
+            1226,
+            0
+          ],
+          "idle": 417654947,
+          "iowait": 55512,
+          "total": 430663089
+        },
+        "2": {
+          "fields": [
+            10867807,
+            360806,
+            396908,
+            418990492,
+            60689,
+            0,
+            1255,
+            0
+          ],
+          "idle": 418990492,
+          "iowait": 60689,
+          "total": 430677957
+        },
+        "3": {
+          "fields": [
+            19140520,
+            299215,
+            374520,
+            410845303,
+            51203,
+            0,
+            551,
+            0
+          ],
+          "idle": 410845303,
+          "iowait": 51203,
+          "total": 430711312
+        },
+        "4": {
+          "fields": [
+            2660410,
+            405018,
+            305278,
+            427250128,
+            60370,
+            0,
+            1988,
+            0
+          ],
+          "idle": 427250128,
+          "iowait": 60370,
+          "total": 430683192
+        },
+        "5": {
+          "fields": [
+            7544100,
+            404273,
+            349419,
+            422353923,
+            57852,
+            0,
+            1351,
+            0
+          ],
+          "idle": 422353923,
+          "iowait": 57852,
+          "total": 430710918
+        },
+        "6": {
+          "fields": [
+            6770054,
+            396985,
+            385236,
+            423084925,
+            59697,
+            0,
+            1509,
+            0
+          ],
+          "idle": 423084925,
+          "iowait": 59697,
+          "total": 430698406
+        },
+        "7": {
+          "fields": [
+            3152617,
+            391939,
+            401326,
+            426105874,
+            54417,
+            0,
+            83268,
+            0
+          ],
+          "idle": 426105874,
+          "iowait": 54417,
+          "total": 430189441
+        }
+      },
+      "busy_fraction": {
+        "0": 0.0,
+        "1": 0.009900990099009901,
+        "2": 1.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.009900990099009901,
+        "6": 0.0,
+        "7": 0.01
+      },
+      "end": "2026-09-08T11:15:35.561892+00:00",
+      "start": "2026-09-08T11:15:34.561498+00:00"
+    },
+    {
+      "after": {
+        "0": {
+          "fields": [
+            17944477,
+            325480,
+            411281,
+            411928398,
+            47269,
+            0,
+            891,
+            0
+          ],
+          "idle": 411928398,
+          "iowait": 47269,
+          "total": 430657796
+        },
+        "1": {
+          "fields": [
+            12197467,
+            358428,
+            395510,
+            417655147,
+            55512,
+            0,
+            1226,
+            0
+          ],
+          "idle": 417655147,
+          "iowait": 55512,
+          "total": 430663290
+        },
+        "2": {
+          "fields": [
+            10868007,
+            360806,
+            396908,
+            418990492,
+            60689,
+            0,
+            1255,
+            0
+          ],
+          "idle": 418990492,
+          "iowait": 60689,
+          "total": 430678157
+        },
+        "3": {
+          "fields": [
+            19140520,
+            299215,
+            374520,
+            410845503,
+            51203,
+            0,
+            551,
+            0
+          ],
+          "idle": 410845503,
+          "iowait": 51203,
+          "total": 430711512
+        },
+        "4": {
+          "fields": [
+            2660410,
+            405018,
+            305278,
+            427250328,
+            60370,
+            0,
+            1988,
+            0
+          ],
+          "idle": 427250328,
+          "iowait": 60370,
+          "total": 430683392
+        },
+        "5": {
+          "fields": [
+            7544101,
+            404273,
+            349419,
+            422354122,
+            57852,
+            0,
+            1351,
+            0
+          ],
+          "idle": 422354122,
+          "iowait": 57852,
+          "total": 430711118
+        },
+        "6": {
+          "fields": [
+            6770055,
+            396985,
+            385236,
+            423085123,
+            59697,
+            0,
+            1509,
+            0
+          ],
+          "idle": 423085123,
+          "iowait": 59697,
+          "total": 430698605
+        },
+        "7": {
+          "fields": [
+            3152618,
+            391939,
+            401326,
+            426106073,
+            54417,
+            0,
+            83268,
+            0
+          ],
+          "idle": 426106073,
+          "iowait": 54417,
+          "total": 430189641
+        }
+      },
+      "before": {
+        "0": {
+          "fields": [
+            17944477,
+            325480,
+            411281,
+            411928298,
+            47269,
+            0,
+            891,
+            0
+          ],
+          "idle": 411928298,
+          "iowait": 47269,
+          "total": 430657696
+        },
+        "1": {
+          "fields": [
+            12197467,
+            358428,
+            395510,
+            417655047,
+            55512,
+            0,
+            1226,
+            0
+          ],
+          "idle": 417655047,
+          "iowait": 55512,
+          "total": 430663190
+        },
+        "2": {
+          "fields": [
+            10867907,
+            360806,
+            396908,
+            418990492,
+            60689,
+            0,
+            1255,
+            0
+          ],
+          "idle": 418990492,
+          "iowait": 60689,
+          "total": 430678057
+        },
+        "3": {
+          "fields": [
+            19140520,
+            299215,
+            374520,
+            410845403,
+            51203,
+            0,
+            551,
+            0
+          ],
+          "idle": 410845403,
+          "iowait": 51203,
+          "total": 430711412
+        },
+        "4": {
+          "fields": [
+            2660410,
+            405018,
+            305278,
+            427250228,
+            60370,
+            0,
+            1988,
+            0
+          ],
+          "idle": 427250228,
+          "iowait": 60370,
+          "total": 430683292
+        },
+        "5": {
+          "fields": [
+            7544101,
+            404273,
+            349419,
+            422354023,
+            57852,
+            0,
+            1351,
+            0
+          ],
+          "idle": 422354023,
+          "iowait": 57852,
+          "total": 430711019
+        },
+        "6": {
+          "fields": [
+            6770054,
+            396985,
+            385236,
+            423085024,
+            59697,
+            0,
+            1509,
+            0
+          ],
+          "idle": 423085024,
+          "iowait": 59697,
+          "total": 430698505
+        },
+        "7": {
+          "fields": [
+            3152618,
+            391939,
+            401326,
+            426105973,
+            54417,
+            0,
+            83268,
+            0
+          ],
+          "idle": 426105973,
+          "iowait": 54417,
+          "total": 430189541
+        }
+      },
+      "busy_fraction": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 1.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.01,
+        "7": 0.0
+      },
+      "end": "2026-09-08T11:15:36.562337+00:00",
+      "start": "2026-09-08T11:15:35.561909+00:00"
+    }
+  ],
+  "helper": {
+    "core": 1,
+    "cpu": 1,
+    "node": 0,
+    "peak_busy_fraction": 0.009900990099009901,
+    "siblings": [
+      1,
+      5
+    ],
+    "socket": 0
+  },
+  "history_policy": "Deprioritize physical cores with flagged attempts in preceding 900 seconds, and domains with >=3 such physical cores, before domain preference; still require every idle window. If all qualifying cores have history, retain the flags and select by the remaining idle/domain criteria.",
+  "method": "/proc/stat deltas; iowait counts as busy; all SMT siblings must pass every window",
+  "recent_noise_history": [
+    {
+      "cpu": 1,
+      "record": "empirical_conflict/bc038fe8d76f6d92/attempt-1788865232249095829/run.json",
+      "time": 1788865238.158663
+    },
+    {
+      "cpu": 2,
+      "record": "empirical_conflict/461d1920bcba798a/attempt-1788865278512671559/run.json",
+      "time": 1788865284.527783
+    },
+    {
+      "cpu": 2,
+      "record": "empirical_conflict/d52028690646c4b4/attempt-1788865309821581247/run.json",
+      "time": 1788865316.410363
+    },
+    {
+      "cpu": 2,
+      "record": "empirical_conflict/d52028690646c4b4/attempt-1788865303852677083/run.json",
+      "time": 1788865309.821042
+    },
+    {
+      "cpu": 2,
+      "record": "empirical_conflict/d52028690646c4b4/attempt-1788865316410898024/run.json",
+      "time": 1788865322.372985
+    },
+    {
+      "cpu": 2,
+      "record": "empirical_conflict/c2a5ab21c53bd73d/attempt-1788865340791298962/run.json",
+      "time": 1788865346.68254
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/cedf6f8c2448f72a/attempt-1788865409603876825/run.json",
+      "time": 1788865412.1664767
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/f44582df64fc6c04/attempt-1788865424454415245/run.json",
+      "time": 1788865431.711914
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/f44582df64fc6c04/attempt-1788865434366112507/run.json",
+      "time": 1788865441.6361663
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/f44582df64fc6c04/attempt-1788865444415663208/run.json",
+      "time": 1788865451.6764948
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/95d0c3ec66f7be71/attempt-1788865454391393020/run.json",
+      "time": 1788865461.6551363
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/95d0c3ec66f7be71/attempt-1788865464191368732/run.json",
+      "time": 1788865471.4604554
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/95d0c3ec66f7be71/attempt-1788865474007920254/run.json",
+      "time": 1788865481.2688649
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/eda48e9ccd23d8ce/attempt-1788865493869564122/run.json",
+      "time": 1788865496.4812894
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/eda48e9ccd23d8ce/attempt-1788865498899110653/run.json",
+      "time": 1788865501.5185165
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/eda48e9ccd23d8ce/attempt-1788865503996256143/run.json",
+      "time": 1788865506.611336
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/9cfc53eafc9f4c9f/attempt-1788865509063182118/run.json",
+      "time": 1788865511.6747634
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/9cfc53eafc9f4c9f/attempt-1788865514112466496/run.json",
+      "time": 1788865516.7277193
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/9cfc53eafc9f4c9f/attempt-1788865519200980645/run.json",
+      "time": 1788865521.8142905
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/d18be66fb1003ee7/attempt-1788865524219109741/run.json",
+      "time": 1788865588.8847451
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/d18be66fb1003ee7/attempt-1788865594056699341/run.json",
+      "time": 1788865658.6776903
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/d18be66fb1003ee7/attempt-1788865663015188440/run.json",
+      "time": 1788865727.5225701
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/eb541a559e4344f9/attempt-1788865731945203219/run.json",
+      "time": 1788865796.4992197
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/eb541a559e4344f9/attempt-1788865800714339636/run.json",
+      "time": 1788865865.2252562
+    },
+    {
+      "cpu": 2,
+      "record": "cross_core_reload/eb541a559e4344f9/attempt-1788865869497578354/run.json",
+      "time": 1788865934.0546107
+    },
+    {
+      "cpu": 0,
+      "record": "same_core_reload/6de0f4bbef22d3ce/attempt-1788865938329944472/run.json",
+      "time": 1788866015.0977998
+    },
+    {
+      "cpu": 0,
+      "record": "cross_core_reload/6bc5c38bb6e31d3a/attempt-1788866102972098997/run.json",
+      "time": 1788866105.7889895
+    },
+    {
+      "cpu": 0,
+      "record": "cross_core_reload/6bc5c38bb6e31d3a/attempt-1788866108261557192/run.json",
+      "time": 1788866111.0768354
+    },
+    {
+      "cpu": 0,
+      "record": "cross_core_reload/6bc5c38bb6e31d3a/attempt-1788866113572604883/run.json",
+      "time": 1788866116.3807
+    },
+    {
+      "cpu": 0,
+      "record": "cross_core_reload/0c2cad467a698ba2/attempt-1788866118862583086/run.json",
+      "time": 1788866121.6753283
+    },
+    {
+      "cpu": 0,
+      "record": "cross_core_reload/0c2cad467a698ba2/attempt-1788866124085039844/run.json",
+      "time": 1788866126.9020672
+    },
+    {
+      "cpu": 0,
+      "record": "cross_core_reload/0c2cad467a698ba2/attempt-1788866129334754586/run.json",
+      "time": 1788866132.1463456
+    }
+  ],
+  "recent_noisy_domains": [
+    [
+      0,
+      0
+    ]
+  ],
+  "selected": {
+    "core": 0,
+    "cpu": 0,
+    "node": 0,
+    "peak_busy_fraction": 0.0,
+    "siblings": [
+      0,
+      4
+    ],
+    "socket": 0
+  },
+  "threshold": 0.05
+}
