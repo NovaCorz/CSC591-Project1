@@ -5,7 +5,12 @@ This repository contains the eight-machine ECE timing experiments (Phase I), ECE
 - [GitHub repository](https://github.com/NovaCorz/CSC591-Project1)
 - [Overleaf report](https://www.overleaf.com/read/gyrqznmvwbsd#2b5b1c)
 
-Report and slide files are maintained and submitted separately. The `report/` and `slides/` directory trees retain placeholders; they are not the report source package. Large timing archives also remain external, at the locations recorded below and in each phase's manifests.
+Final submission PDFs are included in this repository:
+
+- [Final report (`report/HW1_report.pdf`)](report/HW1_report.pdf)
+- [Final slide deck (`slides/HW1_slides.pdf`)](slides/HW1_slides.pdf)
+
+The Overleaf report source is maintained in the shared Overleaf project linked above. Before submission, both team members must verify that the instructor and TA can access both GitHub and Overleaf; access-control settings are not recorded in this repository. Large timing archives remain external at the locations recorded below and in each phase's manifests and must be included in the Moodle package or an instructor-approved alternate handoff.
 
 ## Start here
 
